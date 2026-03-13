@@ -19,8 +19,11 @@ npm install -g @salesforce/cli
 ### 2. 対象 org にログイン
 
 ```bash
-# 例: orgfarm-e70dfa8d5c-dev-ed.develop.lightning.force.com を使う場合
-sf org login web --instance-url https://orgfarm-e70dfa8d5c-dev-ed.develop.lightning.force.com --alias myorg
+# 例: instance-url を省略する場合（Developer Edition等の場合）
+sf org login web --alias myorg
+
+# または、login.salesforce.com を明示的に指定する場合
+sf org login web --instance-url https://login.salesforce.com --alias myorg
 ```
 
 ブラウザが開くので Salesforce の認証情報でログインしてください。
