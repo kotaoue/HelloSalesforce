@@ -19,6 +19,6 @@ data: {
 }
 ```
 
-これは Salesforce 側の制限によるものであり、しばらく待つことで解消されます。API リクエスト数の上限は Salesforce org の種別やエディションによって異なりますが、通常は太平洋標準時（PST）の深夜0時にリセットされます。
+これは Salesforce 側の制限によるものであり、しばらく待つことで解消されます。API リクエスト数の上限は Salesforce org の種別やエディションによって異なりますが、通常は太平洋標準時（PST）の深夜0時（日本標準時（JST）の午後5時）にリセットされます。
 
 詳細は [Salesforce の公式ドキュメント](https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm) を参照してください。
