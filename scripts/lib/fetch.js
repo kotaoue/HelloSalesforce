@@ -1,11 +1,12 @@
 import { AuthInfo, Connection } from '@salesforce/core';
 
 const ENTITY_ID_PATTERN = /^[A-Za-z0-9_]+$/;
-const BATCH_SIZE = 10;
+// Query one entity at a time so each batch stays well within the 2000-record
+// SOQL OFFSET ceiling.  Salesforce limits a single object to ~800 custom fields,
+// meaning one entity's fields always fit in a single LIMIT 2000 page.
+const BATCH_SIZE = 1;
 const PAGE_SIZE = 2000;
 // Salesforce SOQL OFFSET is capped at 2000 for FieldDefinition.
-// With PAGE_SIZE=2000 and MAX_OFFSET=2000 we can retrieve up to 4000 records per
-// batch, which is sufficient when BATCH_SIZE is kept small (≤10 entities).
 const MAX_OFFSET = 2000;
 
 /**
@@ -44,9 +45,10 @@ async function fetchEntityDefinitionIds(connection) {
 /**
  * Query FieldDefinition records for a batch of EntityDefinition IDs.
  * FieldDefinition does not support queryMore(), so we paginate manually using
- * LIMIT + OFFSET.  The Salesforce SOQL OFFSET cap is 2000, which means up to
- * PAGE_SIZE + MAX_OFFSET (= 4000) records can be retrieved per batch.
- * Keeping BATCH_SIZE small (≤10) ensures this limit is rarely reached.
+ * LIMIT + OFFSET.  With BATCH_SIZE=1 each batch covers a single entity, whose
+ * field count is well under the 2000-record SOQL OFFSET cap, so all records are
+ * retrieved reliably in a single page.  The OFFSET loop and MAX_OFFSET guard
+ * remain in place as a safety net for any unexpected edge case.
  * @param {Connection} connection - Salesforce connection
  * @param {string[]} entityIds - Array of validated EntityDefinition DurableId values
  * @returns {object[]} - Array of FieldDefinition records
