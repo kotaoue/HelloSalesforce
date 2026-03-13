@@ -20,7 +20,7 @@ function isValidDurableId(id) {
 async function fetchEntityDefinitionIds(connection) {
   let ids = [];
   let result = await connection.tooling.query(
-    'SELECT DurableId FROM EntityDefinition ORDER BY DurableId'
+    'SELECT DurableId FROM EntityDefinition ORDER BY DurableId LIMIT 2000'
   );
   for (const record of result.records) {
     ids.push(record.DurableId);
@@ -46,7 +46,7 @@ async function fetchFieldDefinitionBatch(connection, entityIds) {
   const inList = entityIds.map((id) => `'${id}'`).join(', ');
   let records = [];
   let result = await connection.tooling.query(
-    `SELECT Id, DurableId, QualifiedApiName, EntityDefinitionId, NamespacePrefix, DeveloperName, MasterLabel, Label, DataType, IsCalculated, IsNillable, IsIdLookup, IsIndexed, IsApiFilterable, IsApiGroupable, IsApiSortable FROM FieldDefinition WHERE EntityDefinitionId IN (${inList})`
+    `SELECT Id, DurableId, QualifiedApiName, EntityDefinitionId, NamespacePrefix, DeveloperName, MasterLabel, Label, DataType, IsCalculated, IsNillable, IsIndexed, IsApiFilterable, IsApiGroupable, IsApiSortable FROM FieldDefinition WHERE EntityDefinitionId IN (${inList}) LIMIT 2000`
   );
   records = records.concat(result.records);
 
