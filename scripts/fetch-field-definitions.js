@@ -6,17 +6,6 @@ import { saveResults, saveResultsAsCsv } from './lib/output.js';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const format = process.argv[2];
-if (format !== 'json' && format !== 'csv') {
-  console.error('Error: format argument is missing or invalid. Use "json" or "csv".');
-  process.exit(1);
-}
-
-const OUTPUT_PATH = resolve(
-  __dirname,
-  '..',
-  'docs',
-  `field-definitions.${format}`
-);
 
 const username = process.env.SF_USERNAME;
 if (!username) {
@@ -28,6 +17,13 @@ const data = await fetchFieldDefinitions(username).catch((err) => {
   console.error(err);
   process.exit(1);
 });
+
+const OUTPUT_PATH = resolve(
+  __dirname,
+  '..',
+  'docs',
+  `field-definitions.${format}`
+);
 
 switch (format) {
   case 'json':
@@ -42,4 +38,7 @@ switch (format) {
       process.exit(1);
     });
     break;
+  default:
+    console.error('Error: format argument is missing or invalid. Use "json" or "csv".');
+    process.exit(1);
 }
