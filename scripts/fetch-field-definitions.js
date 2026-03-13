@@ -29,14 +29,17 @@ const data = await fetchFieldDefinitions(username).catch((err) => {
   process.exit(1);
 });
 
-if (format === 'json') {
-  await saveResults(data, OUTPUT_PATH).catch((err) => {
-    console.error(err);
-    process.exit(1);
-  });
-} else {
-  await saveResultsAsCsv(data, OUTPUT_PATH).catch((err) => {
-    console.error(err);
-    process.exit(1);
-  });
+switch (format) {
+  case 'json':
+    await saveResults(data, OUTPUT_PATH).catch((err) => {
+      console.error(err);
+      process.exit(1);
+    });
+    break;
+  case 'csv':
+    await saveResultsAsCsv(data, OUTPUT_PATH).catch((err) => {
+      console.error(err);
+      process.exit(1);
+    });
+    break;
 }

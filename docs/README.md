@@ -2,7 +2,8 @@
 
 このディレクトリには GitHub Actions によって自動生成されたファイルが保存されます。
 
-- `field-definitions.json` — Salesforce Tooling API の [FieldDefinition](https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/tooling_api_objects_fielddefinition.htm) オブジェクトを取得した結果
+- `field-definitions.json` — Salesforce Tooling API の [FieldDefinition](https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/tooling_api_objects_fielddefinition.htm) オブジェクトを取得した結果（JSON 形式）
+- `field-definitions.csv` — 同上の結果（CSV 形式）
 
 ---
 
@@ -59,7 +60,10 @@ Username        your.name@example.com
 
 ### 6. ワークフローを手動実行する
 
-**Actions タブ → "Fetch FieldDefinition" → "Run workflow"** ボタンをクリックします。
+JSON と CSV のそれぞれ独立したワークフローが用意されています。
 
-成功すると `docs/field-definitions.json` が自動コミットされます。  
-以降は毎週日曜 3:23 UTC に自動実行されます。
+- **Actions タブ → "Fetch FieldDefinition (JSON)" → "Run workflow"** — `docs/field-definitions.json` を更新します。  
+  自動実行: 毎週日曜 3:23 UTC
+- **Actions タブ → "Fetch FieldDefinition (CSV)" → "Run workflow"** — `docs/field-definitions.csv` を更新します。  
+  自動実行: 毎週日曜 4:23 UTC
+
