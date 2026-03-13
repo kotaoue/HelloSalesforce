@@ -113,6 +113,8 @@ export async function fetchFieldDefinitions(username) {
     const batch = validEntityIds.slice(i, i + BATCH_SIZE);
     const batchRecords = await fetchFieldDefinitionBatch(connection, batch);
     records = records.concat(batchRecords);
+    const processed = Math.min(i + BATCH_SIZE, validEntityIds.length);
+    console.log(`Fetching FieldDefinitions: ${processed}/${validEntityIds.length} entities processed (${records.length} records so far)`);
   }
 
   console.log(`Fetched ${records.length} FieldDefinition records.`);
