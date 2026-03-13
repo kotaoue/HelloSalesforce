@@ -4,7 +4,8 @@
   "description": "Salesforce technical research scripts",
   "type": "module",
   "scripts": {
-    "fetch-field-definitions": "node scripts/fetch-field-definitions.js"
+    "fetch-field-definitions:json": "node scripts/fetch-field-definitions.js json",
+    "fetch-field-definitions:csv": "node scripts/fetch-field-definitions.js csv"
   },
   "dependencies": {
     "@salesforce/core": "^8.27.0"

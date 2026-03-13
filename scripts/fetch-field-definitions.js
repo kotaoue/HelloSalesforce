@@ -4,8 +4,8 @@ import { fetchFieldDefinitions } from './lib/fetch.js';
 import { saveResults, saveResultsAsCsv } from './lib/output.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const OUTPUT_JSON = resolve(__dirname, '..', 'docs', 'field-definitions.json');
-const OUTPUT_CSV = resolve(__dirname, '..', 'docs', 'field-definitions.csv');
+
+const format = process.argv[2];
 
 const username = process.env.SF_USERNAME;
 if (!username) {
@@ -17,11 +17,28 @@ const data = await fetchFieldDefinitions(username).catch((err) => {
   console.error(err);
   process.exit(1);
 });
-await saveResults(data, OUTPUT_JSON).catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
-await saveResultsAsCsv(data, OUTPUT_CSV).catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+
+const OUTPUT_PATH = resolve(
+  __dirname,
+  '..',
+  'docs',
+  `field-definitions.${format}`
+);
+
+switch (format) {
+  case 'json':
+    await saveResults(data, OUTPUT_PATH).catch((err) => {
+      console.error(err);
+      process.exit(1);
+    });
+    break;
+  case 'csv':
+    await saveResultsAsCsv(data, OUTPUT_PATH).catch((err) => {
+      console.error(err);
+      process.exit(1);
+    });
+    break;
+  default:
+    console.error('Error: format argument is missing or invalid. Use "json" or "csv".');
+    process.exit(1);
+}
