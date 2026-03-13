@@ -13,7 +13,7 @@ export async function fetchFieldDefinitions(username) {
 
   let records = [];
   let result = await connection.tooling.query(
-    'SELECT Id, DurableId, QualifiedApiName, EntityDefinitionId, NamespacePrefix, DeveloperName, MasterLabel, Label, DataType, IsCalculated, IsNillable, IsUnique, IsIdLookup, IsIndexed, IsApiFilterable, IsApiGroupable, IsApiSortable FROM FieldDefinition'
+    'SELECT Id, DurableId, QualifiedApiName, EntityDefinitionId, NamespacePrefix, DeveloperName, MasterLabel, Label, DataType, IsCalculated, IsNillable, IsIdLookup, IsIndexed, IsApiFilterable, IsApiGroupable, IsApiSortable FROM FieldDefinition'
   );
   records = records.concat(result.records);
 
