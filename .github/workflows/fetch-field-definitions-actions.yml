@@ -1,4 +1,4 @@
-name: Fetch FieldDefinition (Actions CSV)
+name: Fetch FieldDefinition (Actions CSV per object)
 
 on:
   workflow_dispatch:
@@ -14,17 +14,28 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch FieldDefinitions (CSV)
-        uses: kotaoue/salesforce-field-inspector@main
+      - uses: actions/setup-node@v4
         with:
-          format: csv
-          output_dir: docs/actions
-          sfdx_auth_url: ${{ secrets.SFDX_AUTH_URL }}
-          sf_username: ${{ secrets.SF_USERNAME }}
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Authenticate to Salesforce
+        env:
+          SFDX_AUTH_URL: ${{ secrets.SFDX_AUTH_URL }}
+        run: echo "$SFDX_AUTH_URL" | npx sf org login sfdx-url --sfdx-url-file /dev/stdin --set-default
+
+      - name: Fetch FieldDefinition (CSV per object)
+        env:
+          SF_USERNAME: ${{ secrets.SF_USERNAME }}
+          OUTPUT_DIR: docs/actions
+        run: npm run fetch-field-definitions:csv-per-object
 
       - name: Commit and push results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/actions/field-definitions.csv
-          git diff --cached --quiet || (git commit -m "chore: update docs/actions/field-definitions.csv [skip ci]" && git push)
+          git add docs/actions/
+          git diff --cached --quiet || (git commit -m "chore: update docs/actions CSV per object [skip ci]" && git push)
