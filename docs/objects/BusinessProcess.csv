@@ -1,0 +1,18 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,BusinessProcess.AllManagedPackageMember,AllManagedPackageMemberId,BusinessProcess,,AllManagedPackageMember,AMPM エントリ,AMPM エントリ,参照関係(すべての管理パッケージメンバー),false,true,true,true,true,true
+000000000000000AAA,BusinessProcess.CreatedBy,CreatedById,BusinessProcess,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,BusinessProcess.CreatedDate,CreatedDate,BusinessProcess,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,BusinessProcess.Description,Description,BusinessProcess,,Description,説明,説明,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,BusinessProcess.EntityDefinition,EntityDefinitionId,BusinessProcess,,EntityDefinition,エンティティ定義,エンティティ定義,外部参照(エンティティ定義),false,false,false,true,true,true
+000000000000000AAA,BusinessProcess.FullName,FullName,BusinessProcess,,FullName,メタデータ API の完全名,メタデータ API の完全名,テキスト(255),false,true,false,false,true,false
+000000000000000AAA,BusinessProcess.Id,Id,BusinessProcess,,Id,ビジネスプロセス ID,ビジネスプロセス ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,BusinessProcess.IsActive,IsActive,BusinessProcess,,IsActive,有効,有効,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,BusinessProcess.LastModifiedBy,LastModifiedById,BusinessProcess,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,BusinessProcess.LastModifiedDate,LastModifiedDate,BusinessProcess,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,BusinessProcess.ManageableState,ManageableState,BusinessProcess,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,BusinessProcess.Metadata,Metadata,BusinessProcess,,Metadata,ビジネスプロセスメタデータ,ビジネスプロセスメタデータ,複合値,false,true,false,false,false,false
+000000000000000AAA,BusinessProcess.Name,Name,BusinessProcess,,Name,名前,名前,テキスト(80),false,false,false,true,true,true
+000000000000000AAA,BusinessProcess.NameNorm,NameNorm,BusinessProcess,,NameNorm,名前,名前,テキスト(160),false,false,false,true,true,true
+000000000000000AAA,BusinessProcess.NamespacePrefix,NamespacePrefix,BusinessProcess,,NamespacePrefix,名前空間プレフィックス,名前空間プレフィックス,テキスト,false,true,false,true,true,true
+000000000000000AAA,BusinessProcess.SystemModstamp,SystemModstamp,BusinessProcess,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,BusinessProcess.TableEnumOrId,TableEnumOrId,BusinessProcess,,TableEnumOrId,エンティティ,エンティティ,選択リスト(カスタムオブジェクトの定義),false,false,true,true,true,true

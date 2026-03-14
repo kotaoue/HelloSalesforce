@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,OpportunityFieldHistory.CreatedBy,CreatedById,OpportunityFieldHistory,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,OpportunityFieldHistory.CreatedDate,CreatedDate,OpportunityFieldHistory,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,OpportunityFieldHistory.DataType,DataType,OpportunityFieldHistory,,DataType,データ型,データ型,選択リスト,false,true,false,true,true,true
+000000000000000AAA,OpportunityFieldHistory.Field,Field,OpportunityFieldHistory,,Field,変更された項目,変更された項目,"選択リスト(カスタム項目の定義,カスタム項目データ列)",false,false,true,true,true,true
+000000000000000AAA,OpportunityFieldHistory.Id,Id,OpportunityFieldHistory,,Id,商談履歴 ID,商談履歴 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,OpportunityFieldHistory.IsDeleted,IsDeleted,OpportunityFieldHistory,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,OpportunityFieldHistory.NewvalDate,NewvalDate,OpportunityFieldHistory,,NewvalDate,新規の日付,新規の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,OpportunityFieldHistory.NewvalFirstName,NewvalFirstName,OpportunityFieldHistory,,NewvalFirstName,新規の名,新規の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,OpportunityFieldHistory.NewvalLastName,NewvalLastName,OpportunityFieldHistory,,NewvalLastName,新規の姓,新規の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,OpportunityFieldHistory.NewValue,NewValue,OpportunityFieldHistory,,NewValue,新しい値,新しい値,参照関係,false,true,false,false,false,true
+000000000000000AAA,OpportunityFieldHistory.OldvalDate,OldvalDate,OpportunityFieldHistory,,OldvalDate,元の日付,元の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,OpportunityFieldHistory.OldvalFirstName,OldvalFirstName,OpportunityFieldHistory,,OldvalFirstName,元の名,元の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,OpportunityFieldHistory.OldvalLastName,OldvalLastName,OpportunityFieldHistory,,OldvalLastName,元の姓,元の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,OpportunityFieldHistory.OldValue,OldValue,OpportunityFieldHistory,,OldValue,元の値,元の値,参照関係,false,true,false,false,false,true
+000000000000000AAA,OpportunityFieldHistory.Opportunity,OpportunityId,OpportunityFieldHistory,,Opportunity,商談,商談,参照関係(商談),false,false,true,true,true,true

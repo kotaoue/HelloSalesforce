@@ -1,0 +1,35 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,IdentityResolution.ConsolidationRate,ConsolidationRate,IdentityResolution,,ConsolidationRate,統合率,統合率,パーセント(3、0),false,true,false,true,false,true
+000000000000000AAA,IdentityResolution.CreatedBy,CreatedById,IdentityResolution,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,IdentityResolution.CreatedDate,CreatedDate,IdentityResolution,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,IdentityResolution.Description,Description,IdentityResolution,,Description,説明,説明,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,IdentityResolution.ErrorCode,ErrorCode,IdentityResolution,,ErrorCode,エラーコード,エラーコード,選択リスト,false,false,false,true,true,true
+000000000000000AAA,IdentityResolution.ErrorMessage,ErrorMessage,IdentityResolution,,ErrorMessage,エラーメッセージ,エラーメッセージ,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,IdentityResolution.Id,Id,IdentityResolution,,Id,ID 解決 ID,ID 解決 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,IdentityResolution.IdentityResolutionDef,IdentityResolutionDefId,IdentityResolution,,IdentityResolutionDef,ID 解決定義,ID 解決定義,参照関係(ID 解決定義),false,false,true,true,true,true
+000000000000000AAA,IdentityResolution.IsCaseSensitive,IsCaseSensitive,IdentityResolution,,IsCaseSensitive,大文字と小文字を区別,大文字と小文字を区別,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,IdentityResolution.IsDeleted,IsDeleted,IdentityResolution,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,IdentityResolution.IsLimitedToSingleHousehold,IsLimitedToSingleHousehold,IdentityResolution,,IsLimitedToSingleHousehold,1 つの世帯に制限,1 つの世帯に制限,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,IdentityResolution.IsScheduled,IsScheduled,IdentityResolution,,IsScheduled,スケジュール済み,スケジュール済み,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,IdentityResolution.LastModifiedBy,LastModifiedById,IdentityResolution,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,IdentityResolution.LastModifiedDate,LastModifiedDate,IdentityResolution,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,IdentityResolution.LastReferencedDate,LastReferencedDate,IdentityResolution,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,IdentityResolution.LastRunStatus,LastRunStatus,IdentityResolution,,LastRunStatus,最終ジョブ状況,最終ジョブ状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,IdentityResolution.LastRunStatusDateTime,LastRunStatusDateTime,IdentityResolution,,LastRunStatusDateTime,最終ジョブ状況日時,最終ジョブ状況日時,日付/時間,false,true,false,true,false,true
+000000000000000AAA,IdentityResolution.LastSuccessfulRunDateTime,LastSuccessfulRunDateTime,IdentityResolution,,LastSuccessfulRunDateTime,最終ジョブ完了,最終ジョブ完了,日付/時間,false,true,false,true,false,true
+000000000000000AAA,IdentityResolution.LastViewedDate,LastViewedDate,IdentityResolution,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,IdentityResolution.MatchedCount,MatchedCount,IdentityResolution,,MatchedCount,一致ソースプロファイル,一致ソースプロファイル,数値(18、0),false,true,false,true,true,true
+000000000000000AAA,IdentityResolution.Name,Name,IdentityResolution,,Name,ルールセット名,ルールセット名,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,IdentityResolution.RecordVisibility,RecordVisibilityId,IdentityResolution,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,IdentityResolution.RootEntityLabel,RootEntityLabel,IdentityResolution,,RootEntityLabel,プライマリデータモデルオブジェクト,プライマリデータモデルオブジェクト,テキスト(40),false,true,false,true,true,true
+000000000000000AAA,IdentityResolution.SecondaryEntityLabel,SecondaryEntityLabel,IdentityResolution,,SecondaryEntityLabel,セカンダリデータモデルオブジェクト,セカンダリデータモデルオブジェクト,テキスト(40),false,true,false,true,true,true
+000000000000000AAA,IdentityResolution.SourceCount,SourceCount,IdentityResolution,,SourceCount,ソースプロファイル,ソースプロファイル,数値(18、0),false,true,false,true,true,true
+000000000000000AAA,IdentityResolution.SourceIr,SourceIrId,IdentityResolution,,SourceIr,ソース ID 解決,ソース ID 解決,参照関係(ID 解決),false,true,false,true,true,true
+000000000000000AAA,IdentityResolution.Status,Status,IdentityResolution,,Status,ルールセット状況,ルールセット状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,IdentityResolution.StatusDetails,StatusDetails,IdentityResolution,,StatusDetails,最終 IR 実行からのエラーの詳細,最終 IR 実行からのエラーの詳細,ロングテキストエリア(128000),false,true,false,false,false,false
+000000000000000AAA,IdentityResolution.Suffix,Suffix,IdentityResolution,,Suffix,ルールセット ID,ルールセット ID,テキスト(4),false,true,false,true,true,true
+000000000000000AAA,IdentityResolution.SystemModstamp,SystemModstamp,IdentityResolution,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,IdentityResolution.TotalAnonymousRecords,TotalAnonymousRecords,IdentityResolution,,TotalAnonymousRecords,匿名統合プロファイル,匿名統合プロファイル,数値(18、0),false,true,false,true,true,true
+000000000000000AAA,IdentityResolution.TotalNonAnonymousRecords,TotalNonAnonymousRecords,IdentityResolution,,TotalNonAnonymousRecords,既知の統合プロファイル,既知の統合プロファイル,数値(18、0),false,true,false,true,true,true
+000000000000000AAA,IdentityResolution.UnifiedCount,UnifiedCount,IdentityResolution,,UnifiedCount,統合プロファイルの総数,統合プロファイルの総数,数値(18、0),false,true,false,true,true,true
+000000000000000AAA,IdentityResolution.UserRecordAccess,UserRecordAccessId,IdentityResolution,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

@@ -1,0 +1,41 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,FinanceBalanceSnapshot.Account,AccountId,FinanceBalanceSnapshot,,Account,口座,口座,参照関係(取引先),false,true,false,true,true,true
+000000000000000AAA,FinanceBalanceSnapshot.AdjustmentAmount,AdjustmentAmount,FinanceBalanceSnapshot,,AdjustmentAmount,調整金額,調整金額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,FinanceBalanceSnapshot.Balance,Balance,FinanceBalanceSnapshot,,Balance,残高,残高,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,FinanceBalanceSnapshot.BaseCurrencyAmount,BaseCurrencyAmount,FinanceBalanceSnapshot,,BaseCurrencyAmount,基本通貨金額,基本通貨金額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,FinanceBalanceSnapshot.BaseCurrencyBalance,BaseCurrencyBalance,FinanceBalanceSnapshot,,BaseCurrencyBalance,基本通貨残高,基本通貨残高,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,FinanceBalanceSnapshot.BaseCurrencyFxDate,BaseCurrencyFxDate,FinanceBalanceSnapshot,,BaseCurrencyFxDate,基本通貨外国為替日,基本通貨外国為替日,日付,false,true,false,true,true,true
+000000000000000AAA,FinanceBalanceSnapshot.BaseCurrencyFxRate,BaseCurrencyFxRate,FinanceBalanceSnapshot,,BaseCurrencyFxRate,基本通貨外国為替レート,基本通貨外国為替レート,数値(16、2),false,true,false,true,false,true
+000000000000000AAA,FinanceBalanceSnapshot.BaseCurrencyIsoCode,BaseCurrencyIsoCode,FinanceBalanceSnapshot,,BaseCurrencyIsoCode,基本通貨 ISO コード,基本通貨 ISO コード,テキスト(3),false,true,false,true,true,true
+000000000000000AAA,FinanceBalanceSnapshot.ChargeAmount,ChargeAmount,FinanceBalanceSnapshot,,ChargeAmount,請求金額,請求金額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,FinanceBalanceSnapshot.CreatedBy,CreatedById,FinanceBalanceSnapshot,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,FinanceBalanceSnapshot.CreatedDate,CreatedDate,FinanceBalanceSnapshot,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,FinanceBalanceSnapshot.DueDate,DueDate,FinanceBalanceSnapshot,,DueDate,期日,期日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,FinanceBalanceSnapshot.EffectiveDate,EffectiveDate,FinanceBalanceSnapshot,,EffectiveDate,発効日,発効日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,FinanceBalanceSnapshot.EventType,EventType,FinanceBalanceSnapshot,,EventType,イベント種別,イベント種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,FinanceBalanceSnapshot.FinanceSystemIntegrationMode,FinanceSystemIntegrationMode,FinanceBalanceSnapshot,,FinanceSystemIntegrationMode,会計システムインテグレーションモード,会計システムインテグレーションモード,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FinanceBalanceSnapshot.FinanceSystemIntegrationStatus,FinanceSystemIntegrationStatus,FinanceBalanceSnapshot,,FinanceSystemIntegrationStatus,会計システムインテグレーション状況,会計システムインテグレーション状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,FinanceBalanceSnapshot.FinanceSystemName,FinanceSystemName,FinanceBalanceSnapshot,,FinanceSystemName,会計システム名,会計システム名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FinanceBalanceSnapshot.FinanceSystemTransactionNumber,FinanceSystemTransactionNumber,FinanceBalanceSnapshot,,FinanceSystemTransactionNumber,会計システムトランザクション番号,会計システムトランザクション番号,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FinanceBalanceSnapshot.FinanceTransaction,FinanceTransactionId,FinanceBalanceSnapshot,,FinanceTransaction,金融取引,金融取引,参照関係(金融取引)  (ユニーク),false,true,true,true,true,true
+000000000000000AAA,FinanceBalanceSnapshot.Id,Id,FinanceBalanceSnapshot,,Id,金融残高スナップショット ID,金融残高スナップショット ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,FinanceBalanceSnapshot.ImpactAmount,ImpactAmount,FinanceBalanceSnapshot,,ImpactAmount,影響金額,影響金額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,FinanceBalanceSnapshot.IsDeleted,IsDeleted,FinanceBalanceSnapshot,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,FinanceBalanceSnapshot.LastModifiedBy,LastModifiedById,FinanceBalanceSnapshot,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,FinanceBalanceSnapshot.LastModifiedDate,LastModifiedDate,FinanceBalanceSnapshot,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,FinanceBalanceSnapshot.LastReferencedDate,LastReferencedDate,FinanceBalanceSnapshot,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,FinanceBalanceSnapshot.LastViewedDate,LastViewedDate,FinanceBalanceSnapshot,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,FinanceBalanceSnapshot.LegalEntity,LegalEntityId,FinanceBalanceSnapshot,,LegalEntity,法人,法人,参照関係(法人),false,true,false,true,true,true
+000000000000000AAA,FinanceBalanceSnapshot.Name,FinanceBalanceSnapshotNumber,FinanceBalanceSnapshot,,Name,名前,名前,自動採番,false,false,true,true,false,true
+000000000000000AAA,FinanceBalanceSnapshot.OriginalEventType,OriginalEventType,FinanceBalanceSnapshot,,OriginalEventType,元のイベント種別,元のイベント種別,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FinanceBalanceSnapshot.OriginalReferenceEntityType,OriginalReferenceEntityType,FinanceBalanceSnapshot,,OriginalReferenceEntityType,元の参照エンティティ種別,元の参照エンティティ種別,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FinanceBalanceSnapshot.Owner,OwnerId,FinanceBalanceSnapshot,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,FinanceBalanceSnapshot.RecordVisibility,RecordVisibilityId,FinanceBalanceSnapshot,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,FinanceBalanceSnapshot.ReferenceEntity,ReferenceEntityId,FinanceBalanceSnapshot,,ReferenceEntity,参照エンティティ,参照エンティティ,"参照関係(請求書,請求書品目,クレジットメモ,クレジットメモ品目,支払い,支払い行請求書,返金,品目支払の返金,クレジットメモ請求書アプリケーション)",false,true,false,true,true,true
+000000000000000AAA,FinanceBalanceSnapshot.ReferenceEntityType,ReferenceEntityType,FinanceBalanceSnapshot,,ReferenceEntityType,参照エンティティ種別,参照エンティティ種別,選択リスト,false,true,true,true,true,true
+000000000000000AAA,FinanceBalanceSnapshot.Subtotal,Subtotal,FinanceBalanceSnapshot,,Subtotal,小計,小計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,FinanceBalanceSnapshot.SystemModstamp,SystemModstamp,FinanceBalanceSnapshot,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,FinanceBalanceSnapshot.TaxAmount,TaxAmount,FinanceBalanceSnapshot,,TaxAmount,税額,税額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,FinanceBalanceSnapshot.TotalAmountWithTax,TotalAmountWithTax,FinanceBalanceSnapshot,,TotalAmountWithTax,税込総額,税込総額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,FinanceBalanceSnapshot.TransactionDate,TransactionDate,FinanceBalanceSnapshot,,TransactionDate,取引日,取引日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,FinanceBalanceSnapshot.UserRecordAccess,UserRecordAccessId,FinanceBalanceSnapshot,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

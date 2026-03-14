@@ -1,0 +1,21 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,PaymentCreditTransaction.Amount,Amount,PaymentCreditTransaction,,Amount,金額,金額,通貨(16、2),false,false,false,true,false,true
+000000000000000AAA,PaymentCreditTransaction.AssociatedAccount,AssociatedAccountId,PaymentCreditTransaction,,AssociatedAccount,関連付けられている取引先,関連付けられている取引先,参照関係(取引先),false,true,false,true,true,true
+000000000000000AAA,PaymentCreditTransaction.ClientContext,ClientContext,PaymentCreditTransaction,,ClientContext,クライアントコンテキスト,クライアントコンテキスト,ロングテキストエリア(2000),false,true,false,false,false,false
+000000000000000AAA,PaymentCreditTransaction.CreatedBy,CreatedById,PaymentCreditTransaction,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,PaymentCreditTransaction.CreatedDate,CreatedDate,PaymentCreditTransaction,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,PaymentCreditTransaction.ExternalReference,ExternalReference,PaymentCreditTransaction,,ExternalReference,外部参照,外部参照,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,PaymentCreditTransaction.Id,Id,PaymentCreditTransaction,,Id,支払クレジット取引 ID,支払クレジット取引 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,PaymentCreditTransaction.IsDeleted,IsDeleted,PaymentCreditTransaction,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,PaymentCreditTransaction.LastModifiedBy,LastModifiedById,PaymentCreditTransaction,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,PaymentCreditTransaction.LastModifiedDate,LastModifiedDate,PaymentCreditTransaction,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,PaymentCreditTransaction.LastReferencedDate,LastReferencedDate,PaymentCreditTransaction,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,PaymentCreditTransaction.LastViewedDate,LastViewedDate,PaymentCreditTransaction,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,PaymentCreditTransaction.Name,PaymentCreditTransactionNumber,PaymentCreditTransaction,,Name,支払クレジット取引番号,支払クレジット取引番号,自動採番,false,false,true,true,false,true
+000000000000000AAA,PaymentCreditTransaction.PaymentCredit,PaymentCreditId,PaymentCreditTransaction,,PaymentCredit,支払クレジット,支払クレジット,主従関係(支払クレジット),false,false,true,true,true,true
+000000000000000AAA,PaymentCreditTransaction.ProcessingMode,ProcessingMode,PaymentCreditTransaction,,ProcessingMode,処理モード,処理モード,選択リスト,false,false,false,true,true,true
+000000000000000AAA,PaymentCreditTransaction.RecordVisibility,RecordVisibilityId,PaymentCreditTransaction,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,PaymentCreditTransaction.Status,Status,PaymentCreditTransaction,,Status,状況,状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,PaymentCreditTransaction.SystemModstamp,SystemModstamp,PaymentCreditTransaction,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,PaymentCreditTransaction.TransactionMessage,TransactionMessage,PaymentCreditTransaction,,TransactionMessage,取引メッセージ,取引メッセージ,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,PaymentCreditTransaction.UserRecordAccess,UserRecordAccessId,PaymentCreditTransaction,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

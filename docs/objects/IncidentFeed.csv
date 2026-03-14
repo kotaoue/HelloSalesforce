@@ -1,0 +1,18 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,IncidentFeed.BestComment,BestCommentId,IncidentFeed,,BestComment,最良のコメント,最良のコメント,参照関係(フィードコメント),false,true,false,true,true,true
+000000000000000AAA,IncidentFeed.Body,Body,IncidentFeed,,Body,内容,内容,ロングテキストエリア(10000),false,true,false,false,false,true
+000000000000000AAA,IncidentFeed.CommentCount,CommentCount,IncidentFeed,,CommentCount,コメント数,コメント数,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,IncidentFeed.CreatedBy,CreatedById,IncidentFeed,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,IncidentFeed.CreatedDate,CreatedDate,IncidentFeed,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,IncidentFeed.Id,Id,IncidentFeed,,Id,フィード項目 ID,フィード項目 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,IncidentFeed.InsertedBy,InsertedById,IncidentFeed,,InsertedBy,挿入者,挿入者,参照関係(ユーザー),false,true,false,false,true,true
+000000000000000AAA,IncidentFeed.IsDeleted,IsDeleted,IncidentFeed,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,IncidentFeed.IsRichText,IsRichText,IncidentFeed,,IsRichText,リッチテキスト,リッチテキスト,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,IncidentFeed.LastModifiedDate,LastModifiedDate,IncidentFeed,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,IncidentFeed.LikeCount,LikeCount,IncidentFeed,,LikeCount,いいね! の数,いいね! の数,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,IncidentFeed.LinkUrl,LinkUrl,IncidentFeed,,LinkUrl,リンク URL,リンク URL,URL(1000),false,true,false,false,false,true
+000000000000000AAA,IncidentFeed.Parent,ParentId,IncidentFeed,,Parent,親,親,参照関係(障害),false,false,true,true,true,true
+000000000000000AAA,IncidentFeed.RelatedRecord,RelatedRecordId,IncidentFeed,,RelatedRecord,関連レコード,関連レコード,"参照関係(コンテンツバージョン,キャンバスフィード項目)",false,true,false,false,true,true
+000000000000000AAA,IncidentFeed.SystemModstamp,SystemModstamp,IncidentFeed,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,IncidentFeed.Title,Title,IncidentFeed,,Title,タイトル,タイトル,テキスト(255),false,true,false,false,true,true
+000000000000000AAA,IncidentFeed.Type,Type,IncidentFeed,,Type,フィード項目種別,フィード項目種別,選択リスト,false,true,false,true,true,true

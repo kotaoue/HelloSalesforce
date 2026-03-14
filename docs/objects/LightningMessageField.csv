@@ -1,0 +1,12 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,LightningMessageField.CreatedBy,CreatedById,LightningMessageField,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,LightningMessageField.CreatedDate,CreatedDate,LightningMessageField,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,LightningMessageField.Description,Description,LightningMessageField,,Description,この Lightning メッセージ項目の説明,この Lightning メッセージ項目の説明,テキストエリア(255),false,true,false,true,true,true
+000000000000000AAA,LightningMessageField.FieldName,FieldName,LightningMessageField,,FieldName,この Lightning メッセージ項目の名前,この Lightning メッセージ項目の名前,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,LightningMessageField.Id,Id,LightningMessageField,,Id,Lightning メッセージ項目 ID,Lightning メッセージ項目 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,LightningMessageField.IsDeleted,IsDeleted,LightningMessageField,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,LightningMessageField.LastModifiedBy,LastModifiedById,LightningMessageField,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,LightningMessageField.LastModifiedDate,LastModifiedDate,LightningMessageField,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,LightningMessageField.LightningMessageChannel,LightningMessageChannelId,LightningMessageField,,LightningMessageChannel,Lightning メッセージチャネル,Lightning メッセージチャネル,主従関係(Lightning メッセージチャネル),false,false,true,true,true,true
+000000000000000AAA,LightningMessageField.ManageableState,ManageableState,LightningMessageField,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,LightningMessageField.SystemModstamp,SystemModstamp,LightningMessageField,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

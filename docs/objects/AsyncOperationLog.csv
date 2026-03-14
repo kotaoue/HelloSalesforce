@@ -1,0 +1,24 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AsyncOperationLog.CreatedBy,CreatedById,AsyncOperationLog,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,AsyncOperationLog.CreatedDate,CreatedDate,AsyncOperationLog,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AsyncOperationLog.Description,Description,AsyncOperationLog,,Description,説明,説明,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,AsyncOperationLog.Error,Error,AsyncOperationLog,,Error,エラー,エラー,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,AsyncOperationLog.ExternalReference,ExternalReference,AsyncOperationLog,,ExternalReference,外部参照,外部参照,テキスト(255),false,true,true,true,true,true
+000000000000000AAA,AsyncOperationLog.FinishedAt,FinishedAt,AsyncOperationLog,,FinishedAt,完了日時,完了日時,日付/時間,false,true,true,true,false,true
+000000000000000AAA,AsyncOperationLog.Id,Id,AsyncOperationLog,,Id,非同期操作ログ ID,非同期操作ログ ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AsyncOperationLog.IsDeleted,IsDeleted,AsyncOperationLog,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AsyncOperationLog.LastModifiedBy,LastModifiedById,AsyncOperationLog,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AsyncOperationLog.LastModifiedDate,LastModifiedDate,AsyncOperationLog,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AsyncOperationLog.LastReferencedDate,LastReferencedDate,AsyncOperationLog,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,AsyncOperationLog.LastStatusUpdateAt,LastStatusUpdateAt,AsyncOperationLog,,LastStatusUpdateAt,最後の状況の更新日時,最後の状況の更新日時,日付/時間,false,true,false,true,false,true
+000000000000000AAA,AsyncOperationLog.LastViewedDate,LastViewedDate,AsyncOperationLog,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,AsyncOperationLog.Name,AsyncOperationNumber,AsyncOperationLog,,Name,非同期操作番号,非同期操作番号,自動採番,false,false,true,true,false,true
+000000000000000AAA,AsyncOperationLog.RecordVisibility,RecordVisibilityId,AsyncOperationLog,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,AsyncOperationLog.RelatedRecord,RelatedRecordId,AsyncOperationLog,,RelatedRecord,関連レコード,関連レコード,参照関係(納入商品),false,true,false,true,true,true
+000000000000000AAA,AsyncOperationLog.Request,Request,AsyncOperationLog,,Request,要求,要求,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,AsyncOperationLog.Response,Response,AsyncOperationLog,,Response,応答,応答,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,AsyncOperationLog.StartedAt,StartedAt,AsyncOperationLog,,StartedAt,開始日時,開始日時,日付/時間,false,true,true,true,false,true
+000000000000000AAA,AsyncOperationLog.Status,Status,AsyncOperationLog,,Status,状況,状況,選択リスト,false,false,true,true,true,true
+000000000000000AAA,AsyncOperationLog.SystemModstamp,SystemModstamp,AsyncOperationLog,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AsyncOperationLog.Type,Type,AsyncOperationLog,,Type,種別,種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,AsyncOperationLog.UserRecordAccess,UserRecordAccessId,AsyncOperationLog,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

@@ -1,0 +1,18 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AllInstalledPackageVersion.AdminUser,AdminUserId,AllInstalledPackageVersion,,AdminUser,ユーザー,ユーザー,参照関係(ユーザー),false,true,false,true,true,true
+000000000000000AAA,AllInstalledPackageVersion.AllPackage,AllPackageId,AllInstalledPackageVersion,,AllPackage,パッケージ,パッケージ,参照関係(パッケージ),false,false,true,true,true,true
+000000000000000AAA,AllInstalledPackageVersion.AllPackageVersion,AllPackageVersionId,AllInstalledPackageVersion,,AllPackageVersion,パッケージバージョン,パッケージバージョン,参照関係(パッケージバージョン),false,false,true,true,true,true
+000000000000000AAA,AllInstalledPackageVersion.CreatedDate,CreatedDate,AllInstalledPackageVersion,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AllInstalledPackageVersion.Id,Id,AllInstalledPackageVersion,,Id,すべてのインストール済みパッケージバージョン ID,すべてのインストール済みパッケージバージョン ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AllInstalledPackageVersion.InstallSource,InstallSource,AllInstalledPackageVersion,,InstallSource,インストール元,インストール元,選択リスト,false,true,false,true,true,true
+000000000000000AAA,AllInstalledPackageVersion.IsDeleted,IsDeleted,AllInstalledPackageVersion,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AllInstalledPackageVersion.LastStateChangeDate,LastStateChangeDate,AllInstalledPackageVersion,,LastStateChangeDate,状況の最終変更,状況の最終変更,日付/時間,false,true,false,true,false,true
+000000000000000AAA,AllInstalledPackageVersion.LocalSystemModstampDate,LocalSystemModstampDate,AllInstalledPackageVersion,,LocalSystemModstampDate,ローカル System Modstamp,ローカル System Modstamp,日付/時間,false,true,false,true,false,true
+000000000000000AAA,AllInstalledPackageVersion.MinAllPackageVersion,MinAllPackageVersionId,AllInstalledPackageVersion,,MinAllPackageVersion,最小バージョン,最小バージョン,参照関係(パッケージバージョン),false,false,false,true,true,true
+000000000000000AAA,AllInstalledPackageVersion.Server,Server,AllInstalledPackageVersion,,Server,サーバー,サーバー,テキスト(3),false,false,false,true,true,true
+000000000000000AAA,AllInstalledPackageVersion.SourceMetadata,SourceMetadataId,AllInstalledPackageVersion,,SourceMetadata,すべてのインストール済みパッケージバージョン,すべてのインストール済みパッケージバージョン,参照関係(すべてのインストール済みパッケージバージョン),false,true,false,true,true,true
+000000000000000AAA,AllInstalledPackageVersion.SourceOrg,SourceOrgId,AllInstalledPackageVersion,,SourceOrg,組織,組織,参照関係(組織),false,true,true,true,true,true
+000000000000000AAA,AllInstalledPackageVersion.SourceSystemModstampDate,SourceSystemModstampDate,AllInstalledPackageVersion,,SourceSystemModstampDate,ソース System Modstamp,ソース System Modstamp,日付/時間,false,true,false,true,false,true
+000000000000000AAA,AllInstalledPackageVersion.Status,Status,AllInstalledPackageVersion,,Status,インストール状況,インストール状況,選択リスト,false,true,true,true,true,true
+000000000000000AAA,AllInstalledPackageVersion.SubOrganization,SubOrganizationId,AllInstalledPackageVersion,,SubOrganization,登録者組織,登録者組織,参照関係(AllOrganization),false,false,true,true,true,true
+000000000000000AAA,AllInstalledPackageVersion.SystemModstamp,SystemModstamp,AllInstalledPackageVersion,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,false,true,false,true

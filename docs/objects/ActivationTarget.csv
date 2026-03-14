@@ -1,0 +1,39 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ActivationTarget.ActivationTargetDef,ActivationTargetDefId,ActivationTarget,,ActivationTargetDef,有効化対象定義,有効化対象定義,参照関係(有効化対象定義),false,true,false,true,true,true
+000000000000000AAA,ActivationTarget.AudienceHistoryDmo,AudienceHistoryDmoId,ActivationTarget,,AudienceHistoryDmo,オーディエンス履歴 DMO,オーディエンス履歴 DMO,参照関係(データモデルオブジェクト),false,true,false,true,true,true
+000000000000000AAA,ActivationTarget.AudienceHistoryDmoName,AudienceHistoryDmoName,ActivationTarget,,AudienceHistoryDmoName,オーディエンス履歴 DMO,オーディエンス履歴 DMO,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ActivationTarget.AudienceLatestDmo,AudienceLatestDmoId,ActivationTarget,,AudienceLatestDmo,オーディエンス最新 DMO,オーディエンス最新 DMO,参照関係(データモデルオブジェクト),false,true,false,true,true,true
+000000000000000AAA,ActivationTarget.AudienceLatestDmoName,AudienceLatestDmoName,ActivationTarget,,AudienceLatestDmoName,オーディエンス最新 DMO,オーディエンス最新 DMO,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ActivationTarget.AuditDmo,AuditDmoId,ActivationTarget,,AuditDmo,監査 DMO,監査 DMO,参照関係(データモデルオブジェクト),false,true,false,true,true,true
+000000000000000AAA,ActivationTarget.AuditDmoName,AuditDmoName,ActivationTarget,,AuditDmoName,監査 DMO,監査 DMO,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ActivationTarget.ConnectionType,ConnectionType,ActivationTarget,,ConnectionType,プラットフォーム,プラットフォーム,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ActivationTarget.CreatedBy,CreatedById,ActivationTarget,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,ActivationTarget.CreatedDate,CreatedDate,ActivationTarget,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ActivationTarget.DataConConfiguration,DataConConfigurationId,ActivationTarget,,DataConConfiguration,有効化パートナー,有効化パートナー,"参照関係(MC 用データコネクタ,S3 用データコネクタ,Interaction Studio 用データコネクタ,B2C Commerce 用データコネクタ,データコネクタのログイン情報,データ接続)",false,true,false,true,true,true
+000000000000000AAA,ActivationTarget.Description,Description,ActivationTarget,,Description,説明,説明,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ActivationTarget.ExportToDirectory,ExportToDirectory,ActivationTarget,,ExportToDirectory,エクスポート先ディレクトリ,エクスポート先ディレクトリ,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ActivationTarget.ExportToEndpoint,ExportToEndpoint,ActivationTarget,,ExportToEndpoint,エクスポート先エンドポイント,エクスポート先エンドポイント,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ActivationTarget.Id,Id,ActivationTarget,,Id,パートナープロファイル ID,パートナープロファイル ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ActivationTarget.IsCommunicationCappingEnabled,IsCommunicationCappingEnabled,ActivationTarget,,IsCommunicationCappingEnabled,制限の妥当性,制限の妥当性,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ActivationTarget.IsDeleted,IsDeleted,ActivationTarget,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ActivationTarget.IsRemote,IsRemote,ActivationTarget,,IsRemote,リモート,リモート,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ActivationTarget.LastModifiedBy,LastModifiedById,ActivationTarget,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ActivationTarget.LastModifiedDate,LastModifiedDate,ActivationTarget,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ActivationTarget.LastPublishStatusDate,LastPublishStatusDate,ActivationTarget,,LastPublishStatusDate,最終公開状況取得日,最終公開状況取得日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ActivationTarget.LastPublishStatusErrorMessage,LastPublishStatusErrorMessage,ActivationTarget,,LastPublishStatusErrorMessage,最終公開状況エラーメッセージ,最終公開状況エラーメッセージ,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ActivationTarget.LastReferencedDate,LastReferencedDate,ActivationTarget,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ActivationTarget.LastTargetStatusDateTime,LastTargetStatusDateTime,ActivationTarget,,LastTargetStatusDateTime,対象状況最終更新日,対象状況最終更新日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ActivationTarget.LastTargetStatusErrorCode,LastTargetStatusErrorCode,ActivationTarget,,LastTargetStatusErrorCode,対象状況エラーコード,対象状況エラーコード,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ActivationTarget.LastViewedDate,LastViewedDate,ActivationTarget,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ActivationTarget.Name,MasterLabel,ActivationTarget,,Name,名前,名前,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,ActivationTarget.OutputFormat,OutputFormat,ActivationTarget,,OutputFormat,出力形式,出力形式,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ActivationTarget.OwnedByOrg,OwnedByOrg,ActivationTarget,,OwnedByOrg,所有者,所有者,テキスト(100),false,true,false,true,true,true
+000000000000000AAA,ActivationTarget.Owner,OwnerId,ActivationTarget,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,ActivationTarget.PlatformName,PlatformName,ActivationTarget,,PlatformName,プラットフォーム名,プラットフォーム名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ActivationTarget.PlatformPrivacyType,PlatformPrivacyType,ActivationTarget,,PlatformPrivacyType,プラットフォームプライバシー種別,プラットフォームプライバシー種別,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ActivationTarget.RecordVisibility,RecordVisibilityId,ActivationTarget,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,ActivationTarget.RunStatus,RunStatus,ActivationTarget,,RunStatus,データエクスポート実行状況,データエクスポート実行状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ActivationTarget.SystemModstamp,SystemModstamp,ActivationTarget,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ActivationTarget.TargetStatus,TargetStatus,ActivationTarget,,TargetStatus,対象状況,対象状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ActivationTarget.TargetType,TargetType,ActivationTarget,,TargetType,対象種別,対象種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ActivationTarget.UserRecordAccess,UserRecordAccessId,ActivationTarget,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

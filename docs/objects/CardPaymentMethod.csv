@@ -1,0 +1,52 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,CardPaymentMethod.Account,AccountId,CardPaymentMethod,,Account,口座,口座,参照関係(取引先),false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.AuditEmail,AuditEmail,CardPaymentMethod,,AuditEmail,監査メール,監査メール,メール,false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.AutoCardType,AutoCardType,CardPaymentMethod,,AutoCardType,カードの種類の自動検出,カードの種類の自動検出,テキスト(20),false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.CardBin,CardBin,CardPaymentMethod,,CardBin,カード BIN,カード BIN,数値(6、0),false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.CardCategory,CardCategory,CardPaymentMethod,,CardCategory,カードカテゴリ,カードカテゴリ,選択リスト,false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.CardHolderFirstName,CardHolderFirstName,CardPaymentMethod,,CardHolderFirstName,カード所有者の名,カード所有者の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.CardHolderLastName,CardHolderLastName,CardPaymentMethod,,CardHolderLastName,カード所有者の姓,カード所有者の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.CardHolderName,CardHolderName,CardPaymentMethod,,CardHolderName,カード所有者の名前,カード所有者の名前,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.CardLastFour,CardLastFour,CardPaymentMethod,,CardLastFour,カードの最後の 4 桁,カードの最後の 4 桁,数値(4、0),false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.CardType,CardType,CardPaymentMethod,,CardType,カードの種類,カードの種類,選択リスト,false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.CardTypeCategory,CardTypeCategory,CardPaymentMethod,,CardTypeCategory,カードの種類のカテゴリ,カードの種類のカテゴリ,選択リスト,false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.Comments,Comments,CardPaymentMethod,,Comments,コメント,コメント,ロングテキストエリア(1000),false,true,false,false,false,false
+000000000000000AAA,CardPaymentMethod.CompanyName,CompanyName,CardPaymentMethod,,CompanyName,会社名,会社名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.CreatedBy,CreatedById,CardPaymentMethod,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,CardPaymentMethod.CreatedDate,CreatedDate,CardPaymentMethod,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,CardPaymentMethod.DisplayCardNumber,DisplayCardNumber,CardPaymentMethod,,DisplayCardNumber,カード番号を表示,カード番号を表示,テキスト(20),false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.Email,Email,CardPaymentMethod,,Email,登録カードメール,登録カードメール,メール,false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.ExpiryMonth,ExpiryMonth,CardPaymentMethod,,ExpiryMonth,有効期限 (月),有効期限 (月),数値(2、0),false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.ExpiryYear,ExpiryYear,CardPaymentMethod,,ExpiryYear,有効期限 (年),有効期限 (年),数値(4、0),false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.GatewayDate,GatewayDate,CardPaymentMethod,,GatewayDate,ゲートウェイ日付,ゲートウェイ日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,CardPaymentMethod.GatewayResultCode,GatewayResultCode,CardPaymentMethod,,GatewayResultCode,ゲートウェイ結果コード,ゲートウェイ結果コード,テキスト(64),false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.GatewayResultCodeDescription,GatewayResultCodeDescription,CardPaymentMethod,,GatewayResultCodeDescription,ゲートウェイ結果コードの説明,ゲートウェイ結果コードの説明,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.GatewayToken,GatewayToken,CardPaymentMethod,,GatewayToken,ゲートウェイトークン,ゲートウェイトークン,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.GatewayTokenDetails,GatewayTokenDetails,CardPaymentMethod,,GatewayTokenDetails,ゲートウェイトークンの詳細,ゲートウェイトークンの詳細,テキストエリア(1000),false,true,false,true,false,true
+000000000000000AAA,CardPaymentMethod.GatewayTokenEncrypted,GatewayTokenEncrypted,CardPaymentMethod,,GatewayTokenEncrypted,ゲートウェイトークン暗号化済み,ゲートウェイトークン暗号化済み,テキスト (暗号化)(1000),false,true,false,false,false,false
+000000000000000AAA,CardPaymentMethod.Id,Id,CardPaymentMethod,,Id,カード支払方法 ID,カード支払方法 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,CardPaymentMethod.InputCardNumber,InputCardNumber,CardPaymentMethod,,InputCardNumber,カード番号を入力,カード番号を入力,テキスト(20),false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.IpAddress,IpAddress,CardPaymentMethod,,IpAddress,IP アドレス,IP アドレス,IP アドレス,false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.IsAutoPayEnabled,IsAutoPayEnabled,CardPaymentMethod,,IsAutoPayEnabled,自動支払,自動支払,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,CardPaymentMethod.IsDeleted,IsDeleted,CardPaymentMethod,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,CardPaymentMethod.LastModifiedBy,LastModifiedById,CardPaymentMethod,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,CardPaymentMethod.LastModifiedDate,LastModifiedDate,CardPaymentMethod,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,CardPaymentMethod.LastReferencedDate,LastReferencedDate,CardPaymentMethod,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,CardPaymentMethod.LastViewedDate,LastViewedDate,CardPaymentMethod,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,CardPaymentMethod.MacAddress,MacAddress,CardPaymentMethod,,MacAddress,MAC アドレス,MAC アドレス,テキスト(32),false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.Name,CardPaymentMethodNumber,CardPaymentMethod,,Name,カード支払方法番号,カード支払方法番号,自動採番,false,false,true,true,false,true
+000000000000000AAA,CardPaymentMethod.NickName,NickName,CardPaymentMethod,,NickName,ニックネーム,ニックネーム,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.PaymentGateway,PaymentGatewayId,CardPaymentMethod,,PaymentGateway,支払ゲートウェイ,支払ゲートウェイ,参照関係(支払いゲートウェイ),false,true,true,true,true,true
+000000000000000AAA,CardPaymentMethod.PaymentMethodAddress,PaymentMethodAddress,CardPaymentMethod,,PaymentMethodAddress,支払方法の住所,支払方法の住所,住所,false,true,false,true,false,false
+000000000000000AAA,CardPaymentMethod.PaymentMethodDetails,PaymentMethodDetails,CardPaymentMethod,,PaymentMethodDetails,支払方法の詳細,支払方法の詳細,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.PaymentMethodSubType,PaymentMethodSubType,CardPaymentMethod,,PaymentMethodSubType,支払方法サブ種別,支払方法サブ種別,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.PaymentMethodType,PaymentMethodType,CardPaymentMethod,,PaymentMethodType,支払方法種別,支払方法種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.Phone,Phone,CardPaymentMethod,,Phone,電話,電話,電話,false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.ProcessingMode,ProcessingMode,CardPaymentMethod,,ProcessingMode,処理モード,処理モード,選択リスト,false,false,false,true,true,true
+000000000000000AAA,CardPaymentMethod.RecordVisibility,RecordVisibilityId,CardPaymentMethod,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.SfResultCode,SfResultCode,CardPaymentMethod,,SfResultCode,Salesforce 結果コード,Salesforce 結果コード,選択リスト,false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.StartMonth,StartMonth,CardPaymentMethod,,StartMonth,開始月,開始月,数値(2、0),false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.StartYear,StartYear,CardPaymentMethod,,StartYear,開始年,開始年,数値(4、0),false,true,false,true,true,true
+000000000000000AAA,CardPaymentMethod.Status,Status,CardPaymentMethod,,Status,状況,状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,CardPaymentMethod.SystemModstamp,SystemModstamp,CardPaymentMethod,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,CardPaymentMethod.UserRecordAccess,UserRecordAccessId,CardPaymentMethod,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

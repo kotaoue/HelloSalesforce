@@ -1,0 +1,25 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,EnablementProgram.CreatedBy,CreatedById,EnablementProgram,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,EnablementProgram.CreatedDate,CreatedDate,EnablementProgram,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,EnablementProgram.Description,Description,EnablementProgram,,Description,説明,説明,ロングテキストエリア(350),false,false,false,true,false,false
+000000000000000AAA,EnablementProgram.DoesAllowSelfEnrollment,DoesAllowSelfEnrollment,EnablementProgram,,DoesAllowSelfEnrollment,ユーザーに自己登録を許可,ユーザーに自己登録を許可,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,EnablementProgram.EnablementProgramDefinition,EnablementProgramDefinitionId,EnablementProgram,,EnablementProgramDefinition,イネーブルメントプログラム定義,イネーブルメントプログラム定義,参照関係(イネーブルメントプログラム定義),false,true,false,true,true,true
+000000000000000AAA,EnablementProgram.Id,Id,EnablementProgram,,Id,イネーブルメントプログラム ID,イネーブルメントプログラム ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,EnablementProgram.IsDeleted,IsDeleted,EnablementProgram,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,EnablementProgram.IsOutcomeBased,IsOutcomeBased,EnablementProgram,,IsOutcomeBased,結果ベース,結果ベース,チェックボックス,false,false,true,true,true,true
+000000000000000AAA,EnablementProgram.LastModifiedBy,LastModifiedById,EnablementProgram,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,EnablementProgram.LastModifiedDate,LastModifiedDate,EnablementProgram,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,EnablementProgram.LastReferencedDate,LastReferencedDate,EnablementProgram,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,EnablementProgram.LastViewedDate,LastViewedDate,EnablementProgram,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,EnablementProgram.Name,Name,EnablementProgram,,Name,プログラム名,プログラム名,テキスト(80),false,false,true,true,true,true
+000000000000000AAA,EnablementProgram.Owner,OwnerId,EnablementProgram,,Owner,プログラム所有者,プログラム所有者,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,EnablementProgram.PublishedDateTime,PublishedDateTime,EnablementProgram,,PublishedDateTime,公開日,公開日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,EnablementProgram.RecordVisibility,RecordVisibilityId,EnablementProgram,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,EnablementProgram.Status,Status,EnablementProgram,,Status,状況,状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,EnablementProgram.SystemModstamp,SystemModstamp,EnablementProgram,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,EnablementProgram.TotalAssigned,TotalAssigned,EnablementProgram,,TotalAssigned,登録されたユーザー,登録されたユーザー,数値(9、0),false,true,false,false,false,false
+000000000000000AAA,EnablementProgram.TotalBehind,TotalBehind,EnablementProgram,,TotalBehind,遅延しているユーザー,遅延しているユーザー,数値(9、0),false,true,false,false,false,false
+000000000000000AAA,EnablementProgram.TotalCompleted,TotalCompleted,EnablementProgram,,TotalCompleted,完了したユーザー,完了したユーザー,数値(9、0),false,true,false,false,false,false
+000000000000000AAA,EnablementProgram.TotalDays,TotalDays,EnablementProgram,,TotalDays,合計日数,合計日数,積み上げ集計 ( イネーブルメントプログラムタスク定義),true,true,false,true,true,true
+000000000000000AAA,EnablementProgram.Type,Type,EnablementProgram,,Type,種別,種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,EnablementProgram.UserRecordAccess,UserRecordAccessId,EnablementProgram,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

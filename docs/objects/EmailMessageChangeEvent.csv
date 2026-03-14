@@ -1,0 +1,36 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,EmailMessageChangeEvent.Activity,ActivityId,EmailMessageChangeEvent,,Activity,活動,活動,参照関係(ToDo),false,true,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.AutomationType,AutomationType,EmailMessageChangeEvent,,AutomationType,自動化タイプ,自動化タイプ,選択リスト,false,true,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.BccAddress,BccAddress,EmailMessageChangeEvent,,BccAddress,BCC アドレス,BCC アドレス,テキスト(4000),false,true,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.CcAddress,CcAddress,EmailMessageChangeEvent,,CcAddress,CC アドレス,CC アドレス,テキスト(4000),false,true,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.ChangeEventHeader,ChangeEventHeader,EmailMessageChangeEvent,,ChangeEventHeader,変更イベントヘッダー,変更イベントヘッダー,複合値,false,false,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.ClientThreadIdentifier,ClientThreadIdentifier,EmailMessageChangeEvent,,ClientThreadIdentifier,クライアントスレッド ID,クライアントスレッド ID,テキスト(765),false,true,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.CreatedBy,CreatedById,EmailMessageChangeEvent,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,true,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.CreatedDate,CreatedDate,EmailMessageChangeEvent,,CreatedDate,作成日,作成日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.EmailTemplate,EmailTemplateId,EmailMessageChangeEvent,,EmailTemplate,メールテンプレート,メールテンプレート,参照関係(メールテンプレート),false,true,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.FirstOpenedDate,FirstOpenedDate,EmailMessageChangeEvent,,FirstOpenedDate,初回開封日,初回開封日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.FromAddress,FromAddress,EmailMessageChangeEvent,,FromAddress,送信元アドレス,送信元アドレス,メール,false,true,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.FromName,FromName,EmailMessageChangeEvent,,FromName,差出人名,差出人名,テキスト(1000),false,true,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.HasAttachment,HasAttachment,EmailMessageChangeEvent,,HasAttachment,添付あり,添付あり,チェックボックス,false,false,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.Headers,Headers,EmailMessageChangeEvent,,Headers,ヘッダー,ヘッダー,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.HtmlBody,HtmlBody,EmailMessageChangeEvent,,HtmlBody,HTML 内容,HTML 内容,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.Incoming,Incoming,EmailMessageChangeEvent,,Incoming,受信,受信,チェックボックス,false,false,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.IsBounced,IsBounced,EmailMessageChangeEvent,,IsBounced,不達?,不達?,チェックボックス,false,false,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.IsClientManaged,IsClientManaged,EmailMessageChangeEvent,,IsClientManaged,クライアントが管理,クライアントが管理,チェックボックス,false,false,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.IsExternallyVisible,IsExternallyVisible,EmailMessageChangeEvent,,IsExternallyVisible,外部から参照可能,外部から参照可能,チェックボックス,false,false,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.IsPrivateDraft,IsPrivateDraft,EmailMessageChangeEvent,,IsPrivateDraft,非公開ドラフト,非公開ドラフト,チェックボックス,false,false,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.IsTracked,IsTracked,EmailMessageChangeEvent,,IsTracked,追跡中,追跡中,チェックボックス,false,false,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.LastModifiedBy,LastModifiedById,EmailMessageChangeEvent,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,true,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.LastModifiedDate,LastModifiedDate,EmailMessageChangeEvent,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.LastOpenedDate,LastOpenedDate,EmailMessageChangeEvent,,LastOpenedDate,最終開封日,最終開封日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.MessageDate,MessageDate,EmailMessageChangeEvent,,MessageDate,送受信日,送受信日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.MessageIdentifier,MessageIdentifier,EmailMessageChangeEvent,,MessageIdentifier,メッセージ ID,メッセージ ID,テキスト(765),false,true,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.Parent,ParentId,EmailMessageChangeEvent,,Parent,親ケース,親ケース,参照関係(ケース),false,true,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.RelatedTo,RelatedToId,EmailMessageChangeEvent,,RelatedTo,関連先,関連先,"参照関係(契約,注文,キャンペーン,取引先,商談,商品,納入商品,ケース,ソリューション,作業指示,作業指示品目,サービス予定,サービスリソース,割り当て済みリソース,リソースの不在,エンタイトルメント,サービス契約,契約品目名,ロケーション,出荷,納入商品リレーション,リストメール,返品注文,返品注文品目,問い合わせ要求,画像,カタログ,履行注文,請求書,プロモーション,シフト,クレジットメモ,コミュニケーション登録の同意,法人,関係者の同意,作業プラン,作業プランテンプレート,作業プランテンプレートエントリ,作業ステップ,作業ステップテンプレート,順番待ちにあるグループ,業務時間休日,プロセス例外,クーポン,プロモーションマーケットセグメント,プロモーション修飾子,プロモーションセグメント,プロモーションセグメントバイヤーグループ,プロモーションセグメント販売店,プロモーション対象,出荷項目,変更要求,障害,問題,予定招待,Web Cart Documents,プロモーションランク,予定カテゴリ,待機リスト,待機リスト参加者,プライバシーに関する RTBF 要求,クエリエディター,提出した承認申請,承認作業項目,配送見積設定,ロケーション配送業者方法,リベート支払スナップショット,配送業者,配送業者方法,提出した承認申請の詳細,環境,要求情報)",false,true,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.ReplyToEmailMessage,ReplyToEmailMessageId,EmailMessageChangeEvent,,ReplyToEmailMessage,返信メールメッセージ,返信メールメッセージ,参照関係(メールメッセージ),false,true,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.Source,Source,EmailMessageChangeEvent,,Source,メールソース,メールソース,選択リスト,false,true,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.Status,Status,EmailMessageChangeEvent,,Status,状況,状況,選択リスト,false,true,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.Subject,Subject,EmailMessageChangeEvent,,Subject,件名,件名,テキスト(3000),false,true,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.TextBody,TextBody,EmailMessageChangeEvent,,TextBody,テキスト内容,テキスト内容,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.ThreadIdentifier,ThreadIdentifier,EmailMessageChangeEvent,,ThreadIdentifier,スレッド ID,スレッド ID,テキスト(765),false,true,false,false,false,false
+000000000000000AAA,EmailMessageChangeEvent.ToAddress,ToAddress,EmailMessageChangeEvent,,ToAddress,宛先アドレス,宛先アドレス,テキスト(4000),false,true,false,false,false,false

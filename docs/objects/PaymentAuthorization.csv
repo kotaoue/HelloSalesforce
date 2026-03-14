@@ -1,0 +1,39 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,PaymentAuthorization.Account,AccountId,PaymentAuthorization,,Account,口座,口座,参照関係(取引先),false,true,false,true,true,true
+000000000000000AAA,PaymentAuthorization.Amount,Amount,PaymentAuthorization,,Amount,金額,金額,通貨(16、2),false,false,false,true,false,true
+000000000000000AAA,PaymentAuthorization.Balance,Balance,PaymentAuthorization,,Balance,残高,残高,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,PaymentAuthorization.Comments,Comments,PaymentAuthorization,,Comments,コメント,コメント,テキストエリア(1000),false,true,false,true,false,true
+000000000000000AAA,PaymentAuthorization.CreatedBy,CreatedById,PaymentAuthorization,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,PaymentAuthorization.CreatedDate,CreatedDate,PaymentAuthorization,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,PaymentAuthorization.Date,Date,PaymentAuthorization,,Date,日付,日付,日付/時間,false,true,true,true,false,true
+000000000000000AAA,PaymentAuthorization.EffectiveDate,EffectiveDate,PaymentAuthorization,,EffectiveDate,発効日,発効日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,PaymentAuthorization.Email,Email,PaymentAuthorization,,Email,監査メール,監査メール,メール,false,true,false,true,true,true
+000000000000000AAA,PaymentAuthorization.ExpirationDate,ExpirationDate,PaymentAuthorization,,ExpirationDate,有効期限,有効期限,日付/時間,false,true,false,true,false,true
+000000000000000AAA,PaymentAuthorization.GatewayAuthCode,GatewayAuthCode,PaymentAuthorization,,GatewayAuthCode,ゲートウェイ承認コード,ゲートウェイ承認コード,テキスト(64),false,true,false,true,true,true
+000000000000000AAA,PaymentAuthorization.GatewayDate,GatewayDate,PaymentAuthorization,,GatewayDate,ゲートウェイ日付,ゲートウェイ日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,PaymentAuthorization.GatewayRefDetails,GatewayRefDetails,PaymentAuthorization,,GatewayRefDetails,ゲートウェイ参照の詳細,ゲートウェイ参照の詳細,テキストエリア(1000),false,true,false,true,false,true
+000000000000000AAA,PaymentAuthorization.GatewayRefNumber,GatewayRefNumber,PaymentAuthorization,,GatewayRefNumber,ゲートウェイ参照番号,ゲートウェイ参照番号,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,PaymentAuthorization.GatewayResultCode,GatewayResultCode,PaymentAuthorization,,GatewayResultCode,ゲートウェイ結果コード,ゲートウェイ結果コード,テキスト(64),false,true,false,true,true,true
+000000000000000AAA,PaymentAuthorization.GatewayResultCodeDescription,GatewayResultCodeDescription,PaymentAuthorization,,GatewayResultCodeDescription,ゲートウェイ結果コードの説明,ゲートウェイ結果コードの説明,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,PaymentAuthorization.Id,Id,PaymentAuthorization,,Id,支払承認 ID,支払承認 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,PaymentAuthorization.IpAddress,IpAddress,PaymentAuthorization,,IpAddress,IP アドレス,IP アドレス,IP アドレス,false,true,false,true,true,true
+000000000000000AAA,PaymentAuthorization.IsDeleted,IsDeleted,PaymentAuthorization,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,PaymentAuthorization.LastModifiedBy,LastModifiedById,PaymentAuthorization,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,PaymentAuthorization.LastModifiedDate,LastModifiedDate,PaymentAuthorization,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,PaymentAuthorization.LastReferencedDate,LastReferencedDate,PaymentAuthorization,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,PaymentAuthorization.LastViewedDate,LastViewedDate,PaymentAuthorization,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,PaymentAuthorization.MacAddress,MacAddress,PaymentAuthorization,,MacAddress,MAC アドレス,MAC アドレス,テキスト(32),false,true,false,true,true,true
+000000000000000AAA,PaymentAuthorization.Name,PaymentAuthorizationNumber,PaymentAuthorization,,Name,支払承認番号,支払承認番号,自動採番,false,false,true,true,false,true
+000000000000000AAA,PaymentAuthorization.PaymentGateway,PaymentGatewayId,PaymentAuthorization,,PaymentGateway,支払ゲートウェイ,支払ゲートウェイ,参照関係(支払いゲートウェイ),false,true,true,true,true,true
+000000000000000AAA,PaymentAuthorization.PaymentGroup,PaymentGroupId,PaymentAuthorization,,PaymentGroup,支払グループ,支払グループ,参照関係(支払グループ),false,true,false,true,true,true
+000000000000000AAA,PaymentAuthorization.PaymentIntentGuid,PaymentIntentGuid,PaymentAuthorization,,PaymentIntentGuid,支払インテント GUID,支払インテント GUID,テキスト(255),false,true,true,true,true,true
+000000000000000AAA,PaymentAuthorization.PaymentMethod,PaymentMethodId,PaymentAuthorization,,PaymentMethod,お支払い方法,お支払い方法,参照関係(支払方法),false,true,false,true,true,true
+000000000000000AAA,PaymentAuthorization.Phone,Phone,PaymentAuthorization,,Phone,電話,電話,電話,false,true,false,true,true,true
+000000000000000AAA,PaymentAuthorization.ProcessingMode,ProcessingMode,PaymentAuthorization,,ProcessingMode,処理モード,処理モード,選択リスト,false,false,false,true,true,true
+000000000000000AAA,PaymentAuthorization.RecordVisibility,RecordVisibilityId,PaymentAuthorization,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,PaymentAuthorization.SfResultCode,SfResultCode,PaymentAuthorization,,SfResultCode,Salesforce 結果コード,Salesforce 結果コード,選択リスト,false,true,false,true,true,true
+000000000000000AAA,PaymentAuthorization.Status,Status,PaymentAuthorization,,Status,状況,状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,PaymentAuthorization.SystemModstamp,SystemModstamp,PaymentAuthorization,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,PaymentAuthorization.TotalAuthReversalAmount,TotalAuthReversalAmount,PaymentAuthorization,,TotalAuthReversalAmount,支払承認取消金額合計,支払承認取消金額合計,積み上げ集計 (合計 支払承認調整),true,true,false,true,false,true
+000000000000000AAA,PaymentAuthorization.TotalPaymentCaptureAmount,TotalPaymentCaptureAmount,PaymentAuthorization,,TotalPaymentCaptureAmount,支払収集金額合計,支払収集金額合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,PaymentAuthorization.UserRecordAccess,UserRecordAccessId,PaymentAuthorization,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

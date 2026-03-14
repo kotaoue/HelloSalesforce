@@ -1,0 +1,23 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ApexTestRunResult.AsyncApexJob,AsyncApexJobId,ApexTestRunResult,,AsyncApexJob,Apex ジョブ,Apex ジョブ,参照関係(Apex ジョブ)  (ユニーク),false,true,true,true,true,true
+000000000000000AAA,ApexTestRunResult.ClassesCompleted,ClassesCompleted,ApexTestRunResult,,ClassesCompleted,このテスト実行で完了したクラスの数,このテスト実行で完了したクラスの数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,ApexTestRunResult.ClassesEnqueued,ClassesEnqueued,ApexTestRunResult,,ClassesEnqueued,このテスト実行でキューに追加されたクラスの数,このテスト実行でキューに追加されたクラスの数,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,ApexTestRunResult.CreatedBy,CreatedById,ApexTestRunResult,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ApexTestRunResult.CreatedDate,CreatedDate,ApexTestRunResult,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ApexTestRunResult.EndTime,EndTime,ApexTestRunResult,,EndTime,テスト実行の終了時刻,テスト実行の終了時刻,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ApexTestRunResult.Id,Id,ApexTestRunResult,,Id,Apex テスト実行結果 ID,Apex テスト実行結果 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ApexTestRunResult.IsAllTests,IsAllTests,ApexTestRunResult,,IsAllTests,allTests,allTests,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ApexTestRunResult.IsDeleted,IsDeleted,ApexTestRunResult,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ApexTestRunResult.JobName,JobName,ApexTestRunResult,,JobName,ジョブ名,ジョブ名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ApexTestRunResult.LastModifiedBy,LastModifiedById,ApexTestRunResult,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ApexTestRunResult.LastModifiedDate,LastModifiedDate,ApexTestRunResult,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ApexTestRunResult.MethodsCompleted,MethodsCompleted,ApexTestRunResult,,MethodsCompleted,このテスト実行で完了したメソッドの数,このテスト実行で完了したメソッドの数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,ApexTestRunResult.MethodsEnqueued,MethodsEnqueued,ApexTestRunResult,,MethodsEnqueued,このテスト実行でキューに追加されたメソッドの数,このテスト実行でキューに追加されたメソッドの数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,ApexTestRunResult.MethodsFailed,MethodsFailed,ApexTestRunResult,,MethodsFailed,このテスト実行で失敗したメソッドの数,このテスト実行で失敗したメソッドの数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,ApexTestRunResult.Source,Source,ApexTestRunResult,,Source,テスト実行を開始したクライアント,テスト実行を開始したクライアント,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ApexTestRunResult.StartTime,StartTime,ApexTestRunResult,,StartTime,テスト実行の開始時刻,テスト実行の開始時刻,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ApexTestRunResult.Status,Status,ApexTestRunResult,,Status,テスト実行の状況,テスト実行の状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ApexTestRunResult.SystemModstamp,SystemModstamp,ApexTestRunResult,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ApexTestRunResult.TestSetupTime,TestSetupTime,ApexTestRunResult,,TestSetupTime,テスト設定の実行に費やした時間 (ミリ秒),テスト設定の実行に費やした時間 (ミリ秒),数値(9、0),false,true,false,true,true,true
+000000000000000AAA,ApexTestRunResult.TestTime,TestTime,ApexTestRunResult,,TestTime,—テスト実行に費やした実際の時間 (ミリ秒),—テスト実行に費やした実際の時間 (ミリ秒),数値(9、0),false,true,false,true,true,true
+000000000000000AAA,ApexTestRunResult.User,UserId,ApexTestRunResult,,User,テスト実行を開始したユーザー,テスト実行を開始したユーザー,参照関係(ユーザー),false,true,false,true,true,true

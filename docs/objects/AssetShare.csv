@@ -1,0 +1,9 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AssetShare.Asset,AssetId,AssetShare,,Asset,納入商品,納入商品,参照関係(納入商品),false,false,true,true,true,true
+000000000000000AAA,AssetShare.AssetAccessLevel,AssetAccessLevel,AssetShare,,AssetAccessLevel,納入商品のアクセス権,納入商品のアクセス権,選択リスト,false,false,false,true,true,true
+000000000000000AAA,AssetShare.Id,Id,AssetShare,,Id,納入商品共有 ID,納入商品共有 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AssetShare.IsDeleted,IsDeleted,AssetShare,,IsDeleted,削除,削除,チェックボックス,false,false,true,true,true,true
+000000000000000AAA,AssetShare.LastModifiedBy,LastModifiedById,AssetShare,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AssetShare.LastModifiedDate,LastModifiedDate,AssetShare,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AssetShare.RowCause,RowCause,AssetShare,,RowCause,テリトリー割り当て方法,テリトリー割り当て方法,選択リスト(Apex 共有の理由),false,true,false,true,true,true
+000000000000000AAA,AssetShare.UserOrGroup,UserOrGroupId,AssetShare,,UserOrGroup,ユーザー/グループ,ユーザー/グループ,"参照関係(ユーザー,グループ)",false,false,true,true,true,true

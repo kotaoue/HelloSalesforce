@@ -1,0 +1,14 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AuthorizedEmailDomain.CreatedBy,CreatedById,AuthorizedEmailDomain,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AuthorizedEmailDomain.CreatedDate,CreatedDate,AuthorizedEmailDomain,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AuthorizedEmailDomain.DeveloperName,DeveloperName,AuthorizedEmailDomain,,DeveloperName,名前,名前,テキスト(80),false,false,true,true,true,true
+000000000000000AAA,AuthorizedEmailDomain.DomainName,DomainName,AuthorizedEmailDomain,,DomainName,ドメイン名,ドメイン名,テキスト(255)  (ユニーク、大文字と小文字を区別しない),false,false,true,true,true,true
+000000000000000AAA,AuthorizedEmailDomain.Id,Id,AuthorizedEmailDomain,,Id,認証済みメールドメイン ID,認証済みメールドメイン ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AuthorizedEmailDomain.IsDeleted,IsDeleted,AuthorizedEmailDomain,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AuthorizedEmailDomain.IsDomainOwnershipVerified,IsDomainOwnershipVerified,AuthorizedEmailDomain,,IsDomainOwnershipVerified,ドメイン所有権確認済み,ドメイン所有権確認済み,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AuthorizedEmailDomain.IsEmailVerificationRequired,IsEmailVerificationRequired,AuthorizedEmailDomain,,IsEmailVerificationRequired,メール確認が必要,メール確認が必要,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AuthorizedEmailDomain.Language,Language,AuthorizedEmailDomain,,Language,マスター言語,マスター言語,選択リスト,false,true,false,true,true,true
+000000000000000AAA,AuthorizedEmailDomain.LastModifiedBy,LastModifiedById,AuthorizedEmailDomain,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AuthorizedEmailDomain.LastModifiedDate,LastModifiedDate,AuthorizedEmailDomain,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AuthorizedEmailDomain.MasterLabel,MasterLabel,AuthorizedEmailDomain,,MasterLabel,表示ラベル,表示ラベル,テキスト(80),false,false,false,true,true,true
+000000000000000AAA,AuthorizedEmailDomain.SystemModstamp,SystemModstamp,AuthorizedEmailDomain,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

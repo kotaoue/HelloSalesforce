@@ -1,0 +1,10 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,CaseHistory2.Case,CaseId,CaseHistory2,,Case,ケース,ケース,参照関係(ケース),false,false,true,true,true,true
+000000000000000AAA,CaseHistory2.Id,Id,CaseHistory2,,Id,ケース履歴 2 ID,ケース履歴 2 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,CaseHistory2.IsDeleted,IsDeleted,CaseHistory2,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,CaseHistory2.LastModifiedBy,LastModifiedById,CaseHistory2,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,CaseHistory2.LastModifiedDate,LastModifiedDate,CaseHistory2,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,CaseHistory2.Owner,OwnerId,CaseHistory2,,Owner,ケース 所有者,ケース 所有者,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,CaseHistory2.PreviousUpdate,PreviousUpdate,CaseHistory2,,PreviousUpdate,以前の更新,以前の更新,日付/時間,false,true,false,true,false,true
+000000000000000AAA,CaseHistory2.Status,Status,CaseHistory2,,Status,状況,状況,テキスト(40),false,true,false,true,true,true
+000000000000000AAA,CaseHistory2.SystemModstamp,SystemModstamp,CaseHistory2,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

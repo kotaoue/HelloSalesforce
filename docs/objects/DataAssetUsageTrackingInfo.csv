@@ -1,0 +1,18 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DataAssetUsageTrackingInfo.CreatedBy,CreatedById,DataAssetUsageTrackingInfo,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,DataAssetUsageTrackingInfo.CreatedDate,CreatedDate,DataAssetUsageTrackingInfo,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DataAssetUsageTrackingInfo.FirstUsageTime,FirstUsageTime,DataAssetUsageTrackingInfo,,FirstUsageTime,エンティティが最初に使用された時間,エンティティが最初に使用された時間,日付/時間,false,true,true,true,false,true
+000000000000000AAA,DataAssetUsageTrackingInfo.Id,Id,DataAssetUsageTrackingInfo,,Id,データアセット利用状況追跡情報 ID,データアセット利用状況追跡情報 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DataAssetUsageTrackingInfo.IsDeleted,IsDeleted,DataAssetUsageTrackingInfo,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DataAssetUsageTrackingInfo.LastModifiedBy,LastModifiedById,DataAssetUsageTrackingInfo,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DataAssetUsageTrackingInfo.LastModifiedDate,LastModifiedDate,DataAssetUsageTrackingInfo,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DataAssetUsageTrackingInfo.LastUsageTime,LastUsageTime,DataAssetUsageTrackingInfo,,LastUsageTime,エンティティが最後に使用された時間,エンティティが最後に使用された時間,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DataAssetUsageTrackingInfo.Name,Name,DataAssetUsageTrackingInfo,,Name,データアセット利用状況追跡情報名,データアセット利用状況追跡情報名,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,DataAssetUsageTrackingInfo.RecordVisibility,RecordVisibilityId,DataAssetUsageTrackingInfo,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,DataAssetUsageTrackingInfo.SystemModstamp,SystemModstamp,DataAssetUsageTrackingInfo,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DataAssetUsageTrackingInfo.UsageCount,UsageCount,DataAssetUsageTrackingInfo,,UsageCount,使用回数,使用回数,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,DataAssetUsageTrackingInfo.UsageEntity,UsageEntityId,DataAssetUsageTrackingInfo,,UsageEntity,使用中のエンティティ,使用中のエンティティ,"参照関係(レンズ,ダッシュボード)",false,false,true,true,true,true
+000000000000000AAA,DataAssetUsageTrackingInfo.UsageTrackingCategory,UsageTrackingCategory,DataAssetUsageTrackingInfo,,UsageTrackingCategory,使用カテゴリ,使用カテゴリ,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataAssetUsageTrackingInfo.UsageTrackingType,UsageTrackingType,DataAssetUsageTrackingInfo,,UsageTrackingType,使用種別,使用種別,選択リスト,false,false,true,true,true,true
+000000000000000AAA,DataAssetUsageTrackingInfo.User,UserId,DataAssetUsageTrackingInfo,,User,エンティティを使用したユーザー,エンティティを使用したユーザー,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,DataAssetUsageTrackingInfo.UserRecordAccess,UserRecordAccessId,DataAssetUsageTrackingInfo,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

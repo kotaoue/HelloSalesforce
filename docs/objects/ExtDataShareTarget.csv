@@ -1,0 +1,19 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ExtDataShareTarget.ConnectionType,ConnectionType,ExtDataShareTarget,,ConnectionType,接続種別,接続種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ExtDataShareTarget.CreatedBy,CreatedById,ExtDataShareTarget,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,ExtDataShareTarget.CreatedDate,CreatedDate,ExtDataShareTarget,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ExtDataShareTarget.DataShareTargetDefinition,DataShareTargetDefinitionId,ExtDataShareTarget,,DataShareTargetDefinition,データ共有対象定義,データ共有対象定義,参照関係(データ共有対象定義),false,false,false,true,true,true
+000000000000000AAA,ExtDataShareTarget.DataShareTargetStatus,DataShareTargetStatus,ExtDataShareTarget,,DataShareTargetStatus,データ共有対象状況,データ共有対象状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ExtDataShareTarget.Id,Id,ExtDataShareTarget,,Id,データ共有対象 ID,データ共有対象 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ExtDataShareTarget.IsDeleted,IsDeleted,ExtDataShareTarget,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ExtDataShareTarget.LastDataChangeStatusDateTime,LastDataChangeStatusDateTime,ExtDataShareTarget,,LastDataChangeStatusDateTime,最終データ変更状況日時,最終データ変更状況日時,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ExtDataShareTarget.LastDataChangeStatusErrorCode,LastDataChangeStatusErrorCode,ExtDataShareTarget,,LastDataChangeStatusErrorCode,最終データ変更状況エラーコード,最終データ変更状況エラーコード,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ExtDataShareTarget.LastModifiedBy,LastModifiedById,ExtDataShareTarget,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ExtDataShareTarget.LastModifiedDate,LastModifiedDate,ExtDataShareTarget,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ExtDataShareTarget.LastReferencedDate,LastReferencedDate,ExtDataShareTarget,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ExtDataShareTarget.LastViewedDate,LastViewedDate,ExtDataShareTarget,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ExtDataShareTarget.Name,Name,ExtDataShareTarget,,Name,データ共有対象名,データ共有対象名,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,ExtDataShareTarget.Owner,OwnerId,ExtDataShareTarget,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,ExtDataShareTarget.RecordVisibility,RecordVisibilityId,ExtDataShareTarget,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,ExtDataShareTarget.SystemModstamp,SystemModstamp,ExtDataShareTarget,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ExtDataShareTarget.UserRecordAccess,UserRecordAccessId,ExtDataShareTarget,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

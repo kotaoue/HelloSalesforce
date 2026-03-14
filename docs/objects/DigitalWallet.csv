@@ -1,0 +1,36 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DigitalWallet.Account,AccountId,DigitalWallet,,Account,取引先,取引先,参照関係(取引先),false,true,false,true,true,true
+000000000000000AAA,DigitalWallet.AuditEmail,AuditEmail,DigitalWallet,,AuditEmail,監査メール,監査メール,メール,false,true,false,true,true,true
+000000000000000AAA,DigitalWallet.BillingName,BillingName,DigitalWallet,,BillingName,名前(請求先),名前(請求先),テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DigitalWallet.Comments,Comments,DigitalWallet,,Comments,コメント,コメント,ロングテキストエリア(1000),false,true,false,false,false,false
+000000000000000AAA,DigitalWallet.CompanyName,CompanyName,DigitalWallet,,CompanyName,会社名,会社名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DigitalWallet.CreatedBy,CreatedById,DigitalWallet,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,DigitalWallet.CreatedDate,CreatedDate,DigitalWallet,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DigitalWallet.Customer,Customer,DigitalWallet,,Customer,顧客 ID,顧客 ID,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DigitalWallet.Email,Email,DigitalWallet,,Email,登録メール,登録メール,メール,false,true,false,true,true,true
+000000000000000AAA,DigitalWallet.ExtendedPaymentMethodType,ExtendedPaymentMethodType,DigitalWallet,,ExtendedPaymentMethodType,拡張支払方法種別,拡張支払方法種別,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DigitalWallet.GatewayToken,GatewayToken,DigitalWallet,,GatewayToken,ゲートウェイトークン,ゲートウェイトークン,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DigitalWallet.GatewayTokenDetails,GatewayTokenDetails,DigitalWallet,,GatewayTokenDetails,ゲートウェイトークンの詳細,ゲートウェイトークンの詳細,テキストエリア(1000),false,true,false,true,false,true
+000000000000000AAA,DigitalWallet.GatewayTokenEncrypted,GatewayTokenEncrypted,DigitalWallet,,GatewayTokenEncrypted,ゲートウェイトークン暗号化済み,ゲートウェイトークン暗号化済み,テキスト (暗号化)(1000),false,true,false,false,false,false
+000000000000000AAA,DigitalWallet.Id,Id,DigitalWallet,,Id,Digital Wallet ID,Digital Wallet ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DigitalWallet.IpAddress,IpAddress,DigitalWallet,,IpAddress,IP アドレス,IP アドレス,IP アドレス,false,true,false,true,true,true
+000000000000000AAA,DigitalWallet.IsAutoPayEnabled,IsAutoPayEnabled,DigitalWallet,,IsAutoPayEnabled,自動支払,自動支払,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DigitalWallet.IsDeleted,IsDeleted,DigitalWallet,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DigitalWallet.LastModifiedBy,LastModifiedById,DigitalWallet,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DigitalWallet.LastModifiedDate,LastModifiedDate,DigitalWallet,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DigitalWallet.LastReferencedDate,LastReferencedDate,DigitalWallet,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DigitalWallet.LastViewedDate,LastViewedDate,DigitalWallet,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DigitalWallet.MacAddress,MacAddress,DigitalWallet,,MacAddress,MAC アドレス,MAC アドレス,テキスト(32),false,true,false,true,true,true
+000000000000000AAA,DigitalWallet.Name,DigitalWalletNumber,DigitalWallet,,Name,Digital Wallet 番号,Digital Wallet 番号,自動採番,false,false,true,true,false,true
+000000000000000AAA,DigitalWallet.NickName,NickName,DigitalWallet,,NickName,ニックネーム,ニックネーム,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DigitalWallet.PaymentGateway,PaymentGatewayId,DigitalWallet,,PaymentGateway,支払ゲートウェイ,支払ゲートウェイ,参照関係(支払いゲートウェイ),false,true,true,true,true,true
+000000000000000AAA,DigitalWallet.PaymentMethodAddress,PaymentMethodAddress,DigitalWallet,,PaymentMethodAddress,支払方法の住所,支払方法の住所,住所,false,true,false,true,false,false
+000000000000000AAA,DigitalWallet.PaymentMethodDetails,PaymentMethodDetails,DigitalWallet,,PaymentMethodDetails,支払方法の詳細,支払方法の詳細,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DigitalWallet.PaymentMethodSubType,PaymentMethodSubType,DigitalWallet,,PaymentMethodSubType,支払方法サブ種別,支払方法サブ種別,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DigitalWallet.PaymentMethodType,PaymentMethodType,DigitalWallet,,PaymentMethodType,支払方法種別,支払方法種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DigitalWallet.Phone,Phone,DigitalWallet,,Phone,電話,電話,電話,false,true,false,true,true,true
+000000000000000AAA,DigitalWallet.ProcessingMode,ProcessingMode,DigitalWallet,,ProcessingMode,処理モード,処理モード,選択リスト,false,false,false,true,true,true
+000000000000000AAA,DigitalWallet.RecordVisibility,RecordVisibilityId,DigitalWallet,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,DigitalWallet.Status,Status,DigitalWallet,,Status,状況,状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,DigitalWallet.SystemModstamp,SystemModstamp,DigitalWallet,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DigitalWallet.UserRecordAccess,UserRecordAccessId,DigitalWallet,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

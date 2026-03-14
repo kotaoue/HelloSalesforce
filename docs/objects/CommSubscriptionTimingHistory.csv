@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,CommSubscriptionTimingHistory.CommSubscriptionTiming,CommSubscriptionTimingId,CommSubscriptionTimingHistory,,CommSubscriptionTiming,コミュニケーション登録タイミング,コミュニケーション登録タイミング,参照関係(コミュニケーション登録タイミング),false,false,true,true,true,true
+000000000000000AAA,CommSubscriptionTimingHistory.CreatedBy,CreatedById,CommSubscriptionTimingHistory,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,CommSubscriptionTimingHistory.CreatedDate,CreatedDate,CommSubscriptionTimingHistory,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,CommSubscriptionTimingHistory.DataType,DataType,CommSubscriptionTimingHistory,,DataType,データ型,データ型,選択リスト,false,true,false,true,true,true
+000000000000000AAA,CommSubscriptionTimingHistory.Field,Field,CommSubscriptionTimingHistory,,Field,変更された項目,変更された項目,"選択リスト(カスタム項目の定義,カスタム項目データ列)",false,false,true,true,true,true
+000000000000000AAA,CommSubscriptionTimingHistory.Id,Id,CommSubscriptionTimingHistory,,Id,コミュニケーション登録タイミングの履歴 ID,コミュニケーション登録タイミングの履歴 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,CommSubscriptionTimingHistory.IsDeleted,IsDeleted,CommSubscriptionTimingHistory,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,CommSubscriptionTimingHistory.NewvalDate,NewvalDate,CommSubscriptionTimingHistory,,NewvalDate,新規の日付,新規の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,CommSubscriptionTimingHistory.NewvalFirstName,NewvalFirstName,CommSubscriptionTimingHistory,,NewvalFirstName,新規の名,新規の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,CommSubscriptionTimingHistory.NewvalLastName,NewvalLastName,CommSubscriptionTimingHistory,,NewvalLastName,新規の姓,新規の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,CommSubscriptionTimingHistory.NewValue,NewValue,CommSubscriptionTimingHistory,,NewValue,新しい値,新しい値,参照関係,false,true,false,false,false,true
+000000000000000AAA,CommSubscriptionTimingHistory.OldvalDate,OldvalDate,CommSubscriptionTimingHistory,,OldvalDate,元の日付,元の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,CommSubscriptionTimingHistory.OldvalFirstName,OldvalFirstName,CommSubscriptionTimingHistory,,OldvalFirstName,元の名,元の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,CommSubscriptionTimingHistory.OldvalLastName,OldvalLastName,CommSubscriptionTimingHistory,,OldvalLastName,元の姓,元の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,CommSubscriptionTimingHistory.OldValue,OldValue,CommSubscriptionTimingHistory,,OldValue,元の値,元の値,参照関係,false,true,false,false,false,true

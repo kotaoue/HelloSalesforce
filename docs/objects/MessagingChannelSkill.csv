@@ -1,0 +1,10 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,MessagingChannelSkill.CreatedBy,CreatedById,MessagingChannelSkill,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,MessagingChannelSkill.CreatedDate,CreatedDate,MessagingChannelSkill,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,MessagingChannelSkill.Id,Id,MessagingChannelSkill,,Id,Messaging Channel Skills ID,Messaging Channel Skills ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,MessagingChannelSkill.IsDeleted,IsDeleted,MessagingChannelSkill,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,MessagingChannelSkill.LastModifiedBy,LastModifiedById,MessagingChannelSkill,,LastModifiedBy,Modified By,Modified By,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,MessagingChannelSkill.LastModifiedDate,LastModifiedDate,MessagingChannelSkill,,LastModifiedDate,Modified On,Modified On,日付/時間,false,false,false,true,false,true
+000000000000000AAA,MessagingChannelSkill.MessagingChannel,MessagingChannelId,MessagingChannelSkill,,MessagingChannel,メッセージングチャネル,メッセージングチャネル,主従関係(メッセージングチャネル),false,false,true,true,true,true
+000000000000000AAA,MessagingChannelSkill.Skill,SkillId,MessagingChannelSkill,,Skill,スキル,スキル,参照関係(スキル),false,false,true,true,true,true
+000000000000000AAA,MessagingChannelSkill.SystemModstamp,SystemModstamp,MessagingChannelSkill,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

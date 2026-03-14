@@ -1,0 +1,17 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ConversationApiLogObjSum.ConversationApiLog,ConversationApiLogId,ConversationApiLogObjSum,,ConversationApiLog,会話 API ログ,会話 API ログ,主従関係(会話 API ログ),false,false,true,true,true,true
+000000000000000AAA,ConversationApiLogObjSum.CreatedBy,CreatedById,ConversationApiLogObjSum,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,ConversationApiLogObjSum.CreatedDate,CreatedDate,ConversationApiLogObjSum,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ConversationApiLogObjSum.EntityKeyPrefix,EntityKeyPrefix,ConversationApiLogObjSum,,EntityKeyPrefix,エンティティキープレフィックス,エンティティキープレフィックス,テキスト(3),false,false,false,true,true,true
+000000000000000AAA,ConversationApiLogObjSum.Id,Id,ConversationApiLogObjSum,,Id,会話 API ログオブジェクト概要 ID,会話 API ログオブジェクト概要 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ConversationApiLogObjSum.IsDeleted,IsDeleted,ConversationApiLogObjSum,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ConversationApiLogObjSum.LastModifiedBy,LastModifiedById,ConversationApiLogObjSum,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ConversationApiLogObjSum.LastModifiedDate,LastModifiedDate,ConversationApiLogObjSum,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ConversationApiLogObjSum.Name,Name,ConversationApiLogObjSum,,Name,会話 API ログオブジェクト概要名,会話 API ログオブジェクト概要名,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,ConversationApiLogObjSum.RecordCountFailed,RecordCountFailed,ConversationApiLogObjSum,,RecordCountFailed,失敗したレコード件数,失敗したレコード件数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,ConversationApiLogObjSum.RecordCountSuccess,RecordCountSuccess,ConversationApiLogObjSum,,RecordCountSuccess,成功したレコード件数,成功したレコード件数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,ConversationApiLogObjSum.RecordCountTotal,RecordCountTotal,ConversationApiLogObjSum,,RecordCountTotal,レコード件数合計,レコード件数合計,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,ConversationApiLogObjSum.RecordVisibility,RecordVisibilityId,ConversationApiLogObjSum,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,ConversationApiLogObjSum.StorageSystem,StorageSystem,ConversationApiLogObjSum,,StorageSystem,ストレージシステム,ストレージシステム,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ConversationApiLogObjSum.SystemModstamp,SystemModstamp,ConversationApiLogObjSum,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ConversationApiLogObjSum.UserRecordAccess,UserRecordAccessId,ConversationApiLogObjSum,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

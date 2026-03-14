@@ -1,0 +1,28 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,PaymentLineInvoice.Amount,Amount,PaymentLineInvoice,,Amount,金額,金額,通貨(16、2),false,false,false,true,false,true
+000000000000000AAA,PaymentLineInvoice.AppliedDate,AppliedDate,PaymentLineInvoice,,AppliedDate,適用日,適用日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,PaymentLineInvoice.AssociatedAccount,AssociatedAccountId,PaymentLineInvoice,,AssociatedAccount,関連付けられている取引先,関連付けられている取引先,参照関係(取引先),false,true,false,true,true,true
+000000000000000AAA,PaymentLineInvoice.AssociatedPaymentLine,AssociatedPaymentLineId,PaymentLineInvoice,,AssociatedPaymentLine,関連付けられている支払品目請求書,関連付けられている支払品目請求書,参照関係(支払い行請求書),false,true,false,true,true,true
+000000000000000AAA,PaymentLineInvoice.Comments,Comments,PaymentLineInvoice,,Comments,コメント,コメント,テキストエリア(1000),false,true,false,true,false,true
+000000000000000AAA,PaymentLineInvoice.CreatedBy,CreatedById,PaymentLineInvoice,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,PaymentLineInvoice.CreatedDate,CreatedDate,PaymentLineInvoice,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,PaymentLineInvoice.Date,Date,PaymentLineInvoice,,Date,日付,日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,PaymentLineInvoice.EffectiveDate,EffectiveDate,PaymentLineInvoice,,EffectiveDate,発効日,発効日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,PaymentLineInvoice.EffectiveImpactAmount,EffectiveImpactAmount,PaymentLineInvoice,,EffectiveImpactAmount,有効影響金額,有効影響金額,数式 (通貨),true,true,false,true,false,true
+000000000000000AAA,PaymentLineInvoice.HasBeenUnapplied,HasBeenUnapplied,PaymentLineInvoice,,HasBeenUnapplied,適用解除済み,適用解除済み,選択リスト,false,false,false,true,true,true
+000000000000000AAA,PaymentLineInvoice.Id,Id,PaymentLineInvoice,,Id,支払品目請求書 ID,支払品目請求書 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,PaymentLineInvoice.ImpactAmount,ImpactAmount,PaymentLineInvoice,,ImpactAmount,影響金額,影響金額,数式 (通貨),true,true,false,true,false,true
+000000000000000AAA,PaymentLineInvoice.Invoice,InvoiceId,PaymentLineInvoice,,Invoice,請求書,請求書,主従関係(請求書),false,false,true,true,true,true
+000000000000000AAA,PaymentLineInvoice.IsDeleted,IsDeleted,PaymentLineInvoice,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,PaymentLineInvoice.LastModifiedBy,LastModifiedById,PaymentLineInvoice,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,PaymentLineInvoice.LastModifiedDate,LastModifiedDate,PaymentLineInvoice,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,PaymentLineInvoice.LastReferencedDate,LastReferencedDate,PaymentLineInvoice,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,PaymentLineInvoice.LastViewedDate,LastViewedDate,PaymentLineInvoice,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,PaymentLineInvoice.Name,PaymentLineInvoiceNumber,PaymentLineInvoice,,Name,支払品目請求書番号,支払品目請求書番号,自動採番,false,false,true,true,false,true
+000000000000000AAA,PaymentLineInvoice.Payment,PaymentId,PaymentLineInvoice,,Payment,支払い,支払い,参照関係(支払い),false,false,true,true,true,true
+000000000000000AAA,PaymentLineInvoice.PaymentBalance,PaymentBalance,PaymentLineInvoice,,PaymentBalance,支払残高,支払残高,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,PaymentLineInvoice.RecordVisibility,RecordVisibilityId,PaymentLineInvoice,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,PaymentLineInvoice.SystemModstamp,SystemModstamp,PaymentLineInvoice,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,PaymentLineInvoice.Type,Type,PaymentLineInvoice,,Type,種別,種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,PaymentLineInvoice.UnappliedDate,UnappliedDate,PaymentLineInvoice,,UnappliedDate,適用解除日,適用解除日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,PaymentLineInvoice.UserRecordAccess,UserRecordAccessId,PaymentLineInvoice,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

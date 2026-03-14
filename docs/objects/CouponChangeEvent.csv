@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,CouponChangeEvent.ChangeEventHeader,ChangeEventHeader,CouponChangeEvent,,ChangeEventHeader,変更イベントヘッダー,変更イベントヘッダー,複合値,false,false,false,false,false,false
+000000000000000AAA,CouponChangeEvent.CouponCode,CouponCode,CouponChangeEvent,,CouponCode,クーポンコード,クーポンコード,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,CouponChangeEvent.CreatedBy,CreatedById,CouponChangeEvent,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,true,false,false,false,false
+000000000000000AAA,CouponChangeEvent.CreatedDate,CreatedDate,CouponChangeEvent,,CreatedDate,作成日,作成日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,CouponChangeEvent.Description,Description,CouponChangeEvent,,Description,説明,説明,テキストエリア(1000),false,true,false,false,false,false
+000000000000000AAA,CouponChangeEvent.EndDateTime,EndDateTime,CouponChangeEvent,,EndDateTime,終了日時,終了日時,日付/時間,false,true,false,false,false,false
+000000000000000AAA,CouponChangeEvent.LastModifiedBy,LastModifiedById,CouponChangeEvent,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,true,false,false,false,false
+000000000000000AAA,CouponChangeEvent.LastModifiedDate,LastModifiedDate,CouponChangeEvent,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,CouponChangeEvent.Name,Name,CouponChangeEvent,,Name,クーポン番号,クーポン番号,自動採番,false,false,false,false,false,false
+000000000000000AAA,CouponChangeEvent.Owner,OwnerId,CouponChangeEvent,,Owner,所有者 氏名,所有者 氏名,参照関係(ユーザー),false,true,false,false,false,false
+000000000000000AAA,CouponChangeEvent.Promotion,PromotionId,CouponChangeEvent,,Promotion,プロモーション,プロモーション,参照関係(プロモーション),false,true,false,false,false,false
+000000000000000AAA,CouponChangeEvent.RedemptionLimitAllBuyers,RedemptionLimitAllBuyers,CouponChangeEvent,,RedemptionLimitAllBuyers,受け取り制限 (すべてのバイヤー),受け取り制限 (すべてのバイヤー),数値(9、0),false,true,false,false,false,false
+000000000000000AAA,CouponChangeEvent.RedemptionLimitPerBuyer,RedemptionLimitPerBuyer,CouponChangeEvent,,RedemptionLimitPerBuyer,受け取り制限 (バイヤーごと),受け取り制限 (バイヤーごと),数値(9、0),false,true,false,false,false,false
+000000000000000AAA,CouponChangeEvent.StartDateTime,StartDateTime,CouponChangeEvent,,StartDateTime,開始日時,開始日時,日付/時間,false,true,false,false,false,false
+000000000000000AAA,CouponChangeEvent.Status,Status,CouponChangeEvent,,Status,状況,状況,選択リスト,false,true,false,false,false,false

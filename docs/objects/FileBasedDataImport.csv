@@ -1,0 +1,29 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,FileBasedDataImport.CreatedBy,CreatedById,FileBasedDataImport,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,FileBasedDataImport.CreatedDate,CreatedDate,FileBasedDataImport,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,FileBasedDataImport.DataFilterType,DataFilterType,FileBasedDataImport,,DataFilterType,データ条件種別,データ条件種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,FileBasedDataImport.FailedRecordContentDocument,FailedRecordContentDocumentId,FileBasedDataImport,,FailedRecordContentDocument,ファイルベースのデータインポート操作の失敗レコードコンテンツドキュメント,ファイルベースのデータインポート操作の失敗レコードコンテンツドキュメント,参照関係(コンテンツドキュメント),false,true,false,true,true,true
+000000000000000AAA,FileBasedDataImport.FailedRecordCount,FailedRecordCount,FileBasedDataImport,,FailedRecordCount,ファイルベースのデータインポート操作による失敗レコード件数,ファイルベースのデータインポート操作による失敗レコード件数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,FileBasedDataImport.Id,Id,FileBasedDataImport,,Id,ファイルベースのデータインポート ID,ファイルベースのデータインポート ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,FileBasedDataImport.IsDeleted,IsDeleted,FileBasedDataImport,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,FileBasedDataImport.JobIdentifier,JobIdentifier,FileBasedDataImport,,JobIdentifier,ファイルベースのデータインポートジョブ識別子,ファイルベースのデータインポートジョブ識別子,テキスト(225),false,true,false,true,true,true
+000000000000000AAA,FileBasedDataImport.LastModifiedBy,LastModifiedById,FileBasedDataImport,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,FileBasedDataImport.LastModifiedDate,LastModifiedDate,FileBasedDataImport,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,FileBasedDataImport.OperationType,OperationType,FileBasedDataImport,,OperationType,ファイルベースのデータインポート操作種別,ファイルベースのデータインポート操作種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,FileBasedDataImport.Owner,OwnerId,FileBasedDataImport,,Owner,ファイルベースのデータインポート所有者,ファイルベースのデータインポート所有者,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,FileBasedDataImport.ParentJobDataImport,ParentJobDataImportId,FileBasedDataImport,,ParentJobDataImport,親のファイルベースのデータインポート,親のファイルベースのデータインポート,参照関係(ファイルベースのデータインポート),false,true,false,true,true,true
+000000000000000AAA,FileBasedDataImport.RecordVisibility,RecordVisibilityId,FileBasedDataImport,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,FileBasedDataImport.RequestOrigin,RequestOrigin,FileBasedDataImport,,RequestOrigin,要求元,要求元,テキスト(225),false,true,false,true,true,true
+000000000000000AAA,FileBasedDataImport.RuntimeAttributeConfig,RuntimeAttributeConfig,FileBasedDataImport,,RuntimeAttributeConfig,ランタイム属性設定,ランタイム属性設定,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,FileBasedDataImport.SourceContentDocument,SourceContentDocumentId,FileBasedDataImport,,SourceContentDocument,ファイルベースのデータインポートソースコンテンツドキュメント,ファイルベースのデータインポートソースコンテンツドキュメント,参照関係(コンテンツドキュメント),false,true,false,true,true,true
+000000000000000AAA,FileBasedDataImport.SourceFileName,SourceFileName,FileBasedDataImport,,SourceFileName,ファイルベースのデータインポートソースファイル名,ファイルベースのデータインポートソースファイル名,テキスト(225),false,false,false,true,true,true
+000000000000000AAA,FileBasedDataImport.Status,Status,FileBasedDataImport,,Status,ファイルベースのデータインポート状況,ファイルベースのデータインポート状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,FileBasedDataImport.StatusReason,StatusReason,FileBasedDataImport,,StatusReason,ファイルベースのデータインポート状況の理由,ファイルベースのデータインポート状況の理由,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,FileBasedDataImport.SuccessfulRecordContentDoc,SuccessfulRecordContentDocId,FileBasedDataImport,,SuccessfulRecordContentDoc,ファイルベースのデータインポート操作の成功レコードコンテンツドキュメント,ファイルベースのデータインポート操作の成功レコードコンテンツドキュメント,参照関係(コンテンツドキュメント),false,true,false,true,true,true
+000000000000000AAA,FileBasedDataImport.SuccessfulRecordCount,SuccessfulRecordCount,FileBasedDataImport,,SuccessfulRecordCount,ファイルベースのデータインポート操作による成功レコード件数,ファイルベースのデータインポート操作による成功レコード件数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,FileBasedDataImport.SystemModstamp,SystemModstamp,FileBasedDataImport,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,FileBasedDataImport.TargetContext,TargetContext,FileBasedDataImport,,TargetContext,ファイルベースのデータインポート操作の対象コンテキスト,ファイルベースのデータインポート操作の対象コンテキスト,テキスト(225),false,true,false,true,true,true
+000000000000000AAA,FileBasedDataImport.Type,Type,FileBasedDataImport,,Type,ファイルベースのデータインポート種別,ファイルベースのデータインポート種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,FileBasedDataImport.UnprocessedRecordContentDoc,UnprocessedRecordContentDocId,FileBasedDataImport,,UnprocessedRecordContentDoc,ファイルベースのデータインポート操作の未処理レコードコンテンツドキュメント,ファイルベースのデータインポート操作の未処理レコードコンテンツドキュメント,参照関係(コンテンツドキュメント),false,true,false,true,true,true
+000000000000000AAA,FileBasedDataImport.UnprocessedRecordCount,UnprocessedRecordCount,FileBasedDataImport,,UnprocessedRecordCount,ファイルベースのデータインポート操作による未処理レコード件数,ファイルベースのデータインポート操作による未処理レコード件数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,FileBasedDataImport.UserRecordAccess,UserRecordAccessId,FileBasedDataImport,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

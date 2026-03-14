@@ -1,0 +1,9 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ContactPointPhoneShare.AccessLevel,AccessLevel,ContactPointPhoneShare,,AccessLevel,カスタムオブジェクトのアクセス権,カスタムオブジェクトのアクセス権,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ContactPointPhoneShare.Id,Id,ContactPointPhoneShare,,Id,カスタムオブジェクト共有 ID,カスタムオブジェクト共有 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ContactPointPhoneShare.IsDeleted,IsDeleted,ContactPointPhoneShare,,IsDeleted,削除,削除,チェックボックス,false,false,true,true,true,true
+000000000000000AAA,ContactPointPhoneShare.LastModifiedBy,LastModifiedById,ContactPointPhoneShare,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ContactPointPhoneShare.LastModifiedDate,LastModifiedDate,ContactPointPhoneShare,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ContactPointPhoneShare.Parent,ParentId,ContactPointPhoneShare,,Parent,参照先,参照先,参照関係(連絡先電話番号),false,false,true,true,true,true
+000000000000000AAA,ContactPointPhoneShare.RowCause,RowCause,ContactPointPhoneShare,,RowCause,テリトリー割り当て方法,テリトリー割り当て方法,選択リスト(Apex 共有の理由),false,true,false,true,true,true
+000000000000000AAA,ContactPointPhoneShare.UserOrGroup,UserOrGroupId,ContactPointPhoneShare,,UserOrGroup,ユーザー/グループ,ユーザー/グループ,"参照関係(ユーザー,グループ)",false,false,true,true,true,true

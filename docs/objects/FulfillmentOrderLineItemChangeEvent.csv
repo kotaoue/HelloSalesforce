@@ -1,0 +1,32 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.ChangeEventHeader,ChangeEventHeader,FulfillmentOrderLineItemChangeEvent,,ChangeEventHeader,変更イベントヘッダー,変更イベントヘッダー,複合値,false,false,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.CreatedBy,CreatedById,FulfillmentOrderLineItemChangeEvent,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.CreatedDate,CreatedDate,FulfillmentOrderLineItemChangeEvent,,CreatedDate,作成日,作成日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.Description,Description,FulfillmentOrderLineItemChangeEvent,,Description,説明,説明,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.EndDate,EndDate,FulfillmentOrderLineItemChangeEvent,,EndDate,終了日,終了日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.FulfillmentOrder,FulfillmentOrderId,FulfillmentOrderLineItemChangeEvent,,FulfillmentOrder,履行注文,履行注文,参照関係(履行注文),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.GrossUnitPrice,GrossUnitPrice,FulfillmentOrderLineItemChangeEvent,,GrossUnitPrice,総単価,総単価,通貨(16、2),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.IsReship,IsReship,FulfillmentOrderLineItemChangeEvent,,IsReship,再配送,再配送,チェックボックス,false,false,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.LastModifiedBy,LastModifiedById,FulfillmentOrderLineItemChangeEvent,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.LastModifiedDate,LastModifiedDate,FulfillmentOrderLineItemChangeEvent,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.MainFulfillmentOrderLineItem,MainFulfillmentOrderLineItemId,FulfillmentOrderLineItemChangeEvent,,MainFulfillmentOrderLineItem,メイン履行注文商品,メイン履行注文商品,参照関係(履行注文商品),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.Name,FulfillmentOrderLineItemNumber,FulfillmentOrderLineItemChangeEvent,,Name,履行注文商品番号,履行注文商品番号,自動採番,false,false,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.OrderItem,OrderItemId,FulfillmentOrderLineItemChangeEvent,,OrderItem,注文商品,注文商品,参照関係(注文商品),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.OriginalQuantity,OriginalQuantity,FulfillmentOrderLineItemChangeEvent,,OriginalQuantity,元の注文の数量,元の注文の数量,数値(18、0),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.Product2,Product2Id,FulfillmentOrderLineItemChangeEvent,,Product2,商品,商品,参照関係(商品),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.Quantity,Quantity,FulfillmentOrderLineItemChangeEvent,,Quantity,数量,数量,数値(18、0),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.QuantityUnitOfMeasure,QuantityUnitOfMeasure,FulfillmentOrderLineItemChangeEvent,,QuantityUnitOfMeasure,数量単位,数量単位,テキスト(100),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.RejectedQuantity,RejectedQuantity,FulfillmentOrderLineItemChangeEvent,,RejectedQuantity,却下数量,却下数量,数値(18、0),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.RejectReason,RejectReason,FulfillmentOrderLineItemChangeEvent,,RejectReason,却下の理由,却下の理由,選択リスト,false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.ReshipReason,ReshipReason,FulfillmentOrderLineItemChangeEvent,,ReshipReason,再配送の理由,再配送の理由,選択リスト,false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.ServiceDate,ServiceDate,FulfillmentOrderLineItemChangeEvent,,ServiceDate,開始日,開始日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.TotalAdjustmentAmount,TotalAdjustmentAmount,FulfillmentOrderLineItemChangeEvent,,TotalAdjustmentAmount,調整,調整,通貨(16、2),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.TotalAdjustmentAmountWithTax,TotalAdjustmentAmountWithTax,FulfillmentOrderLineItemChangeEvent,,TotalAdjustmentAmountWithTax,調整額 (税込),調整額 (税込),通貨(16、2),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.TotalAdjustmentTaxAmount,TotalAdjustmentTaxAmount,FulfillmentOrderLineItemChangeEvent,,TotalAdjustmentTaxAmount,調整税額,調整税額,通貨(16、2),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.TotalAmount,TotalAmount,FulfillmentOrderLineItemChangeEvent,,TotalAmount,税込合計,税込合計,通貨(16、2),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.TotalLineAmount,TotalLineAmount,FulfillmentOrderLineItemChangeEvent,,TotalLineAmount,品目小計,品目小計,通貨(16、2),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.TotalLineAmountWithTax,TotalLineAmountWithTax,FulfillmentOrderLineItemChangeEvent,,TotalLineAmountWithTax,品目小計 (税込),品目小計 (税込),通貨(16、2),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.TotalLineTaxAmount,TotalLineTaxAmount,FulfillmentOrderLineItemChangeEvent,,TotalLineTaxAmount,品目小計税額,品目小計税額,通貨(16、2),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.TotalPrice,TotalPrice,FulfillmentOrderLineItemChangeEvent,,TotalPrice,税引前合計,税引前合計,通貨(16、2),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.TotalTaxAmount,TotalTaxAmount,FulfillmentOrderLineItemChangeEvent,,TotalTaxAmount,税金,税金,通貨(16、2),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderLineItemChangeEvent.UnitPrice,UnitPrice,FulfillmentOrderLineItemChangeEvent,,UnitPrice,単価,単価,通貨(16、2),false,true,false,false,false,false

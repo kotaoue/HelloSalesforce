@@ -1,0 +1,23 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ApiAnomalyEvent.CreatedDate,CreatedDate,ApiAnomalyEvent,,CreatedDate,作成日,作成日,日付/時間,false,false,false,false,false,false
+000000000000000AAA,ApiAnomalyEvent.EvaluationTime,EvaluationTime,ApiAnomalyEvent,,EvaluationTime,評価時間,評価時間,数値(18、0),false,true,false,false,false,false
+000000000000000AAA,ApiAnomalyEvent.EventDate,EventDate,ApiAnomalyEvent,,EventDate,イベント日,イベント日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,ApiAnomalyEvent.EventIdentifier,EventIdentifier,ApiAnomalyEvent,,EventIdentifier,行動 ID,行動 ID,テキスト(80),false,true,false,false,false,false
+000000000000000AAA,ApiAnomalyEvent.EventUuid,EventUuid,ApiAnomalyEvent,,EventUuid,イベント UUID,イベント UUID,テキスト(36),false,true,false,false,false,false
+000000000000000AAA,ApiAnomalyEvent.LoginKey,LoginKey,ApiAnomalyEvent,,LoginKey,ログインキー,ログインキー,テキスト(24),false,true,false,false,false,false
+000000000000000AAA,ApiAnomalyEvent.Operation,Operation,ApiAnomalyEvent,,Operation,操作,操作,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,ApiAnomalyEvent.Policy,PolicyId,ApiAnomalyEvent,,Policy,ポリシー,ポリシー,参照関係(Transaction Security Policy),false,true,false,false,false,false
+000000000000000AAA,ApiAnomalyEvent.PolicyOutcome,PolicyOutcome,ApiAnomalyEvent,,PolicyOutcome,ポリシーの結果,ポリシーの結果,選択リスト,false,true,false,false,false,false
+000000000000000AAA,ApiAnomalyEvent.QueriedEntities,QueriedEntities,ApiAnomalyEvent,,QueriedEntities,照会されるエンティティ,照会されるエンティティ,テキスト(1000),false,true,false,false,false,false
+000000000000000AAA,ApiAnomalyEvent.ReplayId,ReplayId,ApiAnomalyEvent,,ReplayId,再実行 ID,再実行 ID,外部参照,false,true,false,false,false,false
+000000000000000AAA,ApiAnomalyEvent.RequestIdentifier,RequestIdentifier,ApiAnomalyEvent,,RequestIdentifier,要求識別子,要求識別子,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,ApiAnomalyEvent.RowsProcessed,RowsProcessed,ApiAnomalyEvent,,RowsProcessed,処理行,処理行,数値(18、0),false,true,false,false,false,false
+000000000000000AAA,ApiAnomalyEvent.Score,Score,ApiAnomalyEvent,,Score,スコア,スコア,数値(6、6),false,true,false,false,false,false
+000000000000000AAA,ApiAnomalyEvent.SecurityEventData,SecurityEventData,ApiAnomalyEvent,,SecurityEventData,イベントデータ,イベントデータ,ロングテキストエリア(10000),false,true,false,false,false,false
+000000000000000AAA,ApiAnomalyEvent.SessionKey,SessionKey,ApiAnomalyEvent,,SessionKey,セッションキー,セッションキー,テキスト(24),false,true,false,false,false,false
+000000000000000AAA,ApiAnomalyEvent.SourceIp,SourceIp,ApiAnomalyEvent,,SourceIp,IP アドレス,IP アドレス,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,ApiAnomalyEvent.Summary,Summary,ApiAnomalyEvent,,Summary,概要,概要,ロングテキストエリア(1000),false,true,false,false,false,false
+000000000000000AAA,ApiAnomalyEvent.Uri,Uri,ApiAnomalyEvent,,Uri,Uri,Uri,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,ApiAnomalyEvent.User,UserId,ApiAnomalyEvent,,User,ユーザー,ユーザー,参照関係(ユーザー),false,true,false,false,false,false
+000000000000000AAA,ApiAnomalyEvent.UserAgent,UserAgent,ApiAnomalyEvent,,UserAgent,ユーザーエージェント,ユーザーエージェント,テキスト(1000),false,true,false,false,false,false
+000000000000000AAA,ApiAnomalyEvent.Username,Username,ApiAnomalyEvent,,Username,ユーザー名,ユーザー名,テキスト(255),false,true,false,false,false,false

@@ -1,0 +1,19 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,LocationGroupAssignment.CreatedBy,CreatedById,LocationGroupAssignment,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,LocationGroupAssignment.CreatedDate,CreatedDate,LocationGroupAssignment,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,LocationGroupAssignment.Id,Id,LocationGroupAssignment,,Id,ロケーショングループ割り当て ID,ロケーショングループ割り当て ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,LocationGroupAssignment.IsDeleted,IsDeleted,LocationGroupAssignment,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,LocationGroupAssignment.LastModifiedBy,LastModifiedById,LocationGroupAssignment,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,LocationGroupAssignment.LastModifiedDate,LastModifiedDate,LocationGroupAssignment,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,LocationGroupAssignment.LastReferencedDate,LastReferencedDate,LocationGroupAssignment,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,LocationGroupAssignment.LastViewedDate,LastViewedDate,LocationGroupAssignment,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,LocationGroupAssignment.Location,LocationId,LocationGroupAssignment,,Location,ロケーション,ロケーション,主従関係(ロケーション),false,false,true,true,true,true
+000000000000000AAA,LocationGroupAssignment.LocationExternalReference,LocationExternalReference,LocationGroupAssignment,,LocationExternalReference,外部参照,外部参照,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,LocationGroupAssignment.LocationGroup,LocationGroupId,LocationGroupAssignment,,LocationGroup,ロケーショングループ,ロケーショングループ,主従関係(ロケーショングループ),false,false,false,true,true,true
+000000000000000AAA,LocationGroupAssignment.LocationGroupExternalReference,LocationGroupExternalReference,LocationGroupAssignment,,LocationGroupExternalReference,外部参照,外部参照,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,LocationGroupAssignment.LocationGroupName,LocationGroupName,LocationGroupAssignment,,LocationGroupName,ロケーショングループ番号,ロケーショングループ番号,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,LocationGroupAssignment.LocationName,LocationName,LocationGroupAssignment,,LocationName,ロケーション名,ロケーション名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,LocationGroupAssignment.Name,LocationGroupAssignment,LocationGroupAssignment,,Name,ロケーショングループ割り当て名,ロケーショングループ割り当て名,自動採番,false,false,true,true,false,true
+000000000000000AAA,LocationGroupAssignment.RecordVisibility,RecordVisibilityId,LocationGroupAssignment,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,LocationGroupAssignment.SystemModstamp,SystemModstamp,LocationGroupAssignment,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,LocationGroupAssignment.UserRecordAccess,UserRecordAccessId,LocationGroupAssignment,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

@@ -1,0 +1,12 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ExtlClntAppNotifType.CreatedBy,CreatedById,ExtlClntAppNotifType,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppNotifType.CreatedDate,CreatedDate,ExtlClntAppNotifType,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ExtlClntAppNotifType.ExtlClntAppNotifSettings,ExtlClntAppNotifSettingsId,ExtlClntAppNotifType,,ExtlClntAppNotifSettings,外部クライアントアプリケーション通知設定,外部クライアントアプリケーション通知設定,主従関係(外部クライアントアプリケーション通知設定),false,false,true,true,true,true
+000000000000000AAA,ExtlClntAppNotifType.Id,Id,ExtlClntAppNotifType,,Id,外部クライアントアプリケーション通知種別 ID,外部クライアントアプリケーション通知種別 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ExtlClntAppNotifType.IsDeleted,IsDeleted,ExtlClntAppNotifType,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppNotifType.IsPushByDefault,IsPushByDefault,ExtlClntAppNotifType,,IsPushByDefault,デフォルトで転送,デフォルトで転送,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppNotifType.LastModifiedBy,LastModifiedById,ExtlClntAppNotifType,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppNotifType.LastModifiedDate,LastModifiedDate,ExtlClntAppNotifType,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ExtlClntAppNotifType.ManageableState,ManageableState,ExtlClntAppNotifType,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ExtlClntAppNotifType.NotificationType,NotificationType,ExtlClntAppNotifType,,NotificationType,通知種別,通知種別,選択リスト(カスタム通知種別),false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppNotifType.SystemModstamp,SystemModstamp,ExtlClntAppNotifType,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

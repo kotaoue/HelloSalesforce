@@ -1,0 +1,32 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ChangeRequest.BusinessJustification,BusinessJustification,ChangeRequest,,BusinessJustification,ビジネスの正当性,ビジネスの正当性,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,ChangeRequest.BusinessReason,BusinessReason,ChangeRequest,,BusinessReason,ビジネスの理由,ビジネスの理由,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ChangeRequest.Category,Category,ChangeRequest,,Category,カテゴリ,カテゴリ,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ChangeRequest.ChangeType,ChangeType,ChangeRequest,,ChangeType,変更の種別,変更の種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ChangeRequest.CreatedBy,CreatedById,ChangeRequest,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,ChangeRequest.CreatedDate,CreatedDate,ChangeRequest,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ChangeRequest.Description,Description,ChangeRequest,,Description,説明,説明,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,ChangeRequest.EstimatedEndTime,EstimatedEndTime,ChangeRequest,,EstimatedEndTime,終了時刻 (推定),終了時刻 (推定),日付/時間,false,true,false,true,false,true
+000000000000000AAA,ChangeRequest.EstimatedStartTime,EstimatedStartTime,ChangeRequest,,EstimatedStartTime,開始時刻 (推定),開始時刻 (推定),日付/時間,false,true,false,true,false,true
+000000000000000AAA,ChangeRequest.FinalReviewDateTime,FinalReviewDateTime,ChangeRequest,,FinalReviewDateTime,確認日時,確認日時,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ChangeRequest.FinalReviewNotes,FinalReviewNotes,ChangeRequest,,FinalReviewNotes,最終確認メモ,最終確認メモ,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,ChangeRequest.Id,Id,ChangeRequest,,Id,変更要求 ID,変更要求 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ChangeRequest.Impact,Impact,ChangeRequest,,Impact,影響,影響,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ChangeRequest.IsDeleted,IsDeleted,ChangeRequest,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ChangeRequest.LastModifiedBy,LastModifiedById,ChangeRequest,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ChangeRequest.LastModifiedDate,LastModifiedDate,ChangeRequest,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ChangeRequest.LastReferencedDate,LastReferencedDate,ChangeRequest,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ChangeRequest.LastViewedDate,LastViewedDate,ChangeRequest,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ChangeRequest.Name,ChangeRequestNumber,ChangeRequest,,Name,変更要求番号,変更要求番号,自動採番,false,false,true,true,false,true
+000000000000000AAA,ChangeRequest.Owner,OwnerId,ChangeRequest,,Owner,変更要求所有者,変更要求所有者,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,ChangeRequest.Priority,Priority,ChangeRequest,,Priority,優先度,優先度,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ChangeRequest.RecordVisibility,RecordVisibilityId,ChangeRequest,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,ChangeRequest.RemediationPlan,RemediationPlan,ChangeRequest,,RemediationPlan,改善プラン,改善プラン,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,ChangeRequest.Reviewer,ReviewerId,ChangeRequest,,Reviewer,確認者,確認者,参照関係(ユーザー),false,true,false,true,true,true
+000000000000000AAA,ChangeRequest.RiskImpactAnalysis,RiskImpactAnalysis,ChangeRequest,,RiskImpactAnalysis,影響分析,影響分析,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,ChangeRequest.RiskLevel,RiskLevel,ChangeRequest,,RiskLevel,リスクレベル,リスクレベル,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ChangeRequest.Status,Status,ChangeRequest,,Status,状況,状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ChangeRequest.StatusCode,StatusCode,ChangeRequest,,StatusCode,状況コード,状況コード,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ChangeRequest.Subject,Subject,ChangeRequest,,Subject,件名,件名,テキスト(255),false,false,false,true,true,true
+000000000000000AAA,ChangeRequest.SystemModstamp,SystemModstamp,ChangeRequest,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ChangeRequest.UserRecordAccess,UserRecordAccessId,ChangeRequest,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

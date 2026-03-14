@@ -1,0 +1,11 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,InstalledSubscriberPackageVersion.CreatedBy,CreatedById,InstalledSubscriberPackageVersion,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,InstalledSubscriberPackageVersion.CreatedDate,CreatedDate,InstalledSubscriberPackageVersion,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,InstalledSubscriberPackageVersion.Id,Id,InstalledSubscriberPackageVersion,,Id,インストール済み第二世代パッケージバージョン ID,インストール済み第二世代パッケージバージョン ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,InstalledSubscriberPackageVersion.IsDeleted,IsDeleted,InstalledSubscriberPackageVersion,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,InstalledSubscriberPackageVersion.LastModifiedBy,LastModifiedById,InstalledSubscriberPackageVersion,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,InstalledSubscriberPackageVersion.LastModifiedDate,LastModifiedDate,InstalledSubscriberPackageVersion,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,InstalledSubscriberPackageVersion.MinPackageVersion,MinPackageVersionId,InstalledSubscriberPackageVersion,,MinPackageVersion,最小第二世代パッケージバージョン,最小第二世代パッケージバージョン,参照関係(登録者パッケージバージョン),false,true,false,true,true,true
+000000000000000AAA,InstalledSubscriberPackageVersion.SubscriberPackage,SubscriberPackageId,InstalledSubscriberPackageVersion,,SubscriberPackage,登録者パッケージ,登録者パッケージ,参照関係(登録者パッケージ),false,false,true,true,true,true
+000000000000000AAA,InstalledSubscriberPackageVersion.SubscriberPackageVersion,SubscriberPackageVersionId,InstalledSubscriberPackageVersion,,SubscriberPackageVersion,登録者パッケージバージョン,登録者パッケージバージョン,参照関係(登録者パッケージバージョン)  (ユニーク),false,false,true,true,true,true
+000000000000000AAA,InstalledSubscriberPackageVersion.SystemModstamp,SystemModstamp,InstalledSubscriberPackageVersion,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

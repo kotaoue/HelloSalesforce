@@ -1,0 +1,22 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,MLFilter.CreatedBy,CreatedById,MLFilter,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,MLFilter.CreatedDate,CreatedDate,MLFilter,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,MLFilter.FilterName,FilterName,MLFilter,,FilterName,検索条件名,検索条件名,テキスト(255),false,false,false,true,true,true
+000000000000000AAA,MLFilter.Id,Id,MLFilter,,Id,ML 条件 ID,ML 条件 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,MLFilter.IsDeleted,IsDeleted,MLFilter,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,MLFilter.LastModifiedBy,LastModifiedById,MLFilter,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,MLFilter.LastModifiedDate,LastModifiedDate,MLFilter,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,MLFilter.LhFilter,LhFilterId,MLFilter,,LhFilter,左側の条件,左側の条件,参照関係(ML 条件),false,true,false,true,true,true
+000000000000000AAA,MLFilter.LhPredictionField,LhPredictionField,MLFilter,,LhPredictionField,左側の予測項目,左側の予測項目,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MLFilter.LhType,LhType,MLFilter,,LhType,左側オペランドのデータ型,左側オペランドのデータ型,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MLFilter.LhUnit,LhUnit,MLFilter,,LhUnit,左側の条件の条件単位,左側の条件の条件単位,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MLFilter.LhValue,LhValue,MLFilter,,LhValue,左側オペランドの値,左側オペランドの値,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MLFilter.Operation,Operation,MLFilter,,Operation,演算子,演算子,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MLFilter.ParentDefinition,ParentDefinitionId,MLFilter,,ParentDefinition,親定義,親定義,"参照関係(ML 予測定義,ML データ定義,ML おすすめ定義)",false,false,true,true,true,true
+000000000000000AAA,MLFilter.RhFilter,RhFilterId,MLFilter,,RhFilter,右側の条件,右側の条件,参照関係(ML 条件),false,true,false,true,true,true
+000000000000000AAA,MLFilter.RhPredictionField,RhPredictionField,MLFilter,,RhPredictionField,右側の予測項目,右側の予測項目,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MLFilter.RhType,RhType,MLFilter,,RhType,右側オペランドのデータ型,右側オペランドのデータ型,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MLFilter.RhUnit,RhUnit,MLFilter,,RhUnit,右側の条件の条件単位,右側の条件の条件単位,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MLFilter.RhValue,RhValue,MLFilter,,RhValue,右側オペランドの値,右側オペランドの値,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MLFilter.SortOrder,SortOrder,MLFilter,,SortOrder,並び替え順,並び替え順,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,MLFilter.SystemModstamp,SystemModstamp,MLFilter,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

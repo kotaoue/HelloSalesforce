@@ -1,0 +1,23 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DataActionJobStatusEvent.CreatedBy,CreatedById,DataActionJobStatusEvent,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,false,false,false
+000000000000000AAA,DataActionJobStatusEvent.CreatedDate,CreatedDate,DataActionJobStatusEvent,,CreatedDate,作成日,作成日,日付/時間,false,false,false,false,false,false
+000000000000000AAA,DataActionJobStatusEvent.DataActionApiName,DataActionApiName,DataActionJobStatusEvent,,DataActionApiName,Data Action developer name,Data Action developer name,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,DataActionJobStatusEvent.EndExecutionTime,EndExecutionTime,DataActionJobStatusEvent,,EndExecutionTime,Execution end time,Execution end time,日付/時間,false,true,false,false,false,false
+000000000000000AAA,DataActionJobStatusEvent.EventPublishDate,EventPublishDate,DataActionJobStatusEvent,,EventPublishDate,Event published time,Event published time,日付/時間,false,true,false,false,false,false
+000000000000000AAA,DataActionJobStatusEvent.EventType,EventType,DataActionJobStatusEvent,,EventType,Type of Data Cloud Event,Type of Data Cloud Event,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,DataActionJobStatusEvent.EventUuid,EventUuid,DataActionJobStatusEvent,,EventUuid,Event UUID,Event UUID,テキスト(36),false,true,false,false,false,false
+000000000000000AAA,DataActionJobStatusEvent.ExecutionDetails,ExecutionDetails,DataActionJobStatusEvent,,ExecutionDetails,Execution details of related process,Execution details of related process,テキスト(1333),false,true,false,false,false,false
+000000000000000AAA,DataActionJobStatusEvent.ExternalRequestName,ExternalRequestName,DataActionJobStatusEvent,,ExternalRequestName,Request source for this enrichment,Request source for this enrichment,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,DataActionJobStatusEvent.FailedRecordCount,FailedRecordCount,DataActionJobStatusEvent,,FailedRecordCount,Info on failed records,Info on failed records,数値(18、0),false,true,false,false,false,false
+000000000000000AAA,DataActionJobStatusEvent.FailedRecords,FailedRecords,DataActionJobStatusEvent,,FailedRecords,Info on failed records,Info on failed records,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,DataActionJobStatusEvent.JobIdentifier,JobIdentifier,DataActionJobStatusEvent,,JobIdentifier,Unique ID for data action job,Unique ID for data action job,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,DataActionJobStatusEvent.JobStatus,JobStatus,DataActionJobStatusEvent,,JobStatus,Job type Batch or Incremental,Job type Batch or Incremental,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,DataActionJobStatusEvent.JobType,JobType,DataActionJobStatusEvent,,JobType,Job type Batch or Incremental,Job type Batch or Incremental,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,DataActionJobStatusEvent.ProcessedRecordCount,ProcessedRecordCount,DataActionJobStatusEvent,,ProcessedRecordCount,Number of processed records updated,Number of processed records updated,数値(18、0),false,true,false,false,false,false
+000000000000000AAA,DataActionJobStatusEvent.ProcessName,ProcessName,DataActionJobStatusEvent,,ProcessName,Developer name of enrichment definition,Developer name of enrichment definition,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,DataActionJobStatusEvent.ReplayId,ReplayId,DataActionJobStatusEvent,,ReplayId,Replay Id,Replay Id,外部参照,false,true,false,false,false,false
+000000000000000AAA,DataActionJobStatusEvent.RequestSource,RequestSource,DataActionJobStatusEvent,,RequestSource,Data Action/Enrichment source- DPE/ObjectManager,Data Action/Enrichment source- DPE/ObjectManager,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,DataActionJobStatusEvent.SchemaVersion,SchemaVersion,DataActionJobStatusEvent,,SchemaVersion,Schema version,Schema version,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,DataActionJobStatusEvent.SkippedRecordsCount,SkippedRecordsCount,DataActionJobStatusEvent,,SkippedRecordsCount,Number of records skipped,Number of records skipped,数値(18、0),false,true,false,false,false,false
+000000000000000AAA,DataActionJobStatusEvent.StartExecutionTime,StartExecutionTime,DataActionJobStatusEvent,,StartExecutionTime,Execution start time,Execution start time,日付/時間,false,true,false,false,false,false
+000000000000000AAA,DataActionJobStatusEvent.UpdatedRecordCount,UpdatedRecordCount,DataActionJobStatusEvent,,UpdatedRecordCount,Number of records updated,Number of records updated,数値(18、0),false,true,false,false,false,false

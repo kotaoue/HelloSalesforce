@@ -1,0 +1,18 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DataKnowledgeSrcFileRef.CreatedBy,CreatedById,DataKnowledgeSrcFileRef,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,DataKnowledgeSrcFileRef.CreatedDate,CreatedDate,DataKnowledgeSrcFileRef,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DataKnowledgeSrcFileRef.DataKnowledgeLibrary,DataKnowledgeLibraryId,DataKnowledgeSrcFileRef,,DataKnowledgeLibrary,データナレッジライブラリ,データナレッジライブラリ,参照関係(データナレッジライブラリ),false,true,false,true,true,true
+000000000000000AAA,DataKnowledgeSrcFileRef.DataKnowledgeSource,DataKnowledgeSourceId,DataKnowledgeSrcFileRef,,DataKnowledgeSource,データナレッジソース,データナレッジソース,参照関係(データナレッジソース),false,true,false,true,true,true
+000000000000000AAA,DataKnowledgeSrcFileRef.FileName,FileName,DataKnowledgeSrcFileRef,,FileName,ファイル名,ファイル名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataKnowledgeSrcFileRef.FilePath,FilePath,DataKnowledgeSrcFileRef,,FilePath,ファイルパス,ファイルパス,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataKnowledgeSrcFileRef.FileType,FileType,DataKnowledgeSrcFileRef,,FileType,ファイルの種類,ファイルの種類,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataKnowledgeSrcFileRef.Id,Id,DataKnowledgeSrcFileRef,,Id,データナレッジソースファイル参照 ID,データナレッジソースファイル参照 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DataKnowledgeSrcFileRef.IsDeleted,IsDeleted,DataKnowledgeSrcFileRef,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DataKnowledgeSrcFileRef.LastModifiedBy,LastModifiedById,DataKnowledgeSrcFileRef,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DataKnowledgeSrcFileRef.LastModifiedDate,LastModifiedDate,DataKnowledgeSrcFileRef,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DataKnowledgeSrcFileRef.Name,Name,DataKnowledgeSrcFileRef,,Name,ナレッジソースファイル参照名,ナレッジソースファイル参照名,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,DataKnowledgeSrcFileRef.Owner,OwnerId,DataKnowledgeSrcFileRef,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,DataKnowledgeSrcFileRef.RecordVisibility,RecordVisibilityId,DataKnowledgeSrcFileRef,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,DataKnowledgeSrcFileRef.SourceFileStatus,SourceFileStatus,DataKnowledgeSrcFileRef,,SourceFileStatus,ソースファイルの状況,ソースファイルの状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataKnowledgeSrcFileRef.SystemModstamp,SystemModstamp,DataKnowledgeSrcFileRef,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DataKnowledgeSrcFileRef.UserRecordAccess,UserRecordAccessId,DataKnowledgeSrcFileRef,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

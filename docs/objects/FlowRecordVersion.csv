@@ -1,0 +1,43 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,FlowRecordVersion.ActivatedBy,ActivatedById,FlowRecordVersion,,ActivatedBy,有効化設定者,有効化設定者,参照関係(ユーザー),false,true,false,true,true,true
+000000000000000AAA,FlowRecordVersion.ActivatedDate,ActivatedDate,FlowRecordVersion,,ActivatedDate,有効化日,有効化日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,FlowRecordVersion.ApiVersion,ApiVersion,FlowRecordVersion,,ApiVersion,API バージョン,API バージョン,数値(17、1),false,true,false,true,false,true
+000000000000000AAA,FlowRecordVersion.AreMetricsLoggedToDataCloud,AreMetricsLoggedToDataCloud,FlowRecordVersion,,AreMetricsLoggedToDataCloud,メトリクスを Data Cloud に記録,メトリクスを Data Cloud に記録,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,FlowRecordVersion.Builder,Builder,FlowRecordVersion,,Builder,次を使用して作成,次を使用して作成,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FlowRecordVersion.CapacityCategory,CapacityCategory,FlowRecordVersion,,CapacityCategory,業務量カテゴリ,業務量カテゴリ,選択リスト,false,true,false,true,true,true
+000000000000000AAA,FlowRecordVersion.CreatedBy,CreatedById,FlowRecordVersion,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,FlowRecordVersion.CreatedDate,CreatedDate,FlowRecordVersion,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,FlowRecordVersion.Description,Description,FlowRecordVersion,,Description,説明,説明,ロングテキストエリア(65535),false,true,false,false,false,false
+000000000000000AAA,FlowRecordVersion.Entries,Entries,FlowRecordVersion,,Entries,エントリ,エントリ,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,FlowRecordVersion.Errors,Errors,FlowRecordVersion,,Errors,エラー,エラー,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,FlowRecordVersion.Exits,Exits,FlowRecordVersion,,Exits,終了,終了,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,FlowRecordVersion.FlowRecord,FlowRecordId,FlowRecordVersion,,FlowRecord,フロー,フロー,主従関係(フロー),false,false,true,true,true,true
+000000000000000AAA,FlowRecordVersion.FlowType,FlowType,FlowRecordVersion,,FlowType,フロー種別,フロー種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,FlowRecordVersion.Id,Id,FlowRecordVersion,,Id,フローバージョン ID,フローバージョン ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,FlowRecordVersion.IsDeleted,IsDeleted,FlowRecordVersion,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,FlowRecordVersion.IsOverridable,IsOverridable,FlowRecordVersion,,IsOverridable,上書き可能,上書き可能,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,FlowRecordVersion.IsPaused,IsPaused,FlowRecordVersion,,IsPaused,一時停止,一時停止,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,FlowRecordVersion.IsTemplate,IsTemplate,FlowRecordVersion,,IsTemplate,テンプレート,テンプレート,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,FlowRecordVersion.LastCheckedDate,LastCheckedDate,FlowRecordVersion,,LastCheckedDate,最終確認日,最終確認日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,FlowRecordVersion.LastModifiedBy,LastModifiedById,FlowRecordVersion,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,FlowRecordVersion.LastModifiedDate,LastModifiedDate,FlowRecordVersion,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,FlowRecordVersion.LastReferencedDate,LastReferencedDate,FlowRecordVersion,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,FlowRecordVersion.LastViewedDate,LastViewedDate,FlowRecordVersion,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,FlowRecordVersion.Name,Name,FlowRecordVersion,,Name,フローバージョン名,フローバージョン名,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,FlowRecordVersion.OverriddenBy,OverriddenById,FlowRecordVersion,,OverriddenBy,上書き実行者,上書き実行者,参照関係(フロー),false,true,false,true,true,true
+000000000000000AAA,FlowRecordVersion.OverriddenFlow,OverriddenFlowId,FlowRecordVersion,,OverriddenFlow,上書き,上書き,参照関係(フロー),false,true,false,true,true,true
+000000000000000AAA,FlowRecordVersion.PausedDate,PausedDate,FlowRecordVersion,,PausedDate,一時停止日,一時停止日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,FlowRecordVersion.PausingUser,PausingUserId,FlowRecordVersion,,PausingUser,一時停止するユーザー,一時停止するユーザー,参照関係(ユーザー),false,true,false,true,true,true
+000000000000000AAA,FlowRecordVersion.ProgressStatus,ProgressStatus,FlowRecordVersion,,ProgressStatus,進行状況,進行状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,FlowRecordVersion.ReasonPaused,ReasonPaused,FlowRecordVersion,,ReasonPaused,一時停止の理由,一時停止の理由,テキストエリア(255),false,true,false,true,true,true
+000000000000000AAA,FlowRecordVersion.RecordVisibility,RecordVisibilityId,FlowRecordVersion,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,FlowRecordVersion.ResumedDate,ResumedDate,FlowRecordVersion,,ResumedDate,再開日,再開日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,FlowRecordVersion.ResumingUser,ResumingUserId,FlowRecordVersion,,ResumingUser,再開するユーザー,再開するユーザー,参照関係(ユーザー),false,true,false,true,true,true
+000000000000000AAA,FlowRecordVersion.RunInMode,RunInMode,FlowRecordVersion,,RunInMode,モードで実行,モードで実行,選択リスト,false,true,false,true,true,true
+000000000000000AAA,FlowRecordVersion.ScheduledStartDate,ScheduledStartDate,FlowRecordVersion,,ScheduledStartDate,スケジュール済み開始日,スケジュール済み開始日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,FlowRecordVersion.SourceTemplate,SourceTemplateId,FlowRecordVersion,,SourceTemplate,ソーステンプレート,ソーステンプレート,参照関係(フロー),false,true,false,true,true,true
+000000000000000AAA,FlowRecordVersion.Status,Status,FlowRecordVersion,,Status,状況,状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,FlowRecordVersion.SystemModstamp,SystemModstamp,FlowRecordVersion,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,FlowRecordVersion.TriggerObjectOrEventLabel,TriggerObjectOrEventLabel,FlowRecordVersion,,TriggerObjectOrEventLabel,トリガーオブジェクトまたはプラットフォームイベントの表示ラベル,トリガーオブジェクトまたはプラットフォームイベントの表示ラベル,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FlowRecordVersion.UserRecordAccess,UserRecordAccessId,FlowRecordVersion,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
+000000000000000AAA,FlowRecordVersion.VersionNumber,VersionNumber,FlowRecordVersion,,VersionNumber,バージョン番号,バージョン番号,数値(9、0),false,true,false,true,true,true

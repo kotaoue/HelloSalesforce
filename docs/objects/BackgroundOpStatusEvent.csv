@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,BackgroundOpStatusEvent.BackgroundOperation,BackgroundOperationId,BackgroundOpStatusEvent,,BackgroundOperation,バックグラウンド操作,バックグラウンド操作,参照関係(バックグラウンド操作),false,true,false,false,false,false
+000000000000000AAA,BackgroundOpStatusEvent.CreatedBy,CreatedById,BackgroundOpStatusEvent,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,false,false,false
+000000000000000AAA,BackgroundOpStatusEvent.CreatedDate,CreatedDate,BackgroundOpStatusEvent,,CreatedDate,作成日,作成日,日付/時間,false,false,false,false,false,false
+000000000000000AAA,BackgroundOpStatusEvent.Error,Error,BackgroundOpStatusEvent,,Error,エラー,エラー,テキスト(1000),false,true,false,false,false,false
+000000000000000AAA,BackgroundOpStatusEvent.EventUuid,EventUuid,BackgroundOpStatusEvent,,EventUuid,イベント UUID,イベント UUID,テキスト(36),false,true,false,false,false,false
+000000000000000AAA,BackgroundOpStatusEvent.ExpiresAt,ExpiresAt,BackgroundOpStatusEvent,,ExpiresAt,有効期限,有効期限,日付/時間,false,true,false,false,false,false
+000000000000000AAA,BackgroundOpStatusEvent.FinishedAt,FinishedAt,BackgroundOpStatusEvent,,FinishedAt,完了日時,完了日時,日付/時間,false,true,false,false,false,false
+000000000000000AAA,BackgroundOpStatusEvent.Input,Input,BackgroundOpStatusEvent,,Input,入力,入力,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,BackgroundOpStatusEvent.ReplayId,ReplayId,BackgroundOpStatusEvent,,ReplayId,再実行 ID,再実行 ID,外部参照,false,true,false,false,false,false
+000000000000000AAA,BackgroundOpStatusEvent.Result,Result,BackgroundOpStatusEvent,,Result,結果,結果,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,BackgroundOpStatusEvent.RetryCount,RetryCount,BackgroundOpStatusEvent,,RetryCount,再試行回数,再試行回数,数値(9、0),false,true,false,false,false,false
+000000000000000AAA,BackgroundOpStatusEvent.StartedAt,StartedAt,BackgroundOpStatusEvent,,StartedAt,開始済み,開始済み,日付/時間,false,true,false,false,false,false
+000000000000000AAA,BackgroundOpStatusEvent.Status,Status,BackgroundOpStatusEvent,,Status,状況,状況,選択リスト,false,true,false,false,false,false
+000000000000000AAA,BackgroundOpStatusEvent.SubmittedAt,SubmittedAt,BackgroundOpStatusEvent,,SubmittedAt,処理日時,処理日時,日付/時間,false,true,false,false,false,false
+000000000000000AAA,BackgroundOpStatusEvent.Type,Type,BackgroundOpStatusEvent,,Type,種別,種別,選択リスト,false,true,false,false,false,false

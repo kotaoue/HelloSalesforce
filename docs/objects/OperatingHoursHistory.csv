@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,OperatingHoursHistory.CreatedBy,CreatedById,OperatingHoursHistory,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,OperatingHoursHistory.CreatedDate,CreatedDate,OperatingHoursHistory,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,OperatingHoursHistory.DataType,DataType,OperatingHoursHistory,,DataType,データ型,データ型,選択リスト,false,true,false,true,true,true
+000000000000000AAA,OperatingHoursHistory.Field,Field,OperatingHoursHistory,,Field,変更された項目,変更された項目,"選択リスト(カスタム項目の定義,カスタム項目データ列)",false,false,true,true,true,true
+000000000000000AAA,OperatingHoursHistory.Id,Id,OperatingHoursHistory,,Id,業務時間履歴 ID,業務時間履歴 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,OperatingHoursHistory.IsDeleted,IsDeleted,OperatingHoursHistory,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,OperatingHoursHistory.NewvalDate,NewvalDate,OperatingHoursHistory,,NewvalDate,新規の日付,新規の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,OperatingHoursHistory.NewvalFirstName,NewvalFirstName,OperatingHoursHistory,,NewvalFirstName,新規の名,新規の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,OperatingHoursHistory.NewvalLastName,NewvalLastName,OperatingHoursHistory,,NewvalLastName,新規の姓,新規の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,OperatingHoursHistory.NewValue,NewValue,OperatingHoursHistory,,NewValue,新しい値,新しい値,参照関係,false,true,false,false,false,true
+000000000000000AAA,OperatingHoursHistory.OldvalDate,OldvalDate,OperatingHoursHistory,,OldvalDate,元の日付,元の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,OperatingHoursHistory.OldvalFirstName,OldvalFirstName,OperatingHoursHistory,,OldvalFirstName,元の名,元の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,OperatingHoursHistory.OldvalLastName,OldvalLastName,OperatingHoursHistory,,OldvalLastName,元の姓,元の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,OperatingHoursHistory.OldValue,OldValue,OperatingHoursHistory,,OldValue,元の値,元の値,参照関係,false,true,false,false,false,true
+000000000000000AAA,OperatingHoursHistory.OperatingHours,OperatingHoursId,OperatingHoursHistory,,OperatingHours,営業時間,営業時間,参照関係(営業時間),false,false,true,true,true,true

@@ -1,0 +1,9 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,NotifDeliveryUserPrefShare.AccessLevel,AccessLevel,NotifDeliveryUserPrefShare,,AccessLevel,カスタムオブジェクトのアクセス権,カスタムオブジェクトのアクセス権,選択リスト,false,false,false,true,true,true
+000000000000000AAA,NotifDeliveryUserPrefShare.Id,Id,NotifDeliveryUserPrefShare,,Id,カスタムオブジェクト共有 ID,カスタムオブジェクト共有 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,NotifDeliveryUserPrefShare.IsDeleted,IsDeleted,NotifDeliveryUserPrefShare,,IsDeleted,削除,削除,チェックボックス,false,false,true,true,true,true
+000000000000000AAA,NotifDeliveryUserPrefShare.LastModifiedBy,LastModifiedById,NotifDeliveryUserPrefShare,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,NotifDeliveryUserPrefShare.LastModifiedDate,LastModifiedDate,NotifDeliveryUserPrefShare,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,NotifDeliveryUserPrefShare.Parent,ParentId,NotifDeliveryUserPrefShare,,Parent,参照先,参照先,参照関係(通知配信ユーザー設定),false,false,true,true,true,true
+000000000000000AAA,NotifDeliveryUserPrefShare.RowCause,RowCause,NotifDeliveryUserPrefShare,,RowCause,テリトリー割り当て方法,テリトリー割り当て方法,選択リスト(Apex 共有の理由),false,true,false,true,true,true
+000000000000000AAA,NotifDeliveryUserPrefShare.UserOrGroup,UserOrGroupId,NotifDeliveryUserPrefShare,,UserOrGroup,ユーザー/グループ,ユーザー/グループ,"参照関係(ユーザー,グループ)",false,false,true,true,true,true

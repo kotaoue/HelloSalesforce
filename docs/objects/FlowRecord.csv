@@ -1,0 +1,47 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,FlowRecord.Activation,ActivationId,FlowRecord,,Activation,有効化,有効化,参照関係(有効化),false,true,false,true,true,true
+000000000000000AAA,FlowRecord.ActiveVersion,ActiveVersionId,FlowRecord,,ActiveVersion,有効バージョン,有効バージョン,参照関係(フローバージョン),false,true,false,true,true,true
+000000000000000AAA,FlowRecord.ApiName,ApiName,FlowRecord,,ApiName,API 参照名,API 参照名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FlowRecord.ApiVersion,ApiVersion,FlowRecord,,ApiVersion,API バージョン,API バージョン,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,FlowRecord.AreMetricsLoggedToDataCloud,AreMetricsLoggedToDataCloud,FlowRecord,,AreMetricsLoggedToDataCloud,メトリクスを Data Cloud に記録,メトリクスを Data Cloud に記録,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,FlowRecord.AssociatedRecord,AssociatedRecordId,FlowRecord,,AssociatedRecord,関連するレコード,関連するレコード,"参照関係(キャンペーン,フロー)",false,true,true,true,true,true
+000000000000000AAA,FlowRecord.Builder,Builder,FlowRecord,,Builder,次を使用して作成,次を使用して作成,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FlowRecord.CapacityCategory,CapacityCategory,FlowRecord,,CapacityCategory,業務量カテゴリ,業務量カテゴリ,選択リスト,false,true,false,true,true,true
+000000000000000AAA,FlowRecord.CreatedBy,CreatedById,FlowRecord,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,FlowRecord.CreatedDate,CreatedDate,FlowRecord,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,FlowRecord.Description,Description,FlowRecord,,Description,説明,説明,ロングテキストエリア(65535),false,true,false,false,false,false
+000000000000000AAA,FlowRecord.ErrorCode,ErrorCode,FlowRecord,,ErrorCode,エラーコード,エラーコード,選択リスト,false,true,false,true,true,true
+000000000000000AAA,FlowRecord.ErrorDetails,ErrorDetails,FlowRecord,,ErrorDetails,エラーの詳細,エラーの詳細,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FlowRecord.FlowCategory,FlowCategory,FlowRecord,,FlowCategory,カテゴリ,カテゴリ,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FlowRecord.FlowDefinition,FlowDefinition,FlowRecord,,FlowDefinition,フロー定義,フロー定義,テキスト(15),false,true,false,true,true,true
+000000000000000AAA,FlowRecord.FlowLabel,FlowLabel,FlowRecord,,FlowLabel,フローの表示ラベル,フローの表示ラベル,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FlowRecord.FlowSubcategory,FlowSubcategory,FlowRecord,,FlowSubcategory,サブカテゴリ,サブカテゴリ,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FlowRecord.FlowType,FlowType,FlowRecord,,FlowType,フロー種別,フロー種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,FlowRecord.Id,Id,FlowRecord,,Id,フロー ID,フロー ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,FlowRecord.InstalledPackageName,InstalledPackageName,FlowRecord,,InstalledPackageName,パッケージ名,パッケージ名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FlowRecord.IsCitizenEnabled,IsCitizenEnabled,FlowRecord,,IsCitizenEnabled,管理者以外に対して有効,管理者以外に対して有効,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,FlowRecord.IsDeleted,IsDeleted,FlowRecord,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,FlowRecord.IsOverridable,IsOverridable,FlowRecord,,IsOverridable,上書き可能,上書き可能,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,FlowRecord.IsPaused,IsPaused,FlowRecord,,IsPaused,一時停止,一時停止,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,FlowRecord.IsTemplate,IsTemplate,FlowRecord,,IsTemplate,テンプレート,テンプレート,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,FlowRecord.LastModifiedBy,LastModifiedById,FlowRecord,,LastModifiedBy,最終更新,最終更新,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,FlowRecord.LastModifiedDate,LastModifiedDate,FlowRecord,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,FlowRecord.LastReferencedDate,LastReferencedDate,FlowRecord,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,FlowRecord.LastViewedDate,LastViewedDate,FlowRecord,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,FlowRecord.LogsEnabledFlowVersion,LogsEnabledFlowVersion,FlowRecord,,LogsEnabledFlowVersion,ログが有効化されたフローバージョン,ログが有効化されたフローバージョン,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,FlowRecord.ManageableState,ManageableState,FlowRecord,,ManageableState,パッケージの状態,パッケージの状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,FlowRecord.Name,Name,FlowRecord,,Name,フローの表示ラベル,フローの表示ラベル,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,FlowRecord.NamespacePrefix,NamespacePrefix,FlowRecord,,NamespacePrefix,フロー名前空間,フロー名前空間,テキスト(40),false,true,false,true,true,true
+000000000000000AAA,FlowRecord.OverriddenBy,OverriddenById,FlowRecord,,OverriddenBy,上書き実行者,上書き実行者,参照関係(フロー),false,true,false,true,true,true
+000000000000000AAA,FlowRecord.OverriddenFlow,OverriddenFlowId,FlowRecord,,OverriddenFlow,上書き,上書き,参照関係(フロー),false,true,false,true,true,true
+000000000000000AAA,FlowRecord.Owner,OwnerId,FlowRecord,,Owner,フロー所有者,フロー所有者,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,FlowRecord.ProgressStatus,ProgressStatus,FlowRecord,,ProgressStatus,進行状況,進行状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,FlowRecord.RecordVisibility,RecordVisibilityId,FlowRecord,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,FlowRecord.ScheduledStartDate,ScheduledStartDate,FlowRecord,,ScheduledStartDate,スケジュール済み開始日,スケジュール済み開始日,日付/時間,false,true,true,true,false,true
+000000000000000AAA,FlowRecord.Segment,SegmentId,FlowRecord,,Segment,セグメント,セグメント,参照関係(セグメント),false,true,false,true,true,true
+000000000000000AAA,FlowRecord.SourceTemplate,SourceTemplateId,FlowRecord,,SourceTemplate,ソーステンプレート,ソーステンプレート,参照関係(フロー),false,true,false,true,true,true
+000000000000000AAA,FlowRecord.StartSource,StartSource,FlowRecord,,StartSource,トリガーを開始,トリガーを開始,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FlowRecord.SystemModstamp,SystemModstamp,FlowRecord,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,FlowRecord.TriggerObjectOrEventLabel,TriggerObjectOrEventLabel,FlowRecord,,TriggerObjectOrEventLabel,トリガーオブジェクトまたはプラットフォームイベントの表示ラベル,トリガーオブジェクトまたはプラットフォームイベントの表示ラベル,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FlowRecord.Type,Type,FlowRecord,,Type,種別,種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,FlowRecord.UserRecordAccess,UserRecordAccessId,FlowRecord,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

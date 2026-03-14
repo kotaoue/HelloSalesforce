@@ -1,0 +1,19 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,OpportunityHistory.Amount,Amount,OpportunityHistory,,Amount,金額,金額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,OpportunityHistory.CloseDate,CloseDate,OpportunityHistory,,CloseDate,完了予定日,完了予定日,日付,false,true,false,true,true,true
+000000000000000AAA,OpportunityHistory.CreatedBy,CreatedById,OpportunityHistory,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,OpportunityHistory.CreatedDate,CreatedDate,OpportunityHistory,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,OpportunityHistory.ExpectedRevenue,ExpectedRevenue,OpportunityHistory,,ExpectedRevenue,期待収益,期待収益,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,OpportunityHistory.ForecastCategory,ForecastCategory,OpportunityHistory,,ForecastCategory,売上予測分類へ,売上予測分類へ,選択リスト,false,true,false,true,true,true
+000000000000000AAA,OpportunityHistory.FromForecastCategory,FromForecastCategory,OpportunityHistory,,FromForecastCategory,売上予測分類から,売上予測分類から,選択リスト,false,true,false,true,true,true
+000000000000000AAA,OpportunityHistory.FromOpportunityStageName,FromOpportunityStageName,OpportunityHistory,,FromOpportunityStageName,商談 フェーズ名から,商談 フェーズ名から,選択リスト,false,true,false,true,true,true
+000000000000000AAA,OpportunityHistory.Id,Id,OpportunityHistory,,Id,商談履歴 ID,商談履歴 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,OpportunityHistory.IsDeleted,IsDeleted,OpportunityHistory,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,OpportunityHistory.Opportunity,OpportunityId,OpportunityHistory,,Opportunity,商談,商談,参照関係(商談),false,false,true,true,true,true
+000000000000000AAA,OpportunityHistory.PrevAmount,PrevAmount,OpportunityHistory,,PrevAmount,以前の金額,以前の金額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,OpportunityHistory.PrevCloseDate,PrevCloseDate,OpportunityHistory,,PrevCloseDate,以前の完了予定日,以前の完了予定日,日付,false,true,false,true,true,true
+000000000000000AAA,OpportunityHistory.PrevForecastUpdate,PrevForecastUpdate,OpportunityHistory,,PrevForecastUpdate,以前の売上予測更新,以前の売上予測更新,日付/時間,false,true,false,true,false,true
+000000000000000AAA,OpportunityHistory.PrevOpportunityStageUpdate,PrevOpportunityStageUpdate,OpportunityHistory,,PrevOpportunityStageUpdate,以前の商談 フェーズ名,以前の商談 フェーズ名,日付/時間,false,true,false,true,false,true
+000000000000000AAA,OpportunityHistory.Probability,Probability,OpportunityHistory,,Probability,確度,確度,パーセント(3、0),false,true,false,true,false,true
+000000000000000AAA,OpportunityHistory.StageName,StageName,OpportunityHistory,,StageName,フェーズ名,フェーズ名,選択リスト,false,false,false,true,true,true
+000000000000000AAA,OpportunityHistory.SystemModstamp,SystemModstamp,OpportunityHistory,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

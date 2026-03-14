@@ -1,0 +1,22 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ContactRequest.CreatedBy,CreatedById,ContactRequest,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,ContactRequest.CreatedDate,CreatedDate,ContactRequest,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ContactRequest.Id,Id,ContactRequest,,Id,問い合わせ要求 ID,問い合わせ要求 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ContactRequest.IsCallback,IsCallback,ContactRequest,,IsCallback,コールバック,コールバック,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ContactRequest.IsDeleted,IsDeleted,ContactRequest,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ContactRequest.LastModifiedBy,LastModifiedById,ContactRequest,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ContactRequest.LastModifiedDate,LastModifiedDate,ContactRequest,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ContactRequest.LastReferencedDate,LastReferencedDate,ContactRequest,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ContactRequest.LastViewedDate,LastViewedDate,ContactRequest,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ContactRequest.Name,Name,ContactRequest,,Name,問い合わせ要求番号,問い合わせ要求番号,自動採番,false,false,true,true,false,true
+000000000000000AAA,ContactRequest.Owner,OwnerId,ContactRequest,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,ContactRequest.PreferredChannel,PreferredChannel,ContactRequest,,PreferredChannel,優先チャネル,優先チャネル,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ContactRequest.PreferredPhone,PreferredPhone,ContactRequest,,PreferredPhone,優先電話番号,優先電話番号,電話,false,true,false,true,true,true
+000000000000000AAA,ContactRequest.RecordVisibility,RecordVisibilityId,ContactRequest,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,ContactRequest.RequestDescription,RequestDescription,ContactRequest,,RequestDescription,リクエストの説明,リクエストの説明,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,ContactRequest.RequestReason,RequestReason,ContactRequest,,RequestReason,要求理由,要求理由,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ContactRequest.Status,Status,ContactRequest,,Status,要求の状況,要求の状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ContactRequest.SystemModstamp,SystemModstamp,ContactRequest,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ContactRequest.UserRecordAccess,UserRecordAccessId,ContactRequest,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
+000000000000000AAA,ContactRequest.What,WhatId,ContactRequest,,What,関連先,関連先,"参照関係(ケース,取引先,商談,作業指示,音声通話)",false,true,false,true,true,true
+000000000000000AAA,ContactRequest.Who,WhoId,ContactRequest,,Who,要求者,要求者,"参照関係(取引先責任者,リード,ユーザー)",false,true,false,true,true,true

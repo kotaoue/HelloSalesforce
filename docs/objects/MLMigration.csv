@@ -1,0 +1,25 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,MLMigration.CreatedBy,CreatedById,MLMigration,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,MLMigration.CreatedDate,CreatedDate,MLMigration,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,MLMigration.EndTime,EndTime,MLMigration,,EndTime,移行終了時刻,移行終了時刻,日付/時間,false,true,false,true,false,true
+000000000000000AAA,MLMigration.ErrorDescription,ErrorDescription,MLMigration,,ErrorDescription,エラー,エラー,ロングテキストエリア(4000),false,true,false,false,false,false
+000000000000000AAA,MLMigration.Id,Id,MLMigration,,Id,ML 移行 ID,ML 移行 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,MLMigration.IsDeleted,IsDeleted,MLMigration,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,MLMigration.LastModifiedBy,LastModifiedById,MLMigration,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,MLMigration.LastModifiedDate,LastModifiedDate,MLMigration,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,MLMigration.MigrationStatus,MigrationStatus,MLMigration,,MigrationStatus,移行状況,移行状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,MLMigration.Name,Name,MLMigration,,Name,名前,名前,自動採番,false,false,true,true,false,true
+000000000000000AAA,MLMigration.RecordVisibility,RecordVisibilityId,MLMigration,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,MLMigration.StartTime,StartTime,MLMigration,,StartTime,移行開始時刻,移行開始時刻,日付/時間,false,true,false,true,false,true
+000000000000000AAA,MLMigration.SystemModstamp,SystemModstamp,MLMigration,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,MLMigration.UserRecordAccess,UserRecordAccessId,MLMigration,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
+000000000000000AAA,MLMigration.V2AiModelDefinition,V2AiModelDefinitionId,MLMigration,,V2AiModelDefinition,AI モデル定義,AI モデル定義,参照関係(AI モデル定義),false,true,false,true,true,true
+000000000000000AAA,MLMigration.V2Application,V2ApplicationId,MLMigration,,V2Application,AI アプリケーション,AI アプリケーション,参照関係(AI アプリケーション),false,false,true,true,true,true
+000000000000000AAA,MLMigration.V2ExtApp,V2ExtApp,MLMigration,,V2ExtApp,V2 アプリケーションの外部 ID,V2 アプリケーションの外部 ID,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MLMigration.V2Model,V2ModelId,MLMigration,,V2Model,AI Model,AI Model,参照関係(AI Model),false,true,false,true,true,true
+000000000000000AAA,MLMigration.V2OrigAiModelDefStatus,V2OrigAiModelDefStatus,MLMigration,,V2OrigAiModelDefStatus,V2 モデル定義の状況,V2 モデル定義の状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MLMigration.V2OriginalAppStatus,V2OriginalAppStatus,MLMigration,,V2OriginalAppStatus,V2 アプリケーションの状況,V2 アプリケーションの状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,MLMigration.V2OriginalModelStatus,V2OriginalModelStatus,MLMigration,,V2OriginalModelStatus,V2 モデルの状況,V2 モデルの状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MLMigration.V3Application,V3ApplicationId,MLMigration,,V3Application,AI アプリケーション,AI アプリケーション,参照関係(AI アプリケーション),false,true,false,true,true,true
+000000000000000AAA,MLMigration.V3ExtApp,V3ExtApp,MLMigration,,V3ExtApp,V3 アプリケーションの外部 ID,V3 アプリケーションの外部 ID,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MLMigration.V3Model,V3ModelId,MLMigration,,V3Model,ML モデル,ML モデル,参照関係(ML モデル),false,true,false,true,true,true

@@ -1,0 +1,14 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AnalyticsAssetAction.ActionType,ActionType,AnalyticsAssetAction,,ActionType,Action Type,Action Type,選択リスト,false,false,false,true,true,true
+000000000000000AAA,AnalyticsAssetAction.AnalyticsAssetVersion,AnalyticsAssetVersionId,AnalyticsAssetAction,,AnalyticsAssetVersion,Analytics Asset Version,Analytics Asset Version,参照関係(Analytics Visualization Version),false,true,false,true,true,true
+000000000000000AAA,AnalyticsAssetAction.Asset,AssetId,AnalyticsAssetAction,,Asset,Asset,Asset,"主従関係(Analytics Dashboard Widget,Analytics Visualization)",false,false,true,true,true,true
+000000000000000AAA,AnalyticsAssetAction.CreatedBy,CreatedById,AnalyticsAssetAction,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AnalyticsAssetAction.CreatedDate,CreatedDate,AnalyticsAssetAction,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AnalyticsAssetAction.EventType,EventType,AnalyticsAssetAction,,EventType,Event Type,Event Type,選択リスト,false,false,false,true,true,true
+000000000000000AAA,AnalyticsAssetAction.Id,Id,AnalyticsAssetAction,,Id,AnalyticsAssetAction ID,AnalyticsAssetAction ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AnalyticsAssetAction.IsDeleted,IsDeleted,AnalyticsAssetAction,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AnalyticsAssetAction.LastModifiedBy,LastModifiedById,AnalyticsAssetAction,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AnalyticsAssetAction.LastModifiedDate,LastModifiedDate,AnalyticsAssetAction,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AnalyticsAssetAction.ManageableState,ManageableState,AnalyticsAssetAction,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,AnalyticsAssetAction.SystemModstamp,SystemModstamp,AnalyticsAssetAction,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AnalyticsAssetAction.Version,Version,AnalyticsAssetAction,,Version,Action Input Detail Version,Action Input Detail Version,数値(18、0),false,true,false,true,false,true

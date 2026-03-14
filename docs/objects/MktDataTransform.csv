@@ -1,0 +1,30 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,MktDataTransform.CreatedBy,CreatedById,MktDataTransform,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,MktDataTransform.CreatedDate,CreatedDate,MktDataTransform,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,MktDataTransform.CreationSource,CreationSource,MktDataTransform,,CreationSource,作成元,作成元,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MktDataTransform.CreationType,CreationType,MktDataTransform,,CreationType,作成種別,作成種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,MktDataTransform.CurrencyCode,CurrencyCode,MktDataTransform,,CurrencyCode,通貨 ISO コード,通貨 ISO コード,テキスト(40),false,true,false,true,true,true
+000000000000000AAA,MktDataTransform.DataTransformDefinition,DataTransformDefinitionId,MktDataTransform,,DataTransformDefinition,データ変換定義,データ変換定義,参照関係(データ変換定義),false,true,false,true,true,true
+000000000000000AAA,MktDataTransform.DataTransformStatus,DataTransformStatus,MktDataTransform,,DataTransformStatus,データ変換状況,データ変換状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,MktDataTransform.DataTransformStatusDetails,DataTransformStatusDetails,MktDataTransform,,DataTransformStatusDetails,データ変換状況の詳細,データ変換状況の詳細,ロングテキストエリア(128000),false,true,false,false,false,false
+000000000000000AAA,MktDataTransform.FullRunFrequency,FullRunFrequency,MktDataTransform,,FullRunFrequency,フル実行頻度,フル実行頻度,選択リスト,false,false,false,true,true,true
+000000000000000AAA,MktDataTransform.Id,Id,MktDataTransform,,Id,データ変換 ID,データ変換 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,MktDataTransform.IsCreatedAsMultiDefinition,IsCreatedAsMultiDefinition,MktDataTransform,,IsCreatedAsMultiDefinition,複数定義として作成された変換,複数定義として作成された変換,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,MktDataTransform.IsDeleted,IsDeleted,MktDataTransform,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,MktDataTransform.IsSystem,IsSystem,MktDataTransform,,IsSystem,システム,システム,チェックボックス,false,false,true,true,true,true
+000000000000000AAA,MktDataTransform.LastDataChangeStatusDateTime,LastDataChangeStatusDateTime,MktDataTransform,,LastDataChangeStatusDateTime,最終データ変更状況日時,最終データ変更状況日時,日付/時間,false,true,false,true,false,true
+000000000000000AAA,MktDataTransform.LastDataChangeStatusErrorCode,LastDataChangeStatusErrorCode,MktDataTransform,,LastDataChangeStatusErrorCode,最終データ変更状況エラーコード,最終データ変更状況エラーコード,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MktDataTransform.LastModifiedBy,LastModifiedById,MktDataTransform,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,MktDataTransform.LastModifiedDate,LastModifiedDate,MktDataTransform,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,MktDataTransform.LastReferencedDate,LastReferencedDate,MktDataTransform,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,MktDataTransform.LastRunStatus,LastRunStatus,MktDataTransform,,LastRunStatus,最終実行状況,最終実行状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,MktDataTransform.LastRunTime,LastRunTime,MktDataTransform,,LastRunTime,最終実行日時,最終実行日時,日付/時間,false,true,false,true,false,true
+000000000000000AAA,MktDataTransform.LastViewedDate,LastViewedDate,MktDataTransform,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,MktDataTransform.MktDataTransformSetup,MktDataTransformSetupId,MktDataTransform,,MktDataTransformSetup,Data Transform Setups,Data Transform Setups,参照関係(Data Transform Setups),false,true,false,true,true,true
+000000000000000AAA,MktDataTransform.Name,Name,MktDataTransform,,Name,データ変換名,データ変換名,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,MktDataTransform.Owner,OwnerId,MktDataTransform,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,MktDataTransform.RecordVisibility,RecordVisibilityId,MktDataTransform,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,MktDataTransform.SystemModstamp,SystemModstamp,MktDataTransform,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,MktDataTransform.TargetObject,TargetObject,MktDataTransform,,TargetObject,対象オブジェクト,対象オブジェクト,テキスト(40),false,true,false,true,true,true
+000000000000000AAA,MktDataTransform.Type,Type,MktDataTransform,,Type,種別,種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,MktDataTransform.UserRecordAccess,UserRecordAccessId,MktDataTransform,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

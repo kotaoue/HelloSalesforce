@@ -1,0 +1,24 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,LoginHistory.ApiType,ApiType,LoginHistory,,ApiType,API 種別,API 種別,テキスト(64),false,true,false,false,true,true
+000000000000000AAA,LoginHistory.ApiVersion,ApiVersion,LoginHistory,,ApiVersion,API バージョン,API バージョン,テキスト(32),false,true,false,false,true,true
+000000000000000AAA,LoginHistory.Application,Application,LoginHistory,,Application,アプリケーション,アプリケーション,テキスト(64),false,true,false,false,true,true
+000000000000000AAA,LoginHistory.AuthenticationService,AuthenticationServiceId,LoginHistory,,AuthenticationService,認証サービス,認証サービス,"参照関係(認証プロバイダー,SAML SSO 設定)",false,true,false,true,true,true
+000000000000000AAA,LoginHistory.AuthMethodReference,AuthMethodReference,LoginHistory,,AuthMethodReference,認証メソッド参照,認証メソッド参照,テキスト(128),false,true,false,true,true,true
+000000000000000AAA,LoginHistory.Browser,Browser,LoginHistory,,Browser,ブラウザー,ブラウザー,テキスト(64),false,true,false,false,true,true
+000000000000000AAA,LoginHistory.CipherSuite,CipherSuite,LoginHistory,,CipherSuite,TLS Cipher Suite,TLS Cipher Suite,選択リスト,false,true,false,true,true,true
+000000000000000AAA,LoginHistory.ClientVersion,ClientVersion,LoginHistory,,ClientVersion,クライアントのバージョン,クライアントのバージョン,テキスト(64),false,true,false,false,true,true
+000000000000000AAA,LoginHistory.CountryIso,CountryIso,LoginHistory,,CountryIso,国コード,国コード,テキスト(3),false,true,false,true,true,true
+000000000000000AAA,LoginHistory.ForwardedForIp,ForwardedForIp,LoginHistory,,ForwardedForIp,Forwarded For IP,Forwarded For IP,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,LoginHistory.Id,Id,LoginHistory,,Id,ログイン履歴 ID,ログイン履歴 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,LoginHistory.LoginGeo,LoginGeoId,LoginHistory,,LoginGeo,ログイン地理情報データ,ログイン地理情報データ,参照関係(ログイン地理情報データ),false,true,false,true,true,true
+000000000000000AAA,LoginHistory.LoginSubType,LoginSubType,LoginHistory,,LoginSubType,ログインサブ種別,ログインサブ種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,LoginHistory.LoginTime,LoginTime,LoginHistory,,LoginTime,ログイン時刻,ログイン時刻,日付/時間,false,false,true,true,false,true
+000000000000000AAA,LoginHistory.LoginType,LoginType,LoginHistory,,LoginType,種別,種別,選択リスト,false,false,true,true,true,true
+000000000000000AAA,LoginHistory.LoginUrl,LoginUrl,LoginHistory,,LoginUrl,ログイン URL,ログイン URL,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,LoginHistory.Options,Options,LoginHistory,,Options,__MISSING LABEL__ PropertyFile - val Options not found in section udd_LoginHistory,__MISSING LABEL__ PropertyFile - val Options not found in section udd_LoginHistory,ビットベクター,false,false,false,true,false,false
+000000000000000AAA,LoginHistory.Platform,Platform,LoginHistory,,Platform,プラットフォーム,プラットフォーム,テキスト(64),false,true,false,false,true,true
+000000000000000AAA,LoginHistory.RemoteIdentifier,RemoteIdentifier,LoginHistory,,RemoteIdentifier,認証プロバイダーのリモート ID,認証プロバイダーのリモート ID,テキスト(128),false,true,false,true,true,true
+000000000000000AAA,LoginHistory.SourceIp,SourceIp,LoginHistory,,SourceIp,アクセス元 IP,アクセス元 IP,IP アドレス,false,true,false,true,true,true
+000000000000000AAA,LoginHistory.Status,Status,LoginHistory,,Status,状況,状況,テキスト(128),false,true,false,false,true,true
+000000000000000AAA,LoginHistory.TlsProtocol,TlsProtocol,LoginHistory,,TlsProtocol,TLS プロトコル,TLS プロトコル,選択リスト,false,true,false,true,true,true
+000000000000000AAA,LoginHistory.User,UserId,LoginHistory,,User,ユーザー,ユーザー,参照関係(ユーザー),false,true,true,true,true,true

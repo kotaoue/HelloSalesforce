@@ -1,0 +1,19 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ApprovalSubmissionDetail.ActionChannelName,ActionChannelName,ApprovalSubmissionDetail,,ActionChannelName,アクションチャネル名,アクションチャネル名,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ApprovalSubmissionDetail.ActionContext,ActionContext,ApprovalSubmissionDetail,,ActionContext,アクションコンテキスト,アクションコンテキスト,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ApprovalSubmissionDetail.ActionName,ActionName,ApprovalSubmissionDetail,,ActionName,アクション名,アクション名,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ApprovalSubmissionDetail.ActionPerformedBy,ActionPerformedById,ApprovalSubmissionDetail,,ActionPerformedBy,アクション実行者,アクション実行者,参照関係(ユーザー),false,true,false,true,true,true
+000000000000000AAA,ApprovalSubmissionDetail.ActionPerformerRole,ActionPerformerRole,ApprovalSubmissionDetail,,ActionPerformerRole,アクション実施者ロール,アクション実施者ロール,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ApprovalSubmissionDetail.ApprovalSubmission,ApprovalSubmissionId,ApprovalSubmissionDetail,,ApprovalSubmission,提出した承認申請,提出した承認申請,主従関係(提出した承認申請),false,false,true,true,true,true
+000000000000000AAA,ApprovalSubmissionDetail.ApprovalWorkItem,ApprovalWorkItemId,ApprovalSubmissionDetail,,ApprovalWorkItem,承認作業項目,承認作業項目,参照関係(承認作業項目),false,true,false,true,true,true
+000000000000000AAA,ApprovalSubmissionDetail.Comments,Comments,ApprovalSubmissionDetail,,Comments,コメント,コメント,リッチテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,ApprovalSubmissionDetail.CreatedBy,CreatedById,ApprovalSubmissionDetail,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,ApprovalSubmissionDetail.CreatedDate,CreatedDate,ApprovalSubmissionDetail,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ApprovalSubmissionDetail.Id,Id,ApprovalSubmissionDetail,,Id,提出した承認申請の詳細 ID,提出した承認申請の詳細 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ApprovalSubmissionDetail.IsDeleted,IsDeleted,ApprovalSubmissionDetail,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ApprovalSubmissionDetail.LastModifiedBy,LastModifiedById,ApprovalSubmissionDetail,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ApprovalSubmissionDetail.LastModifiedDate,LastModifiedDate,ApprovalSubmissionDetail,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ApprovalSubmissionDetail.Name,Name,ApprovalSubmissionDetail,,Name,提出した承認申請の詳細名,提出した承認申請の詳細名,自動採番,false,false,true,true,false,true
+000000000000000AAA,ApprovalSubmissionDetail.RecordVisibility,RecordVisibilityId,ApprovalSubmissionDetail,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,ApprovalSubmissionDetail.SystemModstamp,SystemModstamp,ApprovalSubmissionDetail,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ApprovalSubmissionDetail.UserRecordAccess,UserRecordAccessId,ApprovalSubmissionDetail,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

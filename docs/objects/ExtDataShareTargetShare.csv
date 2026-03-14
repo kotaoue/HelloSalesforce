@@ -1,0 +1,9 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ExtDataShareTargetShare.AccessLevel,AccessLevel,ExtDataShareTargetShare,,AccessLevel,カスタムオブジェクトのアクセス権,カスタムオブジェクトのアクセス権,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ExtDataShareTargetShare.Id,Id,ExtDataShareTargetShare,,Id,カスタムオブジェクト共有 ID,カスタムオブジェクト共有 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ExtDataShareTargetShare.IsDeleted,IsDeleted,ExtDataShareTargetShare,,IsDeleted,削除,削除,チェックボックス,false,false,true,true,true,true
+000000000000000AAA,ExtDataShareTargetShare.LastModifiedBy,LastModifiedById,ExtDataShareTargetShare,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ExtDataShareTargetShare.LastModifiedDate,LastModifiedDate,ExtDataShareTargetShare,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ExtDataShareTargetShare.Parent,ParentId,ExtDataShareTargetShare,,Parent,参照先,参照先,参照関係(データ共有対象),false,false,true,true,true,true
+000000000000000AAA,ExtDataShareTargetShare.RowCause,RowCause,ExtDataShareTargetShare,,RowCause,テリトリー割り当て方法,テリトリー割り当て方法,選択リスト(Apex 共有の理由),false,true,false,true,true,true
+000000000000000AAA,ExtDataShareTargetShare.UserOrGroup,UserOrGroupId,ExtDataShareTargetShare,,UserOrGroup,ユーザー/グループ,ユーザー/グループ,"参照関係(ユーザー,グループ)",false,false,true,true,true,true

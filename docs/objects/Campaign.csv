@@ -1,0 +1,48 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,Campaign.ActualCost,ActualCost,Campaign,,ActualCost,キャンペーンの実費,キャンペーンの実費,通貨(18、0),false,true,false,true,false,true
+000000000000000AAA,Campaign.AmountAllOpportunities,AmountAllOpportunities,Campaign,,AmountAllOpportunities,キャンペーンの商談金額,キャンペーンの商談金額,通貨(18、0),false,false,false,true,false,true
+000000000000000AAA,Campaign.AmountWonOpportunities,AmountWonOpportunities,Campaign,,AmountWonOpportunities,キャンペーンの成立商談金額,キャンペーンの成立商談金額,通貨(18、0),false,false,false,true,false,true
+000000000000000AAA,Campaign.BudgetedCost,BudgetedCost,Campaign,,BudgetedCost,キャンペーンの予算,キャンペーンの予算,通貨(18、0),false,true,false,true,false,true
+000000000000000AAA,Campaign.CampaignMemberRecordType,CampaignMemberRecordTypeId,Campaign,,CampaignMemberRecordType,キャンペーンメンバーレコードタイプ,キャンペーンメンバーレコードタイプ,参照関係(レコードタイプ),false,true,false,true,true,true
+000000000000000AAA,Campaign.CreatedBy,CreatedById,Campaign,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,Campaign.CreatedDate,CreatedDate,Campaign,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,Campaign.Description,Description,Campaign,,Description,説明,説明,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,Campaign.EndDate,EndDate,Campaign,,EndDate,終了日,終了日,日付,false,true,false,true,true,true
+000000000000000AAA,Campaign.ExpectedResponse,ExpectedResponse,Campaign,,ExpectedResponse,期待されるレスポンス (%),期待されるレスポンス (%),パーセント(8、2),false,true,false,true,false,true
+000000000000000AAA,Campaign.ExpectedRevenue,ExpectedRevenue,Campaign,,ExpectedRevenue,キャンペーンの期待収益,キャンペーンの期待収益,通貨(18、0),false,true,false,true,false,true
+000000000000000AAA,Campaign.HierarchyActualCost,HierarchyActualCost,Campaign,,HierarchyActualCost,階層内の実費,階層内の実費,通貨(18、0),false,true,false,true,false,true
+000000000000000AAA,Campaign.HierarchyAmountAllOpportunities,HierarchyAmountAllOpportunities,Campaign,,HierarchyAmountAllOpportunities,階層内の商談金額,階層内の商談金額,通貨(18、0),false,true,false,true,false,true
+000000000000000AAA,Campaign.HierarchyAmountWonOpportunities,HierarchyAmountWonOpportunities,Campaign,,HierarchyAmountWonOpportunities,階層内の成立商談金額,階層内の成立商談金額,通貨(18、0),false,true,false,true,false,true
+000000000000000AAA,Campaign.HierarchyBudgetedCost,HierarchyBudgetedCost,Campaign,,HierarchyBudgetedCost,階層内の予算,階層内の予算,通貨(18、0),false,true,false,true,false,true
+000000000000000AAA,Campaign.HierarchyExpectedRevenue,HierarchyExpectedRevenue,Campaign,,HierarchyExpectedRevenue,階層内の期待収益,階層内の期待収益,通貨(18、0),false,true,false,true,false,true
+000000000000000AAA,Campaign.HierarchyNumberOfContacts,HierarchyNumberOfContacts,Campaign,,HierarchyNumberOfContacts,階層内の取引先責任者数,階層内の取引先責任者数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,Campaign.HierarchyNumberOfConvertedLeads,HierarchyNumberOfConvertedLeads,Campaign,,HierarchyNumberOfConvertedLeads,階層内の取引開始済みのリード数,階層内の取引開始済みのリード数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,Campaign.HierarchyNumberOfLeads,HierarchyNumberOfLeads,Campaign,,HierarchyNumberOfLeads,階層内のリード数,階層内のリード数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,Campaign.HierarchyNumberOfOpportunities,HierarchyNumberOfOpportunities,Campaign,,HierarchyNumberOfOpportunities,階層内の商談数,階層内の商談数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,Campaign.HierarchyNumberOfResponses,HierarchyNumberOfResponses,Campaign,,HierarchyNumberOfResponses,階層内のレスポンス数,階層内のレスポンス数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,Campaign.HierarchyNumberOfWonOpportunities,HierarchyNumberOfWonOpportunities,Campaign,,HierarchyNumberOfWonOpportunities,階層内の成立商談数,階層内の成立商談数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,Campaign.HierarchyNumberSent,HierarchyNumberSent,Campaign,,HierarchyNumberSent,階層内の実施数,階層内の実施数,数値(18、0),false,true,false,true,false,true
+000000000000000AAA,Campaign.Id,Id,Campaign,,Id,キャンペーン ID,キャンペーン ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,Campaign.IsActive,IsActive,Campaign,,IsActive,有効,有効,チェックボックス,false,false,true,true,true,true
+000000000000000AAA,Campaign.IsDeleted,IsDeleted,Campaign,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,Campaign.LastActivityDate,LastActivityDate,Campaign,,LastActivityDate,最終活動日,最終活動日,日付,false,true,false,true,true,true
+000000000000000AAA,Campaign.LastModifiedBy,LastModifiedById,Campaign,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,Campaign.LastModifiedDate,LastModifiedDate,Campaign,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,Campaign.LastReferencedDate,LastReferencedDate,Campaign,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,Campaign.LastViewedDate,LastViewedDate,Campaign,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,Campaign.Name,Name,Campaign,,Name,キャンペーン名,キャンペーン名,テキスト(80),false,false,true,true,true,true
+000000000000000AAA,Campaign.NumberOfContacts,NumberOfContacts,Campaign,,NumberOfContacts,キャンペーンの取引先責任者数,キャンペーンの取引先責任者数,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,Campaign.NumberOfConvertedLeads,NumberOfConvertedLeads,Campaign,,NumberOfConvertedLeads,キャンペーンの取引開始済みのリード数,キャンペーンの取引開始済みのリード数,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,Campaign.NumberOfLeads,NumberOfLeads,Campaign,,NumberOfLeads,キャンペーンのリード数,キャンペーンのリード数,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,Campaign.NumberOfOpportunities,NumberOfOpportunities,Campaign,,NumberOfOpportunities,キャンペーンの商談数,キャンペーンの商談数,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,Campaign.NumberOfResponses,NumberOfResponses,Campaign,,NumberOfResponses,キャンペーンのレスポンス数,キャンペーンのレスポンス数,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,Campaign.NumberOfWonOpportunities,NumberOfWonOpportunities,Campaign,,NumberOfWonOpportunities,キャンペーンの成立商談数,キャンペーンの成立商談数,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,Campaign.NumberSent,NumberSent,Campaign,,NumberSent,キャンペーンの実施数,キャンペーンの実施数,数値(18、0),false,true,false,true,false,true
+000000000000000AAA,Campaign.Owner,OwnerId,Campaign,,Owner,キャンペーン 所有者,キャンペーン 所有者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,Campaign.Parent,ParentId,Campaign,,Parent,親キャンペーン,親キャンペーン,参照関係(キャンペーン),false,true,true,true,true,true
+000000000000000AAA,Campaign.RecordVisibility,RecordVisibilityId,Campaign,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,Campaign.StartDate,StartDate,Campaign,,StartDate,開始日,開始日,日付,false,true,false,true,true,true
+000000000000000AAA,Campaign.Status,Status,Campaign,,Status,状況,状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,Campaign.SystemModstamp,SystemModstamp,Campaign,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,Campaign.Type,Type,Campaign,,Type,種別,種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,Campaign.UserRecordAccess,UserRecordAccessId,Campaign,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

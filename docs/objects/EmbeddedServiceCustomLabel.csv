@@ -1,0 +1,12 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,EmbeddedServiceCustomLabel.CreatedBy,CreatedById,EmbeddedServiceCustomLabel,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,EmbeddedServiceCustomLabel.CreatedDate,CreatedDate,EmbeddedServiceCustomLabel,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,EmbeddedServiceCustomLabel.CustomLabel,CustomLabelId,EmbeddedServiceCustomLabel,,CustomLabel,カスタム表示ラベル,カスタム表示ラベル,参照関係(カスタム表示ラベル),false,false,false,true,true,true
+000000000000000AAA,EmbeddedServiceCustomLabel.EmbeddedServiceConfig,EmbeddedServiceConfigId,EmbeddedServiceCustomLabel,,EmbeddedServiceConfig,親,親,"主従関係(組み込みサービスリリース,チャネルメニューリリース,チャネルメニュー項目,組み込みサービスフォーム項目,選択肢リスト値)",false,false,true,true,true,true
+000000000000000AAA,EmbeddedServiceCustomLabel.Feature,Feature,EmbeddedServiceCustomLabel,,Feature,機能,機能,選択リスト,false,true,false,true,true,true
+000000000000000AAA,EmbeddedServiceCustomLabel.Id,Id,EmbeddedServiceCustomLabel,,Id,組み込みサービス用のカスタムラベル ID,組み込みサービス用のカスタムラベル ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,EmbeddedServiceCustomLabel.IsDeleted,IsDeleted,EmbeddedServiceCustomLabel,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,EmbeddedServiceCustomLabel.LabelKey,LabelKey,EmbeddedServiceCustomLabel,,LabelKey,表示ラベルキー,表示ラベルキー,選択リスト,false,false,false,true,true,true
+000000000000000AAA,EmbeddedServiceCustomLabel.LastModifiedBy,LastModifiedById,EmbeddedServiceCustomLabel,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,EmbeddedServiceCustomLabel.LastModifiedDate,LastModifiedDate,EmbeddedServiceCustomLabel,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,EmbeddedServiceCustomLabel.SystemModstamp,SystemModstamp,EmbeddedServiceCustomLabel,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

@@ -1,0 +1,24 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AiJobRun.CreatedBy,CreatedById,AiJobRun,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,AiJobRun.CreatedDate,CreatedDate,AiJobRun,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AiJobRun.EndTime,EndTime,AiJobRun,,EndTime,終了時刻,終了時刻,日付/時間,false,true,false,true,false,true
+000000000000000AAA,AiJobRun.ErrorCode,ErrorCode,AiJobRun,,ErrorCode,エラーコード,エラーコード,テキスト(40),false,true,false,true,true,true
+000000000000000AAA,AiJobRun.ErrorMessage,ErrorMessage,AiJobRun,,ErrorMessage,エラーメッセージ,エラーメッセージ,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,AiJobRun.Id,Id,AiJobRun,,Id,AI ジョブ実行 ID,AI ジョブ実行 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AiJobRun.InputIdentifier,InputIdentifier,AiJobRun,,InputIdentifier,入力ファイル,入力ファイル,外部参照,false,true,false,true,true,true
+000000000000000AAA,AiJobRun.InternalTarget,InternalTarget,AiJobRun,,InternalTarget,内部対象,内部対象,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,AiJobRun.IsDeleted,IsDeleted,AiJobRun,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AiJobRun.JobRefIdentifier,JobRefIdentifier,AiJobRun,,JobRefIdentifier,ジョブ参照,ジョブ参照,外部参照,false,true,true,true,true,true
+000000000000000AAA,AiJobRun.JobType,JobType,AiJobRun,,JobType,ジョブ種別,ジョブ種別,選択リスト,false,true,true,true,true,true
+000000000000000AAA,AiJobRun.Label,Label,AiJobRun,,Label,表示ラベル,表示ラベル,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,AiJobRun.LastModifiedBy,LastModifiedById,AiJobRun,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AiJobRun.LastModifiedDate,LastModifiedDate,AiJobRun,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AiJobRun.Name,Name,AiJobRun,,Name,名前,名前,自動採番,false,false,true,true,false,true
+000000000000000AAA,AiJobRun.Owner,OwnerId,AiJobRun,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,AiJobRun.RecordVisibility,RecordVisibilityId,AiJobRun,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,AiJobRun.ResultIdentifier,ResultIdentifier,AiJobRun,,ResultIdentifier,結果ファイル,結果ファイル,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,AiJobRun.StartTime,StartTime,AiJobRun,,StartTime,開始時刻,開始時刻,日付/時間,false,true,false,true,false,true
+000000000000000AAA,AiJobRun.Status,Status,AiJobRun,,Status,状況,状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,AiJobRun.SystemModstamp,SystemModstamp,AiJobRun,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AiJobRun.Target,Target,AiJobRun,,Target,対象,対象,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,AiJobRun.UserRecordAccess,UserRecordAccessId,AiJobRun,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

@@ -1,0 +1,19 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,PaymentGateway.Comments,Comments,PaymentGateway,,Comments,コメント,コメント,テキストエリア(1000),false,true,false,true,false,true
+000000000000000AAA,PaymentGateway.CreatedBy,CreatedById,PaymentGateway,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,PaymentGateway.CreatedDate,CreatedDate,PaymentGateway,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,PaymentGateway.DefaultTapToPayLocation,DefaultTapToPayLocation,PaymentGateway,,DefaultTapToPayLocation,タップ支払場所,タップ支払場所,テキスト(40),false,true,false,true,true,true
+000000000000000AAA,PaymentGateway.ExternalReference,ExternalReference,PaymentGateway,,ExternalReference,外部参照,外部参照,テキスト(255)  (ユニーク、大文字と小文字を区別しない),false,true,true,true,true,true
+000000000000000AAA,PaymentGateway.Id,Id,PaymentGateway,,Id,支払ゲートウェイ ID,支払ゲートウェイ ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,PaymentGateway.IsDeleted,IsDeleted,PaymentGateway,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,PaymentGateway.LastModifiedBy,LastModifiedById,PaymentGateway,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,PaymentGateway.LastModifiedDate,LastModifiedDate,PaymentGateway,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,PaymentGateway.LastReferencedDate,LastReferencedDate,PaymentGateway,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,PaymentGateway.LastViewedDate,LastViewedDate,PaymentGateway,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,PaymentGateway.MerchantCredential,MerchantCredentialId,PaymentGateway,,MerchantCredential,業者のログイン情報,業者のログイン情報,参照関係(指定ログイン情報),false,true,false,true,true,true
+000000000000000AAA,PaymentGateway.Name,PaymentGatewayName,PaymentGateway,,Name,支払ゲートウェイ名,支払ゲートウェイ名,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,PaymentGateway.PaymentGatewayProvider,PaymentGatewayProviderId,PaymentGateway,,PaymentGatewayProvider,支払ゲートウェイプロバイダー,支払ゲートウェイプロバイダー,参照関係(支払いゲートウェイプロバイダー),false,true,true,true,true,true
+000000000000000AAA,PaymentGateway.RecordVisibility,RecordVisibilityId,PaymentGateway,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,PaymentGateway.Status,Status,PaymentGateway,,Status,状況,状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,PaymentGateway.SystemModstamp,SystemModstamp,PaymentGateway,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,PaymentGateway.UserRecordAccess,UserRecordAccessId,PaymentGateway,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

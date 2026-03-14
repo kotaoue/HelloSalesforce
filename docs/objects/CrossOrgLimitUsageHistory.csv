@@ -1,0 +1,8 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,CrossOrgLimitUsageHistory.Id,Id,CrossOrgLimitUsageHistory,,Id,XI 利用制限履歴 ID,XI 利用制限履歴 ID,参照関係(),false,false,false,true,true,true
+000000000000000AAA,CrossOrgLimitUsageHistory.LimitType,LimitType,CrossOrgLimitUsageHistory,,LimitType,制限種別,制限種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,CrossOrgLimitUsageHistory.Organization,OrganizationId,CrossOrgLimitUsageHistory,,Organization,AllOrganization,AllOrganization,参照関係(AllOrganization),false,true,true,true,true,true
+000000000000000AAA,CrossOrgLimitUsageHistory.Target,TargetId,CrossOrgLimitUsageHistory,,Target,対象オブジェクト,対象オブジェクト,参照関係(All Domain Mapping),false,false,false,true,true,true
+000000000000000AAA,CrossOrgLimitUsageHistory.TimeSegment,TimeSegment,CrossOrgLimitUsageHistory,,TimeSegment,時間区分,時間区分,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,CrossOrgLimitUsageHistory.Usage,Usage,CrossOrgLimitUsageHistory,,Usage,利用状況,利用状況,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,CrossOrgLimitUsageHistory.UsageDate,UsageDate,CrossOrgLimitUsageHistory,,UsageDate,利用日,利用日,日付,false,false,false,true,true,true

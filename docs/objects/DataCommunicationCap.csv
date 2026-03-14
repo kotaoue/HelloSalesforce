@@ -1,0 +1,19 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DataCommunicationCap.CreatedBy,CreatedById,DataCommunicationCap,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,DataCommunicationCap.CreatedDate,CreatedDate,DataCommunicationCap,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DataCommunicationCap.DataCommunicationCapDef,DataCommunicationCapDefId,DataCommunicationCap,,DataCommunicationCapDef,コミュニケーション制限定義,コミュニケーション制限定義,参照関係(コミュニケーション制限定義),false,false,true,true,true,true
+000000000000000AAA,DataCommunicationCap.DataCommunicationCapStatus,DataCommunicationCapStatus,DataCommunicationCap,,DataCommunicationCapStatus,状況,状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataCommunicationCap.Description,Description,DataCommunicationCap,,Description,説明,説明,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataCommunicationCap.Id,Id,DataCommunicationCap,,Id,コミュニケーション制限 ID,コミュニケーション制限 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DataCommunicationCap.IsDeleted,IsDeleted,DataCommunicationCap,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DataCommunicationCap.LastModifiedBy,LastModifiedById,DataCommunicationCap,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DataCommunicationCap.LastModifiedDate,LastModifiedDate,DataCommunicationCap,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DataCommunicationCap.LastReferencedDate,LastReferencedDate,DataCommunicationCap,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DataCommunicationCap.LastStatusDateTime,LastStatusDateTime,DataCommunicationCap,,LastStatusDateTime,コミュニケーション制限最終状況日時,コミュニケーション制限最終状況日時,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DataCommunicationCap.LastStatusErrorCode,LastStatusErrorCode,DataCommunicationCap,,LastStatusErrorCode,コミュニケーション制限エラーコード,コミュニケーション制限エラーコード,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataCommunicationCap.LastViewedDate,LastViewedDate,DataCommunicationCap,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DataCommunicationCap.Name,Name,DataCommunicationCap,,Name,名前,名前,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,DataCommunicationCap.Owner,OwnerId,DataCommunicationCap,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,DataCommunicationCap.RecordVisibility,RecordVisibilityId,DataCommunicationCap,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,DataCommunicationCap.SystemModstamp,SystemModstamp,DataCommunicationCap,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DataCommunicationCap.UserRecordAccess,UserRecordAccessId,DataCommunicationCap,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

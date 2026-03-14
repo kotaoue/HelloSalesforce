@@ -1,0 +1,24 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AIInsightReason.AiInsightValue,AiInsightValueId,AIInsightReason,,AiInsightValue,AI Insight Value,AI Insight Value,主従関係(AI Insight Value),false,false,true,true,true,true
+000000000000000AAA,AIInsightReason.AiModelFactor,AiModelFactorId,AIInsightReason,,AiModelFactor,AI モデル要素,AI モデル要素,参照関係(AI モデル要素),false,true,false,true,true,true
+000000000000000AAA,AIInsightReason.Contribution,Contribution,AIInsightReason,,Contribution,貢献度,貢献度,数値(2、2),false,true,false,true,false,true
+000000000000000AAA,AIInsightReason.CreatedBy,CreatedById,AIInsightReason,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,AIInsightReason.CreatedDate,CreatedDate,AIInsightReason,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AIInsightReason.FeatureType,FeatureType,AIInsightReason,,FeatureType,機能種別,機能種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,AIInsightReason.FeatureValue,FeatureValue,AIInsightReason,,FeatureValue,機能値,機能値,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,AIInsightReason.FieldName,FieldName,AIInsightReason,,FieldName,項目名,項目名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,AIInsightReason.FieldValue,FieldValue,AIInsightReason,,FieldValue,項目値,項目値,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,AIInsightReason.Id,Id,AIInsightReason,,Id,AI インサイト理由 ID,AI インサイト理由 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AIInsightReason.Intensity,Intensity,AIInsightReason,,Intensity,強度,強度,数値(2、2),false,true,false,true,false,true
+000000000000000AAA,AIInsightReason.IsDeleted,IsDeleted,AIInsightReason,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AIInsightReason.LastModifiedBy,LastModifiedById,AIInsightReason,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AIInsightReason.LastModifiedDate,LastModifiedDate,AIInsightReason,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AIInsightReason.Name,Name,AIInsightReason,,Name,名前,名前,自動採番,false,false,true,true,false,true
+000000000000000AAA,AIInsightReason.Operator,Operator,AIInsightReason,,Operator,演算子,演算子,選択リスト,false,true,false,true,true,true
+000000000000000AAA,AIInsightReason.ReasonLabelKey,ReasonLabelKey,AIInsightReason,,ReasonLabelKey,理由表示ラベルキー,理由表示ラベルキー,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,AIInsightReason.RecordVisibility,RecordVisibilityId,AIInsightReason,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,AIInsightReason.RelatedInsightReason,RelatedInsightReasonId,AIInsightReason,,RelatedInsightReason,AI インサイト理由,AI インサイト理由,参照関係(AI インサイト理由),false,true,false,true,true,true
+000000000000000AAA,AIInsightReason.SortOrder,SortOrder,AIInsightReason,,SortOrder,並び替え順,並び替え順,数値(8、0),false,true,false,true,true,true
+000000000000000AAA,AIInsightReason.SystemModstamp,SystemModstamp,AIInsightReason,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AIInsightReason.UserRecordAccess,UserRecordAccessId,AIInsightReason,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
+000000000000000AAA,AIInsightReason.Variance,Variance,AIInsightReason,,Variance,分散,分散,数値(2、2),false,true,false,true,false,true

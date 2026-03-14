@@ -1,0 +1,14 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ExtlClntAppMobPlcyConfig.CreatedBy,CreatedById,ExtlClntAppMobPlcyConfig,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppMobPlcyConfig.CreatedDate,CreatedDate,ExtlClntAppMobPlcyConfig,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ExtlClntAppMobPlcyConfig.DeveloperName,DeveloperName,ExtlClntAppMobPlcyConfig,,DeveloperName,名前,名前,テキスト(80),false,false,true,true,true,true
+000000000000000AAA,ExtlClntAppMobPlcyConfig.ExternalClientApplication,ExternalClientApplicationId,ExtlClntAppMobPlcyConfig,,ExternalClientApplication,外部クライアントアプリケーション,外部クライアントアプリケーション,参照関係(External Client Applications)  (ユニーク),false,false,true,true,true,true
+000000000000000AAA,ExtlClntAppMobPlcyConfig.ExtlClntAppMobileSettings,ExtlClntAppMobileSettingsId,ExtlClntAppMobPlcyConfig,,ExtlClntAppMobileSettings,外部クライアントアプリケーションモバイル設定,外部クライアントアプリケーションモバイル設定,参照関係(外部クライアントアプリケーションモバイル設定)  (ユニーク),false,false,true,true,true,true
+000000000000000AAA,ExtlClntAppMobPlcyConfig.Id,Id,ExtlClntAppMobPlcyConfig,,Id,外部クライアントアプリケーションモバイルポリシー設定 ID,外部クライアントアプリケーションモバイルポリシー設定 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ExtlClntAppMobPlcyConfig.IsDeleted,IsDeleted,ExtlClntAppMobPlcyConfig,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppMobPlcyConfig.Language,Language,ExtlClntAppMobPlcyConfig,,Language,マスター言語,マスター言語,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppMobPlcyConfig.LastModifiedBy,LastModifiedById,ExtlClntAppMobPlcyConfig,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppMobPlcyConfig.LastModifiedDate,LastModifiedDate,ExtlClntAppMobPlcyConfig,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ExtlClntAppMobPlcyConfig.MasterLabel,MasterLabel,ExtlClntAppMobPlcyConfig,,MasterLabel,表示ラベル,表示ラベル,テキスト(80),false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppMobPlcyConfig.ScreenLockTimeout,ScreenLockTimeout,ExtlClntAppMobPlcyConfig,,ScreenLockTimeout,次の時間の経過後に画面ロック,次の時間の経過後に画面ロック,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ExtlClntAppMobPlcyConfig.SystemModstamp,SystemModstamp,ExtlClntAppMobPlcyConfig,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

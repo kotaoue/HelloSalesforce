@@ -1,0 +1,20 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,IdRsolStatusEvent.ConsolidationRate,ConsolidationRate,IdRsolStatusEvent,,ConsolidationRate,ID 解決の統合率,ID 解決の統合率,数値(18、0),false,true,false,false,false,false
+000000000000000AAA,IdRsolStatusEvent.CreatedBy,CreatedById,IdRsolStatusEvent,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,false,false,false
+000000000000000AAA,IdRsolStatusEvent.CreatedDate,CreatedDate,IdRsolStatusEvent,,CreatedDate,作成日,作成日,日付/時間,false,false,false,false,false,false
+000000000000000AAA,IdRsolStatusEvent.EventCreationDate,EventCreationDate,IdRsolStatusEvent,,EventCreationDate,イベント作成時刻,イベント作成時刻,日付/時間,false,true,false,false,false,false
+000000000000000AAA,IdRsolStatusEvent.EventPublishDate,EventPublishDate,IdRsolStatusEvent,,EventPublishDate,イベント公開時刻,イベント公開時刻,日付/時間,false,true,false,false,false,false
+000000000000000AAA,IdRsolStatusEvent.EventType,EventType,IdRsolStatusEvent,,EventType,Data Cloud イベントの種別,Data Cloud イベントの種別,テキスト(4000),false,true,false,false,false,false
+000000000000000AAA,IdRsolStatusEvent.EventUuid,EventUuid,IdRsolStatusEvent,,EventUuid,イベント UUID,イベント UUID,テキスト(36),false,true,false,false,false,false
+000000000000000AAA,IdRsolStatusEvent.IdentityResolutionDevName,IdentityResolutionDevName,IdRsolStatusEvent,,IdentityResolutionDevName,ID 解決の API 参照名,ID 解決の API 参照名,テキスト(4000),false,true,false,false,false,false
+000000000000000AAA,IdRsolStatusEvent.IdentityResolutionErrorCode,IdentityResolutionErrorCode,IdRsolStatusEvent,,IdentityResolutionErrorCode,ジョブの実行が失敗した場合のエラーコード,ジョブの実行が失敗した場合のエラーコード,テキスト(4000),false,true,false,false,false,false
+000000000000000AAA,IdRsolStatusEvent.LastRunStatus,LastRunStatus,IdRsolStatusEvent,,LastRunStatus,ID 解決の最終実行の状況,ID 解決の最終実行の状況,選択リスト,false,true,false,false,false,false
+000000000000000AAA,IdRsolStatusEvent.LastRunStatusDateTime,LastRunStatusDateTime,IdRsolStatusEvent,,LastRunStatusDateTime,ID 解決ジョブの実行の日時,ID 解決ジョブの実行の日時,日付/時間,false,true,false,false,false,false
+000000000000000AAA,IdRsolStatusEvent.MatchCount,MatchCount,IdRsolStatusEvent,,MatchCount,ID 解決の一致レコード数,ID 解決の一致レコード数,数値(18、0),false,true,false,false,false,false
+000000000000000AAA,IdRsolStatusEvent.ReplayId,ReplayId,IdRsolStatusEvent,,ReplayId,再実行 ID,再実行 ID,外部参照,false,true,false,false,false,false
+000000000000000AAA,IdRsolStatusEvent.SchemaVersion,SchemaVersion,IdRsolStatusEvent,,SchemaVersion,スキーマバージョン,スキーマバージョン,テキスト(4000),false,true,false,false,false,false
+000000000000000AAA,IdRsolStatusEvent.SourceCount,SourceCount,IdRsolStatusEvent,,SourceCount,ID 解決で使用されるソースレコード数,ID 解決で使用されるソースレコード数,数値(18、0),false,true,false,false,false,false
+000000000000000AAA,IdRsolStatusEvent.StatusDetails,StatusDetails,IdRsolStatusEvent,,StatusDetails,最終 IR 実行からのエラーの詳細,最終 IR 実行からのエラーの詳細,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,IdRsolStatusEvent.TotalAnonymousRecords,TotalAnonymousRecords,IdRsolStatusEvent,,TotalAnonymousRecords,匿名レコードの総数,匿名レコードの総数,数値(18、0),false,true,false,false,false,false
+000000000000000AAA,IdRsolStatusEvent.TotalNonAnonymousRecords,TotalNonAnonymousRecords,IdRsolStatusEvent,,TotalNonAnonymousRecords,非匿名レコードの総数,非匿名レコードの総数,数値(18、0),false,true,false,false,false,false
+000000000000000AAA,IdRsolStatusEvent.UnifiedCount,UnifiedCount,IdRsolStatusEvent,,UnifiedCount,ID 解決の統合レコード数,ID 解決の統合レコード数,数値(18、0),false,true,false,false,false,false

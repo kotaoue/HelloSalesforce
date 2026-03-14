@@ -1,0 +1,14 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ExtlClntAppPushPolicyConfig.CreatedBy,CreatedById,ExtlClntAppPushPolicyConfig,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppPushPolicyConfig.CreatedDate,CreatedDate,ExtlClntAppPushPolicyConfig,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ExtlClntAppPushPolicyConfig.DeveloperName,DeveloperName,ExtlClntAppPushPolicyConfig,,DeveloperName,名前,名前,テキスト(80),false,false,true,true,true,true
+000000000000000AAA,ExtlClntAppPushPolicyConfig.ExternalClientApplication,ExternalClientApplicationId,ExtlClntAppPushPolicyConfig,,ExternalClientApplication,外部クライアントアプリケーション,外部クライアントアプリケーション,参照関係(External Client Applications)  (ユニーク),false,false,true,true,true,true
+000000000000000AAA,ExtlClntAppPushPolicyConfig.ExtlClntAppPushSettings,ExtlClntAppPushSettingsId,ExtlClntAppPushPolicyConfig,,ExtlClntAppPushSettings,外部クライアントアプリケーション転送設定,外部クライアントアプリケーション転送設定,参照関係(外部クライアントアプリケーション転送設定)  (ユニーク),false,true,true,true,true,true
+000000000000000AAA,ExtlClntAppPushPolicyConfig.Id,Id,ExtlClntAppPushPolicyConfig,,Id,外部クライアントアプリケーション転送ポリシー設定 ID,外部クライアントアプリケーション転送ポリシー設定 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ExtlClntAppPushPolicyConfig.IsDeleted,IsDeleted,ExtlClntAppPushPolicyConfig,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppPushPolicyConfig.IsFullContent,IsFullContent,ExtlClntAppPushPolicyConfig,,IsFullContent,完全なコンテンツ,完全なコンテンツ,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppPushPolicyConfig.Language,Language,ExtlClntAppPushPolicyConfig,,Language,マスター言語,マスター言語,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppPushPolicyConfig.LastModifiedBy,LastModifiedById,ExtlClntAppPushPolicyConfig,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppPushPolicyConfig.LastModifiedDate,LastModifiedDate,ExtlClntAppPushPolicyConfig,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ExtlClntAppPushPolicyConfig.MasterLabel,MasterLabel,ExtlClntAppPushPolicyConfig,,MasterLabel,表示ラベル,表示ラベル,テキスト(80),false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppPushPolicyConfig.SystemModstamp,SystemModstamp,ExtlClntAppPushPolicyConfig,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

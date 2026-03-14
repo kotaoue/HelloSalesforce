@@ -1,0 +1,12 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,EmbeddedServiceFlowConfig.CreatedBy,CreatedById,EmbeddedServiceFlowConfig,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,EmbeddedServiceFlowConfig.CreatedDate,CreatedDate,EmbeddedServiceFlowConfig,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,EmbeddedServiceFlowConfig.EmbeddedServiceConfig,EmbeddedServiceConfigId,EmbeddedServiceFlowConfig,,EmbeddedServiceConfig,組み込みサービスリリース,組み込みサービスリリース,参照関係(組み込みサービスリリース)  (ユニーク),false,false,true,true,true,true
+000000000000000AAA,EmbeddedServiceFlowConfig.Enabled,Enabled,EmbeddedServiceFlowConfig,,Enabled,有効,有効,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,EmbeddedServiceFlowConfig.FullName,FullName,EmbeddedServiceFlowConfig,,FullName,氏名,氏名,テキスト(255),false,true,false,false,true,false
+000000000000000AAA,EmbeddedServiceFlowConfig.Id,Id,EmbeddedServiceFlowConfig,,Id,組み込みサービスフロー設定 ID,組み込みサービスフロー設定 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,EmbeddedServiceFlowConfig.IsDeleted,IsDeleted,EmbeddedServiceFlowConfig,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,EmbeddedServiceFlowConfig.LastModifiedBy,LastModifiedById,EmbeddedServiceFlowConfig,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,EmbeddedServiceFlowConfig.LastModifiedDate,LastModifiedDate,EmbeddedServiceFlowConfig,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,EmbeddedServiceFlowConfig.Metadata,Metadata,EmbeddedServiceFlowConfig,,Metadata,メタデータ,メタデータ,複合値,false,true,false,false,false,false
+000000000000000AAA,EmbeddedServiceFlowConfig.SystemModstamp,SystemModstamp,EmbeddedServiceFlowConfig,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

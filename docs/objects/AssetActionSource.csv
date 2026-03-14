@@ -1,0 +1,24 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AssetActionSource.ActualTax,ActualTax,AssetActionSource,,ActualTax,実効税額,実効税額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,AssetActionSource.AdjustmentAmount,AdjustmentAmount,AssetActionSource,,AdjustmentAmount,調整金額,調整金額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,AssetActionSource.AssetAction,AssetActionId,AssetActionSource,,AssetAction,納入商品アクション,納入商品アクション,主従関係(納入商品アクション),false,false,true,true,true,true
+000000000000000AAA,AssetActionSource.CreatedBy,CreatedById,AssetActionSource,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,AssetActionSource.CreatedDate,CreatedDate,AssetActionSource,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AssetActionSource.EndDate,EndDate,AssetActionSource,,EndDate,終了日,終了日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,AssetActionSource.EstimatedTax,EstimatedTax,AssetActionSource,,EstimatedTax,予想税額,予想税額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,AssetActionSource.ExternalReference,ExternalReference,AssetActionSource,,ExternalReference,外部参照,外部参照,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,AssetActionSource.ExternalReferenceDataSource,ExternalReferenceDataSource,AssetActionSource,,ExternalReferenceDataSource,外部参照データソース,外部参照データソース,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,AssetActionSource.Id,Id,AssetActionSource,,Id,納入商品アクションソース ID,納入商品アクションソース ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AssetActionSource.IsDeleted,IsDeleted,AssetActionSource,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AssetActionSource.LastModifiedBy,LastModifiedById,AssetActionSource,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AssetActionSource.LastModifiedDate,LastModifiedDate,AssetActionSource,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AssetActionSource.Name,AssetActionSourceNumber,AssetActionSource,,Name,名前,名前,自動採番,false,false,true,true,false,true
+000000000000000AAA,AssetActionSource.ProductAmount,ProductAmount,AssetActionSource,,ProductAmount,商品金額,商品金額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,AssetActionSource.Quantity,Quantity,AssetActionSource,,Quantity,数量,数量,数値(12、2),false,true,false,true,false,true
+000000000000000AAA,AssetActionSource.RecordVisibility,RecordVisibilityId,AssetActionSource,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,AssetActionSource.ReferenceEntityItem,ReferenceEntityItemId,AssetActionSource,,ReferenceEntityItem,参照エンティティ品目,参照エンティティ品目,"参照関係(注文商品,作業指示品目)",false,true,false,true,true,true
+000000000000000AAA,AssetActionSource.StartDate,StartDate,AssetActionSource,,StartDate,開始日,開始日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,AssetActionSource.Subtotal,Subtotal,AssetActionSource,,Subtotal,小計,小計,数式 (通貨),true,true,false,true,false,true
+000000000000000AAA,AssetActionSource.SystemModstamp,SystemModstamp,AssetActionSource,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AssetActionSource.TransactionDate,TransactionDate,AssetActionSource,,TransactionDate,取引日,取引日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,AssetActionSource.UserRecordAccess,UserRecordAccessId,AssetActionSource,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

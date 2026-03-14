@@ -1,0 +1,18 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,FlowInterviewLogEntry.CreatedBy,CreatedById,FlowInterviewLogEntry,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,FlowInterviewLogEntry.CreatedDate,CreatedDate,FlowInterviewLogEntry,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,FlowInterviewLogEntry.DurationSinceStartInMinutes,DurationSinceStartInMinutes,FlowInterviewLogEntry,,DurationSinceStartInMinutes,フローを開始してからの期間 (分),フローを開始してからの期間 (分),数値(16、2),false,true,false,true,false,true
+000000000000000AAA,FlowInterviewLogEntry.ElementApiName,ElementApiName,FlowInterviewLogEntry,,ElementApiName,要素の API 参照名,要素の API 参照名,テキスト(80),false,true,false,true,true,true
+000000000000000AAA,FlowInterviewLogEntry.ElementDurationInMinutes,ElementDurationInMinutes,FlowInterviewLogEntry,,ElementDurationInMinutes,要素の期間 (分),要素の期間 (分),数値(16、2),false,true,false,true,false,true
+000000000000000AAA,FlowInterviewLogEntry.ElementLabel,ElementLabel,FlowInterviewLogEntry,,ElementLabel,要素ラベル,要素ラベル,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FlowInterviewLogEntry.FlowInterviewLog,FlowInterviewLogId,FlowInterviewLogEntry,,FlowInterviewLog,フローインタビューログ,フローインタビューログ,主従関係(フローインタビューログ),false,false,true,true,true,true
+000000000000000AAA,FlowInterviewLogEntry.Id,Id,FlowInterviewLogEntry,,Id,フローインタビューログエントリ ID,フローインタビューログエントリ ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,FlowInterviewLogEntry.IsDeleted,IsDeleted,FlowInterviewLogEntry,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,FlowInterviewLogEntry.LastModifiedBy,LastModifiedById,FlowInterviewLogEntry,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,FlowInterviewLogEntry.LastModifiedDate,LastModifiedDate,FlowInterviewLogEntry,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,FlowInterviewLogEntry.LogEntryTimestamp,LogEntryTimestamp,FlowInterviewLogEntry,,LogEntryTimestamp,ログエントリタイムスタンプ,ログエントリタイムスタンプ,日付/時間,false,false,true,true,false,true
+000000000000000AAA,FlowInterviewLogEntry.LogEntryType,LogEntryType,FlowInterviewLogEntry,,LogEntryType,ログエントリタイプ,ログエントリタイプ,選択リスト,false,false,false,true,true,true
+000000000000000AAA,FlowInterviewLogEntry.Name,Name,FlowInterviewLogEntry,,Name,名前,名前,自動採番,false,false,true,true,false,true
+000000000000000AAA,FlowInterviewLogEntry.RecordVisibility,RecordVisibilityId,FlowInterviewLogEntry,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,FlowInterviewLogEntry.SystemModstamp,SystemModstamp,FlowInterviewLogEntry,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,FlowInterviewLogEntry.UserRecordAccess,UserRecordAccessId,FlowInterviewLogEntry,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

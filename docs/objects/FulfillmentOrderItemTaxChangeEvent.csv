@@ -1,0 +1,15 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,FulfillmentOrderItemTaxChangeEvent.Amount,Amount,FulfillmentOrderItemTaxChangeEvent,,Amount,金額,金額,通貨(16、2),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderItemTaxChangeEvent.ChangeEventHeader,ChangeEventHeader,FulfillmentOrderItemTaxChangeEvent,,ChangeEventHeader,変更イベントヘッダー,変更イベントヘッダー,複合値,false,false,false,false,false,false
+000000000000000AAA,FulfillmentOrderItemTaxChangeEvent.CreatedBy,CreatedById,FulfillmentOrderItemTaxChangeEvent,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderItemTaxChangeEvent.CreatedDate,CreatedDate,FulfillmentOrderItemTaxChangeEvent,,CreatedDate,作成日,作成日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderItemTaxChangeEvent.Description,Description,FulfillmentOrderItemTaxChangeEvent,,Description,説明,説明,ロングテキストエリア(2000),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderItemTaxChangeEvent.FulfillmentOrder,FulfillmentOrderId,FulfillmentOrderItemTaxChangeEvent,,FulfillmentOrder,履行注文,履行注文,参照関係(履行注文),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderItemTaxChangeEvent.FulfillmentOrderItemAdjust,FulfillmentOrderItemAdjustId,FulfillmentOrderItemTaxChangeEvent,,FulfillmentOrderItemAdjust,履行注文品目調整,履行注文品目調整,参照関係(履行注文品目調整),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderItemTaxChangeEvent.FulfillmentOrderLineItem,FulfillmentOrderLineItemId,FulfillmentOrderItemTaxChangeEvent,,FulfillmentOrderLineItem,履行注文商品,履行注文商品,参照関係(履行注文商品),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderItemTaxChangeEvent.LastModifiedBy,LastModifiedById,FulfillmentOrderItemTaxChangeEvent,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderItemTaxChangeEvent.LastModifiedDate,LastModifiedDate,FulfillmentOrderItemTaxChangeEvent,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderItemTaxChangeEvent.Name,FulfillmentOrderItemTaxNumber,FulfillmentOrderItemTaxChangeEvent,,Name,名前,名前,自動採番,false,false,false,false,false,false
+000000000000000AAA,FulfillmentOrderItemTaxChangeEvent.Rate,Rate,FulfillmentOrderItemTaxChangeEvent,,Rate,率,率,パーセント(3、2),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderItemTaxChangeEvent.TaxEffectiveDate,TaxEffectiveDate,FulfillmentOrderItemTaxChangeEvent,,TaxEffectiveDate,税発効日,税発効日,日付,false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderItemTaxChangeEvent.Type,Type,FulfillmentOrderItemTaxChangeEvent,,Type,種別,種別,選択リスト,false,true,false,false,false,false

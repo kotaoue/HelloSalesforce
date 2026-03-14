@@ -1,0 +1,44 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DataStreamDefinition.AreHeadersIncludedInFile,AreHeadersIncludedInFile,DataStreamDefinition,,AreHeadersIncludedInFile,ヘッダーレスファイルの取得が有効,ヘッダーレスファイルの取得が有効,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DataStreamDefinition.BulkIngest,BulkIngest,DataStreamDefinition,,BulkIngest,一括取り込み,一括取り込み,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DataStreamDefinition.CreatedBy,CreatedById,DataStreamDefinition,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DataStreamDefinition.CreatedDate,CreatedDate,DataStreamDefinition,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DataStreamDefinition.CreationType,CreationType,DataStreamDefinition,,CreationType,作成種別,作成種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.DataConnection,DataConnectionId,DataStreamDefinition,,DataConnection,データ接続,データ接続,参照関係(Google Cloud ストレージデータ接続),false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.DataConnector,DataConnectorId,DataStreamDefinition,,DataConnector,データコネクタ,データコネクタ,"参照関係(外部データコネクタ,内部データコネクタ,データ接続)",false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.DataConnectorType,DataConnectorType,DataStreamDefinition,,DataConnectorType,データコネクタタイプ,データコネクタタイプ,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.DataExtensionIdentifier,DataExtensionIdentifier,DataStreamDefinition,,DataExtensionIdentifier,データエクステンション識別子,データエクステンション識別子,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.DataExtractField,DataExtractField,DataStreamDefinition,,DataExtractField,データ抽出項目,データ抽出項目,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.DataExtractMethod,DataExtractMethod,DataStreamDefinition,,DataExtractMethod,データ抽出方法,データ抽出方法,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.DataLakeObjectNamespacePrefix,DataLakeObjectNamespacePrefix,DataStreamDefinition,,DataLakeObjectNamespacePrefix,データレイクオブジェクト名前空間プレフィックス,データレイクオブジェクト名前空間プレフィックス,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.DataLakeObjectRef,DataLakeObjectRef,DataStreamDefinition,,DataLakeObjectRef,データレイクオブジェクト定義,データレイクオブジェクト定義,選択リスト(データレイクオブジェクト定義),false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.DataPlatDataSetBundle,DataPlatDataSetBundleId,DataStreamDefinition,,DataPlatDataSetBundle,データプラットフォームデータセットバンドル,データプラットフォームデータセットバンドル,参照関係(データコネクタデータセットバンドル),false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.DataPlatformDataSetItemName,DataPlatformDataSetItemName,DataStreamDefinition,,DataPlatformDataSetItemName,データプラットフォームデータセット項目,データプラットフォームデータセット項目,テキスト(50),false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.DataSource,DataSourceId,DataStreamDefinition,,DataSource,データソース,データソース,参照関係(データソース),false,false,true,true,true,true
+000000000000000AAA,DataStreamDefinition.DataStreamTemplate,DataStreamTemplateId,DataStreamDefinition,,DataStreamTemplate,データストリームテンプレート,データストリームテンプレート,参照関係(データストリームテンプレート),false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.DeletionRecordsDataLakeObject,DeletionRecordsDataLakeObjectId,DataStreamDefinition,,DeletionRecordsDataLakeObject,削除レコードデータレイクオブジェクト定義,削除レコードデータレイクオブジェクト定義,参照関係(データレイクオブジェクト定義),false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.DeletionRecordsDataLakeObjectRef,DeletionRecordsDataLakeObjectRef,DataStreamDefinition,,DeletionRecordsDataLakeObjectRef,削除レコードデータレイクオブジェクト定義,削除レコードデータレイクオブジェクト定義,選択リスト(データレイクオブジェクト定義),false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.DeprecatedDataConnectorType,DeprecatedDataConnectorType,DataStreamDefinition,,DeprecatedDataConnectorType,非推奨のデータコネクタタイプ,非推奨のデータコネクタタイプ,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.Description,Description,DataStreamDefinition,,Description,説明,説明,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.DeveloperName,DeveloperName,DataStreamDefinition,,DeveloperName,名前,名前,テキスト(80),false,false,true,true,true,true
+000000000000000AAA,DataStreamDefinition.FileNameWildcard,FileNameWildcard,DataStreamDefinition,,FileNameWildcard,ファイル名のワイルドカード,ファイル名のワイルドカード,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.FullName,FullName,DataStreamDefinition,,FullName,データストリーム定義名,データストリーム定義名,テキスト(255),false,true,false,false,true,false
+000000000000000AAA,DataStreamDefinition.Id,Id,DataStreamDefinition,,Id,データストリーム定義 ID,データストリーム定義 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DataStreamDefinition.InternalOrganization,InternalOrganizationId,DataStreamDefinition,,InternalOrganization,内部組織,内部組織,参照関係(内部組織),false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.IsDeleted,IsDeleted,DataStreamDefinition,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DataStreamDefinition.IsLimitedToNewFiles,IsLimitedToNewFiles,DataStreamDefinition,,IsLimitedToNewFiles,新規ファイルに制限,新規ファイルに制限,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DataStreamDefinition.IsMissingFileFailure,IsMissingFileFailure,DataStreamDefinition,,IsMissingFileFailure,欠落ファイルを失敗処理,欠落ファイルを失敗処理,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DataStreamDefinition.Language,Language,DataStreamDefinition,,Language,マスター言語,マスター言語,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.LastModifiedBy,LastModifiedById,DataStreamDefinition,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DataStreamDefinition.LastModifiedDate,LastModifiedDate,DataStreamDefinition,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DataStreamDefinition.ManageableState,ManageableState,DataStreamDefinition,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.MasterLabel,MasterLabel,DataStreamDefinition,,MasterLabel,表示ラベル,表示ラベル,テキスト(80),false,false,false,true,true,true
+000000000000000AAA,DataStreamDefinition.Metadata,Metadata,DataStreamDefinition,,Metadata,メタデータ,メタデータ,複合値,false,true,false,false,false,false
+000000000000000AAA,DataStreamDefinition.MktDataLakeObject,MktDataLakeObjectId,DataStreamDefinition,,MktDataLakeObject,データレイクオブジェクト定義,データレイクオブジェクト定義,参照関係(データレイクオブジェクト定義),false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.MktDataLakeObjectDeveloperName,MktDataLakeObjectDeveloperName,DataStreamDefinition,,MktDataLakeObjectDeveloperName,データレイクオブジェクト名,データレイクオブジェクト名,テキスト(40),false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.MktDataTranObject,MktDataTranObjectId,DataStreamDefinition,,MktDataTranObject,データトランスポートオブジェクト定義,データトランスポートオブジェクト定義,参照関係(データトランスポートオブジェクト),false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.NamespacePrefix,NamespacePrefix,DataStreamDefinition,,NamespacePrefix,名前空間プレフィックス,名前空間プレフィックス,テキスト,false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.ParentDataStreamDefinition,ParentDataStreamDefinitionId,DataStreamDefinition,,ParentDataStreamDefinition,親データストリーム定義,親データストリーム定義,参照関係(データストリーム定義),false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.ProblemRecordsDataLakeObject,ProblemRecordsDataLakeObjectId,DataStreamDefinition,,ProblemRecordsDataLakeObject,問題レコードデータレイクオブジェクト定義,問題レコードデータレイクオブジェクト定義,参照関係(データレイクオブジェクト定義),false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.ProblemRecordsDataLakeObjectRef,ProblemRecordsDataLakeObjectRef,DataStreamDefinition,,ProblemRecordsDataLakeObjectRef,問題レコードデータレイクオブジェクト定義,問題レコードデータレイクオブジェクト定義,選択リスト(データレイクオブジェクト定義),false,true,false,true,true,true
+000000000000000AAA,DataStreamDefinition.SystemModstamp,SystemModstamp,DataStreamDefinition,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

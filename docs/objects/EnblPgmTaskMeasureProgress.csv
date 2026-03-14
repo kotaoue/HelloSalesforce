@@ -1,0 +1,14 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,EnblPgmTaskMeasureProgress.ContributingRecordCount,ContributingRecordCount,EnblPgmTaskMeasureProgress,,ContributingRecordCount,寄与しているレコードの件数,寄与しているレコードの件数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,EnblPgmTaskMeasureProgress.CreatedBy,CreatedById,EnblPgmTaskMeasureProgress,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,EnblPgmTaskMeasureProgress.CreatedDate,CreatedDate,EnblPgmTaskMeasureProgress,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,EnblPgmTaskMeasureProgress.EnblProgramTaskMeasure,EnblProgramTaskMeasureId,EnblPgmTaskMeasureProgress,,EnblProgramTaskMeasure,イネーブルメントプログラムタスク基準,イネーブルメントプログラムタスク基準,参照関係(イネーブルメントプログラムタスク基準),false,false,false,true,true,true
+000000000000000AAA,EnblPgmTaskMeasureProgress.EnblProgramTaskProgress,EnblProgramTaskProgressId,EnblPgmTaskMeasureProgress,,EnblProgramTaskProgress,イネーブルメントプログラムタスク進行状況,イネーブルメントプログラムタスク進行状況,主従関係(イネーブルメントプログラムタスク進行状況),false,false,true,true,true,true
+000000000000000AAA,EnblPgmTaskMeasureProgress.Id,Id,EnblPgmTaskMeasureProgress,,Id,イネーブルメントプログラムタスク基準進行状況 ID,イネーブルメントプログラムタスク基準進行状況 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,EnblPgmTaskMeasureProgress.IsDeleted,IsDeleted,EnblPgmTaskMeasureProgress,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,EnblPgmTaskMeasureProgress.LastModifiedBy,LastModifiedById,EnblPgmTaskMeasureProgress,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,EnblPgmTaskMeasureProgress.LastModifiedDate,LastModifiedDate,EnblPgmTaskMeasureProgress,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,EnblPgmTaskMeasureProgress.MeasureComputationResult,MeasureComputationResult,EnblPgmTaskMeasureProgress,,MeasureComputationResult,基準計算結果,基準計算結果,数値(9、2),false,false,false,true,false,true
+000000000000000AAA,EnblPgmTaskMeasureProgress.RecordVisibility,RecordVisibilityId,EnblPgmTaskMeasureProgress,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,EnblPgmTaskMeasureProgress.SystemModstamp,SystemModstamp,EnblPgmTaskMeasureProgress,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,EnblPgmTaskMeasureProgress.UserRecordAccess,UserRecordAccessId,EnblPgmTaskMeasureProgress,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

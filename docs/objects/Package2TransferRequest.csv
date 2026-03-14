@@ -1,0 +1,15 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,Package2TransferRequest.AllPackage,AllPackageId,Package2TransferRequest,,AllPackage,パッケージバージョン,パッケージバージョン,参照関係(パッケージ),false,false,false,true,true,true
+000000000000000AAA,Package2TransferRequest.CreatedBy,CreatedById,Package2TransferRequest,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,Package2TransferRequest.CreatedDate,CreatedDate,Package2TransferRequest,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,Package2TransferRequest.DestinationDevHub,DestinationDevHubId,Package2TransferRequest,,DestinationDevHub,転送先 Dev Hub,転送先 Dev Hub,参照関係(AllOrganization),false,false,false,true,true,true
+000000000000000AAA,Package2TransferRequest.ErrorMessage,ErrorMessage,Package2TransferRequest,,ErrorMessage,エラーメッセージ,エラーメッセージ,テキストエリア(1333),false,true,false,true,false,true
+000000000000000AAA,Package2TransferRequest.Id,Id,Package2TransferRequest,,Id,第二世代パッケージ転送要求 ID,第二世代パッケージ転送要求 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,Package2TransferRequest.IsDeleted,IsDeleted,Package2TransferRequest,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,Package2TransferRequest.LastModifiedBy,LastModifiedById,Package2TransferRequest,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,Package2TransferRequest.LastModifiedDate,LastModifiedDate,Package2TransferRequest,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,Package2TransferRequest.Sequence,Sequence,Package2TransferRequest,,Sequence,順序,順序,自動採番  (ユニーク、大文字と小文字を区別しない),false,false,true,true,false,true
+000000000000000AAA,Package2TransferRequest.SourceDevHub,SourceDevHubId,Package2TransferRequest,,SourceDevHub,転送元 Dev Hub,転送元 Dev Hub,参照関係(AllOrganization),false,false,true,true,true,true
+000000000000000AAA,Package2TransferRequest.Stage,Stage,Package2TransferRequest,,Stage,第二世代パッケージ転送フェーズ,第二世代パッケージ転送フェーズ,選択リスト,false,true,false,true,true,true
+000000000000000AAA,Package2TransferRequest.SystemModstamp,SystemModstamp,Package2TransferRequest,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,Package2TransferRequest.ValidateOnly,ValidateOnly,Package2TransferRequest,,ValidateOnly,検証のみ,検証のみ,チェックボックス,false,false,false,true,true,true

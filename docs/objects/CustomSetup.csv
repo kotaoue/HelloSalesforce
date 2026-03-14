@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,CustomSetup.ClientName,ClientName,CustomSetup,,ClientName,クライアント名,クライアント名,テキスト(80),false,true,false,true,true,true
+000000000000000AAA,CustomSetup.CreatedBy,CreatedById,CustomSetup,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,CustomSetup.CreatedDate,CreatedDate,CustomSetup,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,CustomSetup.CustomSetupDefinition,CustomSetupDefinitionId,CustomSetup,,CustomSetupDefinition,カスタム設定の定義,カスタム設定の定義,参照関係(カスタム設定の定義),false,false,true,true,true,true
+000000000000000AAA,CustomSetup.DataType,DataType,CustomSetup,,DataType,データ型,データ型,選択リスト,false,true,false,true,true,true
+000000000000000AAA,CustomSetup.DomainSobjectType,DomainSobjectType,CustomSetup,,DomainSobjectType,ドメイン,ドメイン,選択リスト,false,true,false,true,true,true
+000000000000000AAA,CustomSetup.Id,Id,CustomSetup,,Id,カスタム設定 ID,カスタム設定 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,CustomSetup.KeyPath,KeyPath,CustomSetup,,KeyPath,キーパス,キーパス,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,CustomSetup.LastModifiedBy,LastModifiedById,CustomSetup,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,CustomSetup.LastModifiedDate,LastModifiedDate,CustomSetup,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,CustomSetup.MasterLabel,MasterLabel,CustomSetup,,MasterLabel,マスター表示ラベル,マスター表示ラベル,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,CustomSetup.Parent,ParentId,CustomSetup,,Parent,参照先エンティティ,参照先エンティティ,"参照関係(組織,プロファイル,ユーザー,Call Center)",false,false,true,true,true,true
+000000000000000AAA,CustomSetup.SobjectType,SobjectType,CustomSetup,,SobjectType,設定の種別,設定の種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,CustomSetup.SystemModstamp,SystemModstamp,CustomSetup,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,CustomSetup.Value,Value,CustomSetup,,Value,カスタム設定値,カスタム設定値,参照関係,false,true,false,false,false,true

@@ -1,0 +1,46 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,CreditMemo.Balance,Balance,CreditMemo,,Balance,残高,残高,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CreditMemo.BillingAccount,BillingAccountId,CreditMemo,,BillingAccount,請求取引先,請求取引先,参照関係(取引先),false,false,true,true,true,true
+000000000000000AAA,CreditMemo.BillToContact,BillToContactId,CreditMemo,,BillToContact,請求先 取引先責任者,請求先 取引先責任者,参照関係(取引先責任者),false,true,false,true,true,true
+000000000000000AAA,CreditMemo.Category,Category,CreditMemo,,Category,カテゴリ,カテゴリ,選択リスト,false,true,false,true,true,true
+000000000000000AAA,CreditMemo.CorpCrcyCnvTotAmtWithTax,CorpCrcyCnvTotAmtWithTax,CreditMemo,,CorpCrcyCnvTotAmtWithTax,マスター通貨換算後の総額 (税込),マスター通貨換算後の総額 (税込),数値(12、6),false,true,false,true,false,true
+000000000000000AAA,CreditMemo.CorporateCurrencyCvsnDate,CorporateCurrencyCvsnDate,CreditMemo,,CorporateCurrencyCvsnDate,マスター通貨換算日,マスター通貨換算日,日付,false,true,false,true,true,true
+000000000000000AAA,CreditMemo.CorporateCurrencyCvsnRate,CorporateCurrencyCvsnRate,CreditMemo,,CorporateCurrencyCvsnRate,マスター通貨換算レート,マスター通貨換算レート,数値(8、10),false,true,false,true,false,true
+000000000000000AAA,CreditMemo.CreatedBy,CreatedById,CreditMemo,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,CreditMemo.CreatedDate,CreatedDate,CreditMemo,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,CreditMemo.CreationMode,CreationMode,CreditMemo,,CreationMode,作成モード,作成モード,選択リスト,false,true,false,true,true,true
+000000000000000AAA,CreditMemo.CreditDate,CreditDate,CreditMemo,,CreditDate,クレジット日,クレジット日,日付,false,true,false,true,true,true
+000000000000000AAA,CreditMemo.CreditMemoNumber,CreditMemoNumber,CreditMemo,,CreditMemoNumber,クレジットメモ番号,クレジットメモ番号,テキスト(255)  (ユニーク、大文字と小文字を区別する),false,true,true,true,true,true
+000000000000000AAA,CreditMemo.Description,Description,CreditMemo,,Description,説明,説明,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,CreditMemo.ExternalReference,ExternalReference,CreditMemo,,ExternalReference,外部参照,外部参照,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,CreditMemo.ExternalReferenceDataSource,ExternalReferenceDataSource,CreditMemo,,ExternalReferenceDataSource,外部参照データソース,外部参照データソース,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,CreditMemo.FuncCrcyCnvTotAmtWithTax,FuncCrcyCnvTotAmtWithTax,CreditMemo,,FuncCrcyCnvTotAmtWithTax,機能通貨換算後の総額 (税込),機能通貨換算後の総額 (税込),数値(12、6),false,true,false,true,false,true
+000000000000000AAA,CreditMemo.FunctionalCurrencyCvsnDate,FunctionalCurrencyCvsnDate,CreditMemo,,FunctionalCurrencyCvsnDate,機能通貨換算日,機能通貨換算日,日付,false,true,false,true,true,true
+000000000000000AAA,CreditMemo.FunctionalCurrencyCvsnRate,FunctionalCurrencyCvsnRate,CreditMemo,,FunctionalCurrencyCvsnRate,機能通貨換算レート,機能通貨換算レート,数値(8、10),false,true,false,true,false,true
+000000000000000AAA,CreditMemo.Id,Id,CreditMemo,,Id,クレジットメモ,クレジットメモ,参照関係(),false,false,true,true,true,true
+000000000000000AAA,CreditMemo.IsDeleted,IsDeleted,CreditMemo,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,CreditMemo.LastModifiedBy,LastModifiedById,CreditMemo,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,CreditMemo.LastModifiedDate,LastModifiedDate,CreditMemo,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,CreditMemo.LastReferencedDate,LastReferencedDate,CreditMemo,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,CreditMemo.LastViewedDate,LastViewedDate,CreditMemo,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,CreditMemo.Name,DocumentNumber,CreditMemo,,Name,ドキュメント番号,ドキュメント番号,自動採番,false,false,true,true,false,true
+000000000000000AAA,CreditMemo.NetCreditsApplied,NetCreditsApplied,CreditMemo,,NetCreditsApplied,正価クレジット適用済み,正価クレジット適用済み,数式 (通貨),true,true,false,true,false,true
+000000000000000AAA,CreditMemo.Owner,OwnerId,CreditMemo,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,CreditMemo.ReasonCode,ReasonCode,CreditMemo,,ReasonCode,理由コード,理由コード,選択リスト,false,true,false,true,true,true
+000000000000000AAA,CreditMemo.RecordVisibility,RecordVisibilityId,CreditMemo,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,CreditMemo.ReferenceEntity,ReferenceEntityId,CreditMemo,,ReferenceEntity,参照エンティティ,参照エンティティ,"参照関係(注文,請求書)",false,true,false,true,true,true
+000000000000000AAA,CreditMemo.Status,Status,CreditMemo,,Status,状況,状況,選択リスト,false,false,true,true,true,true
+000000000000000AAA,CreditMemo.SystemModstamp,SystemModstamp,CreditMemo,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,CreditMemo.TotalAdjustmentAmount,TotalAdjustmentAmount,CreditMemo,,TotalAdjustmentAmount,調整額合計,調整額合計,積み上げ集計 (合計 クレジットメモ品目),true,true,false,true,false,true
+000000000000000AAA,CreditMemo.TotalAdjustmentAmountWithTax,TotalAdjustmentAmountWithTax,CreditMemo,,TotalAdjustmentAmountWithTax,税込調整金額合計,税込調整金額合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CreditMemo.TotalAdjustmentTaxAmount,TotalAdjustmentTaxAmount,CreditMemo,,TotalAdjustmentTaxAmount,調整税額合計,調整税額合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CreditMemo.TotalAmount,TotalAmount,CreditMemo,,TotalAmount,総額,総額,数式 (通貨),true,true,false,true,false,true
+000000000000000AAA,CreditMemo.TotalAmountWithTax,TotalAmountWithTax,CreditMemo,,TotalAmountWithTax,税込総額,税込総額,数式 (通貨),true,true,false,true,false,true
+000000000000000AAA,CreditMemo.TotalChargeAmount,TotalChargeAmount,CreditMemo,,TotalChargeAmount,請求総額,請求総額,積み上げ集計 (合計 クレジットメモ品目),true,true,false,true,false,true
+000000000000000AAA,CreditMemo.TotalChargeAmountWithTax,TotalChargeAmountWithTax,CreditMemo,,TotalChargeAmountWithTax,税込請求金額合計,税込請求金額合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CreditMemo.TotalChargeTaxAmount,TotalChargeTaxAmount,CreditMemo,,TotalChargeTaxAmount,請求税額合計,請求税額合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CreditMemo.TotalCreditAmountApplied,TotalCreditAmountApplied,CreditMemo,,TotalCreditAmountApplied,合計クレジット金額適用済み,合計クレジット金額適用済み,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CreditMemo.TotalCreditAmountUnapplied,TotalCreditAmountUnapplied,CreditMemo,,TotalCreditAmountUnapplied,合計クレジット金額適用解除済み,合計クレジット金額適用解除済み,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CreditMemo.TotalTaxAmount,TotalTaxAmount,CreditMemo,,TotalTaxAmount,税額合計,税額合計,積み上げ集計 (合計 クレジットメモ品目),true,true,false,true,false,true
+000000000000000AAA,CreditMemo.TotalTaxesCapturedAtHeader,TotalTaxesCapturedAtHeader,CreditMemo,,TotalTaxesCapturedAtHeader,ヘッダーで取得された税額合計,ヘッダーで取得された税額合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CreditMemo.UserRecordAccess,UserRecordAccessId,CreditMemo,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

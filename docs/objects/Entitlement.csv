@@ -1,0 +1,30 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,Entitlement.Account,AccountId,Entitlement,,Account,取引先名,取引先名,主従関係(取引先),false,false,true,true,true,true
+000000000000000AAA,Entitlement.Asset,AssetId,Entitlement,,Asset,納入商品名,納入商品名,参照関係(納入商品),false,true,false,true,true,true
+000000000000000AAA,Entitlement.BusinessHours,BusinessHoursId,Entitlement,,BusinessHours,営業時間,営業時間,参照関係(営業時間),false,true,false,true,true,true
+000000000000000AAA,Entitlement.CasesPerEntitlement,CasesPerEntitlement,Entitlement,,CasesPerEntitlement,エンタイトルメントあたりのケース,エンタイトルメントあたりのケース,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,Entitlement.ContractLineItem,ContractLineItemId,Entitlement,,ContractLineItem,契約品目名,契約品目名,参照関係(契約品目名),false,true,false,true,true,true
+000000000000000AAA,Entitlement.CreatedBy,CreatedById,Entitlement,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,Entitlement.CreatedDate,CreatedDate,Entitlement,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,Entitlement.EndDate,EndDate,Entitlement,,EndDate,終了日,終了日,日付,false,true,false,true,true,true
+000000000000000AAA,Entitlement.Id,Id,Entitlement,,Id,エンタイトルメント ID,エンタイトルメント ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,Entitlement.IsDeleted,IsDeleted,Entitlement,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,Entitlement.IsPerIncident,IsPerIncident,Entitlement,,IsPerIncident,障害あたり,障害あたり,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,Entitlement.LastModifiedBy,LastModifiedById,Entitlement,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,Entitlement.LastModifiedDate,LastModifiedDate,Entitlement,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,Entitlement.LastReferencedDate,LastReferencedDate,Entitlement,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,Entitlement.LastViewedDate,LastViewedDate,Entitlement,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,Entitlement.Location,LocationId,Entitlement,,Location,ロケーション,ロケーション,参照関係(ロケーション),false,true,false,true,true,true
+000000000000000AAA,Entitlement.Name,Name,Entitlement,,Name,エンタイトルメント名,エンタイトルメント名,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,Entitlement.RecordVisibility,RecordVisibilityId,Entitlement,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,Entitlement.RemainingCases,RemainingCases,Entitlement,,RemainingCases,残りケース,残りケース,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,Entitlement.RemainingWorkOrders,RemainingWorkOrders,Entitlement,,RemainingWorkOrders,残りの作業指示,残りの作業指示,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,Entitlement.ServiceContract,ServiceContractId,Entitlement,,ServiceContract,サービス契約,サービス契約,参照関係(サービス契約),false,true,false,true,true,true
+000000000000000AAA,Entitlement.SlaProcess,SlaProcessId,Entitlement,,SlaProcess,SLA ポリシー,SLA ポリシー,参照関係(エンタイトルメントプロセス),false,true,false,true,true,true
+000000000000000AAA,Entitlement.StartDate,StartDate,Entitlement,,StartDate,開始日,開始日,日付,false,true,false,true,true,true
+000000000000000AAA,Entitlement.Status,Status,Entitlement,,Status,状況,状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,Entitlement.SvcApptBookingWindows,SvcApptBookingWindowsId,Entitlement,,SvcApptBookingWindows,営業時間,営業時間,参照関係(営業時間),false,true,false,true,true,true
+000000000000000AAA,Entitlement.SystemModstamp,SystemModstamp,Entitlement,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,Entitlement.Type,Type,Entitlement,,Type,種別,種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,Entitlement.UserRecordAccess,UserRecordAccessId,Entitlement,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
+000000000000000AAA,Entitlement.WorkOrdersPerEntitlement,WorkOrdersPerEntitlement,Entitlement,,WorkOrdersPerEntitlement,エンタイトルメントあたりの作業指示,エンタイトルメントあたりの作業指示,数値(9、0),false,true,false,true,true,true

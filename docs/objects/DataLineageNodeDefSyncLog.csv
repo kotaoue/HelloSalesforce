@@ -1,0 +1,21 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DataLineageNodeDefSyncLog.CreatedBy,CreatedById,DataLineageNodeDefSyncLog,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,DataLineageNodeDefSyncLog.CreatedDate,CreatedDate,DataLineageNodeDefSyncLog,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DataLineageNodeDefSyncLog.DataSpace,DataSpace,DataLineageNodeDefSyncLog,,DataSpace,データスペース,データスペース,テキスト(40),false,true,false,true,true,true
+000000000000000AAA,DataLineageNodeDefSyncLog.DevName,DevName,DataLineageNodeDefSyncLog,,DevName,データ系統ノード定義同期ログ DevName,データ系統ノード定義同期ログ DevName,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataLineageNodeDefSyncLog.Id,Id,DataLineageNodeDefSyncLog,,Id,データ系統ノード定義同期ログ ID,データ系統ノード定義同期ログ ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DataLineageNodeDefSyncLog.IsDeleted,IsDeleted,DataLineageNodeDefSyncLog,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DataLineageNodeDefSyncLog.LastFailureReason,LastFailureReason,DataLineageNodeDefSyncLog,,LastFailureReason,前回の失敗の理由,前回の失敗の理由,テキスト(40),false,true,false,true,true,true
+000000000000000AAA,DataLineageNodeDefSyncLog.LastModifiedBy,LastModifiedById,DataLineageNodeDefSyncLog,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DataLineageNodeDefSyncLog.LastModifiedDate,LastModifiedDate,DataLineageNodeDefSyncLog,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DataLineageNodeDefSyncLog.Name,Name,DataLineageNodeDefSyncLog,,Name,名前,名前,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,DataLineageNodeDefSyncLog.ObjectType,ObjectType,DataLineageNodeDefSyncLog,,ObjectType,エンティティ種別,エンティティ種別,テキスト(40),false,false,false,true,true,true
+000000000000000AAA,DataLineageNodeDefSyncLog.OperationTime,OperationTime,DataLineageNodeDefSyncLog,,OperationTime,操作時刻,操作時刻,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DataLineageNodeDefSyncLog.OperationType,OperationType,DataLineageNodeDefSyncLog,,OperationType,操作種別,操作種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataLineageNodeDefSyncLog.Owner,OwnerId,DataLineageNodeDefSyncLog,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,DataLineageNodeDefSyncLog.Payload,Payload,DataLineageNodeDefSyncLog,,Payload,ペイロード,ペイロード,テキスト(40),false,true,false,true,true,true
+000000000000000AAA,DataLineageNodeDefSyncLog.RecordIdentifier,RecordIdentifier,DataLineageNodeDefSyncLog,,RecordIdentifier,レコード ID,レコード ID,テキスト(40),false,true,false,true,true,true
+000000000000000AAA,DataLineageNodeDefSyncLog.RecordVisibility,RecordVisibilityId,DataLineageNodeDefSyncLog,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,DataLineageNodeDefSyncLog.SyncStatus,SyncStatus,DataLineageNodeDefSyncLog,,SyncStatus,同期状況,同期状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataLineageNodeDefSyncLog.SystemModstamp,SystemModstamp,DataLineageNodeDefSyncLog,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DataLineageNodeDefSyncLog.UserRecordAccess,UserRecordAccessId,DataLineageNodeDefSyncLog,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

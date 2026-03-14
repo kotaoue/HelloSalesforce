@@ -1,0 +1,23 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AssetStatePeriod.Amount,Amount,AssetStatePeriod,,Amount,金額,金額,通貨(16、2),false,false,false,true,false,true
+000000000000000AAA,AssetStatePeriod.Asset,AssetId,AssetStatePeriod,,Asset,納入商品,納入商品,主従関係(納入商品),false,false,true,true,true,true
+000000000000000AAA,AssetStatePeriod.BillingFrequency,BillingFrequency,AssetStatePeriod,,BillingFrequency,請求サイクル,請求サイクル,選択リスト,false,true,false,true,true,true
+000000000000000AAA,AssetStatePeriod.CreatedBy,CreatedById,AssetStatePeriod,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,AssetStatePeriod.CreatedDate,CreatedDate,AssetStatePeriod,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AssetStatePeriod.Discount,Discount,AssetStatePeriod,,Discount,割引,割引,パーセント(3、2),false,true,false,true,false,true
+000000000000000AAA,AssetStatePeriod.DiscountAmount,DiscountAmount,AssetStatePeriod,,DiscountAmount,割引金額,割引金額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,AssetStatePeriod.EndDate,EndDate,AssetStatePeriod,,EndDate,終了日,終了日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,AssetStatePeriod.Id,Id,AssetStatePeriod,,Id,納入商品状態期間 ID,納入商品状態期間 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AssetStatePeriod.IsDeleted,IsDeleted,AssetStatePeriod,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AssetStatePeriod.LastModifiedBy,LastModifiedById,AssetStatePeriod,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AssetStatePeriod.LastModifiedDate,LastModifiedDate,AssetStatePeriod,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AssetStatePeriod.LegalEntity,LegalEntityId,AssetStatePeriod,,LegalEntity,法人,法人,参照関係(法人),false,true,false,true,true,true
+000000000000000AAA,AssetStatePeriod.Mrr,Mrr,AssetStatePeriod,,Mrr,月間経常収益,月間経常収益,通貨(16、2),false,false,false,true,false,true
+000000000000000AAA,AssetStatePeriod.Name,AssetStatePeriodNumber,AssetStatePeriod,,Name,名前,名前,自動採番,false,false,true,true,false,true
+000000000000000AAA,AssetStatePeriod.Quantity,Quantity,AssetStatePeriod,,Quantity,数量,数量,数値(12、2),false,false,false,true,false,true
+000000000000000AAA,AssetStatePeriod.RecordVisibility,RecordVisibilityId,AssetStatePeriod,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,AssetStatePeriod.StartDate,StartDate,AssetStatePeriod,,StartDate,開始日,開始日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AssetStatePeriod.SystemModstamp,SystemModstamp,AssetStatePeriod,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AssetStatePeriod.UnitPrice,UnitPrice,AssetStatePeriod,,UnitPrice,単価,単価,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,AssetStatePeriod.UnitPriceUplift,UnitPriceUplift,AssetStatePeriod,,UnitPriceUplift,単価増加,単価増加,パーセント(3、2),false,true,false,true,false,true
+000000000000000AAA,AssetStatePeriod.UserRecordAccess,UserRecordAccessId,AssetStatePeriod,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

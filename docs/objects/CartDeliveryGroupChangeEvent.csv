@@ -1,0 +1,22 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,CartDeliveryGroupChangeEvent.Cart,CartId,CartDeliveryGroupChangeEvent,,Cart,カート,カート,参照関係(カート),false,true,false,false,false,false
+000000000000000AAA,CartDeliveryGroupChangeEvent.ChangeEventHeader,ChangeEventHeader,CartDeliveryGroupChangeEvent,,ChangeEventHeader,変更イベントヘッダー,変更イベントヘッダー,複合値,false,false,false,false,false,false
+000000000000000AAA,CartDeliveryGroupChangeEvent.CompanyName,CompanyName,CartDeliveryGroupChangeEvent,,CompanyName,会社の名前,会社の名前,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,CartDeliveryGroupChangeEvent.CreatedBy,CreatedById,CartDeliveryGroupChangeEvent,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,true,false,false,false,false
+000000000000000AAA,CartDeliveryGroupChangeEvent.CreatedDate,CreatedDate,CartDeliveryGroupChangeEvent,,CreatedDate,作成日,作成日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,CartDeliveryGroupChangeEvent.DeliverToAddress,DeliverToAddress,CartDeliveryGroupChangeEvent,,DeliverToAddress,納品先住所,納品先住所,住所,false,true,false,false,false,false
+000000000000000AAA,CartDeliveryGroupChangeEvent.DeliverToFirstName,DeliverToFirstName,CartDeliveryGroupChangeEvent,,DeliverToFirstName,配送先(名),配送先(名),テキスト(255),false,true,false,false,false,false
+000000000000000AAA,CartDeliveryGroupChangeEvent.DeliverToLastName,DeliverToLastName,CartDeliveryGroupChangeEvent,,DeliverToLastName,配送先(姓),配送先(姓),テキスト(255),false,true,false,false,false,false
+000000000000000AAA,CartDeliveryGroupChangeEvent.DeliverToName,DeliverToName,CartDeliveryGroupChangeEvent,,DeliverToName,配送先名,配送先名,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,CartDeliveryGroupChangeEvent.DesiredDeliveryDate,DesiredDeliveryDate,CartDeliveryGroupChangeEvent,,DesiredDeliveryDate,希望配送日,希望配送日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,CartDeliveryGroupChangeEvent.GiftMessage,GiftMessage,CartDeliveryGroupChangeEvent,,GiftMessage,ギフトメッセージ,ギフトメッセージ,ロングテキストエリア(2000),false,true,false,false,false,false
+000000000000000AAA,CartDeliveryGroupChangeEvent.GiftToName,GiftToName,CartDeliveryGroupChangeEvent,,GiftToName,ギフト受取人名,ギフト受取人名,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,CartDeliveryGroupChangeEvent.IsDefault,IsDefault,CartDeliveryGroupChangeEvent,,IsDefault,デフォルト,デフォルト,チェックボックス,false,false,false,false,false,false
+000000000000000AAA,CartDeliveryGroupChangeEvent.IsGift,IsGift,CartDeliveryGroupChangeEvent,,IsGift,これはギフトですか?,これはギフトですか?,チェックボックス,false,false,false,false,false,false
+000000000000000AAA,CartDeliveryGroupChangeEvent.LastModifiedBy,LastModifiedById,CartDeliveryGroupChangeEvent,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,true,false,false,false,false
+000000000000000AAA,CartDeliveryGroupChangeEvent.LastModifiedDate,LastModifiedDate,CartDeliveryGroupChangeEvent,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,CartDeliveryGroupChangeEvent.Name,Name,CartDeliveryGroupChangeEvent,,Name,カート配送グループ名,カート配送グループ名,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,CartDeliveryGroupChangeEvent.SelectedDeliveryMethod,SelectedDeliveryMethodId,CartDeliveryGroupChangeEvent,,SelectedDeliveryMethod,選択済みの配送方法,選択済みの配送方法,参照関係(カート配送グループ化方法),false,true,false,false,false,false
+000000000000000AAA,CartDeliveryGroupChangeEvent.ShippingInstructions,ShippingInstructions,CartDeliveryGroupChangeEvent,,ShippingInstructions,配送手順,配送手順,ロングテキストエリア(2000),false,true,false,false,false,false
+000000000000000AAA,CartDeliveryGroupChangeEvent.ShipToPhoneNumber,ShipToPhoneNumber,CartDeliveryGroupChangeEvent,,ShipToPhoneNumber,住所(納入先) に記載されている電話番号,住所(納入先) に記載されている電話番号,電話,false,true,false,false,false,false
+000000000000000AAA,CartDeliveryGroupChangeEvent.TotalCartItemCount,TotalCartItemCount,CartDeliveryGroupChangeEvent,,TotalCartItemCount,配送グループのカート品目数合計,配送グループのカート品目数合計,数値(9、0),false,true,false,false,false,false

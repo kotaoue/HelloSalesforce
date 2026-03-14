@@ -1,0 +1,15 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ApexPageMember.Body,Body,ApexPageMember,,Body,本文,本文,ロングテキストエリア(1048576),false,false,false,false,false,false
+000000000000000AAA,ApexPageMember.Content,Content,ApexPageMember,,Content,コンテンツ,コンテンツ,ロングテキストエリア(32000),false,false,false,false,false,false
+000000000000000AAA,ApexPageMember.ContentEntity,ContentEntityId,ApexPageMember,,ContentEntity,コンテンツエンティティ,コンテンツエンティティ,参照関係(Visualforce ページ),false,true,false,true,true,true
+000000000000000AAA,ApexPageMember.CreatedBy,CreatedById,ApexPageMember,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ApexPageMember.CreatedDate,CreatedDate,ApexPageMember,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ApexPageMember.FullName,FullName,ApexPageMember,,FullName,氏名,氏名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ApexPageMember.Id,Id,ApexPageMember,,Id,メタデータコンテナメンバー ID,メタデータコンテナメンバー ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ApexPageMember.IsDeleted,IsDeleted,ApexPageMember,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ApexPageMember.LastModifiedBy,LastModifiedById,ApexPageMember,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ApexPageMember.LastModifiedDate,LastModifiedDate,ApexPageMember,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ApexPageMember.LastSyncDate,LastSyncDate,ApexPageMember,,LastSyncDate,最終同期日,最終同期日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ApexPageMember.Metadata,Metadata,ApexPageMember,,Metadata,メタデータ,メタデータ,複合値,false,true,false,false,false,false
+000000000000000AAA,ApexPageMember.MetadataContainer,MetadataContainerId,ApexPageMember,,MetadataContainer,メタデータコンテナメンバー,メタデータコンテナメンバー,"参照関係(メタデータコンテナ,コンテナ非同期要求)",false,false,true,true,true,true
+000000000000000AAA,ApexPageMember.SystemModstamp,SystemModstamp,ApexPageMember,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

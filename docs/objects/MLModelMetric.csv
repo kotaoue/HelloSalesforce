@@ -1,0 +1,21 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,MLModelMetric.BasicMetricValue,BasicMetricValue,MLModelMetric,,BasicMetricValue,基本的なメトリクス,基本的なメトリクス,数値(16、8),false,true,false,true,false,true
+000000000000000AAA,MLModelMetric.ComplexMetricValue,ComplexMetricValue,MLModelMetric,,ComplexMetricValue,複雑なメトリクス,複雑なメトリクス,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,MLModelMetric.CreatedBy,CreatedById,MLModelMetric,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,MLModelMetric.CreatedDate,CreatedDate,MLModelMetric,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,MLModelMetric.DataSetType,DataSetType,MLModelMetric,,DataSetType,データセット種別,データセット種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MLModelMetric.EndTime,EndTime,MLModelMetric,,EndTime,終了時刻,終了時刻,日付/時間,false,true,false,true,false,true
+000000000000000AAA,MLModelMetric.GraphType,GraphType,MLModelMetric,,GraphType,グラフ種別,グラフ種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MLModelMetric.Id,Id,MLModelMetric,,Id,ML モデルメトリクス ID,ML モデルメトリクス ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,MLModelMetric.IsDeleted,IsDeleted,MLModelMetric,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,MLModelMetric.LastModifiedBy,LastModifiedById,MLModelMetric,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,MLModelMetric.LastModifiedDate,LastModifiedDate,MLModelMetric,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,MLModelMetric.MetricType,MetricType,MLModelMetric,,MetricType,メトリクス種別,メトリクス種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MLModelMetric.Model,ModelId,MLModelMetric,,Model,ML モデル,ML モデル,参照関係(ML モデル),false,false,true,true,true,true
+000000000000000AAA,MLModelMetric.Name,Name,MLModelMetric,,Name,名前,名前,自動採番,false,false,true,true,false,true
+000000000000000AAA,MLModelMetric.RecordVisibility,RecordVisibilityId,MLModelMetric,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,MLModelMetric.RowCount,RowCount,MLModelMetric,,RowCount,トランザクション数,トランザクション数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,MLModelMetric.Span,Span,MLModelMetric,,Span,メトリクス範囲,メトリクス範囲,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MLModelMetric.StartTime,StartTime,MLModelMetric,,StartTime,開始時刻,開始時刻,日付/時間,false,true,false,true,false,true
+000000000000000AAA,MLModelMetric.SystemModstamp,SystemModstamp,MLModelMetric,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,MLModelMetric.UserRecordAccess,UserRecordAccessId,MLModelMetric,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

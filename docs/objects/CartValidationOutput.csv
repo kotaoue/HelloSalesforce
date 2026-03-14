@@ -1,0 +1,19 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,CartValidationOutput.BackgroundOperation,BackgroundOperationId,CartValidationOutput,,BackgroundOperation,バックグラウンド操作,バックグラウンド操作,参照関係(バックグラウンド操作),false,true,true,true,true,true
+000000000000000AAA,CartValidationOutput.Cart,CartId,CartValidationOutput,,Cart,カート,カート,主従関係(カート),false,false,true,true,true,true
+000000000000000AAA,CartValidationOutput.CreatedBy,CreatedById,CartValidationOutput,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,CartValidationOutput.CreatedDate,CreatedDate,CartValidationOutput,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,CartValidationOutput.Id,Id,CartValidationOutput,,Id,カートメッセージ ID,カートメッセージ ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,CartValidationOutput.IsDeleted,IsDeleted,CartValidationOutput,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,CartValidationOutput.IsDismissed,IsDismissed,CartValidationOutput,,IsDismissed,破棄済み,破棄済み,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,CartValidationOutput.LastModifiedBy,LastModifiedById,CartValidationOutput,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,CartValidationOutput.LastModifiedDate,LastModifiedDate,CartValidationOutput,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,CartValidationOutput.Level,Level,CartValidationOutput,,Level,レベル,レベル,選択リスト,false,false,false,true,true,true
+000000000000000AAA,CartValidationOutput.Message,Message,CartValidationOutput,,Message,メッセージ,メッセージ,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,CartValidationOutput.Name,Name,CartValidationOutput,,Name,カート検証出力,カート検証出力,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,CartValidationOutput.RecordVisibility,RecordVisibilityId,CartValidationOutput,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,CartValidationOutput.RelatedEntity,RelatedEntityId,CartValidationOutput,,RelatedEntity,関連エンティティ,関連エンティティ,"参照関係(カート,カート項目,カート配送グループ,カートの税額)",false,false,false,true,true,true
+000000000000000AAA,CartValidationOutput.RelatedEntityPrefix,RelatedEntityPrefix,CartValidationOutput,,RelatedEntityPrefix,関連エンティティのプレフィックス,関連エンティティのプレフィックス,テキスト(3),false,true,false,true,true,true
+000000000000000AAA,CartValidationOutput.SystemModstamp,SystemModstamp,CartValidationOutput,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,CartValidationOutput.Type,Type,CartValidationOutput,,Type,種別,種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,CartValidationOutput.UserRecordAccess,UserRecordAccessId,CartValidationOutput,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
