@@ -3,7 +3,7 @@ name: Fetch FieldDefinition (JSON)
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 3 * * 0'
+    - cron: "23 3 * * 0"
 
 jobs:
   fetch:
@@ -16,8 +16,8 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'npm'
+          node-version: "20"
+          cache: "npm"
 
       - name: Install dependencies
         run: npm ci
