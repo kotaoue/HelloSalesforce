@@ -1,0 +1,10 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,CaseTeamTemplateMember.CreatedBy,CreatedById,CaseTeamTemplateMember,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,CaseTeamTemplateMember.CreatedDate,CreatedDate,CaseTeamTemplateMember,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,CaseTeamTemplateMember.Id,Id,CaseTeamTemplateMember,,Id,チームテンプレートメンバー ID,チームテンプレートメンバー ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,CaseTeamTemplateMember.LastModifiedBy,LastModifiedById,CaseTeamTemplateMember,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,CaseTeamTemplateMember.LastModifiedDate,LastModifiedDate,CaseTeamTemplateMember,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,CaseTeamTemplateMember.Member,MemberId,CaseTeamTemplateMember,,Member,メンバー,メンバー,"参照関係(ユーザー,取引先責任者)",false,false,true,true,true,true
+000000000000000AAA,CaseTeamTemplateMember.SystemModstamp,SystemModstamp,CaseTeamTemplateMember,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,CaseTeamTemplateMember.TeamRole,TeamRoleId,CaseTeamTemplateMember,,TeamRole,チーム内の役割,チーム内の役割,参照関係(ケースチームメンバーロール),false,true,true,true,true,true
+000000000000000AAA,CaseTeamTemplateMember.TeamTemplate,TeamTemplateId,CaseTeamTemplateMember,,TeamTemplate,チームテンプレート,チームテンプレート,参照関係(定義済みケースチーム),false,false,true,true,true,true

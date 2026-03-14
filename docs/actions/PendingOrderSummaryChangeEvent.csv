@@ -1,0 +1,21 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,PendingOrderSummaryChangeEvent.Account,AccountId,PendingOrderSummaryChangeEvent,,Account,取引先,取引先,参照関係(取引先),false,true,false,false,false,false
+000000000000000AAA,PendingOrderSummaryChangeEvent.BillingEmailAddress,BillingEmailAddress,PendingOrderSummaryChangeEvent,,BillingEmailAddress,請求先メールアドレス,請求先メールアドレス,メール,false,true,false,false,false,false
+000000000000000AAA,PendingOrderSummaryChangeEvent.BillingPhoneNumber,BillingPhoneNumber,PendingOrderSummaryChangeEvent,,BillingPhoneNumber,請求先電話番号,請求先電話番号,電話,false,true,false,false,false,false
+000000000000000AAA,PendingOrderSummaryChangeEvent.BillToContact,BillToContactId,PendingOrderSummaryChangeEvent,,BillToContact,請求先取引先責任者,請求先取引先責任者,参照関係(取引先責任者),false,true,false,false,false,false
+000000000000000AAA,PendingOrderSummaryChangeEvent.ChangeEventHeader,ChangeEventHeader,PendingOrderSummaryChangeEvent,,ChangeEventHeader,変更イベントヘッダー,変更イベントヘッダー,複合値,false,false,false,false,false,false
+000000000000000AAA,PendingOrderSummaryChangeEvent.CreatedBy,CreatedById,PendingOrderSummaryChangeEvent,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,true,false,false,false,false
+000000000000000AAA,PendingOrderSummaryChangeEvent.CreatedDate,CreatedDate,PendingOrderSummaryChangeEvent,,CreatedDate,作成日,作成日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,PendingOrderSummaryChangeEvent.Description,Description,PendingOrderSummaryChangeEvent,,Description,説明,説明,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,PendingOrderSummaryChangeEvent.ExternalId,ExternalId,PendingOrderSummaryChangeEvent,,ExternalId,外部 ID,外部 ID,外部参照,false,true,false,false,false,false
+000000000000000AAA,PendingOrderSummaryChangeEvent.ExternalReferenceIdentifier,ExternalReferenceIdentifier,PendingOrderSummaryChangeEvent,,ExternalReferenceIdentifier,外部参照識別子,外部参照識別子,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,PendingOrderSummaryChangeEvent.GrandTotalAmount,GrandTotalAmount,PendingOrderSummaryChangeEvent,,GrandTotalAmount,総計金額,総計金額,通貨(16、2),false,true,false,false,false,false
+000000000000000AAA,PendingOrderSummaryChangeEvent.LastModifiedBy,LastModifiedById,PendingOrderSummaryChangeEvent,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,true,false,false,false,false
+000000000000000AAA,PendingOrderSummaryChangeEvent.LastModifiedDate,LastModifiedDate,PendingOrderSummaryChangeEvent,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,PendingOrderSummaryChangeEvent.OrderedDate,OrderedDate,PendingOrderSummaryChangeEvent,,OrderedDate,注文日,注文日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,PendingOrderSummaryChangeEvent.OrderNumber,OrderNumber,PendingOrderSummaryChangeEvent,,OrderNumber,注文番号,注文番号,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,PendingOrderSummaryChangeEvent.Payload,Payload,PendingOrderSummaryChangeEvent,,Payload,ペイロード,ペイロード,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,PendingOrderSummaryChangeEvent.PayloadType,PayloadType,PendingOrderSummaryChangeEvent,,PayloadType,ペイロード種別,ペイロード種別,選択リスト,false,true,false,false,false,false
+000000000000000AAA,PendingOrderSummaryChangeEvent.ProcessingInstructions,ProcessingInstructions,PendingOrderSummaryChangeEvent,,ProcessingInstructions,ご注文方法,ご注文方法,ロングテキストエリア(255),false,true,false,false,false,false
+000000000000000AAA,PendingOrderSummaryChangeEvent.SalesStore,SalesStoreId,PendingOrderSummaryChangeEvent,,SalesStore,販売店,販売店,参照関係(ストア),false,true,false,false,false,false
+000000000000000AAA,PendingOrderSummaryChangeEvent.ShopperName,ShopperName,PendingOrderSummaryChangeEvent,,ShopperName,買い物客名,買い物客名,テキスト(255),false,true,false,false,false,false

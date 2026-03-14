@@ -1,0 +1,46 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,InvoiceLine.AdjustmentAmount,AdjustmentAmount,InvoiceLine,,AdjustmentAmount,調整額,調整額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,InvoiceLine.AdjustmentAmountWithTax,AdjustmentAmountWithTax,InvoiceLine,,AdjustmentAmountWithTax,税込調整金額,税込調整金額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,InvoiceLine.AdjustmentTaxAmount,AdjustmentTaxAmount,InvoiceLine,,AdjustmentTaxAmount,調整税額,調整税額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,InvoiceLine.ChargeAmount,ChargeAmount,InvoiceLine,,ChargeAmount,請求金額,請求金額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,InvoiceLine.ChargeAmountWithTax,ChargeAmountWithTax,InvoiceLine,,ChargeAmountWithTax,税込請求金額,税込請求金額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,InvoiceLine.ChargeTaxAmount,ChargeTaxAmount,InvoiceLine,,ChargeTaxAmount,請求税額,請求税額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,InvoiceLine.CorpCurrencyCnvChargeAmt,CorpCurrencyCnvChargeAmt,InvoiceLine,,CorpCurrencyCnvChargeAmt,マスター通貨換算後の請求金額合計,マスター通貨換算後の請求金額合計,数値(12、6),false,true,false,true,false,true
+000000000000000AAA,InvoiceLine.CorpCurrencyCnvTotalTaxAmt,CorpCurrencyCnvTotalTaxAmt,InvoiceLine,,CorpCurrencyCnvTotalTaxAmt,マスター通貨換算後の税額合計,マスター通貨換算後の税額合計,数値(12、6),false,true,false,true,false,true
+000000000000000AAA,InvoiceLine.CorporateCurrencyCvsnDate,CorporateCurrencyCvsnDate,InvoiceLine,,CorporateCurrencyCvsnDate,マスター通貨換算日,マスター通貨換算日,日付,false,true,false,true,true,true
+000000000000000AAA,InvoiceLine.CorporateCurrencyCvsnRate,CorporateCurrencyCvsnRate,InvoiceLine,,CorporateCurrencyCvsnRate,マスター通貨換算レート,マスター通貨換算レート,数値(8、10),false,true,false,true,false,true
+000000000000000AAA,InvoiceLine.CreatedBy,CreatedById,InvoiceLine,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,InvoiceLine.CreatedDate,CreatedDate,InvoiceLine,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,InvoiceLine.Description,Description,InvoiceLine,,Description,説明,説明,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,InvoiceLine.FuncCrcyCnvTotalTaxAmt,FuncCrcyCnvTotalTaxAmt,InvoiceLine,,FuncCrcyCnvTotalTaxAmt,機能通貨換算後の税額合計,機能通貨換算後の税額合計,数値(12、6),false,true,false,true,false,true
+000000000000000AAA,InvoiceLine.FuncCurrencyCnvChargeAmt,FuncCurrencyCnvChargeAmt,InvoiceLine,,FuncCurrencyCnvChargeAmt,機能通貨換算後の請求金額,機能通貨換算後の請求金額,数値(12、6),false,true,false,true,false,true
+000000000000000AAA,InvoiceLine.FunctionalCurrencyCvsnDate,FunctionalCurrencyCvsnDate,InvoiceLine,,FunctionalCurrencyCvsnDate,機能通貨換算日,機能通貨換算日,日付,false,true,false,true,true,true
+000000000000000AAA,InvoiceLine.FunctionalCurrencyCvsnRate,FunctionalCurrencyCvsnRate,InvoiceLine,,FunctionalCurrencyCvsnRate,機能通貨換算レート,機能通貨換算レート,数値(8、10),false,true,false,true,false,true
+000000000000000AAA,InvoiceLine.GroupReferenceEntityItem,GroupReferenceEntityItemId,InvoiceLine,,GroupReferenceEntityItem,参照エンティティ品目のグループ化,参照エンティティ品目のグループ化,参照関係(注文商品),false,true,false,true,true,true
+000000000000000AAA,InvoiceLine.Id,Id,InvoiceLine,,Id,請求書品目 ID,請求書品目 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,InvoiceLine.Invoice,InvoiceId,InvoiceLine,,Invoice,請求書,請求書,主従関係(請求書),false,false,true,true,true,true
+000000000000000AAA,InvoiceLine.InvoiceLineEndDate,InvoiceLineEndDate,InvoiceLine,,InvoiceLineEndDate,請求書品目終了日,請求書品目終了日,日付,false,false,false,true,true,true
+000000000000000AAA,InvoiceLine.InvoiceLineStartDate,InvoiceLineStartDate,InvoiceLine,,InvoiceLineStartDate,請求書品目開始日,請求書品目開始日,日付,false,false,false,true,true,true
+000000000000000AAA,InvoiceLine.InvoiceStatus,InvoiceStatus,InvoiceLine,,InvoiceStatus,状況,状況,テキスト(50),false,true,false,true,true,true
+000000000000000AAA,InvoiceLine.IsDeleted,IsDeleted,InvoiceLine,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,InvoiceLine.LastModifiedBy,LastModifiedById,InvoiceLine,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,InvoiceLine.LastModifiedDate,LastModifiedDate,InvoiceLine,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,InvoiceLine.LineAmount,LineAmount,InvoiceLine,,LineAmount,品目金額,品目金額,数式 (通貨),true,true,false,true,false,true
+000000000000000AAA,InvoiceLine.Name,Name,InvoiceLine,,Name,名前,名前,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,InvoiceLine.Product2,Product2Id,InvoiceLine,,Product2,商品,商品,参照関係(商品),false,true,false,true,true,true
+000000000000000AAA,InvoiceLine.Quantity,Quantity,InvoiceLine,,Quantity,数量,数量,数値(16、2),false,true,false,true,false,true
+000000000000000AAA,InvoiceLine.RecordVisibility,RecordVisibilityId,InvoiceLine,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,InvoiceLine.ReferenceEntityItem,ReferenceEntityItemId,InvoiceLine,,ReferenceEntityItem,参照エンティティ品目,参照エンティティ品目,参照関係(注文商品),false,true,false,true,true,true
+000000000000000AAA,InvoiceLine.ReferenceEntityItemType,ReferenceEntityItemType,InvoiceLine,,ReferenceEntityItemType,参照エンティティ品目種別,参照エンティティ品目種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,InvoiceLine.ReferenceEntityItemTypeCode,ReferenceEntityItemTypeCode,InvoiceLine,,ReferenceEntityItemTypeCode,参照エンティティ品目種別コード,参照エンティティ品目種別コード,選択リスト,false,true,false,true,true,true
+000000000000000AAA,InvoiceLine.RelatedLine,RelatedLineId,InvoiceLine,,RelatedLine,関連品目,関連品目,参照関係(請求書品目),false,true,true,true,true,true
+000000000000000AAA,InvoiceLine.SystemModstamp,SystemModstamp,InvoiceLine,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,InvoiceLine.TaxAmount,TaxAmount,InvoiceLine,,TaxAmount,税額,税額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,InvoiceLine.TaxCode,TaxCode,InvoiceLine,,TaxCode,税コード,税コード,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,InvoiceLine.TaxEffectiveDate,TaxEffectiveDate,InvoiceLine,,TaxEffectiveDate,税発効日,税発効日,日付,false,true,false,true,true,true
+000000000000000AAA,InvoiceLine.TaxName,TaxName,InvoiceLine,,TaxName,税金名,税金名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,InvoiceLine.TaxProcessingStatus,TaxProcessingStatus,InvoiceLine,,TaxProcessingStatus,税金処理状況,税金処理状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,InvoiceLine.TaxRate,TaxRate,InvoiceLine,,TaxRate,税率,税率,パーセント(3、2),false,true,false,true,false,true
+000000000000000AAA,InvoiceLine.Type,Type,InvoiceLine,,Type,種別,種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,InvoiceLine.UnitPrice,UnitPrice,InvoiceLine,,UnitPrice,単価,単価,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,InvoiceLine.UserRecordAccess,UserRecordAccessId,InvoiceLine,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

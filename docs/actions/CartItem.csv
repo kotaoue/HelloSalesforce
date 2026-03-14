@@ -1,0 +1,78 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,CartItem.AdjustmentAmount,AdjustmentAmount,CartItem,,AdjustmentAmount,調整金額数量ベース,調整金額数量ベース,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.AdjustmentTaxAmount,AdjustmentTaxAmount,CartItem,,AdjustmentTaxAmount,調整税額,調整税額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.AssociatedItemPricing,AssociatedItemPricing,CartItem,,AssociatedItemPricing,関連付けられたカート品目価格設定,関連付けられたカート品目価格設定,選択リスト,false,true,false,true,true,true
+000000000000000AAA,CartItem.BillingFrequency,BillingFrequency,CartItem,,BillingFrequency,請求サイクル,請求サイクル,選択リスト,false,true,false,true,true,true
+000000000000000AAA,CartItem.Cart,CartId,CartItem,,Cart,カート,カート,主従関係(カート),false,false,true,true,true,true
+000000000000000AAA,CartItem.CartDeliveryGroup,CartDeliveryGroupId,CartItem,,CartDeliveryGroup,カート配送グループ,カート配送グループ,参照関係(カート配送グループ),false,false,false,true,true,true
+000000000000000AAA,CartItem.ChildProductCount,ChildProductCount,CartItem,,ChildProductCount,子商品数,子商品数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,CartItem.ConfigureDuringSale,ConfigureDuringSale,CartItem,,ConfigureDuringSale,販売中に設定可能,販売中に設定可能,選択リスト,false,true,false,true,true,true
+000000000000000AAA,CartItem.CreatedBy,CreatedById,CartItem,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,CartItem.CreatedDate,CreatedDate,CartItem,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,CartItem.DistributedAdjustmentAmount,DistributedAdjustmentAmount,CartItem,,DistributedAdjustmentAmount,分配プロモーション合計,分配プロモーション合計,積み上げ集計 ( カート品目価格調整),true,true,false,true,false,true
+000000000000000AAA,CartItem.DistributedAdjustmentTaxAmount,DistributedAdjustmentTaxAmount,CartItem,,DistributedAdjustmentTaxAmount,分配プロモーション税額調整,分配プロモーション税額調整,積み上げ集計 ( カートの税額),true,true,false,true,false,true
+000000000000000AAA,CartItem.EndDate,EndDate,CartItem,,EndDate,終了日,終了日,日付,false,true,false,true,true,true
+000000000000000AAA,CartItem.FirstPymtPriceAfterAdjustments,FirstPymtPriceAfterAdjustments,CartItem,,FirstPymtPriceAfterAdjustments,調整後の初回支払価格,調整後の初回支払価格,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.FirstPymtTax,FirstPymtTax,CartItem,,FirstPymtTax,初回支払税額,初回支払税額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.GrossAdjustmentAmount,GrossAdjustmentAmount,CartItem,,GrossAdjustmentAmount,総調整金額数量ベース,総調整金額数量ベース,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.GrossUnitPrice,GrossUnitPrice,CartItem,,GrossUnitPrice,総単価,総単価,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.Id,Id,CartItem,,Id,カート項目 ID,カート項目 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,CartItem.IsDeleted,IsDeleted,CartItem,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,CartItem.IsShippingChargeNotApplicable,IsShippingChargeNotApplicable,CartItem,,IsShippingChargeNotApplicable,配送料適用外,配送料適用外,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,CartItem.ItemizedAdjustmentAmount,ItemizedAdjustmentAmount,CartItem,,ItemizedAdjustmentAmount,品目プロモーション合計,品目プロモーション合計,積み上げ集計 ( カート品目価格調整),true,true,false,true,false,true
+000000000000000AAA,CartItem.ItemizedAdjustmentTaxAmount,ItemizedAdjustmentTaxAmount,CartItem,,ItemizedAdjustmentTaxAmount,品目プロモーション税額調整,品目プロモーション税額調整,積み上げ集計 ( カートの税額),true,true,false,true,false,true
+000000000000000AAA,CartItem.LastModifiedBy,LastModifiedById,CartItem,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,CartItem.LastModifiedDate,LastModifiedDate,CartItem,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,CartItem.ListPrice,ListPrice,CartItem,,ListPrice,リスト価格,リスト価格,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.Name,Name,CartItem,,Name,カート品目名,カート品目名,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,CartItem.NetAdjustmentAmount,NetAdjustmentAmount,CartItem,,NetAdjustmentAmount,正味調整金額数量ベース,正味調整金額数量ベース,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.NetUnitPrice,NetUnitPrice,CartItem,,NetUnitPrice,正味単価,正味単価,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.NetUnitPriceAfterAdjustments,NetUnitPriceAfterAdjustments,CartItem,,NetUnitPriceAfterAdjustments,調整後の正味単価,調整後の正味単価,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.ParentCartItem,ParentCartItemId,CartItem,,ParentCartItem,親カート品目,親カート品目,参照関係(カート項目),false,true,false,true,true,true
+000000000000000AAA,CartItem.PeriodBoundary,PeriodBoundary,CartItem,,PeriodBoundary,期間境界,期間境界,選択リスト,false,true,false,true,true,true
+000000000000000AAA,CartItem.PeriodBoundaryDay,PeriodBoundaryDay,CartItem,,PeriodBoundaryDay,期間境界日,期間境界日,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,CartItem.PeriodBoundaryStartMonth,PeriodBoundaryStartMonth,CartItem,,PeriodBoundaryStartMonth,期間境界開始月,期間境界開始月,選択リスト,false,true,false,true,true,true
+000000000000000AAA,CartItem.PerUnitWeight,PerUnitWeight,CartItem,,PerUnitWeight,1 つのカート品目の重量,1 つのカート品目の重量,数値(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.PricebookEntry,PricebookEntryId,CartItem,,PricebookEntry,価格表エントリ,価格表エントリ,参照関係(価格表エントリ),false,true,false,true,true,true
+000000000000000AAA,CartItem.PricingTermCount,PricingTermCount,CartItem,,PricingTermCount,価格設定条件の数,価格設定条件の数,数値(18、0),false,true,false,true,false,true
+000000000000000AAA,CartItem.Product2,Product2Id,CartItem,,Product2,商品,商品,参照関係(商品),false,true,false,true,true,true
+000000000000000AAA,CartItem.ProductClass,ProductClass,CartItem,,ProductClass,商品クラス,商品クラス,選択リスト,false,true,false,true,true,true
+000000000000000AAA,CartItem.ProductValidationKey,ProductValidationKey,CartItem,,ProductValidationKey,商品入力規則キーハッシュ,商品入力規則キーハッシュ,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,CartItem.Quantity,Quantity,CartItem,,Quantity,数量,数量,数値(18、0),false,true,false,true,false,true
+000000000000000AAA,CartItem.QuantityScaleMethod,QuantityScaleMethod,CartItem,,QuantityScaleMethod,数量スケール方法,数量スケール方法,選択リスト,false,true,false,true,true,true
+000000000000000AAA,CartItem.RecordVisibility,RecordVisibilityId,CartItem,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,CartItem.SalesPrice,SalesPrice,CartItem,,SalesPrice,販売価格,販売価格,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.SellingModelType,SellingModelType,CartItem,,SellingModelType,販売モデル種別,販売モデル種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,CartItem.Sku,Sku,CartItem,,Sku,SKU,SKU,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,CartItem.StartDate,StartDate,CartItem,,StartDate,開始日,開始日,日付,false,true,false,true,true,true
+000000000000000AAA,CartItem.StockCheckMethod,StockCheckMethod,CartItem,,StockCheckMethod,在庫確認方法,在庫確認方法,選択リスト,false,true,false,true,true,true
+000000000000000AAA,CartItem.SubscriptionTerm,SubscriptionTerm,CartItem,,SubscriptionTerm,サブスクリプション期間,サブスクリプション期間,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,CartItem.SubType,SubType,CartItem,,SubType,サブ種別,サブ種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,CartItem.SystemModstamp,SystemModstamp,CartItem,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,CartItem.TotalAdjustmentAmount,TotalAdjustmentAmount,CartItem,,TotalAdjustmentAmount,すべての調整合計,すべての調整合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.TotalAmount,TotalAmount,CartItem,,TotalAmount,総額,総額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.TotalFirstPymtAdjAmount,TotalFirstPymtAdjAmount,CartItem,,TotalFirstPymtAdjAmount,初回支払調整金額合計,初回支払調整金額合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.TotalFirstPymtListPrice,TotalFirstPymtListPrice,CartItem,,TotalFirstPymtListPrice,初回支払リスト価格合計,初回支払リスト価格合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.TotalFirstPymtPrice,TotalFirstPymtPrice,CartItem,,TotalFirstPymtPrice,調整と税金を含まない初回支払の総額,調整と税金を含まない初回支払の総額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.TotalLineAmount,TotalLineAmount,CartItem,,TotalLineAmount,品目金額合計,品目金額合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.TotalLineFirstPymtAmount,TotalLineFirstPymtAmount,CartItem,,TotalLineFirstPymtAmount,品目の初回支払の総額,品目の初回支払の総額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.TotalLineFirstPymtTaxAmount,TotalLineFirstPymtTaxAmount,CartItem,,TotalLineFirstPymtTaxAmount,品目初回支払税額合計,品目初回支払税額合計,積み上げ集計 ( カートの税額),true,true,false,true,false,true
+000000000000000AAA,CartItem.TotalLineGrossAmount,TotalLineGrossAmount,CartItem,,TotalLineGrossAmount,品目総金額合計,品目総金額合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.TotalLineNetAmount,TotalLineNetAmount,CartItem,,TotalLineNetAmount,品目正味金額合計,品目正味金額合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.TotalLineTaxAmount,TotalLineTaxAmount,CartItem,,TotalLineTaxAmount,品目税額合計,品目税額合計,積み上げ集計 ( カートの税額),true,true,false,true,false,true
+000000000000000AAA,CartItem.TotalListPrice,TotalListPrice,CartItem,,TotalListPrice,合計リスト価格,合計リスト価格,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.TotalPrice,TotalPrice,CartItem,,TotalPrice,合計金額,合計金額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.TotalPriceAfterAllAdjustments,TotalPriceAfterAllAdjustments,CartItem,,TotalPriceAfterAllAdjustments,調整後金額合計,調整後金額合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.TotalPriceTaxAmount,TotalPriceTaxAmount,CartItem,,TotalPriceTaxAmount,合計金額税額,合計金額税額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.TotalPromoAdjustmentAmount,TotalPromoAdjustmentAmount,CartItem,,TotalPromoAdjustmentAmount,品目プロモーションおよび分配プロモーション合計,品目プロモーションおよび分配プロモーション合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.TotalPromoAdjustmentTaxAmount,TotalPromoAdjustmentTaxAmount,CartItem,,TotalPromoAdjustmentTaxAmount,品目プロモーション税額調整および分配税額調整,品目プロモーション税額調整および分配税額調整,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.TotalTaxAmount,TotalTaxAmount,CartItem,,TotalTaxAmount,税額合計,税額合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.TotalWeight,TotalWeight,CartItem,,TotalWeight,カート品目の総重量,カート品目の総重量,数値(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.Type,Type,CartItem,,Type,種別,種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,CartItem.UnitAdjustedPrice,UnitAdjustedPrice,CartItem,,UnitAdjustedPrice,単位調整後の金額,単位調整後の金額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.UnitAdjustedPriceWithItemAdj,UnitAdjustedPriceWithItemAdj,CartItem,,UnitAdjustedPriceWithItemAdj,このカート品目の階層および項目レベルの割引の両方を含む単価,このカート品目の階層および項目レベルの割引の両方を含む単価,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.UnitAdjustmentAmount,UnitAdjustmentAmount,CartItem,,UnitAdjustmentAmount,単位調整金額,単位調整金額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.UnitItemAdjustmentAmount,UnitItemAdjustmentAmount,CartItem,,UnitItemAdjustmentAmount,このカート品目の単位レベルでの項目レベルの割引,このカート品目の単位レベルでの項目レベルの割引,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.UnitPriceAfterAdjustments,UnitPriceAfterAdjustments,CartItem,,UnitPriceAfterAdjustments,調整後の単価,調整後の単価,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,CartItem.UserRecordAccess,UserRecordAccessId,CartItem,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
+000000000000000AAA,CartItem.WeightUnit,WeightUnit,CartItem,,WeightUnit,重量単位,重量単位,選択リスト,false,true,false,true,true,true

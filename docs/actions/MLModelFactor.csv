@@ -1,0 +1,17 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,MLModelFactor.Correlation,Correlation,MLModelFactor,,Correlation,相関関係,相関関係,数値(18、0),false,true,false,true,false,true
+000000000000000AAA,MLModelFactor.CreatedBy,CreatedById,MLModelFactor,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,MLModelFactor.CreatedDate,CreatedDate,MLModelFactor,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,MLModelFactor.FactorType,FactorType,MLModelFactor,,FactorType,要素カテゴリ,要素カテゴリ,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MLModelFactor.Id,Id,MLModelFactor,,Id,ML モデル要素 ID,ML モデル要素 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,MLModelFactor.Importance,Importance,MLModelFactor,,Importance,重要度,重要度,数値(18、0),false,true,false,true,false,true
+000000000000000AAA,MLModelFactor.IsDeleted,IsDeleted,MLModelFactor,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,MLModelFactor.LastModifiedBy,LastModifiedById,MLModelFactor,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,MLModelFactor.LastModifiedDate,LastModifiedDate,MLModelFactor,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,MLModelFactor.Model,ModelId,MLModelFactor,,Model,ML モデル,ML モデル,主従関係(ML モデル),false,false,true,true,true,true
+000000000000000AAA,MLModelFactor.Name,Name,MLModelFactor,,Name,名前,名前,自動採番,false,false,true,true,false,true
+000000000000000AAA,MLModelFactor.RecordVisibility,RecordVisibilityId,MLModelFactor,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,MLModelFactor.SystemModstamp,SystemModstamp,MLModelFactor,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,MLModelFactor.Type,Type,MLModelFactor,,Type,要素種別,要素種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MLModelFactor.UserRecordAccess,UserRecordAccessId,MLModelFactor,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
+000000000000000AAA,MLModelFactor.Weight,Weight,MLModelFactor,,Weight,加重,加重,数値(18、0),false,true,false,true,false,true

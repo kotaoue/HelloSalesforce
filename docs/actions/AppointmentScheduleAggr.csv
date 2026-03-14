@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AppointmentScheduleAggr.AppointmentDate,AppointmentDate,AppointmentScheduleAggr,,AppointmentDate,Appointment Date,Appointment Date,日付,false,true,false,true,true,true
+000000000000000AAA,AppointmentScheduleAggr.CreatedBy,CreatedById,AppointmentScheduleAggr,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,AppointmentScheduleAggr.CreatedDate,CreatedDate,AppointmentScheduleAggr,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AppointmentScheduleAggr.Id,Id,AppointmentScheduleAggr,,Id,Appointment Schedule Aggregates ID,Appointment Schedule Aggregates ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AppointmentScheduleAggr.IsDeleted,IsDeleted,AppointmentScheduleAggr,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AppointmentScheduleAggr.LastModifiedBy,LastModifiedById,AppointmentScheduleAggr,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AppointmentScheduleAggr.LastModifiedDate,LastModifiedDate,AppointmentScheduleAggr,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AppointmentScheduleAggr.Name,Name,AppointmentScheduleAggr,,Name,Name,Name,自動採番,false,false,true,true,false,true
+000000000000000AAA,AppointmentScheduleAggr.RecordVisibility,RecordVisibilityId,AppointmentScheduleAggr,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,AppointmentScheduleAggr.ResourceUtilizationCount,ResourceUtilizationCount,AppointmentScheduleAggr,,ResourceUtilizationCount,Resource Utilization Count,Resource Utilization Count,積み上げ集計 ( Appointment Schedule Logs),true,true,false,true,true,true
+000000000000000AAA,AppointmentScheduleAggr.ServiceResource,ServiceResourceId,AppointmentScheduleAggr,,ServiceResource,サービスリソース,サービスリソース,参照関係(サービスリソース),false,true,true,true,true,true
+000000000000000AAA,AppointmentScheduleAggr.SystemModstamp,SystemModstamp,AppointmentScheduleAggr,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AppointmentScheduleAggr.TotalResourceUtilization,TotalResourceUtilization,AppointmentScheduleAggr,,TotalResourceUtilization,Total Resource Utilization,Total Resource Utilization,積み上げ集計 ( Appointment Schedule Logs),true,true,false,true,false,true
+000000000000000AAA,AppointmentScheduleAggr.UsageType,UsageType,AppointmentScheduleAggr,,UsageType,Usage Type,Usage Type,選択リスト,false,false,false,true,true,true
+000000000000000AAA,AppointmentScheduleAggr.UserRecordAccess,UserRecordAccessId,AppointmentScheduleAggr,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

@@ -1,0 +1,14 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AiEvalDefinitionVersion.AiEvalDefinition,AiEvalDefinitionId,AiEvalDefinitionVersion,,AiEvalDefinition,AI 評価定義,AI 評価定義,主従関係(AI 評価定義),false,false,true,true,true,true
+000000000000000AAA,AiEvalDefinitionVersion.CreatedBy,CreatedById,AiEvalDefinitionVersion,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AiEvalDefinitionVersion.CreatedDate,CreatedDate,AiEvalDefinitionVersion,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AiEvalDefinitionVersion.DefinitionVersionName,DefinitionVersionName,AiEvalDefinitionVersion,,DefinitionVersionName,AI 評価定義バージョン名,AI 評価定義バージョン名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,AiEvalDefinitionVersion.Description,Description,AiEvalDefinitionVersion,,Description,説明,説明,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,AiEvalDefinitionVersion.Id,Id,AiEvalDefinitionVersion,,Id,AI 評価定義バージョン ID,AI 評価定義バージョン ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AiEvalDefinitionVersion.IsActive,IsActive,AiEvalDefinitionVersion,,IsActive,有効,有効,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AiEvalDefinitionVersion.IsDeleted,IsDeleted,AiEvalDefinitionVersion,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AiEvalDefinitionVersion.IsMockDataRequired,IsMockDataRequired,AiEvalDefinitionVersion,,IsMockDataRequired,モックデータが必要,モックデータが必要,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AiEvalDefinitionVersion.LastModifiedBy,LastModifiedById,AiEvalDefinitionVersion,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AiEvalDefinitionVersion.LastModifiedDate,LastModifiedDate,AiEvalDefinitionVersion,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AiEvalDefinitionVersion.SubjectType,SubjectTypeId,AiEvalDefinitionVersion,,SubjectType,件名種別,件名種別,参照関係(Generative AI Prompt Template Versions),false,false,false,true,true,true
+000000000000000AAA,AiEvalDefinitionVersion.SystemModstamp,SystemModstamp,AiEvalDefinitionVersion,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

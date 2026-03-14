@@ -1,0 +1,41 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AssetAction.ActionDate,ActionDate,AssetAction,,ActionDate,アクション日,アクション日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AssetAction.ActualTaxChange,ActualTaxChange,AssetAction,,ActualTaxChange,実効税額の変更,実効税額の変更,積み上げ集計 (合計 納入商品アクションソース),true,true,false,true,false,true
+000000000000000AAA,AssetAction.AdjustmentAmountChange,AdjustmentAmountChange,AssetAction,,AdjustmentAmountChange,調整金額の変更,調整金額の変更,積み上げ集計 (合計 納入商品アクションソース),true,true,false,true,false,true
+000000000000000AAA,AssetAction.Amount,Amount,AssetAction,,Amount,金額,金額,通貨(16、2),false,false,false,true,false,true
+000000000000000AAA,AssetAction.Asset,AssetId,AssetAction,,Asset,納入商品,納入商品,主従関係(納入商品),false,false,true,true,true,true
+000000000000000AAA,AssetAction.AssetStatePeriodHistory,AssetStatePeriodHistory,AssetAction,,AssetStatePeriodHistory,納入商品状態期間履歴,納入商品状態期間履歴,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,AssetAction.CanRollBack,CanRollBack,AssetAction,,CanRollBack,ロールバック可能,ロールバック可能,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AssetAction.CategoryEnum,CategoryEnum,AssetAction,,CategoryEnum,ビジネスカテゴリ,ビジネスカテゴリ,選択リスト,false,false,false,true,true,true
+000000000000000AAA,AssetAction.CreatedBy,CreatedById,AssetAction,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,AssetAction.CreatedDate,CreatedDate,AssetAction,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AssetAction.EstimatedTaxChange,EstimatedTaxChange,AssetAction,,EstimatedTaxChange,予想税額の変更,予想税額の変更,積み上げ集計 (合計 納入商品アクションソース),true,true,false,true,false,true
+000000000000000AAA,AssetAction.Id,Id,AssetAction,,Id,納入商品アクション ID,納入商品アクション ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AssetAction.IsDeleted,IsDeleted,AssetAction,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AssetAction.LastModifiedBy,LastModifiedById,AssetAction,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AssetAction.LastModifiedDate,LastModifiedDate,AssetAction,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AssetAction.MrrChange,MrrChange,AssetAction,,MrrChange,月間経常収益の変更,月間経常収益の変更,通貨(16、2),false,false,false,true,false,true
+000000000000000AAA,AssetAction.Name,AssetActionNumber,AssetAction,,Name,名前,名前,自動採番,false,false,true,true,false,true
+000000000000000AAA,AssetAction.ProductAmountChange,ProductAmountChange,AssetAction,,ProductAmountChange,商品金額の変更,商品金額の変更,積み上げ集計 (合計 納入商品アクションソース),true,true,false,true,false,true
+000000000000000AAA,AssetAction.QuantityChange,QuantityChange,AssetAction,,QuantityChange,数量の変更,数量の変更,数値(12、2),false,false,false,true,false,true
+000000000000000AAA,AssetAction.RecordVisibility,RecordVisibilityId,AssetAction,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,AssetAction.SubtotalChange,SubtotalChange,AssetAction,,SubtotalChange,小計の変更,小計の変更,数式 (通貨),true,true,false,true,false,true
+000000000000000AAA,AssetAction.Subtype,Subtype,AssetAction,,Subtype,サブ種別,サブ種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,AssetAction.SystemModstamp,SystemModstamp,AssetAction,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AssetAction.TotalAmount,TotalAmount,AssetAction,,TotalAmount,総額,総額,数式 (通貨),true,true,false,true,false,true
+000000000000000AAA,AssetAction.TotalCancellationsAmount,TotalCancellationsAmount,AssetAction,,TotalCancellationsAmount,キャンセル金額合計,キャンセル金額合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,AssetAction.TotalCrossSellsAmount,TotalCrossSellsAmount,AssetAction,,TotalCrossSellsAmount,クロスセル金額合計,クロスセル金額合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,AssetAction.TotalDowngradesAmount,TotalDowngradesAmount,AssetAction,,TotalDowngradesAmount,ダウングレード金額合計,ダウングレード金額合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,AssetAction.TotalDownsellsAmount,TotalDownsellsAmount,AssetAction,,TotalDownsellsAmount,ダウンセル金額合計,ダウンセル金額合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,AssetAction.TotalInitialSaleAmount,TotalInitialSaleAmount,AssetAction,,TotalInitialSaleAmount,初回販売金額合計,初回販売金額合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,AssetAction.TotalMrr,TotalMrr,AssetAction,,TotalMrr,月間経常収益合計,月間経常収益合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,AssetAction.TotalOtherAmount,TotalOtherAmount,AssetAction,,TotalOtherAmount,その他の金額合計,その他の金額合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,AssetAction.TotalQuantity,TotalQuantity,AssetAction,,TotalQuantity,合計数量,合計数量,数値(12、2),false,true,false,true,false,true
+000000000000000AAA,AssetAction.TotalRenewalsAmount,TotalRenewalsAmount,AssetAction,,TotalRenewalsAmount,更新金額合計,更新金額合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,AssetAction.TotalSwapsAmount,TotalSwapsAmount,AssetAction,,TotalSwapsAmount,交換金額合計,交換金額合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,AssetAction.TotalTermsAndConditionsAmount,TotalTermsAndConditionsAmount,AssetAction,,TotalTermsAndConditionsAmount,契約条件変更金額合計,契約条件変更金額合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,AssetAction.TotalTransfersAmount,TotalTransfersAmount,AssetAction,,TotalTransfersAmount,転送金額合計,転送金額合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,AssetAction.TotalUpgradesAmount,TotalUpgradesAmount,AssetAction,,TotalUpgradesAmount,アップグレード金額合計,アップグレード金額合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,AssetAction.TotalUpsellsAmount,TotalUpsellsAmount,AssetAction,,TotalUpsellsAmount,アップセル金額合計,アップセル金額合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,AssetAction.Type,Type,AssetAction,,Type,種別,種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,AssetAction.UserRecordAccess,UserRecordAccessId,AssetAction,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

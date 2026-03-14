@@ -1,0 +1,60 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,Case.00NdL00001xyjO4,EngineeringReqNumber__c,Case,,EngineeringReqNumber,Engineering Req Number,Engineering Req Number,テキスト(12),false,true,false,true,true,true
+000000000000000AAA,Case.00NdL00001xyjO5,PotentialLiability__c,Case,,PotentialLiability,Potential Liability,Potential Liability,選択リスト,false,true,false,true,true,true
+000000000000000AAA,Case.00NdL00001xyjO6,Product__c,Case,,Product,Product,Product,選択リスト,false,true,false,true,true,true
+000000000000000AAA,Case.00NdL00001xyjO7,SLAViolation__c,Case,,SLAViolation,SLA Violation,SLA Violation,選択リスト,false,true,false,true,true,true
+000000000000000AAA,Case.Account,AccountId,Case,,Account,取引先名,取引先名,参照関係(取引先),false,true,true,true,true,true
+000000000000000AAA,Case.Asset,AssetId,Case,,Asset,納入商品,納入商品,参照関係(納入商品),false,true,true,true,true,true
+000000000000000AAA,Case.BusinessHours,BusinessHoursId,Case,,BusinessHours,営業時間,営業時間,参照関係(営業時間),false,false,false,true,true,true
+000000000000000AAA,Case.CaseNumber,CaseNumber,Case,,CaseNumber,ケース番号,ケース番号,自動採番,false,false,true,true,false,true
+000000000000000AAA,Case.ClosedDate,ClosedDate,Case,,ClosedDate,クローズ日時,クローズ日時,日付/時間,false,true,true,true,false,true
+000000000000000AAA,Case.Comments,Comments,Case,,Comments,社内コメント,社内コメント,テキストエリア(4000),false,true,false,false,false,true
+000000000000000AAA,Case.ConnectionReceivedDate,ConnectionReceivedDate,Case,,ConnectionReceivedDate,接続受信日,接続受信日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,Case.ConnectionSentDate,ConnectionSentDate,Case,,ConnectionSentDate,接続送信日,接続送信日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,Case.Contact,ContactId,Case,,Contact,取引先責任者名,取引先責任者名,参照関係(取引先責任者),false,true,true,true,true,true
+000000000000000AAA,Case.ContactEmail,ContactEmail,Case,,ContactEmail,取引先責任者 メール,取引先責任者 メール,メール,false,true,false,true,true,true
+000000000000000AAA,Case.ContactFax,ContactFax,Case,,ContactFax,取引先責任者 Fax,取引先責任者 Fax,電話,false,true,false,true,true,true
+000000000000000AAA,Case.ContactMobile,ContactMobile,Case,,ContactMobile,取引先責任者 携帯,取引先責任者 携帯,電話,false,true,false,true,true,true
+000000000000000AAA,Case.ContactPhone,ContactPhone,Case,,ContactPhone,取引先責任者 電話,取引先責任者 電話,電話,false,true,false,true,true,true
+000000000000000AAA,Case.CreatedBy,CreatedById,Case,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,Case.CreatedByAlias,CreatedByAlias,Case,,CreatedByAlias,作成者(別名),作成者(別名),テキスト(30),false,true,false,true,true,true
+000000000000000AAA,Case.CreatedDate,CreatedDate,Case,,CreatedDate,オープン日時,オープン日時,日付/時間,false,false,true,true,false,true
+000000000000000AAA,Case.Description,Description,Case,,Description,説明,説明,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,Case.Entitlement,EntitlementId,Case,,Entitlement,エンタイトルメント名,エンタイトルメント名,参照関係(エンタイトルメント),false,true,true,true,true,true
+000000000000000AAA,Case.EscalationDateTime,EscalationDateTime,Case,,EscalationDateTime,エスカレーションの日,エスカレーションの日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,Case.EventsProcessedDate,EventsProcessedDate,Case,,EventsProcessedDate,行動処理日,行動処理日,日付/時間,false,true,false,false,false,true
+000000000000000AAA,Case.Id,Id,Case,,Id,ケース ID,ケース ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,Case.IsClosed,IsClosed,Case,,IsClosed,クローズフラグ,クローズフラグ,チェックボックス,false,false,true,true,true,true
+000000000000000AAA,Case.IsClosedOnCreate,IsClosedOnCreate,Case,,IsClosedOnCreate,作成時にクローズ,作成時にクローズ,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,Case.IsDeleted,IsDeleted,Case,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,Case.IsEscalated,IsEscalated,Case,,IsEscalated,エスカレーション済フラグ,エスカレーション済フラグ,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,Case.IsStopped,IsStopped,Case,,IsStopped,中止,中止,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,Case.LastModifiedBy,LastModifiedById,Case,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,Case.LastModifiedByAlias,LastModifiedByAlias,Case,,LastModifiedByAlias,最終更新者(別名),最終更新者(別名),テキスト(30),false,true,false,true,true,true
+000000000000000AAA,Case.LastModifiedDate,LastModifiedDate,Case,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,Case.LastReferencedDate,LastReferencedDate,Case,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,Case.LastViewedDate,LastViewedDate,Case,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,Case.MasterRecord,MasterRecordId,Case,,MasterRecord,ケース,ケース,参照関係(ケース),false,true,false,true,true,true
+000000000000000AAA,Case.MilestoneStatus,MilestoneStatus,Case,,MilestoneStatus,マイルストーン状況,マイルストーン状況,テキスト(30),false,true,false,false,true,true
+000000000000000AAA,Case.Origin,Origin,Case,,Origin,発生源,発生源,選択リスト,false,true,false,true,true,true
+000000000000000AAA,Case.Owner,OwnerId,Case,,Owner,ケース 所有者,ケース 所有者,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,Case.Parent,ParentId,Case,,Parent,親ケース,親ケース,参照関係(ケース),false,true,true,true,true,true
+000000000000000AAA,Case.Priority,Priority,Case,,Priority,優先度,優先度,選択リスト,false,true,false,true,true,true
+000000000000000AAA,Case.Product,ProductId,Case,,Product,商品,商品,参照関係(商品),false,true,true,true,true,true
+000000000000000AAA,Case.Reason,Reason,Case,,Reason,原因,原因,選択リスト,false,true,false,true,true,true
+000000000000000AAA,Case.RecordVisibility,RecordVisibilityId,Case,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,Case.RuleFilter,RuleFilterId,Case,,RuleFilter,ワークフロールール検索条件,ワークフロールール検索条件,参照関係(ワークフロールール検索条件),false,true,true,true,true,true
+000000000000000AAA,Case.ServiceContract,ServiceContractId,Case,,ServiceContract,サービス契約,サービス契約,参照関係(サービス契約),false,true,true,true,true,true
+000000000000000AAA,Case.SlaExitDate,SlaExitDate,Case,,SlaExitDate,SLA ポリシーの終了時刻,SLA ポリシーの終了時刻,日付/時間,false,true,false,true,false,true
+000000000000000AAA,Case.SlaStartDate,SlaStartDate,Case,,SlaStartDate,SLA ポリシーの開始時刻,SLA ポリシーの開始時刻,日付/時間,false,true,false,true,false,true
+000000000000000AAA,Case.Source,SourceId,Case,,Source,ケースソース,ケースソース,"参照関係(メールメッセージ,メッセージングセッション)",false,true,true,true,true,true
+000000000000000AAA,Case.Status,Status,Case,,Status,状況,状況,選択リスト,false,true,true,true,true,true
+000000000000000AAA,Case.StopStartDate,StopStartDate,Case,,StopStartDate,中止開始日,中止開始日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,Case.Subject,Subject,Case,,Subject,件名,件名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,Case.SuppliedCompany,SuppliedCompany,Case,,SuppliedCompany,Web 会社名,Web 会社名,テキスト(80),false,true,false,true,true,true
+000000000000000AAA,Case.SuppliedEmail,SuppliedEmail,Case,,SuppliedEmail,Web メール,Web メール,メール,false,true,false,true,true,true
+000000000000000AAA,Case.SuppliedName,SuppliedName,Case,,SuppliedName,Web 氏名,Web 氏名,テキスト(80),false,true,false,true,true,true
+000000000000000AAA,Case.SuppliedPhone,SuppliedPhone,Case,,SuppliedPhone,Web 電話,Web 電話,テキスト(40),false,true,false,true,true,true
+000000000000000AAA,Case.SystemModstamp,SystemModstamp,Case,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,Case.Type,Type,Case,,Type,種別,種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,Case.UserRecordAccess,UserRecordAccessId,Case,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

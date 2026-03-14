@@ -1,0 +1,19 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DataMltOrgMdatChgLineage.AdditionalDetail,AdditionalDetail,DataMltOrgMdatChgLineage,,AdditionalDetail,その他の詳細,その他の詳細,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,DataMltOrgMdatChgLineage.ChangeSetIdentifier,ChangeSetIdentifier,DataMltOrgMdatChgLineage,,ChangeSetIdentifier,変更セット識別子,変更セット識別子,テキスト(40),false,true,false,true,true,true
+000000000000000AAA,DataMltOrgMdatChgLineage.CreatedBy,CreatedById,DataMltOrgMdatChgLineage,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DataMltOrgMdatChgLineage.CreatedDate,CreatedDate,DataMltOrgMdatChgLineage,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DataMltOrgMdatChgLineage.DataSpaceDevName,DataSpaceDevName,DataMltOrgMdatChgLineage,,DataSpaceDevName,データスペース開発名,データスペース開発名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataMltOrgMdatChgLineage.Id,Id,DataMltOrgMdatChgLineage,,Id,データ複数組織メタデータ変更系統 ID,データ複数組織メタデータ変更系統 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DataMltOrgMdatChgLineage.IsDeleted,IsDeleted,DataMltOrgMdatChgLineage,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DataMltOrgMdatChgLineage.LastModifiedBy,LastModifiedById,DataMltOrgMdatChgLineage,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DataMltOrgMdatChgLineage.LastModifiedDate,LastModifiedDate,DataMltOrgMdatChgLineage,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DataMltOrgMdatChgLineage.MultiOrgLineageFeatureType,MultiOrgLineageFeatureType,DataMltOrgMdatChgLineage,,MultiOrgLineageFeatureType,複数組織系統機能種別,複数組織系統機能種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataMltOrgMdatChgLineage.OwnerOrg,OwnerOrgId,DataMltOrgMdatChgLineage,,OwnerOrg,所有者組織,所有者組織,参照関係(組織),false,false,false,true,true,true
+000000000000000AAA,DataMltOrgMdatChgLineage.SourceDeveloperName,SourceDeveloperName,DataMltOrgMdatChgLineage,,SourceDeveloperName,ソース API 参照名,ソース API 参照名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataMltOrgMdatChgLineage.SourceOrg,SourceOrgId,DataMltOrgMdatChgLineage,,SourceOrg,ソース組織,ソース組織,参照関係(組織),false,false,false,true,true,true
+000000000000000AAA,DataMltOrgMdatChgLineage.SourceRecord,SourceRecordId,DataMltOrgMdatChgLineage,,SourceRecord,ソースレコード識別子,ソースレコード識別子,"参照関係(データモデルオブジェクト,計算済みインサイトオブジェクト,データレイクオブジェクト定義,Semantic Model,Data Cloud 通貨設定,Data Cloud 会計年度カレンダー設定,Analytics ダッシュボード,Analytics Visualization)",false,true,false,true,true,true
+000000000000000AAA,DataMltOrgMdatChgLineage.SourceRecordNamespace,SourceRecordNamespace,DataMltOrgMdatChgLineage,,SourceRecordNamespace,Source Record Namespace,Source Record Namespace,テキスト(15),false,true,false,true,true,true
+000000000000000AAA,DataMltOrgMdatChgLineage.SystemModstamp,SystemModstamp,DataMltOrgMdatChgLineage,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DataMltOrgMdatChgLineage.TargetDeveloperName,TargetDeveloperName,DataMltOrgMdatChgLineage,,TargetDeveloperName,対象 API 参照名,対象 API 参照名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataMltOrgMdatChgLineage.TargetRecord,TargetRecordId,DataMltOrgMdatChgLineage,,TargetRecord,対象レコード識別子,対象レコード識別子,"参照関係(データモデルオブジェクト,計算済みインサイトオブジェクト,データレイクオブジェクト定義,Semantic Model,Data Cloud 通貨設定,Data Cloud 会計年度カレンダー設定,Analytics ダッシュボード,Analytics Visualization)",false,true,false,true,true,true

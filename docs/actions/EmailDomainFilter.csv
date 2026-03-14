@@ -1,0 +1,13 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,EmailDomainFilter.CreatedBy,CreatedById,EmailDomainFilter,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,EmailDomainFilter.CreatedDate,CreatedDate,EmailDomainFilter,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,EmailDomainFilter.EmailRelay,EmailRelayId,EmailDomainFilter,,EmailRelay,メールリレー,メールリレー,参照関係(メールリレー),false,false,false,true,true,true
+000000000000000AAA,EmailDomainFilter.FromDomain,FromDomain,EmailDomainFilter,,FromDomain,送信者のドメイン,送信者のドメイン,ロングテキストエリア(4000),false,true,false,false,false,false
+000000000000000AAA,EmailDomainFilter.Id,Id,EmailDomainFilter,,Id,メールドメイン検索条件 ID,メールドメイン検索条件 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,EmailDomainFilter.IsActive,IsActive,EmailDomainFilter,,IsActive,有効,有効,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,EmailDomainFilter.IsDeleted,IsDeleted,EmailDomainFilter,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,EmailDomainFilter.LastModifiedBy,LastModifiedById,EmailDomainFilter,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,EmailDomainFilter.LastModifiedDate,LastModifiedDate,EmailDomainFilter,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,EmailDomainFilter.PriorityNumber,PriorityNumber,EmailDomainFilter,,PriorityNumber,優先度,優先度,数値(9、0),false,true,true,true,true,true
+000000000000000AAA,EmailDomainFilter.SystemModstamp,SystemModstamp,EmailDomainFilter,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,EmailDomainFilter.ToDomain,ToDomain,EmailDomainFilter,,ToDomain,受信者のドメイン,受信者のドメイン,ロングテキストエリア(4000),false,true,false,false,false,false

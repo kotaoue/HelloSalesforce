@@ -1,0 +1,13 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,EventRecurrenceException.ActivityDateOriginal,ActivityDateOriginal,EventRecurrenceException,,ActivityDateOriginal,元日付,元日付,日付/時間,false,true,true,true,false,true
+000000000000000AAA,EventRecurrenceException.ActivityDateTimeOriginal,ActivityDateTimeOriginal,EventRecurrenceException,,ActivityDateTimeOriginal,元時間,元時間,日付/時間,false,true,false,true,false,true
+000000000000000AAA,EventRecurrenceException.CreatedBy,CreatedById,EventRecurrenceException,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,EventRecurrenceException.CreatedDate,CreatedDate,EventRecurrenceException,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,EventRecurrenceException.Event,EventId,EventRecurrenceException,,Event,行動,行動,参照関係(行動),false,true,true,true,true,true
+000000000000000AAA,EventRecurrenceException.Id,Id,EventRecurrenceException,,Id,行動繰り返しの例外 ID,行動繰り返しの例外 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,EventRecurrenceException.IsAllDayEventOriginal,IsAllDayEventOriginal,EventRecurrenceException,,IsAllDayEventOriginal,元終日行動,元終日行動,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,EventRecurrenceException.IsDeletion,IsDeletion,EventRecurrenceException,,IsDeletion,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,EventRecurrenceException.LastModifiedBy,LastModifiedById,EventRecurrenceException,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,EventRecurrenceException.LastModifiedDate,LastModifiedDate,EventRecurrenceException,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,EventRecurrenceException.RecurrenceEvent,RecurrenceEventId,EventRecurrenceException,,RecurrenceEvent,定期的な活動,定期的な活動,参照関係(行動),false,true,true,true,true,true
+000000000000000AAA,EventRecurrenceException.SystemModstamp,SystemModstamp,EventRecurrenceException,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

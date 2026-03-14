@@ -1,0 +1,38 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ActivationPlatform.ActivationFlowType,ActivationFlowType,ActivationPlatform,,ActivationFlowType,有効化プラットフォーム有効化フロー種別,有効化プラットフォーム有効化フロー種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ActivationPlatform.ActivationPlatformAdditionalMetadata,ActivationPlatformAdditionalMetadata,ActivationPlatform,,ActivationPlatformAdditionalMetadata,有効化プラットフォーム追加メタデータ,有効化プラットフォーム追加メタデータ,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,ActivationPlatform.ActivationPlatformConnectorType,ActivationPlatformConnectorType,ActivationPlatform,,ActivationPlatformConnectorType,有効化プラットフォームコネクタタイプ,有効化プラットフォームコネクタタイプ,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ActivationPlatform.ActivationPlatformCreationType,ActivationPlatformCreationType,ActivationPlatform,,ActivationPlatformCreationType,有効化プラットフォーム作成種別,有効化プラットフォーム作成種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ActivationPlatform.ActivationPlatformCredential,ActivationPlatformCredential,ActivationPlatform,,ActivationPlatformCredential,有効化プラットフォームログイン情報,有効化プラットフォームログイン情報,テキスト(25),false,true,false,true,true,true
+000000000000000AAA,ActivationPlatform.ActivationPlatformProcessingType,ActivationPlatformProcessingType,ActivationPlatform,,ActivationPlatformProcessingType,有効化プラットフォーム処理種別,有効化プラットフォーム処理種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ActivationPlatform.CreatedBy,CreatedById,ActivationPlatform,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ActivationPlatform.CreatedDate,CreatedDate,ActivationPlatform,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ActivationPlatform.CustomerIdTypeMapping,CustomerIdTypeMapping,ActivationPlatform,,CustomerIdTypeMapping,有効化プラットフォーム顧客 ID 種別の対応付け,有効化プラットフォーム顧客 ID 種別の対応付け,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,ActivationPlatform.DataConnector,DataConnectorId,ActivationPlatform,,DataConnector,データコネクタ,データコネクタ,"参照関係(S3 用有効化プラットフォームデータコネクタ,有効化プラットフォーム OAuth コネクタ)",false,true,false,true,true,true
+000000000000000AAA,ActivationPlatform.Description,Description,ActivationPlatform,,Description,説明,説明,ロングテキストエリア(4096),false,false,false,false,false,false
+000000000000000AAA,ActivationPlatform.DeveloperName,DeveloperName,ActivationPlatform,,DeveloperName,名前,名前,テキスト(80),false,false,true,true,true,true
+000000000000000AAA,ActivationPlatform.Enabled,Enabled,ActivationPlatform,,Enabled,有効,有効,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ActivationPlatform.FullName,FullName,ActivationPlatform,,FullName,有効化プラットフォームの完全名,有効化プラットフォームの完全名,テキスト(255),false,true,false,false,true,false
+000000000000000AAA,ActivationPlatform.Id,Id,ActivationPlatform,,Id,有効化プラットフォーム ID,有効化プラットフォーム ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ActivationPlatform.IncludeSegmentNames,IncludeSegmentNames,ActivationPlatform,,IncludeSegmentNames,セグメント名を含める,セグメント名を含める,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ActivationPlatform.IsDeleted,IsDeleted,ActivationPlatform,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ActivationPlatform.Language,Language,ActivationPlatform,,Language,マスター言語,マスター言語,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ActivationPlatform.LastModifiedBy,LastModifiedById,ActivationPlatform,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ActivationPlatform.LastModifiedDate,LastModifiedDate,ActivationPlatform,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ActivationPlatform.LastStatusDateTime,LastStatusDateTime,ActivationPlatform,,LastStatusDateTime,最終有効化プラットフォーム状況時刻,最終有効化プラットフォーム状況時刻,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ActivationPlatform.LastStatusErrorCode,LastStatusErrorCode,ActivationPlatform,,LastStatusErrorCode,最終有効化プラットフォーム状況エラーコード,最終有効化プラットフォーム状況エラーコード,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ActivationPlatform.LogoUrl,LogoUrl,ActivationPlatform,,LogoUrl,ロゴ URL,ロゴ URL,ロングテキストエリア(2048),false,true,false,false,false,false
+000000000000000AAA,ActivationPlatform.ManageableState,ManageableState,ActivationPlatform,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ActivationPlatform.MasterLabel,MasterLabel,ActivationPlatform,,MasterLabel,表示ラベル,表示ラベル,テキスト(80),false,false,false,true,true,true
+000000000000000AAA,ActivationPlatform.Metadata,Metadata,ActivationPlatform,,Metadata,メタデータ,メタデータ,複合値,false,true,false,false,false,false
+000000000000000AAA,ActivationPlatform.NamespacePrefix,NamespacePrefix,ActivationPlatform,,NamespacePrefix,名前空間プレフィックス,名前空間プレフィックス,テキスト,false,true,false,true,true,true
+000000000000000AAA,ActivationPlatform.Notes,Notes,ActivationPlatform,,Notes,注意事項,注意事項,ロングテキストエリア(4096),false,true,false,false,false,false
+000000000000000AAA,ActivationPlatform.OutputFormat,OutputFormat,ActivationPlatform,,OutputFormat,ファイル出力形式,ファイル出力形式,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ActivationPlatform.OutputGrouping,OutputGrouping,ActivationPlatform,,OutputGrouping,ファイル出力グルーピング,ファイル出力グルーピング,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ActivationPlatform.PeriodicRefreshFrequecy,PeriodicRefreshFrequecy,ActivationPlatform,,PeriodicRefreshFrequecy,定期的な更新頻度,定期的な更新頻度,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ActivationPlatform.PrivacyType,PrivacyType,ActivationPlatform,,PrivacyType,有効化プラットフォームプライバシー種別,有効化プラットフォームプライバシー種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ActivationPlatform.RefreshFrequency,RefreshFrequency,ActivationPlatform,,RefreshFrequency,更新頻度,更新頻度,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ActivationPlatform.RefreshMode,RefreshMode,ActivationPlatform,,RefreshMode,更新モード,更新モード,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ActivationPlatform.Status,Status,ActivationPlatform,,Status,有効化プラットフォーム状況,有効化プラットフォーム状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ActivationPlatform.SystemModstamp,SystemModstamp,ActivationPlatform,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ActivationPlatform.Type,Type,ActivationPlatform,,Type,有効化プラットフォームカテゴリ,有効化プラットフォームカテゴリ,選択リスト,false,false,false,true,true,true

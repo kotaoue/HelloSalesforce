@@ -1,0 +1,31 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,Idea.Attachment,Attachment,Idea,,Attachment,添付ファイル,添付ファイル,ファイル,false,true,false,true,false,true
+000000000000000AAA,Idea.Body,Body,Idea,,Body,アイデア本文,アイデア本文,リッチテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,Idea.Categories,Categories,Idea,,Categories,カテゴリ,カテゴリ,選択リスト (複数選択),false,true,false,true,false,false
+000000000000000AAA,Idea.Community,CommunityId,Idea,,Community,ゾーン,ゾーン,主従関係(ゾーン),false,false,true,true,true,true
+000000000000000AAA,Idea.CreatedBy,CreatedById,Idea,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,Idea.CreatedDate,CreatedDate,Idea,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,Idea.CreatorFullPhotoUrl,CreatorFullPhotoUrl,Idea,,CreatorFullPhotoUrl,作成者のプロファイル写真の URL,作成者のプロファイル写真の URL,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,Idea.CreatorName,CreatorName,Idea,,CreatorName,作成者の名前,作成者の名前,テキスト(121),false,true,false,true,true,true
+000000000000000AAA,Idea.CreatorSmallPhotoUrl,CreatorSmallPhotoUrl,Idea,,CreatorSmallPhotoUrl,作成者の写真のサムネイルの URL,作成者の写真のサムネイルの URL,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,Idea.Id,Id,Idea,,Id,アイデア ID,アイデア ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,Idea.IsDeleted,IsDeleted,Idea,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,Idea.IsHtml,IsHtml,Idea,,IsHtml,HTML,HTML,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,Idea.IsLocked,IsLocked,Idea,,IsLocked,ロック,ロック,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,Idea.IsMerged,IsMerged,Idea,,IsMerged,マージ済み,マージ済み,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,Idea.LastComment,LastCommentId,Idea,,LastComment,最終アイデアのコメント,最終アイデアのコメント,参照関係(アイデアのコメント),false,true,false,true,true,true
+000000000000000AAA,Idea.LastCommentDate,LastCommentDate,Idea,,LastCommentDate,最終アイデアのコメント日,最終アイデアのコメント日,積み上げ集計 ( アイデアのコメント),true,true,false,true,false,true
+000000000000000AAA,Idea.LastModifiedBy,LastModifiedById,Idea,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,Idea.LastModifiedDate,LastModifiedDate,Idea,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,Idea.LastReferencedDate,LastReferencedDate,Idea,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,Idea.LastViewedDate,LastViewedDate,Idea,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,Idea.Name,Title,Idea,,Name,タイトル,タイトル,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,Idea.NumComments,NumComments,Idea,,NumComments,コメント数,コメント数,積み上げ集計 ( アイデアのコメント),true,true,false,true,true,true
+000000000000000AAA,Idea.ParentIdea,ParentIdeaId,Idea,,ParentIdea,親アイデア,親アイデア,参照関係(アイデア),false,true,false,true,true,true
+000000000000000AAA,Idea.RecordType,RecordTypeId,Idea,,RecordType,レコードタイプ,レコードタイプ,レコードタイプ,false,true,true,true,true,true
+000000000000000AAA,Idea.RecordVisibility,RecordVisibilityId,Idea,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,Idea.Status,Status,Idea,,Status,状況,状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,Idea.SystemModstamp,SystemModstamp,Idea,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,Idea.UserRecordAccess,UserRecordAccessId,Idea,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
+000000000000000AAA,Idea.VoteScore,VoteScore,Idea,,VoteScore,投票スコア,投票スコア,数値(14、4),false,true,false,true,false,true
+000000000000000AAA,Idea.VoteTotal,VoteTotal,Idea,,VoteTotal,投票総数,投票総数,数値(18、0),false,true,false,true,false,true

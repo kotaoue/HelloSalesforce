@@ -1,0 +1,24 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DataActionTarget.ApiContract,ApiContract,DataActionTarget,,ApiContract,データアクション対象 API 契約,データアクション対象 API 契約,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataActionTarget.CreatedBy,CreatedById,DataActionTarget,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,DataActionTarget.CreatedDate,CreatedDate,DataActionTarget,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DataActionTarget.Id,Id,DataActionTarget,,Id,データアクション対象 ID,データアクション対象 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DataActionTarget.IsDeleted,IsDeleted,DataActionTarget,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DataActionTarget.LastModifiedBy,LastModifiedById,DataActionTarget,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DataActionTarget.LastModifiedDate,LastModifiedDate,DataActionTarget,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DataActionTarget.LastReferencedDate,LastReferencedDate,DataActionTarget,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DataActionTarget.LastSigningKeyDateTime,LastSigningKeyDateTime,DataActionTarget,,LastSigningKeyDateTime,最終署名鍵生成日時,最終署名鍵生成日時,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DataActionTarget.LastTargetStatusDateTime,LastTargetStatusDateTime,DataActionTarget,,LastTargetStatusDateTime,最終データアクション対象状況日時,最終データアクション対象状況日時,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DataActionTarget.LastTargetStatusErrorCode,LastTargetStatusErrorCode,DataActionTarget,,LastTargetStatusErrorCode,最終データアクション対象状況エラーコード,最終データアクション対象状況エラーコード,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataActionTarget.LastViewedDate,LastViewedDate,DataActionTarget,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DataActionTarget.ManagedBy,ManagedBy,DataActionTarget,,ManagedBy,管理者,管理者,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataActionTarget.Name,Name,DataActionTarget,,Name,データアクション対象名,データアクション対象名,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,DataActionTarget.Owner,OwnerId,DataActionTarget,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,DataActionTarget.RecordVisibility,RecordVisibilityId,DataActionTarget,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,DataActionTarget.SystemModstamp,SystemModstamp,DataActionTarget,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DataActionTarget.TargetApiName,TargetApiName,DataActionTarget,,TargetApiName,データアクション対象 API 参照名,データアクション対象 API 参照名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataActionTarget.TargetDefinition,TargetDefinitionId,DataActionTarget,,TargetDefinition,データアクション対象定義,データアクション対象定義,参照関係(データアクション対象定義),false,false,true,true,true,true
+000000000000000AAA,DataActionTarget.TargetEndpoint,TargetEndpoint,DataActionTarget,,TargetEndpoint,公開する URL,公開する URL,URL(1000),false,true,false,true,false,true
+000000000000000AAA,DataActionTarget.TargetStatus,TargetStatus,DataActionTarget,,TargetStatus,状況,状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataActionTarget.TargetType,TargetType,DataActionTarget,,TargetType,データアクション対象種別,データアクション対象種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataActionTarget.UserRecordAccess,UserRecordAccessId,DataActionTarget,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

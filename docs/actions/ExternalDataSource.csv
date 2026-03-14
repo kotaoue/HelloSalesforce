@@ -1,0 +1,36 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ExternalDataSource.AuthProvider,AuthProviderId,ExternalDataSource,,AuthProvider,認証プロバイダー,認証プロバイダー,参照関係(認証プロバイダー),false,true,false,true,true,true
+000000000000000AAA,ExternalDataSource.Certificate,CertificateId,ExternalDataSource,,Certificate,証明書,証明書,参照関係(証明書と鍵),false,true,false,true,true,true
+000000000000000AAA,ExternalDataSource.CreatedBy,CreatedById,ExternalDataSource,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ExternalDataSource.CreatedDate,CreatedDate,ExternalDataSource,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ExternalDataSource.CustomConfiguration,CustomConfiguration,ExternalDataSource,,CustomConfiguration,カスタム設定,カスタム設定,ロングテキストエリア(4000),false,true,false,false,false,false
+000000000000000AAA,ExternalDataSource.DeveloperName,DeveloperName,ExternalDataSource,,DeveloperName,名前,名前,テキスト(80),false,false,true,true,true,true
+000000000000000AAA,ExternalDataSource.Endpoint,Endpoint,ExternalDataSource,,Endpoint,URL,URL,ロングテキストエリア(1000),false,true,false,false,false,false
+000000000000000AAA,ExternalDataSource.EndpointAndCredentialDigest,EndpointAndCredentialDigest,ExternalDataSource,,EndpointAndCredentialDigest,エンドポイントおよびログイン情報を一意に識別するダイジェスト,エンドポイントおよびログイン情報を一意に識別するダイジェスト,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ExternalDataSource.FullName,FullName,ExternalDataSource,,FullName,氏名,氏名,テキスト(255),false,true,false,false,true,false
+000000000000000AAA,ExternalDataSource.Handle,Handle,ExternalDataSource,,Handle,OAuth ハンドル,OAuth ハンドル,テキスト(375),false,true,false,true,false,true
+000000000000000AAA,ExternalDataSource.Id,Id,ExternalDataSource,,Id,外部データソース ID,外部データソース ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ExternalDataSource.IsDeleted,IsDeleted,ExternalDataSource,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ExternalDataSource.IsWritable,IsWritable,ExternalDataSource,,IsWritable,書き込み可能外部オブジェクト,書き込み可能外部オブジェクト,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ExternalDataSource.Language,Language,ExternalDataSource,,Language,マスター言語,マスター言語,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ExternalDataSource.LargeIcon,LargeIconId,ExternalDataSource,,LargeIcon,大きいアイコン,大きいアイコン,参照関係(静的リソース),false,true,false,true,true,true
+000000000000000AAA,ExternalDataSource.LastModifiedBy,LastModifiedById,ExternalDataSource,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ExternalDataSource.LastModifiedDate,LastModifiedDate,ExternalDataSource,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ExternalDataSource.ManageableState,ManageableState,ExternalDataSource,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ExternalDataSource.MasterLabel,MasterLabel,ExternalDataSource,,MasterLabel,外部データソース,外部データソース,テキスト(80),false,false,false,true,true,true
+000000000000000AAA,ExternalDataSource.Metadata,Metadata,ExternalDataSource,,Metadata,メタデータ,メタデータ,複合値,false,true,false,false,false,false
+000000000000000AAA,ExternalDataSource.NamedCredential,NamedCredentialId,ExternalDataSource,,NamedCredential,指定ログイン情報,指定ログイン情報,参照関係(指定ログイン情報),false,true,false,true,true,true
+000000000000000AAA,ExternalDataSource.NamespacePrefix,NamespacePrefix,ExternalDataSource,,NamespacePrefix,名前空間プレフィックス,名前空間プレフィックス,テキスト,false,true,false,true,true,true
+000000000000000AAA,ExternalDataSource.OauthRefreshToken,OauthRefreshToken,ExternalDataSource,,OauthRefreshToken,OAuth 更新トークン,OAuth 更新トークン,ロングテキストエリア(40000),false,true,false,false,false,false
+000000000000000AAA,ExternalDataSource.OauthScope,OauthScope,ExternalDataSource,,OauthScope,OAuth 範囲,OAuth 範囲,テキスト(1000),false,true,false,true,false,true
+000000000000000AAA,ExternalDataSource.OauthToken,OauthToken,ExternalDataSource,,OauthToken,OAuth トークン,OAuth トークン,ロングテキストエリア(40000),false,true,false,false,false,false
+000000000000000AAA,ExternalDataSource.Password,Password,ExternalDataSource,,Password,パスワード,パスワード,ロングテキストエリア(6000),false,true,false,false,false,false
+000000000000000AAA,ExternalDataSource.PrincipalType,PrincipalType,ExternalDataSource,,PrincipalType,ID 種別,ID 種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ExternalDataSource.Protocol,Protocol,ExternalDataSource,,Protocol,認証プロトコル,認証プロトコル,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ExternalDataSource.RemoteIdentifier,RemoteIdentifier,ExternalDataSource,,RemoteIdentifier,OAuth リモート ID,OAuth リモート ID,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ExternalDataSource.Repository,Repository,ExternalDataSource,,Repository,デフォルトの外部リポジトリ,デフォルトの外部リポジトリ,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ExternalDataSource.SmallIcon,SmallIconId,ExternalDataSource,,SmallIcon,小さいアイコン,小さいアイコン,参照関係(静的リソース),false,true,false,true,true,true
+000000000000000AAA,ExternalDataSource.SystemModstamp,SystemModstamp,ExternalDataSource,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ExternalDataSource.Type,Type,ExternalDataSource,,Type,種別,種別,選択リスト(Apex クラス),false,false,true,true,true,true
+000000000000000AAA,ExternalDataSource.Username,Username,ExternalDataSource,,Username,ユーザー名,ユーザー名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ExternalDataSource.Version,Version,ExternalDataSource,,Version,バージョン,バージョン,テキスト(255),false,true,false,true,true,true

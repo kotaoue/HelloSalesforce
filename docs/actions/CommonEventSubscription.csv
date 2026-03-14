@@ -1,0 +1,18 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,CommonEventSubscription.BatchSize,BatchSize,CommonEventSubscription,,BatchSize,共通イベント登録バッチサイズ,共通イベント登録バッチサイズ,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,CommonEventSubscription.CheckpointReplay,CheckpointReplay,CommonEventSubscription,,CheckpointReplay,共通イベント登録チェックポイント再実行,共通イベント登録チェックポイント再実行,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,CommonEventSubscription.CreatedBy,CreatedById,CommonEventSubscription,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,CommonEventSubscription.CreatedDate,CreatedDate,CommonEventSubscription,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,CommonEventSubscription.DefaultReplay,DefaultReplay,CommonEventSubscription,,DefaultReplay,共通イベント登録デフォルト再実行,共通イベント登録デフォルト再実行,選択リスト,false,false,false,true,true,true
+000000000000000AAA,CommonEventSubscription.ErrorRecoveryReplay,ErrorRecoveryReplay,CommonEventSubscription,,ErrorRecoveryReplay,共通イベント登録エラー回復再実行,共通イベント登録エラー回復再実行,選択リスト,false,true,false,true,true,true
+000000000000000AAA,CommonEventSubscription.EventChannel,EventChannel,CommonEventSubscription,,EventChannel,共通イベント登録イベントチャネル,共通イベント登録イベントチャネル,"選択リスト(プラットフォームイベントチャネル,カスタムオブジェクトの定義)",false,true,false,true,true,true
+000000000000000AAA,CommonEventSubscription.Id,Id,CommonEventSubscription,,Id,共通イベントサブスクリプション ID,共通イベントサブスクリプション ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,CommonEventSubscription.IsDeleted,IsDeleted,CommonEventSubscription,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,CommonEventSubscription.LastModifiedBy,LastModifiedById,CommonEventSubscription,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,CommonEventSubscription.LastModifiedDate,LastModifiedDate,CommonEventSubscription,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,CommonEventSubscription.ReferenceSubscription,ReferenceSubscriptionId,CommonEventSubscription,,ReferenceSubscription,参照登録への外部キー,参照登録への外部キー,参照関係(管理イベントサブスクリプション),false,false,false,true,true,true
+000000000000000AAA,CommonEventSubscription.State,State,CommonEventSubscription,,State,共通イベント登録状態,共通イベント登録状態,選択リスト,false,false,true,true,true,true
+000000000000000AAA,CommonEventSubscription.SystemModstamp,SystemModstamp,CommonEventSubscription,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,CommonEventSubscription.TopicName,TopicName,CommonEventSubscription,,TopicName,共通イベント登録トピック名,共通イベント登録トピック名,テキスト(255),false,false,false,true,true,true
+000000000000000AAA,CommonEventSubscription.UsageType,UsageType,CommonEventSubscription,,UsageType,共通イベント登録利用状況種別,共通イベント登録利用状況種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,CommonEventSubscription.Version,Version,CommonEventSubscription,,Version,共通イベント登録バージョン,共通イベント登録バージョン,テキスト(255),false,false,false,true,true,true

@@ -1,0 +1,15 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,CartValidationOutputChangeEvent.BackgroundOperation,BackgroundOperationId,CartValidationOutputChangeEvent,,BackgroundOperation,バックグラウンド操作,バックグラウンド操作,参照関係(バックグラウンド操作),false,true,false,false,false,false
+000000000000000AAA,CartValidationOutputChangeEvent.Cart,CartId,CartValidationOutputChangeEvent,,Cart,カート,カート,参照関係(カート),false,true,false,false,false,false
+000000000000000AAA,CartValidationOutputChangeEvent.ChangeEventHeader,ChangeEventHeader,CartValidationOutputChangeEvent,,ChangeEventHeader,変更イベントヘッダー,変更イベントヘッダー,複合値,false,false,false,false,false,false
+000000000000000AAA,CartValidationOutputChangeEvent.CreatedBy,CreatedById,CartValidationOutputChangeEvent,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,true,false,false,false,false
+000000000000000AAA,CartValidationOutputChangeEvent.CreatedDate,CreatedDate,CartValidationOutputChangeEvent,,CreatedDate,作成日,作成日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,CartValidationOutputChangeEvent.IsDismissed,IsDismissed,CartValidationOutputChangeEvent,,IsDismissed,破棄済み,破棄済み,チェックボックス,false,false,false,false,false,false
+000000000000000AAA,CartValidationOutputChangeEvent.LastModifiedBy,LastModifiedById,CartValidationOutputChangeEvent,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,true,false,false,false,false
+000000000000000AAA,CartValidationOutputChangeEvent.LastModifiedDate,LastModifiedDate,CartValidationOutputChangeEvent,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,CartValidationOutputChangeEvent.Level,Level,CartValidationOutputChangeEvent,,Level,レベル,レベル,選択リスト,false,true,false,false,false,false
+000000000000000AAA,CartValidationOutputChangeEvent.Message,Message,CartValidationOutputChangeEvent,,Message,メッセージ,メッセージ,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,CartValidationOutputChangeEvent.Name,Name,CartValidationOutputChangeEvent,,Name,カート検証出力,カート検証出力,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,CartValidationOutputChangeEvent.RelatedEntity,RelatedEntityId,CartValidationOutputChangeEvent,,RelatedEntity,関連エンティティ,関連エンティティ,"参照関係(カート,カート項目,カート配送グループ,カートの税額)",false,true,false,false,false,false
+000000000000000AAA,CartValidationOutputChangeEvent.RelatedEntityPrefix,RelatedEntityPrefix,CartValidationOutputChangeEvent,,RelatedEntityPrefix,関連エンティティのプレフィックス,関連エンティティのプレフィックス,テキスト(3),false,true,false,false,false,false
+000000000000000AAA,CartValidationOutputChangeEvent.Type,Type,CartValidationOutputChangeEvent,,Type,種別,種別,選択リスト,false,true,false,false,false,false

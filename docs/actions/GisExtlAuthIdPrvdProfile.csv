@@ -1,0 +1,13 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,GisExtlAuthIdPrvdProfile.CreatedBy,CreatedById,GisExtlAuthIdPrvdProfile,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,GisExtlAuthIdPrvdProfile.CreatedDate,CreatedDate,GisExtlAuthIdPrvdProfile,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,GisExtlAuthIdPrvdProfile.DeveloperName,DeveloperName,GisExtlAuthIdPrvdProfile,,DeveloperName,名前,名前,テキスト(80),false,false,true,true,true,true
+000000000000000AAA,GisExtlAuthIdPrvdProfile.GisExtlAuthIdProvider,GisExtlAuthIdProviderId,GisExtlAuthIdPrvdProfile,,GisExtlAuthIdProvider,プロファイルに添付された GIS 外部認証プロバイダー,プロファイルに添付された GIS 外部認証プロバイダー,参照関係(Gis 外部認証 ID プロバイダー),false,true,false,true,true,true
+000000000000000AAA,GisExtlAuthIdPrvdProfile.Id,Id,GisExtlAuthIdPrvdProfile,,Id,Gis 外部認証 ID プロバイダープロファイル ID,Gis 外部認証 ID プロバイダープロファイル ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,GisExtlAuthIdPrvdProfile.IsDeleted,IsDeleted,GisExtlAuthIdPrvdProfile,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,GisExtlAuthIdPrvdProfile.Language,Language,GisExtlAuthIdPrvdProfile,,Language,マスター言語,マスター言語,選択リスト,false,false,false,true,true,true
+000000000000000AAA,GisExtlAuthIdPrvdProfile.LastModifiedBy,LastModifiedById,GisExtlAuthIdPrvdProfile,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,GisExtlAuthIdPrvdProfile.LastModifiedDate,LastModifiedDate,GisExtlAuthIdPrvdProfile,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,GisExtlAuthIdPrvdProfile.MasterLabel,MasterLabel,GisExtlAuthIdPrvdProfile,,MasterLabel,表示ラベル,表示ラベル,テキスト(80),false,false,false,true,true,true
+000000000000000AAA,GisExtlAuthIdPrvdProfile.Profile,ProfileId,GisExtlAuthIdPrvdProfile,,Profile,GIS 外部認証プロバイダーに添付されたプロファイル,GIS 外部認証プロバイダーに添付されたプロファイル,参照関係(プロファイル),false,true,true,true,true,true
+000000000000000AAA,GisExtlAuthIdPrvdProfile.SystemModstamp,SystemModstamp,GisExtlAuthIdPrvdProfile,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

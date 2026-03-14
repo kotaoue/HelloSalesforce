@@ -1,0 +1,6 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,NetworkPCustDailyLoginMetrics.Id,Id,NetworkPCustDailyLoginMetrics,,Id,パワーカスタマーコミュニティユニークログインメトリクス (日次) ID,パワーカスタマーコミュニティユニークログインメトリクス (日次) ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,NetworkPCustDailyLoginMetrics.MetricsDate,MetricsDate,NetworkPCustDailyLoginMetrics,,MetricsDate,メトリクスの日付,メトリクスの日付,日付,false,false,true,true,true,true
+000000000000000AAA,NetworkPCustDailyLoginMetrics.ParentEnumOrId,UserLicenseId,NetworkPCustDailyLoginMetrics,,ParentEnumOrId,Primary Grain,Primary Grain,参照関係(ユーザーライセンス),false,false,true,true,true,true
+000000000000000AAA,NetworkPCustDailyLoginMetrics.PowerCustomerDailyLogins,PowerCustomerDailyLogins,NetworkPCustDailyLoginMetrics,,PowerCustomerDailyLogins,ユニークパワーカスタマーログイン数 (日次),ユニークパワーカスタマーログイン数 (日次),数値(9、0),false,true,false,true,true,true
+000000000000000AAA,NetworkPCustDailyLoginMetrics.SystemModstamp,SystemModstamp,NetworkPCustDailyLoginMetrics,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

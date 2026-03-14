@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AssetHistory.Asset,AssetId,AssetHistory,,Asset,納入商品,納入商品,参照関係(納入商品),false,false,true,true,true,true
+000000000000000AAA,AssetHistory.CreatedBy,CreatedById,AssetHistory,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,AssetHistory.CreatedDate,CreatedDate,AssetHistory,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AssetHistory.DataType,DataType,AssetHistory,,DataType,データ型,データ型,選択リスト,false,true,false,true,true,true
+000000000000000AAA,AssetHistory.Field,Field,AssetHistory,,Field,変更された項目,変更された項目,"選択リスト(カスタム項目の定義,カスタム項目データ列)",false,false,true,true,true,true
+000000000000000AAA,AssetHistory.Id,Id,AssetHistory,,Id,納入商品履歴 ID,納入商品履歴 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AssetHistory.IsDeleted,IsDeleted,AssetHistory,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AssetHistory.NewvalDate,NewvalDate,AssetHistory,,NewvalDate,新規の日付,新規の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,AssetHistory.NewvalFirstName,NewvalFirstName,AssetHistory,,NewvalFirstName,新規の名,新規の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,AssetHistory.NewvalLastName,NewvalLastName,AssetHistory,,NewvalLastName,新規の姓,新規の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,AssetHistory.NewValue,NewValue,AssetHistory,,NewValue,新しい値,新しい値,参照関係,false,true,false,false,false,true
+000000000000000AAA,AssetHistory.OldvalDate,OldvalDate,AssetHistory,,OldvalDate,元の日付,元の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,AssetHistory.OldvalFirstName,OldvalFirstName,AssetHistory,,OldvalFirstName,元の名,元の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,AssetHistory.OldvalLastName,OldvalLastName,AssetHistory,,OldvalLastName,元の姓,元の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,AssetHistory.OldValue,OldValue,AssetHistory,,OldValue,元の値,元の値,参照関係,false,true,false,false,false,true

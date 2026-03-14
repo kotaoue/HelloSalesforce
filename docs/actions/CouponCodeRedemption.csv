@@ -1,0 +1,15 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,CouponCodeRedemption.Buyer,Buyer,CouponCodeRedemption,,Buyer,バイヤー,バイヤー,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,CouponCodeRedemption.Coupon,CouponId,CouponCodeRedemption,,Coupon,クーポン,クーポン,参照関係(クーポン),false,false,true,true,true,true
+000000000000000AAA,CouponCodeRedemption.CreatedBy,CreatedById,CouponCodeRedemption,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,CouponCodeRedemption.CreatedDate,CreatedDate,CouponCodeRedemption,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,CouponCodeRedemption.Id,Id,CouponCodeRedemption,,Id,クーポンコード受け取り ID,クーポンコード受け取り ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,CouponCodeRedemption.IsDeleted,IsDeleted,CouponCodeRedemption,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,CouponCodeRedemption.LastModifiedBy,LastModifiedById,CouponCodeRedemption,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,CouponCodeRedemption.LastModifiedDate,LastModifiedDate,CouponCodeRedemption,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,CouponCodeRedemption.Name,Name,CouponCodeRedemption,,Name,クーポンコード受け取り番号,クーポンコード受け取り番号,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,CouponCodeRedemption.Owner,OwnerId,CouponCodeRedemption,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,CouponCodeRedemption.RecordVisibility,RecordVisibilityId,CouponCodeRedemption,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,CouponCodeRedemption.SystemModstamp,SystemModstamp,CouponCodeRedemption,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,CouponCodeRedemption.Transaction,Transaction,CouponCodeRedemption,,Transaction,トランザクション,トランザクション,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,CouponCodeRedemption.UserRecordAccess,UserRecordAccessId,CouponCodeRedemption,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

@@ -1,0 +1,23 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DataGraphSource.CreatedBy,CreatedById,DataGraphSource,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DataGraphSource.CreatedDate,CreatedDate,DataGraphSource,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DataGraphSource.DaoDefinition,DaoDefinitionId,DataGraphSource,,DaoDefinition,データグラフ定義,データグラフ定義,参照関係(データグラフ定義),false,false,true,true,true,true
+000000000000000AAA,DataGraphSource.DaoFieldsCount,DaoFieldsCount,DataGraphSource,,DaoFieldsCount,項目数,項目数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,DataGraphSource.DataGraphSourceObjectType,DataGraphSourceObjectType,DataGraphSource,,DataGraphSourceObjectType,データグラフソースオブジェクト種別,データグラフソースオブジェクト種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,DataGraphSource.DeveloperName,DeveloperName,DataGraphSource,,DeveloperName,名前,名前,テキスト(80),false,false,true,true,true,true
+000000000000000AAA,DataGraphSource.Id,Id,DataGraphSource,,Id,データグラフソースオブジェクト ID,データグラフソースオブジェクト ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DataGraphSource.IsDeleted,IsDeleted,DataGraphSource,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DataGraphSource.JsonPath,JsonPath,DataGraphSource,,JsonPath,JSON パス,JSON パス,ロングテキストエリア(1000),false,true,false,false,false,false
+000000000000000AAA,DataGraphSource.Language,Language,DataGraphSource,,Language,マスター言語,マスター言語,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataGraphSource.LastModifiedBy,LastModifiedById,DataGraphSource,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DataGraphSource.LastModifiedDate,LastModifiedDate,DataGraphSource,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DataGraphSource.MasterLabel,MasterLabel,DataGraphSource,,MasterLabel,表示ラベル,表示ラベル,テキスト(80),false,false,false,true,true,true
+000000000000000AAA,DataGraphSource.ParentObject,ParentObjectId,DataGraphSource,,ParentObject,親オブジェクト,親オブジェクト,参照関係(データグラフソースオブジェクト),false,true,false,true,true,true
+000000000000000AAA,DataGraphSource.PlatformSchemaDefinition,PlatformSchemaDefinitionId,DataGraphSource,,PlatformSchemaDefinition,プラットフォームスキーマ定義,プラットフォームスキーマ定義,参照関係(プラットフォームスキーマ定義),false,true,false,true,true,true
+000000000000000AAA,DataGraphSource.ProjectedName,ProjectedName,DataGraphSource,,ProjectedName,予測された名前,予測された名前,ロングテキストエリア(256),false,true,false,false,false,false
+000000000000000AAA,DataGraphSource.RecencyCriteria,RecencyCriteriaId,DataGraphSource,,RecencyCriteria,データグラフリーセンシー条件,データグラフリーセンシー条件,参照関係(データグラフリーセンシー条件),false,true,false,true,true,true
+000000000000000AAA,DataGraphSource.RelationshipPath,RelationshipPathId,DataGraphSource,,RelationshipPath,プライマリから現在のオブジェクトへのリレーションパス,プライマリから現在のオブジェクトへのリレーションパス,参照関係(項目リレーションパス),false,true,false,true,true,true
+000000000000000AAA,DataGraphSource.SourceObject,SourceObjectId,DataGraphSource,,SourceObject,ソースオブジェクト,ソースオブジェクト,"参照関係(計算済みインサイトオブジェクト,データモデルオブジェクト)",false,false,false,true,true,true
+000000000000000AAA,DataGraphSource.Status,Status,DataGraphSource,,Status,データグラフソースオブジェクト状況,データグラフソースオブジェクト状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataGraphSource.SystemModstamp,SystemModstamp,DataGraphSource,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DataGraphSource.TopkFilter,TopkFilter,DataGraphSource,,TopkFilter,データグラフソースオブジェクト TopK 検索条件,データグラフソースオブジェクト TopK 検索条件,ロングテキストエリア(131072),false,true,false,false,false,false

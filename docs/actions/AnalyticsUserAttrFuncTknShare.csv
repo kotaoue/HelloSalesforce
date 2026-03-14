@@ -1,0 +1,9 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AnalyticsUserAttrFuncTknShare.AccessLevel,AccessLevel,AnalyticsUserAttrFuncTknShare,,AccessLevel,カスタムオブジェクトのアクセス権,カスタムオブジェクトのアクセス権,選択リスト,false,false,false,true,true,true
+000000000000000AAA,AnalyticsUserAttrFuncTknShare.Id,Id,AnalyticsUserAttrFuncTknShare,,Id,カスタムオブジェクト共有 ID,カスタムオブジェクト共有 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AnalyticsUserAttrFuncTknShare.IsDeleted,IsDeleted,AnalyticsUserAttrFuncTknShare,,IsDeleted,削除,削除,チェックボックス,false,false,true,true,true,true
+000000000000000AAA,AnalyticsUserAttrFuncTknShare.LastModifiedBy,LastModifiedById,AnalyticsUserAttrFuncTknShare,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AnalyticsUserAttrFuncTknShare.LastModifiedDate,LastModifiedDate,AnalyticsUserAttrFuncTknShare,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AnalyticsUserAttrFuncTknShare.Parent,ParentId,AnalyticsUserAttrFuncTknShare,,Parent,参照先,参照先,参照関係(分析ユーザー属性関数トークン),false,false,true,true,true,true
+000000000000000AAA,AnalyticsUserAttrFuncTknShare.RowCause,RowCause,AnalyticsUserAttrFuncTknShare,,RowCause,テリトリー割り当て方法,テリトリー割り当て方法,選択リスト(Apex 共有の理由),false,true,false,true,true,true
+000000000000000AAA,AnalyticsUserAttrFuncTknShare.UserOrGroup,UserOrGroupId,AnalyticsUserAttrFuncTknShare,,UserOrGroup,ユーザー/グループ,ユーザー/グループ,"参照関係(ユーザー,グループ)",false,false,true,true,true,true

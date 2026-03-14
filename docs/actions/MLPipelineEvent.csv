@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,MLPipelineEvent.ArtifactId,ArtifactId,MLPipelineEvent,,ArtifactId,アイテム ID,アイテム ID,テキスト(80),false,false,false,false,false,false
+000000000000000AAA,MLPipelineEvent.CreatedBy,CreatedById,MLPipelineEvent,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,false,false,false
+000000000000000AAA,MLPipelineEvent.CreatedDate,CreatedDate,MLPipelineEvent,,CreatedDate,作成日,作成日,日付/時間,false,false,false,false,false,false
+000000000000000AAA,MLPipelineEvent.ErrorCode,ErrorCode,MLPipelineEvent,,ErrorCode,エラーコード,エラーコード,選択リスト,false,true,false,false,false,false
+000000000000000AAA,MLPipelineEvent.ErrorMessage,ErrorMessage,MLPipelineEvent,,ErrorMessage,エラーメッセージ,エラーメッセージ,テキスト(4000),false,true,false,false,false,false
+000000000000000AAA,MLPipelineEvent.EventType,EventType,MLPipelineEvent,,EventType,イベント種別,イベント種別,選択リスト,false,false,false,false,false,false
+000000000000000AAA,MLPipelineEvent.EventUuid,EventUuid,MLPipelineEvent,,EventUuid,イベント UUID,イベント UUID,テキスト(36),false,true,false,false,false,false
+000000000000000AAA,MLPipelineEvent.MlApplicationId,MlApplicationId,MLPipelineEvent,,MlApplicationId,ML アプリケーション ID,ML アプリケーション ID,テキスト(80),false,true,false,false,false,false
+000000000000000AAA,MLPipelineEvent.MlApplicationName,MlApplicationName,MLPipelineEvent,,MlApplicationName,ML アプリケーション名,ML アプリケーション名,テキスト(80),false,false,false,false,false,false
+000000000000000AAA,MLPipelineEvent.Payload,Payload,MLPipelineEvent,,Payload,ペイロード,ペイロード,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,MLPipelineEvent.PipelineName,PipelineName,MLPipelineEvent,,PipelineName,パイプライン名,パイプライン名,選択リスト,false,true,false,false,false,false
+000000000000000AAA,MLPipelineEvent.PipelineNameText,PipelineNameText,MLPipelineEvent,,PipelineNameText,パイプライン名のテキスト,パイプライン名のテキスト,テキスト(40),false,true,false,false,false,false
+000000000000000AAA,MLPipelineEvent.ReplayId,ReplayId,MLPipelineEvent,,ReplayId,再実行 ID,再実行 ID,外部参照,false,true,false,false,false,false
+000000000000000AAA,MLPipelineEvent.RunId,RunId,MLPipelineEvent,,RunId,実行 ID,実行 ID,テキスト(80),false,false,false,false,false,false
+000000000000000AAA,MLPipelineEvent.Version,Version,MLPipelineEvent,,Version,バージョン,バージョン,テキスト(512),false,false,false,false,false,false

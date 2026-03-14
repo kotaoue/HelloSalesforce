@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ContactPointAddressHistory.ContactPointAddress,ContactPointAddressId,ContactPointAddressHistory,,ContactPointAddress,連絡先住所,連絡先住所,参照関係(連絡先住所),false,false,true,true,true,true
+000000000000000AAA,ContactPointAddressHistory.CreatedBy,CreatedById,ContactPointAddressHistory,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,ContactPointAddressHistory.CreatedDate,CreatedDate,ContactPointAddressHistory,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ContactPointAddressHistory.DataType,DataType,ContactPointAddressHistory,,DataType,データ型,データ型,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ContactPointAddressHistory.Field,Field,ContactPointAddressHistory,,Field,変更された項目,変更された項目,"選択リスト(カスタム項目の定義,カスタム項目データ列)",false,false,true,true,true,true
+000000000000000AAA,ContactPointAddressHistory.Id,Id,ContactPointAddressHistory,,Id,連絡先住所履歴 ID,連絡先住所履歴 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ContactPointAddressHistory.IsDeleted,IsDeleted,ContactPointAddressHistory,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ContactPointAddressHistory.NewvalDate,NewvalDate,ContactPointAddressHistory,,NewvalDate,新規の日付,新規の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ContactPointAddressHistory.NewvalFirstName,NewvalFirstName,ContactPointAddressHistory,,NewvalFirstName,新規の名,新規の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ContactPointAddressHistory.NewvalLastName,NewvalLastName,ContactPointAddressHistory,,NewvalLastName,新規の姓,新規の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ContactPointAddressHistory.NewValue,NewValue,ContactPointAddressHistory,,NewValue,新しい値,新しい値,参照関係,false,true,false,false,false,true
+000000000000000AAA,ContactPointAddressHistory.OldvalDate,OldvalDate,ContactPointAddressHistory,,OldvalDate,元の日付,元の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ContactPointAddressHistory.OldvalFirstName,OldvalFirstName,ContactPointAddressHistory,,OldvalFirstName,元の名,元の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ContactPointAddressHistory.OldvalLastName,OldvalLastName,ContactPointAddressHistory,,OldvalLastName,元の姓,元の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ContactPointAddressHistory.OldValue,OldValue,ContactPointAddressHistory,,OldValue,元の値,元の値,参照関係,false,true,false,false,false,true

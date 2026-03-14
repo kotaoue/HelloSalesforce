@@ -1,0 +1,30 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,BackgroundOperation.CreatedBy,CreatedById,BackgroundOperation,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,BackgroundOperation.CreatedDate,CreatedDate,BackgroundOperation,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,BackgroundOperation.Error,Error,BackgroundOperation,,Error,エラーメッセージ,エラーメッセージ,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,BackgroundOperation.ExecutionGroup,ExecutionGroup,BackgroundOperation,,ExecutionGroup,実行グループ,実行グループ,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,BackgroundOperation.ExpiresAt,ExpiresAt,BackgroundOperation,,ExpiresAt,有効期限,有効期限,日付/時間,false,true,true,true,false,true
+000000000000000AAA,BackgroundOperation.FinishedAt,FinishedAt,BackgroundOperation,,FinishedAt,完了日時,完了日時,日付/時間,false,true,false,true,false,true
+000000000000000AAA,BackgroundOperation.GroupLeader,GroupLeaderId,BackgroundOperation,,GroupLeader,グループリーダー,グループリーダー,参照関係(バックグラウンド操作),false,true,true,true,true,true
+000000000000000AAA,BackgroundOperation.Id,Id,BackgroundOperation,,Id,バックグラウンド操作 ID,バックグラウンド操作 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,BackgroundOperation.IsDeleted,IsDeleted,BackgroundOperation,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,BackgroundOperation.LastModifiedBy,LastModifiedById,BackgroundOperation,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,BackgroundOperation.LastModifiedDate,LastModifiedDate,BackgroundOperation,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,BackgroundOperation.Name,Name,BackgroundOperation,,Name,名前,名前,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,BackgroundOperation.NumFollowers,NumFollowers,BackgroundOperation,,NumFollowers,フォロワー数,フォロワー数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,BackgroundOperation.ParentKey,ParentKey,BackgroundOperation,,ParentKey,親キー,親キー,テキスト(255),false,true,true,true,true,true
+000000000000000AAA,BackgroundOperation.ProcessAfter,ProcessAfter,BackgroundOperation,,ProcessAfter,後のプロセス,後のプロセス,日付/時間,false,true,true,true,false,true
+000000000000000AAA,BackgroundOperation.RecordVisibility,RecordVisibilityId,BackgroundOperation,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,BackgroundOperation.RetryBackoff,RetryBackoff,BackgroundOperation,,RetryBackoff,再試行バックオフ,再試行バックオフ,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,BackgroundOperation.RetryCount,RetryCount,BackgroundOperation,,RetryCount,再試行回数,再試行回数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,BackgroundOperation.RetryLimit,RetryLimit,BackgroundOperation,,RetryLimit,再試行制限,再試行制限,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,BackgroundOperation.SequenceGroup,SequenceGroup,BackgroundOperation,,SequenceGroup,順序グループ,順序グループ,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,BackgroundOperation.SequenceNumber,SequenceNumber,BackgroundOperation,,SequenceNumber,連番,連番,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,BackgroundOperation.StartedAt,StartedAt,BackgroundOperation,,StartedAt,開始日時,開始日時,日付/時間,false,true,false,true,false,true
+000000000000000AAA,BackgroundOperation.Status,Status,BackgroundOperation,,Status,状況,状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,BackgroundOperation.SubmittedAt,SubmittedAt,BackgroundOperation,,SubmittedAt,処理日時,処理日時,日付/時間,false,true,true,true,false,true
+000000000000000AAA,BackgroundOperation.SystemModstamp,SystemModstamp,BackgroundOperation,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,BackgroundOperation.Timeout,Timeout,BackgroundOperation,,Timeout,タイムアウト,タイムアウト,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,BackgroundOperation.Type,Type,BackgroundOperation,,Type,種別,種別,選択リスト,false,true,true,true,true,true
+000000000000000AAA,BackgroundOperation.UserRecordAccess,UserRecordAccessId,BackgroundOperation,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
+000000000000000AAA,BackgroundOperation.WorkerUri,WorkerUri,BackgroundOperation,,WorkerUri,作業者の URI,作業者の URI,テキスト(255),false,true,true,true,true,true

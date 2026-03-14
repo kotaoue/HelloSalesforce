@@ -1,0 +1,45 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AccountCleanInfo.Account,AccountId,AccountCleanInfo,,Account,取引先,取引先,主従関係(取引先),false,false,true,true,true,true
+000000000000000AAA,AccountCleanInfo.AccountSite,AccountSite,AccountCleanInfo,,AccountSite,取引先 部門,取引先 部門,テキスト(80),false,true,false,true,true,true
+000000000000000AAA,AccountCleanInfo.AccountUnique,AccountUnique,AccountCleanInfo,,AccountUnique,取引先固有 FK,取引先固有 FK,数式 (テキスト)  (ユニーク、大文字と小文字を区別する),true,true,true,true,true,true
+000000000000000AAA,AccountCleanInfo.Address,Address,AccountCleanInfo,,Address,住所,住所,住所,false,true,false,true,false,false
+000000000000000AAA,AccountCleanInfo.AnnualRevenue,AnnualRevenue,AccountCleanInfo,,AnnualRevenue,年間売上,年間売上,通貨(18、0),false,true,false,true,false,true
+000000000000000AAA,AccountCleanInfo.CleanedBy,CleanedBy,AccountCleanInfo,,CleanedBy,クリーンアップ基準,クリーンアップ基準,ビットベクター,false,false,false,true,false,false
+000000000000000AAA,AccountCleanInfo.CompanyName,CompanyName,AccountCleanInfo,,CompanyName,会社名,会社名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,AccountCleanInfo.CompanyStatusDataDotCom,CompanyStatusDataDotCom,AccountCleanInfo,,CompanyStatusDataDotCom,会社の状況 (Data.com 情報),会社の状況 (Data.com 情報),選択リスト,false,true,false,true,true,true
+000000000000000AAA,AccountCleanInfo.CreatedBy,CreatedById,AccountCleanInfo,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,AccountCleanInfo.CreatedDate,CreatedDate,AccountCleanInfo,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AccountCleanInfo.DandBCompanyDunsNumber,DandBCompanyDunsNumber,AccountCleanInfo,,DandBCompanyDunsNumber,D&B 企業の D-U-N-S Number,D&B 企業の D-U-N-S Number,テキスト(9),false,true,false,true,true,true
+000000000000000AAA,AccountCleanInfo.DataDotComId,DataDotComId,AccountCleanInfo,,DataDotComId,Data.com ID,Data.com ID,テキスト(20),false,true,false,true,true,true
+000000000000000AAA,AccountCleanInfo.Description,Description,AccountCleanInfo,,Description,説明,説明,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,AccountCleanInfo.DunsNumber,DunsNumber,AccountCleanInfo,,DunsNumber,D-U-N-S number,D-U-N-S number,テキスト(9),false,true,false,true,true,true
+000000000000000AAA,AccountCleanInfo.DunsRightMatchConfidence,DunsRightMatchConfidence,AccountCleanInfo,,DunsRightMatchConfidence,DUNSRight™ マッチングの信頼性,DUNSRight™ マッチングの信頼性,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,AccountCleanInfo.DunsRightMatchGrade,DunsRightMatchGrade,AccountCleanInfo,,DunsRightMatchGrade,DUNSRight™ Match Grade,DUNSRight™ Match Grade,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,AccountCleanInfo.Fax,Fax,AccountCleanInfo,,Fax,Fax,Fax,電話,false,true,false,true,true,true
+000000000000000AAA,AccountCleanInfo.Id,Id,AccountCleanInfo,,Id,取引先クリーンアップ情報 ID,取引先クリーンアップ情報 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AccountCleanInfo.Industry,Industry,AccountCleanInfo,,Industry,業種,業種,選択リスト,false,true,false,true,true,true
+000000000000000AAA,AccountCleanInfo.IsDeleted,IsDeleted,AccountCleanInfo,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AccountCleanInfo.IsDifferent,IsDifferent,AccountCleanInfo,,IsDifferent,不一致,不一致,ビットベクター,false,false,false,true,false,false
+000000000000000AAA,AccountCleanInfo.IsFlaggedWrong,IsFlaggedWrong,AccountCleanInfo,,IsFlaggedWrong,不正フラグが設定されています,不正フラグが設定されています,ビットベクター,false,false,false,true,false,false
+000000000000000AAA,AccountCleanInfo.IsInactive,IsInactive,AccountCleanInfo,,IsInactive,Salesforce での会社の状況,Salesforce での会社の状況,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AccountCleanInfo.IsReviewed,IsReviewed,AccountCleanInfo,,IsReviewed,レビュー済み,レビュー済み,ビットベクター,false,false,false,true,false,false
+000000000000000AAA,AccountCleanInfo.LastMatchedDate,LastMatchedDate,AccountCleanInfo,,LastMatchedDate,最終一致日,最終一致日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AccountCleanInfo.LastModifiedBy,LastModifiedById,AccountCleanInfo,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AccountCleanInfo.LastModifiedDate,LastModifiedDate,AccountCleanInfo,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AccountCleanInfo.LastStatusChangedBy,LastStatusChangedById,AccountCleanInfo,,LastStatusChangedBy,最終状況変更者,最終状況変更者,参照関係(ユーザー),false,true,false,true,true,true
+000000000000000AAA,AccountCleanInfo.LastStatusChangedDate,LastStatusChangedDate,AccountCleanInfo,,LastStatusChangedDate,最終状況変更日,最終状況変更日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,AccountCleanInfo.NaicsCode,NaicsCode,AccountCleanInfo,,NaicsCode,NAICS コード,NAICS コード,テキスト(8),false,true,false,true,true,true
+000000000000000AAA,AccountCleanInfo.NaicsDescription,NaicsDescription,AccountCleanInfo,,NaicsDescription,NAICS の説明,NAICS の説明,テキスト(120),false,true,false,true,true,true
+000000000000000AAA,AccountCleanInfo.Name,Name,AccountCleanInfo,,Name,取引先クリーンアップ情報名,取引先クリーンアップ情報名,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,AccountCleanInfo.NumberOfEmployees,NumberOfEmployees,AccountCleanInfo,,NumberOfEmployees,従業員数,従業員数,数値(8、0),false,true,false,true,true,true
+000000000000000AAA,AccountCleanInfo.Ownership,Ownership,AccountCleanInfo,,Ownership,会社形態,会社形態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,AccountCleanInfo.Phone,Phone,AccountCleanInfo,,Phone,電話,電話,電話,false,true,false,true,true,true
+000000000000000AAA,AccountCleanInfo.RecordVisibility,RecordVisibilityId,AccountCleanInfo,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,AccountCleanInfo.Sic,Sic,AccountCleanInfo,,Sic,SIC コード,SIC コード,テキスト(20),false,true,false,true,true,true
+000000000000000AAA,AccountCleanInfo.SicDescription,SicDescription,AccountCleanInfo,,SicDescription,SIC の説明,SIC の説明,テキスト(80),false,true,false,true,true,true
+000000000000000AAA,AccountCleanInfo.SystemModstamp,SystemModstamp,AccountCleanInfo,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AccountCleanInfo.TickerSymbol,TickerSymbol,AccountCleanInfo,,TickerSymbol,株式コード,株式コード,テキスト(20),false,true,false,true,true,true
+000000000000000AAA,AccountCleanInfo.Tradestyle,Tradestyle,AccountCleanInfo,,Tradestyle,取引形態,取引形態,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,AccountCleanInfo.UserRecordAccess,UserRecordAccessId,AccountCleanInfo,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
+000000000000000AAA,AccountCleanInfo.Website,Website,AccountCleanInfo,,Website,Web サイト,Web サイト,URL(255),false,true,false,true,true,true
+000000000000000AAA,AccountCleanInfo.YearStarted,YearStarted,AccountCleanInfo,,YearStarted,設立年,設立年,テキスト(12),false,true,false,true,true,true

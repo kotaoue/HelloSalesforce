@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,IncidentHistory.CreatedBy,CreatedById,IncidentHistory,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,IncidentHistory.CreatedDate,CreatedDate,IncidentHistory,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,IncidentHistory.DataType,DataType,IncidentHistory,,DataType,データ型,データ型,選択リスト,false,true,false,true,true,true
+000000000000000AAA,IncidentHistory.Field,Field,IncidentHistory,,Field,変更された項目,変更された項目,"選択リスト(カスタム項目の定義,カスタム項目データ列)",false,false,true,true,true,true
+000000000000000AAA,IncidentHistory.Id,Id,IncidentHistory,,Id,障害履歴 ID,障害履歴 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,IncidentHistory.Incident,IncidentId,IncidentHistory,,Incident,障害,障害,参照関係(障害),false,false,true,true,true,true
+000000000000000AAA,IncidentHistory.IsDeleted,IsDeleted,IncidentHistory,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,IncidentHistory.NewvalDate,NewvalDate,IncidentHistory,,NewvalDate,新規の日付,新規の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,IncidentHistory.NewvalFirstName,NewvalFirstName,IncidentHistory,,NewvalFirstName,新規の名,新規の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,IncidentHistory.NewvalLastName,NewvalLastName,IncidentHistory,,NewvalLastName,新規の姓,新規の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,IncidentHistory.NewValue,NewValue,IncidentHistory,,NewValue,新しい値,新しい値,参照関係,false,true,false,false,false,true
+000000000000000AAA,IncidentHistory.OldvalDate,OldvalDate,IncidentHistory,,OldvalDate,元の日付,元の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,IncidentHistory.OldvalFirstName,OldvalFirstName,IncidentHistory,,OldvalFirstName,元の名,元の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,IncidentHistory.OldvalLastName,OldvalLastName,IncidentHistory,,OldvalLastName,元の姓,元の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,IncidentHistory.OldValue,OldValue,IncidentHistory,,OldValue,元の値,元の値,参照関係,false,true,false,false,false,true

@@ -1,0 +1,27 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ContactPointConsent.BusinessBrand,BusinessBrandId,ContactPointConsent,,BusinessBrand,ビジネスブランド,ビジネスブランド,参照関係(ビジネスブランド),false,true,false,true,true,true
+000000000000000AAA,ContactPointConsent.CaptureContactPointType,CaptureContactPointType,ContactPointConsent,,CaptureContactPointType,キャプチャする連絡先種別,キャプチャする連絡先種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ContactPointConsent.CaptureDate,CaptureDate,ContactPointConsent,,CaptureDate,キャプチャ日,キャプチャ日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ContactPointConsent.CaptureSource,CaptureSource,ContactPointConsent,,CaptureSource,キャプチャ元,キャプチャ元,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ContactPointConsent.ContactPoint,ContactPointId,ContactPointConsent,,ContactPoint,連絡先,連絡先,"参照関係(連絡先メール,連絡先電話番号,連絡先住所)",false,false,true,true,true,true
+000000000000000AAA,ContactPointConsent.CreatedBy,CreatedById,ContactPointConsent,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,ContactPointConsent.CreatedDate,CreatedDate,ContactPointConsent,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ContactPointConsent.DataUsePurpose,DataUsePurposeId,ContactPointConsent,,DataUsePurpose,データ使用目的,データ使用目的,参照関係(データ使用目的),false,true,false,true,true,true
+000000000000000AAA,ContactPointConsent.DoubleConsentCaptureDate,DoubleConsentCaptureDate,ContactPointConsent,,DoubleConsentCaptureDate,二重同意キャプチャ日,二重同意キャプチャ日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ContactPointConsent.EffectiveFrom,EffectiveFrom,ContactPointConsent,,EffectiveFrom,有効開始日,有効開始日,日付/時間,false,true,true,true,false,true
+000000000000000AAA,ContactPointConsent.EffectiveTo,EffectiveTo,ContactPointConsent,,EffectiveTo,有効終了日,有効終了日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ContactPointConsent.EngagementChannelType,EngagementChannelTypeId,ContactPointConsent,,EngagementChannelType,エンゲージメントチャネル種別,エンゲージメントチャネル種別,参照関係(エンゲージメントチャネル種別),false,true,false,true,true,true
+000000000000000AAA,ContactPointConsent.Id,Id,ContactPointConsent,,Id,連絡先の同意 ID,連絡先の同意 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ContactPointConsent.IsDeleted,IsDeleted,ContactPointConsent,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ContactPointConsent.LastModifiedBy,LastModifiedById,ContactPointConsent,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ContactPointConsent.LastModifiedDate,LastModifiedDate,ContactPointConsent,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ContactPointConsent.LastReferencedDate,LastReferencedDate,ContactPointConsent,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ContactPointConsent.LastViewedDate,LastViewedDate,ContactPointConsent,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ContactPointConsent.Name,Name,ContactPointConsent,,Name,名前,名前,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,ContactPointConsent.Owner,OwnerId,ContactPointConsent,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,ContactPointConsent.Party,PartyId,ContactPointConsent,,Party,関係者,関係者,参照関係(個人),false,true,false,true,true,true
+000000000000000AAA,ContactPointConsent.PartyRole,PartyRoleId,ContactPointConsent,,PartyRole,関係者ロール,関係者ロール,"参照関係(顧客,販売業者)",false,true,false,true,true,true
+000000000000000AAA,ContactPointConsent.PrivacyConsentStatus,PrivacyConsentStatus,ContactPointConsent,,PrivacyConsentStatus,プライバシーに関する同意状況,プライバシーに関する同意状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ContactPointConsent.RecordVisibility,RecordVisibilityId,ContactPointConsent,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,ContactPointConsent.SystemModstamp,SystemModstamp,ContactPointConsent,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ContactPointConsent.UserRecordAccess,UserRecordAccessId,ContactPointConsent,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

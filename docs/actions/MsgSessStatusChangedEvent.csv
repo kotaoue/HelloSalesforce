@@ -1,0 +1,17 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,MsgSessStatusChangedEvent.Channel,Channel,MsgSessStatusChangedEvent,,Channel,セッションのチャネルの ID,セッションのチャネルの ID,テキスト(18),false,false,false,false,false,false
+000000000000000AAA,MsgSessStatusChangedEvent.ChannelAddressIdentifier,ChannelAddressIdentifier,MsgSessStatusChangedEvent,,ChannelAddressIdentifier,チャネルアドレス識別子,チャネルアドレス識別子,テキスト(36),false,true,false,false,false,false
+000000000000000AAA,MsgSessStatusChangedEvent.Conversation,Conversation,MsgSessStatusChangedEvent,,Conversation,セッションに関連付けられた会話識別子,セッションに関連付けられた会話識別子,テキスト(18),false,false,false,false,false,false
+000000000000000AAA,MsgSessStatusChangedEvent.ConversationIdentifier,ConversationIdentifier,MsgSessStatusChangedEvent,,ConversationIdentifier,会話識別子,会話識別子,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,MsgSessStatusChangedEvent.CreatedBy,CreatedById,MsgSessStatusChangedEvent,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,false,false,false
+000000000000000AAA,MsgSessStatusChangedEvent.CreatedDate,CreatedDate,MsgSessStatusChangedEvent,,CreatedDate,作成日,作成日,日付/時間,false,false,false,false,false,false
+000000000000000AAA,MsgSessStatusChangedEvent.EndTime,EndTime,MsgSessStatusChangedEvent,,EndTime,セッションが終了した時刻,セッションが終了した時刻,日付/時間,false,true,false,false,false,false
+000000000000000AAA,MsgSessStatusChangedEvent.EventUuid,EventUuid,MsgSessStatusChangedEvent,,EventUuid,イベント UUID,イベント UUID,テキスト(36),false,true,false,false,false,false
+000000000000000AAA,MsgSessStatusChangedEvent.MessagingEndUser,MessagingEndUser,MsgSessStatusChangedEvent,,MessagingEndUser,セッションの MessagingEndUser の ID,セッションの MessagingEndUser の ID,テキスト(18),false,false,false,false,false,false
+000000000000000AAA,MsgSessStatusChangedEvent.MessagingSessionStatusEndedBy,MessagingSessionStatusEndedBy,MsgSessStatusChangedEvent,,MessagingSessionStatusEndedBy,終了者種別,終了者種別,選択リスト,false,true,false,false,false,false
+000000000000000AAA,MsgSessStatusChangedEvent.PreviousSessionStatus,PreviousSessionStatus,MsgSessStatusChangedEvent,,PreviousSessionStatus,セッションの以前の状況,セッションの以前の状況,選択リスト,false,true,false,false,false,false
+000000000000000AAA,MsgSessStatusChangedEvent.ReplayId,ReplayId,MsgSessStatusChangedEvent,,ReplayId,再実行 ID,再実行 ID,外部参照,false,true,false,false,false,false
+000000000000000AAA,MsgSessStatusChangedEvent.Session,Session,MsgSessStatusChangedEvent,,Session,セッションの識別子,セッションの識別子,テキスト(18),false,false,false,false,false,false
+000000000000000AAA,MsgSessStatusChangedEvent.SessionOrigin,SessionOrigin,MsgSessStatusChangedEvent,,SessionOrigin,セッションが開始された方法,セッションが開始された方法,選択リスト,false,false,false,false,false,false
+000000000000000AAA,MsgSessStatusChangedEvent.SessionStatus,SessionStatus,MsgSessStatusChangedEvent,,SessionStatus,セッションの状況,セッションの状況,選択リスト,false,false,false,false,false,false
+000000000000000AAA,MsgSessStatusChangedEvent.StartTime,StartTime,MsgSessStatusChangedEvent,,StartTime,セッションが開始された時刻,セッションが開始された時刻,日付/時間,false,false,false,false,false,false

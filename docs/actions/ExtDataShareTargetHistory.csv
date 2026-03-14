@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ExtDataShareTargetHistory.CreatedBy,CreatedById,ExtDataShareTargetHistory,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,ExtDataShareTargetHistory.CreatedDate,CreatedDate,ExtDataShareTargetHistory,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ExtDataShareTargetHistory.DataType,DataType,ExtDataShareTargetHistory,,DataType,データ型,データ型,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ExtDataShareTargetHistory.ExtDataShareTarget,ExtDataShareTargetId,ExtDataShareTargetHistory,,ExtDataShareTarget,データ共有対象,データ共有対象,参照関係(データ共有対象),false,false,true,true,true,true
+000000000000000AAA,ExtDataShareTargetHistory.Field,Field,ExtDataShareTargetHistory,,Field,変更された項目,変更された項目,"選択リスト(カスタム項目の定義,カスタム項目データ列)",false,false,true,true,true,true
+000000000000000AAA,ExtDataShareTargetHistory.Id,Id,ExtDataShareTargetHistory,,Id,データ共有対象履歴 ID,データ共有対象履歴 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ExtDataShareTargetHistory.IsDeleted,IsDeleted,ExtDataShareTargetHistory,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ExtDataShareTargetHistory.NewvalDate,NewvalDate,ExtDataShareTargetHistory,,NewvalDate,新規の日付,新規の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ExtDataShareTargetHistory.NewvalFirstName,NewvalFirstName,ExtDataShareTargetHistory,,NewvalFirstName,新規の名,新規の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ExtDataShareTargetHistory.NewvalLastName,NewvalLastName,ExtDataShareTargetHistory,,NewvalLastName,新規の姓,新規の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ExtDataShareTargetHistory.NewValue,NewValue,ExtDataShareTargetHistory,,NewValue,新しい値,新しい値,参照関係,false,true,false,false,false,true
+000000000000000AAA,ExtDataShareTargetHistory.OldvalDate,OldvalDate,ExtDataShareTargetHistory,,OldvalDate,元の日付,元の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ExtDataShareTargetHistory.OldvalFirstName,OldvalFirstName,ExtDataShareTargetHistory,,OldvalFirstName,元の名,元の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ExtDataShareTargetHistory.OldvalLastName,OldvalLastName,ExtDataShareTargetHistory,,OldvalLastName,元の姓,元の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ExtDataShareTargetHistory.OldValue,OldValue,ExtDataShareTargetHistory,,OldValue,元の値,元の値,参照関係,false,true,false,false,false,true

@@ -1,0 +1,36 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DataStream.CreatedBy,CreatedById,DataStream,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,DataStream.CreatedDate,CreatedDate,DataStream,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DataStream.DataStreamDefinition,DataStreamDefinitionId,DataStream,,DataStreamDefinition,データストリーム定義,データストリーム定義,参照関係(データストリーム定義),false,false,false,true,true,true
+000000000000000AAA,DataStream.DataStreamStatus,DataStreamStatus,DataStream,,DataStreamStatus,データストリーム状況,データストリーム状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,DataStream.DeletionRecordsDataLakeObject,DeletionRecordsDataLakeObject,DataStream,,DeletionRecordsDataLakeObject,削除レコードデータレイクオブジェクト名,削除レコードデータレイクオブジェクト名,テキスト(40),false,true,false,true,true,true
+000000000000000AAA,DataStream.Description,Description,DataStream,,Description,説明,説明,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataStream.ExternalRecordIdentifier,ExternalRecordIdentifier,DataStream,,ExternalRecordIdentifier,外部レコード識別子,外部レコード識別子,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataStream.ExternalStreamErrorCode,ExternalStreamErrorCode,DataStream,,ExternalStreamErrorCode,外部ストリームエラーコード,外部ストリームエラーコード,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataStream.FullRefreshIntervalDays,FullRefreshIntervalDays,DataStream,,FullRefreshIntervalDays,フル更新間隔,フル更新間隔,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataStream.Id,Id,DataStream,,Id,データストリーム ID,データストリーム ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DataStream.ImportRunStatus,ImportRunStatus,DataStream,,ImportRunStatus,最終実行状況,最終実行状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,DataStream.IsDeleted,IsDeleted,DataStream,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DataStream.IsNewFieldsAvailable,IsNewFieldsAvailable,DataStream,,IsNewFieldsAvailable,新規項目が使用可能,新規項目が使用可能,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DataStream.IsRefreshDeliveryHourAutomatic,IsRefreshDeliveryHourAutomatic,DataStream,,IsRefreshDeliveryHourAutomatic,配信時間の更新を自動化,配信時間の更新を自動化,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DataStream.LastDataChangeStatusDateTime,LastDataChangeStatusDateTime,DataStream,,LastDataChangeStatusDateTime,最終データ変更状況日時,最終データ変更状況日時,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DataStream.LastDataChangeStatusErrorCode,LastDataChangeStatusErrorCode,DataStream,,LastDataChangeStatusErrorCode,最終データ変更状況エラー,最終データ変更状況エラー,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataStream.LastModifiedBy,LastModifiedById,DataStream,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DataStream.LastModifiedDate,LastModifiedDate,DataStream,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DataStream.LastNumberOfRowsAddedCount,LastNumberOfRowsAddedCount,DataStream,,LastNumberOfRowsAddedCount,前回追加されたレコード数,前回追加されたレコード数,数値(18、0),false,true,false,true,true,true
+000000000000000AAA,DataStream.LastReferencedDate,LastReferencedDate,DataStream,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DataStream.LastRefreshDate,LastRefreshDate,DataStream,,LastRefreshDate,最終更新日,最終更新日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DataStream.LastViewedDate,LastViewedDate,DataStream,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DataStream.Name,Name,DataStream,,Name,データストリーム名,データストリーム名,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,DataStream.ProblemRecordsDataLakeObject,ProblemRecordsDataLakeObject,DataStream,,ProblemRecordsDataLakeObject,問題レコードデータレイクオブジェクト名,問題レコードデータレイクオブジェクト名,テキスト(40),false,true,false,true,true,true
+000000000000000AAA,DataStream.RecordVisibility,RecordVisibilityId,DataStream,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,DataStream.RefreshDayOfMonth,RefreshDayOfMonth,DataStream,,RefreshDayOfMonth,更新日,更新日,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,DataStream.RefreshDayOfWeek,RefreshDayOfWeek,DataStream,,RefreshDayOfWeek,更新曜日,更新曜日,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,DataStream.RefreshFrequency,RefreshFrequency,DataStream,,RefreshFrequency,頻度,頻度,選択リスト,false,false,false,true,true,true
+000000000000000AAA,DataStream.RefreshHours,RefreshHours,DataStream,,RefreshHours,更新時間,更新時間,選択リスト (複数選択),false,true,false,true,false,false
+000000000000000AAA,DataStream.RefreshMode,RefreshMode,DataStream,,RefreshMode,更新モード,更新モード,選択リスト,false,false,false,true,true,true
+000000000000000AAA,DataStream.StreamType,StreamType,DataStream,,StreamType,ストリーム種別,ストリーム種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataStream.SystemModstamp,SystemModstamp,DataStream,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DataStream.TotalNumberOfRowsAdded,TotalNumberOfRowsAdded,DataStream,,TotalNumberOfRowsAdded,合計レコード数,合計レコード数,数値(18、0),false,true,false,true,true,true
+000000000000000AAA,DataStream.TotalRowsProcessed,TotalRowsProcessed,DataStream,,TotalRowsProcessed,最終処理レコード,最終処理レコード,数値(18、0),false,true,false,true,true,true
+000000000000000AAA,DataStream.UserRecordAccess,UserRecordAccessId,DataStream,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

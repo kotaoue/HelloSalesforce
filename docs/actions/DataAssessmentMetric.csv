@@ -1,0 +1,17 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DataAssessmentMetric.CreatedBy,CreatedById,DataAssessmentMetric,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,DataAssessmentMetric.CreatedDate,CreatedDate,DataAssessmentMetric,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DataAssessmentMetric.Id,Id,DataAssessmentMetric,,Id,データ評価メトリクス ID,データ評価メトリクス ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DataAssessmentMetric.IsDeleted,IsDeleted,DataAssessmentMetric,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DataAssessmentMetric.LastModifiedBy,LastModifiedById,DataAssessmentMetric,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DataAssessmentMetric.LastModifiedDate,LastModifiedDate,DataAssessmentMetric,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DataAssessmentMetric.Name,Name,DataAssessmentMetric,,Name,データ評価メトリクス,データ評価メトリクス,自動採番,false,false,true,true,false,true
+000000000000000AAA,DataAssessmentMetric.NumDuplicates,NumDuplicates,DataAssessmentMetric,,NumDuplicates,重複数,重複数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,DataAssessmentMetric.NumMatched,NumMatched,DataAssessmentMetric,,NumMatched,一致レコード数,一致レコード数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,DataAssessmentMetric.NumMatchedDifferent,NumMatchedDifferent,DataAssessmentMetric,,NumMatchedDifferent,異なる項目値のある一致レコード数,異なる項目値のある一致レコード数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,DataAssessmentMetric.NumProcessed,NumProcessed,DataAssessmentMetric,,NumProcessed,処理済みレコード数,処理済みレコード数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,DataAssessmentMetric.NumTotal,NumTotal,DataAssessmentMetric,,NumTotal,アクセスするレコードの総数,アクセスするレコードの総数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,DataAssessmentMetric.NumUnmatched,NumUnmatched,DataAssessmentMetric,,NumUnmatched,不一致レコード数,不一致レコード数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,DataAssessmentMetric.RecordVisibility,RecordVisibilityId,DataAssessmentMetric,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,DataAssessmentMetric.SystemModstamp,SystemModstamp,DataAssessmentMetric,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DataAssessmentMetric.UserRecordAccess,UserRecordAccessId,DataAssessmentMetric,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

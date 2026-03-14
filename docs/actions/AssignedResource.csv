@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AssignedResource.CreatedBy,CreatedById,AssignedResource,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,AssignedResource.CreatedDate,CreatedDate,AssignedResource,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AssignedResource.Event,EventId,AssignedResource,,Event,行動,行動,参照関係(行動),false,true,false,true,true,true
+000000000000000AAA,AssignedResource.Id,Id,AssignedResource,,Id,割り当て済みリソース ID,割り当て済みリソース ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AssignedResource.IsDeleted,IsDeleted,AssignedResource,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AssignedResource.IsRequiredResource,IsRequiredResource,AssignedResource,,IsRequiredResource,必要なリソース,必要なリソース,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AssignedResource.LastModifiedBy,LastModifiedById,AssignedResource,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AssignedResource.LastModifiedDate,LastModifiedDate,AssignedResource,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AssignedResource.Name,AssignedResourceNumber,AssignedResource,,Name,割り当て済みリソース数,割り当て済みリソース数,自動採番,false,false,true,true,false,true
+000000000000000AAA,AssignedResource.RecordVisibility,RecordVisibilityId,AssignedResource,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,AssignedResource.Role,Role,AssignedResource,,Role,ロール,ロール,選択リスト,false,true,false,true,true,true
+000000000000000AAA,AssignedResource.ServiceAppointment,ServiceAppointmentId,AssignedResource,,ServiceAppointment,サービス予定,サービス予定,主従関係(サービス予定),false,false,true,true,true,true
+000000000000000AAA,AssignedResource.ServiceResource,ServiceResourceId,AssignedResource,,ServiceResource,サービスリソース,サービスリソース,参照関係(サービスリソース),false,false,false,true,true,true
+000000000000000AAA,AssignedResource.SystemModstamp,SystemModstamp,AssignedResource,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AssignedResource.UserRecordAccess,UserRecordAccessId,AssignedResource,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

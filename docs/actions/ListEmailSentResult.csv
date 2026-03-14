@@ -1,0 +1,20 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ListEmailSentResult.Activity,ActivityId,ListEmailSentResult,,Activity,Activity,Activity,参照関係(ToDo),false,true,false,true,true,true
+000000000000000AAA,ListEmailSentResult.CreatedBy,CreatedById,ListEmailSentResult,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,ListEmailSentResult.CreatedDate,CreatedDate,ListEmailSentResult,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ListEmailSentResult.EmailAddress,EmailAddress,ListEmailSentResult,,EmailAddress,Email,Email,ロングテキストエリア(320),false,true,false,false,false,false
+000000000000000AAA,ListEmailSentResult.Headers,Headers,ListEmailSentResult,,Headers,Headers,Headers,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,ListEmailSentResult.Id,Id,ListEmailSentResult,,Id,List Email Sent Results ID,List Email Sent Results ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ListEmailSentResult.IsDeleted,IsDeleted,ListEmailSentResult,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ListEmailSentResult.LastModifiedBy,LastModifiedById,ListEmailSentResult,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ListEmailSentResult.LastModifiedDate,LastModifiedDate,ListEmailSentResult,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ListEmailSentResult.ListEmail,ListEmailId,ListEmailSentResult,,ListEmail,リストメール,リストメール,主従関係(リストメール),false,false,true,true,true,true
+000000000000000AAA,ListEmailSentResult.MessageIdentifier,MessageIdentifier,ListEmailSentResult,,MessageIdentifier,Message Identifier,Message Identifier,テキスト(765),false,true,true,true,false,true
+000000000000000AAA,ListEmailSentResult.Name,Name,ListEmailSentResult,,Name,Name,Name,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,ListEmailSentResult.Reason,Reason,ListEmailSentResult,,Reason,Reason,Reason,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ListEmailSentResult.Recipient,RecipientId,ListEmailSentResult,,Recipient,Recipient,Recipient,"参照関係(取引先責任者,リード)",false,true,false,true,true,true
+000000000000000AAA,ListEmailSentResult.RecordVisibility,RecordVisibilityId,ListEmailSentResult,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,ListEmailSentResult.Result,Result,ListEmailSentResult,,Result,Result,Result,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ListEmailSentResult.SystemModstamp,SystemModstamp,ListEmailSentResult,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ListEmailSentResult.ThreadIdentifier,ThreadIdentifier,ListEmailSentResult,,ThreadIdentifier,Thread Identifier,Thread Identifier,テキスト(765),false,true,true,true,false,true
+000000000000000AAA,ListEmailSentResult.UserRecordAccess,UserRecordAccessId,ListEmailSentResult,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

@@ -1,0 +1,14 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,Conversation.ConversationChannel,ConversationChannelId,Conversation,,ConversationChannel,会話チャネル,会話チャネル,"参照関係(会話チャネル,メッセージングチャネル,Call Center)",false,true,false,true,true,true
+000000000000000AAA,Conversation.ConversationIdentifier,ConversationIdentifier,Conversation,,ConversationIdentifier,会話識別子,会話識別子,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,Conversation.CreatedBy,CreatedById,Conversation,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,Conversation.CreatedDate,CreatedDate,Conversation,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,Conversation.EndTime,EndTime,Conversation,,EndTime,会話終了時刻,会話終了時刻,日付/時間,false,true,false,true,false,true
+000000000000000AAA,Conversation.EndTimeMilliSecs,EndTimeMilliSecs,Conversation,,EndTimeMilliSecs,会話終了時刻のミリ秒部分,会話終了時刻のミリ秒部分,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,Conversation.Id,Id,Conversation,,Id,会話 ID,会話 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,Conversation.IsDeleted,IsDeleted,Conversation,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,Conversation.LastModifiedBy,LastModifiedById,Conversation,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,Conversation.LastModifiedDate,LastModifiedDate,Conversation,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,Conversation.Name,Name,Conversation,,Name,会話名,会話名,自動採番,false,false,false,true,false,true
+000000000000000AAA,Conversation.StartTime,StartTime,Conversation,,StartTime,会話開始時刻,会話開始時刻,日付/時間,false,false,false,true,false,true
+000000000000000AAA,Conversation.StartTimeMilliSecs,StartTimeMilliSecs,Conversation,,StartTimeMilliSecs,会話開始時刻のミリ秒部分,会話開始時刻のミリ秒部分,数値(9、0),false,true,false,true,true,true

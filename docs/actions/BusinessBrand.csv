@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,BusinessBrand.CreatedBy,CreatedById,BusinessBrand,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,BusinessBrand.CreatedDate,CreatedDate,BusinessBrand,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,BusinessBrand.Id,Id,BusinessBrand,,Id,ビジネスブランド ID,ビジネスブランド ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,BusinessBrand.IsDeleted,IsDeleted,BusinessBrand,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,BusinessBrand.LastModifiedBy,LastModifiedById,BusinessBrand,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,BusinessBrand.LastModifiedDate,LastModifiedDate,BusinessBrand,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,BusinessBrand.LastReferencedDate,LastReferencedDate,BusinessBrand,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,BusinessBrand.LastViewedDate,LastViewedDate,BusinessBrand,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,BusinessBrand.Name,Name,BusinessBrand,,Name,名前,名前,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,BusinessBrand.OrgId,OrgId,BusinessBrand,,OrgId,組織 ID,組織 ID,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,BusinessBrand.Owner,OwnerId,BusinessBrand,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,BusinessBrand.Parent,ParentId,BusinessBrand,,Parent,親,親,参照関係(ビジネスブランド),false,true,false,true,true,true
+000000000000000AAA,BusinessBrand.RecordVisibility,RecordVisibilityId,BusinessBrand,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,BusinessBrand.SystemModstamp,SystemModstamp,BusinessBrand,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,BusinessBrand.UserRecordAccess,UserRecordAccessId,BusinessBrand,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

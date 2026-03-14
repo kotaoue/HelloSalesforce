@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AppointmentTopicTimeSlot.AppointmentTopicTimeSlotKey,AppointmentTopicTimeSlotKey,AppointmentTopicTimeSlot,,AppointmentTopicTimeSlotKey,予定のトピック時間枠キー,予定のトピック時間枠キー,テキスト(255)  (ユニーク、大文字と小文字を区別しない),false,true,true,true,true,true
+000000000000000AAA,AppointmentTopicTimeSlot.CreatedBy,CreatedById,AppointmentTopicTimeSlot,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,AppointmentTopicTimeSlot.CreatedDate,CreatedDate,AppointmentTopicTimeSlot,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AppointmentTopicTimeSlot.Id,Id,AppointmentTopicTimeSlot,,Id,予定のトピック時間枠 ID,予定のトピック時間枠 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AppointmentTopicTimeSlot.IsDeleted,IsDeleted,AppointmentTopicTimeSlot,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AppointmentTopicTimeSlot.LastModifiedBy,LastModifiedById,AppointmentTopicTimeSlot,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AppointmentTopicTimeSlot.LastModifiedDate,LastModifiedDate,AppointmentTopicTimeSlot,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AppointmentTopicTimeSlot.Name,Name,AppointmentTopicTimeSlot,,Name,名前,名前,自動採番,false,false,true,true,false,true
+000000000000000AAA,AppointmentTopicTimeSlot.OperatingHours,OperatingHoursId,AppointmentTopicTimeSlot,,OperatingHours,営業時間,営業時間,参照関係(営業時間),false,true,false,true,true,true
+000000000000000AAA,AppointmentTopicTimeSlot.RecordVisibility,RecordVisibilityId,AppointmentTopicTimeSlot,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,AppointmentTopicTimeSlot.SystemModstamp,SystemModstamp,AppointmentTopicTimeSlot,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AppointmentTopicTimeSlot.TimeSlot,TimeSlotId,AppointmentTopicTimeSlot,,TimeSlot,時間枠,時間枠,参照関係(時間枠),false,false,true,true,true,true
+000000000000000AAA,AppointmentTopicTimeSlot.UserRecordAccess,UserRecordAccessId,AppointmentTopicTimeSlot,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
+000000000000000AAA,AppointmentTopicTimeSlot.WorkType,WorkTypeId,AppointmentTopicTimeSlot,,WorkType,作業種別,作業種別,参照関係(作業種別),false,true,false,true,true,true
+000000000000000AAA,AppointmentTopicTimeSlot.WorkTypeGroup,WorkTypeGroupId,AppointmentTopicTimeSlot,,WorkTypeGroup,作業種別グループ,作業種別グループ,参照関係(作業種別グループ),false,true,false,true,true,true

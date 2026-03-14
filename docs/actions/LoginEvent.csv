@@ -1,0 +1,43 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,LoginEvent.AdditionalInfo,AdditionalInfo,LoginEvent,,AdditionalInfo,追加情報,追加情報,テキスト(10000),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.ApiType,ApiType,LoginEvent,,ApiType,API 種別,API 種別,テキスト(64),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.ApiVersion,ApiVersion,LoginEvent,,ApiVersion,API バージョン,API バージョン,テキスト(32),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.Application,Application,LoginEvent,,Application,アプリケーション,アプリケーション,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.AuthMethodReference,AuthMethodReference,LoginEvent,,AuthMethodReference,認証メソッド参照,認証メソッド参照,テキスト(128),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.AuthServiceId,AuthServiceId,LoginEvent,,AuthServiceId,認証サービス ID,認証サービス ID,参照関係(),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.Browser,Browser,LoginEvent,,Browser,ブラウザー,ブラウザー,テキスト(64),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.CipherSuite,CipherSuite,LoginEvent,,CipherSuite,TLS Cipher Suite,TLS Cipher Suite,選択リスト,false,true,false,false,false,false
+000000000000000AAA,LoginEvent.City,City,LoginEvent,,City,市区郡,市区郡,テキスト(200),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.ClientVersion,ClientVersion,LoginEvent,,ClientVersion,クライアントのバージョン,クライアントのバージョン,テキスト(64),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.Country,Country,LoginEvent,,Country,国,国,テキスト(200),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.CountryIso,CountryIso,LoginEvent,,CountryIso,国コード,国コード,テキスト(3),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.CreatedDate,CreatedDate,LoginEvent,,CreatedDate,作成日,作成日,日付/時間,false,false,false,false,false,false
+000000000000000AAA,LoginEvent.EvaluationTime,EvaluationTime,LoginEvent,,EvaluationTime,評価時間,評価時間,数値(18、0),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.EventDate,EventDate,LoginEvent,,EventDate,行動日,行動日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,LoginEvent.EventIdentifier,EventIdentifier,LoginEvent,,EventIdentifier,イベント識別子,イベント識別子,テキスト(80),false,false,false,true,false,true
+000000000000000AAA,LoginEvent.ForwardedForIp,ForwardedForIp,LoginEvent,,ForwardedForIp,Forwarded For IP,Forwarded For IP,テキスト(256),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.HttpMethod,HttpMethod,LoginEvent,,HttpMethod,HTTP メソッド,HTTP メソッド,選択リスト,false,true,false,false,false,false
+000000000000000AAA,LoginEvent.Id,Id,LoginEvent,,Id,ログインイベント ID,ログインイベント ID,参照関係(),false,false,false,false,false,false
+000000000000000AAA,LoginEvent.LoginGeoId,LoginGeoId,LoginEvent,,LoginGeoId,ログイン地理情報データ ID,ログイン地理情報データ ID,参照関係(),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.LoginHistoryId,LoginHistoryId,LoginEvent,,LoginHistoryId,ログイン履歴 ID,ログイン履歴 ID,参照関係(),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.LoginKey,LoginKey,LoginEvent,,LoginKey,ログインキー,ログインキー,テキスト(24),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.LoginLatitude,LoginLatitude,LoginEvent,,LoginLatitude,緯度,緯度,数値(3、6),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.LoginLongitude,LoginLongitude,LoginEvent,,LoginLongitude,経度,経度,数値(3、6),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.LoginSubType,LoginSubType,LoginEvent,,LoginSubType,ログインサブ種別,ログインサブ種別,選択リスト,false,true,false,false,false,false
+000000000000000AAA,LoginEvent.LoginType,LoginType,LoginEvent,,LoginType,種別,種別,選択リスト,false,true,false,false,false,false
+000000000000000AAA,LoginEvent.LoginUrl,LoginUrl,LoginEvent,,LoginUrl,ログイン URL,ログイン URL,テキスト(1000),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.Platform,Platform,LoginEvent,,Platform,プラットフォーム,プラットフォーム,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.Policy,PolicyId,LoginEvent,,Policy,ポリシー,ポリシー,参照関係(Transaction Security Policy),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.PolicyOutcome,PolicyOutcome,LoginEvent,,PolicyOutcome,ポリシーの結果,ポリシーの結果,選択リスト,false,true,false,false,false,false
+000000000000000AAA,LoginEvent.PostalCode,PostalCode,LoginEvent,,PostalCode,郵便番号,郵便番号,テキスト(20),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.RelatedEventIdentifier,RelatedEventIdentifier,LoginEvent,,RelatedEventIdentifier,関連イベント識別子,関連イベント識別子,テキスト(80),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.RemoteIdentifier,RemoteIdentifier,LoginEvent,,RemoteIdentifier,認証プロバイダーのリモート ID,認証プロバイダーのリモート ID,テキスト(128),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.SessionKey,SessionKey,LoginEvent,,SessionKey,セッションキー,セッションキー,テキスト(24),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.SessionLevel,SessionLevel,LoginEvent,,SessionLevel,セッションレベル,セッションレベル,選択リスト,false,true,false,false,false,false
+000000000000000AAA,LoginEvent.SourceIp,SourceIp,LoginEvent,,SourceIp,アクセス元 IP,アクセス元 IP,テキスト(80),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.Status,Status,LoginEvent,,Status,状況,状況,テキスト(128),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.Subdivision,Subdivision,LoginEvent,,Subdivision,下位区分,下位区分,テキスト(200),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.TlsProtocol,TlsProtocol,LoginEvent,,TlsProtocol,TLS プロトコル,TLS プロトコル,選択リスト,false,true,false,false,false,false
+000000000000000AAA,LoginEvent.User,UserId,LoginEvent,,User,ユーザー,ユーザー,参照関係(ユーザー),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.Username,Username,LoginEvent,,Username,ユーザー名,ユーザー名,テキスト(80),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.UserType,UserType,LoginEvent,,UserType,ユーザー種別,ユーザー種別,選択リスト,false,true,false,false,false,false

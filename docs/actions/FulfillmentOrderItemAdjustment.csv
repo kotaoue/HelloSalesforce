@@ -1,0 +1,20 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,FulfillmentOrderItemAdjustment.Amount,Amount,FulfillmentOrderItemAdjustment,,Amount,調整,調整,通貨(16、2),false,false,false,true,false,true
+000000000000000AAA,FulfillmentOrderItemAdjustment.CampaignName,CampaignName,FulfillmentOrderItemAdjustment,,CampaignName,キャンペーン名,キャンペーン名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FulfillmentOrderItemAdjustment.CouponName,CouponName,FulfillmentOrderItemAdjustment,,CouponName,クーポン名,クーポン名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FulfillmentOrderItemAdjustment.CreatedBy,CreatedById,FulfillmentOrderItemAdjustment,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,FulfillmentOrderItemAdjustment.CreatedDate,CreatedDate,FulfillmentOrderItemAdjustment,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,FulfillmentOrderItemAdjustment.Description,Description,FulfillmentOrderItemAdjustment,,Description,説明,説明,ロングテキストエリア(2000),false,true,false,false,false,false
+000000000000000AAA,FulfillmentOrderItemAdjustment.FulfillmentOrder,FulfillmentOrderId,FulfillmentOrderItemAdjustment,,FulfillmentOrder,履行注文,履行注文,参照関係(履行注文),false,false,false,true,true,true
+000000000000000AAA,FulfillmentOrderItemAdjustment.FulfillmentOrderLineItem,FulfillmentOrderLineItemId,FulfillmentOrderItemAdjustment,,FulfillmentOrderLineItem,履行注文商品,履行注文商品,主従関係(履行注文商品),false,false,true,true,true,true
+000000000000000AAA,FulfillmentOrderItemAdjustment.Id,Id,FulfillmentOrderItemAdjustment,,Id,履行注文品目調整 ID,履行注文品目調整 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,FulfillmentOrderItemAdjustment.IsDeleted,IsDeleted,FulfillmentOrderItemAdjustment,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,FulfillmentOrderItemAdjustment.LastModifiedBy,LastModifiedById,FulfillmentOrderItemAdjustment,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,FulfillmentOrderItemAdjustment.LastModifiedDate,LastModifiedDate,FulfillmentOrderItemAdjustment,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,FulfillmentOrderItemAdjustment.Name,FulfillmentOrderItemAdjustmentNumber,FulfillmentOrderItemAdjustment,,Name,名前,名前,自動採番,false,false,true,true,false,true
+000000000000000AAA,FulfillmentOrderItemAdjustment.PromotionName,PromotionName,FulfillmentOrderItemAdjustment,,PromotionName,プロモーション名,プロモーション名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FulfillmentOrderItemAdjustment.RecordVisibility,RecordVisibilityId,FulfillmentOrderItemAdjustment,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,FulfillmentOrderItemAdjustment.SystemModstamp,SystemModstamp,FulfillmentOrderItemAdjustment,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,FulfillmentOrderItemAdjustment.TotalAmtWithTax,TotalAmtWithTax,FulfillmentOrderItemAdjustment,,TotalAmtWithTax,調整額 (税込),調整額 (税込),通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,FulfillmentOrderItemAdjustment.TotalTaxAmount,TotalTaxAmount,FulfillmentOrderItemAdjustment,,TotalTaxAmount,税金,税金,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,FulfillmentOrderItemAdjustment.UserRecordAccess,UserRecordAccessId,FulfillmentOrderItemAdjustment,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

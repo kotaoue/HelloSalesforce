@@ -1,0 +1,32 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,PaymentAuthAdjustment.Account,AccountId,PaymentAuthAdjustment,,Account,取引先,取引先,参照関係(取引先),false,true,false,true,true,true
+000000000000000AAA,PaymentAuthAdjustment.Amount,Amount,PaymentAuthAdjustment,,Amount,金額,金額,通貨(16、2),false,false,false,true,false,true
+000000000000000AAA,PaymentAuthAdjustment.Comments,Comments,PaymentAuthAdjustment,,Comments,コメント,コメント,テキストエリア(1000),false,true,false,true,false,true
+000000000000000AAA,PaymentAuthAdjustment.CreatedBy,CreatedById,PaymentAuthAdjustment,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,PaymentAuthAdjustment.CreatedDate,CreatedDate,PaymentAuthAdjustment,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,PaymentAuthAdjustment.Date,Date,PaymentAuthAdjustment,,Date,日付,日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,PaymentAuthAdjustment.EffectiveDate,EffectiveDate,PaymentAuthAdjustment,,EffectiveDate,発効日,発効日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,PaymentAuthAdjustment.Email,Email,PaymentAuthAdjustment,,Email,監査メール,監査メール,メール,false,true,false,true,true,true
+000000000000000AAA,PaymentAuthAdjustment.GatewayDate,GatewayDate,PaymentAuthAdjustment,,GatewayDate,ゲートウェイ日付,ゲートウェイ日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,PaymentAuthAdjustment.GatewayRefDetails,GatewayRefDetails,PaymentAuthAdjustment,,GatewayRefDetails,ゲートウェイ参照の詳細,ゲートウェイ参照の詳細,テキストエリア(1000),false,true,false,true,false,true
+000000000000000AAA,PaymentAuthAdjustment.GatewayRefNumber,GatewayRefNumber,PaymentAuthAdjustment,,GatewayRefNumber,ゲートウェイ参照番号,ゲートウェイ参照番号,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,PaymentAuthAdjustment.GatewayResultCode,GatewayResultCode,PaymentAuthAdjustment,,GatewayResultCode,ゲートウェイ結果コード,ゲートウェイ結果コード,テキスト(64),false,true,false,true,true,true
+000000000000000AAA,PaymentAuthAdjustment.GatewayResultCodeDescription,GatewayResultCodeDescription,PaymentAuthAdjustment,,GatewayResultCodeDescription,ゲートウェイ結果コードの説明,ゲートウェイ結果コードの説明,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,PaymentAuthAdjustment.Id,Id,PaymentAuthAdjustment,,Id,支払承認調整 ID,支払承認調整 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,PaymentAuthAdjustment.IpAddress,IpAddress,PaymentAuthAdjustment,,IpAddress,IP アドレス,IP アドレス,IP アドレス,false,true,false,true,true,true
+000000000000000AAA,PaymentAuthAdjustment.IsDeleted,IsDeleted,PaymentAuthAdjustment,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,PaymentAuthAdjustment.LastModifiedBy,LastModifiedById,PaymentAuthAdjustment,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,PaymentAuthAdjustment.LastModifiedDate,LastModifiedDate,PaymentAuthAdjustment,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,PaymentAuthAdjustment.LastReferencedDate,LastReferencedDate,PaymentAuthAdjustment,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,PaymentAuthAdjustment.LastViewedDate,LastViewedDate,PaymentAuthAdjustment,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,PaymentAuthAdjustment.MacAddress,MacAddress,PaymentAuthAdjustment,,MacAddress,MAC アドレス,MAC アドレス,テキスト(32),false,true,false,true,true,true
+000000000000000AAA,PaymentAuthAdjustment.Name,PaymentAuthAdjustmentNumber,PaymentAuthAdjustment,,Name,支払承認調整番号,支払承認調整番号,自動採番,false,false,true,true,false,true
+000000000000000AAA,PaymentAuthAdjustment.PaymentAuthorization,PaymentAuthorizationId,PaymentAuthAdjustment,,PaymentAuthorization,支払承認,支払承認,主従関係(支払承認),false,false,true,true,true,true
+000000000000000AAA,PaymentAuthAdjustment.Phone,Phone,PaymentAuthAdjustment,,Phone,電話,電話,電話,false,true,false,true,true,true
+000000000000000AAA,PaymentAuthAdjustment.ProcessingMode,ProcessingMode,PaymentAuthAdjustment,,ProcessingMode,処理モード,処理モード,選択リスト,false,false,false,true,true,true
+000000000000000AAA,PaymentAuthAdjustment.RecordVisibility,RecordVisibilityId,PaymentAuthAdjustment,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,PaymentAuthAdjustment.SfResultCode,SfResultCode,PaymentAuthAdjustment,,SfResultCode,Salesforce 結果コード,Salesforce 結果コード,選択リスト,false,true,false,true,true,true
+000000000000000AAA,PaymentAuthAdjustment.Status,Status,PaymentAuthAdjustment,,Status,状況,状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,PaymentAuthAdjustment.SystemModstamp,SystemModstamp,PaymentAuthAdjustment,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,PaymentAuthAdjustment.Type,Type,PaymentAuthAdjustment,,Type,調整種別,調整種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,PaymentAuthAdjustment.UserRecordAccess,UserRecordAccessId,PaymentAuthAdjustment,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

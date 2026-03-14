@@ -1,0 +1,43 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,LoginEventStream.AdditionalInfo,AdditionalInfo,LoginEventStream,,AdditionalInfo,追加情報,追加情報,テキスト(10000),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.ApiType,ApiType,LoginEventStream,,ApiType,API 種別,API 種別,テキスト(64),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.ApiVersion,ApiVersion,LoginEventStream,,ApiVersion,API バージョン,API バージョン,テキスト(32),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.Application,Application,LoginEventStream,,Application,アプリケーション,アプリケーション,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.AuthMethodReference,AuthMethodReference,LoginEventStream,,AuthMethodReference,認証メソッド参照,認証メソッド参照,テキスト(128),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.AuthServiceId,AuthServiceId,LoginEventStream,,AuthServiceId,認証サービス ID,認証サービス ID,テキスト(18),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.Browser,Browser,LoginEventStream,,Browser,ブラウザー,ブラウザー,テキスト(64),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.CipherSuite,CipherSuite,LoginEventStream,,CipherSuite,TLS Cipher Suite,TLS Cipher Suite,選択リスト,false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.City,City,LoginEventStream,,City,市区郡,市区郡,テキスト(200),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.ClientVersion,ClientVersion,LoginEventStream,,ClientVersion,クライアントのバージョン,クライアントのバージョン,テキスト(64),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.Country,Country,LoginEventStream,,Country,国,国,テキスト(200),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.CountryIso,CountryIso,LoginEventStream,,CountryIso,国コード,国コード,テキスト(3),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.CreatedDate,CreatedDate,LoginEventStream,,CreatedDate,作成日,作成日,日付/時間,false,false,false,false,false,false
+000000000000000AAA,LoginEventStream.EvaluationTime,EvaluationTime,LoginEventStream,,EvaluationTime,評価時間,評価時間,数値(18、0),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.EventDate,EventDate,LoginEventStream,,EventDate,行動日,行動日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.EventIdentifier,EventIdentifier,LoginEventStream,,EventIdentifier,イベント識別子,イベント識別子,テキスト(80),false,false,false,false,false,false
+000000000000000AAA,LoginEventStream.EventUuid,EventUuid,LoginEventStream,,EventUuid,イベント UUID,イベント UUID,テキスト(36),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.ForwardedForIp,ForwardedForIp,LoginEventStream,,ForwardedForIp,Forwarded For IP,Forwarded For IP,テキスト(256),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.HttpMethod,HttpMethod,LoginEventStream,,HttpMethod,HTTP メソッド,HTTP メソッド,選択リスト,false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.LoginGeoId,LoginGeoId,LoginEventStream,,LoginGeoId,ログイン地理情報データ ID,ログイン地理情報データ ID,テキスト(18),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.LoginHistory,LoginHistoryId,LoginEventStream,,LoginHistory,ログイン履歴,ログイン履歴,参照関係(ログイン履歴),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.LoginKey,LoginKey,LoginEventStream,,LoginKey,ログインキー,ログインキー,テキスト(24),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.LoginLatitude,LoginLatitude,LoginEventStream,,LoginLatitude,緯度,緯度,数値(3、6),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.LoginLongitude,LoginLongitude,LoginEventStream,,LoginLongitude,経度,経度,数値(3、6),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.LoginSubType,LoginSubType,LoginEventStream,,LoginSubType,ログインサブ種別,ログインサブ種別,選択リスト,false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.LoginType,LoginType,LoginEventStream,,LoginType,種別,種別,選択リスト,false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.LoginUrl,LoginUrl,LoginEventStream,,LoginUrl,ログイン URL,ログイン URL,テキスト(1000),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.Platform,Platform,LoginEventStream,,Platform,プラットフォーム,プラットフォーム,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.Policy,PolicyId,LoginEventStream,,Policy,ポリシー,ポリシー,参照関係(Transaction Security Policy),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.PolicyOutcome,PolicyOutcome,LoginEventStream,,PolicyOutcome,ポリシーの結果,ポリシーの結果,選択リスト,false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.PostalCode,PostalCode,LoginEventStream,,PostalCode,郵便番号,郵便番号,テキスト(20),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.RelatedEventIdentifier,RelatedEventIdentifier,LoginEventStream,,RelatedEventIdentifier,関連イベント識別子,関連イベント識別子,テキスト(80),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.ReplayId,ReplayId,LoginEventStream,,ReplayId,再実行 ID,再実行 ID,外部参照,false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.SessionKey,SessionKey,LoginEventStream,,SessionKey,セッションキー,セッションキー,テキスト(24),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.SessionLevel,SessionLevel,LoginEventStream,,SessionLevel,セッションレベル,セッションレベル,選択リスト,false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.SourceIp,SourceIp,LoginEventStream,,SourceIp,アクセス元 IP,アクセス元 IP,テキスト(80),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.Status,Status,LoginEventStream,,Status,状況,状況,テキスト(128),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.Subdivision,Subdivision,LoginEventStream,,Subdivision,下位区分,下位区分,テキスト(200),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.TlsProtocol,TlsProtocol,LoginEventStream,,TlsProtocol,TLS プロトコル,TLS プロトコル,選択リスト,false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.User,UserId,LoginEventStream,,User,ユーザー,ユーザー,参照関係(ユーザー),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.Username,Username,LoginEventStream,,Username,ユーザー名,ユーザー名,テキスト(80),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.UserType,UserType,LoginEventStream,,UserType,ユーザー種別,ユーザー種別,選択リスト,false,true,false,false,false,false

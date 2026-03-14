@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,LocationGroupHistory.CreatedBy,CreatedById,LocationGroupHistory,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,LocationGroupHistory.CreatedDate,CreatedDate,LocationGroupHistory,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,LocationGroupHistory.DataType,DataType,LocationGroupHistory,,DataType,データ型,データ型,選択リスト,false,true,false,true,true,true
+000000000000000AAA,LocationGroupHistory.Field,Field,LocationGroupHistory,,Field,変更された項目,変更された項目,"選択リスト(カスタム項目の定義,カスタム項目データ列)",false,false,true,true,true,true
+000000000000000AAA,LocationGroupHistory.Id,Id,LocationGroupHistory,,Id,ロケーショングループ履歴 ID,ロケーショングループ履歴 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,LocationGroupHistory.IsDeleted,IsDeleted,LocationGroupHistory,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,LocationGroupHistory.LocationGroup,LocationGroupId,LocationGroupHistory,,LocationGroup,ロケーショングループ,ロケーショングループ,参照関係(ロケーショングループ),false,false,true,true,true,true
+000000000000000AAA,LocationGroupHistory.NewvalDate,NewvalDate,LocationGroupHistory,,NewvalDate,新規の日付,新規の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,LocationGroupHistory.NewvalFirstName,NewvalFirstName,LocationGroupHistory,,NewvalFirstName,新規の名,新規の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,LocationGroupHistory.NewvalLastName,NewvalLastName,LocationGroupHistory,,NewvalLastName,新規の姓,新規の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,LocationGroupHistory.NewValue,NewValue,LocationGroupHistory,,NewValue,新しい値,新しい値,参照関係,false,true,false,false,false,true
+000000000000000AAA,LocationGroupHistory.OldvalDate,OldvalDate,LocationGroupHistory,,OldvalDate,元の日付,元の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,LocationGroupHistory.OldvalFirstName,OldvalFirstName,LocationGroupHistory,,OldvalFirstName,元の名,元の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,LocationGroupHistory.OldvalLastName,OldvalLastName,LocationGroupHistory,,OldvalLastName,元の姓,元の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,LocationGroupHistory.OldValue,OldValue,LocationGroupHistory,,OldValue,元の値,元の値,参照関係,false,true,false,false,false,true

@@ -1,0 +1,19 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,LearningItemAssignment.Assignee,AssigneeId,LearningItemAssignment,,Assignee,ユーザー,ユーザー,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,LearningItemAssignment.AssignmentStatus,AssignmentStatus,LearningItemAssignment,,AssignmentStatus,割り当て状況,割り当て状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,LearningItemAssignment.CreatedBy,CreatedById,LearningItemAssignment,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,LearningItemAssignment.CreatedDate,CreatedDate,LearningItemAssignment,,CreatedDate,登録日,登録日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,LearningItemAssignment.DueDate,DueDate,LearningItemAssignment,,DueDate,期日,期日,日付,false,true,false,true,true,true
+000000000000000AAA,LearningItemAssignment.EnrollmentType,EnrollmentType,LearningItemAssignment,,EnrollmentType,登録種別,登録種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,LearningItemAssignment.Id,Id,LearningItemAssignment,,Id,学習項目割り当て ID,学習項目割り当て ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,LearningItemAssignment.IsDeleted,IsDeleted,LearningItemAssignment,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,LearningItemAssignment.IsOverdue,IsOverdue,LearningItemAssignment,,IsOverdue,期限切れ,期限切れ,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,LearningItemAssignment.LastModifiedBy,LastModifiedById,LearningItemAssignment,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,LearningItemAssignment.LastModifiedDate,LastModifiedDate,LearningItemAssignment,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,LearningItemAssignment.LearningItem,LearningItemId,LearningItemAssignment,,LearningItem,学習項目,学習項目,参照関係(学習項目),false,false,true,true,true,true
+000000000000000AAA,LearningItemAssignment.Owner,OwnerId,LearningItemAssignment,,Owner,名前,名前,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,LearningItemAssignment.Progress,ProgressId,LearningItemAssignment,,Progress,進行状況,進行状況,参照関係(学習項目進行状況),false,true,false,true,true,true
+000000000000000AAA,LearningItemAssignment.RecordVisibility,RecordVisibilityId,LearningItemAssignment,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,LearningItemAssignment.StartDate,StartDate,LearningItemAssignment,,StartDate,開始日,開始日,日付,false,true,true,true,true,true
+000000000000000AAA,LearningItemAssignment.SystemModstamp,SystemModstamp,LearningItemAssignment,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,LearningItemAssignment.UserRecordAccess,UserRecordAccessId,LearningItemAssignment,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

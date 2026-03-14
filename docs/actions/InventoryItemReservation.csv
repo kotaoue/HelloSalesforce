@@ -1,0 +1,21 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,InventoryItemReservation.CreatedBy,CreatedById,InventoryItemReservation,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,InventoryItemReservation.CreatedDate,CreatedDate,InventoryItemReservation,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,InventoryItemReservation.ErrorCode,ErrorCode,InventoryItemReservation,,ErrorCode,エラーコード,エラーコード,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,InventoryItemReservation.ErrorMessage,ErrorMessage,InventoryItemReservation,,ErrorMessage,エラーメッセージ,エラーメッセージ,ロングテキストエリア(2000),false,true,false,false,false,false
+000000000000000AAA,InventoryItemReservation.Id,Id,InventoryItemReservation,,Id,在庫品目予約 ID,在庫品目予約 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,InventoryItemReservation.InventoryReservation,InventoryReservationId,InventoryItemReservation,,InventoryReservation,在庫予約,在庫予約,主従関係(在庫予約),false,false,true,true,true,true
+000000000000000AAA,InventoryItemReservation.IsDeleted,IsDeleted,InventoryItemReservation,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,InventoryItemReservation.ItemReservationSource,ItemReservationSourceId,InventoryItemReservation,,ItemReservationSource,品目予約ソース,品目予約ソース,"参照関係(カート項目,注文商品,作業指示品目,返品注文品目)",false,true,false,true,true,true
+000000000000000AAA,InventoryItemReservation.LastModifiedBy,LastModifiedById,InventoryItemReservation,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,InventoryItemReservation.LastModifiedDate,LastModifiedDate,InventoryItemReservation,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,InventoryItemReservation.LastReferencedDate,LastReferencedDate,InventoryItemReservation,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,InventoryItemReservation.LastViewedDate,LastViewedDate,InventoryItemReservation,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,InventoryItemReservation.Name,InventoryItemReservationName,InventoryItemReservation,,Name,在庫品目予約番号,在庫品目予約番号,自動採番,false,false,true,true,false,true
+000000000000000AAA,InventoryItemReservation.Product,ProductId,InventoryItemReservation,,Product,商品,商品,参照関係(商品),false,true,false,true,true,true
+000000000000000AAA,InventoryItemReservation.Quantity,Quantity,InventoryItemReservation,,Quantity,数量,数量,数値(18、0),false,false,false,true,false,true
+000000000000000AAA,InventoryItemReservation.RecordVisibility,RecordVisibilityId,InventoryItemReservation,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,InventoryItemReservation.ReservedAtLocation,ReservedAtLocationId,InventoryItemReservation,,ReservedAtLocation,ロケーションで予約済み,ロケーションで予約済み,"参照関係(ロケーション,ロケーショングループ)",false,true,false,true,true,true
+000000000000000AAA,InventoryItemReservation.StockKeepingUnit,StockKeepingUnit,InventoryItemReservation,,StockKeepingUnit,在庫保管単位,在庫保管単位,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,InventoryItemReservation.SystemModstamp,SystemModstamp,InventoryItemReservation,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,InventoryItemReservation.UserRecordAccess,UserRecordAccessId,InventoryItemReservation,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

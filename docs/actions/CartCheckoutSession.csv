@@ -1,0 +1,20 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,CartCheckoutSession.BackgroundOperation,BackgroundOperationId,CartCheckoutSession,,BackgroundOperation,バックグラウンド操作,バックグラウンド操作,参照関係(バックグラウンド操作),false,true,false,true,true,true
+000000000000000AAA,CartCheckoutSession.CreatedBy,CreatedById,CartCheckoutSession,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,CartCheckoutSession.CreatedDate,CreatedDate,CartCheckoutSession,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,CartCheckoutSession.Id,Id,CartCheckoutSession,,Id,カートチェックアウトセッション ID,カートチェックアウトセッション ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,CartCheckoutSession.IsArchived,IsArchived,CartCheckoutSession,,IsArchived,アーカイブ済み,アーカイブ済み,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,CartCheckoutSession.IsDeleted,IsDeleted,CartCheckoutSession,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,CartCheckoutSession.IsError,IsError,CartCheckoutSession,,IsError,エラー,エラー,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,CartCheckoutSession.IsProcessing,IsProcessing,CartCheckoutSession,,IsProcessing,処理中,処理中,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,CartCheckoutSession.LastModifiedBy,LastModifiedById,CartCheckoutSession,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,CartCheckoutSession.LastModifiedDate,LastModifiedDate,CartCheckoutSession,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,CartCheckoutSession.Name,Name,CartCheckoutSession,,Name,名前,名前,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,CartCheckoutSession.NextState,NextState,CartCheckoutSession,,NextState,次の状態,次の状態,テキスト(30),false,true,false,true,true,true
+000000000000000AAA,CartCheckoutSession.Order,OrderId,CartCheckoutSession,,Order,注文,注文,参照関係(注文),false,true,false,true,true,true
+000000000000000AAA,CartCheckoutSession.OrderReferenceNumber,OrderReferenceNumber,CartCheckoutSession,,OrderReferenceNumber,注文参照番号,注文参照番号,テキスト(36),false,true,false,true,true,true
+000000000000000AAA,CartCheckoutSession.RecordVisibility,RecordVisibilityId,CartCheckoutSession,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,CartCheckoutSession.State,State,CartCheckoutSession,,State,状態,状態,テキスト(30),false,false,false,true,true,true
+000000000000000AAA,CartCheckoutSession.SystemModstamp,SystemModstamp,CartCheckoutSession,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,CartCheckoutSession.UserRecordAccess,UserRecordAccessId,CartCheckoutSession,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
+000000000000000AAA,CartCheckoutSession.WebCart,WebCartId,CartCheckoutSession,,WebCart,カート,カート,主従関係(カート),false,false,true,true,true,true

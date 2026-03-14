@@ -1,0 +1,15 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,EventRelayConfigChangeEvent.ChangeEventHeader,ChangeEventHeader,EventRelayConfigChangeEvent,,ChangeEventHeader,変更イベントヘッダー,変更イベントヘッダー,複合値,false,false,false,false,false,false
+000000000000000AAA,EventRelayConfigChangeEvent.CreatedBy,CreatedById,EventRelayConfigChangeEvent,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,true,false,false,false,false
+000000000000000AAA,EventRelayConfigChangeEvent.CreatedDate,CreatedDate,EventRelayConfigChangeEvent,,CreatedDate,作成日,作成日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,EventRelayConfigChangeEvent.DestinationResourceName,DestinationResourceName,EventRelayConfigChangeEvent,,DestinationResourceName,対象リソース名,対象リソース名,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,EventRelayConfigChangeEvent.DeveloperName,DeveloperName,EventRelayConfigChangeEvent,,DeveloperName,名前,名前,テキスト(80),false,true,false,false,false,false
+000000000000000AAA,EventRelayConfigChangeEvent.EventChannel,EventChannel,EventRelayConfigChangeEvent,,EventChannel,リレー済みイベントチャネル,リレー済みイベントチャネル,"選択リスト(プラットフォームイベントチャネル,カスタムオブジェクトの定義)",false,true,false,false,false,false
+000000000000000AAA,EventRelayConfigChangeEvent.Language,Language,EventRelayConfigChangeEvent,,Language,マスター言語,マスター言語,選択リスト,false,true,false,false,false,false
+000000000000000AAA,EventRelayConfigChangeEvent.LastModifiedBy,LastModifiedById,EventRelayConfigChangeEvent,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,true,false,false,false,false
+000000000000000AAA,EventRelayConfigChangeEvent.LastModifiedDate,LastModifiedDate,EventRelayConfigChangeEvent,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,EventRelayConfigChangeEvent.MasterLabel,MasterLabel,EventRelayConfigChangeEvent,,MasterLabel,表示ラベル,表示ラベル,テキスト(80),false,true,false,false,false,false
+000000000000000AAA,EventRelayConfigChangeEvent.NamespacePrefix,NamespacePrefix,EventRelayConfigChangeEvent,,NamespacePrefix,名前空間プレフィックス,名前空間プレフィックス,テキスト,false,true,false,false,false,false
+000000000000000AAA,EventRelayConfigChangeEvent.RelayOption,RelayOption,EventRelayConfigChangeEvent,,RelayOption,イベントリレー設定オプション,イベントリレー設定オプション,ロングテキストエリア(4000),false,true,false,false,false,false
+000000000000000AAA,EventRelayConfigChangeEvent.State,State,EventRelayConfigChangeEvent,,State,イベントリレー設定状態,イベントリレー設定状態,選択リスト,false,true,false,false,false,false
+000000000000000AAA,EventRelayConfigChangeEvent.UsageType,UsageType,EventRelayConfigChangeEvent,,UsageType,イベントリレー利用状況種別,イベントリレー利用状況種別,選択リスト,false,true,false,false,false,false

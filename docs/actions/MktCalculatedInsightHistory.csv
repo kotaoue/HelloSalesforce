@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,MktCalculatedInsightHistory.CreatedBy,CreatedById,MktCalculatedInsightHistory,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,MktCalculatedInsightHistory.CreatedDate,CreatedDate,MktCalculatedInsightHistory,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,MktCalculatedInsightHistory.DataType,DataType,MktCalculatedInsightHistory,,DataType,データ型,データ型,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MktCalculatedInsightHistory.Field,Field,MktCalculatedInsightHistory,,Field,変更された項目,変更された項目,"選択リスト(カスタム項目の定義,カスタム項目データ列)",false,false,true,true,true,true
+000000000000000AAA,MktCalculatedInsightHistory.Id,Id,MktCalculatedInsightHistory,,Id,計算済みインサイト履歴 ID,計算済みインサイト履歴 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,MktCalculatedInsightHistory.IsDeleted,IsDeleted,MktCalculatedInsightHistory,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,MktCalculatedInsightHistory.MktCalculatedInsight,MktCalculatedInsightId,MktCalculatedInsightHistory,,MktCalculatedInsight,計算済みインサイト,計算済みインサイト,参照関係(計算済みインサイト),false,false,true,true,true,true
+000000000000000AAA,MktCalculatedInsightHistory.NewvalDate,NewvalDate,MktCalculatedInsightHistory,,NewvalDate,新規の日付,新規の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,MktCalculatedInsightHistory.NewvalFirstName,NewvalFirstName,MktCalculatedInsightHistory,,NewvalFirstName,新規の名,新規の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MktCalculatedInsightHistory.NewvalLastName,NewvalLastName,MktCalculatedInsightHistory,,NewvalLastName,新規の姓,新規の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MktCalculatedInsightHistory.NewValue,NewValue,MktCalculatedInsightHistory,,NewValue,新しい値,新しい値,参照関係,false,true,false,false,false,true
+000000000000000AAA,MktCalculatedInsightHistory.OldvalDate,OldvalDate,MktCalculatedInsightHistory,,OldvalDate,元の日付,元の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,MktCalculatedInsightHistory.OldvalFirstName,OldvalFirstName,MktCalculatedInsightHistory,,OldvalFirstName,元の名,元の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MktCalculatedInsightHistory.OldvalLastName,OldvalLastName,MktCalculatedInsightHistory,,OldvalLastName,元の姓,元の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MktCalculatedInsightHistory.OldValue,OldValue,MktCalculatedInsightHistory,,OldValue,元の値,元の値,参照関係,false,true,false,false,false,true

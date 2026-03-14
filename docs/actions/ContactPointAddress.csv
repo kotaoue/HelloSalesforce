@@ -1,0 +1,28 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ContactPointAddress.ActiveFromDate,ActiveFromDate,ContactPointAddress,,ActiveFromDate,有効開始日,有効開始日,日付,false,true,false,true,true,true
+000000000000000AAA,ContactPointAddress.ActiveToDate,ActiveToDate,ContactPointAddress,,ActiveToDate,有効終了日,有効終了日,日付,false,true,false,true,true,true
+000000000000000AAA,ContactPointAddress.Address,Address,ContactPointAddress,,Address,住所,住所,住所,false,true,false,true,false,false
+000000000000000AAA,ContactPointAddress.AddressType,AddressType,ContactPointAddress,,AddressType,住所種別,住所種別,選択リスト,false,true,true,true,true,true
+000000000000000AAA,ContactPointAddress.BestTimeToContactEndTime,BestTimeToContactEndTime,ContactPointAddress,,BestTimeToContactEndTime,希望連絡時間帯終了時刻,希望連絡時間帯終了時刻,時間,false,true,false,true,false,true
+000000000000000AAA,ContactPointAddress.BestTimeToContactStartTime,BestTimeToContactStartTime,ContactPointAddress,,BestTimeToContactStartTime,最適連絡時間帯開始時刻,最適連絡時間帯開始時刻,時間,false,true,false,true,false,true
+000000000000000AAA,ContactPointAddress.BestTimeToContactTimezone,BestTimeToContactTimezone,ContactPointAddress,,BestTimeToContactTimezone,最適連絡時間帯,最適連絡時間帯,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ContactPointAddress.ContactPointPhone,ContactPointPhoneId,ContactPointAddress,,ContactPointPhone,連絡先電話,連絡先電話,参照関係(連絡先電話番号),false,true,false,true,true,true
+000000000000000AAA,ContactPointAddress.CreatedBy,CreatedById,ContactPointAddress,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,ContactPointAddress.CreatedDate,CreatedDate,ContactPointAddress,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ContactPointAddress.Id,Id,ContactPointAddress,,Id,連絡先住所 ID,連絡先住所 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ContactPointAddress.IsDefault,IsDefault,ContactPointAddress,,IsDefault,デフォルト住所,デフォルト住所,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ContactPointAddress.IsDeleted,IsDeleted,ContactPointAddress,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ContactPointAddress.IsPrimary,IsPrimary,ContactPointAddress,,IsPrimary,主,主,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ContactPointAddress.IsThirdPartyAddress,IsThirdPartyAddress,ContactPointAddress,,IsThirdPartyAddress,サードパーティの住所,サードパーティの住所,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ContactPointAddress.LastModifiedBy,LastModifiedById,ContactPointAddress,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ContactPointAddress.LastModifiedDate,LastModifiedDate,ContactPointAddress,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ContactPointAddress.LastReferencedDate,LastReferencedDate,ContactPointAddress,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ContactPointAddress.LastViewedDate,LastViewedDate,ContactPointAddress,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ContactPointAddress.Name,Name,ContactPointAddress,,Name,名前,名前,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,ContactPointAddress.Owner,OwnerId,ContactPointAddress,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,ContactPointAddress.Parent,ParentId,ContactPointAddress,,Parent,親,親,"主従関係(個人,取引先)",false,true,true,true,true,true
+000000000000000AAA,ContactPointAddress.PreferenceRank,PreferenceRank,ContactPointAddress,,PreferenceRank,設定ランク,設定ランク,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,ContactPointAddress.RecordVisibility,RecordVisibilityId,ContactPointAddress,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,ContactPointAddress.SystemModstamp,SystemModstamp,ContactPointAddress,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ContactPointAddress.UsageType,UsageType,ContactPointAddress,,UsageType,利用状況の種別,利用状況の種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ContactPointAddress.UserRecordAccess,UserRecordAccessId,ContactPointAddress,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

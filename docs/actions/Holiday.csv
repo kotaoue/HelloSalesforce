@@ -1,0 +1,22 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,Holiday.ActivityDate,ActivityDate,Holiday,,ActivityDate,休日日付,休日日付,日付/時間,false,true,true,true,true,true
+000000000000000AAA,Holiday.CreatedBy,CreatedById,Holiday,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,Holiday.CreatedDate,CreatedDate,Holiday,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,Holiday.Description,Description,Holiday,,Description,説明,説明,テキスト(100),false,true,false,true,true,true
+000000000000000AAA,Holiday.EndTimeInMinutes,EndTimeInMinutes,Holiday,,EndTimeInMinutes,午前 0 時からの終了時刻 (分),午前 0 時からの終了時刻 (分),数値(9、0),false,true,false,true,true,true
+000000000000000AAA,Holiday.Id,Id,Holiday,,Id,休日 ID,休日 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,Holiday.IsAllDay,IsAllDay,Holiday,,IsAllDay,終日,終日,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,Holiday.IsRecurrence,IsRecurrence,Holiday,,IsRecurrence,繰り返しの休日,繰り返しの休日,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,Holiday.LastModifiedBy,LastModifiedById,Holiday,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,Holiday.LastModifiedDate,LastModifiedDate,Holiday,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,Holiday.Name,Name,Holiday,,Name,休日名,休日名,テキスト(80),false,false,false,true,true,true
+000000000000000AAA,Holiday.RecurrenceDayOfMonth,RecurrenceDayOfMonth,Holiday,,RecurrenceDayOfMonth,繰り返し日,繰り返し日,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,Holiday.RecurrenceDayOfWeekMask,RecurrenceDayOfWeekMask,Holiday,,RecurrenceDayOfWeekMask,繰り返し曜日マスク,繰り返し曜日マスク,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,Holiday.RecurrenceEndDateOnly,RecurrenceEndDateOnly,Holiday,,RecurrenceEndDateOnly,繰り返しの終了,繰り返しの終了,日付,false,true,false,true,true,true
+000000000000000AAA,Holiday.RecurrenceInstance,RecurrenceInstance,Holiday,,RecurrenceInstance,繰り返しインスタンス,繰り返しインスタンス,選択リスト,false,true,false,true,true,true
+000000000000000AAA,Holiday.RecurrenceInterval,RecurrenceInterval,Holiday,,RecurrenceInterval,繰り返し期間,繰り返し期間,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,Holiday.RecurrenceMonthOfYear,RecurrenceMonthOfYear,Holiday,,RecurrenceMonthOfYear,繰り返し月,繰り返し月,選択リスト,false,true,false,true,true,true
+000000000000000AAA,Holiday.RecurrenceStartDate,RecurrenceStartDate,Holiday,,RecurrenceStartDate,繰り返しの開始,繰り返しの開始,日付,false,true,false,true,true,true
+000000000000000AAA,Holiday.RecurrenceType,RecurrenceType,Holiday,,RecurrenceType,繰り返し種別,繰り返し種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,Holiday.StartTimeInMinutes,StartTimeInMinutes,Holiday,,StartTimeInMinutes,午前 0 時からの開始時刻 (分),午前 0 時からの開始時刻 (分),数値(9、0),false,true,false,true,true,true
+000000000000000AAA,Holiday.SystemModstamp,SystemModstamp,Holiday,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

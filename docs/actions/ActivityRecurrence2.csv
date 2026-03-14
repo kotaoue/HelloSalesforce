@@ -1,0 +1,35 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ActivityRecurrence2.ActivityDateTime,ActivityDateTime,ActivityRecurrence2,,ActivityDateTime,時間,時間,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ActivityRecurrence2.Attendees,Attendees,ActivityRecurrence2,,Attendees,被招集者,被招集者,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,ActivityRecurrence2.CreatedBy,CreatedById,ActivityRecurrence2,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,ActivityRecurrence2.CreatedDate,CreatedDate,ActivityRecurrence2,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ActivityRecurrence2.DurationMinutes,DurationMinutes,ActivityRecurrence2,,DurationMinutes,所要時間,所要時間,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,ActivityRecurrence2.Id,Id,ActivityRecurrence2,,Id,活動繰り返し ID,活動繰り返し ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ActivityRecurrence2.IsAllDayEvent,IsAllDayEvent,ActivityRecurrence2,,IsAllDayEvent,終日行動,終日行動,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ActivityRecurrence2.IsDeleted,IsDeleted,ActivityRecurrence2,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ActivityRecurrence2.IsFullyProjected,IsFullyProjected,ActivityRecurrence2,,IsFullyProjected,完全に予測済み,完全に予測済み,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ActivityRecurrence2.IsLockedForProjection,IsLockedForProjection,ActivityRecurrence2,,IsLockedForProjection,予測のためロック済み,予測のためロック済み,チェックボックス,false,false,true,true,true,true
+000000000000000AAA,ActivityRecurrence2.IsPrivate,IsPrivate,ActivityRecurrence2,,IsPrivate,非公開,非公開,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ActivityRecurrence2.IsReminderSet,IsReminderSet,ActivityRecurrence2,,IsReminderSet,アラーム設定,アラーム設定,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ActivityRecurrence2.LastModifiedBy,LastModifiedById,ActivityRecurrence2,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ActivityRecurrence2.LastModifiedDate,LastModifiedDate,ActivityRecurrence2,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ActivityRecurrence2.LastProjectedDate,LastProjectedDate,ActivityRecurrence2,,LastProjectedDate,最終予測日,最終予測日,日付/時間,false,true,true,true,false,true
+000000000000000AAA,ActivityRecurrence2.Location,Location,ActivityRecurrence2,,Location,場所,場所,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ActivityRecurrence2.Name,Subject,ActivityRecurrence2,,Name,件名,件名,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,ActivityRecurrence2.Owner,OwnerId,ActivityRecurrence2,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,ActivityRecurrence2.Parent,ParentId,ActivityRecurrence2,,Parent,親,親,参照関係(ActivityRecurrence2),false,true,false,true,true,true
+000000000000000AAA,ActivityRecurrence2.ProjectionTimestamp,ProjectionTimestamp,ActivityRecurrence2,,ProjectionTimestamp,最終試行予測,最終試行予測,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ActivityRecurrence2.RecordVisibility,RecordVisibilityId,ActivityRecurrence2,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,ActivityRecurrence2.Recurrence2PatternText,Recurrence2PatternText,ActivityRecurrence2,,Recurrence2PatternText,繰り返しパターン,繰り返しパターン,ロングテキストエリア(512),false,false,false,false,false,false
+000000000000000AAA,ActivityRecurrence2.Recurrence2PatternVersion,Recurrence2PatternVersion,ActivityRecurrence2,,Recurrence2PatternVersion,パターンバージョン,パターンバージョン,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ActivityRecurrence2.RecurrenceFieldJson,RecurrenceFieldJson,ActivityRecurrence2,,RecurrenceFieldJson,RecurrenceFieldJson,RecurrenceFieldJson,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,ActivityRecurrence2.ReminderMinutes,ReminderMinutes,ActivityRecurrence2,,ReminderMinutes,アラーム時間 (分),アラーム時間 (分),数値(9、0),false,true,false,true,true,true
+000000000000000AAA,ActivityRecurrence2.ShowAs,ShowAs,ActivityRecurrence2,,ShowAs,予定の公開方法,予定の公開方法,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ActivityRecurrence2.Summary,Summary,ActivityRecurrence2,,Summary,説明,説明,ロングテキストエリア(4000),false,true,false,false,false,false
+000000000000000AAA,ActivityRecurrence2.SystemModstamp,SystemModstamp,ActivityRecurrence2,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ActivityRecurrence2.TimeZone,TimeZone,ActivityRecurrence2,,TimeZone,タイムゾーン,タイムゾーン,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ActivityRecurrence2.Type,Type,ActivityRecurrence2,,Type,種別,種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ActivityRecurrence2.User,UserId,ActivityRecurrence2,,User,ユーザー,ユーザー,参照関係(ユーザー),false,true,false,true,true,true
+000000000000000AAA,ActivityRecurrence2.UserRecordAccess,UserRecordAccessId,ActivityRecurrence2,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
+000000000000000AAA,ActivityRecurrence2.What,WhatId,ActivityRecurrence2,,What,関連先,関連先,"参照関係(契約,注文,キャンペーン,取引先,商談,商品,納入商品,ケース,ソリューション,作業指示,作業指示品目,サービス予定,サービスリソース,割り当て済みリソース,リソースの不在,エンタイトルメント,サービス契約,契約品目名,ロケーション,出荷,納入商品リレーション,リストメール,返品注文,返品注文品目,問い合わせ要求,画像,カタログ,履行注文,請求書,プロモーション,シフト,クレジットメモ,コミュニケーション登録の同意,法人,関係者の同意,作業プラン,作業プランテンプレート,作業プランテンプレートエントリ,作業ステップ,作業ステップテンプレート,順番待ちにあるグループ,業務時間休日,プロセス例外,クーポン,プロモーションマーケットセグメント,プロモーション修飾子,プロモーションセグメント,プロモーションセグメントバイヤーグループ,プロモーションセグメント販売店,プロモーション対象,出荷項目,変更要求,障害,問題,予定招待,Web Cart Documents,プロモーションランク,予定カテゴリ,待機リスト,待機リスト参加者,プライバシーに関する RTBF 要求,クエリエディター,提出した承認申請,承認作業項目,配送見積設定,ロケーション配送業者方法,リベート支払スナップショット,配送業者,配送業者方法,提出した承認申請の詳細,環境,要求情報)",false,true,false,true,true,true
+000000000000000AAA,ActivityRecurrence2.Who,WhoId,ActivityRecurrence2,,Who,名前,名前,"参照関係(取引先責任者,リード)",false,true,false,true,true,true

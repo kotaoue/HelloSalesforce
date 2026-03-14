@@ -1,0 +1,17 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AIModelDefinition.ApprovalType,ApprovalType,AIModelDefinition,,ApprovalType,承認種別,承認種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,AIModelDefinition.CreatedBy,CreatedById,AIModelDefinition,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AIModelDefinition.CreatedDate,CreatedDate,AIModelDefinition,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AIModelDefinition.DataDefinition,DataDefinitionId,AIModelDefinition,,DataDefinition,データ定義,データ定義,主従関係(データ定義),false,false,true,true,true,true
+000000000000000AAA,AIModelDefinition.ExternalId,ExternalId,AIModelDefinition,,ExternalId,外部 ID,外部 ID,テキスト(120),false,true,false,true,true,true
+000000000000000AAA,AIModelDefinition.Id,Id,AIModelDefinition,,Id,AI モデル定義 ID,AI モデル定義 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AIModelDefinition.IsDeleted,IsDeleted,AIModelDefinition,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AIModelDefinition.LastModifiedBy,LastModifiedById,AIModelDefinition,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AIModelDefinition.LastModifiedDate,LastModifiedDate,AIModelDefinition,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AIModelDefinition.ManageableState,ManageableState,AIModelDefinition,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,AIModelDefinition.ScoringFilter,ScoringFilterId,AIModelDefinition,,ScoringFilter,スコアリング条件,スコアリング条件,参照関係(AI Filter Group),false,true,false,true,true,true
+000000000000000AAA,AIModelDefinition.Status,Status,AIModelDefinition,,Status,状況,状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,AIModelDefinition.SystemModstamp,SystemModstamp,AIModelDefinition,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AIModelDefinition.TrainingFilter,TrainingFilterId,AIModelDefinition,,TrainingFilter,トレーニング条件,トレーニング条件,参照関係(AI Filter Group),false,true,false,true,true,true
+000000000000000AAA,AIModelDefinition.TrainSplitRatio,TrainSplitRatio,AIModelDefinition,,TrainSplitRatio,トレーニング分割比,トレーニング分割比,テキスト(80),false,true,false,true,true,true
+000000000000000AAA,AIModelDefinition.Type,Type,AIModelDefinition,,Type,種別,種別,選択リスト,false,true,false,true,true,true

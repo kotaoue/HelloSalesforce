@@ -1,0 +1,13 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,OpportunityPartner.AccountTo,AccountToId,OpportunityPartner,,AccountTo,取引先 To,取引先 To,参照関係(取引先),false,false,true,true,true,true
+000000000000000AAA,OpportunityPartner.CreatedBy,CreatedById,OpportunityPartner,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,OpportunityPartner.CreatedDate,CreatedDate,OpportunityPartner,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,OpportunityPartner.Id,Id,OpportunityPartner,,Id,商談パートナー ID,商談パートナー ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,OpportunityPartner.IsDeleted,IsDeleted,OpportunityPartner,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,OpportunityPartner.IsPrimary,IsPrimary,OpportunityPartner,,IsPrimary,主担当,主担当,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,OpportunityPartner.LastModifiedBy,LastModifiedById,OpportunityPartner,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,OpportunityPartner.LastModifiedDate,LastModifiedDate,OpportunityPartner,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,OpportunityPartner.Opportunity,OpportunityId,OpportunityPartner,,Opportunity,商談,商談,参照関係(商談),false,false,true,true,true,true
+000000000000000AAA,OpportunityPartner.ReversePartner,ReversePartnerId,OpportunityPartner,,ReversePartner,先方から見たパートナー,先方から見たパートナー,参照関係(商談パートナー),false,true,true,true,true,true
+000000000000000AAA,OpportunityPartner.Role,Role,OpportunityPartner,,Role,役割,役割,選択リスト,false,true,false,true,true,true
+000000000000000AAA,OpportunityPartner.SystemModstamp,SystemModstamp,OpportunityPartner,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,IdentityProviderEventStore.App,AppId,IdentityProviderEventStore,,App,アプリケーション,アプリケーション,参照関係(接続アプリケーション),false,true,false,false,false,false
+000000000000000AAA,IdentityProviderEventStore.AuthSession,AuthSessionId,IdentityProviderEventStore,,AuthSession,認証セッション,認証セッション,参照関係(認証セッション),false,true,false,false,false,false
+000000000000000AAA,IdentityProviderEventStore.CreatedDate,CreatedDate,IdentityProviderEventStore,,CreatedDate,作成日,作成日,日付/時間,false,false,false,false,false,false
+000000000000000AAA,IdentityProviderEventStore.ErrorCode,ErrorCode,IdentityProviderEventStore,,ErrorCode,状況,状況,選択リスト,false,false,false,false,false,false
+000000000000000AAA,IdentityProviderEventStore.EventDate,EventDate,IdentityProviderEventStore,,EventDate,イベント日,イベント日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,IdentityProviderEventStore.EventIdentifier,EventIdentifier,IdentityProviderEventStore,,EventIdentifier,イベント識別子,イベント識別子,テキスト(80),false,false,false,true,false,true
+000000000000000AAA,IdentityProviderEventStore.HasLogoutUrl,HasLogoutUrl,IdentityProviderEventStore,,HasLogoutUrl,ログアウト URL あり,ログアウト URL あり,チェックボックス,false,false,false,false,false,false
+000000000000000AAA,IdentityProviderEventStore.Id,Id,IdentityProviderEventStore,,Id,ID プロバイダーイベントストア ID,ID プロバイダーイベントストア ID,参照関係(),false,false,false,false,false,false
+000000000000000AAA,IdentityProviderEventStore.IdentityUsed,IdentityUsed,IdentityProviderEventStore,,IdentityUsed,使用された ID,使用された ID,テキスト(765),false,true,false,false,false,false
+000000000000000AAA,IdentityProviderEventStore.InitiatedBy,InitiatedBy,IdentityProviderEventStore,,InitiatedBy,利用状況の種別,利用状況の種別,選択リスト,false,false,false,false,false,false
+000000000000000AAA,IdentityProviderEventStore.OauthConsumer,OauthConsumerId,IdentityProviderEventStore,,OauthConsumer,OAuth コンシューマー,OAuth コンシューマー,参照関係(リモートアクセス),false,true,false,false,false,false
+000000000000000AAA,IdentityProviderEventStore.SamlEntityUrl,SamlEntityUrl,IdentityProviderEventStore,,SamlEntityUrl,エンティティ ID,エンティティ ID,テキスト(1500),false,false,false,false,false,false
+000000000000000AAA,IdentityProviderEventStore.ServiceProvider,ServiceProviderId,IdentityProviderEventStore,,ServiceProvider,サービスプロバイダー,サービスプロバイダー,参照関係(サービスプロバイダー),false,true,false,false,false,false
+000000000000000AAA,IdentityProviderEventStore.SsoType,SsoType,IdentityProviderEventStore,,SsoType,SSO 種別,SSO 種別,選択リスト,false,true,false,false,false,false
+000000000000000AAA,IdentityProviderEventStore.User,UserId,IdentityProviderEventStore,,User,ユーザー,ユーザー,参照関係(ユーザー),false,true,false,false,false,false

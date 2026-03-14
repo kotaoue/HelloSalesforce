@@ -1,0 +1,14 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ExtlClntAppOauthConsumer.CreatedBy,CreatedById,ExtlClntAppOauthConsumer,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppOauthConsumer.CreatedDate,CreatedDate,ExtlClntAppOauthConsumer,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ExtlClntAppOauthConsumer.DeveloperName,DeveloperName,ExtlClntAppOauthConsumer,,DeveloperName,名前,名前,テキスト(80),false,false,true,true,true,true
+000000000000000AAA,ExtlClntAppOauthConsumer.ExternalClientApplication,ExternalClientApplicationId,ExtlClntAppOauthConsumer,,ExternalClientApplication,外部クライアントアプリケーション,外部クライアントアプリケーション,参照関係(External Client Applications)  (ユニーク),false,false,true,true,true,true
+000000000000000AAA,ExtlClntAppOauthConsumer.ExtlClntAppOauthSettings,ExtlClntAppOauthSettingsId,ExtlClntAppOauthConsumer,,ExtlClntAppOauthSettings,外部クライアントアプリケーション OAuth 設定,外部クライアントアプリケーション OAuth 設定,参照関係(外部クライアントアプリケーション OAuth 設定)  (ユニーク),false,false,true,true,true,true
+000000000000000AAA,ExtlClntAppOauthConsumer.Id,Id,ExtlClntAppOauthConsumer,,Id,外部クライアントアプリケーショングローバル OAuth コンシューマー ID,外部クライアントアプリケーショングローバル OAuth コンシューマー ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ExtlClntAppOauthConsumer.IsDeleted,IsDeleted,ExtlClntAppOauthConsumer,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppOauthConsumer.Language,Language,ExtlClntAppOauthConsumer,,Language,マスター言語,マスター言語,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppOauthConsumer.LastModifiedBy,LastModifiedById,ExtlClntAppOauthConsumer,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppOauthConsumer.LastModifiedDate,LastModifiedDate,ExtlClntAppOauthConsumer,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ExtlClntAppOauthConsumer.MasterLabel,MasterLabel,ExtlClntAppOauthConsumer,,MasterLabel,表示ラベル,表示ラベル,テキスト(80),false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppOauthConsumer.OauthConsumer,OauthConsumerId,ExtlClntAppOauthConsumer,,OauthConsumer,OAuth コンシューマー,OAuth コンシューマー,"参照関係(リモートアクセス,外部クライアントアプリケーションローカル OAuth コンシューマー)  (ユニーク)",false,true,true,true,true,true
+000000000000000AAA,ExtlClntAppOauthConsumer.SystemModstamp,SystemModstamp,ExtlClntAppOauthConsumer,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

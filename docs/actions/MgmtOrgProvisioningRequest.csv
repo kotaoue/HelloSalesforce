@@ -1,0 +1,15 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,MgmtOrgProvisioningRequest.CreatedBy,CreatedById,MgmtOrgProvisioningRequest,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,MgmtOrgProvisioningRequest.CreatedDate,CreatedDate,MgmtOrgProvisioningRequest,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,MgmtOrgProvisioningRequest.Id,Id,MgmtOrgProvisioningRequest,,Id,Provisioning Request ID,Provisioning Request ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,MgmtOrgProvisioningRequest.IsDeleted,IsDeleted,MgmtOrgProvisioningRequest,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,MgmtOrgProvisioningRequest.LastModifiedBy,LastModifiedById,MgmtOrgProvisioningRequest,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,MgmtOrgProvisioningRequest.LastModifiedDate,LastModifiedDate,MgmtOrgProvisioningRequest,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,MgmtOrgProvisioningRequest.LicenseApiVersion,LicenseApiVersion,MgmtOrgProvisioningRequest,,LicenseApiVersion,License API Version,License API Version,数値(18、0),false,true,false,true,false,true
+000000000000000AAA,MgmtOrgProvisioningRequest.Name,Name,MgmtOrgProvisioningRequest,,Name,Provisioning Request Name,Provisioning Request Name,自動採番,false,false,true,true,false,true
+000000000000000AAA,MgmtOrgProvisioningRequest.ProvisionedDateTime,ProvisionedDateTime,MgmtOrgProvisioningRequest,,ProvisionedDateTime,Provisioned Date Time,Provisioned Date Time,日付/時間,false,true,false,true,false,true
+000000000000000AAA,MgmtOrgProvisioningRequest.RecordVisibility,RecordVisibilityId,MgmtOrgProvisioningRequest,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,MgmtOrgProvisioningRequest.RequestJson,RequestJson,MgmtOrgProvisioningRequest,,RequestJson,License Request JSON,License Request JSON,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,MgmtOrgProvisioningRequest.Status,Status,MgmtOrgProvisioningRequest,,Status,Status,Status,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MgmtOrgProvisioningRequest.SystemModstamp,SystemModstamp,MgmtOrgProvisioningRequest,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,MgmtOrgProvisioningRequest.UserRecordAccess,UserRecordAccessId,MgmtOrgProvisioningRequest,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

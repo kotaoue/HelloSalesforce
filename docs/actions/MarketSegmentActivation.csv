@@ -1,0 +1,57 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,MarketSegmentActivation.ActivationEventMetadata,ActivationEventMetadata,MarketSegmentActivation,,ActivationEventMetadata,Activation Event Metadata,Activation Event Metadata,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,MarketSegmentActivation.ActivationFlowType,ActivationFlowType,MarketSegmentActivation,,ActivationFlowType,有効化種別,有効化種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.ActivationMappingSchema,ActivationMappingSchema,MarketSegmentActivation,,ActivationMappingSchema,有効化対応付けスキーマ,有効化対応付けスキーマ,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.ActivationObject,ActivationObjectId,MarketSegmentActivation,,ActivationObject,有効化オブジェクト,有効化オブジェクト,参照関係(データモデルオブジェクト),false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.ActivationObjectFilter,ActivationObjectFilter,MarketSegmentActivation,,ActivationObjectFilter,有効化オブジェクト検索条件,有効化オブジェクト検索条件,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.ActivationObjectName,ActivationObjectName,MarketSegmentActivation,,ActivationObjectName,データモデルオブジェクト,データモデルオブジェクト,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.ActivationObjectPath,ActivationObjectPath,MarketSegmentActivation,,ActivationObjectPath,有効化オブジェクトパス,有効化オブジェクトパス,ロングテキストエリア(4096),false,true,false,false,false,false
+000000000000000AAA,MarketSegmentActivation.ActivationProcessingType,ActivationProcessingType,MarketSegmentActivation,,ActivationProcessingType,処理種別,処理種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.ActivationRecordSchema,ActivationRecordSchema,MarketSegmentActivation,,ActivationRecordSchema,有効化スキーマ,有効化スキーマ,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,MarketSegmentActivation.ActivationRefreshType,ActivationRefreshType,MarketSegmentActivation,,ActivationRefreshType,有効化更新種別,有効化更新種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.ActivationStatus,ActivationStatus,MarketSegmentActivation,,ActivationStatus,有効化状況,有効化状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.ActivationTarget,ActivationTargetId,MarketSegmentActivation,,ActivationTarget,有効化対象,有効化対象,参照関係(有効化対象),false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.AudienceDmoLastRunTimestamp,AudienceDmoLastRunTimestamp,MarketSegmentActivation,,AudienceDmoLastRunTimestamp,オーディエンス DMO 最終実行タイムスタンプ,オーディエンス DMO 最終実行タイムスタンプ,日付/時間,false,true,false,true,false,true
+000000000000000AAA,MarketSegmentActivation.CreatedBy,CreatedById,MarketSegmentActivation,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,MarketSegmentActivation.CreatedDate,CreatedDate,MarketSegmentActivation,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,MarketSegmentActivation.CuratedEntity,CuratedEntityId,MarketSegmentActivation,,CuratedEntity,選定データモデルエンティティ,選定データモデルエンティティ,参照関係(データモデルオブジェクト),false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.CuratedEntityName,CuratedEntityName,MarketSegmentActivation,,CuratedEntityName,選定データモデルエンティティ名,選定データモデルエンティティ名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.CustomerFileSource,CustomerFileSource,MarketSegmentActivation,,CustomerFileSource,顧客ファイルソースエンティティ名,顧客ファイルソースエンティティ名,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.DataGraph,DataGraphId,MarketSegmentActivation,,DataGraph,データグラフ,データグラフ,参照関係(データグラフ定義),false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.DataGraphName,DataGraphName,MarketSegmentActivation,,DataGraphName,データグラフ,データグラフ,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.DataGraphPath,DataGraphPath,MarketSegmentActivation,,DataGraphPath,有効化データグラフパス,有効化データグラフパス,ロングテキストエリア(4096),false,true,false,false,false,false
+000000000000000AAA,MarketSegmentActivation.Description,Description,MarketSegmentActivation,,Description,説明,説明,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.DirectAttributeDmoFilterExpression,DirectAttributeDmoFilterExpression,MarketSegmentActivation,,DirectAttributeDmoFilterExpression,直接属性 DMO 検索条件式,直接属性 DMO 検索条件式,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,MarketSegmentActivation.DmoFilterExpression,DmoFilterExpression,MarketSegmentActivation,,DmoFilterExpression,DMO 検索条件式,DMO 検索条件式,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,MarketSegmentActivation.DoExcludeDeletes,DoExcludeDeletes,MarketSegmentActivation,,DoExcludeDeletes,最後の更新以降に削除されたレコードを除外,最後の更新以降に削除されたレコードを除外,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.DoExcludeUpdates,DoExcludeUpdates,MarketSegmentActivation,,DoExcludeUpdates,最後の更新以降に変更されたレコードを除外,最後の更新以降に変更されたレコードを除外,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.EndDate,EndDate,MarketSegmentActivation,,EndDate,有効化処理の終了日,有効化処理の終了日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,MarketSegmentActivation.Id,Id,MarketSegmentActivation,,Id,区分有効化 ID,区分有効化 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,MarketSegmentActivation.IsDeleted,IsDeleted,MarketSegmentActivation,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.IsRemote,IsRemote,MarketSegmentActivation,,IsRemote,リモート,リモート,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.LastActivationStatusDateTime,LastActivationStatusDateTime,MarketSegmentActivation,,LastActivationStatusDateTime,有効化状況最終更新日,有効化状況最終更新日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,MarketSegmentActivation.LastActivationStatusErrorCode,LastActivationStatusErrorCode,MarketSegmentActivation,,LastActivationStatusErrorCode,有効化状況エラーコード,有効化状況エラーコード,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.LastModifiedBy,LastModifiedById,MarketSegmentActivation,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.LastModifiedDate,LastModifiedDate,MarketSegmentActivation,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,MarketSegmentActivation.LastPublishedDate,LastPublishedDate,MarketSegmentActivation,,LastPublishedDate,最終公開日,最終公開日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,MarketSegmentActivation.LastPublishStatus,LastPublishStatus,MarketSegmentActivation,,LastPublishStatus,最終公開状況,最終公開状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.LastPublishStatusErrorMessage,LastPublishStatusErrorMessage,MarketSegmentActivation,,LastPublishStatusErrorMessage,最終公開状況エラーメッセージ,最終公開状況エラーメッセージ,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.LastReferencedDate,LastReferencedDate,MarketSegmentActivation,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,MarketSegmentActivation.LastViewedDate,LastViewedDate,MarketSegmentActivation,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,MarketSegmentActivation.LimitingAttributesExpression,LimitingAttributesExpression,MarketSegmentActivation,,LimitingAttributesExpression,アドホック制限属性式,アドホック制限属性式,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,MarketSegmentActivation.LimitValue,LimitValue,MarketSegmentActivation,,LimitValue,アドホック制限値,アドホック制限値,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.MarketSegment,MarketSegmentId,MarketSegmentActivation,,MarketSegment,区分,区分,参照関係(セグメント),false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.MarketSegmentActivationDef,MarketSegmentActivationDefId,MarketSegmentActivation,,MarketSegmentActivationDef,マーケットセグメント有効化定義,マーケットセグメント有効化定義,参照関係(有効化定義),false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.Name,Name,MarketSegmentActivation,,Name,名前,名前,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,MarketSegmentActivation.OwnedByOrg,OwnedByOrg,MarketSegmentActivation,,OwnedByOrg,所有者,所有者,テキスト(100),false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.PartnerObjectIds,PartnerObjectIds,MarketSegmentActivation,,PartnerObjectIds,パートナーオブジェクト ID,パートナーオブジェクト ID,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,MarketSegmentActivation.PlatformName,PlatformName,MarketSegmentActivation,,PlatformName,プラットフォーム名,プラットフォーム名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.RecordCount,RecordCount,MarketSegmentActivation,,RecordCount,有効化レコード件数,有効化レコード件数,数値(18、0),false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.RecordVisibility,RecordVisibilityId,MarketSegmentActivation,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.SourceDmo,SourceDmoId,MarketSegmentActivation,,SourceDmo,データモデルオブジェクト,データモデルオブジェクト,参照関係(データモデルオブジェクト),false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.SourceDmoApiName,SourceDmoApiName,MarketSegmentActivation,,SourceDmoApiName,Source DMO API Name,Source DMO API Name,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.StartDate,StartDate,MarketSegmentActivation,,StartDate,有効化処理の開始日,有効化処理の開始日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,MarketSegmentActivation.StaticAttributes,StaticAttributes,MarketSegmentActivation,,StaticAttributes,静的属性,静的属性,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,MarketSegmentActivation.SystemModstamp,SystemModstamp,MarketSegmentActivation,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,MarketSegmentActivation.UserRecordAccess,UserRecordAccessId,MarketSegmentActivation,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivation.WaterfallSelectedChildSegmentsConfig,WaterfallSelectedChildSegmentsConfig,MarketSegmentActivation,,WaterfallSelectedChildSegmentsConfig,ウォーターフォールの選択された子セグメントの設定,ウォーターフォールの選択された子セグメントの設定,ロングテキストエリア(131072),false,true,false,false,false,false

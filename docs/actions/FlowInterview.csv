@@ -1,0 +1,24 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,FlowInterview.CreatedBy,CreatedById,FlowInterview,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,FlowInterview.CreatedDate,CreatedDate,FlowInterview,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,FlowInterview.CurrentElement,CurrentElement,FlowInterview,,CurrentElement,Current Element,Current Element,テキスト(100),false,true,false,true,true,true
+000000000000000AAA,FlowInterview.CurrentFlowVersion,CurrentFlowVersion,FlowInterview,,CurrentFlowVersion,定義バージョン,定義バージョン,選択リスト(フローのバージョン),false,false,true,true,true,true
+000000000000000AAA,FlowInterview.EngineType,EngineType,FlowInterview,,EngineType,Engine Type,Engine Type,選択リスト,false,true,false,true,true,true
+000000000000000AAA,FlowInterview.Error,Error,FlowInterview,,Error,Error,Error,ロングテキストエリア(1000),false,true,false,false,false,false
+000000000000000AAA,FlowInterview.FlowVersionView,FlowVersionViewId,FlowInterview,,FlowVersionView,フローのバージョン,フローのバージョン,外部参照(フローのバージョン),false,true,false,true,false,true
+000000000000000AAA,FlowInterview.Guid,Guid,FlowInterview,,Guid,Flow Interview Guid,Flow Interview Guid,テキスト(255),false,true,true,true,true,true
+000000000000000AAA,FlowInterview.Id,Id,FlowInterview,,Id,Flow Interview ID,Flow Interview ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,FlowInterview.InterviewLabel,InterviewLabel,FlowInterview,,InterviewLabel,Interview Label,Interview Label,テキスト(1000),false,true,false,true,false,true
+000000000000000AAA,FlowInterview.InterviewStatus,InterviewStatus,FlowInterview,,InterviewStatus,Interview Status,Interview Status,選択リスト,false,false,true,true,true,true
+000000000000000AAA,FlowInterview.IsDeleted,IsDeleted,FlowInterview,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,FlowInterview.LastModifiedBy,LastModifiedById,FlowInterview,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,FlowInterview.LastModifiedDate,LastModifiedDate,FlowInterview,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,FlowInterview.MasterFlowVersion,MasterFlowVersion,FlowInterview,,MasterFlowVersion,定義バージョン,定義バージョン,選択リスト(フローのバージョン),false,false,true,true,true,true
+000000000000000AAA,FlowInterview.Name,Name,FlowInterview,,Name,Name,Name,自動採番,false,false,true,true,false,true
+000000000000000AAA,FlowInterview.Owner,OwnerId,FlowInterview,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,FlowInterview.PauseLabel,PauseLabel,FlowInterview,,PauseLabel,Pause Reason,Pause Reason,テキスト(1000),false,true,false,true,false,true
+000000000000000AAA,FlowInterview.RecordVisibility,RecordVisibilityId,FlowInterview,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,FlowInterview.SerializedView,SerializedView,FlowInterview,,SerializedView,Serialized version of the interview,Serialized version of the interview,ロングテキストエリア(1000000),false,true,false,false,false,false
+000000000000000AAA,FlowInterview.SystemModstamp,SystemModstamp,FlowInterview,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,FlowInterview.UserRecordAccess,UserRecordAccessId,FlowInterview,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
+000000000000000AAA,FlowInterview.WasPausedFromScreen,WasPausedFromScreen,FlowInterview,,WasPausedFromScreen,Was Paused From Screen,Was Paused From Screen,チェックボックス,false,false,false,true,true,true

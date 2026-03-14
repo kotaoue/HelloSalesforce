@@ -1,0 +1,14 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ListEmailRecipientSource.CreatedBy,CreatedById,ListEmailRecipientSource,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,ListEmailRecipientSource.CreatedDate,CreatedDate,ListEmailRecipientSource,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ListEmailRecipientSource.Id,Id,ListEmailRecipientSource,,Id,List Email Recipient Sources ID,List Email Recipient Sources ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ListEmailRecipientSource.IsDeleted,IsDeleted,ListEmailRecipientSource,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ListEmailRecipientSource.LastModifiedBy,LastModifiedById,ListEmailRecipientSource,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ListEmailRecipientSource.LastModifiedDate,LastModifiedDate,ListEmailRecipientSource,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ListEmailRecipientSource.ListEmail,ListEmailId,ListEmailRecipientSource,,ListEmail,リストメール,リストメール,主従関係(リストメール),false,false,true,true,true,true
+000000000000000AAA,ListEmailRecipientSource.Name,Name,ListEmailRecipientSource,,Name,Name,Name,自動採番,false,false,true,true,false,true
+000000000000000AAA,ListEmailRecipientSource.RecordVisibility,RecordVisibilityId,ListEmailRecipientSource,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,ListEmailRecipientSource.SourceList,SourceListId,ListEmailRecipientSource,,SourceList,Recipient List,Recipient List,"参照関係(リストビュー,キャンペーン,トピック)",false,false,false,true,true,true
+000000000000000AAA,ListEmailRecipientSource.SourceType,SourceType,ListEmailRecipientSource,,SourceType,Type,Type,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ListEmailRecipientSource.SystemModstamp,SystemModstamp,ListEmailRecipientSource,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ListEmailRecipientSource.UserRecordAccess,UserRecordAccessId,ListEmailRecipientSource,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

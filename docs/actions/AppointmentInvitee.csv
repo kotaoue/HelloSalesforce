@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AppointmentInvitee.AppointmentInvitation,AppointmentInvitationId,AppointmentInvitee,,AppointmentInvitation,予定招待,予定招待,主従関係(予定招待),false,false,true,true,true,true
+000000000000000AAA,AppointmentInvitee.CreatedBy,CreatedById,AppointmentInvitee,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,AppointmentInvitee.CreatedDate,CreatedDate,AppointmentInvitee,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AppointmentInvitee.Id,Id,AppointmentInvitee,,Id,予定招待者 ID,予定招待者 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AppointmentInvitee.IsDeleted,IsDeleted,AppointmentInvitee,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AppointmentInvitee.IsRequiredResource,IsRequiredResource,AppointmentInvitee,,IsRequiredResource,必要なリソース,必要なリソース,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AppointmentInvitee.LastModifiedBy,LastModifiedById,AppointmentInvitee,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AppointmentInvitee.LastModifiedDate,LastModifiedDate,AppointmentInvitee,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AppointmentInvitee.LastReferencedDate,LastReferencedDate,AppointmentInvitee,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,AppointmentInvitee.LastViewedDate,LastViewedDate,AppointmentInvitee,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,AppointmentInvitee.Name,Name,AppointmentInvitee,,Name,予定招待者番号,予定招待者番号,自動採番,false,false,true,true,false,true
+000000000000000AAA,AppointmentInvitee.ParticipantServiceResource,ParticipantServiceResourceId,AppointmentInvitee,,ParticipantServiceResource,参加者サービスリソース,参加者サービスリソース,参照関係(サービスリソース),false,true,false,true,true,true
+000000000000000AAA,AppointmentInvitee.RecordVisibility,RecordVisibilityId,AppointmentInvitee,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,AppointmentInvitee.SystemModstamp,SystemModstamp,AppointmentInvitee,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AppointmentInvitee.UserRecordAccess,UserRecordAccessId,AppointmentInvitee,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

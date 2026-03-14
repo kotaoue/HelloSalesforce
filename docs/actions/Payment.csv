@@ -1,0 +1,54 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,Payment.Account,AccountId,Payment,,Account,口座,口座,参照関係(取引先),false,true,false,true,true,true
+000000000000000AAA,Payment.Amount,Amount,Payment,,Amount,金額,金額,通貨(16、2),false,false,false,true,false,true
+000000000000000AAA,Payment.Balance,Balance,Payment,,Balance,残高,残高,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,Payment.CancellationDate,CancellationDate,Payment,,CancellationDate,キャンセル日,キャンセル日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,Payment.CancellationEffectiveDate,CancellationEffectiveDate,Payment,,CancellationEffectiveDate,キャンセルの発効日,キャンセルの発効日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,Payment.CancellationGatewayDate,CancellationGatewayDate,Payment,,CancellationGatewayDate,キャンセルのゲートウェイ日付,キャンセルのゲートウェイ日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,Payment.CancellationGatewayRefNumber,CancellationGatewayRefNumber,Payment,,CancellationGatewayRefNumber,キャンセルのゲートウェイ参照番号,キャンセルのゲートウェイ参照番号,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,Payment.CancellationGatewayResultCode,CancellationGatewayResultCode,Payment,,CancellationGatewayResultCode,キャンセルのゲートウェイ結果コード,キャンセルのゲートウェイ結果コード,テキスト(64),false,true,false,true,true,true
+000000000000000AAA,Payment.CancellationSfResultCode,CancellationSfResultCode,Payment,,CancellationSfResultCode,キャンセルの Salesforce 結果コード,キャンセルの Salesforce 結果コード,テキスト(64),false,true,false,true,true,true
+000000000000000AAA,Payment.ClientContext,ClientContext,Payment,,ClientContext,クライアントコンテキスト,クライアントコンテキスト,ロングテキストエリア(2000),false,true,false,false,false,false
+000000000000000AAA,Payment.Comments,Comments,Payment,,Comments,コメント,コメント,テキストエリア(1000),false,true,false,true,false,true
+000000000000000AAA,Payment.CreatedBy,CreatedById,Payment,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,Payment.CreatedDate,CreatedDate,Payment,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,Payment.Date,Date,Payment,,Date,日付,日付,日付/時間,false,true,true,true,false,true
+000000000000000AAA,Payment.EffectiveDate,EffectiveDate,Payment,,EffectiveDate,発効日,発効日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,Payment.Email,Email,Payment,,Email,監査メール,監査メール,メール,false,true,false,true,true,true
+000000000000000AAA,Payment.GatewayDate,GatewayDate,Payment,,GatewayDate,ゲートウェイ日付,ゲートウェイ日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,Payment.GatewayRefDetails,GatewayRefDetails,Payment,,GatewayRefDetails,ゲートウェイ参照の詳細,ゲートウェイ参照の詳細,テキストエリア(1000),false,true,false,true,false,true
+000000000000000AAA,Payment.GatewayRefNumber,GatewayRefNumber,Payment,,GatewayRefNumber,ゲートウェイ参照番号,ゲートウェイ参照番号,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,Payment.GatewayResultCode,GatewayResultCode,Payment,,GatewayResultCode,ゲートウェイ結果コード,ゲートウェイ結果コード,テキスト(64),false,true,false,true,true,true
+000000000000000AAA,Payment.GatewayResultCodeDescription,GatewayResultCodeDescription,Payment,,GatewayResultCodeDescription,ゲートウェイ結果コードの説明,ゲートウェイ結果コードの説明,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,Payment.Id,Id,Payment,,Id,支払 ID,支払 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,Payment.ImpactAmount,ImpactAmount,Payment,,ImpactAmount,影響金額,影響金額,数式 (通貨),true,true,false,true,false,true
+000000000000000AAA,Payment.IpAddress,IpAddress,Payment,,IpAddress,IP アドレス,IP アドレス,IP アドレス,false,true,false,true,true,true
+000000000000000AAA,Payment.IsDeleted,IsDeleted,Payment,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,Payment.LastModifiedBy,LastModifiedById,Payment,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,Payment.LastModifiedDate,LastModifiedDate,Payment,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,Payment.LastReferencedDate,LastReferencedDate,Payment,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,Payment.LastViewedDate,LastViewedDate,Payment,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,Payment.MacAddress,MacAddress,Payment,,MacAddress,MAC アドレス,MAC アドレス,テキスト(32),false,true,false,true,true,true
+000000000000000AAA,Payment.Name,PaymentNumber,Payment,,Name,支払番号,支払番号,自動採番,false,false,true,true,false,true
+000000000000000AAA,Payment.NetApplied,NetApplied,Payment,,NetApplied,適用正価,適用正価,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,Payment.NetPaymentCreditApplied,NetPaymentCreditApplied,Payment,,NetPaymentCreditApplied,正価支払クレジットが適用されました,正価支払クレジットが適用されました,数式 (通貨),true,true,false,true,false,true
+000000000000000AAA,Payment.NetRefundApplied,NetRefundApplied,Payment,,NetRefundApplied,適用返金正価,適用返金正価,数式 (通貨),true,true,false,true,false,true
+000000000000000AAA,Payment.PaymentAuthorization,PaymentAuthorizationId,Payment,,PaymentAuthorization,支払承認,支払承認,参照関係(支払承認),false,true,true,true,true,true
+000000000000000AAA,Payment.PaymentGateway,PaymentGatewayId,Payment,,PaymentGateway,支払いゲートウェイ,支払いゲートウェイ,参照関係(支払いゲートウェイ),false,true,false,true,true,true
+000000000000000AAA,Payment.PaymentGroup,PaymentGroupId,Payment,,PaymentGroup,支払グループ,支払グループ,参照関係(支払グループ),false,true,false,true,true,true
+000000000000000AAA,Payment.PaymentIntentGuid,PaymentIntentGuid,Payment,,PaymentIntentGuid,支払インテント GUID,支払インテント GUID,テキスト(255),false,true,true,true,true,true
+000000000000000AAA,Payment.PaymentMethod,PaymentMethodId,Payment,,PaymentMethod,お支払い方法,お支払い方法,参照関係(支払方法),false,true,false,true,true,true
+000000000000000AAA,Payment.Phone,Phone,Payment,,Phone,電話,電話,電話,false,true,false,true,true,true
+000000000000000AAA,Payment.ProcessingMode,ProcessingMode,Payment,,ProcessingMode,処理モード,処理モード,選択リスト,false,false,false,true,true,true
+000000000000000AAA,Payment.RecordVisibility,RecordVisibilityId,Payment,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,Payment.SfResultCode,SfResultCode,Payment,,SfResultCode,Salesforce 結果コード,Salesforce 結果コード,選択リスト,false,true,false,true,true,true
+000000000000000AAA,Payment.Status,Status,Payment,,Status,状況,状況,選択リスト,false,false,true,true,true,true
+000000000000000AAA,Payment.SystemModstamp,SystemModstamp,Payment,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,Payment.TotalApplied,TotalApplied,Payment,,TotalApplied,適用合計,適用合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,Payment.TotalPaymentCreditApplied,TotalPaymentCreditApplied,Payment,,TotalPaymentCreditApplied,支払総額クレジットが適用されました,支払総額クレジットが適用されました,積み上げ集計 ( 支払クレジット品目支払),true,true,false,true,false,true
+000000000000000AAA,Payment.TotalPaymentCreditUnapplied,TotalPaymentCreditUnapplied,Payment,,TotalPaymentCreditUnapplied,支払総額クレジットが適用解除されました,支払総額クレジットが適用解除されました,積み上げ集計 ( 支払クレジット品目支払),true,true,false,true,false,true
+000000000000000AAA,Payment.TotalRefundApplied,TotalRefundApplied,Payment,,TotalRefundApplied,適用返金合計,適用返金合計,積み上げ集計 ( 品目支払の返金),true,true,false,true,false,true
+000000000000000AAA,Payment.TotalRefundUnapplied,TotalRefundUnapplied,Payment,,TotalRefundUnapplied,適用解除返金合計,適用解除返金合計,積み上げ集計 ( 品目支払の返金),true,true,false,true,false,true
+000000000000000AAA,Payment.TotalUnapplied,TotalUnapplied,Payment,,TotalUnapplied,適用解除合計,適用解除合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,Payment.Type,Type,Payment,,Type,種別,種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,Payment.UserRecordAccess,UserRecordAccessId,Payment,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

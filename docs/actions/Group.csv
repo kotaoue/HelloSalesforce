@@ -1,0 +1,18 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,Group.CreatedBy,CreatedById,Group,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,Group.CreatedDate,CreatedDate,Group,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,Group.Description,Description,Group,,Description,説明,説明,テキストエリア(1332),false,true,false,true,false,true
+000000000000000AAA,Group.DeveloperName,DeveloperName,Group,,DeveloperName,API 参照名,API 参照名,テキスト(80),false,true,true,true,true,true
+000000000000000AAA,Group.DoesIncludeBosses,DoesIncludeBosses,Group,,DoesIncludeBosses,上司を含む,上司を含む,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,Group.DoesSendEmailToMembers,DoesSendEmailToMembers,Group,,DoesSendEmailToMembers,メンバーへのメールの送信,メンバーへのメールの送信,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,Group.Email,Email,Group,,Email,メール,メール,メール,false,true,false,true,true,true
+000000000000000AAA,Group.Id,Id,Group,,Id,グループ ID,グループ ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,Group.LastModifiedBy,LastModifiedById,Group,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,Group.LastModifiedDate,LastModifiedDate,Group,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,Group.Name,Name,Group,,Name,名前,名前,テキスト(40),false,false,true,true,true,true
+000000000000000AAA,Group.Owner,OwnerId,Group,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,組織)",false,false,true,true,true,true
+000000000000000AAA,Group.QueueRoutingConfig,QueueRoutingConfigId,Group,,QueueRoutingConfig,ルーティング設定,ルーティング設定,参照関係(ルーティング設定),false,true,false,true,true,true
+000000000000000AAA,Group.QueueSobjectType,QueueSobjectType,Group,,QueueSobjectType,キュー SObject の種別,キュー SObject の種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,Group.Related,RelatedId,Group,,Related,関連,関連,"参照関係(ロール,ポータル,共有セット,ユーザー)",false,true,true,true,true,true
+000000000000000AAA,Group.SystemModstamp,SystemModstamp,Group,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,Group.Type,Type,Group,,Type,種別,種別,選択リスト,false,false,true,true,true,true

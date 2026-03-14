@@ -1,0 +1,19 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AnlytSmplIntrctnClsfnInfo.AnalyticsSampleInteraction,AnalyticsSampleInteractionId,AnlytSmplIntrctnClsfnInfo,,AnalyticsSampleInteraction,A FK to Analytics Sample Interaction,A FK to Analytics Sample Interaction,参照関係(Analytics Sample Interaction),false,true,false,true,true,true
+000000000000000AAA,AnlytSmplIntrctnClsfnInfo.ClassificationReason,ClassificationReason,AnlytSmplIntrctnClsfnInfo,,ClassificationReason,Reason of the inaccuracy of the agent answer from an ENUM,Reason of the inaccuracy of the agent answer from an ENUM,ロングテキストエリア(1000),false,true,false,false,false,false
+000000000000000AAA,AnlytSmplIntrctnClsfnInfo.CreatedBy,CreatedById,AnlytSmplIntrctnClsfnInfo,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AnlytSmplIntrctnClsfnInfo.CreatedDate,CreatedDate,AnlytSmplIntrctnClsfnInfo,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AnlytSmplIntrctnClsfnInfo.DeveloperName,DeveloperName,AnlytSmplIntrctnClsfnInfo,,DeveloperName,オブジェクト名,オブジェクト名,テキスト(80),false,false,false,true,true,true
+000000000000000AAA,AnlytSmplIntrctnClsfnInfo.ExpectedResult,ExpectedResult,AnlytSmplIntrctnClsfnInfo,,ExpectedResult,Free text description of the expected result by the user.,Free text description of the expected result by the user.,ロングテキストエリア(1000),false,true,false,false,false,false
+000000000000000AAA,AnlytSmplIntrctnClsfnInfo.Id,Id,AnlytSmplIntrctnClsfnInfo,,Id,Analytic Sample Interaction Classification info ID,Analytic Sample Interaction Classification info ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AnlytSmplIntrctnClsfnInfo.IsDeleted,IsDeleted,AnlytSmplIntrctnClsfnInfo,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AnlytSmplIntrctnClsfnInfo.IsRequiresReview,IsRequiresReview,AnlytSmplIntrctnClsfnInfo,,IsRequiresReview,True when SemanticModel was modified after a Verified classification,True when SemanticModel was modified after a Verified classification,数式 (チェックボックス),true,false,false,true,true,true
+000000000000000AAA,AnlytSmplIntrctnClsfnInfo.Language,Language,AnlytSmplIntrctnClsfnInfo,,Language,マスター言語,マスター言語,選択リスト,false,false,false,true,true,true
+000000000000000AAA,AnlytSmplIntrctnClsfnInfo.LastModifiedBy,LastModifiedById,AnlytSmplIntrctnClsfnInfo,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AnlytSmplIntrctnClsfnInfo.LastModifiedDate,LastModifiedDate,AnlytSmplIntrctnClsfnInfo,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AnlytSmplIntrctnClsfnInfo.ManageableState,ManageableState,AnlytSmplIntrctnClsfnInfo,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,AnlytSmplIntrctnClsfnInfo.MasterLabel,MasterLabel,AnlytSmplIntrctnClsfnInfo,,MasterLabel,表示ラベル,表示ラベル,テキスト(80),false,false,false,true,true,true
+000000000000000AAA,AnlytSmplIntrctnClsfnInfo.NamespacePrefix,NamespacePrefix,AnlytSmplIntrctnClsfnInfo,,NamespacePrefix,名前空間プレフィックス,名前空間プレフィックス,テキスト,false,true,false,true,true,true
+000000000000000AAA,AnlytSmplIntrctnClsfnInfo.SobjectType,AnalyticsSampleUtteranceId,AnlytSmplIntrctnClsfnInfo,,SobjectType,Analytics Utterance,Analytics Utterance,参照関係(Analytics Utterance),false,false,true,true,true,true
+000000000000000AAA,AnlytSmplIntrctnClsfnInfo.Status,Status,AnlytSmplIntrctnClsfnInfo,,Status,Status of the interaction: Inaccurate or Verified,Status of the interaction: Inaccurate or Verified,選択リスト,false,true,true,true,true,true
+000000000000000AAA,AnlytSmplIntrctnClsfnInfo.SystemModstamp,SystemModstamp,AnlytSmplIntrctnClsfnInfo,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

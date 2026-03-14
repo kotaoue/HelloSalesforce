@@ -1,0 +1,41 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ExternalServiceRegistration.CatalogedApiVersion,CatalogedApiVersionId,ExternalServiceRegistration,,CatalogedApiVersion,カタログ式 API バージョン,カタログ式 API バージョン,参照関係(カタログ式 API バージョン),false,true,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.CreatedBy,CreatedById,ExternalServiceRegistration,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.CreatedDate,CreatedDate,ExternalServiceRegistration,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ExternalServiceRegistration.Description,Description,ExternalServiceRegistration,,Description,説明,説明,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.DeveloperName,DeveloperName,ExternalServiceRegistration,,DeveloperName,名前,名前,テキスト(80),false,false,true,true,true,true
+000000000000000AAA,ExternalServiceRegistration.FullName,FullName,ExternalServiceRegistration,,FullName,完全名,完全名,テキスト(255),false,true,false,false,true,false
+000000000000000AAA,ExternalServiceRegistration.Id,Id,ExternalServiceRegistration,,Id,外部サービス登録 ID,外部サービス登録 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ExternalServiceRegistration.IsActive,IsActive,ExternalServiceRegistration,,IsActive,有効,有効,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.IsBaseSchemaVersion,IsBaseSchemaVersion,ExternalServiceRegistration,,IsBaseSchemaVersion,ベーススキーマバージョン,ベーススキーマバージョン,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.IsDeleted,IsDeleted,ExternalServiceRegistration,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.IsHeadSchemaVersion,IsHeadSchemaVersion,ExternalServiceRegistration,,IsHeadSchemaVersion,ヘッドスキーマバージョン,ヘッドスキーマバージョン,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.IsStartSchemaVersion,IsStartSchemaVersion,ExternalServiceRegistration,,IsStartSchemaVersion,開始スキーマバージョン,開始スキーマバージョン,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.Language,Language,ExternalServiceRegistration,,Language,マスター言語,マスター言語,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.LastModifiedBy,LastModifiedById,ExternalServiceRegistration,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.LastModifiedDate,LastModifiedDate,ExternalServiceRegistration,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ExternalServiceRegistration.ManageableState,ManageableState,ExternalServiceRegistration,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.MasterLabel,MasterLabel,ExternalServiceRegistration,,MasterLabel,表示ラベル,表示ラベル,テキスト(80),false,false,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.Metadata,Metadata,ExternalServiceRegistration,,Metadata,メタデータ,メタデータ,複合値,false,true,false,false,false,false
+000000000000000AAA,ExternalServiceRegistration.NamedCredential,NamedCredential,ExternalServiceRegistration,,NamedCredential,指定ログイン情報,指定ログイン情報,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.NamedCredentialReference,NamedCredentialReferenceId,ExternalServiceRegistration,,NamedCredentialReference,指定ログイン情報参照,指定ログイン情報参照,参照関係(指定ログイン情報),false,true,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.NamespacePrefix,NamespacePrefix,ExternalServiceRegistration,,NamespacePrefix,名前空間プレフィックス,名前空間プレフィックス,テキスト,false,true,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.Package,Package,ExternalServiceRegistration,,Package,パッケージ,パッケージ,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.PreviousVersion,PreviousVersionId,ExternalServiceRegistration,,PreviousVersion,以前のバージョン,以前のバージョン,参照関係(外部サービス登録),false,true,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.ProviderAssetEndpoint,ProviderAssetEndpoint,ExternalServiceRegistration,,ProviderAssetEndpoint,プロバイダーアセットエンドポイント,プロバイダーアセットエンドポイント,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.RegistrationProvider,RegistrationProvider,ExternalServiceRegistration,,RegistrationProvider,登録プロバイダー,登録プロバイダー,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.RegistrationProviderAsset,RegistrationProviderAssetId,ExternalServiceRegistration,,RegistrationProviderAsset,登録プロバイダーアセット,登録プロバイダーアセット,"参照関係(Apex クラス,API 名前付きクエリ)",false,true,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.RegistrationProviderType,RegistrationProviderType,ExternalServiceRegistration,,RegistrationProviderType,登録プロバイダータイプ,登録プロバイダータイプ,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.Schema,Schema,ExternalServiceRegistration,,Schema,スキーマ,スキーマ,ロングテキストエリア(100000),false,true,false,false,false,false
+000000000000000AAA,ExternalServiceRegistration.SchemaAbsoluteUrl,SchemaAbsoluteUrl,ExternalServiceRegistration,,SchemaAbsoluteUrl,スキーマ絶対 URL,スキーマ絶対 URL,URL(1000),false,true,false,true,false,true
+000000000000000AAA,ExternalServiceRegistration.SchemaArtifactVersion,SchemaArtifactVersionId,ExternalServiceRegistration,,SchemaArtifactVersion,スキーマアイテムバージョン,スキーマアイテムバージョン,参照関係(カタログ式 API アイテムバージョン情報),false,true,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.SchemaType,SchemaType,ExternalServiceRegistration,,SchemaType,スキーマの型,スキーマの型,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.SchemaUploadFileExtension,SchemaUploadFileExtension,ExternalServiceRegistration,,SchemaUploadFileExtension,スキーマアップロードファイル拡張子,スキーマアップロードファイル拡張子,テキスト(10),false,true,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.SchemaUploadFileName,SchemaUploadFileName,ExternalServiceRegistration,,SchemaUploadFileName,スキーマアップロードファイル名,スキーマアップロードファイル名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.SchemaUrl,SchemaUrl,ExternalServiceRegistration,,SchemaUrl,スキーマ URL,スキーマ URL,URL(255),false,true,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.ServiceBinding,ServiceBinding,ExternalServiceRegistration,,ServiceBinding,サービスバインド,サービスバインド,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,ExternalServiceRegistration.ServiceDescriptor,ServiceDescriptor,ExternalServiceRegistration,,ServiceDescriptor,サービス記述子,サービス記述子,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,ExternalServiceRegistration.ServiceName,ServiceName,ExternalServiceRegistration,,ServiceName,サービス名,サービス名,テキスト(80),false,true,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.Status,Status,ExternalServiceRegistration,,Status,状況,状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ExternalServiceRegistration.SystemModstamp,SystemModstamp,ExternalServiceRegistration,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ExternalServiceRegistration.SystemVersion,SystemVersion,ExternalServiceRegistration,,SystemVersion,システムバージョン,システムバージョン,数値(3、0),false,true,false,true,true,true

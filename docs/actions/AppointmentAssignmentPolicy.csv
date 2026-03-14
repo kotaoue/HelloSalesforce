@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AppointmentAssignmentPolicy.CreatedBy,CreatedById,AppointmentAssignmentPolicy,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AppointmentAssignmentPolicy.CreatedDate,CreatedDate,AppointmentAssignmentPolicy,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AppointmentAssignmentPolicy.DeveloperName,DeveloperName,AppointmentAssignmentPolicy,,DeveloperName,API 参照名,API 参照名,テキスト(80),false,false,true,true,true,true
+000000000000000AAA,AppointmentAssignmentPolicy.Fullname,Fullname,AppointmentAssignmentPolicy,,Fullname,氏名,氏名,テキスト(255),false,true,false,false,true,false
+000000000000000AAA,AppointmentAssignmentPolicy.Id,Id,AppointmentAssignmentPolicy,,Id,予定の割り当てポリシー ID,予定の割り当てポリシー ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AppointmentAssignmentPolicy.IsDeleted,IsDeleted,AppointmentAssignmentPolicy,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AppointmentAssignmentPolicy.Language,Language,AppointmentAssignmentPolicy,,Language,マスター言語,マスター言語,選択リスト,false,false,false,true,true,true
+000000000000000AAA,AppointmentAssignmentPolicy.LastModifiedBy,LastModifiedById,AppointmentAssignmentPolicy,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AppointmentAssignmentPolicy.LastModifiedDate,LastModifiedDate,AppointmentAssignmentPolicy,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AppointmentAssignmentPolicy.MasterLabel,MasterLabel,AppointmentAssignmentPolicy,,MasterLabel,名前,名前,テキスト(80),false,false,false,true,true,true
+000000000000000AAA,AppointmentAssignmentPolicy.Metadata,Metadata,AppointmentAssignmentPolicy,,Metadata,メタデータ,メタデータ,複合値,false,true,false,false,false,false
+000000000000000AAA,AppointmentAssignmentPolicy.PolicyApplicableDuration,PolicyApplicableDuration,AppointmentAssignmentPolicy,,PolicyApplicableDuration,稼働状況の計算頻度,稼働状況の計算頻度,選択リスト,false,false,false,true,true,true
+000000000000000AAA,AppointmentAssignmentPolicy.PolicyType,PolicyType,AppointmentAssignmentPolicy,,PolicyType,ポリシーの種類,ポリシーの種類,選択リスト,false,false,false,true,true,true
+000000000000000AAA,AppointmentAssignmentPolicy.SystemModstamp,SystemModstamp,AppointmentAssignmentPolicy,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AppointmentAssignmentPolicy.UtilizationFactor,UtilizationFactor,AppointmentAssignmentPolicy,,UtilizationFactor,稼働状況の件数種別,稼働状況の件数種別,選択リスト,false,false,false,true,true,true

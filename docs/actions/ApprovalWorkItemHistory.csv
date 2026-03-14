@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ApprovalWorkItemHistory.ApprovalWorkItem,ApprovalWorkItemId,ApprovalWorkItemHistory,,ApprovalWorkItem,承認作業項目,承認作業項目,参照関係(承認作業項目),false,false,true,true,true,true
+000000000000000AAA,ApprovalWorkItemHistory.CreatedBy,CreatedById,ApprovalWorkItemHistory,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,ApprovalWorkItemHistory.CreatedDate,CreatedDate,ApprovalWorkItemHistory,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ApprovalWorkItemHistory.DataType,DataType,ApprovalWorkItemHistory,,DataType,データ型,データ型,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ApprovalWorkItemHistory.Field,Field,ApprovalWorkItemHistory,,Field,変更された項目,変更された項目,"選択リスト(カスタム項目の定義,カスタム項目データ列)",false,false,true,true,true,true
+000000000000000AAA,ApprovalWorkItemHistory.Id,Id,ApprovalWorkItemHistory,,Id,承認作業項目履歴 ID,承認作業項目履歴 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ApprovalWorkItemHistory.IsDeleted,IsDeleted,ApprovalWorkItemHistory,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ApprovalWorkItemHistory.NewvalDate,NewvalDate,ApprovalWorkItemHistory,,NewvalDate,新規の日付,新規の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ApprovalWorkItemHistory.NewvalFirstName,NewvalFirstName,ApprovalWorkItemHistory,,NewvalFirstName,新規の名,新規の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ApprovalWorkItemHistory.NewvalLastName,NewvalLastName,ApprovalWorkItemHistory,,NewvalLastName,新規の姓,新規の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ApprovalWorkItemHistory.NewValue,NewValue,ApprovalWorkItemHistory,,NewValue,新しい値,新しい値,参照関係,false,true,false,false,false,true
+000000000000000AAA,ApprovalWorkItemHistory.OldvalDate,OldvalDate,ApprovalWorkItemHistory,,OldvalDate,元の日付,元の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ApprovalWorkItemHistory.OldvalFirstName,OldvalFirstName,ApprovalWorkItemHistory,,OldvalFirstName,元の名,元の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ApprovalWorkItemHistory.OldvalLastName,OldvalLastName,ApprovalWorkItemHistory,,OldvalLastName,元の姓,元の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ApprovalWorkItemHistory.OldValue,OldValue,ApprovalWorkItemHistory,,OldValue,元の値,元の値,参照関係,false,true,false,false,false,true

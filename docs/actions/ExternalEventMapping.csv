@@ -1,0 +1,17 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ExternalEventMapping.CreatedBy,CreatedById,ExternalEventMapping,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,ExternalEventMapping.CreatedDate,CreatedDate,ExternalEventMapping,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ExternalEventMapping.EndDate,EndDate,ExternalEventMapping,,EndDate,End Date,End Date,日付,false,true,false,true,true,true
+000000000000000AAA,ExternalEventMapping.Event,EventId,ExternalEventMapping,,Event,行動,行動,参照関係(行動),false,true,false,true,true,true
+000000000000000AAA,ExternalEventMapping.ExternalId,ExternalId,ExternalEventMapping,,ExternalId,External Id,External Id,テキスト(255),false,true,true,true,true,true
+000000000000000AAA,ExternalEventMapping.Id,Id,ExternalEventMapping,,Id,External Event Mappings ID,External Event Mappings ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ExternalEventMapping.IsDeleted,IsDeleted,ExternalEventMapping,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ExternalEventMapping.IsRecurring,IsRecurring,ExternalEventMapping,,IsRecurring,Is Recurring,Is Recurring,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ExternalEventMapping.LastModifiedBy,LastModifiedById,ExternalEventMapping,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ExternalEventMapping.LastModifiedDate,LastModifiedDate,ExternalEventMapping,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ExternalEventMapping.Name,Name,ExternalEventMapping,,Name,Name,Name,自動採番,false,false,true,true,false,true
+000000000000000AAA,ExternalEventMapping.Owner,OwnerId,ExternalEventMapping,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,ExternalEventMapping.RecordVisibility,RecordVisibilityId,ExternalEventMapping,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,ExternalEventMapping.StartDate,StartDate,ExternalEventMapping,,StartDate,Start Date,Start Date,日付,false,true,false,true,true,true
+000000000000000AAA,ExternalEventMapping.SystemModstamp,SystemModstamp,ExternalEventMapping,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ExternalEventMapping.UserRecordAccess,UserRecordAccessId,ExternalEventMapping,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

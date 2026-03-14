@@ -1,0 +1,37 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,OpenActivity.Account,AccountId,OpenActivity,,Account,取引先,取引先,参照関係(取引先),false,true,false,true,true,true
+000000000000000AAA,OpenActivity.ActivityDate,ActivityDate,OpenActivity,,ActivityDate,日付,日付,日付/時間,false,true,false,true,true,true
+000000000000000AAA,OpenActivity.ActivityDateTime,ActivityDateTime,OpenActivity,,ActivityDateTime,時間,時間,日付/時間,false,true,false,true,false,true
+000000000000000AAA,OpenActivity.ActivitySubtype,ActivitySubtype,OpenActivity,,ActivitySubtype,活動サブ種別,活動サブ種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,OpenActivity.ActivityType,ActivityType,OpenActivity,,ActivityType,種別,種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,OpenActivity.AlternateDetail,AlternateDetailId,OpenActivity,,AlternateDetail,代替の詳細,代替の詳細,参照関係(メールメッセージ),false,true,false,true,true,true
+000000000000000AAA,OpenActivity.CallDisposition,CallDisposition,OpenActivity,,CallDisposition,通話結果,通話結果,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,OpenActivity.CallDurationInSeconds,CallDurationInSeconds,OpenActivity,,CallDurationInSeconds,通話時間,通話時間,数値(8、0),false,true,false,true,true,true
+000000000000000AAA,OpenActivity.CallObject,CallObject,OpenActivity,,CallObject,通話オブジェクト ID,通話オブジェクト ID,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,OpenActivity.CallType,CallType,OpenActivity,,CallType,通話種別,通話種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,OpenActivity.CompletedDateTime,CompletedDateTime,OpenActivity,,CompletedDateTime,完了日時,完了日時,日付/時間,false,true,false,true,false,true
+000000000000000AAA,OpenActivity.CreatedBy,CreatedById,OpenActivity,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,OpenActivity.CreatedDate,CreatedDate,OpenActivity,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,OpenActivity.Description,Description,OpenActivity,,Description,コメント,コメント,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,OpenActivity.DurationInMinutes,DurationInMinutes,OpenActivity,,DurationInMinutes,所要時間,所要時間,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,OpenActivity.EndDateTime,EndDateTime,OpenActivity,,EndDateTime,終了,終了,日付/時間,false,true,false,true,false,true
+000000000000000AAA,OpenActivity.Id,Id,OpenActivity,,Id,活動 ID,活動 ID,参照関係(),false,false,false,true,true,true
+000000000000000AAA,OpenActivity.IsAllDayEvent,IsAllDayEvent,OpenActivity,,IsAllDayEvent,終日行動,終日行動,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,OpenActivity.IsClosed,IsClosed,OpenActivity,,IsClosed,完了フラグ,完了フラグ,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,OpenActivity.IsDeleted,IsDeleted,OpenActivity,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,OpenActivity.IsHighPriority,IsHighPriority,OpenActivity,,IsHighPriority,優先度高,優先度高,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,OpenActivity.IsReminderSet,IsReminderSet,OpenActivity,,IsReminderSet,アラーム設定,アラーム設定,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,OpenActivity.IsTask,IsTask,OpenActivity,,IsTask,ToDo,ToDo,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,OpenActivity.IsVisibleInSelfService,IsVisibleInSelfService,OpenActivity,,IsVisibleInSelfService,公開,公開,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,OpenActivity.LastModifiedBy,LastModifiedById,OpenActivity,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,OpenActivity.LastModifiedDate,LastModifiedDate,OpenActivity,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,OpenActivity.Location,Location,OpenActivity,,Location,場所,場所,テキスト(80),false,true,false,true,true,true
+000000000000000AAA,OpenActivity.Owner,OwnerId,OpenActivity,,Owner,割り当て先,割り当て先,"参照関係(ユーザー,カレンダー,グループ)",false,true,false,true,true,true
+000000000000000AAA,OpenActivity.Priority,Priority,OpenActivity,,Priority,優先度,優先度,選択リスト,false,true,false,true,true,true
+000000000000000AAA,OpenActivity.ReminderDateTime,ReminderDateTime,OpenActivity,,ReminderDateTime,アラーム日付/時間,アラーム日付/時間,日付/時間,false,true,false,true,false,true
+000000000000000AAA,OpenActivity.StartDateTime,StartDateTime,OpenActivity,,StartDateTime,開始,開始,日付/時間,false,true,false,true,false,true
+000000000000000AAA,OpenActivity.Status,Status,OpenActivity,,Status,状況,状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,OpenActivity.Subject,Subject,OpenActivity,,Subject,件名,件名,選択リスト,false,true,false,true,false,true
+000000000000000AAA,OpenActivity.SystemModstamp,SystemModstamp,OpenActivity,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,false,true,false,true
+000000000000000AAA,OpenActivity.What,WhatId,OpenActivity,,What,関連先,関連先,"参照関係(契約,注文,キャンペーン,取引先,商談,商品,納入商品,ケース,ソリューション,作業指示,作業指示品目,サービス予定,サービスリソース,割り当て済みリソース,リソースの不在,エンタイトルメント,サービス契約,契約品目名,ロケーション,出荷,納入商品リレーション,リストメール,返品注文,返品注文品目,問い合わせ要求,画像,カタログ,履行注文,請求書,プロモーション,シフト,クレジットメモ,コミュニケーション登録の同意,法人,関係者の同意,作業プラン,作業プランテンプレート,作業プランテンプレートエントリ,作業ステップ,作業ステップテンプレート,順番待ちにあるグループ,業務時間休日,プロセス例外,クーポン,プロモーションマーケットセグメント,プロモーション修飾子,プロモーションセグメント,プロモーションセグメントバイヤーグループ,プロモーションセグメント販売店,プロモーション対象,出荷項目,変更要求,障害,問題,予定招待,Web Cart Documents,プロモーションランク,予定カテゴリ,待機リスト,待機リスト参加者,プライバシーに関する RTBF 要求,クエリエディター,提出した承認申請,承認作業項目,配送見積設定,ロケーション配送業者方法,リベート支払スナップショット,配送業者,配送業者方法,提出した承認申請の詳細,環境,要求情報)",false,true,false,true,true,true
+000000000000000AAA,OpenActivity.Who,WhoId,OpenActivity,,Who,名前,名前,"参照関係(取引先責任者,リード)",false,true,false,true,true,true

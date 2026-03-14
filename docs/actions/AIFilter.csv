@@ -1,0 +1,18 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AIFilter.CreatedBy,CreatedById,AIFilter,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AIFilter.CreatedDate,CreatedDate,AIFilter,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AIFilter.FilterGroup,FilterGroupId,AIFilter,,FilterGroup,AI Filter Group,AI Filter Group,主従関係(AI Filter Group),false,false,true,true,true,true
+000000000000000AAA,AIFilter.Id,Id,AIFilter,,Id,AI Filter ID,AI Filter ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AIFilter.IsDeleted,IsDeleted,AIFilter,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AIFilter.LastModifiedBy,LastModifiedById,AIFilter,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AIFilter.LastModifiedDate,LastModifiedDate,AIFilter,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AIFilter.LhFilter,LhFilterId,AIFilter,,LhFilter,Left Hand Filter,Left Hand Filter,参照関係(AI Filter),false,true,false,true,true,true
+000000000000000AAA,AIFilter.LhPredictionField,LhPredictionFieldId,AIFilter,,LhPredictionField,Left Hand Prediction Field,Left Hand Prediction Field,参照関係(エンティティ),false,true,false,true,true,true
+000000000000000AAA,AIFilter.LhUnit,LhUnit,AIFilter,,LhUnit,Filter Unit for Left Hand Filter,Filter Unit for Left Hand Filter,選択リスト,false,true,false,true,true,true
+000000000000000AAA,AIFilter.ManageableState,ManageableState,AIFilter,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,AIFilter.Operation,Operation,AIFilter,,Operation,Operation,Operation,選択リスト,false,true,false,true,true,true
+000000000000000AAA,AIFilter.RhFilter,RhFilterId,AIFilter,,RhFilter,Right Hand Filter,Right Hand Filter,参照関係(AI Filter),false,true,false,true,true,true
+000000000000000AAA,AIFilter.RhPredictionField,RhPredictionFieldId,AIFilter,,RhPredictionField,Right Hand Prediction Field,Right Hand Prediction Field,参照関係(エンティティ),false,true,false,true,true,true
+000000000000000AAA,AIFilter.RhUnit,RhUnit,AIFilter,,RhUnit,Filter Unit for Right Hand Filter,Filter Unit for Right Hand Filter,選択リスト,false,true,false,true,true,true
+000000000000000AAA,AIFilter.SortOrder,SortOrder,AIFilter,,SortOrder,Sort Order,Sort Order,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,AIFilter.SystemModstamp,SystemModstamp,AIFilter,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

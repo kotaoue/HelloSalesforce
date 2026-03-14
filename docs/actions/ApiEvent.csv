@@ -1,0 +1,36 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ApiEvent.ActionName,ActionName,ApiEvent,,ActionName,アクション名,アクション名,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.AdditionalInfo,AdditionalInfo,ApiEvent,,AdditionalInfo,追加情報,追加情報,テキスト(10000),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.ApiType,ApiType,ApiEvent,,ApiType,API 種別,API 種別,テキスト(80),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.ApiVersion,ApiVersion,ApiEvent,,ApiVersion,API バージョン,API バージョン,数値(18、0),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.Application,Application,ApiEvent,,Application,アプリケーション,アプリケーション,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.BotSessionIdentifier,BotSessionIdentifier,ApiEvent,,BotSessionIdentifier,ボットセッション識別子,ボットセッション識別子,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.Client,Client,ApiEvent,,Client,Client,Client,テキスト(512),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.ConnectedApp,ConnectedAppId,ApiEvent,,ConnectedApp,接続アプリケーション,接続アプリケーション,参照関係(接続アプリケーション),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.CreatedDate,CreatedDate,ApiEvent,,CreatedDate,作成日,作成日,日付/時間,false,false,false,false,false,false
+000000000000000AAA,ApiEvent.ElapsedTime,ElapsedTime,ApiEvent,,ElapsedTime,Elapsed Time,Elapsed Time,数値(9、0),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.EvaluationTime,EvaluationTime,ApiEvent,,EvaluationTime,評価時間,評価時間,数値(18、0),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.EventDate,EventDate,ApiEvent,,EventDate,イベント日,イベント日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ApiEvent.EventIdentifier,EventIdentifier,ApiEvent,,EventIdentifier,イベント識別子,イベント識別子,テキスト(80),false,false,false,true,false,true
+000000000000000AAA,ApiEvent.Id,Id,ApiEvent,,Id,API イベント ID,API イベント ID,参照関係(),false,false,false,false,false,false
+000000000000000AAA,ApiEvent.LoginHistory,LoginHistoryId,ApiEvent,,LoginHistory,ログイン履歴,ログイン履歴,参照関係(ログイン履歴),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.LoginKey,LoginKey,ApiEvent,,LoginKey,ログインキー,ログインキー,テキスト(24),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.Operation,Operation,ApiEvent,,Operation,操作,操作,選択リスト,false,true,false,false,false,false
+000000000000000AAA,ApiEvent.OperationStatus,OperationStatus,ApiEvent,,OperationStatus,操作状況,操作状況,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.Planner,PlannerId,ApiEvent,,Planner,プランナー,プランナー,参照関係(生成 AI プランナー定義),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.Platform,Platform,ApiEvent,,Platform,プラットフォーム,プラットフォーム,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.Policy,PolicyId,ApiEvent,,Policy,ポリシー,ポリシー,参照関係(Transaction Security Policy),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.PolicyOutcome,PolicyOutcome,ApiEvent,,PolicyOutcome,ポリシーの結果,ポリシーの結果,選択リスト,false,true,false,false,false,false
+000000000000000AAA,ApiEvent.QueriedEntities,QueriedEntities,ApiEvent,,QueriedEntities,照会されるエンティティ,照会されるエンティティ,テキスト(1000),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.Query,Query,ApiEvent,,Query,クエリ,クエリ,テキスト(10000),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.Records,Records,ApiEvent,,Records,レコード,レコード,テキスト(250000),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.RelatedEventIdentifier,RelatedEventIdentifier,ApiEvent,,RelatedEventIdentifier,関連イベント識別子,関連イベント識別子,テキスト(80),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.RequestIdentifier,RequestIdentifier,ApiEvent,,RequestIdentifier,要求識別子,要求識別子,テキスト(80),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.RowsProcessed,RowsProcessed,ApiEvent,,RowsProcessed,処理行,処理行,数値(18、0),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.RowsReturned,RowsReturned,ApiEvent,,RowsReturned,返された行数,返された行数,数値(18、0),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.SessionKey,SessionKey,ApiEvent,,SessionKey,セッションキー,セッションキー,テキスト(24),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.SessionLevel,SessionLevel,ApiEvent,,SessionLevel,セッションレベル,セッションレベル,選択リスト,false,true,false,false,false,false
+000000000000000AAA,ApiEvent.SourceIp,SourceIp,ApiEvent,,SourceIp,アクセス元 IP,アクセス元 IP,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.User,UserId,ApiEvent,,User,ユーザー,ユーザー,参照関係(ユーザー),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.UserAgent,UserAgent,ApiEvent,,UserAgent,ユーザーエージェント,ユーザーエージェント,テキスト(1000),false,true,false,false,false,false
+000000000000000AAA,ApiEvent.Username,Username,ApiEvent,,Username,ユーザー名,ユーザー名,テキスト(255),false,true,false,false,false,false

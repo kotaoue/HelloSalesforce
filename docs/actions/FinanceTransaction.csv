@@ -1,0 +1,57 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,FinanceTransaction.Account,AccountId,FinanceTransaction,,Account,口座,口座,参照関係(取引先),false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.AdjustmentAmount,AdjustmentAmount,FinanceTransaction,,AdjustmentAmount,調整金額,調整金額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,FinanceTransaction.BaseCurrencyAmount,BaseCurrencyAmount,FinanceTransaction,,BaseCurrencyAmount,基本通貨金額,基本通貨金額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,FinanceTransaction.BaseCurrencyBalance,BaseCurrencyBalance,FinanceTransaction,,BaseCurrencyBalance,基本通貨残高,基本通貨残高,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,FinanceTransaction.BaseCurrencyFxDate,BaseCurrencyFxDate,FinanceTransaction,,BaseCurrencyFxDate,基本通貨外国為替日,基本通貨外国為替日,日付,false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.BaseCurrencyFxRate,BaseCurrencyFxRate,FinanceTransaction,,BaseCurrencyFxRate,基本通貨外国為替レート,基本通貨外国為替レート,数値(16、2),false,true,false,true,false,true
+000000000000000AAA,FinanceTransaction.BaseCurrencyIsoCode,BaseCurrencyIsoCode,FinanceTransaction,,BaseCurrencyIsoCode,基本通貨 ISO コード,基本通貨 ISO コード,テキスト(3),false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.ChargeAmount,ChargeAmount,FinanceTransaction,,ChargeAmount,請求金額,請求金額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,FinanceTransaction.CreatedBy,CreatedById,FinanceTransaction,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,FinanceTransaction.CreatedDate,CreatedDate,FinanceTransaction,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,FinanceTransaction.CreationMode,CreationMode,FinanceTransaction,,CreationMode,作成モード,作成モード,選択リスト,false,false,false,true,true,true
+000000000000000AAA,FinanceTransaction.DestinationEntity,DestinationEntityId,FinanceTransaction,,DestinationEntity,対象エンティティ,対象エンティティ,"参照関係(請求書,請求書品目,クレジットメモ,クレジットメモ品目,支払い,支払い行請求書,返金,品目支払の返金,クレジットメモ請求書アプリケーション)",false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.DueDate,DueDate,FinanceTransaction,,DueDate,期日,期日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,FinanceTransaction.EffectiveDate,EffectiveDate,FinanceTransaction,,EffectiveDate,発効日,発効日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,FinanceTransaction.EventAction,EventAction,FinanceTransaction,,EventAction,イベントアクション,イベントアクション,選択リスト,false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.EventType,EventType,FinanceTransaction,,EventType,イベント種別,イベント種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.FinanceSystemIntegrationMode,FinanceSystemIntegrationMode,FinanceTransaction,,FinanceSystemIntegrationMode,会計システムインテグレーションモード,会計システムインテグレーションモード,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.FinanceSystemIntegrationStatus,FinanceSystemIntegrationStatus,FinanceTransaction,,FinanceSystemIntegrationStatus,会計システムインテグレーション状況,会計システムインテグレーション状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.FinanceSystemName,FinanceSystemName,FinanceTransaction,,FinanceSystemName,会計システム名,会計システム名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.FinanceSystemTransactionNumber,FinanceSystemTransactionNumber,FinanceTransaction,,FinanceSystemTransactionNumber,会計システムトランザクション番号,会計システムトランザクション番号,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.Id,Id,FinanceTransaction,,Id,金融取引 ID,金融取引 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,FinanceTransaction.ImpactAmount,ImpactAmount,FinanceTransaction,,ImpactAmount,影響金額,影響金額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,FinanceTransaction.IsDeleted,IsDeleted,FinanceTransaction,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,FinanceTransaction.LastModifiedBy,LastModifiedById,FinanceTransaction,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,FinanceTransaction.LastModifiedDate,LastModifiedDate,FinanceTransaction,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,FinanceTransaction.LastReferencedDate,LastReferencedDate,FinanceTransaction,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,FinanceTransaction.LastViewedDate,LastViewedDate,FinanceTransaction,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,FinanceTransaction.LegalEntity,LegalEntityId,FinanceTransaction,,LegalEntity,法人,法人,参照関係(法人),false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.Name,FinanceTransactionNumber,FinanceTransaction,,Name,名前,名前,自動採番,false,false,true,true,false,true
+000000000000000AAA,FinanceTransaction.OriginalCreditGlAccountName,OriginalCreditGlAccountName,FinanceTransaction,,OriginalCreditGlAccountName,元の貸方 GL 勘定名,元の貸方 GL 勘定名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.OriginalCreditGlAccountNumber,OriginalCreditGlAccountNumber,FinanceTransaction,,OriginalCreditGlAccountNumber,元の貸方 GL 勘定番号,元の貸方 GL 勘定番号,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.OriginalDebitGlAccountName,OriginalDebitGlAccountName,FinanceTransaction,,OriginalDebitGlAccountName,元の借方 GL 勘定名,元の借方 GL 勘定名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.OriginalDebitGlAccountNumber,OriginalDebitGlAccountNumber,FinanceTransaction,,OriginalDebitGlAccountNumber,元の借方 GL 勘定名,元の借方 GL 勘定名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.OriginalEventAction,OriginalEventAction,FinanceTransaction,,OriginalEventAction,元のイベントアクション,元のイベントアクション,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.OriginalEventType,OriginalEventType,FinanceTransaction,,OriginalEventType,元のイベント種別,元のイベント種別,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.OriginalFinanceBookName,OriginalFinanceBookName,FinanceTransaction,,OriginalFinanceBookName,元の財務帳簿名,元の財務帳簿名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.OriginalFinancePeriodEndDate,OriginalFinancePeriodEndDate,FinanceTransaction,,OriginalFinancePeriodEndDate,元の財務期間終了日,元の財務期間終了日,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.OriginalFinancePeriodName,OriginalFinancePeriodName,FinanceTransaction,,OriginalFinancePeriodName,元の財務期間名,元の財務期間名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.OriginalFinancePeriodStartDate,OriginalFinancePeriodStartDate,FinanceTransaction,,OriginalFinancePeriodStartDate,元の財務期間開始日,元の財務期間開始日,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.OriginalFinancePeriodStatus,OriginalFinancePeriodStatus,FinanceTransaction,,OriginalFinancePeriodStatus,元の財務期間状況,元の財務期間状況,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.OriginalGlRuleName,OriginalGlRuleName,FinanceTransaction,,OriginalGlRuleName,元の GL ルール名,元の GL ルール名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.OriginalGlTreatmentName,OriginalGlTreatmentName,FinanceTransaction,,OriginalGlTreatmentName,元の GL 処理名,元の GL 処理名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.OriginalReferenceEntityType,OriginalReferenceEntityType,FinanceTransaction,,OriginalReferenceEntityType,元の参照エンティティ種別,元の参照エンティティ種別,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.Owner,OwnerId,FinanceTransaction,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,FinanceTransaction.ParentReferenceEntity,ParentReferenceEntityId,FinanceTransaction,,ParentReferenceEntity,親参照エンティティ,親参照エンティティ,"参照関係(請求書,請求書品目,クレジットメモ,クレジットメモ品目,支払い,支払い行請求書,返金,品目支払の返金,クレジットメモ請求書アプリケーション)",false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.RecordVisibility,RecordVisibilityId,FinanceTransaction,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.ReferenceEntity,ReferenceEntityId,FinanceTransaction,,ReferenceEntity,参照エンティティ,参照エンティティ,"参照関係(請求書,請求書品目,クレジットメモ,クレジットメモ品目,支払い,支払い行請求書,返金,品目支払の返金,クレジットメモ請求書アプリケーション)",false,true,true,true,true,true
+000000000000000AAA,FinanceTransaction.ReferenceEntityType,ReferenceEntityType,FinanceTransaction,,ReferenceEntityType,参照エンティティ種別,参照エンティティ種別,選択リスト,false,true,true,true,true,true
+000000000000000AAA,FinanceTransaction.ResultingBalance,ResultingBalance,FinanceTransaction,,ResultingBalance,結果残高,結果残高,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,FinanceTransaction.SourceEntity,SourceEntityId,FinanceTransaction,,SourceEntity,ソースエンティティ,ソースエンティティ,"参照関係(請求書,請求書品目,クレジットメモ,クレジットメモ品目,支払い,支払い行請求書,返金,品目支払の返金,クレジットメモ請求書アプリケーション)",false,true,false,true,true,true
+000000000000000AAA,FinanceTransaction.Subtotal,Subtotal,FinanceTransaction,,Subtotal,小計,小計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,FinanceTransaction.SystemModstamp,SystemModstamp,FinanceTransaction,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,FinanceTransaction.TaxAmount,TaxAmount,FinanceTransaction,,TaxAmount,税額,税額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,FinanceTransaction.TotalAmountWithTax,TotalAmountWithTax,FinanceTransaction,,TotalAmountWithTax,税込総額,税込総額,通貨(16、2),false,false,false,true,false,true
+000000000000000AAA,FinanceTransaction.TransactionDate,TransactionDate,FinanceTransaction,,TransactionDate,取引日,取引日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,FinanceTransaction.UserRecordAccess,UserRecordAccessId,FinanceTransaction,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

@@ -1,0 +1,17 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DataAssessmentFieldMetric.CreatedBy,CreatedById,DataAssessmentFieldMetric,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,DataAssessmentFieldMetric.CreatedDate,CreatedDate,DataAssessmentFieldMetric,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DataAssessmentFieldMetric.DataAssessmentMetric,DataAssessmentMetricId,DataAssessmentFieldMetric,,DataAssessmentMetric,データ評価メトリクス,データ評価メトリクス,主従関係(データ評価メトリクス),false,false,true,true,true,true
+000000000000000AAA,DataAssessmentFieldMetric.FieldName,FieldName,DataAssessmentFieldMetric,,FieldName,項目名,項目名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataAssessmentFieldMetric.Id,Id,DataAssessmentFieldMetric,,Id,データ評価項目メトリクス ID,データ評価項目メトリクス ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DataAssessmentFieldMetric.IsDeleted,IsDeleted,DataAssessmentFieldMetric,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DataAssessmentFieldMetric.LastModifiedBy,LastModifiedById,DataAssessmentFieldMetric,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DataAssessmentFieldMetric.LastModifiedDate,LastModifiedDate,DataAssessmentFieldMetric,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DataAssessmentFieldMetric.Name,Name,DataAssessmentFieldMetric,,Name,データ評価項目メトリクス,データ評価項目メトリクス,自動採番,false,false,true,true,false,true
+000000000000000AAA,DataAssessmentFieldMetric.NumMatchedBlanks,NumMatchedBlanks,DataAssessmentFieldMetric,,NumMatchedBlanks,この項目が空白になっている一致レコード数,この項目が空白になっている一致レコード数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,DataAssessmentFieldMetric.NumMatchedDifferent,NumMatchedDifferent,DataAssessmentFieldMetric,,NumMatchedDifferent,この項目の値が Data.com と異なる一致レコード数,この項目の値が Data.com と異なる一致レコード数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,DataAssessmentFieldMetric.NumMatchedInSync,NumMatchedInSync,DataAssessmentFieldMetric,,NumMatchedInSync,この項目の値が Data.com と同じ一致レコード数,この項目の値が Data.com と同じ一致レコード数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,DataAssessmentFieldMetric.NumUnmatchedBlanks,NumUnmatchedBlanks,DataAssessmentFieldMetric,,NumUnmatchedBlanks,この項目が空白になっている不一致レコード数,この項目が空白になっている不一致レコード数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,DataAssessmentFieldMetric.RecordVisibility,RecordVisibilityId,DataAssessmentFieldMetric,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,DataAssessmentFieldMetric.SystemModstamp,SystemModstamp,DataAssessmentFieldMetric,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DataAssessmentFieldMetric.UserRecordAccess,UserRecordAccessId,DataAssessmentFieldMetric,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

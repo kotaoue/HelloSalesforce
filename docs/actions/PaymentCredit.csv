@@ -1,0 +1,28 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,PaymentCredit.Account,AccountId,PaymentCredit,,Account,取引先,取引先,参照関係(取引先),false,true,false,true,true,true
+000000000000000AAA,PaymentCredit.Amount,Amount,PaymentCredit,,Amount,金額,金額,通貨(16、2),false,false,false,true,false,true
+000000000000000AAA,PaymentCredit.Balance,Balance,PaymentCredit,,Balance,残高,残高,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,PaymentCredit.Comments,Comments,PaymentCredit,,Comments,コメント,コメント,テキストエリア(255),false,true,false,true,true,true
+000000000000000AAA,PaymentCredit.CreatedBy,CreatedById,PaymentCredit,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,PaymentCredit.CreatedDate,CreatedDate,PaymentCredit,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,PaymentCredit.CreditMemo,CreditMemoId,PaymentCredit,,CreditMemo,クレジットメモ,クレジットメモ,参照関係(クレジットメモ),false,true,false,true,true,true
+000000000000000AAA,PaymentCredit.CreditType,CreditType,PaymentCredit,,CreditType,クレジット種別,クレジット種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,PaymentCredit.CreditTypeCategory,CreditTypeCategory,PaymentCredit,,CreditTypeCategory,クレジット種別カテゴリ,クレジット種別カテゴリ,選択リスト,false,false,false,true,true,true
+000000000000000AAA,PaymentCredit.EffectiveDate,EffectiveDate,PaymentCredit,,EffectiveDate,発効日,発効日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,PaymentCredit.Id,Id,PaymentCredit,,Id,支払クレジット ID,支払クレジット ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,PaymentCredit.IsDeleted,IsDeleted,PaymentCredit,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,PaymentCredit.LastModifiedBy,LastModifiedById,PaymentCredit,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,PaymentCredit.LastModifiedDate,LastModifiedDate,PaymentCredit,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,PaymentCredit.LastReferencedDate,LastReferencedDate,PaymentCredit,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,PaymentCredit.LastViewedDate,LastViewedDate,PaymentCredit,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,PaymentCredit.Name,PaymentCreditNumber,PaymentCredit,,Name,支払クレジット番号,支払クレジット番号,自動採番,false,false,true,true,false,true
+000000000000000AAA,PaymentCredit.NetApplied,NetApplied,PaymentCredit,,NetApplied,適用正価,適用正価,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,PaymentCredit.Payment,PaymentId,PaymentCredit,,Payment,支払,支払,参照関係(支払い),false,false,false,true,true,true
+000000000000000AAA,PaymentCredit.RecordVisibility,RecordVisibilityId,PaymentCredit,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,PaymentCredit.ReturnOrder,ReturnOrderId,PaymentCredit,,ReturnOrder,返品注文,返品注文,参照関係(返品注文),false,true,false,true,true,true
+000000000000000AAA,PaymentCredit.SystemModstamp,SystemModstamp,PaymentCredit,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,PaymentCredit.TotalApplied,TotalApplied,PaymentCredit,,TotalApplied,適用合計,適用合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,PaymentCredit.TotalCreditPendingTxnAmt,TotalCreditPendingTxnAmt,PaymentCredit,,TotalCreditPendingTxnAmt,保留中の合計クレジット取引金額,保留中の合計クレジット取引金額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,PaymentCredit.TotalCreditTxnAmt,TotalCreditTxnAmt,PaymentCredit,,TotalCreditTxnAmt,合計クレジット取引金額,合計クレジット取引金額,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,PaymentCredit.TotalUnapplied,TotalUnapplied,PaymentCredit,,TotalUnapplied,適用解除合計,適用解除合計,通貨(16、2),false,true,false,true,false,true
+000000000000000AAA,PaymentCredit.UserRecordAccess,UserRecordAccessId,PaymentCredit,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

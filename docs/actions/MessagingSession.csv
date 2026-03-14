@@ -1,0 +1,43 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,MessagingSession.AcceptTime,AcceptTime,MessagingSession,,AcceptTime,承諾時間,承諾時間,日付/時間,false,true,false,true,false,true
+000000000000000AAA,MessagingSession.AgentMessageCount,AgentMessageCount,MessagingSession,,AgentMessageCount,エージェントメッセージ数,エージェントメッセージ数,数値(9、0),false,true,false,false,false,false
+000000000000000AAA,MessagingSession.AgentType,AgentType,MessagingSession,,AgentType,エージェント種別,エージェント種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MessagingSession.Campaign,CampaignId,MessagingSession,,Campaign,キャンペーン,キャンペーン,参照関係(キャンペーン),false,true,false,true,true,true
+000000000000000AAA,MessagingSession.Case,CaseId,MessagingSession,,Case,ケース,ケース,参照関係(ケース),false,true,false,true,true,true
+000000000000000AAA,MessagingSession.ChannelEndUserFormula,ChannelEndUserFormula,MessagingSession,,ChannelEndUserFormula,連結されたメッセージングチャネルとメッセージングユーザー,連結されたメッセージングチャネルとメッセージングユーザー,数式 (テキスト),true,true,true,true,true,true
+000000000000000AAA,MessagingSession.ChannelGroup,ChannelGroup,MessagingSession,,ChannelGroup,グループ,グループ,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MessagingSession.ChannelIntent,ChannelIntent,MessagingSession,,ChannelIntent,インテント,インテント,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MessagingSession.ChannelKey,ChannelKey,MessagingSession,,ChannelKey,チャネルキー,チャネルキー,テキスト(150),false,true,false,true,true,true
+000000000000000AAA,MessagingSession.ChannelLocale,ChannelLocale,MessagingSession,,ChannelLocale,地域,地域,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MessagingSession.ChannelName,ChannelName,MessagingSession,,ChannelName,チャネル名,チャネル名,テキスト(80),false,true,false,true,true,true
+000000000000000AAA,MessagingSession.ChannelType,ChannelType,MessagingSession,,ChannelType,チャネル種別,チャネル種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MessagingSession.Conversation,ConversationId,MessagingSession,,Conversation,会話識別子,会話識別子,参照関係(会話),false,true,false,true,true,true
+000000000000000AAA,MessagingSession.CreatedBy,CreatedById,MessagingSession,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,MessagingSession.CreatedDate,CreatedDate,MessagingSession,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,MessagingSession.EndedByType,EndedByType,MessagingSession,,EndedByType,終了者種別,終了者種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MessagingSession.EndTime,EndTime,MessagingSession,,EndTime,終了時刻,終了時刻,日付/時間,false,true,false,true,false,true
+000000000000000AAA,MessagingSession.EndUserAccount,EndUserAccountId,MessagingSession,,EndUserAccount,メッセージングユーザーの取引先,メッセージングユーザーの取引先,参照関係(取引先),false,true,false,true,true,true
+000000000000000AAA,MessagingSession.EndUserContact,EndUserContactId,MessagingSession,,EndUserContact,メッセージングユーザーの取引先責任者,メッセージングユーザーの取引先責任者,参照関係(取引先責任者),false,true,false,true,true,true
+000000000000000AAA,MessagingSession.EndUserLanguage,EndUserLanguage,MessagingSession,,EndUserLanguage,メッセージングユーザーの言語,メッセージングユーザーの言語,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MessagingSession.EndUserMessageCount,EndUserMessageCount,MessagingSession,,EndUserMessageCount,エンドユーザーメッセージ数,エンドユーザーメッセージ数,数値(9、0),false,true,false,false,false,false
+000000000000000AAA,MessagingSession.Id,Id,MessagingSession,,Id,メッセージングセッション ID,メッセージングセッション ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,MessagingSession.IsDeleted,IsDeleted,MessagingSession,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,MessagingSession.LastModifiedBy,LastModifiedById,MessagingSession,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,MessagingSession.LastModifiedDate,LastModifiedDate,MessagingSession,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,MessagingSession.LastReferencedDate,LastReferencedDate,MessagingSession,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,MessagingSession.LastViewedDate,LastViewedDate,MessagingSession,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,MessagingSession.Lead,LeadId,MessagingSession,,Lead,リード,リード,参照関係(リード),false,true,false,true,true,true
+000000000000000AAA,MessagingSession.MessagingChannel,MessagingChannelId,MessagingSession,,MessagingChannel,メッセージングチャネル,メッセージングチャネル,参照関係(メッセージングチャネル),false,false,true,true,true,true
+000000000000000AAA,MessagingSession.MessagingEndUser,MessagingEndUserId,MessagingSession,,MessagingEndUser,メッセージングユーザー,メッセージングユーザー,参照関係(メッセージングユーザー),false,false,false,true,true,true
+000000000000000AAA,MessagingSession.Name,Name,MessagingSession,,Name,メッセージングセッション名,メッセージングセッション名,自動採番,false,false,true,true,false,true
+000000000000000AAA,MessagingSession.Opportunity,OpportunityId,MessagingSession,,Opportunity,商談,商談,参照関係(商談),false,true,false,true,true,true
+000000000000000AAA,MessagingSession.Origin,Origin,MessagingSession,,Origin,発生源,発生源,選択リスト,false,false,true,true,true,true
+000000000000000AAA,MessagingSession.Owner,OwnerId,MessagingSession,,Owner,セッション所有者,セッション所有者,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,MessagingSession.PreviewDetails,PreviewDetails,MessagingSession,,PreviewDetails,詳細をプレビュー,詳細をプレビュー,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,MessagingSession.RecordVisibility,RecordVisibilityId,MessagingSession,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,MessagingSession.SessionKey,SessionKey,MessagingSession,,SessionKey,セッションキー,セッションキー,テキスト(36),false,true,false,true,true,true
+000000000000000AAA,MessagingSession.StartTime,StartTime,MessagingSession,,StartTime,開始時刻,開始時刻,日付/時間,false,true,true,true,false,true
+000000000000000AAA,MessagingSession.Status,Status,MessagingSession,,Status,状況,状況,選択リスト,false,false,true,true,true,true
+000000000000000AAA,MessagingSession.SystemModstamp,SystemModstamp,MessagingSession,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,MessagingSession.TargetUser,TargetUserId,MessagingSession,,TargetUser,対象ユーザー,対象ユーザー,参照関係(ユーザー),false,true,false,true,true,true
+000000000000000AAA,MessagingSession.UserRecordAccess,UserRecordAccessId,MessagingSession,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

@@ -1,0 +1,31 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DataKitDeploymentLog.BundleName,BundleName,DataKitDeploymentLog,,BundleName,バンドル名,バンドル名,テキスト(100),false,true,false,true,true,true
+000000000000000AAA,DataKitDeploymentLog.ComponentName,ComponentName,DataKitDeploymentLog,,ComponentName,コンポーネント名,コンポーネント名,テキスト(100),false,true,false,true,true,true
+000000000000000AAA,DataKitDeploymentLog.ComponentTemplate,ComponentTemplateId,DataKitDeploymentLog,,ComponentTemplate,コンポーネントテンプレート,コンポーネントテンプレート,"参照関係(データソースオブジェクト,データキットオブジェクトテンプレート,データソースバンドル,外部データトランスポートオブジェクトテンプレート,データストリームテンプレート,計算済みインサイト)",false,true,false,true,true,true
+000000000000000AAA,DataKitDeploymentLog.ComponentType,ComponentType,DataKitDeploymentLog,,ComponentType,コンポーネントの種類,コンポーネントの種類,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataKitDeploymentLog.CreatedBy,CreatedById,DataKitDeploymentLog,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,DataKitDeploymentLog.CreatedDate,CreatedDate,DataKitDeploymentLog,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DataKitDeploymentLog.DataKitName,DataKitName,DataKitDeploymentLog,,DataKitName,データキット名,データキット名,テキスト(100),false,true,false,true,true,true
+000000000000000AAA,DataKitDeploymentLog.DataPackageKitDefinition,DataPackageKitDefinition,DataKitDeploymentLog,,DataPackageKitDefinition,データパッケージキット定義,データパッケージキット定義,選択リスト(データパッケージキット定義),false,true,true,true,true,true
+000000000000000AAA,DataKitDeploymentLog.DataSpaceName,DataSpaceName,DataKitDeploymentLog,,DataSpaceName,データスペース名,データスペース名,テキスト(100),false,true,false,true,true,true
+000000000000000AAA,DataKitDeploymentLog.DeployJob,DeployJob,DataKitDeploymentLog,,DeployJob,リリースジョブ,リリースジョブ,テキスト(80),false,true,false,true,true,true
+000000000000000AAA,DataKitDeploymentLog.DeploymentAction,DeploymentAction,DataKitDeploymentLog,,DeploymentAction,リリースアクション,リリースアクション,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataKitDeploymentLog.DeploymentError,DeploymentError,DataKitDeploymentLog,,DeploymentError,リリースエラー,リリースエラー,ロングテキストエリア(128000),false,true,false,false,false,false
+000000000000000AAA,DataKitDeploymentLog.DeploymentStatus,DeploymentStatus,DataKitDeploymentLog,,DeploymentStatus,リリース状況,リリース状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataKitDeploymentLog.FileBasedComponentTemplate,FileBasedComponentTemplate,DataKitDeploymentLog,,FileBasedComponentTemplate,コンポーネントテンプレート名,コンポーネントテンプレート名,テキスト(100),false,true,false,true,true,true
+000000000000000AAA,DataKitDeploymentLog.FlowInterviewIdentifier,FlowInterviewIdentifier,DataKitDeploymentLog,,FlowInterviewIdentifier,フローインタビュー識別子,フローインタビュー識別子,テキスト(80),false,true,false,true,true,true
+000000000000000AAA,DataKitDeploymentLog.Id,Id,DataKitDeploymentLog,,Id,データキットリリースログ ID,データキットリリースログ ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DataKitDeploymentLog.IsDeleted,IsDeleted,DataKitDeploymentLog,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DataKitDeploymentLog.JobIdentifier,JobIdentifier,DataKitDeploymentLog,,JobIdentifier,ジョブ識別子,ジョブ識別子,テキスト(80),false,true,false,true,true,true
+000000000000000AAA,DataKitDeploymentLog.LastModifiedBy,LastModifiedById,DataKitDeploymentLog,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DataKitDeploymentLog.LastModifiedDate,LastModifiedDate,DataKitDeploymentLog,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DataKitDeploymentLog.LastReferencedDate,LastReferencedDate,DataKitDeploymentLog,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DataKitDeploymentLog.LastViewedDate,LastViewedDate,DataKitDeploymentLog,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DataKitDeploymentLog.Name,Name,DataKitDeploymentLog,,Name,名前,名前,テキスト(255),false,true,true,true,true,true
+000000000000000AAA,DataKitDeploymentLog.Owner,OwnerId,DataKitDeploymentLog,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,DataKitDeploymentLog.PublisherOrgComponent,PublisherOrgComponentId,DataKitDeploymentLog,,PublisherOrgComponent,パブリッシャー組織コンポーネント,パブリッシャー組織コンポーネント,"参照関係(データレイクオブジェクト定義,データモデルオブジェクト,計算済みインサイト,データ変換,データ接続)",false,true,false,true,true,true
+000000000000000AAA,DataKitDeploymentLog.RecordVisibility,RecordVisibilityId,DataKitDeploymentLog,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,DataKitDeploymentLog.SubscriberOrgComponent,SubscriberOrgComponentId,DataKitDeploymentLog,,SubscriberOrgComponent,登録者組織コンポーネント,登録者組織コンポーネント,"参照関係(データレイクオブジェクト定義,データモデルオブジェクト,計算済みインサイト,データ変換,データ接続,データカスタムコード定義,データストリーム,データグラフ,セグメント,ID 解決,データ共有,有効化対象,有効化,カスタム項目の定義,Field Enrichment Definition,データアクション対象,データアクション,Semantic Model,検索インデックス,Analytics Visualization,Analytics ダッシュボード,分析ワークスペース,セカンダリインデックス定義)",false,true,false,true,true,true
+000000000000000AAA,DataKitDeploymentLog.SystemModstamp,SystemModstamp,DataKitDeploymentLog,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DataKitDeploymentLog.TemplateVersion,TemplateVersion,DataKitDeploymentLog,,TemplateVersion,テンプレートバージョン,テンプレートバージョン,数値(18、0),false,true,false,true,false,true
+000000000000000AAA,DataKitDeploymentLog.UserRecordAccess,UserRecordAccessId,DataKitDeploymentLog,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

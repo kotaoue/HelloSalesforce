@@ -1,0 +1,19 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ChunkableTask2.CreatedBy,CreatedById,ChunkableTask2,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ChunkableTask2.CreatedDate,CreatedDate,ChunkableTask2,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ChunkableTask2.DeveloperName,DeveloperName,ChunkableTask2,,DeveloperName,API 参照名,API 参照名,テキスト(80),false,false,true,true,true,true
+000000000000000AAA,ChunkableTask2.ErrorMessage,ErrorMessage,ChunkableTask2,,ErrorMessage,Error Message,Error Message,ロングテキストエリア(4000),false,true,false,false,false,false
+000000000000000AAA,ChunkableTask2.Guid,Guid,ChunkableTask2,,Guid,Global Unique Id,Global Unique Id,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ChunkableTask2.Id,Id,ChunkableTask2,,Id,Chunkable Tasks ID,Chunkable Tasks ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ChunkableTask2.IsDeleted,IsDeleted,ChunkableTask2,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ChunkableTask2.Language,Language,ChunkableTask2,,Language,マスター言語,マスター言語,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ChunkableTask2.LastModifiedBy,LastModifiedById,ChunkableTask2,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ChunkableTask2.LastModifiedDate,LastModifiedDate,ChunkableTask2,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ChunkableTask2.MasterLabel,MasterLabel,ChunkableTask2,,MasterLabel,マスター表示ラベル,マスター表示ラベル,テキスト(80),false,false,false,true,true,true
+000000000000000AAA,ChunkableTask2.ParentEntity,ParentEntity,ChunkableTask2,,ParentEntity,Entity that identifies the parent of the task. Used for uniqueness,Entity that identifies the parent of the task. Used for uniqueness,テキスト(15),false,false,true,true,true,true
+000000000000000AAA,ChunkableTask2.Status,Status,ChunkableTask2,,Status,Status,Status,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ChunkableTask2.SystemModstamp,SystemModstamp,ChunkableTask2,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ChunkableTask2.TallyCount,TallyCount,ChunkableTask2,,TallyCount,Tally Count,Tally Count,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,ChunkableTask2.Type,Type,ChunkableTask2,,Type,Type,Type,選択リスト,false,false,true,true,true,true
+000000000000000AAA,ChunkableTask2.TypeAndStatus,TypeAndStatus,ChunkableTask2,,TypeAndStatus,A function of status: type of the task if the status is running or runnable. Used for uniqueness,A function of status: type of the task if the status is running or runnable. Used for uniqueness,テキスト(255),false,false,false,true,true,true
+000000000000000AAA,ChunkableTask2.UserSuppliedInfo,UserSuppliedInfo,ChunkableTask2,,UserSuppliedInfo,User Supplied Info,User Supplied Info,テキスト(4000),false,true,false,true,false,true

@@ -1,0 +1,26 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,MLPredictionDefinition.Application,ApplicationId,MLPredictionDefinition,,Application,AI アプリケーション,AI アプリケーション,参照関係(AI アプリケーション),false,true,true,true,true,true
+000000000000000AAA,MLPredictionDefinition.CreatedBy,CreatedById,MLPredictionDefinition,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,MLPredictionDefinition.CreatedDate,CreatedDate,MLPredictionDefinition,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,MLPredictionDefinition.Description,Description,MLPredictionDefinition,,Description,予測定義の説明,予測定義の説明,テキスト(128),false,true,false,true,true,true
+000000000000000AAA,MLPredictionDefinition.DeveloperName,DeveloperName,MLPredictionDefinition,,DeveloperName,名前,名前,テキスト(80),false,false,true,true,true,true
+000000000000000AAA,MLPredictionDefinition.ExternalId,ExternalId,MLPredictionDefinition,,ExternalId,外部 ID,外部 ID,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MLPredictionDefinition.FullName,FullName,MLPredictionDefinition,,FullName,予測定義名,予測定義名,テキスト(128),false,true,false,false,true,false
+000000000000000AAA,MLPredictionDefinition.Id,Id,MLPredictionDefinition,,Id,ML 予測定義 ID,ML 予測定義 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,MLPredictionDefinition.IsDeleted,IsDeleted,MLPredictionDefinition,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,MLPredictionDefinition.Language,Language,MLPredictionDefinition,,Language,マスター言語,マスター言語,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MLPredictionDefinition.LastModifiedBy,LastModifiedById,MLPredictionDefinition,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,MLPredictionDefinition.LastModifiedDate,LastModifiedDate,MLPredictionDefinition,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,MLPredictionDefinition.ManageableState,ManageableState,MLPredictionDefinition,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MLPredictionDefinition.MasterLabel,MasterLabel,MLPredictionDefinition,,MasterLabel,表示ラベル,表示ラベル,テキスト(80),false,false,false,true,true,true
+000000000000000AAA,MLPredictionDefinition.Metadata,Metadata,MLPredictionDefinition,,Metadata,メタデータ,メタデータ,複合値,false,true,false,false,false,false
+000000000000000AAA,MLPredictionDefinition.NamespacePrefix,NamespacePrefix,MLPredictionDefinition,,NamespacePrefix,名前空間プレフィックス,名前空間プレフィックス,テキスト,false,true,false,true,true,true
+000000000000000AAA,MLPredictionDefinition.NegativeExpression,NegativeExpressionId,MLPredictionDefinition,,NegativeExpression,否定表現,否定表現,参照関係(ML 条件),false,true,false,true,true,true
+000000000000000AAA,MLPredictionDefinition.PositiveExpression,PositiveExpressionId,MLPredictionDefinition,,PositiveExpression,肯定表現,肯定表現,参照関係(ML 条件),false,true,false,true,true,true
+000000000000000AAA,MLPredictionDefinition.PredictionField,PredictionField,MLPredictionDefinition,,PredictionField,予測項目,予測項目,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MLPredictionDefinition.PredictionStrategy,PredictionStrategy,MLPredictionDefinition,,PredictionStrategy,予測戦略,予測戦略,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MLPredictionDefinition.Priority,Priority,MLPredictionDefinition,,Priority,優先度,優先度,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,MLPredictionDefinition.PushbackField,PushbackField,MLPredictionDefinition,,PushbackField,プッシュバック項目,プッシュバック項目,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MLPredictionDefinition.Status,Status,MLPredictionDefinition,,Status,ML 予測状況,ML 予測状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,MLPredictionDefinition.SystemModstamp,SystemModstamp,MLPredictionDefinition,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,MLPredictionDefinition.Type,Type,MLPredictionDefinition,,Type,ML 予測種別,ML 予測種別,選択リスト,false,false,false,true,true,true

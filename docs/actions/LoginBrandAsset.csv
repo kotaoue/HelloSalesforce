@@ -1,0 +1,17 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,LoginBrandAsset.AssetBodyCrc,AssetBodyCrc,LoginBrandAsset,,AssetBodyCrc,アセットの内容 CRC,アセットの内容 CRC,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,LoginBrandAsset.AssetBodyLength,AssetBodyLength,LoginBrandAsset,,AssetBodyLength,アセットの内容の長さ,アセットの内容の長さ,数値(8、0),false,false,false,true,true,true
+000000000000000AAA,LoginBrandAsset.AssetCategory,AssetCategory,LoginBrandAsset,,AssetCategory,アセットカテゴリ,アセットカテゴリ,選択リスト,false,false,false,true,true,true
+000000000000000AAA,LoginBrandAsset.BinaryAsset,BinaryAsset,LoginBrandAsset,,BinaryAsset,バイナリアセット,バイナリアセット,テキストエリア,false,true,false,false,false,false
+000000000000000AAA,LoginBrandAsset.BrandingOrganization,BrandingOrganizationId,LoginBrandAsset,,BrandingOrganization,組織のブランド,組織のブランド,参照関係(AllOrganization),false,false,true,true,true,true
+000000000000000AAA,LoginBrandAsset.ContentType,ContentType,LoginBrandAsset,,ContentType,コンテンツタイプ,コンテンツタイプ,テキスト(150),false,false,false,true,true,true
+000000000000000AAA,LoginBrandAsset.CreatedBy,CreatedById,LoginBrandAsset,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,LoginBrandAsset.CreatedDate,CreatedDate,LoginBrandAsset,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,LoginBrandAsset.DeviceType,DeviceType,LoginBrandAsset,,DeviceType,デバイス種別,デバイス種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,LoginBrandAsset.Id,Id,LoginBrandAsset,,Id,ブランドアセット ID,ブランドアセット ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,LoginBrandAsset.LastModifiedBy,LastModifiedById,LoginBrandAsset,,LastModifiedBy,更新者,更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,LoginBrandAsset.LastModifiedDate,LastModifiedDate,LoginBrandAsset,,LastModifiedDate,更新日,更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,LoginBrandAsset.LoginBrand,LoginBrandId,LoginBrandAsset,,LoginBrand,ログインブランド,ログインブランド,参照関係(ログインブランド),false,false,true,true,true,true
+000000000000000AAA,LoginBrandAsset.Server,Server,LoginBrandAsset,,Server,サーバー,サーバー,テキスト(3),false,false,false,true,true,true
+000000000000000AAA,LoginBrandAsset.SourceSystemModstamp,SourceSystemModstamp,LoginBrandAsset,,SourceSystemModstamp,ソース System Modstamp,ソース System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,LoginBrandAsset.TextAsset,TextAsset,LoginBrandAsset,,TextAsset,テキストアセット,テキストアセット,テキスト(333),false,true,false,true,false,true

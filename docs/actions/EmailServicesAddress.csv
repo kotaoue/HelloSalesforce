@@ -1,0 +1,14 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,EmailServicesAddress.AuthorizedSenders,AuthorizedSenders,EmailServicesAddress,,AuthorizedSenders,許可する送信元,許可する送信元,テキストエリア(4000),false,true,false,true,false,true
+000000000000000AAA,EmailServicesAddress.CreatedBy,CreatedById,EmailServicesAddress,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,EmailServicesAddress.CreatedDate,CreatedDate,EmailServicesAddress,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,EmailServicesAddress.DeveloperName,DeveloperName,EmailServicesAddress,,DeveloperName,メールアドレス名,メールアドレス名,テキスト(25),false,false,false,true,true,true
+000000000000000AAA,EmailServicesAddress.EmailDomainName,EmailDomainName,EmailServicesAddress,,EmailDomainName,メールアドレスドメイン,メールアドレスドメイン,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,EmailServicesAddress.Function,FunctionId,EmailServicesAddress,,Function,メールサービス名,メールサービス名,参照関係(メールサービス),false,false,true,true,true,true
+000000000000000AAA,EmailServicesAddress.Id,Id,EmailServicesAddress,,Id,メールサービスアドレス ID,メールサービスアドレス ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,EmailServicesAddress.IsActive,IsActive,EmailServicesAddress,,IsActive,有効,有効,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,EmailServicesAddress.LastModifiedBy,LastModifiedById,EmailServicesAddress,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,EmailServicesAddress.LastModifiedDate,LastModifiedDate,EmailServicesAddress,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,EmailServicesAddress.LocalPart,LocalPart,EmailServicesAddress,,LocalPart,メールアドレス,メールアドレス,テキスト(64),false,false,false,true,true,true
+000000000000000AAA,EmailServicesAddress.RunAsUser,RunAsUserId,EmailServicesAddress,,RunAsUser,コンテキストユーザー,コンテキストユーザー,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,EmailServicesAddress.SystemModstamp,SystemModstamp,EmailServicesAddress,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

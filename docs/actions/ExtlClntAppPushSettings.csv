@@ -1,0 +1,17 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ExtlClntAppPushSettings.CreatedBy,CreatedById,ExtlClntAppPushSettings,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppPushSettings.CreatedDate,CreatedDate,ExtlClntAppPushSettings,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ExtlClntAppPushSettings.DeveloperName,DeveloperName,ExtlClntAppPushSettings,,DeveloperName,名前,名前,テキスト(80),false,false,true,true,true,true
+000000000000000AAA,ExtlClntAppPushSettings.ExternalClientApplication,ExternalClientApplicationId,ExtlClntAppPushSettings,,ExternalClientApplication,外部クライアントアプリケーション,外部クライアントアプリケーション,参照関係(External Client Applications)  (ユニーク),false,false,true,true,true,true
+000000000000000AAA,ExtlClntAppPushSettings.ExtlClntAppOauthSettings,ExtlClntAppOauthSettingsId,ExtlClntAppPushSettings,,ExtlClntAppOauthSettings,外部クライアントアプリケーション OAuth 設定,外部クライアントアプリケーション OAuth 設定,参照関係(外部クライアントアプリケーション OAuth 設定)  (ユニーク),false,true,true,true,true,true
+000000000000000AAA,ExtlClntAppPushSettings.Id,Id,ExtlClntAppPushSettings,,Id,外部クライアントアプリケーション転送設定 ID,外部クライアントアプリケーション転送設定 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ExtlClntAppPushSettings.IsDeleted,IsDeleted,ExtlClntAppPushSettings,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppPushSettings.Language,Language,ExtlClntAppPushSettings,,Language,マスター言語,マスター言語,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppPushSettings.LastModifiedBy,LastModifiedById,ExtlClntAppPushSettings,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppPushSettings.LastModifiedDate,LastModifiedDate,ExtlClntAppPushSettings,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ExtlClntAppPushSettings.ManageableState,ManageableState,ExtlClntAppPushSettings,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ExtlClntAppPushSettings.MasterLabel,MasterLabel,ExtlClntAppPushSettings,,MasterLabel,表示ラベル,表示ラベル,テキスト(80),false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppPushSettings.NamespacePrefix,NamespacePrefix,ExtlClntAppPushSettings,,NamespacePrefix,名前空間プレフィックス,名前空間プレフィックス,テキスト,false,true,false,true,true,true
+000000000000000AAA,ExtlClntAppPushSettings.PushConfigLink,PushConfigLink,ExtlClntAppPushSettings,,PushConfigLink,転送設定リンク,転送設定リンク,テキスト(50)  (ユニーク、大文字と小文字を区別する),false,true,true,true,true,true
+000000000000000AAA,ExtlClntAppPushSettings.PushServiceType,PushServiceType,ExtlClntAppPushSettings,,PushServiceType,転送サービス種別,転送サービス種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppPushSettings.SystemModstamp,SystemModstamp,ExtlClntAppPushSettings,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

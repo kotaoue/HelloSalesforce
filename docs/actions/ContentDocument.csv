@@ -1,0 +1,30 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ContentDocument.ArchivedBy,ArchivedById,ContentDocument,,ArchivedBy,アーカイブ作成者,アーカイブ作成者,参照関係(ユーザー),false,true,false,true,true,true
+000000000000000AAA,ContentDocument.ArchivedDate,ArchivedDate,ContentDocument,,ArchivedDate,アーカイブ日,アーカイブ日,日付,false,true,false,true,true,true
+000000000000000AAA,ContentDocument.ContentAsset,ContentAssetId,ContentDocument,,ContentAsset,アセットファイルの詳細,アセットファイルの詳細,参照関係(アセットファイル),false,true,false,true,true,true
+000000000000000AAA,ContentDocument.ContentModifiedDate,ContentModifiedDate,ContentDocument,,ContentModifiedDate,コンテンツ更新日,コンテンツ更新日,日付/時間,false,true,true,true,false,true
+000000000000000AAA,ContentDocument.ContentSize,ContentSize,ContentDocument,,ContentSize,サイズ,サイズ,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,ContentDocument.ContentSizeLong,ContentSizeLong,ContentDocument,,ContentSizeLong,サイズ,サイズ,数値(18、0),false,true,false,true,true,true
+000000000000000AAA,ContentDocument.CreatedBy,CreatedById,ContentDocument,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,ContentDocument.CreatedDate,CreatedDate,ContentDocument,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ContentDocument.Description,Description,ContentDocument,,Description,説明,説明,テキストエリア(1000),false,true,false,true,false,true
+000000000000000AAA,ContentDocument.FileExtension,FileExtension,ContentDocument,,FileExtension,ファイル拡張子,ファイル拡張子,テキスト(40),false,true,false,true,true,true
+000000000000000AAA,ContentDocument.FileType,FileType,ContentDocument,,FileType,ファイルの種類,ファイルの種類,テキスト(20),false,true,false,true,true,true
+000000000000000AAA,ContentDocument.Id,Id,ContentDocument,,Id,コンテンツドキュメント ID,コンテンツドキュメント ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ContentDocument.IsArchived,IsArchived,ContentDocument,,IsArchived,アーカイブ済み,アーカイブ済み,チェックボックス,false,false,true,true,true,true
+000000000000000AAA,ContentDocument.IsDeleted,IsDeleted,ContentDocument,,IsDeleted,削除済み,削除済み,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ContentDocument.IsInternalOnly,IsInternalOnly,ContentDocument,,IsInternalOnly,社内のみ,社内のみ,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ContentDocument.LastModifiedBy,LastModifiedById,ContentDocument,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,ContentDocument.LastModifiedDate,LastModifiedDate,ContentDocument,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ContentDocument.LastReferencedDate,LastReferencedDate,ContentDocument,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ContentDocument.LastViewedDate,LastViewedDate,ContentDocument,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ContentDocument.LatestPublishedVersion,LatestPublishedVersionId,ContentDocument,,LatestPublishedVersion,最新の公開バージョン,最新の公開バージョン,参照関係(コンテンツバージョン),false,true,true,true,true,true
+000000000000000AAA,ContentDocument.MalwareScanDate,MalwareScanDate,ContentDocument,,MalwareScanDate,マルウェアスキャン日,マルウェアスキャン日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ContentDocument.MalwareScanStatus,MalwareScanStatus,ContentDocument,,MalwareScanStatus,マルウェアスキャン状況,マルウェアスキャン状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ContentDocument.Owner,OwnerId,ContentDocument,,Owner,所有者,所有者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,ContentDocument.Parent,ParentId,ContentDocument,,Parent,参照先,参照先,参照関係(ライブラリ),false,true,true,true,true,true
+000000000000000AAA,ContentDocument.PublishStatus,PublishStatus,ContentDocument,,PublishStatus,公開状況,公開状況,選択リスト,false,false,true,true,true,true
+000000000000000AAA,ContentDocument.SharingOption,SharingOption,ContentDocument,,SharingOption,他のユーザーによる共有および共有解除を禁止,他のユーザーによる共有および共有解除を禁止,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ContentDocument.SharingPrivacy,SharingPrivacy,ContentDocument,,SharingPrivacy,レコードのファイルプライバシー,レコードのファイルプライバシー,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ContentDocument.SystemModstamp,SystemModstamp,ContentDocument,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ContentDocument.Title,Title,ContentDocument,,Title,タイトル,タイトル,テキスト(255),false,false,false,true,true,true

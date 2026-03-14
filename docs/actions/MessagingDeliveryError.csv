@@ -1,0 +1,21 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,MessagingDeliveryError.CorrelationIdentifier,CorrelationIdentifier,MessagingDeliveryError,,CorrelationIdentifier,相関関係識別子,相関関係識別子,テキスト(36),false,true,false,true,true,true
+000000000000000AAA,MessagingDeliveryError.CreatedBy,CreatedById,MessagingDeliveryError,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,MessagingDeliveryError.CreatedDate,CreatedDate,MessagingDeliveryError,,CreatedDate,日付,日付,日付/時間,false,false,true,true,false,true
+000000000000000AAA,MessagingDeliveryError.DestinationPhoneNumber,DestinationPhoneNumber,MessagingDeliveryError,,DestinationPhoneNumber,受信者の電話番号,受信者の電話番号,テキスト(64),false,true,false,true,true,true
+000000000000000AAA,MessagingDeliveryError.FailureReason,FailureReason,MessagingDeliveryError,,FailureReason,エラー,エラー,ロングテキストエリア(65536),false,true,false,false,false,false
+000000000000000AAA,MessagingDeliveryError.FlowEntity,FlowEntity,MessagingDeliveryError,,FlowEntity,ソースレコード ID,ソースレコード ID,テキスト(18),false,true,false,true,true,true
+000000000000000AAA,MessagingDeliveryError.FlowVersion,FlowVersionId,MessagingDeliveryError,,FlowVersion,プロセスバージョン,プロセスバージョン,参照関係(フローのバージョン),false,true,false,true,true,true
+000000000000000AAA,MessagingDeliveryError.FullMessage,FullMessage,MessagingDeliveryError,,FullMessage,メッセージ,メッセージ,ロングテキストエリア(65536),false,true,false,false,false,false
+000000000000000AAA,MessagingDeliveryError.Id,Id,MessagingDeliveryError,,Id,メッセージ配信エラー ID,メッセージ配信エラー ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,MessagingDeliveryError.IsDeleted,IsDeleted,MessagingDeliveryError,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,MessagingDeliveryError.LastModifiedBy,LastModifiedById,MessagingDeliveryError,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,MessagingDeliveryError.LastModifiedDate,LastModifiedDate,MessagingDeliveryError,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,MessagingDeliveryError.MessagingChannel,MessagingChannelId,MessagingDeliveryError,,MessagingChannel,チャネル,チャネル,参照関係(メッセージングチャネル),false,true,true,true,true,true
+000000000000000AAA,MessagingDeliveryError.MessagingEndUser,MessagingEndUserId,MessagingDeliveryError,,MessagingEndUser,メッセージングユーザー,メッセージングユーザー,参照関係(メッセージングユーザー),false,true,false,true,true,true
+000000000000000AAA,MessagingDeliveryError.MessagingTemplate,MessagingTemplateId,MessagingDeliveryError,,MessagingTemplate,メッセージングテンプレート,メッセージングテンプレート,参照関係(メッセージングテンプレート),false,true,false,true,true,true
+000000000000000AAA,MessagingDeliveryError.Name,Name,MessagingDeliveryError,,Name,メッセージ配信エラー名,メッセージ配信エラー名,自動採番,false,false,true,true,false,true
+000000000000000AAA,MessagingDeliveryError.RecordVisibility,RecordVisibilityId,MessagingDeliveryError,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,MessagingDeliveryError.SystemModstamp,SystemModstamp,MessagingDeliveryError,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,MessagingDeliveryError.Type,Type,MessagingDeliveryError,,Type,種別,種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,MessagingDeliveryError.UserRecordAccess,UserRecordAccessId,MessagingDeliveryError,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

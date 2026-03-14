@@ -1,0 +1,9 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,FinanceBalanceSnapshotShare.AccessLevel,AccessLevel,FinanceBalanceSnapshotShare,,AccessLevel,カスタムオブジェクトのアクセス権,カスタムオブジェクトのアクセス権,選択リスト,false,false,false,true,true,true
+000000000000000AAA,FinanceBalanceSnapshotShare.Id,Id,FinanceBalanceSnapshotShare,,Id,カスタムオブジェクト共有 ID,カスタムオブジェクト共有 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,FinanceBalanceSnapshotShare.IsDeleted,IsDeleted,FinanceBalanceSnapshotShare,,IsDeleted,削除,削除,チェックボックス,false,false,true,true,true,true
+000000000000000AAA,FinanceBalanceSnapshotShare.LastModifiedBy,LastModifiedById,FinanceBalanceSnapshotShare,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,FinanceBalanceSnapshotShare.LastModifiedDate,LastModifiedDate,FinanceBalanceSnapshotShare,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,FinanceBalanceSnapshotShare.Parent,ParentId,FinanceBalanceSnapshotShare,,Parent,参照先,参照先,参照関係(金融残高スナップショット),false,false,true,true,true,true
+000000000000000AAA,FinanceBalanceSnapshotShare.RowCause,RowCause,FinanceBalanceSnapshotShare,,RowCause,テリトリー割り当て方法,テリトリー割り当て方法,選択リスト(Apex 共有の理由),false,true,false,true,true,true
+000000000000000AAA,FinanceBalanceSnapshotShare.UserOrGroup,UserOrGroupId,FinanceBalanceSnapshotShare,,UserOrGroup,ユーザー/グループ,ユーザー/グループ,"参照関係(ユーザー,グループ)",false,false,true,true,true,true

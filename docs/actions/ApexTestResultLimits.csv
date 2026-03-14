@@ -1,0 +1,21 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ApexTestResultLimits.ApexTestResult,ApexTestResultId,ApexTestResultLimits,,ApexTestResult,アプリケーションテスト結果,アプリケーションテスト結果,主従関係(アプリケーションテスト結果)  (ユニーク),false,false,true,true,true,true
+000000000000000AAA,ApexTestResultLimits.AsyncCalls,AsyncCalls,ApexTestResultLimits,,AsyncCalls,非同期コールの総数,非同期コールの総数,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,ApexTestResultLimits.Callouts,Callouts,ApexTestResultLimits,,Callouts,コールアウトの総数,コールアウトの総数,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,ApexTestResultLimits.Cpu,Cpu,ApexTestResultLimits,,Cpu,Salesforce サーバーの最大 CPU 時間,Salesforce サーバーの最大 CPU 時間,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,ApexTestResultLimits.CreatedBy,CreatedById,ApexTestResultLimits,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ApexTestResultLimits.CreatedDate,CreatedDate,ApexTestResultLimits,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ApexTestResultLimits.Dml,Dml,ApexTestResultLimits,,Dml,発行された DML ステートメントの総数,発行された DML ステートメントの総数,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,ApexTestResultLimits.DmlRows,DmlRows,ApexTestResultLimits,,DmlRows,DML ステートメントの結果として処理されたレコードの総数,DML ステートメントの結果として処理されたレコードの総数,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,ApexTestResultLimits.Email,Email,ApexTestResultLimits,,Email,許可されている sendEmail メソッドの総数,許可されている sendEmail メソッドの総数,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,ApexTestResultLimits.Id,Id,ApexTestResultLimits,,Id,Apex テスト結果制限 ID,Apex テスト結果制限 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ApexTestResultLimits.IsDeleted,IsDeleted,ApexTestResultLimits,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ApexTestResultLimits.LastModifiedBy,LastModifiedById,ApexTestResultLimits,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ApexTestResultLimits.LastModifiedDate,LastModifiedDate,ApexTestResultLimits,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ApexTestResultLimits.LimitContext,LimitContext,ApexTestResultLimits,,LimitContext,コンテキストを制限,コンテキストを制限,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ApexTestResultLimits.LimitExceptions,LimitExceptions,ApexTestResultLimits,,LimitExceptions,例外を制限,例外を制限,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ApexTestResultLimits.MobilePush,MobilePush,ApexTestResultLimits,,MobilePush,Apex トランザクションごとに許可されているプッシュ通知メソッドコールの最大数,Apex トランザクションごとに許可されているプッシュ通知メソッドコールの最大数,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,ApexTestResultLimits.QueryRows,QueryRows,ApexTestResultLimits,,QueryRows,SOQL クエリで取得されたレコードの総数,SOQL クエリで取得されたレコードの総数,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,ApexTestResultLimits.Soql,Soql,ApexTestResultLimits,,Soql,発行された SOQL クエリの総数,発行された SOQL クエリの総数,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,ApexTestResultLimits.Sosl,Sosl,ApexTestResultLimits,,Sosl,発行された SOSL クエリの総数,発行された SOSL クエリの総数,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,ApexTestResultLimits.SystemModstamp,SystemModstamp,ApexTestResultLimits,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

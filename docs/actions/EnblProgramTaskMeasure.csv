@@ -1,0 +1,13 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,EnblProgramTaskMeasure.CreatedBy,CreatedById,EnblProgramTaskMeasure,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,EnblProgramTaskMeasure.CreatedDate,CreatedDate,EnblProgramTaskMeasure,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,EnblProgramTaskMeasure.EnablementMeasureDefinition,EnablementMeasureDefinitionId,EnblProgramTaskMeasure,,EnablementMeasureDefinition,イネーブルメント基準,イネーブルメント基準,参照関係(イネーブルメント基準),false,false,false,true,true,true
+000000000000000AAA,EnblProgramTaskMeasure.EnblProgramTaskDefinition,EnblProgramTaskDefinitionId,EnblProgramTaskMeasure,,EnblProgramTaskDefinition,イネーブルメントプログラムタスク定義,イネーブルメントプログラムタスク定義,主従関係(イネーブルメントプログラムタスク定義),false,false,true,true,true,true
+000000000000000AAA,EnblProgramTaskMeasure.Id,Id,EnblProgramTaskMeasure,,Id,イネーブルメントプログラムタスク基準 ID,イネーブルメントプログラムタスク基準 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,EnblProgramTaskMeasure.IsDeleted,IsDeleted,EnblProgramTaskMeasure,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,EnblProgramTaskMeasure.LastModifiedBy,LastModifiedById,EnblProgramTaskMeasure,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,EnblProgramTaskMeasure.LastModifiedDate,LastModifiedDate,EnblProgramTaskMeasure,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,EnblProgramTaskMeasure.RecordVisibility,RecordVisibilityId,EnblProgramTaskMeasure,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,EnblProgramTaskMeasure.SequenceNumber,SequenceNumber,EnblProgramTaskMeasure,,SequenceNumber,連番,連番,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,EnblProgramTaskMeasure.SystemModstamp,SystemModstamp,EnblProgramTaskMeasure,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,EnblProgramTaskMeasure.UserRecordAccess,UserRecordAccessId,EnblProgramTaskMeasure,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
