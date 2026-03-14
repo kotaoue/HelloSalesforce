@@ -1,7 +1,7 @@
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { fetchFieldDefinitions } from './lib/fetch.js';
-import { saveResults, saveResultsAsCsv } from './lib/output.js';
+import { saveResults, saveResultsAsCsv, saveResultsPerObject, saveResultsAsCsvPerObject } from './lib/output.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -37,7 +37,19 @@ switch (format) {
       process.exit(1);
     });
     break;
+  case 'json-per-object':
+    await saveResultsPerObject(data, OUTPUT_DIR).catch((err) => {
+      console.error(err);
+      process.exit(1);
+    });
+    break;
+  case 'csv-per-object':
+    await saveResultsAsCsvPerObject(data, OUTPUT_DIR).catch((err) => {
+      console.error(err);
+      process.exit(1);
+    });
+    break;
   default:
-    console.error('Error: format argument is missing or invalid. Use "json" or "csv".');
+    console.error('Error: format argument is missing or invalid. Use "json", "csv", "json-per-object", or "csv-per-object".');
     process.exit(1);
 }
