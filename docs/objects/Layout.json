@@ -1,0 +1,511 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 24,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Layout.AllManagedPackageMember"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Layout.AllManagedPackageMember",
+      "QualifiedApiName": "AllManagedPackageMemberId",
+      "EntityDefinitionId": "Layout",
+      "NamespacePrefix": null,
+      "DeveloperName": "AllManagedPackageMember",
+      "MasterLabel": "AMPM エントリ",
+      "Label": "AMPM エントリ",
+      "DataType": "参照関係(すべての管理パッケージメンバー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Layout.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Layout.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "Layout",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Layout.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Layout.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "Layout",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Layout.EntityDefinition"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Layout.EntityDefinition",
+      "QualifiedApiName": "EntityDefinitionId",
+      "EntityDefinitionId": "Layout",
+      "NamespacePrefix": null,
+      "DeveloperName": "EntityDefinition",
+      "MasterLabel": "エンティティ定義",
+      "Label": "エンティティ定義",
+      "DataType": "外部参照(エンティティ定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Layout.FullName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Layout.FullName",
+      "QualifiedApiName": "FullName",
+      "EntityDefinitionId": "Layout",
+      "NamespacePrefix": null,
+      "DeveloperName": "FullName",
+      "MasterLabel": "氏名",
+      "Label": "氏名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Layout.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Layout.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "Layout",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "ページレイアウト ID",
+      "Label": "ページレイアウト ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Layout.IsAssignmentSelectedByDefault"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Layout.IsAssignmentSelectedByDefault",
+      "QualifiedApiName": "IsAssignmentSelectedByDefault",
+      "EntityDefinitionId": "Layout",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsAssignmentSelectedByDefault",
+      "MasterLabel": "デフォルトの割り当てオプション",
+      "Label": "デフォルトの割り当てオプション",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Layout.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Layout.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "Layout",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Layout.IsEmailSelectedByDefault"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Layout.IsEmailSelectedByDefault",
+      "QualifiedApiName": "IsEmailSelectedByDefault",
+      "EntityDefinitionId": "Layout",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsEmailSelectedByDefault",
+      "MasterLabel": "デフォルトのメールオプション",
+      "Label": "デフォルトのメールオプション",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Layout.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Layout.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "Layout",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Layout.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Layout.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "Layout",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Layout.LayoutType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Layout.LayoutType",
+      "QualifiedApiName": "LayoutType",
+      "EntityDefinitionId": "Layout",
+      "NamespacePrefix": null,
+      "DeveloperName": "LayoutType",
+      "MasterLabel": "Layout Type",
+      "Label": "Layout Type",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Layout.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Layout.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "Layout",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Layout.Metadata"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Layout.Metadata",
+      "QualifiedApiName": "Metadata",
+      "EntityDefinitionId": "Layout",
+      "NamespacePrefix": null,
+      "DeveloperName": "Metadata",
+      "MasterLabel": "レイアウトメタデータ",
+      "Label": "レイアウトメタデータ",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Layout.ModuleNamespace"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Layout.ModuleNamespace",
+      "QualifiedApiName": "ModuleNamespace",
+      "EntityDefinitionId": "Layout",
+      "NamespacePrefix": null,
+      "DeveloperName": "ModuleNamespace",
+      "MasterLabel": "モジュール名前空間",
+      "Label": "モジュール名前空間",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Layout.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Layout.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "Layout",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "ページレイアウト名",
+      "Label": "ページレイアウト名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Layout.NameNorm"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Layout.NameNorm",
+      "QualifiedApiName": "NameNorm",
+      "EntityDefinitionId": "Layout",
+      "NamespacePrefix": null,
+      "DeveloperName": "NameNorm",
+      "MasterLabel": "ページレイアウト名",
+      "Label": "ページレイアウト名",
+      "DataType": "テキスト(160)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Layout.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Layout.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "Layout",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Layout.Options"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Layout.Options",
+      "QualifiedApiName": "Options",
+      "EntityDefinitionId": "Layout",
+      "NamespacePrefix": null,
+      "DeveloperName": "Options",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val Options not found in section udd_Layout",
+      "Label": "__MISSING LABEL__ PropertyFile - val Options not found in section udd_Layout",
+      "DataType": "ビットベクター",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Layout.ShowAssignmentOption"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Layout.ShowAssignmentOption",
+      "QualifiedApiName": "ShowAssignmentOption",
+      "EntityDefinitionId": "Layout",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShowAssignmentOption",
+      "MasterLabel": "割り当てオプションの表示",
+      "Label": "割り当てオプションの表示",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Layout.ShowEmailOption"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Layout.ShowEmailOption",
+      "QualifiedApiName": "ShowEmailOption",
+      "EntityDefinitionId": "Layout",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShowEmailOption",
+      "MasterLabel": "メールオプションの表示",
+      "Label": "メールオプションの表示",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Layout.ShowSubmitAndAttachButton"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Layout.ShowSubmitAndAttachButton",
+      "QualifiedApiName": "ShowSubmitAndAttachButton",
+      "EntityDefinitionId": "Layout",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShowSubmitAndAttachButton",
+      "MasterLabel": "[登録 & ファイルを添付] ボタンを表示",
+      "Label": "[登録 & ファイルを添付] ボタンを表示",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Layout.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Layout.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "Layout",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Layout.TableEnumOrId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Layout.TableEnumOrId",
+      "QualifiedApiName": "TableEnumOrId",
+      "EntityDefinitionId": "Layout",
+      "NamespacePrefix": null,
+      "DeveloperName": "TableEnumOrId",
+      "MasterLabel": "エンティティ",
+      "Label": "エンティティ",
+      "DataType": "選択リスト(カスタムオブジェクトの定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

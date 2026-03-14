@@ -1,0 +1,280 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 13,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FinanceTransactionOwnerSharingRule.AccessLevel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FinanceTransactionOwnerSharingRule.AccessLevel",
+      "QualifiedApiName": "AccessLevel",
+      "EntityDefinitionId": "FinanceTransactionOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "AccessLevel",
+      "MasterLabel": "カスタムオブジェクトのアクセス権",
+      "Label": "カスタムオブジェクトのアクセス権",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FinanceTransactionOwnerSharingRule.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FinanceTransactionOwnerSharingRule.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "FinanceTransactionOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FinanceTransactionOwnerSharingRule.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FinanceTransactionOwnerSharingRule.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "FinanceTransactionOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FinanceTransactionOwnerSharingRule.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FinanceTransactionOwnerSharingRule.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "FinanceTransactionOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "テキストエリア(1000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FinanceTransactionOwnerSharingRule.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FinanceTransactionOwnerSharingRule.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "FinanceTransactionOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "API 参照名",
+      "Label": "API 参照名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FinanceTransactionOwnerSharingRule.Group"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FinanceTransactionOwnerSharingRule.Group",
+      "QualifiedApiName": "GroupId",
+      "EntityDefinitionId": "FinanceTransactionOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Group",
+      "MasterLabel": "グループ",
+      "Label": "グループ",
+      "DataType": "参照関係(グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FinanceTransactionOwnerSharingRule.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FinanceTransactionOwnerSharingRule.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "FinanceTransactionOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "カスタムオブジェクト所有者ルール ID",
+      "Label": "カスタムオブジェクト所有者ルール ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FinanceTransactionOwnerSharingRule.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FinanceTransactionOwnerSharingRule.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "FinanceTransactionOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FinanceTransactionOwnerSharingRule.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FinanceTransactionOwnerSharingRule.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "FinanceTransactionOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FinanceTransactionOwnerSharingRule.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FinanceTransactionOwnerSharingRule.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "FinanceTransactionOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FinanceTransactionOwnerSharingRule.Options"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FinanceTransactionOwnerSharingRule.Options",
+      "QualifiedApiName": "Options",
+      "EntityDefinitionId": "FinanceTransactionOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Options",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val Options not found in section udd_CustomObjectOwnerSharingRule",
+      "Label": "__MISSING LABEL__ PropertyFile - val Options not found in section udd_CustomObjectOwnerSharingRule",
+      "DataType": "ビットベクター",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FinanceTransactionOwnerSharingRule.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FinanceTransactionOwnerSharingRule.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "FinanceTransactionOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FinanceTransactionOwnerSharingRule.UserOrGroup"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FinanceTransactionOwnerSharingRule.UserOrGroup",
+      "QualifiedApiName": "UserOrGroupId",
+      "EntityDefinitionId": "FinanceTransactionOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserOrGroup",
+      "MasterLabel": "ユーザー/グループ",
+      "Label": "ユーザー/グループ",
+      "DataType": "参照関係(グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

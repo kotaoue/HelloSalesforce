@@ -1,0 +1,196 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 9,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FOStatusChangedEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FOStatusChangedEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "FOStatusChangedEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FOStatusChangedEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FOStatusChangedEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "FOStatusChangedEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FOStatusChangedEvent.EventUuid"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FOStatusChangedEvent.EventUuid",
+      "QualifiedApiName": "EventUuid",
+      "EntityDefinitionId": "FOStatusChangedEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventUuid",
+      "MasterLabel": "履行注文状況変更イベントのイベント UUID",
+      "Label": "履行注文状況変更イベントのイベント UUID",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FOStatusChangedEvent.FulfillmentOrder"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FOStatusChangedEvent.FulfillmentOrder",
+      "QualifiedApiName": "FulfillmentOrderId",
+      "EntityDefinitionId": "FOStatusChangedEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "FulfillmentOrder",
+      "MasterLabel": "履行注文",
+      "Label": "履行注文",
+      "DataType": "参照関係(履行注文)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FOStatusChangedEvent.NewStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FOStatusChangedEvent.NewStatus",
+      "QualifiedApiName": "NewStatus",
+      "EntityDefinitionId": "FOStatusChangedEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewStatus",
+      "MasterLabel": "新規状況",
+      "Label": "新規状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FOStatusChangedEvent.NewStatusCategory"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FOStatusChangedEvent.NewStatusCategory",
+      "QualifiedApiName": "NewStatusCategory",
+      "EntityDefinitionId": "FOStatusChangedEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewStatusCategory",
+      "MasterLabel": "新規状況のカテゴリ",
+      "Label": "新規状況のカテゴリ",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FOStatusChangedEvent.OldStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FOStatusChangedEvent.OldStatus",
+      "QualifiedApiName": "OldStatus",
+      "EntityDefinitionId": "FOStatusChangedEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldStatus",
+      "MasterLabel": "古い状況",
+      "Label": "古い状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FOStatusChangedEvent.OldStatusCategory"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FOStatusChangedEvent.OldStatusCategory",
+      "QualifiedApiName": "OldStatusCategory",
+      "EntityDefinitionId": "FOStatusChangedEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldStatusCategory",
+      "MasterLabel": "古い状況のカテゴリ",
+      "Label": "古い状況のカテゴリ",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FOStatusChangedEvent.ReplayId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FOStatusChangedEvent.ReplayId",
+      "QualifiedApiName": "ReplayId",
+      "EntityDefinitionId": "FOStatusChangedEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReplayId",
+      "MasterLabel": "履行注文状況変更イベント再実行 ID",
+      "Label": "履行注文状況変更イベント再実行 ID",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

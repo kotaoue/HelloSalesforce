@@ -1,0 +1,238 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 11,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalTestCaseCriteria.AiEvalMetricType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalTestCaseCriteria.AiEvalMetricType",
+      "QualifiedApiName": "AiEvalMetricType",
+      "EntityDefinitionId": "AiEvalTestCaseCriteria",
+      "NamespacePrefix": null,
+      "DeveloperName": "AiEvalMetricType",
+      "MasterLabel": "AI 評価メトリクス種別",
+      "Label": "AI 評価メトリクス種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalTestCaseCriteria.AiEvalTestCase"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalTestCaseCriteria.AiEvalTestCase",
+      "QualifiedApiName": "AiEvalTestCaseId",
+      "EntityDefinitionId": "AiEvalTestCaseCriteria",
+      "NamespacePrefix": null,
+      "DeveloperName": "AiEvalTestCase",
+      "MasterLabel": "AI 評価テストケース",
+      "Label": "AI 評価テストケース",
+      "DataType": "主従関係(AI 評価テストケース)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalTestCaseCriteria.AiEvaluationModel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalTestCaseCriteria.AiEvaluationModel",
+      "QualifiedApiName": "AiEvaluationModel",
+      "EntityDefinitionId": "AiEvalTestCaseCriteria",
+      "NamespacePrefix": null,
+      "DeveloperName": "AiEvaluationModel",
+      "MasterLabel": "AI 評価モデル",
+      "Label": "AI 評価モデル",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalTestCaseCriteria.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalTestCaseCriteria.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AiEvalTestCaseCriteria",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalTestCaseCriteria.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalTestCaseCriteria.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AiEvalTestCaseCriteria",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalTestCaseCriteria.CriteriaLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalTestCaseCriteria.CriteriaLabel",
+      "QualifiedApiName": "CriteriaLabel",
+      "EntityDefinitionId": "AiEvalTestCaseCriteria",
+      "NamespacePrefix": null,
+      "DeveloperName": "CriteriaLabel",
+      "MasterLabel": "条件の表示ラベル",
+      "Label": "条件の表示ラベル",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalTestCaseCriteria.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalTestCaseCriteria.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AiEvalTestCaseCriteria",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "AI 評価テストケース条件 ID",
+      "Label": "AI 評価テストケース条件 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalTestCaseCriteria.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalTestCaseCriteria.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AiEvalTestCaseCriteria",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalTestCaseCriteria.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalTestCaseCriteria.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AiEvalTestCaseCriteria",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalTestCaseCriteria.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalTestCaseCriteria.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AiEvalTestCaseCriteria",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalTestCaseCriteria.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalTestCaseCriteria.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AiEvalTestCaseCriteria",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

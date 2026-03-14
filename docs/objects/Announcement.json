@@ -1,0 +1,301 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 14,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Announcement.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Announcement.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "Announcement",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Announcement.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Announcement.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "Announcement",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Announcement.ExpirationDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Announcement.ExpirationDate",
+      "QualifiedApiName": "ExpirationDate",
+      "EntityDefinitionId": "Announcement",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExpirationDate",
+      "MasterLabel": "有効期限",
+      "Label": "有効期限",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Announcement.FeedItem"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Announcement.FeedItem",
+      "QualifiedApiName": "FeedItemId",
+      "EntityDefinitionId": "Announcement",
+      "NamespacePrefix": null,
+      "DeveloperName": "FeedItem",
+      "MasterLabel": "フィード項目",
+      "Label": "フィード項目",
+      "DataType": "参照関係(フィード項目)  (ユニーク)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Announcement.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Announcement.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "Announcement",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "お知らせ ID",
+      "Label": "お知らせ ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Announcement.IsArchived"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Announcement.IsArchived",
+      "QualifiedApiName": "IsArchived",
+      "EntityDefinitionId": "Announcement",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsArchived",
+      "MasterLabel": "お知らせがアーカイブ済み",
+      "Label": "お知らせがアーカイブ済み",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Announcement.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Announcement.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "Announcement",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Announcement.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Announcement.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "Announcement",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Announcement.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Announcement.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "Announcement",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Announcement.Parent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Announcement.Parent",
+      "QualifiedApiName": "ParentId",
+      "EntityDefinitionId": "Announcement",
+      "NamespacePrefix": null,
+      "DeveloperName": "Parent",
+      "MasterLabel": "親",
+      "Label": "親",
+      "DataType": "参照関係(グループ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Announcement.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Announcement.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "Announcement",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Announcement.SendEmails"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Announcement.SendEmails",
+      "QualifiedApiName": "SendEmails",
+      "EntityDefinitionId": "Announcement",
+      "NamespacePrefix": null,
+      "DeveloperName": "SendEmails",
+      "MasterLabel": "お知らせに関するメールを送信",
+      "Label": "お知らせに関するメールを送信",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Announcement.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Announcement.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "Announcement",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Announcement.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Announcement.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "Announcement",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

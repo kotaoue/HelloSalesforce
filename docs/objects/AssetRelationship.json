@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetRelationship.Asset"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetRelationship.Asset",
+      "QualifiedApiName": "AssetId",
+      "EntityDefinitionId": "AssetRelationship",
+      "NamespacePrefix": null,
+      "DeveloperName": "Asset",
+      "MasterLabel": "納入商品",
+      "Label": "納入商品",
+      "DataType": "主従関係(納入商品)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetRelationship.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetRelationship.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AssetRelationship",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetRelationship.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetRelationship.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AssetRelationship",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetRelationship.FromDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetRelationship.FromDate",
+      "QualifiedApiName": "FromDate",
+      "EntityDefinitionId": "AssetRelationship",
+      "NamespacePrefix": null,
+      "DeveloperName": "FromDate",
+      "MasterLabel": "開始日",
+      "Label": "開始日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetRelationship.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetRelationship.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AssetRelationship",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "納入商品リレーション ID",
+      "Label": "納入商品リレーション ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetRelationship.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetRelationship.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AssetRelationship",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetRelationship.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetRelationship.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AssetRelationship",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetRelationship.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetRelationship.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AssetRelationship",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetRelationship.LastReferencedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetRelationship.LastReferencedDate",
+      "QualifiedApiName": "LastReferencedDate",
+      "EntityDefinitionId": "AssetRelationship",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastReferencedDate",
+      "MasterLabel": "最終参照日",
+      "Label": "最終参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetRelationship.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetRelationship.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "AssetRelationship",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetRelationship.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetRelationship.Name",
+      "QualifiedApiName": "AssetRelationshipNumber",
+      "EntityDefinitionId": "AssetRelationship",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "納入商品リレーション番号",
+      "Label": "納入商品リレーション番号",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetRelationship.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetRelationship.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "AssetRelationship",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetRelationship.RelatedAsset"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetRelationship.RelatedAsset",
+      "QualifiedApiName": "RelatedAssetId",
+      "EntityDefinitionId": "AssetRelationship",
+      "NamespacePrefix": null,
+      "DeveloperName": "RelatedAsset",
+      "MasterLabel": "関連納入商品",
+      "Label": "関連納入商品",
+      "DataType": "参照関係(納入商品)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetRelationship.RelationshipType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetRelationship.RelationshipType",
+      "QualifiedApiName": "RelationshipType",
+      "EntityDefinitionId": "AssetRelationship",
+      "NamespacePrefix": null,
+      "DeveloperName": "RelationshipType",
+      "MasterLabel": "リレーション種別",
+      "Label": "リレーション種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetRelationship.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetRelationship.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AssetRelationship",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetRelationship.ToDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetRelationship.ToDate",
+      "QualifiedApiName": "ToDate",
+      "EntityDefinitionId": "AssetRelationship",
+      "NamespacePrefix": null,
+      "DeveloperName": "ToDate",
+      "MasterLabel": "終了日",
+      "Label": "終了日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetRelationship.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetRelationship.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "AssetRelationship",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

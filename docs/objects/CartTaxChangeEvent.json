@@ -1,0 +1,322 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 15,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartTaxChangeEvent.AdjustmentTargetType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartTaxChangeEvent.AdjustmentTargetType",
+      "QualifiedApiName": "AdjustmentTargetType",
+      "EntityDefinitionId": "CartTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "AdjustmentTargetType",
+      "MasterLabel": "調整の対象種別",
+      "Label": "調整の対象種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartTaxChangeEvent.Amount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartTaxChangeEvent.Amount",
+      "QualifiedApiName": "Amount",
+      "EntityDefinitionId": "CartTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Amount",
+      "MasterLabel": "金額",
+      "Label": "金額",
+      "DataType": "通貨(16、2)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartTaxChangeEvent.Cart"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartTaxChangeEvent.Cart",
+      "QualifiedApiName": "CartId",
+      "EntityDefinitionId": "CartTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Cart",
+      "MasterLabel": "カート",
+      "Label": "カート",
+      "DataType": "参照関係(カート)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartTaxChangeEvent.CartItem"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartTaxChangeEvent.CartItem",
+      "QualifiedApiName": "CartItemId",
+      "EntityDefinitionId": "CartTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CartItem",
+      "MasterLabel": "カート項目",
+      "Label": "カート項目",
+      "DataType": "参照関係(カート項目)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartTaxChangeEvent.CartItemPriceAdjustment"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartTaxChangeEvent.CartItemPriceAdjustment",
+      "QualifiedApiName": "CartItemPriceAdjustmentId",
+      "EntityDefinitionId": "CartTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CartItemPriceAdjustment",
+      "MasterLabel": "カート品目価格調整",
+      "Label": "カート品目価格調整",
+      "DataType": "参照関係(カート品目価格調整)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartTaxChangeEvent.ChangeEventHeader"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartTaxChangeEvent.ChangeEventHeader",
+      "QualifiedApiName": "ChangeEventHeader",
+      "EntityDefinitionId": "CartTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChangeEventHeader",
+      "MasterLabel": "変更イベントヘッダー",
+      "Label": "変更イベントヘッダー",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartTaxChangeEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartTaxChangeEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "CartTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartTaxChangeEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartTaxChangeEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "CartTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartTaxChangeEvent.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartTaxChangeEvent.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "CartTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "ロングテキストエリア(2000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartTaxChangeEvent.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartTaxChangeEvent.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "CartTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartTaxChangeEvent.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartTaxChangeEvent.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "CartTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartTaxChangeEvent.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartTaxChangeEvent.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "CartTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "カートの税額名",
+      "Label": "カートの税額名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartTaxChangeEvent.TaxCalculationDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartTaxChangeEvent.TaxCalculationDate",
+      "QualifiedApiName": "TaxCalculationDate",
+      "EntityDefinitionId": "CartTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "TaxCalculationDate",
+      "MasterLabel": "税金の計算日",
+      "Label": "税金の計算日",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartTaxChangeEvent.TaxRate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartTaxChangeEvent.TaxRate",
+      "QualifiedApiName": "TaxRate",
+      "EntityDefinitionId": "CartTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "TaxRate",
+      "MasterLabel": "税率",
+      "Label": "税率",
+      "DataType": "パーセント(3、2)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartTaxChangeEvent.TaxType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartTaxChangeEvent.TaxType",
+      "QualifiedApiName": "TaxType",
+      "EntityDefinitionId": "CartTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "TaxType",
+      "MasterLabel": "税種別",
+      "Label": "税種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

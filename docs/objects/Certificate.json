@@ -1,0 +1,175 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 8,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Certificate.CertificateChain"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Certificate.CertificateChain",
+      "QualifiedApiName": "CertificateChain",
+      "EntityDefinitionId": "Certificate",
+      "NamespacePrefix": null,
+      "DeveloperName": "CertificateChain",
+      "MasterLabel": "証明書",
+      "Label": "証明書",
+      "DataType": "テキストエリア",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Certificate.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Certificate.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "Certificate",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Certificate.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Certificate.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "Certificate",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "一意の名前",
+      "Label": "一意の名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Certificate.ExpirationDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Certificate.ExpirationDate",
+      "QualifiedApiName": "ExpirationDate",
+      "EntityDefinitionId": "Certificate",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExpirationDate",
+      "MasterLabel": "有効期限",
+      "Label": "有効期限",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Certificate.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Certificate.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "Certificate",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "証明書と鍵 ID",
+      "Label": "証明書と鍵 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Certificate.KeySize"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Certificate.KeySize",
+      "QualifiedApiName": "KeySize",
+      "EntityDefinitionId": "Certificate",
+      "NamespacePrefix": null,
+      "DeveloperName": "KeySize",
+      "MasterLabel": "鍵サイズ",
+      "Label": "鍵サイズ",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Certificate.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Certificate.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "Certificate",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(64)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Certificate.Options"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Certificate.Options",
+      "QualifiedApiName": "Options",
+      "EntityDefinitionId": "Certificate",
+      "NamespacePrefix": null,
+      "DeveloperName": "Options",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val Options not found in section udd_Certificate",
+      "Label": "__MISSING LABEL__ PropertyFile - val Options not found in section udd_Certificate",
+      "DataType": "ビットベクター",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

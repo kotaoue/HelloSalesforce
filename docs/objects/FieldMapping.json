@@ -1,0 +1,259 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 12,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FieldMapping.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FieldMapping.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "FieldMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FieldMapping.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FieldMapping.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "FieldMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FieldMapping.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FieldMapping.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "FieldMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "オブジェクト名",
+      "Label": "オブジェクト名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FieldMapping.FieldMappingClient"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FieldMapping.FieldMappingClient",
+      "QualifiedApiName": "FieldMappingClientId",
+      "EntityDefinitionId": "FieldMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "FieldMappingClient",
+      "MasterLabel": "項目の対応付けクライアント",
+      "Label": "項目の対応付けクライアント",
+      "DataType": "参照関係(データインテグレーションルール)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FieldMapping.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FieldMapping.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "FieldMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "項目の対応付け ID",
+      "Label": "項目の対応付け ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FieldMapping.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FieldMapping.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "FieldMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FieldMapping.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FieldMapping.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "FieldMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FieldMapping.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FieldMapping.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "FieldMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FieldMapping.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FieldMapping.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "FieldMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FieldMapping.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FieldMapping.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "FieldMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FieldMapping.SobjectType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FieldMapping.SobjectType",
+      "QualifiedApiName": "SobjectType",
+      "EntityDefinitionId": "FieldMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "SobjectType",
+      "MasterLabel": "カスタムオブジェクトの定義",
+      "Label": "カスタムオブジェクトの定義",
+      "DataType": "選択リスト(カスタムオブジェクトの定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FieldMapping.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FieldMapping.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "FieldMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

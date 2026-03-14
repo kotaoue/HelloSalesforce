@@ -1,0 +1,343 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 16,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMapping.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMapping.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ExternalEventMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMapping.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMapping.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ExternalEventMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMapping.EndDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMapping.EndDate",
+      "QualifiedApiName": "EndDate",
+      "EntityDefinitionId": "ExternalEventMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "EndDate",
+      "MasterLabel": "End Date",
+      "Label": "End Date",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMapping.Event"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMapping.Event",
+      "QualifiedApiName": "EventId",
+      "EntityDefinitionId": "ExternalEventMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "Event",
+      "MasterLabel": "行動",
+      "Label": "行動",
+      "DataType": "参照関係(行動)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMapping.ExternalId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMapping.ExternalId",
+      "QualifiedApiName": "ExternalId",
+      "EntityDefinitionId": "ExternalEventMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExternalId",
+      "MasterLabel": "External Id",
+      "Label": "External Id",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMapping.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMapping.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ExternalEventMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "External Event Mappings ID",
+      "Label": "External Event Mappings ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMapping.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMapping.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ExternalEventMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMapping.IsRecurring"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMapping.IsRecurring",
+      "QualifiedApiName": "IsRecurring",
+      "EntityDefinitionId": "ExternalEventMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsRecurring",
+      "MasterLabel": "Is Recurring",
+      "Label": "Is Recurring",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMapping.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMapping.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ExternalEventMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMapping.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMapping.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ExternalEventMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMapping.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMapping.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "ExternalEventMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "Name",
+      "Label": "Name",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMapping.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMapping.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "ExternalEventMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者 氏名",
+      "Label": "所有者 氏名",
+      "DataType": "参照関係(ユーザー,グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMapping.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMapping.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "ExternalEventMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMapping.StartDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMapping.StartDate",
+      "QualifiedApiName": "StartDate",
+      "EntityDefinitionId": "ExternalEventMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "StartDate",
+      "MasterLabel": "Start Date",
+      "Label": "Start Date",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMapping.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMapping.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ExternalEventMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMapping.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMapping.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "ExternalEventMapping",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 12,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BatchApexErrorEvent.AsyncApexJobId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BatchApexErrorEvent.AsyncApexJobId",
+      "QualifiedApiName": "AsyncApexJobId",
+      "EntityDefinitionId": "BatchApexErrorEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "AsyncApexJobId",
+      "MasterLabel": "非同期 Apex ジョブ ID",
+      "Label": "非同期 Apex ジョブ ID",
+      "DataType": "テキスト(18)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BatchApexErrorEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BatchApexErrorEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "BatchApexErrorEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BatchApexErrorEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BatchApexErrorEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "BatchApexErrorEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BatchApexErrorEvent.DoesExceedJobScopeMaxLength"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BatchApexErrorEvent.DoesExceedJobScopeMaxLength",
+      "QualifiedApiName": "DoesExceedJobScopeMaxLength",
+      "EntityDefinitionId": "BatchApexErrorEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DoesExceedJobScopeMaxLength",
+      "MasterLabel": "項目値の最大長を超えました",
+      "Label": "項目値の最大長を超えました",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BatchApexErrorEvent.EventUuid"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BatchApexErrorEvent.EventUuid",
+      "QualifiedApiName": "EventUuid",
+      "EntityDefinitionId": "BatchApexErrorEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventUuid",
+      "MasterLabel": "プラットフォームイベントのイベント UUID",
+      "Label": "プラットフォームイベントのイベント UUID",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BatchApexErrorEvent.ExceptionType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BatchApexErrorEvent.ExceptionType",
+      "QualifiedApiName": "ExceptionType",
+      "EntityDefinitionId": "BatchApexErrorEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExceptionType",
+      "MasterLabel": "例外種別が発生しました",
+      "Label": "例外種別が発生しました",
+      "DataType": "テキスト(200)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BatchApexErrorEvent.JobScope"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BatchApexErrorEvent.JobScope",
+      "QualifiedApiName": "JobScope",
+      "EntityDefinitionId": "BatchApexErrorEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "JobScope",
+      "MasterLabel": "失敗したバッチ内の項目",
+      "Label": "失敗したバッチ内の項目",
+      "DataType": "ロングテキストエリア(40000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BatchApexErrorEvent.Message"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BatchApexErrorEvent.Message",
+      "QualifiedApiName": "Message",
+      "EntityDefinitionId": "BatchApexErrorEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Message",
+      "MasterLabel": "例外メッセージ",
+      "Label": "例外メッセージ",
+      "DataType": "テキスト(5000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BatchApexErrorEvent.Phase"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BatchApexErrorEvent.Phase",
+      "QualifiedApiName": "Phase",
+      "EntityDefinitionId": "BatchApexErrorEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Phase",
+      "MasterLabel": "フェーズ",
+      "Label": "フェーズ",
+      "DataType": "テキスト(8)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BatchApexErrorEvent.ReplayId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BatchApexErrorEvent.ReplayId",
+      "QualifiedApiName": "ReplayId",
+      "EntityDefinitionId": "BatchApexErrorEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReplayId",
+      "MasterLabel": "プラットフォームイベントの再実行 ID",
+      "Label": "プラットフォームイベントの再実行 ID",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BatchApexErrorEvent.RequestId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BatchApexErrorEvent.RequestId",
+      "QualifiedApiName": "RequestId",
+      "EntityDefinitionId": "BatchApexErrorEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "RequestId",
+      "MasterLabel": "Jetty 要求 ID",
+      "Label": "Jetty 要求 ID",
+      "DataType": "テキスト(18)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BatchApexErrorEvent.StackTrace"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BatchApexErrorEvent.StackTrace",
+      "QualifiedApiName": "StackTrace",
+      "EntityDefinitionId": "BatchApexErrorEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "StackTrace",
+      "MasterLabel": "エラースタック追跡",
+      "Label": "エラースタック追跡",
+      "DataType": "テキスト(5000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

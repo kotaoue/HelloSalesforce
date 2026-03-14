@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexLog.Application"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexLog.Application",
+      "QualifiedApiName": "Application",
+      "EntityDefinitionId": "ApexLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "Application",
+      "MasterLabel": "アプリケーション",
+      "Label": "アプリケーション",
+      "DataType": "テキスト(64)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexLog.Body"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexLog.Body",
+      "QualifiedApiName": "Body",
+      "EntityDefinitionId": "ApexLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "Body",
+      "MasterLabel": "内容",
+      "Label": "内容",
+      "DataType": "テキストエリア",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexLog.BodyLocation"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexLog.BodyLocation",
+      "QualifiedApiName": "BodyLocation",
+      "EntityDefinitionId": "ApexLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "BodyLocation",
+      "MasterLabel": "本文の場所",
+      "Label": "本文の場所",
+      "DataType": "テキスト(3)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexLog.BodyVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexLog.BodyVersion",
+      "QualifiedApiName": "BodyVersion",
+      "EntityDefinitionId": "ApexLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "BodyVersion",
+      "MasterLabel": "本文バージョン",
+      "Label": "本文バージョン",
+      "DataType": "テキスト(15)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexLog.DurationMilliseconds"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexLog.DurationMilliseconds",
+      "QualifiedApiName": "DurationMilliseconds",
+      "EntityDefinitionId": "ApexLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "DurationMilliseconds",
+      "MasterLabel": "所要時間 (ミリ秒)",
+      "Label": "所要時間 (ミリ秒)",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexLog.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexLog.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ApexLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "ログ ID",
+      "Label": "ログ ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexLog.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexLog.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ApexLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "日付",
+      "Label": "日付",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexLog.Location"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexLog.Location",
+      "QualifiedApiName": "Location",
+      "EntityDefinitionId": "ApexLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "Location",
+      "MasterLabel": "場所",
+      "Label": "場所",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexLog.LogLength"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexLog.LogLength",
+      "QualifiedApiName": "LogLength",
+      "EntityDefinitionId": "ApexLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "LogLength",
+      "MasterLabel": "ログサイズ (バイト)",
+      "Label": "ログサイズ (バイト)",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexLog.LogUser"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexLog.LogUser",
+      "QualifiedApiName": "LogUserId",
+      "EntityDefinitionId": "ApexLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "LogUser",
+      "MasterLabel": "ログユーザー",
+      "Label": "ログユーザー",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexLog.Operation"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexLog.Operation",
+      "QualifiedApiName": "Operation",
+      "EntityDefinitionId": "ApexLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "Operation",
+      "MasterLabel": "操作",
+      "Label": "操作",
+      "DataType": "テキスト(128)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexLog.Request"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexLog.Request",
+      "QualifiedApiName": "Request",
+      "EntityDefinitionId": "ApexLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "Request",
+      "MasterLabel": "要求種別",
+      "Label": "要求種別",
+      "DataType": "テキスト(16)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexLog.RequestedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexLog.RequestedBy",
+      "QualifiedApiName": "RequestedById",
+      "EntityDefinitionId": "ApexLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "RequestedBy",
+      "MasterLabel": "要求者",
+      "Label": "要求者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexLog.RequestIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexLog.RequestIdentifier",
+      "QualifiedApiName": "RequestIdentifier",
+      "EntityDefinitionId": "ApexLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "RequestIdentifier",
+      "MasterLabel": "要求 ID",
+      "Label": "要求 ID",
+      "DataType": "テキスト(84)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexLog.StartTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexLog.StartTime",
+      "QualifiedApiName": "StartTime",
+      "EntityDefinitionId": "ApexLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "StartTime",
+      "MasterLabel": "開始時刻",
+      "Label": "開始時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexLog.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexLog.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "ApexLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexLog.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexLog.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ApexLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

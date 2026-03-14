@@ -1,0 +1,133 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 6,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MobileMarkedRecord.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MobileMarkedRecord.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "MobileMarkedRecord",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MobileMarkedRecord.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MobileMarkedRecord.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "MobileMarkedRecord",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "モバイルマーク済みレコード ID",
+      "Label": "モバイルマーク済みレコード ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MobileMarkedRecord.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MobileMarkedRecord.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "MobileMarkedRecord",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MobileMarkedRecord.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MobileMarkedRecord.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "MobileMarkedRecord",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者 氏名",
+      "Label": "所有者 氏名",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MobileMarkedRecord.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MobileMarkedRecord.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "MobileMarkedRecord",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MobileMarkedRecord.TargetObject"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MobileMarkedRecord.TargetObject",
+      "QualifiedApiName": "TargetObjectId",
+      "EntityDefinitionId": "MobileMarkedRecord",
+      "NamespacePrefix": null,
+      "DeveloperName": "TargetObject",
+      "MasterLabel": "マーク済みレコード",
+      "Label": "マーク済みレコード",
+      "DataType": "参照関係(取引先,納入商品,ケース,取引先責任者,コンテンツバージョン,行動,リード,商談,商品,ソリューション,ToDo,ユーザー,価格表,価格表エントリ,メモ,添付ファイル)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

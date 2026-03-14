@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntitlementFeed.BestComment"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntitlementFeed.BestComment",
+      "QualifiedApiName": "BestCommentId",
+      "EntityDefinitionId": "EntitlementFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "BestComment",
+      "MasterLabel": "最良のコメント",
+      "Label": "最良のコメント",
+      "DataType": "参照関係(フィードコメント)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntitlementFeed.Body"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntitlementFeed.Body",
+      "QualifiedApiName": "Body",
+      "EntityDefinitionId": "EntitlementFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "Body",
+      "MasterLabel": "内容",
+      "Label": "内容",
+      "DataType": "ロングテキストエリア(10000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntitlementFeed.CommentCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntitlementFeed.CommentCount",
+      "QualifiedApiName": "CommentCount",
+      "EntityDefinitionId": "EntitlementFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "CommentCount",
+      "MasterLabel": "コメント数",
+      "Label": "コメント数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntitlementFeed.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntitlementFeed.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "EntitlementFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntitlementFeed.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntitlementFeed.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "EntitlementFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntitlementFeed.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntitlementFeed.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "EntitlementFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "フィード項目 ID",
+      "Label": "フィード項目 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntitlementFeed.InsertedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntitlementFeed.InsertedBy",
+      "QualifiedApiName": "InsertedById",
+      "EntityDefinitionId": "EntitlementFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "InsertedBy",
+      "MasterLabel": "挿入者",
+      "Label": "挿入者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntitlementFeed.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntitlementFeed.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "EntitlementFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntitlementFeed.IsRichText"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntitlementFeed.IsRichText",
+      "QualifiedApiName": "IsRichText",
+      "EntityDefinitionId": "EntitlementFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsRichText",
+      "MasterLabel": "リッチテキスト",
+      "Label": "リッチテキスト",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntitlementFeed.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntitlementFeed.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "EntitlementFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntitlementFeed.LikeCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntitlementFeed.LikeCount",
+      "QualifiedApiName": "LikeCount",
+      "EntityDefinitionId": "EntitlementFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "LikeCount",
+      "MasterLabel": "いいね! の数",
+      "Label": "いいね! の数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntitlementFeed.LinkUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntitlementFeed.LinkUrl",
+      "QualifiedApiName": "LinkUrl",
+      "EntityDefinitionId": "EntitlementFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "LinkUrl",
+      "MasterLabel": "リンク URL",
+      "Label": "リンク URL",
+      "DataType": "URL(1000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntitlementFeed.Parent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntitlementFeed.Parent",
+      "QualifiedApiName": "ParentId",
+      "EntityDefinitionId": "EntitlementFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "Parent",
+      "MasterLabel": "親",
+      "Label": "親",
+      "DataType": "参照関係(エンタイトルメント)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntitlementFeed.RelatedRecord"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntitlementFeed.RelatedRecord",
+      "QualifiedApiName": "RelatedRecordId",
+      "EntityDefinitionId": "EntitlementFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "RelatedRecord",
+      "MasterLabel": "関連レコード",
+      "Label": "関連レコード",
+      "DataType": "参照関係(コンテンツバージョン,キャンバスフィード項目)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntitlementFeed.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntitlementFeed.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "EntitlementFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntitlementFeed.Title"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntitlementFeed.Title",
+      "QualifiedApiName": "Title",
+      "EntityDefinitionId": "EntitlementFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "Title",
+      "MasterLabel": "タイトル",
+      "Label": "タイトル",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntitlementFeed.Type"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntitlementFeed.Type",
+      "QualifiedApiName": "Type",
+      "EntityDefinitionId": "EntitlementFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "Type",
+      "MasterLabel": "フィード項目種別",
+      "Label": "フィード項目種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

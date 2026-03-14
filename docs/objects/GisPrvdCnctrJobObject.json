@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisPrvdCnctrJobObject.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisPrvdCnctrJobObject.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "GisPrvdCnctrJobObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisPrvdCnctrJobObject.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisPrvdCnctrJobObject.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "GisPrvdCnctrJobObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisPrvdCnctrJobObject.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisPrvdCnctrJobObject.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "GisPrvdCnctrJobObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisPrvdCnctrJobObject.FilterLogic"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisPrvdCnctrJobObject.FilterLogic",
+      "QualifiedApiName": "FilterLogic",
+      "EntityDefinitionId": "GisPrvdCnctrJobObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "FilterLogic",
+      "MasterLabel": "検索条件ロジック",
+      "Label": "検索条件ロジック",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisPrvdCnctrJobObject.GisProviderDataConnectorJob"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisPrvdCnctrJobObject.GisProviderDataConnectorJob",
+      "QualifiedApiName": "GisProviderDataConnectorJobId",
+      "EntityDefinitionId": "GisPrvdCnctrJobObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "GisProviderDataConnectorJob",
+      "MasterLabel": "プロバイダーコネクタジョブ定義",
+      "Label": "プロバイダーコネクタジョブ定義",
+      "DataType": "参照関係(GIS プロバイダーコネクタジョブ定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisPrvdCnctrJobObject.GisProviderGeometryFieldName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisPrvdCnctrJobObject.GisProviderGeometryFieldName",
+      "QualifiedApiName": "GisProviderGeometryFieldName",
+      "EntityDefinitionId": "GisPrvdCnctrJobObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "GisProviderGeometryFieldName",
+      "MasterLabel": "GIS プロバイダージオメトリ項目名",
+      "Label": "GIS プロバイダージオメトリ項目名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisPrvdCnctrJobObject.GisProviderLayer"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisPrvdCnctrJobObject.GisProviderLayer",
+      "QualifiedApiName": "GisProviderLayer",
+      "EntityDefinitionId": "GisPrvdCnctrJobObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "GisProviderLayer",
+      "MasterLabel": "レイヤー",
+      "Label": "レイヤー",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisPrvdCnctrJobObject.GisProviderLayerType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisPrvdCnctrJobObject.GisProviderLayerType",
+      "QualifiedApiName": "GisProviderLayerType",
+      "EntityDefinitionId": "GisPrvdCnctrJobObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "GisProviderLayerType",
+      "MasterLabel": "GIS プロバイダーレイヤー種別",
+      "Label": "GIS プロバイダーレイヤー種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisPrvdCnctrJobObject.GisProviderLayerUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisPrvdCnctrJobObject.GisProviderLayerUrl",
+      "QualifiedApiName": "GisProviderLayerUrl",
+      "EntityDefinitionId": "GisPrvdCnctrJobObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "GisProviderLayerUrl",
+      "MasterLabel": "GIS プロバイダーレイヤー URL",
+      "Label": "GIS プロバイダーレイヤー URL",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisPrvdCnctrJobObject.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisPrvdCnctrJobObject.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "GisPrvdCnctrJobObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "GIS プロバイダーコネクタジョブオブジェクト ID",
+      "Label": "GIS プロバイダーコネクタジョブオブジェクト ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisPrvdCnctrJobObject.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisPrvdCnctrJobObject.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "GisPrvdCnctrJobObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisPrvdCnctrJobObject.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisPrvdCnctrJobObject.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "GisPrvdCnctrJobObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisPrvdCnctrJobObject.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisPrvdCnctrJobObject.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "GisPrvdCnctrJobObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisPrvdCnctrJobObject.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisPrvdCnctrJobObject.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "GisPrvdCnctrJobObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisPrvdCnctrJobObject.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisPrvdCnctrJobObject.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "GisPrvdCnctrJobObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisPrvdCnctrJobObject.ObjectName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisPrvdCnctrJobObject.ObjectName",
+      "QualifiedApiName": "ObjectName",
+      "EntityDefinitionId": "GisPrvdCnctrJobObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "ObjectName",
+      "MasterLabel": "オブジェクト名",
+      "Label": "オブジェクト名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisPrvdCnctrJobObject.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisPrvdCnctrJobObject.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "GisPrvdCnctrJobObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

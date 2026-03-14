@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTest.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowTest.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "FlowTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTest.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowTest.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "FlowTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTest.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowTest.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "FlowTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "ロングテキストエリア(1000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTest.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowTest.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "FlowTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "フローテストの API 参照名",
+      "Label": "フローテストの API 参照名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTest.FlowReference"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowTest.FlowReference",
+      "QualifiedApiName": "FlowReferenceId",
+      "EntityDefinitionId": "FlowTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "FlowReference",
+      "MasterLabel": "フロー参照",
+      "Label": "フロー参照",
+      "DataType": "参照関係(フロー定義)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTest.FullName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowTest.FullName",
+      "QualifiedApiName": "FullName",
+      "EntityDefinitionId": "FlowTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "FullName",
+      "MasterLabel": "完全名",
+      "Label": "完全名",
+      "DataType": "テキスト(128)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTest.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowTest.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "FlowTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "フローテスト ID",
+      "Label": "フローテスト ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTest.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowTest.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "FlowTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTest.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowTest.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "FlowTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTest.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowTest.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "FlowTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTest.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowTest.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "FlowTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTest.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowTest.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "FlowTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTest.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowTest.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "FlowTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTest.Metadata"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowTest.Metadata",
+      "QualifiedApiName": "Metadata",
+      "EntityDefinitionId": "FlowTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "Metadata",
+      "MasterLabel": "フローテストメタデータ",
+      "Label": "フローテストメタデータ",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTest.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowTest.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "FlowTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTest.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowTest.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "FlowTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTest.TestType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowTest.TestType",
+      "QualifiedApiName": "TestType",
+      "EntityDefinitionId": "FlowTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "TestType",
+      "MasterLabel": "テスト種別",
+      "Label": "テスト種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

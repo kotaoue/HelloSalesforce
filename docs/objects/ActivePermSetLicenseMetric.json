@@ -1,0 +1,196 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 9,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivePermSetLicenseMetric.ActiveUserCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivePermSetLicenseMetric.ActiveUserCount",
+      "QualifiedApiName": "ActiveUserCount",
+      "EntityDefinitionId": "ActivePermSetLicenseMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActiveUserCount",
+      "MasterLabel": "有効ユーザー数",
+      "Label": "有効ユーザー数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivePermSetLicenseMetric.AssignedUserCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivePermSetLicenseMetric.AssignedUserCount",
+      "QualifiedApiName": "AssignedUserCount",
+      "EntityDefinitionId": "ActivePermSetLicenseMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "AssignedUserCount",
+      "MasterLabel": "割り当てユーザー数",
+      "Label": "割り当てユーザー数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivePermSetLicenseMetric.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivePermSetLicenseMetric.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "ActivePermSetLicenseMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "Permission Set License API 参照名",
+      "Label": "Permission Set License API 参照名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivePermSetLicenseMetric.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivePermSetLicenseMetric.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ActivePermSetLicenseMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "有効な権限セットライセンスメトリクス ID",
+      "Label": "有効な権限セットライセンスメトリクス ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivePermSetLicenseMetric.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivePermSetLicenseMetric.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "ActivePermSetLicenseMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "Permission Set License マスター表示ラベル",
+      "Label": "Permission Set License マスター表示ラベル",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivePermSetLicenseMetric.MetricsDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivePermSetLicenseMetric.MetricsDate",
+      "QualifiedApiName": "MetricsDate",
+      "EntityDefinitionId": "ActivePermSetLicenseMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "MetricsDate",
+      "MasterLabel": "メトリクスの日付",
+      "Label": "メトリクスの日付",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivePermSetLicenseMetric.ParentEnumOrId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivePermSetLicenseMetric.ParentEnumOrId",
+      "QualifiedApiName": "PermissionSetLicenseId",
+      "EntityDefinitionId": "ActivePermSetLicenseMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "ParentEnumOrId",
+      "MasterLabel": "Primary Grain",
+      "Label": "Primary Grain",
+      "DataType": "参照関係(Permission Set License)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivePermSetLicenseMetric.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivePermSetLicenseMetric.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ActivePermSetLicenseMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivePermSetLicenseMetric.TotalLicenses"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivePermSetLicenseMetric.TotalLicenses",
+      "QualifiedApiName": "TotalLicenses",
+      "EntityDefinitionId": "ActivePermSetLicenseMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "TotalLicenses",
+      "MasterLabel": "合計ライセンス件数",
+      "Label": "合計ライセンス件数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

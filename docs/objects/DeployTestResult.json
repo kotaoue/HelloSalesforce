@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DeployTestResult.CodeType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployTestResult.CodeType",
+      "QualifiedApiName": "CodeType",
+      "EntityDefinitionId": "DeployTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "CodeType",
+      "MasterLabel": "Code Type",
+      "Label": "Code Type",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DeployTestResult.ComponentId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployTestResult.ComponentId",
+      "QualifiedApiName": "ComponentId",
+      "EntityDefinitionId": "DeployTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "ComponentId",
+      "MasterLabel": "Component Id",
+      "Label": "Component Id",
+      "DataType": "テキスト(15)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DeployTestResult.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployTestResult.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DeployTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DeployTestResult.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployTestResult.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DeployTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DeployTestResult.DeployRequest"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployTestResult.DeployRequest",
+      "QualifiedApiName": "DeployRequestId",
+      "EntityDefinitionId": "DeployTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeployRequest",
+      "MasterLabel": "Deploy Request",
+      "Label": "Deploy Request",
+      "DataType": "主従関係(Deploy Request)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DeployTestResult.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployTestResult.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DeployTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Deploy Test Result ID",
+      "Label": "Deploy Test Result ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DeployTestResult.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployTestResult.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DeployTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DeployTestResult.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployTestResult.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DeployTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DeployTestResult.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployTestResult.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DeployTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DeployTestResult.Message"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployTestResult.Message",
+      "QualifiedApiName": "Message",
+      "EntityDefinitionId": "DeployTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "Message",
+      "MasterLabel": "Message",
+      "Label": "Message",
+      "DataType": "テキスト(765)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DeployTestResult.MethodName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployTestResult.MethodName",
+      "QualifiedApiName": "MethodName",
+      "EntityDefinitionId": "DeployTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "MethodName",
+      "MasterLabel": "Method Name",
+      "Label": "Method Name",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DeployTestResult.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployTestResult.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "DeployTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "Name",
+      "Label": "Name",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DeployTestResult.Namespace"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployTestResult.Namespace",
+      "QualifiedApiName": "Namespace",
+      "EntityDefinitionId": "DeployTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "Namespace",
+      "MasterLabel": "Namespace",
+      "Label": "Namespace",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DeployTestResult.StackTrace"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployTestResult.StackTrace",
+      "QualifiedApiName": "StackTrace",
+      "EntityDefinitionId": "DeployTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "StackTrace",
+      "MasterLabel": "Stack Trace",
+      "Label": "Stack Trace",
+      "DataType": "テキスト(1200)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DeployTestResult.Success"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployTestResult.Success",
+      "QualifiedApiName": "Success",
+      "EntityDefinitionId": "DeployTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "Success",
+      "MasterLabel": "Success",
+      "Label": "Success",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DeployTestResult.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployTestResult.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DeployTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DeployTestResult.Time"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployTestResult.Time",
+      "QualifiedApiName": "Time",
+      "EntityDefinitionId": "DeployTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "Time",
+      "MasterLabel": "Time",
+      "Label": "Time",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

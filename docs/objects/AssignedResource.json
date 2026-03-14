@@ -1,0 +1,322 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 15,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssignedResource.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssignedResource.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AssignedResource",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssignedResource.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssignedResource.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AssignedResource",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssignedResource.Event"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssignedResource.Event",
+      "QualifiedApiName": "EventId",
+      "EntityDefinitionId": "AssignedResource",
+      "NamespacePrefix": null,
+      "DeveloperName": "Event",
+      "MasterLabel": "行動",
+      "Label": "行動",
+      "DataType": "参照関係(行動)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssignedResource.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssignedResource.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AssignedResource",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "割り当て済みリソース ID",
+      "Label": "割り当て済みリソース ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssignedResource.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssignedResource.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AssignedResource",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssignedResource.IsRequiredResource"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssignedResource.IsRequiredResource",
+      "QualifiedApiName": "IsRequiredResource",
+      "EntityDefinitionId": "AssignedResource",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsRequiredResource",
+      "MasterLabel": "必要なリソース",
+      "Label": "必要なリソース",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssignedResource.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssignedResource.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AssignedResource",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssignedResource.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssignedResource.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AssignedResource",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssignedResource.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssignedResource.Name",
+      "QualifiedApiName": "AssignedResourceNumber",
+      "EntityDefinitionId": "AssignedResource",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "割り当て済みリソース数",
+      "Label": "割り当て済みリソース数",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssignedResource.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssignedResource.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "AssignedResource",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssignedResource.Role"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssignedResource.Role",
+      "QualifiedApiName": "Role",
+      "EntityDefinitionId": "AssignedResource",
+      "NamespacePrefix": null,
+      "DeveloperName": "Role",
+      "MasterLabel": "ロール",
+      "Label": "ロール",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssignedResource.ServiceAppointment"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssignedResource.ServiceAppointment",
+      "QualifiedApiName": "ServiceAppointmentId",
+      "EntityDefinitionId": "AssignedResource",
+      "NamespacePrefix": null,
+      "DeveloperName": "ServiceAppointment",
+      "MasterLabel": "サービス予定",
+      "Label": "サービス予定",
+      "DataType": "主従関係(サービス予定)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssignedResource.ServiceResource"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssignedResource.ServiceResource",
+      "QualifiedApiName": "ServiceResourceId",
+      "EntityDefinitionId": "AssignedResource",
+      "NamespacePrefix": null,
+      "DeveloperName": "ServiceResource",
+      "MasterLabel": "サービスリソース",
+      "Label": "サービスリソース",
+      "DataType": "参照関係(サービスリソース)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssignedResource.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssignedResource.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AssignedResource",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssignedResource.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssignedResource.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "AssignedResource",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

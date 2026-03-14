@@ -1,0 +1,448 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 21,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetSecureFTP.ActivationTarget"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetSecureFTP.ActivationTarget",
+      "QualifiedApiName": "ActivationTargetId",
+      "EntityDefinitionId": "ActivationTargetSecureFTP",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActivationTarget",
+      "MasterLabel": "有効化対象",
+      "Label": "有効化対象",
+      "DataType": "主従関係(有効化対象)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetSecureFTP.ChildDirectory"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetSecureFTP.ChildDirectory",
+      "QualifiedApiName": "ChildDirectory",
+      "EntityDefinitionId": "ActivationTargetSecureFTP",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChildDirectory",
+      "MasterLabel": "子ディレクトリ",
+      "Label": "子ディレクトリ",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetSecureFTP.Compression"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetSecureFTP.Compression",
+      "QualifiedApiName": "Compression",
+      "EntityDefinitionId": "ActivationTargetSecureFTP",
+      "NamespacePrefix": null,
+      "DeveloperName": "Compression",
+      "MasterLabel": "圧縮",
+      "Label": "圧縮",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetSecureFTP.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetSecureFTP.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ActivationTargetSecureFTP",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetSecureFTP.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetSecureFTP.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ActivationTargetSecureFTP",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetSecureFTP.CustomFileName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetSecureFTP.CustomFileName",
+      "QualifiedApiName": "CustomFileName",
+      "EntityDefinitionId": "ActivationTargetSecureFTP",
+      "NamespacePrefix": null,
+      "DeveloperName": "CustomFileName",
+      "MasterLabel": "カスタムファイル名",
+      "Label": "カスタムファイル名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetSecureFTP.Delimiter"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetSecureFTP.Delimiter",
+      "QualifiedApiName": "Delimiter",
+      "EntityDefinitionId": "ActivationTargetSecureFTP",
+      "NamespacePrefix": null,
+      "DeveloperName": "Delimiter",
+      "MasterLabel": "ファイル区切り文字",
+      "Label": "ファイル区切り文字",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetSecureFTP.FileDateTimeSuffix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetSecureFTP.FileDateTimeSuffix",
+      "QualifiedApiName": "FileDateTimeSuffix",
+      "EntityDefinitionId": "ActivationTargetSecureFTP",
+      "NamespacePrefix": null,
+      "DeveloperName": "FileDateTimeSuffix",
+      "MasterLabel": "日時サフィックス",
+      "Label": "日時サフィックス",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetSecureFTP.FileNameType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetSecureFTP.FileNameType",
+      "QualifiedApiName": "FileNameType",
+      "EntityDefinitionId": "ActivationTargetSecureFTP",
+      "NamespacePrefix": null,
+      "DeveloperName": "FileNameType",
+      "MasterLabel": "ファイル名種別",
+      "Label": "ファイル名種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetSecureFTP.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetSecureFTP.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ActivationTargetSecureFTP",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "有効化対象セキュア FTP ID",
+      "Label": "有効化対象セキュア FTP ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetSecureFTP.IsCreateFolderWithInChildDir"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetSecureFTP.IsCreateFolderWithInChildDir",
+      "QualifiedApiName": "IsCreateFolderWithInChildDir",
+      "EntityDefinitionId": "ActivationTargetSecureFTP",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsCreateFolderWithInChildDir",
+      "MasterLabel": "子ディレクトリ内にフォルダーを作成",
+      "Label": "子ディレクトリ内にフォルダーを作成",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetSecureFTP.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetSecureFTP.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ActivationTargetSecureFTP",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetSecureFTP.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetSecureFTP.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ActivationTargetSecureFTP",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetSecureFTP.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetSecureFTP.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ActivationTargetSecureFTP",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetSecureFTP.MaxFileSizeInBytes"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetSecureFTP.MaxFileSizeInBytes",
+      "QualifiedApiName": "MaxFileSizeInBytes",
+      "EntityDefinitionId": "ActivationTargetSecureFTP",
+      "NamespacePrefix": null,
+      "DeveloperName": "MaxFileSizeInBytes",
+      "MasterLabel": "最大ファイルサイズ (バイト)",
+      "Label": "最大ファイルサイズ (バイト)",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetSecureFTP.MaxRecordsPerFile"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetSecureFTP.MaxRecordsPerFile",
+      "QualifiedApiName": "MaxRecordsPerFile",
+      "EntityDefinitionId": "ActivationTargetSecureFTP",
+      "NamespacePrefix": null,
+      "DeveloperName": "MaxRecordsPerFile",
+      "MasterLabel": "ファイルごとのレコードの最大数",
+      "Label": "ファイルごとのレコードの最大数",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetSecureFTP.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetSecureFTP.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "ActivationTargetSecureFTP",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "ActivationTargetSecureFTP_Name/>",
+      "Label": "ActivationTargetSecureFTP_Name/>",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetSecureFTP.PreDeterminedFileName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetSecureFTP.PreDeterminedFileName",
+      "QualifiedApiName": "PreDeterminedFileName",
+      "EntityDefinitionId": "ActivationTargetSecureFTP",
+      "NamespacePrefix": null,
+      "DeveloperName": "PreDeterminedFileName",
+      "MasterLabel": "事前決定されたファイル名",
+      "Label": "事前決定されたファイル名",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetSecureFTP.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetSecureFTP.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "ActivationTargetSecureFTP",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetSecureFTP.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetSecureFTP.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ActivationTargetSecureFTP",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetSecureFTP.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetSecureFTP.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "ActivationTargetSecureFTP",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

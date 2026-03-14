@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CouponFeed.BestComment"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CouponFeed.BestComment",
+      "QualifiedApiName": "BestCommentId",
+      "EntityDefinitionId": "CouponFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "BestComment",
+      "MasterLabel": "最良のコメント",
+      "Label": "最良のコメント",
+      "DataType": "参照関係(フィードコメント)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CouponFeed.Body"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CouponFeed.Body",
+      "QualifiedApiName": "Body",
+      "EntityDefinitionId": "CouponFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "Body",
+      "MasterLabel": "内容",
+      "Label": "内容",
+      "DataType": "ロングテキストエリア(10000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CouponFeed.CommentCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CouponFeed.CommentCount",
+      "QualifiedApiName": "CommentCount",
+      "EntityDefinitionId": "CouponFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "CommentCount",
+      "MasterLabel": "コメント数",
+      "Label": "コメント数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CouponFeed.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CouponFeed.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "CouponFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CouponFeed.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CouponFeed.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "CouponFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CouponFeed.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CouponFeed.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "CouponFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "フィード項目 ID",
+      "Label": "フィード項目 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CouponFeed.InsertedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CouponFeed.InsertedBy",
+      "QualifiedApiName": "InsertedById",
+      "EntityDefinitionId": "CouponFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "InsertedBy",
+      "MasterLabel": "挿入者",
+      "Label": "挿入者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CouponFeed.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CouponFeed.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "CouponFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CouponFeed.IsRichText"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CouponFeed.IsRichText",
+      "QualifiedApiName": "IsRichText",
+      "EntityDefinitionId": "CouponFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsRichText",
+      "MasterLabel": "リッチテキスト",
+      "Label": "リッチテキスト",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CouponFeed.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CouponFeed.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "CouponFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CouponFeed.LikeCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CouponFeed.LikeCount",
+      "QualifiedApiName": "LikeCount",
+      "EntityDefinitionId": "CouponFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "LikeCount",
+      "MasterLabel": "いいね! の数",
+      "Label": "いいね! の数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CouponFeed.LinkUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CouponFeed.LinkUrl",
+      "QualifiedApiName": "LinkUrl",
+      "EntityDefinitionId": "CouponFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "LinkUrl",
+      "MasterLabel": "リンク URL",
+      "Label": "リンク URL",
+      "DataType": "URL(1000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CouponFeed.Parent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CouponFeed.Parent",
+      "QualifiedApiName": "ParentId",
+      "EntityDefinitionId": "CouponFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "Parent",
+      "MasterLabel": "親",
+      "Label": "親",
+      "DataType": "参照関係(クーポン)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CouponFeed.RelatedRecord"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CouponFeed.RelatedRecord",
+      "QualifiedApiName": "RelatedRecordId",
+      "EntityDefinitionId": "CouponFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "RelatedRecord",
+      "MasterLabel": "関連レコード",
+      "Label": "関連レコード",
+      "DataType": "参照関係(コンテンツバージョン,キャンバスフィード項目)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CouponFeed.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CouponFeed.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "CouponFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CouponFeed.Title"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CouponFeed.Title",
+      "QualifiedApiName": "Title",
+      "EntityDefinitionId": "CouponFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "Title",
+      "MasterLabel": "タイトル",
+      "Label": "タイトル",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CouponFeed.Type"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CouponFeed.Type",
+      "QualifiedApiName": "Type",
+      "EntityDefinitionId": "CouponFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "Type",
+      "MasterLabel": "フィード項目種別",
+      "Label": "フィード項目種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

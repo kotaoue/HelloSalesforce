@@ -1,0 +1,343 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 16,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthConfig.AuthOptions"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthConfig.AuthOptions",
+      "QualifiedApiName": "AuthOptions",
+      "EntityDefinitionId": "AuthConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "AuthOptions",
+      "MasterLabel": "認証設定オプション",
+      "Label": "認証設定オプション",
+      "DataType": "ビットベクター",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthConfig.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthConfig.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AuthConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthConfig.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthConfig.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AuthConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthConfig.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthConfig.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "AuthConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthConfig.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthConfig.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AuthConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "認証設定 ID",
+      "Label": "認証設定 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthConfig.IsActive"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthConfig.IsActive",
+      "QualifiedApiName": "IsActive",
+      "EntityDefinitionId": "AuthConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsActive",
+      "MasterLabel": "有効",
+      "Label": "有効",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthConfig.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthConfig.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AuthConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthConfig.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthConfig.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "AuthConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthConfig.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthConfig.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AuthConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthConfig.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthConfig.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AuthConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthConfig.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthConfig.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "AuthConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthConfig.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthConfig.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "AuthConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthConfig.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthConfig.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "AuthConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthConfig.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthConfig.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AuthConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthConfig.Type"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthConfig.Type",
+      "QualifiedApiName": "Type",
+      "EntityDefinitionId": "AuthConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "Type",
+      "MasterLabel": "認証設定種別",
+      "Label": "認証設定種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthConfig.Url"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthConfig.Url",
+      "QualifiedApiName": "Url",
+      "EntityDefinitionId": "AuthConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "Url",
+      "MasterLabel": "URL",
+      "Label": "URL",
+      "DataType": "テキスト(240)  (ユニーク、大文字と小文字を区別しない)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

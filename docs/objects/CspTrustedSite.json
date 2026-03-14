@@ -1,0 +1,511 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 24,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CspTrustedSite.CanAccessCamera"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CspTrustedSite.CanAccessCamera",
+      "QualifiedApiName": "CanAccessCamera",
+      "EntityDefinitionId": "CspTrustedSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "CanAccessCamera",
+      "MasterLabel": "カメラ",
+      "Label": "カメラ",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CspTrustedSite.CanAccessMicrophone"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CspTrustedSite.CanAccessMicrophone",
+      "QualifiedApiName": "CanAccessMicrophone",
+      "EntityDefinitionId": "CspTrustedSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "CanAccessMicrophone",
+      "MasterLabel": "マイクロフォン",
+      "Label": "マイクロフォン",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CspTrustedSite.Context"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CspTrustedSite.Context",
+      "QualifiedApiName": "Context",
+      "EntityDefinitionId": "CspTrustedSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "Context",
+      "MasterLabel": "CSP コンテキスト",
+      "Label": "CSP コンテキスト",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CspTrustedSite.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CspTrustedSite.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "CspTrustedSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CspTrustedSite.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CspTrustedSite.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "CspTrustedSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CspTrustedSite.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CspTrustedSite.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "CspTrustedSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "テキストエリア(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CspTrustedSite.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CspTrustedSite.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "CspTrustedSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "API 参照名",
+      "Label": "API 参照名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CspTrustedSite.EndpointUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CspTrustedSite.EndpointUrl",
+      "QualifiedApiName": "EndpointUrl",
+      "EntityDefinitionId": "CspTrustedSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "EndpointUrl",
+      "MasterLabel": "URL",
+      "Label": "URL",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CspTrustedSite.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CspTrustedSite.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "CspTrustedSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "信頼済み URL ID",
+      "Label": "信頼済み URL ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CspTrustedSite.IsActive"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CspTrustedSite.IsActive",
+      "QualifiedApiName": "IsActive",
+      "EntityDefinitionId": "CspTrustedSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsActive",
+      "MasterLabel": "有効",
+      "Label": "有効",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CspTrustedSite.IsApplicableToConnectSrc"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CspTrustedSite.IsApplicableToConnectSrc",
+      "QualifiedApiName": "IsApplicableToConnectSrc",
+      "EntityDefinitionId": "CspTrustedSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsApplicableToConnectSrc",
+      "MasterLabel": "connect-src (スクリプト)",
+      "Label": "connect-src (スクリプト)",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CspTrustedSite.IsApplicableToFontSrc"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CspTrustedSite.IsApplicableToFontSrc",
+      "QualifiedApiName": "IsApplicableToFontSrc",
+      "EntityDefinitionId": "CspTrustedSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsApplicableToFontSrc",
+      "MasterLabel": "font-src (フォント)",
+      "Label": "font-src (フォント)",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CspTrustedSite.IsApplicableToFrameSrc"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CspTrustedSite.IsApplicableToFrameSrc",
+      "QualifiedApiName": "IsApplicableToFrameSrc",
+      "EntityDefinitionId": "CspTrustedSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsApplicableToFrameSrc",
+      "MasterLabel": "frame-src (iframe コンテンツ)",
+      "Label": "frame-src (iframe コンテンツ)",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CspTrustedSite.IsApplicableToImgSrc"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CspTrustedSite.IsApplicableToImgSrc",
+      "QualifiedApiName": "IsApplicableToImgSrc",
+      "EntityDefinitionId": "CspTrustedSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsApplicableToImgSrc",
+      "MasterLabel": "img-src (画像)",
+      "Label": "img-src (画像)",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CspTrustedSite.IsApplicableToMediaSrc"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CspTrustedSite.IsApplicableToMediaSrc",
+      "QualifiedApiName": "IsApplicableToMediaSrc",
+      "EntityDefinitionId": "CspTrustedSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsApplicableToMediaSrc",
+      "MasterLabel": "media-src (音声と動画)",
+      "Label": "media-src (音声と動画)",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CspTrustedSite.IsApplicableToStyleSrc"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CspTrustedSite.IsApplicableToStyleSrc",
+      "QualifiedApiName": "IsApplicableToStyleSrc",
+      "EntityDefinitionId": "CspTrustedSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsApplicableToStyleSrc",
+      "MasterLabel": "style-src (スタイルシート)",
+      "Label": "style-src (スタイルシート)",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CspTrustedSite.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CspTrustedSite.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "CspTrustedSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CspTrustedSite.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CspTrustedSite.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "CspTrustedSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CspTrustedSite.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CspTrustedSite.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "CspTrustedSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CspTrustedSite.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CspTrustedSite.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "CspTrustedSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CspTrustedSite.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CspTrustedSite.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "CspTrustedSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CspTrustedSite.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CspTrustedSite.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "CspTrustedSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CspTrustedSite.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CspTrustedSite.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "CspTrustedSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CspTrustedSite.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CspTrustedSite.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "CspTrustedSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

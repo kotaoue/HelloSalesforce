@@ -1,0 +1,553 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 26,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppAnalyticsQueryRequest.AvailableSince"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppAnalyticsQueryRequest.AvailableSince",
+      "QualifiedApiName": "AvailableSince",
+      "EntityDefinitionId": "AppAnalyticsQueryRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "AvailableSince",
+      "MasterLabel": "使用可能開始日",
+      "Label": "使用可能開始日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppAnalyticsQueryRequest.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppAnalyticsQueryRequest.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AppAnalyticsQueryRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppAnalyticsQueryRequest.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppAnalyticsQueryRequest.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AppAnalyticsQueryRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppAnalyticsQueryRequest.DataType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppAnalyticsQueryRequest.DataType",
+      "QualifiedApiName": "DataType",
+      "EntityDefinitionId": "AppAnalyticsQueryRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataType",
+      "MasterLabel": "データ型",
+      "Label": "データ型",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppAnalyticsQueryRequest.DownloadExpirationTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppAnalyticsQueryRequest.DownloadExpirationTime",
+      "QualifiedApiName": "DownloadExpirationTime",
+      "EntityDefinitionId": "AppAnalyticsQueryRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "DownloadExpirationTime",
+      "MasterLabel": "ダウンロードの有効期限",
+      "Label": "ダウンロードの有効期限",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppAnalyticsQueryRequest.DownloadSize"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppAnalyticsQueryRequest.DownloadSize",
+      "QualifiedApiName": "DownloadSize",
+      "EntityDefinitionId": "AppAnalyticsQueryRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "DownloadSize",
+      "MasterLabel": "ダウンロードファイルサイズ",
+      "Label": "ダウンロードファイルサイズ",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppAnalyticsQueryRequest.DownloadUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppAnalyticsQueryRequest.DownloadUrl",
+      "QualifiedApiName": "DownloadUrl",
+      "EntityDefinitionId": "AppAnalyticsQueryRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "DownloadUrl",
+      "MasterLabel": "ダウンロード URL",
+      "Label": "ダウンロード URL",
+      "DataType": "ロングテキストエリア(8096)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppAnalyticsQueryRequest.EndTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppAnalyticsQueryRequest.EndTime",
+      "QualifiedApiName": "EndTime",
+      "EntityDefinitionId": "AppAnalyticsQueryRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "EndTime",
+      "MasterLabel": "終了時刻",
+      "Label": "終了時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppAnalyticsQueryRequest.ErrorMessage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppAnalyticsQueryRequest.ErrorMessage",
+      "QualifiedApiName": "ErrorMessage",
+      "EntityDefinitionId": "AppAnalyticsQueryRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorMessage",
+      "MasterLabel": "エラーメッセージ",
+      "Label": "エラーメッセージ",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppAnalyticsQueryRequest.FileCompression"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppAnalyticsQueryRequest.FileCompression",
+      "QualifiedApiName": "FileCompression",
+      "EntityDefinitionId": "AppAnalyticsQueryRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "FileCompression",
+      "MasterLabel": "ファイル圧縮",
+      "Label": "ファイル圧縮",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppAnalyticsQueryRequest.FileType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppAnalyticsQueryRequest.FileType",
+      "QualifiedApiName": "FileType",
+      "EntityDefinitionId": "AppAnalyticsQueryRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "FileType",
+      "MasterLabel": "ファイルの種類",
+      "Label": "ファイルの種類",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppAnalyticsQueryRequest.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppAnalyticsQueryRequest.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AppAnalyticsQueryRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "アプリケーション分析クエリ要求 ID",
+      "Label": "アプリケーション分析クエリ要求 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppAnalyticsQueryRequest.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppAnalyticsQueryRequest.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AppAnalyticsQueryRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppAnalyticsQueryRequest.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppAnalyticsQueryRequest.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AppAnalyticsQueryRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppAnalyticsQueryRequest.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppAnalyticsQueryRequest.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AppAnalyticsQueryRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppAnalyticsQueryRequest.LastReferencedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppAnalyticsQueryRequest.LastReferencedDate",
+      "QualifiedApiName": "LastReferencedDate",
+      "EntityDefinitionId": "AppAnalyticsQueryRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastReferencedDate",
+      "MasterLabel": "最終参照日",
+      "Label": "最終参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppAnalyticsQueryRequest.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppAnalyticsQueryRequest.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "AppAnalyticsQueryRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppAnalyticsQueryRequest.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppAnalyticsQueryRequest.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "AppAnalyticsQueryRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "番号",
+      "Label": "番号",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppAnalyticsQueryRequest.OrganizationIds"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppAnalyticsQueryRequest.OrganizationIds",
+      "QualifiedApiName": "OrganizationIds",
+      "EntityDefinitionId": "AppAnalyticsQueryRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "OrganizationIds",
+      "MasterLabel": "組織 ID",
+      "Label": "組織 ID",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppAnalyticsQueryRequest.PackageIds"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppAnalyticsQueryRequest.PackageIds",
+      "QualifiedApiName": "PackageIds",
+      "EntityDefinitionId": "AppAnalyticsQueryRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "PackageIds",
+      "MasterLabel": "パッケージ ID",
+      "Label": "パッケージ ID",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppAnalyticsQueryRequest.QuerySubmittedTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppAnalyticsQueryRequest.QuerySubmittedTime",
+      "QualifiedApiName": "QuerySubmittedTime",
+      "EntityDefinitionId": "AppAnalyticsQueryRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "QuerySubmittedTime",
+      "MasterLabel": "クエリ送信時間",
+      "Label": "クエリ送信時間",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppAnalyticsQueryRequest.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppAnalyticsQueryRequest.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "AppAnalyticsQueryRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppAnalyticsQueryRequest.RequestState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppAnalyticsQueryRequest.RequestState",
+      "QualifiedApiName": "RequestState",
+      "EntityDefinitionId": "AppAnalyticsQueryRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "RequestState",
+      "MasterLabel": "要求の状況",
+      "Label": "要求の状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppAnalyticsQueryRequest.StartTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppAnalyticsQueryRequest.StartTime",
+      "QualifiedApiName": "StartTime",
+      "EntityDefinitionId": "AppAnalyticsQueryRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "StartTime",
+      "MasterLabel": "開始時刻",
+      "Label": "開始時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppAnalyticsQueryRequest.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppAnalyticsQueryRequest.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AppAnalyticsQueryRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppAnalyticsQueryRequest.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppAnalyticsQueryRequest.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "AppAnalyticsQueryRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

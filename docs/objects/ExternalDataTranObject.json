@@ -1,0 +1,427 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 20,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataTranObject.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataTranObject.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ExternalDataTranObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataTranObject.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataTranObject.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ExternalDataTranObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataTranObject.CreationType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataTranObject.CreationType",
+      "QualifiedApiName": "CreationType",
+      "EntityDefinitionId": "ExternalDataTranObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreationType",
+      "MasterLabel": "作成種別",
+      "Label": "作成種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataTranObject.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataTranObject.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "ExternalDataTranObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "オブジェクト名",
+      "Label": "オブジェクト名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataTranObject.ExtDataTranObjectTemplate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataTranObject.ExtDataTranObjectTemplate",
+      "QualifiedApiName": "ExtDataTranObjectTemplateId",
+      "EntityDefinitionId": "ExternalDataTranObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExtDataTranObjectTemplate",
+      "MasterLabel": "外部データトランスポートオブジェクトテンプレート",
+      "Label": "外部データトランスポートオブジェクトテンプレート",
+      "DataType": "参照関係(外部データトランスポートオブジェクトテンプレート)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataTranObject.FullName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataTranObject.FullName",
+      "QualifiedApiName": "FullName",
+      "EntityDefinitionId": "ExternalDataTranObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "FullName",
+      "MasterLabel": "外部データトランスポートオブジェクト名",
+      "Label": "外部データトランスポートオブジェクト名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataTranObject.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataTranObject.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ExternalDataTranObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "外部データトランスポートオブジェクト ID",
+      "Label": "外部データトランスポートオブジェクト ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataTranObject.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataTranObject.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ExternalDataTranObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataTranObject.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataTranObject.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "ExternalDataTranObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataTranObject.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataTranObject.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ExternalDataTranObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataTranObject.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataTranObject.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ExternalDataTranObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataTranObject.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataTranObject.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "ExternalDataTranObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataTranObject.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataTranObject.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "ExternalDataTranObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataTranObject.Metadata"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataTranObject.Metadata",
+      "QualifiedApiName": "Metadata",
+      "EntityDefinitionId": "ExternalDataTranObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "Metadata",
+      "MasterLabel": "メタデータ",
+      "Label": "メタデータ",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataTranObject.MktDataTranObject"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataTranObject.MktDataTranObject",
+      "QualifiedApiName": "MktDataTranObjectId",
+      "EntityDefinitionId": "ExternalDataTranObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "MktDataTranObject",
+      "MasterLabel": "データトランスポートオブジェクト",
+      "Label": "データトランスポートオブジェクト",
+      "DataType": "参照関係(データトランスポートオブジェクト)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataTranObject.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataTranObject.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "ExternalDataTranObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataTranObject.ObjectCategory"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataTranObject.ObjectCategory",
+      "QualifiedApiName": "ObjectCategoryId",
+      "EntityDefinitionId": "ExternalDataTranObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "ObjectCategory",
+      "MasterLabel": "オブジェクトカテゴリ",
+      "Label": "オブジェクトカテゴリ",
+      "DataType": "参照関係(データオブジェクトカテゴリ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataTranObject.SobjectType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataTranObject.SobjectType",
+      "QualifiedApiName": "ExternalDataConnectorId",
+      "EntityDefinitionId": "ExternalDataTranObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "SobjectType",
+      "MasterLabel": "外部データコネクタ",
+      "Label": "外部データコネクタ",
+      "DataType": "参照関係(外部データコネクタ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataTranObject.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataTranObject.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "ExternalDataTranObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataTranObject.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataTranObject.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ExternalDataTranObject",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

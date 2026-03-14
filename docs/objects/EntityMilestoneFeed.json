@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntityMilestoneFeed.BestComment"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntityMilestoneFeed.BestComment",
+      "QualifiedApiName": "BestCommentId",
+      "EntityDefinitionId": "EntityMilestoneFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "BestComment",
+      "MasterLabel": "最良のコメント",
+      "Label": "最良のコメント",
+      "DataType": "参照関係(フィードコメント)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntityMilestoneFeed.Body"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntityMilestoneFeed.Body",
+      "QualifiedApiName": "Body",
+      "EntityDefinitionId": "EntityMilestoneFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "Body",
+      "MasterLabel": "内容",
+      "Label": "内容",
+      "DataType": "ロングテキストエリア(10000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntityMilestoneFeed.CommentCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntityMilestoneFeed.CommentCount",
+      "QualifiedApiName": "CommentCount",
+      "EntityDefinitionId": "EntityMilestoneFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "CommentCount",
+      "MasterLabel": "コメント数",
+      "Label": "コメント数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntityMilestoneFeed.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntityMilestoneFeed.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "EntityMilestoneFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntityMilestoneFeed.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntityMilestoneFeed.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "EntityMilestoneFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntityMilestoneFeed.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntityMilestoneFeed.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "EntityMilestoneFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "フィード項目 ID",
+      "Label": "フィード項目 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntityMilestoneFeed.InsertedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntityMilestoneFeed.InsertedBy",
+      "QualifiedApiName": "InsertedById",
+      "EntityDefinitionId": "EntityMilestoneFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "InsertedBy",
+      "MasterLabel": "挿入者",
+      "Label": "挿入者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntityMilestoneFeed.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntityMilestoneFeed.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "EntityMilestoneFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntityMilestoneFeed.IsRichText"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntityMilestoneFeed.IsRichText",
+      "QualifiedApiName": "IsRichText",
+      "EntityDefinitionId": "EntityMilestoneFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsRichText",
+      "MasterLabel": "リッチテキスト",
+      "Label": "リッチテキスト",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntityMilestoneFeed.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntityMilestoneFeed.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "EntityMilestoneFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntityMilestoneFeed.LikeCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntityMilestoneFeed.LikeCount",
+      "QualifiedApiName": "LikeCount",
+      "EntityDefinitionId": "EntityMilestoneFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "LikeCount",
+      "MasterLabel": "いいね! の数",
+      "Label": "いいね! の数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntityMilestoneFeed.LinkUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntityMilestoneFeed.LinkUrl",
+      "QualifiedApiName": "LinkUrl",
+      "EntityDefinitionId": "EntityMilestoneFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "LinkUrl",
+      "MasterLabel": "リンク URL",
+      "Label": "リンク URL",
+      "DataType": "URL(1000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntityMilestoneFeed.Parent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntityMilestoneFeed.Parent",
+      "QualifiedApiName": "ParentId",
+      "EntityDefinitionId": "EntityMilestoneFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "Parent",
+      "MasterLabel": "親",
+      "Label": "親",
+      "DataType": "参照関係(オブジェクトマイルストーン)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntityMilestoneFeed.RelatedRecord"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntityMilestoneFeed.RelatedRecord",
+      "QualifiedApiName": "RelatedRecordId",
+      "EntityDefinitionId": "EntityMilestoneFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "RelatedRecord",
+      "MasterLabel": "関連レコード",
+      "Label": "関連レコード",
+      "DataType": "参照関係(コンテンツバージョン,キャンバスフィード項目)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntityMilestoneFeed.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntityMilestoneFeed.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "EntityMilestoneFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntityMilestoneFeed.Title"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntityMilestoneFeed.Title",
+      "QualifiedApiName": "Title",
+      "EntityDefinitionId": "EntityMilestoneFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "Title",
+      "MasterLabel": "タイトル",
+      "Label": "タイトル",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EntityMilestoneFeed.Type"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EntityMilestoneFeed.Type",
+      "QualifiedApiName": "Type",
+      "EntityDefinitionId": "EntityMilestoneFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "Type",
+      "MasterLabel": "フィード項目種別",
+      "Label": "フィード項目種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

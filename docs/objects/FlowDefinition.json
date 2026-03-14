@@ -1,0 +1,385 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 18,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowDefinition.ActiveOrLastInactiveVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowDefinition.ActiveOrLastInactiveVersion",
+      "QualifiedApiName": "ActiveOrLastInactiveVersionId",
+      "EntityDefinitionId": "FlowDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActiveOrLastInactiveVersion",
+      "MasterLabel": "有効または最後の無効バージョン",
+      "Label": "有効または最後の無効バージョン",
+      "DataType": "参照関係(フローのバージョン)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowDefinition.ActiveOrLatestVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowDefinition.ActiveOrLatestVersion",
+      "QualifiedApiName": "ActiveOrLatestVersionId",
+      "EntityDefinitionId": "FlowDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActiveOrLatestVersion",
+      "MasterLabel": "有効または最新バージョン",
+      "Label": "有効または最新バージョン",
+      "DataType": "参照関係(フローのバージョン)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowDefinition.ActiveVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowDefinition.ActiveVersion",
+      "QualifiedApiName": "ActiveVersionId",
+      "EntityDefinitionId": "FlowDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActiveVersion",
+      "MasterLabel": "有効バージョン",
+      "Label": "有効バージョン",
+      "DataType": "参照関係(フローのバージョン)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowDefinition.ApiVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowDefinition.ApiVersion",
+      "QualifiedApiName": "ApiVersion",
+      "EntityDefinitionId": "FlowDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "ApiVersion",
+      "MasterLabel": "API バージョン",
+      "Label": "API バージョン",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowDefinition.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowDefinition.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "FlowDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowDefinition.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowDefinition.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "FlowDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowDefinition.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowDefinition.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "FlowDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "ロングテキストエリア(65535)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowDefinition.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowDefinition.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "FlowDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "フローの API 参照名",
+      "Label": "フローの API 参照名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowDefinition.FullName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowDefinition.FullName",
+      "QualifiedApiName": "FullName",
+      "EntityDefinitionId": "FlowDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "FullName",
+      "MasterLabel": "メタデータ API の完全名",
+      "Label": "メタデータ API の完全名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowDefinition.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowDefinition.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "FlowDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "フロー定義 ID",
+      "Label": "フロー定義 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowDefinition.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowDefinition.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "FlowDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowDefinition.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowDefinition.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "FlowDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowDefinition.LatestVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowDefinition.LatestVersion",
+      "QualifiedApiName": "LatestVersionId",
+      "EntityDefinitionId": "FlowDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "LatestVersion",
+      "MasterLabel": "最新バージョン",
+      "Label": "最新バージョン",
+      "DataType": "参照関係(フローのバージョン)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowDefinition.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowDefinition.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "FlowDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowDefinition.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowDefinition.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "FlowDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "フローの表示ラベル",
+      "Label": "フローの表示ラベル",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowDefinition.Metadata"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowDefinition.Metadata",
+      "QualifiedApiName": "Metadata",
+      "EntityDefinitionId": "FlowDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Metadata",
+      "MasterLabel": "フロー定義のメタデータ",
+      "Label": "フロー定義のメタデータ",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowDefinition.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowDefinition.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "FlowDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowDefinition.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowDefinition.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "FlowDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

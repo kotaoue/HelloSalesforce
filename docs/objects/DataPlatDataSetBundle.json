@@ -1,0 +1,259 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 12,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatDataSetBundle.BundleType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatDataSetBundle.BundleType",
+      "QualifiedApiName": "BundleType",
+      "EntityDefinitionId": "DataPlatDataSetBundle",
+      "NamespacePrefix": null,
+      "DeveloperName": "BundleType",
+      "MasterLabel": "バンドル種別",
+      "Label": "バンドル種別",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatDataSetBundle.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatDataSetBundle.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DataPlatDataSetBundle",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatDataSetBundle.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatDataSetBundle.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DataPlatDataSetBundle",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatDataSetBundle.DataPlatform"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatDataSetBundle.DataPlatform",
+      "QualifiedApiName": "DataPlatformId",
+      "EntityDefinitionId": "DataPlatDataSetBundle",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataPlatform",
+      "MasterLabel": "データプラットフォーム",
+      "Label": "データプラットフォーム",
+      "DataType": "主従関係(データプラットフォーム)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatDataSetBundle.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatDataSetBundle.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "DataPlatDataSetBundle",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatDataSetBundle.IconUri"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatDataSetBundle.IconUri",
+      "QualifiedApiName": "IconUri",
+      "EntityDefinitionId": "DataPlatDataSetBundle",
+      "NamespacePrefix": null,
+      "DeveloperName": "IconUri",
+      "MasterLabel": "URL",
+      "Label": "URL",
+      "DataType": "URL(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatDataSetBundle.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatDataSetBundle.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DataPlatDataSetBundle",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "データコネクタデータセットバンドル ID",
+      "Label": "データコネクタデータセットバンドル ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatDataSetBundle.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatDataSetBundle.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DataPlatDataSetBundle",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatDataSetBundle.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatDataSetBundle.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DataPlatDataSetBundle",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatDataSetBundle.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatDataSetBundle.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DataPlatDataSetBundle",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatDataSetBundle.SortOrder"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatDataSetBundle.SortOrder",
+      "QualifiedApiName": "SortOrder",
+      "EntityDefinitionId": "DataPlatDataSetBundle",
+      "NamespacePrefix": null,
+      "DeveloperName": "SortOrder",
+      "MasterLabel": "並び替え順",
+      "Label": "並び替え順",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatDataSetBundle.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatDataSetBundle.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DataPlatDataSetBundle",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

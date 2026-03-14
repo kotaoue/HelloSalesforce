@@ -1,0 +1,448 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 21,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAction.ActionApiName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAction.ActionApiName",
+      "QualifiedApiName": "ActionApiName",
+      "EntityDefinitionId": "DataAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActionApiName",
+      "MasterLabel": "データアクション API 参照名",
+      "Label": "データアクション API 参照名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAction.ActionDefinition"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAction.ActionDefinition",
+      "QualifiedApiName": "ActionDefinitionId",
+      "EntityDefinitionId": "DataAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActionDefinition",
+      "MasterLabel": "データアクション定義",
+      "Label": "データアクション定義",
+      "DataType": "参照関係(データアクション定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAction.ActionStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAction.ActionStatus",
+      "QualifiedApiName": "ActionStatus",
+      "EntityDefinitionId": "DataAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActionStatus",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAction.AffiliationDmoDeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAction.AffiliationDmoDeveloperName",
+      "QualifiedApiName": "AffiliationDmoDeveloperName",
+      "EntityDefinitionId": "DataAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "AffiliationDmoDeveloperName",
+      "MasterLabel": "アフィリエーション DMO API 参照名",
+      "Label": "アフィリエーション DMO API 参照名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAction.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAction.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DataAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAction.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAction.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DataAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAction.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAction.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "DataAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "データアクションの説明",
+      "Label": "データアクションの説明",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAction.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAction.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DataAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "データアクション ID",
+      "Label": "データアクション ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAction.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAction.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DataAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAction.LastActionStatusDateTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAction.LastActionStatusDateTime",
+      "QualifiedApiName": "LastActionStatusDateTime",
+      "EntityDefinitionId": "DataAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastActionStatusDateTime",
+      "MasterLabel": "最終データアクション状況日時",
+      "Label": "最終データアクション状況日時",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAction.LastActionStatusErrorCode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAction.LastActionStatusErrorCode",
+      "QualifiedApiName": "LastActionStatusErrorCode",
+      "EntityDefinitionId": "DataAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastActionStatusErrorCode",
+      "MasterLabel": "最終データアクション状況エラーコード",
+      "Label": "最終データアクション状況エラーコード",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAction.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAction.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DataAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAction.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAction.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DataAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAction.LastReferencedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAction.LastReferencedDate",
+      "QualifiedApiName": "LastReferencedDate",
+      "EntityDefinitionId": "DataAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastReferencedDate",
+      "MasterLabel": "最終参照日",
+      "Label": "最終参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAction.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAction.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "DataAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAction.ManagedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAction.ManagedBy",
+      "QualifiedApiName": "ManagedBy",
+      "EntityDefinitionId": "DataAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManagedBy",
+      "MasterLabel": "管理者",
+      "Label": "管理者",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAction.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAction.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "DataAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "データアクション名",
+      "Label": "データアクション名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAction.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAction.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "DataAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAction.ShouldProcessDayZero"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAction.ShouldProcessDayZero",
+      "QualifiedApiName": "ShouldProcessDayZero",
+      "EntityDefinitionId": "DataAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShouldProcessDayZero",
+      "MasterLabel": "0 日を処理する必要があります",
+      "Label": "0 日を処理する必要があります",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAction.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAction.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DataAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAction.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAction.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "DataAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

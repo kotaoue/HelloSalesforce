@@ -1,0 +1,553 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 26,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.AdjustmentAmountScope"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.AdjustmentAmountScope",
+      "QualifiedApiName": "AdjustmentAmountScope",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "AdjustmentAmountScope",
+      "MasterLabel": "調整金額範囲",
+      "Label": "調整金額範囲",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.AdjustmentBasisReference"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.AdjustmentBasisReference",
+      "QualifiedApiName": "AdjustmentBasisReferenceId",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "AdjustmentBasisReference",
+      "MasterLabel": "調整 (クーポン) の根拠",
+      "Label": "調整 (クーポン) の根拠",
+      "DataType": "参照関係(クーポン)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.AdjustmentSource"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.AdjustmentSource",
+      "QualifiedApiName": "AdjustmentSource",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "AdjustmentSource",
+      "MasterLabel": "調整取得元",
+      "Label": "調整取得元",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.AdjustmentTargetType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.AdjustmentTargetType",
+      "QualifiedApiName": "AdjustmentTargetType",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "AdjustmentTargetType",
+      "MasterLabel": "調整の対象種別",
+      "Label": "調整の対象種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.AdjustmentType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.AdjustmentType",
+      "QualifiedApiName": "AdjustmentType",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "AdjustmentType",
+      "MasterLabel": "調整種別",
+      "Label": "調整種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.AdjustmentValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.AdjustmentValue",
+      "QualifiedApiName": "AdjustmentValue",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "AdjustmentValue",
+      "MasterLabel": "調整値",
+      "Label": "調整値",
+      "DataType": "数値(16、2)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.Cart"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.Cart",
+      "QualifiedApiName": "CartId",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "Cart",
+      "MasterLabel": "カート",
+      "Label": "カート",
+      "DataType": "参照関係(カート)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.CartItem"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.CartItem",
+      "QualifiedApiName": "CartItemId",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "CartItem",
+      "MasterLabel": "カート項目",
+      "Label": "カート項目",
+      "DataType": "主従関係(カート項目)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "カート品目価格調整 ID",
+      "Label": "カート品目価格調整 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "カート品目価格調整名",
+      "Label": "カート品目価格調整名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.PriceAdjustmentCause"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.PriceAdjustmentCause",
+      "QualifiedApiName": "PriceAdjustmentCauseId",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "PriceAdjustmentCause",
+      "MasterLabel": "価格調整の原因",
+      "Label": "価格調整の原因",
+      "DataType": "参照関係(プロモーション)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.Priority"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.Priority",
+      "QualifiedApiName": "Priority",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "Priority",
+      "MasterLabel": "調整の優先順序",
+      "Label": "調整の優先順序",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.TotalAmount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.TotalAmount",
+      "QualifiedApiName": "TotalAmount",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "TotalAmount",
+      "MasterLabel": "総額",
+      "Label": "総額",
+      "DataType": "通貨(16、2)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.TotalGrossAmount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.TotalGrossAmount",
+      "QualifiedApiName": "TotalGrossAmount",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "TotalGrossAmount",
+      "MasterLabel": "正味金額合計",
+      "Label": "正味金額合計",
+      "DataType": "通貨(16、2)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.TotalNetAmount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.TotalNetAmount",
+      "QualifiedApiName": "TotalNetAmount",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "TotalNetAmount",
+      "MasterLabel": "総金額合計",
+      "Label": "総金額合計",
+      "DataType": "通貨(16、2)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.TotalTax"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.TotalTax",
+      "QualifiedApiName": "TotalTax",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "TotalTax",
+      "MasterLabel": "消費税等総額",
+      "Label": "消費税等総額",
+      "DataType": "通貨(16、2)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.WebCartAdjustmentGroup"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.WebCartAdjustmentGroup",
+      "QualifiedApiName": "WebCartAdjustmentGroupId",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "WebCartAdjustmentGroup",
+      "MasterLabel": "カート調整グループ",
+      "Label": "カート調整グループ",
+      "DataType": "参照関係(カート調整グループ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

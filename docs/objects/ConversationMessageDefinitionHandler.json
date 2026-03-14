@@ -1,0 +1,259 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 12,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationMessageDefinitionHandler.ActiveRequestDurationMinutes"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationMessageDefinitionHandler.ActiveRequestDurationMinutes",
+      "QualifiedApiName": "ActiveRequestDurationMinutes",
+      "EntityDefinitionId": "ConversationMessageDefinitionHandler",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActiveRequestDurationMinutes",
+      "MasterLabel": "有効な要求期間 (分)",
+      "Label": "有効な要求期間 (分)",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationMessageDefinitionHandler.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationMessageDefinitionHandler.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ConversationMessageDefinitionHandler",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationMessageDefinitionHandler.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationMessageDefinitionHandler.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ConversationMessageDefinitionHandler",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationMessageDefinitionHandler.Handler"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationMessageDefinitionHandler.Handler",
+      "QualifiedApiName": "Handler",
+      "EntityDefinitionId": "ConversationMessageDefinitionHandler",
+      "NamespacePrefix": null,
+      "DeveloperName": "Handler",
+      "MasterLabel": "ハンドラー",
+      "Label": "ハンドラー",
+      "DataType": "選択リスト(アクション,Apex クラス,認証プロバイダー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationMessageDefinitionHandler.HandlerType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationMessageDefinitionHandler.HandlerType",
+      "QualifiedApiName": "HandlerType",
+      "EntityDefinitionId": "ConversationMessageDefinitionHandler",
+      "NamespacePrefix": null,
+      "DeveloperName": "HandlerType",
+      "MasterLabel": "ハンドラー種別",
+      "Label": "ハンドラー種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationMessageDefinitionHandler.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationMessageDefinitionHandler.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ConversationMessageDefinitionHandler",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "会話メッセージ定義ハンドラー ID",
+      "Label": "会話メッセージ定義ハンドラー ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationMessageDefinitionHandler.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationMessageDefinitionHandler.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ConversationMessageDefinitionHandler",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationMessageDefinitionHandler.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationMessageDefinitionHandler.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ConversationMessageDefinitionHandler",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationMessageDefinitionHandler.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationMessageDefinitionHandler.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ConversationMessageDefinitionHandler",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationMessageDefinitionHandler.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationMessageDefinitionHandler.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "ConversationMessageDefinitionHandler",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationMessageDefinitionHandler.MessageDefinition"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationMessageDefinitionHandler.MessageDefinition",
+      "QualifiedApiName": "MessageDefinitionId",
+      "EntityDefinitionId": "ConversationMessageDefinitionHandler",
+      "NamespacePrefix": null,
+      "DeveloperName": "MessageDefinition",
+      "MasterLabel": "会話メッセージ定義ハンドラー",
+      "Label": "会話メッセージ定義ハンドラー",
+      "DataType": "主従関係(メッセージングコンポーネント)  (ユニーク)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationMessageDefinitionHandler.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationMessageDefinitionHandler.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ConversationMessageDefinitionHandler",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 18,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventLogFile.ApiVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventLogFile.ApiVersion",
+      "QualifiedApiName": "ApiVersion",
+      "EntityDefinitionId": "EventLogFile",
+      "NamespacePrefix": null,
+      "DeveloperName": "ApiVersion",
+      "MasterLabel": "API バージョン",
+      "Label": "API バージョン",
+      "DataType": "数値(17、1)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventLogFile.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventLogFile.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "EventLogFile",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventLogFile.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventLogFile.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "EventLogFile",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventLogFile.EventType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventLogFile.EventType",
+      "QualifiedApiName": "EventType",
+      "EntityDefinitionId": "EventLogFile",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventType",
+      "MasterLabel": "イベントの種別",
+      "Label": "イベントの種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventLogFile.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventLogFile.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "EventLogFile",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "イベントログファイル ID",
+      "Label": "イベントログファイル ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventLogFile.Interval"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventLogFile.Interval",
+      "QualifiedApiName": "Interval",
+      "EntityDefinitionId": "EventLogFile",
+      "NamespacePrefix": null,
+      "DeveloperName": "Interval",
+      "MasterLabel": "期間",
+      "Label": "期間",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventLogFile.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventLogFile.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "EventLogFile",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventLogFile.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventLogFile.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "EventLogFile",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventLogFile.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventLogFile.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "EventLogFile",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventLogFile.LogDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventLogFile.LogDate",
+      "QualifiedApiName": "LogDate",
+      "EntityDefinitionId": "EventLogFile",
+      "NamespacePrefix": null,
+      "DeveloperName": "LogDate",
+      "MasterLabel": "ログ日付",
+      "Label": "ログ日付",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventLogFile.LogFile"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventLogFile.LogFile",
+      "QualifiedApiName": "LogFile",
+      "EntityDefinitionId": "EventLogFile",
+      "NamespacePrefix": null,
+      "DeveloperName": "LogFile",
+      "MasterLabel": "ログファイル",
+      "Label": "ログファイル",
+      "DataType": "テキストエリア",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventLogFile.LogFileCompressedLength"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventLogFile.LogFileCompressedLength",
+      "QualifiedApiName": "LogFileCompressedLength",
+      "EntityDefinitionId": "EventLogFile",
+      "NamespacePrefix": null,
+      "DeveloperName": "LogFileCompressedLength",
+      "MasterLabel": "ログファイル圧縮長",
+      "Label": "ログファイル圧縮長",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventLogFile.LogFileContentType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventLogFile.LogFileContentType",
+      "QualifiedApiName": "LogFileContentType",
+      "EntityDefinitionId": "EventLogFile",
+      "NamespacePrefix": null,
+      "DeveloperName": "LogFileContentType",
+      "MasterLabel": "ログファイルのコンテンツタイプ",
+      "Label": "ログファイルのコンテンツタイプ",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventLogFile.LogFileFieldNames"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventLogFile.LogFileFieldNames",
+      "QualifiedApiName": "LogFileFieldNames",
+      "EntityDefinitionId": "EventLogFile",
+      "NamespacePrefix": null,
+      "DeveloperName": "LogFileFieldNames",
+      "MasterLabel": "ログファイル項目名",
+      "Label": "ログファイル項目名",
+      "DataType": "テキスト(1333)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventLogFile.LogFileFieldTypes"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventLogFile.LogFileFieldTypes",
+      "QualifiedApiName": "LogFileFieldTypes",
+      "EntityDefinitionId": "EventLogFile",
+      "NamespacePrefix": null,
+      "DeveloperName": "LogFileFieldTypes",
+      "MasterLabel": "ログファイル項目データ型",
+      "Label": "ログファイル項目データ型",
+      "DataType": "テキスト(1333)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventLogFile.LogFileLength"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventLogFile.LogFileLength",
+      "QualifiedApiName": "LogFileLength",
+      "EntityDefinitionId": "EventLogFile",
+      "NamespacePrefix": null,
+      "DeveloperName": "LogFileLength",
+      "MasterLabel": "ログファイル長",
+      "Label": "ログファイル長",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventLogFile.Sequence"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventLogFile.Sequence",
+      "QualifiedApiName": "Sequence",
+      "EntityDefinitionId": "EventLogFile",
+      "NamespacePrefix": null,
+      "DeveloperName": "Sequence",
+      "MasterLabel": "順序",
+      "Label": "順序",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventLogFile.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventLogFile.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "EventLogFile",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 14,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailRelay.AuthType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailRelay.AuthType",
+      "QualifiedApiName": "AuthType",
+      "EntityDefinitionId": "EmailRelay",
+      "NamespacePrefix": null,
+      "DeveloperName": "AuthType",
+      "MasterLabel": "認証種別",
+      "Label": "認証種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailRelay.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailRelay.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "EmailRelay",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailRelay.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailRelay.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "EmailRelay",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailRelay.Host"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailRelay.Host",
+      "QualifiedApiName": "Host",
+      "EntityDefinitionId": "EmailRelay",
+      "NamespacePrefix": null,
+      "DeveloperName": "Host",
+      "MasterLabel": "ホスト",
+      "Label": "ホスト",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailRelay.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailRelay.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "EmailRelay",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "メールリレー ID",
+      "Label": "メールリレー ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailRelay.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailRelay.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "EmailRelay",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailRelay.IsRequireAuth"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailRelay.IsRequireAuth",
+      "QualifiedApiName": "IsRequireAuth",
+      "EntityDefinitionId": "EmailRelay",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsRequireAuth",
+      "MasterLabel": "SMTP 認証を有効化",
+      "Label": "SMTP 認証を有効化",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailRelay.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailRelay.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "EmailRelay",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailRelay.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailRelay.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "EmailRelay",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailRelay.Password"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailRelay.Password",
+      "QualifiedApiName": "Password",
+      "EntityDefinitionId": "EmailRelay",
+      "NamespacePrefix": null,
+      "DeveloperName": "Password",
+      "MasterLabel": "パスワード",
+      "Label": "パスワード",
+      "DataType": "テキスト (暗号化)(100)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailRelay.Port"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailRelay.Port",
+      "QualifiedApiName": "Port",
+      "EntityDefinitionId": "EmailRelay",
+      "NamespacePrefix": null,
+      "DeveloperName": "Port",
+      "MasterLabel": "ポート",
+      "Label": "ポート",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailRelay.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailRelay.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "EmailRelay",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailRelay.TlsSetting"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailRelay.TlsSetting",
+      "QualifiedApiName": "TlsSetting",
+      "EntityDefinitionId": "EmailRelay",
+      "NamespacePrefix": null,
+      "DeveloperName": "TlsSetting",
+      "MasterLabel": "TLS 設定",
+      "Label": "TLS 設定",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailRelay.Username"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailRelay.Username",
+      "QualifiedApiName": "Username",
+      "EntityDefinitionId": "EmailRelay",
+      "NamespacePrefix": null,
+      "DeveloperName": "Username",
+      "MasterLabel": "ユーザー名",
+      "Label": "ユーザー名",
+      "DataType": "テキスト(100)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

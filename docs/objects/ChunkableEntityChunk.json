@@ -1,0 +1,448 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 21,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChunkableEntityChunk.ChunkIndex"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChunkableEntityChunk.ChunkIndex",
+      "QualifiedApiName": "ChunkIndex",
+      "EntityDefinitionId": "ChunkableEntityChunk",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChunkIndex",
+      "MasterLabel": "Chunk Index",
+      "Label": "Chunk Index",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChunkableEntityChunk.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChunkableEntityChunk.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ChunkableEntityChunk",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChunkableEntityChunk.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChunkableEntityChunk.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ChunkableEntityChunk",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChunkableEntityChunk.Duration"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChunkableEntityChunk.Duration",
+      "QualifiedApiName": "Duration",
+      "EntityDefinitionId": "ChunkableEntityChunk",
+      "NamespacePrefix": null,
+      "DeveloperName": "Duration",
+      "MasterLabel": "Duration",
+      "Label": "Duration",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChunkableEntityChunk.EntityName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChunkableEntityChunk.EntityName",
+      "QualifiedApiName": "EntityName",
+      "EntityDefinitionId": "ChunkableEntityChunk",
+      "NamespacePrefix": null,
+      "DeveloperName": "EntityName",
+      "MasterLabel": "Entity Name",
+      "Label": "Entity Name",
+      "DataType": "テキスト(100)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChunkableEntityChunk.EntityTally"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChunkableEntityChunk.EntityTally",
+      "QualifiedApiName": "EntityTallyId",
+      "EntityDefinitionId": "ChunkableEntityChunk",
+      "NamespacePrefix": null,
+      "DeveloperName": "EntityTally",
+      "MasterLabel": "Chunkable Entity Tally",
+      "Label": "Chunkable Entity Tally",
+      "DataType": "参照関係(Chunkable Entity Tally)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChunkableEntityChunk.ErrorMessage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChunkableEntityChunk.ErrorMessage",
+      "QualifiedApiName": "ErrorMessage",
+      "EntityDefinitionId": "ChunkableEntityChunk",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorMessage",
+      "MasterLabel": "Error Message",
+      "Label": "Error Message",
+      "DataType": "ロングテキストエリア(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChunkableEntityChunk.FullTableName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChunkableEntityChunk.FullTableName",
+      "QualifiedApiName": "FullTableName",
+      "EntityDefinitionId": "ChunkableEntityChunk",
+      "NamespacePrefix": null,
+      "DeveloperName": "FullTableName",
+      "MasterLabel": "Full Table Name",
+      "Label": "Full Table Name",
+      "DataType": "テキスト(100)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChunkableEntityChunk.Guid"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChunkableEntityChunk.Guid",
+      "QualifiedApiName": "Guid",
+      "EntityDefinitionId": "ChunkableEntityChunk",
+      "NamespacePrefix": null,
+      "DeveloperName": "Guid",
+      "MasterLabel": "Global Unique Id",
+      "Label": "Global Unique Id",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChunkableEntityChunk.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChunkableEntityChunk.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ChunkableEntityChunk",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Chunkable Entity Chunk ID",
+      "Label": "Chunkable Entity Chunk ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChunkableEntityChunk.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChunkableEntityChunk.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ChunkableEntityChunk",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChunkableEntityChunk.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChunkableEntityChunk.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ChunkableEntityChunk",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChunkableEntityChunk.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChunkableEntityChunk.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ChunkableEntityChunk",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChunkableEntityChunk.LowerBound"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChunkableEntityChunk.LowerBound",
+      "QualifiedApiName": "LowerBound",
+      "EntityDefinitionId": "ChunkableEntityChunk",
+      "NamespacePrefix": null,
+      "DeveloperName": "LowerBound",
+      "MasterLabel": "Lower Bound",
+      "Label": "Lower Bound",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChunkableEntityChunk.RowCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChunkableEntityChunk.RowCount",
+      "QualifiedApiName": "RowCount",
+      "EntityDefinitionId": "ChunkableEntityChunk",
+      "NamespacePrefix": null,
+      "DeveloperName": "RowCount",
+      "MasterLabel": "Row Count",
+      "Label": "Row Count",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChunkableEntityChunk.StartDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChunkableEntityChunk.StartDate",
+      "QualifiedApiName": "StartDate",
+      "EntityDefinitionId": "ChunkableEntityChunk",
+      "NamespacePrefix": null,
+      "DeveloperName": "StartDate",
+      "MasterLabel": "Start Date",
+      "Label": "Start Date",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChunkableEntityChunk.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChunkableEntityChunk.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "ChunkableEntityChunk",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "Status",
+      "Label": "Status",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChunkableEntityChunk.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChunkableEntityChunk.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ChunkableEntityChunk",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChunkableEntityChunk.Task"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChunkableEntityChunk.Task",
+      "QualifiedApiName": "TaskId",
+      "EntityDefinitionId": "ChunkableEntityChunk",
+      "NamespacePrefix": null,
+      "DeveloperName": "Task",
+      "MasterLabel": "Chunkable Task",
+      "Label": "Chunkable Task",
+      "DataType": "参照関係(Chunkable Task,Chunkable Tasks)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChunkableEntityChunk.UniqueIndex"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChunkableEntityChunk.UniqueIndex",
+      "QualifiedApiName": "UniqueIndex",
+      "EntityDefinitionId": "ChunkableEntityChunk",
+      "NamespacePrefix": null,
+      "DeveloperName": "UniqueIndex",
+      "MasterLabel": "Unique Index",
+      "Label": "Unique Index",
+      "DataType": "数式 (テキスト)",
+      "IsCalculated": true,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChunkableEntityChunk.UpperBound"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChunkableEntityChunk.UpperBound",
+      "QualifiedApiName": "UpperBound",
+      "EntityDefinitionId": "ChunkableEntityChunk",
+      "NamespacePrefix": null,
+      "DeveloperName": "UpperBound",
+      "MasterLabel": "Upper Bound",
+      "Label": "Upper Bound",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 18,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgConnection.ConnectedByUser"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgConnection.ConnectedByUser",
+      "QualifiedApiName": "ConnectedByUserId",
+      "EntityDefinitionId": "DataMultiOrgConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "ConnectedByUser",
+      "MasterLabel": "接続ユーザー",
+      "Label": "接続ユーザー",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgConnection.ConnectedOrg"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgConnection.ConnectedOrg",
+      "QualifiedApiName": "ConnectedOrg",
+      "EntityDefinitionId": "DataMultiOrgConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "ConnectedOrg",
+      "MasterLabel": "接続組織",
+      "Label": "接続組織",
+      "DataType": "テキスト(20)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgConnection.ConnectedParentOrg"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgConnection.ConnectedParentOrg",
+      "QualifiedApiName": "ConnectedParentOrg",
+      "EntityDefinitionId": "DataMultiOrgConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "ConnectedParentOrg",
+      "MasterLabel": "接続親組織",
+      "Label": "接続親組織",
+      "DataType": "テキスト(18)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgConnection.ConnectionStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgConnection.ConnectionStatus",
+      "QualifiedApiName": "ConnectionStatus",
+      "EntityDefinitionId": "DataMultiOrgConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "ConnectionStatus",
+      "MasterLabel": "接続状況",
+      "Label": "接続状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgConnection.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgConnection.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DataMultiOrgConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgConnection.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgConnection.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DataMultiOrgConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgConnection.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgConnection.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "DataMultiOrgConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgConnection.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgConnection.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DataMultiOrgConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Data Multi Org Connections ID",
+      "Label": "Data Multi Org Connections ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgConnection.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgConnection.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DataMultiOrgConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgConnection.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgConnection.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "DataMultiOrgConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgConnection.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgConnection.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DataMultiOrgConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgConnection.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgConnection.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DataMultiOrgConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgConnection.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgConnection.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "DataMultiOrgConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgConnection.OrgType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgConnection.OrgType",
+      "QualifiedApiName": "OrgType",
+      "EntityDefinitionId": "DataMultiOrgConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "OrgType",
+      "MasterLabel": "Organization Type",
+      "Label": "Organization Type",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgConnection.PartnerAppName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgConnection.PartnerAppName",
+      "QualifiedApiName": "PartnerAppName",
+      "EntityDefinitionId": "DataMultiOrgConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "PartnerAppName",
+      "MasterLabel": "パートナーアプリケーション名",
+      "Label": "パートナーアプリケーション名",
+      "DataType": "テキスト(60)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgConnection.RecordSynStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgConnection.RecordSynStatus",
+      "QualifiedApiName": "RecordSynStatus",
+      "EntityDefinitionId": "DataMultiOrgConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordSynStatus",
+      "MasterLabel": "レコード同期状況",
+      "Label": "レコード同期状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgConnection.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgConnection.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DataMultiOrgConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgConnection.TenantKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgConnection.TenantKey",
+      "QualifiedApiName": "TenantKey",
+      "EntityDefinitionId": "DataMultiOrgConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "TenantKey",
+      "MasterLabel": "テナントキー",
+      "Label": "テナントキー",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

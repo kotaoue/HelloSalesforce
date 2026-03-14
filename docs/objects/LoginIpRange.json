@@ -1,0 +1,112 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 5,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginIpRange.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginIpRange.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "LoginIpRange",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "テキストエリア(1000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginIpRange.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginIpRange.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "LoginIpRange",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "ログイン IP アドレスの制限 ID",
+      "Label": "ログイン IP アドレスの制限 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginIpRange.IpEndAddress"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginIpRange.IpEndAddress",
+      "QualifiedApiName": "IpEndAddress",
+      "EntityDefinitionId": "LoginIpRange",
+      "NamespacePrefix": null,
+      "DeveloperName": "IpEndAddress",
+      "MasterLabel": "終了 IP アドレス",
+      "Label": "終了 IP アドレス",
+      "DataType": "IP アドレス",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginIpRange.IpStartAddress"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginIpRange.IpStartAddress",
+      "QualifiedApiName": "IpStartAddress",
+      "EntityDefinitionId": "LoginIpRange",
+      "NamespacePrefix": null,
+      "DeveloperName": "IpStartAddress",
+      "MasterLabel": "開始 IP アドレス",
+      "Label": "開始 IP アドレス",
+      "DataType": "IP アドレス",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginIpRange.Profile"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginIpRange.Profile",
+      "QualifiedApiName": "ProfileId",
+      "EntityDefinitionId": "LoginIpRange",
+      "NamespacePrefix": null,
+      "DeveloperName": "Profile",
+      "MasterLabel": "プロファイル",
+      "Label": "プロファイル",
+      "DataType": "参照関係(プロファイル)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

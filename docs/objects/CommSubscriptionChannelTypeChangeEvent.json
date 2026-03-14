@@ -1,0 +1,259 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 12,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommSubscriptionChannelTypeChangeEvent.ChangeEventHeader"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommSubscriptionChannelTypeChangeEvent.ChangeEventHeader",
+      "QualifiedApiName": "ChangeEventHeader",
+      "EntityDefinitionId": "CommSubscriptionChannelTypeChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChangeEventHeader",
+      "MasterLabel": "変更イベントヘッダー",
+      "Label": "変更イベントヘッダー",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommSubscriptionChannelTypeChangeEvent.CommunicationSubscription"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommSubscriptionChannelTypeChangeEvent.CommunicationSubscription",
+      "QualifiedApiName": "CommunicationSubscriptionId",
+      "EntityDefinitionId": "CommSubscriptionChannelTypeChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CommunicationSubscription",
+      "MasterLabel": "コミュニケーション登録",
+      "Label": "コミュニケーション登録",
+      "DataType": "参照関係(コミュニケーション登録)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommSubscriptionChannelTypeChangeEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommSubscriptionChannelTypeChangeEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "CommSubscriptionChannelTypeChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommSubscriptionChannelTypeChangeEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommSubscriptionChannelTypeChangeEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "CommSubscriptionChannelTypeChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommSubscriptionChannelTypeChangeEvent.DataUsePurpose"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommSubscriptionChannelTypeChangeEvent.DataUsePurpose",
+      "QualifiedApiName": "DataUsePurposeId",
+      "EntityDefinitionId": "CommSubscriptionChannelTypeChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataUsePurpose",
+      "MasterLabel": "データ使用目的",
+      "Label": "データ使用目的",
+      "DataType": "参照関係(コミュニケーション登録)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommSubscriptionChannelTypeChangeEvent.EngagementChannelType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommSubscriptionChannelTypeChangeEvent.EngagementChannelType",
+      "QualifiedApiName": "EngagementChannelTypeId",
+      "EntityDefinitionId": "CommSubscriptionChannelTypeChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EngagementChannelType",
+      "MasterLabel": "エンゲージメントチャネル種別",
+      "Label": "エンゲージメントチャネル種別",
+      "DataType": "参照関係(エンゲージメントチャネル種別)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommSubscriptionChannelTypeChangeEvent.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommSubscriptionChannelTypeChangeEvent.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "CommSubscriptionChannelTypeChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommSubscriptionChannelTypeChangeEvent.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommSubscriptionChannelTypeChangeEvent.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "CommSubscriptionChannelTypeChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommSubscriptionChannelTypeChangeEvent.MessagingChannel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommSubscriptionChannelTypeChangeEvent.MessagingChannel",
+      "QualifiedApiName": "MessagingChannelId",
+      "EntityDefinitionId": "CommSubscriptionChannelTypeChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "MessagingChannel",
+      "MasterLabel": "メッセージングチャネル",
+      "Label": "メッセージングチャネル",
+      "DataType": "参照関係(メッセージングチャネル)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommSubscriptionChannelTypeChangeEvent.MessagingChannelUsage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommSubscriptionChannelTypeChangeEvent.MessagingChannelUsage",
+      "QualifiedApiName": "MessagingChannelUsageId",
+      "EntityDefinitionId": "CommSubscriptionChannelTypeChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "MessagingChannelUsage",
+      "MasterLabel": "メッセージングチャネル利用状況",
+      "Label": "メッセージングチャネル利用状況",
+      "DataType": "参照関係(メッセージングチャネル利用状況)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommSubscriptionChannelTypeChangeEvent.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommSubscriptionChannelTypeChangeEvent.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "CommSubscriptionChannelTypeChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommSubscriptionChannelTypeChangeEvent.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommSubscriptionChannelTypeChangeEvent.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "CommSubscriptionChannelTypeChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者 氏名",
+      "Label": "所有者 氏名",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

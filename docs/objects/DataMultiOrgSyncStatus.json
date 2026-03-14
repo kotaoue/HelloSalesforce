@@ -1,0 +1,490 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 23,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgSyncStatus.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgSyncStatus.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DataMultiOrgSyncStatus",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgSyncStatus.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgSyncStatus.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DataMultiOrgSyncStatus",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgSyncStatus.DataMultiOrgConnection"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgSyncStatus.DataMultiOrgConnection",
+      "QualifiedApiName": "DataMultiOrgConnectionId",
+      "EntityDefinitionId": "DataMultiOrgSyncStatus",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataMultiOrgConnection",
+      "MasterLabel": "Data Multi Org Connections",
+      "Label": "Data Multi Org Connections",
+      "DataType": "参照関係(Data Multi Org Connections)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgSyncStatus.DataSpaceName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgSyncStatus.DataSpaceName",
+      "QualifiedApiName": "DataSpaceName",
+      "EntityDefinitionId": "DataMultiOrgSyncStatus",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataSpaceName",
+      "MasterLabel": "データスペース名",
+      "Label": "データスペース名",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgSyncStatus.DataSpaceSyncStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgSyncStatus.DataSpaceSyncStatus",
+      "QualifiedApiName": "DataSpaceSyncStatus",
+      "EntityDefinitionId": "DataMultiOrgSyncStatus",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataSpaceSyncStatus",
+      "MasterLabel": "データスペース同期状況",
+      "Label": "データスペース同期状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgSyncStatus.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgSyncStatus.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "DataMultiOrgSyncStatus",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgSyncStatus.Errors"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgSyncStatus.Errors",
+      "QualifiedApiName": "Errors",
+      "EntityDefinitionId": "DataMultiOrgSyncStatus",
+      "NamespacePrefix": null,
+      "DeveloperName": "Errors",
+      "MasterLabel": "エラー",
+      "Label": "エラー",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgSyncStatus.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgSyncStatus.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DataMultiOrgSyncStatus",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Multi Org Sync Statuses ID",
+      "Label": "Multi Org Sync Statuses ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgSyncStatus.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgSyncStatus.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DataMultiOrgSyncStatus",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgSyncStatus.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgSyncStatus.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "DataMultiOrgSyncStatus",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgSyncStatus.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgSyncStatus.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DataMultiOrgSyncStatus",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgSyncStatus.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgSyncStatus.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DataMultiOrgSyncStatus",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgSyncStatus.LastProcessedGroupVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgSyncStatus.LastProcessedGroupVersion",
+      "QualifiedApiName": "LastProcessedGroupVersion",
+      "EntityDefinitionId": "DataMultiOrgSyncStatus",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastProcessedGroupVersion",
+      "MasterLabel": "最終処理グループバージョン",
+      "Label": "最終処理グループバージョン",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgSyncStatus.LastProcessedTransaction"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgSyncStatus.LastProcessedTransaction",
+      "QualifiedApiName": "LastProcessedTransaction",
+      "EntityDefinitionId": "DataMultiOrgSyncStatus",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastProcessedTransaction",
+      "MasterLabel": "最終処理トランザクション",
+      "Label": "最終処理トランザクション",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgSyncStatus.LastSchemaFingerprint"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgSyncStatus.LastSchemaFingerprint",
+      "QualifiedApiName": "LastSchemaFingerprint",
+      "EntityDefinitionId": "DataMultiOrgSyncStatus",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastSchemaFingerprint",
+      "MasterLabel": "最終スキーマフィンガープリント",
+      "Label": "最終スキーマフィンガープリント",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgSyncStatus.LastSyncedOn"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgSyncStatus.LastSyncedOn",
+      "QualifiedApiName": "LastSyncedOn",
+      "EntityDefinitionId": "DataMultiOrgSyncStatus",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastSyncedOn",
+      "MasterLabel": "最終同期日",
+      "Label": "最終同期日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgSyncStatus.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgSyncStatus.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "DataMultiOrgSyncStatus",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgSyncStatus.MetadataSynStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgSyncStatus.MetadataSynStatus",
+      "QualifiedApiName": "MetadataSynStatus",
+      "EntityDefinitionId": "DataMultiOrgSyncStatus",
+      "NamespacePrefix": null,
+      "DeveloperName": "MetadataSynStatus",
+      "MasterLabel": "メタデータ同期状況",
+      "Label": "メタデータ同期状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgSyncStatus.MultiOrgChangeSetType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgSyncStatus.MultiOrgChangeSetType",
+      "QualifiedApiName": "MultiOrgChangeSetType",
+      "EntityDefinitionId": "DataMultiOrgSyncStatus",
+      "NamespacePrefix": null,
+      "DeveloperName": "MultiOrgChangeSetType",
+      "MasterLabel": "複数組織変更セット種別",
+      "Label": "複数組織変更セット種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgSyncStatus.OwnedByOrg"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgSyncStatus.OwnedByOrg",
+      "QualifiedApiName": "OwnedByOrg",
+      "EntityDefinitionId": "DataMultiOrgSyncStatus",
+      "NamespacePrefix": null,
+      "DeveloperName": "OwnedByOrg",
+      "MasterLabel": "Owned By Org",
+      "Label": "Owned By Org",
+      "DataType": "テキスト(20)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgSyncStatus.RecordSynStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgSyncStatus.RecordSynStatus",
+      "QualifiedApiName": "RecordSynStatus",
+      "EntityDefinitionId": "DataMultiOrgSyncStatus",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordSynStatus",
+      "MasterLabel": "レコード同期状況",
+      "Label": "レコード同期状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgSyncStatus.ReplayFailureCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgSyncStatus.ReplayFailureCount",
+      "QualifiedApiName": "ReplayFailureCount",
+      "EntityDefinitionId": "DataMultiOrgSyncStatus",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReplayFailureCount",
+      "MasterLabel": "再実行失敗数",
+      "Label": "再実行失敗数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataMultiOrgSyncStatus.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataMultiOrgSyncStatus.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DataMultiOrgSyncStatus",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

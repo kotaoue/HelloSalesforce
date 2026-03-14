@@ -1,0 +1,322 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 15,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BuyerGroupHistory.BuyerGroup"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BuyerGroupHistory.BuyerGroup",
+      "QualifiedApiName": "BuyerGroupId",
+      "EntityDefinitionId": "BuyerGroupHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "BuyerGroup",
+      "MasterLabel": "バイヤーグループ",
+      "Label": "バイヤーグループ",
+      "DataType": "参照関係(バイヤーグループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BuyerGroupHistory.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BuyerGroupHistory.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "BuyerGroupHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BuyerGroupHistory.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BuyerGroupHistory.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "BuyerGroupHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BuyerGroupHistory.DataType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BuyerGroupHistory.DataType",
+      "QualifiedApiName": "DataType",
+      "EntityDefinitionId": "BuyerGroupHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataType",
+      "MasterLabel": "データ型",
+      "Label": "データ型",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BuyerGroupHistory.Field"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BuyerGroupHistory.Field",
+      "QualifiedApiName": "Field",
+      "EntityDefinitionId": "BuyerGroupHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Field",
+      "MasterLabel": "変更された項目",
+      "Label": "変更された項目",
+      "DataType": "選択リスト(カスタム項目の定義,カスタム項目データ列)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BuyerGroupHistory.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BuyerGroupHistory.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "BuyerGroupHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "バイヤーグループ履歴 ID",
+      "Label": "バイヤーグループ履歴 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BuyerGroupHistory.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BuyerGroupHistory.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "BuyerGroupHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BuyerGroupHistory.NewvalDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BuyerGroupHistory.NewvalDate",
+      "QualifiedApiName": "NewvalDate",
+      "EntityDefinitionId": "BuyerGroupHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewvalDate",
+      "MasterLabel": "新規の日付",
+      "Label": "新規の日付",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BuyerGroupHistory.NewvalFirstName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BuyerGroupHistory.NewvalFirstName",
+      "QualifiedApiName": "NewvalFirstName",
+      "EntityDefinitionId": "BuyerGroupHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewvalFirstName",
+      "MasterLabel": "新規の名",
+      "Label": "新規の名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BuyerGroupHistory.NewvalLastName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BuyerGroupHistory.NewvalLastName",
+      "QualifiedApiName": "NewvalLastName",
+      "EntityDefinitionId": "BuyerGroupHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewvalLastName",
+      "MasterLabel": "新規の姓",
+      "Label": "新規の姓",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BuyerGroupHistory.NewValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BuyerGroupHistory.NewValue",
+      "QualifiedApiName": "NewValue",
+      "EntityDefinitionId": "BuyerGroupHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewValue",
+      "MasterLabel": "新しい値",
+      "Label": "新しい値",
+      "DataType": "参照関係",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BuyerGroupHistory.OldvalDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BuyerGroupHistory.OldvalDate",
+      "QualifiedApiName": "OldvalDate",
+      "EntityDefinitionId": "BuyerGroupHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldvalDate",
+      "MasterLabel": "元の日付",
+      "Label": "元の日付",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BuyerGroupHistory.OldvalFirstName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BuyerGroupHistory.OldvalFirstName",
+      "QualifiedApiName": "OldvalFirstName",
+      "EntityDefinitionId": "BuyerGroupHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldvalFirstName",
+      "MasterLabel": "元の名",
+      "Label": "元の名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BuyerGroupHistory.OldvalLastName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BuyerGroupHistory.OldvalLastName",
+      "QualifiedApiName": "OldvalLastName",
+      "EntityDefinitionId": "BuyerGroupHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldvalLastName",
+      "MasterLabel": "元の姓",
+      "Label": "元の姓",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BuyerGroupHistory.OldValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BuyerGroupHistory.OldValue",
+      "QualifiedApiName": "OldValue",
+      "EntityDefinitionId": "BuyerGroupHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldValue",
+      "MasterLabel": "元の値",
+      "Label": "元の値",
+      "DataType": "参照関係",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 19,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.AgentGraph"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPlannerDefinition.AgentGraph",
+      "QualifiedApiName": "AgentGraph",
+      "EntityDefinitionId": "GenAiPlannerDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "AgentGraph",
+      "MasterLabel": "エージェントグラフ",
+      "Label": "エージェントグラフ",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.AgentGraphRef"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPlannerDefinition.AgentGraphRef",
+      "QualifiedApiName": "AgentGraphRefId",
+      "EntityDefinitionId": "GenAiPlannerDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "AgentGraphRef",
+      "MasterLabel": "管理コンテンツリソース",
+      "Label": "管理コンテンツリソース",
+      "DataType": "参照関係(管理コンテンツリソース)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.AgentScriptRef"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPlannerDefinition.AgentScriptRef",
+      "QualifiedApiName": "AgentScriptRefId",
+      "EntityDefinitionId": "GenAiPlannerDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "AgentScriptRef",
+      "MasterLabel": "管理コンテンツリソース",
+      "Label": "管理コンテンツリソース",
+      "DataType": "参照関係(管理コンテンツリソース)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.Capabilities"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPlannerDefinition.Capabilities",
+      "QualifiedApiName": "Capabilities",
+      "EntityDefinitionId": "GenAiPlannerDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Capabilities",
+      "MasterLabel": "機能",
+      "Label": "機能",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPlannerDefinition.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "GenAiPlannerDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPlannerDefinition.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "GenAiPlannerDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPlannerDefinition.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "GenAiPlannerDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "ロングテキストエリア(1000)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPlannerDefinition.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "GenAiPlannerDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "生成 AI プランナー定義名",
+      "Label": "生成 AI プランナー定義名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.FullName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPlannerDefinition.FullName",
+      "QualifiedApiName": "FullName",
+      "EntityDefinitionId": "GenAiPlannerDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "FullName",
+      "MasterLabel": "氏名",
+      "Label": "氏名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPlannerDefinition.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "GenAiPlannerDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "生成 AI プランナー定義 ID",
+      "Label": "生成 AI プランナー定義 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPlannerDefinition.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "GenAiPlannerDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPlannerDefinition.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "GenAiPlannerDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPlannerDefinition.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "GenAiPlannerDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPlannerDefinition.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "GenAiPlannerDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPlannerDefinition.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "GenAiPlannerDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPlannerDefinition.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "GenAiPlannerDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "生成 AI プランナー定義のマスター表示ラベル",
+      "Label": "生成 AI プランナー定義のマスター表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPlannerDefinition.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "GenAiPlannerDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.PlannerType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPlannerDefinition.PlannerType",
+      "QualifiedApiName": "PlannerType",
+      "EntityDefinitionId": "GenAiPlannerDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "PlannerType",
+      "MasterLabel": "プランナー種別",
+      "Label": "プランナー種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPlannerDefinition.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "GenAiPlannerDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

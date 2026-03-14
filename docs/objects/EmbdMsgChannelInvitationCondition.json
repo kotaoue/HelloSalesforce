@@ -1,0 +1,280 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 13,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbdMsgChannelInvitationCondition.ConditionType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbdMsgChannelInvitationCondition.ConditionType",
+      "QualifiedApiName": "ConditionType",
+      "EntityDefinitionId": "EmbdMsgChannelInvitationCondition",
+      "NamespacePrefix": null,
+      "DeveloperName": "ConditionType",
+      "MasterLabel": "条件種別",
+      "Label": "条件種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbdMsgChannelInvitationCondition.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbdMsgChannelInvitationCondition.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "EmbdMsgChannelInvitationCondition",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbdMsgChannelInvitationCondition.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbdMsgChannelInvitationCondition.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "EmbdMsgChannelInvitationCondition",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbdMsgChannelInvitationCondition.CustomVariableName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbdMsgChannelInvitationCondition.CustomVariableName",
+      "QualifiedApiName": "CustomVariableName",
+      "EntityDefinitionId": "EmbdMsgChannelInvitationCondition",
+      "NamespacePrefix": null,
+      "DeveloperName": "CustomVariableName",
+      "MasterLabel": "カスタム変数名",
+      "Label": "カスタム変数名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbdMsgChannelInvitationCondition.EmbdSvcMessagingChannel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbdMsgChannelInvitationCondition.EmbdSvcMessagingChannel",
+      "QualifiedApiName": "EmbdSvcMessagingChannelId",
+      "EntityDefinitionId": "EmbdMsgChannelInvitationCondition",
+      "NamespacePrefix": null,
+      "DeveloperName": "EmbdSvcMessagingChannel",
+      "MasterLabel": "組み込みサービスメッセージングチャネル",
+      "Label": "組み込みサービスメッセージングチャネル",
+      "DataType": "主従関係(組み込みサービスメッセージングチャネル)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbdMsgChannelInvitationCondition.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbdMsgChannelInvitationCondition.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "EmbdMsgChannelInvitationCondition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "組み込みメッセージングチャネル招待条件 ID",
+      "Label": "組み込みメッセージングチャネル招待条件 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbdMsgChannelInvitationCondition.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbdMsgChannelInvitationCondition.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "EmbdMsgChannelInvitationCondition",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbdMsgChannelInvitationCondition.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbdMsgChannelInvitationCondition.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "EmbdMsgChannelInvitationCondition",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbdMsgChannelInvitationCondition.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbdMsgChannelInvitationCondition.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "EmbdMsgChannelInvitationCondition",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbdMsgChannelInvitationCondition.Operand"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbdMsgChannelInvitationCondition.Operand",
+      "QualifiedApiName": "Operand",
+      "EntityDefinitionId": "EmbdMsgChannelInvitationCondition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Operand",
+      "MasterLabel": "オペランド",
+      "Label": "オペランド",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbdMsgChannelInvitationCondition.Sequence"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbdMsgChannelInvitationCondition.Sequence",
+      "QualifiedApiName": "Sequence",
+      "EntityDefinitionId": "EmbdMsgChannelInvitationCondition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Sequence",
+      "MasterLabel": "順序",
+      "Label": "順序",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbdMsgChannelInvitationCondition.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbdMsgChannelInvitationCondition.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "EmbdMsgChannelInvitationCondition",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbdMsgChannelInvitationCondition.Value"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbdMsgChannelInvitationCondition.Value",
+      "QualifiedApiName": "Value",
+      "EntityDefinitionId": "EmbdMsgChannelInvitationCondition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Value",
+      "MasterLabel": "値",
+      "Label": "値",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

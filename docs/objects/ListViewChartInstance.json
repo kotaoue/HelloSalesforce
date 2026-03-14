@@ -1,0 +1,343 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 16,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListViewChartInstance.AggregateField"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListViewChartInstance.AggregateField",
+      "QualifiedApiName": "AggregateField",
+      "EntityDefinitionId": "ListViewChartInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "AggregateField",
+      "MasterLabel": "集計項目",
+      "Label": "集計項目",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListViewChartInstance.AggregateType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListViewChartInstance.AggregateType",
+      "QualifiedApiName": "AggregateType",
+      "EntityDefinitionId": "ListViewChartInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "AggregateType",
+      "MasterLabel": "集計の種別",
+      "Label": "集計の種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListViewChartInstance.ChartType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListViewChartInstance.ChartType",
+      "QualifiedApiName": "ChartType",
+      "EntityDefinitionId": "ListViewChartInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChartType",
+      "MasterLabel": "ToDo、別名を使用",
+      "Label": "ToDo、別名を使用",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListViewChartInstance.DataQuery"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListViewChartInstance.DataQuery",
+      "QualifiedApiName": "DataQuery",
+      "EntityDefinitionId": "ListViewChartInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataQuery",
+      "MasterLabel": "グラフデータの SOQL クエリ",
+      "Label": "グラフデータの SOQL クエリ",
+      "DataType": "テキストエリア(1333)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListViewChartInstance.DataQueryWithoutUserFilters"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListViewChartInstance.DataQueryWithoutUserFilters",
+      "QualifiedApiName": "DataQueryWithoutUserFilters",
+      "EntityDefinitionId": "ListViewChartInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataQueryWithoutUserFilters",
+      "MasterLabel": "S1 ユーザー条件のないデスクトップグラフデータの SOQL クエリ",
+      "Label": "S1 ユーザー条件のないデスクトップグラフデータの SOQL クエリ",
+      "DataType": "テキストエリア(1333)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListViewChartInstance.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListViewChartInstance.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "ListViewChartInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "API 参照名",
+      "Label": "API 参照名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListViewChartInstance.ExternalId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListViewChartInstance.ExternalId",
+      "QualifiedApiName": "ExternalId",
+      "EntityDefinitionId": "ListViewChartInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExternalId",
+      "MasterLabel": "リストビューグラフインスタンス ID",
+      "Label": "リストビューグラフインスタンス ID",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListViewChartInstance.GroupingField"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListViewChartInstance.GroupingField",
+      "QualifiedApiName": "GroupingField",
+      "EntityDefinitionId": "ListViewChartInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "GroupingField",
+      "MasterLabel": "グルーピング項目",
+      "Label": "グルーピング項目",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListViewChartInstance.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListViewChartInstance.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ListViewChartInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "リストビューグラフインスタンス ID",
+      "Label": "リストビューグラフインスタンス ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListViewChartInstance.IsDeletable"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListViewChartInstance.IsDeletable",
+      "QualifiedApiName": "IsDeletable",
+      "EntityDefinitionId": "ListViewChartInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeletable",
+      "MasterLabel": "削除可能",
+      "Label": "削除可能",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListViewChartInstance.IsEditable"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListViewChartInstance.IsEditable",
+      "QualifiedApiName": "IsEditable",
+      "EntityDefinitionId": "ListViewChartInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsEditable",
+      "MasterLabel": "編集可",
+      "Label": "編集可",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListViewChartInstance.IsLastViewed"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListViewChartInstance.IsLastViewed",
+      "QualifiedApiName": "IsLastViewed",
+      "EntityDefinitionId": "ListViewChartInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsLastViewed",
+      "MasterLabel": "最後の参照",
+      "Label": "最後の参照",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListViewChartInstance.Label"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListViewChartInstance.Label",
+      "QualifiedApiName": "Label",
+      "EntityDefinitionId": "ListViewChartInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "Label",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListViewChartInstance.ListViewChart"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListViewChartInstance.ListViewChart",
+      "QualifiedApiName": "ListViewChartId",
+      "EntityDefinitionId": "ListViewChartInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "ListViewChart",
+      "MasterLabel": "リストビューグラフ",
+      "Label": "リストビューグラフ",
+      "DataType": "参照関係(リストビューグラフ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListViewChartInstance.ListViewContext"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListViewChartInstance.ListViewContext",
+      "QualifiedApiName": "ListViewContextId",
+      "EntityDefinitionId": "ListViewChartInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "ListViewContext",
+      "MasterLabel": "リストビュー",
+      "Label": "リストビュー",
+      "DataType": "参照関係(リストビュー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListViewChartInstance.SourceEntity"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListViewChartInstance.SourceEntity",
+      "QualifiedApiName": "SourceEntity",
+      "EntityDefinitionId": "ListViewChartInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "SourceEntity",
+      "MasterLabel": "エンティティ",
+      "Label": "エンティティ",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

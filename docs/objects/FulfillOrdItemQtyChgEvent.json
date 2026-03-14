@@ -1,0 +1,154 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 7,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillOrdItemQtyChgEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillOrdItemQtyChgEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "FulfillOrdItemQtyChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillOrdItemQtyChgEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillOrdItemQtyChgEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "FulfillOrdItemQtyChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillOrdItemQtyChgEvent.EventUuid"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillOrdItemQtyChgEvent.EventUuid",
+      "QualifiedApiName": "EventUuid",
+      "EntityDefinitionId": "FulfillOrdItemQtyChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventUuid",
+      "MasterLabel": "履行注文品目数量変更イベントのイベント UUID",
+      "Label": "履行注文品目数量変更イベントのイベント UUID",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillOrdItemQtyChgEvent.FulfillmentOrderLineItem"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillOrdItemQtyChgEvent.FulfillmentOrderLineItem",
+      "QualifiedApiName": "FulfillmentOrderLineItemId",
+      "EntityDefinitionId": "FulfillOrdItemQtyChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "FulfillmentOrderLineItem",
+      "MasterLabel": "履行注文商品",
+      "Label": "履行注文商品",
+      "DataType": "参照関係(履行注文商品)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillOrdItemQtyChgEvent.NewQuantity"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillOrdItemQtyChgEvent.NewQuantity",
+      "QualifiedApiName": "NewQuantity",
+      "EntityDefinitionId": "FulfillOrdItemQtyChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewQuantity",
+      "MasterLabel": "新しい数量",
+      "Label": "新しい数量",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillOrdItemQtyChgEvent.OldQuantity"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillOrdItemQtyChgEvent.OldQuantity",
+      "QualifiedApiName": "OldQuantity",
+      "EntityDefinitionId": "FulfillOrdItemQtyChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldQuantity",
+      "MasterLabel": "古い数量",
+      "Label": "古い数量",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillOrdItemQtyChgEvent.ReplayId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillOrdItemQtyChgEvent.ReplayId",
+      "QualifiedApiName": "ReplayId",
+      "EntityDefinitionId": "FulfillOrdItemQtyChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReplayId",
+      "MasterLabel": "履行注文品目数量変更イベント再実行 ID",
+      "Label": "履行注文品目数量変更イベント再実行 ID",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

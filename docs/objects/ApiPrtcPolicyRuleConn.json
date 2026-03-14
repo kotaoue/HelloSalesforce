@@ -1,0 +1,259 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 12,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApiPrtcPolicyRuleConn.ApiProtectionPolicy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApiPrtcPolicyRuleConn.ApiProtectionPolicy",
+      "QualifiedApiName": "ApiProtectionPolicyId",
+      "EntityDefinitionId": "ApiPrtcPolicyRuleConn",
+      "NamespacePrefix": null,
+      "DeveloperName": "ApiProtectionPolicy",
+      "MasterLabel": "API 保護ポリシー",
+      "Label": "API 保護ポリシー",
+      "DataType": "主従関係(API 保護ポリシー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApiPrtcPolicyRuleConn.ApiProtectionPolicyRule"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApiPrtcPolicyRuleConn.ApiProtectionPolicyRule",
+      "QualifiedApiName": "ApiProtectionPolicyRuleId",
+      "EntityDefinitionId": "ApiPrtcPolicyRuleConn",
+      "NamespacePrefix": null,
+      "DeveloperName": "ApiProtectionPolicyRule",
+      "MasterLabel": "API 保護ポリシールール",
+      "Label": "API 保護ポリシールール",
+      "DataType": "参照関係(API 保護ポリシールール)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApiPrtcPolicyRuleConn.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApiPrtcPolicyRuleConn.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ApiPrtcPolicyRuleConn",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApiPrtcPolicyRuleConn.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApiPrtcPolicyRuleConn.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ApiPrtcPolicyRuleConn",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApiPrtcPolicyRuleConn.ExecutionOrder"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApiPrtcPolicyRuleConn.ExecutionOrder",
+      "QualifiedApiName": "ExecutionOrder",
+      "EntityDefinitionId": "ApiPrtcPolicyRuleConn",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExecutionOrder",
+      "MasterLabel": "Execution Order",
+      "Label": "Execution Order",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApiPrtcPolicyRuleConn.ExternalServiceRegistration"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApiPrtcPolicyRuleConn.ExternalServiceRegistration",
+      "QualifiedApiName": "ExternalServiceRegistrationId",
+      "EntityDefinitionId": "ApiPrtcPolicyRuleConn",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExternalServiceRegistration",
+      "MasterLabel": "External Service Registration reference",
+      "Label": "External Service Registration reference",
+      "DataType": "参照関係(外部サービス登録)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApiPrtcPolicyRuleConn.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApiPrtcPolicyRuleConn.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ApiPrtcPolicyRuleConn",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "API 保護ポリシールール接続 ID",
+      "Label": "API 保護ポリシールール接続 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApiPrtcPolicyRuleConn.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApiPrtcPolicyRuleConn.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ApiPrtcPolicyRuleConn",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApiPrtcPolicyRuleConn.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApiPrtcPolicyRuleConn.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ApiPrtcPolicyRuleConn",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApiPrtcPolicyRuleConn.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApiPrtcPolicyRuleConn.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ApiPrtcPolicyRuleConn",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApiPrtcPolicyRuleConn.NamedCredential"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApiPrtcPolicyRuleConn.NamedCredential",
+      "QualifiedApiName": "NamedCredentialId",
+      "EntityDefinitionId": "ApiPrtcPolicyRuleConn",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamedCredential",
+      "MasterLabel": "Named Credential reference",
+      "Label": "Named Credential reference",
+      "DataType": "参照関係(指定ログイン情報)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApiPrtcPolicyRuleConn.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApiPrtcPolicyRuleConn.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ApiPrtcPolicyRuleConn",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 15,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginGeo.City"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginGeo.City",
+      "QualifiedApiName": "City",
+      "EntityDefinitionId": "LoginGeo",
+      "NamespacePrefix": null,
+      "DeveloperName": "City",
+      "MasterLabel": "市区郡",
+      "Label": "市区郡",
+      "DataType": "テキスト(200)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginGeo.Country"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginGeo.Country",
+      "QualifiedApiName": "Country",
+      "EntityDefinitionId": "LoginGeo",
+      "NamespacePrefix": null,
+      "DeveloperName": "Country",
+      "MasterLabel": "国",
+      "Label": "国",
+      "DataType": "テキスト(200)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginGeo.CountryIso"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginGeo.CountryIso",
+      "QualifiedApiName": "CountryIso",
+      "EntityDefinitionId": "LoginGeo",
+      "NamespacePrefix": null,
+      "DeveloperName": "CountryIso",
+      "MasterLabel": "国コード",
+      "Label": "国コード",
+      "DataType": "テキスト(3)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginGeo.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginGeo.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "LoginGeo",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginGeo.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginGeo.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "LoginGeo",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginGeo.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginGeo.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "LoginGeo",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "ログイン地理情報データ ID",
+      "Label": "ログイン地理情報データ ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginGeo.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginGeo.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "LoginGeo",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除済み",
+      "Label": "削除済み",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginGeo.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginGeo.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "LoginGeo",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginGeo.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginGeo.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "LoginGeo",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginGeo.Latitude"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginGeo.Latitude",
+      "QualifiedApiName": "Latitude",
+      "EntityDefinitionId": "LoginGeo",
+      "NamespacePrefix": null,
+      "DeveloperName": "Latitude",
+      "MasterLabel": "緯度",
+      "Label": "緯度",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginGeo.LoginTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginGeo.LoginTime",
+      "QualifiedApiName": "LoginTime",
+      "EntityDefinitionId": "LoginGeo",
+      "NamespacePrefix": null,
+      "DeveloperName": "LoginTime",
+      "MasterLabel": "ログイン時刻",
+      "Label": "ログイン時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginGeo.Longitude"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginGeo.Longitude",
+      "QualifiedApiName": "Longitude",
+      "EntityDefinitionId": "LoginGeo",
+      "NamespacePrefix": null,
+      "DeveloperName": "Longitude",
+      "MasterLabel": "経度",
+      "Label": "経度",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginGeo.PostalCode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginGeo.PostalCode",
+      "QualifiedApiName": "PostalCode",
+      "EntityDefinitionId": "LoginGeo",
+      "NamespacePrefix": null,
+      "DeveloperName": "PostalCode",
+      "MasterLabel": "郵便番号",
+      "Label": "郵便番号",
+      "DataType": "テキスト(20)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginGeo.Subdivision"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginGeo.Subdivision",
+      "QualifiedApiName": "Subdivision",
+      "EntityDefinitionId": "LoginGeo",
+      "NamespacePrefix": null,
+      "DeveloperName": "Subdivision",
+      "MasterLabel": "下位区分",
+      "Label": "下位区分",
+      "DataType": "テキスト(200)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginGeo.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginGeo.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "LoginGeo",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

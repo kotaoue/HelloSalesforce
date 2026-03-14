@@ -1,0 +1,427 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 20,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLPredictionJob.ActivationStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLPredictionJob.ActivationStatus",
+      "QualifiedApiName": "ActivationStatus",
+      "EntityDefinitionId": "MktMLPredictionJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActivationStatus",
+      "MasterLabel": "有効化状況",
+      "Label": "有効化状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLPredictionJob.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLPredictionJob.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "MktMLPredictionJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLPredictionJob.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLPredictionJob.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "MktMLPredictionJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLPredictionJob.Duration"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLPredictionJob.Duration",
+      "QualifiedApiName": "Duration",
+      "EntityDefinitionId": "MktMLPredictionJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "Duration",
+      "MasterLabel": "期間",
+      "Label": "期間",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLPredictionJob.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLPredictionJob.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "MktMLPredictionJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "予測ジョブ ID",
+      "Label": "予測ジョブ ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLPredictionJob.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLPredictionJob.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "MktMLPredictionJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLPredictionJob.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLPredictionJob.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "MktMLPredictionJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLPredictionJob.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLPredictionJob.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "MktMLPredictionJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLPredictionJob.LastProcessedRecords"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLPredictionJob.LastProcessedRecords",
+      "QualifiedApiName": "LastProcessedRecords",
+      "EntityDefinitionId": "MktMLPredictionJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastProcessedRecords",
+      "MasterLabel": "最終処理レコード",
+      "Label": "最終処理レコード",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLPredictionJob.LastReferencedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLPredictionJob.LastReferencedDate",
+      "QualifiedApiName": "LastReferencedDate",
+      "EntityDefinitionId": "MktMLPredictionJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastReferencedDate",
+      "MasterLabel": "最終参照日",
+      "Label": "最終参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLPredictionJob.LastRunDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLPredictionJob.LastRunDate",
+      "QualifiedApiName": "LastRunDate",
+      "EntityDefinitionId": "MktMLPredictionJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastRunDate",
+      "MasterLabel": "最終実行日",
+      "Label": "最終実行日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLPredictionJob.LastRunStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLPredictionJob.LastRunStatus",
+      "QualifiedApiName": "LastRunStatus",
+      "EntityDefinitionId": "MktMLPredictionJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastRunStatus",
+      "MasterLabel": "最終実行状況",
+      "Label": "最終実行状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLPredictionJob.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLPredictionJob.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "MktMLPredictionJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLPredictionJob.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLPredictionJob.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "MktMLPredictionJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "予測ジョブ名",
+      "Label": "予測ジョブ名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLPredictionJob.OffCoreSyncStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLPredictionJob.OffCoreSyncStatus",
+      "QualifiedApiName": "OffCoreSyncStatus",
+      "EntityDefinitionId": "MktMLPredictionJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "OffCoreSyncStatus",
+      "MasterLabel": "オフコア同期状況",
+      "Label": "オフコア同期状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLPredictionJob.PredictionJobDef"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLPredictionJob.PredictionJobDef",
+      "QualifiedApiName": "PredictionJobDefId",
+      "EntityDefinitionId": "MktMLPredictionJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "PredictionJobDef",
+      "MasterLabel": "予測ジョブ定義",
+      "Label": "予測ジョブ定義",
+      "DataType": "参照関係(モデルの予測ジョブ定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLPredictionJob.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLPredictionJob.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "MktMLPredictionJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLPredictionJob.ScoreUpdated"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLPredictionJob.ScoreUpdated",
+      "QualifiedApiName": "ScoreUpdated",
+      "EntityDefinitionId": "MktMLPredictionJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "ScoreUpdated",
+      "MasterLabel": "スコアが更新されました",
+      "Label": "スコアが更新されました",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLPredictionJob.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLPredictionJob.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "MktMLPredictionJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLPredictionJob.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLPredictionJob.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "MktMLPredictionJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

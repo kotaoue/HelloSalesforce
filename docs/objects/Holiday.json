@@ -1,0 +1,448 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 21,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Holiday.ActivityDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Holiday.ActivityDate",
+      "QualifiedApiName": "ActivityDate",
+      "EntityDefinitionId": "Holiday",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActivityDate",
+      "MasterLabel": "休日日付",
+      "Label": "休日日付",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Holiday.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Holiday.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "Holiday",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Holiday.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Holiday.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "Holiday",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Holiday.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Holiday.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "Holiday",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "テキスト(100)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Holiday.EndTimeInMinutes"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Holiday.EndTimeInMinutes",
+      "QualifiedApiName": "EndTimeInMinutes",
+      "EntityDefinitionId": "Holiday",
+      "NamespacePrefix": null,
+      "DeveloperName": "EndTimeInMinutes",
+      "MasterLabel": "午前 0 時からの終了時刻 (分)",
+      "Label": "午前 0 時からの終了時刻 (分)",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Holiday.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Holiday.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "Holiday",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "休日 ID",
+      "Label": "休日 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Holiday.IsAllDay"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Holiday.IsAllDay",
+      "QualifiedApiName": "IsAllDay",
+      "EntityDefinitionId": "Holiday",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsAllDay",
+      "MasterLabel": "終日",
+      "Label": "終日",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Holiday.IsRecurrence"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Holiday.IsRecurrence",
+      "QualifiedApiName": "IsRecurrence",
+      "EntityDefinitionId": "Holiday",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsRecurrence",
+      "MasterLabel": "繰り返しの休日",
+      "Label": "繰り返しの休日",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Holiday.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Holiday.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "Holiday",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Holiday.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Holiday.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "Holiday",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Holiday.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Holiday.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "Holiday",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "休日名",
+      "Label": "休日名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Holiday.RecurrenceDayOfMonth"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Holiday.RecurrenceDayOfMonth",
+      "QualifiedApiName": "RecurrenceDayOfMonth",
+      "EntityDefinitionId": "Holiday",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecurrenceDayOfMonth",
+      "MasterLabel": "繰り返し日",
+      "Label": "繰り返し日",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Holiday.RecurrenceDayOfWeekMask"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Holiday.RecurrenceDayOfWeekMask",
+      "QualifiedApiName": "RecurrenceDayOfWeekMask",
+      "EntityDefinitionId": "Holiday",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecurrenceDayOfWeekMask",
+      "MasterLabel": "繰り返し曜日マスク",
+      "Label": "繰り返し曜日マスク",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Holiday.RecurrenceEndDateOnly"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Holiday.RecurrenceEndDateOnly",
+      "QualifiedApiName": "RecurrenceEndDateOnly",
+      "EntityDefinitionId": "Holiday",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecurrenceEndDateOnly",
+      "MasterLabel": "繰り返しの終了",
+      "Label": "繰り返しの終了",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Holiday.RecurrenceInstance"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Holiday.RecurrenceInstance",
+      "QualifiedApiName": "RecurrenceInstance",
+      "EntityDefinitionId": "Holiday",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecurrenceInstance",
+      "MasterLabel": "繰り返しインスタンス",
+      "Label": "繰り返しインスタンス",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Holiday.RecurrenceInterval"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Holiday.RecurrenceInterval",
+      "QualifiedApiName": "RecurrenceInterval",
+      "EntityDefinitionId": "Holiday",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecurrenceInterval",
+      "MasterLabel": "繰り返し期間",
+      "Label": "繰り返し期間",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Holiday.RecurrenceMonthOfYear"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Holiday.RecurrenceMonthOfYear",
+      "QualifiedApiName": "RecurrenceMonthOfYear",
+      "EntityDefinitionId": "Holiday",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecurrenceMonthOfYear",
+      "MasterLabel": "繰り返し月",
+      "Label": "繰り返し月",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Holiday.RecurrenceStartDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Holiday.RecurrenceStartDate",
+      "QualifiedApiName": "RecurrenceStartDate",
+      "EntityDefinitionId": "Holiday",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecurrenceStartDate",
+      "MasterLabel": "繰り返しの開始",
+      "Label": "繰り返しの開始",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Holiday.RecurrenceType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Holiday.RecurrenceType",
+      "QualifiedApiName": "RecurrenceType",
+      "EntityDefinitionId": "Holiday",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecurrenceType",
+      "MasterLabel": "繰り返し種別",
+      "Label": "繰り返し種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Holiday.StartTimeInMinutes"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Holiday.StartTimeInMinutes",
+      "QualifiedApiName": "StartTimeInMinutes",
+      "EntityDefinitionId": "Holiday",
+      "NamespacePrefix": null,
+      "DeveloperName": "StartTimeInMinutes",
+      "MasterLabel": "午前 0 時からの開始時刻 (分)",
+      "Label": "午前 0 時からの開始時刻 (分)",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Holiday.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Holiday.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "Holiday",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

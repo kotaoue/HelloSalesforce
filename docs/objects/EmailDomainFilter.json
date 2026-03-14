@@ -1,0 +1,259 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 12,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailDomainFilter.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailDomainFilter.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "EmailDomainFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailDomainFilter.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailDomainFilter.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "EmailDomainFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailDomainFilter.EmailRelay"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailDomainFilter.EmailRelay",
+      "QualifiedApiName": "EmailRelayId",
+      "EntityDefinitionId": "EmailDomainFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "EmailRelay",
+      "MasterLabel": "メールリレー",
+      "Label": "メールリレー",
+      "DataType": "参照関係(メールリレー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailDomainFilter.FromDomain"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailDomainFilter.FromDomain",
+      "QualifiedApiName": "FromDomain",
+      "EntityDefinitionId": "EmailDomainFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "FromDomain",
+      "MasterLabel": "送信者のドメイン",
+      "Label": "送信者のドメイン",
+      "DataType": "ロングテキストエリア(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailDomainFilter.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailDomainFilter.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "EmailDomainFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "メールドメイン検索条件 ID",
+      "Label": "メールドメイン検索条件 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailDomainFilter.IsActive"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailDomainFilter.IsActive",
+      "QualifiedApiName": "IsActive",
+      "EntityDefinitionId": "EmailDomainFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsActive",
+      "MasterLabel": "有効",
+      "Label": "有効",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailDomainFilter.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailDomainFilter.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "EmailDomainFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailDomainFilter.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailDomainFilter.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "EmailDomainFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailDomainFilter.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailDomainFilter.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "EmailDomainFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailDomainFilter.PriorityNumber"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailDomainFilter.PriorityNumber",
+      "QualifiedApiName": "PriorityNumber",
+      "EntityDefinitionId": "EmailDomainFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "PriorityNumber",
+      "MasterLabel": "優先度",
+      "Label": "優先度",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailDomainFilter.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailDomainFilter.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "EmailDomainFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailDomainFilter.ToDomain"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailDomainFilter.ToDomain",
+      "QualifiedApiName": "ToDomain",
+      "EntityDefinitionId": "EmailDomainFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "ToDomain",
+      "MasterLabel": "受信者のドメイン",
+      "Label": "受信者のドメイン",
+      "DataType": "ロングテキストエリア(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

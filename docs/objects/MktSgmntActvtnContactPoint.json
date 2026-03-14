@@ -1,0 +1,511 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 24,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktSgmntActvtnContactPoint.ContactPointFilterExpression"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktSgmntActvtnContactPoint.ContactPointFilterExpression",
+      "QualifiedApiName": "ContactPointFilterExpression",
+      "EntityDefinitionId": "MktSgmntActvtnContactPoint",
+      "NamespacePrefix": null,
+      "DeveloperName": "ContactPointFilterExpression",
+      "MasterLabel": "連絡先検索条件式",
+      "Label": "連絡先検索条件式",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktSgmntActvtnContactPoint.ContactPointPath"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktSgmntActvtnContactPoint.ContactPointPath",
+      "QualifiedApiName": "ContactPointPath",
+      "EntityDefinitionId": "MktSgmntActvtnContactPoint",
+      "NamespacePrefix": null,
+      "DeveloperName": "ContactPointPath",
+      "MasterLabel": "連絡先パス",
+      "Label": "連絡先パス",
+      "DataType": "ロングテキストエリア(4096)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktSgmntActvtnContactPoint.ContactPointPreference"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktSgmntActvtnContactPoint.ContactPointPreference",
+      "QualifiedApiName": "ContactPointPreference",
+      "EntityDefinitionId": "MktSgmntActvtnContactPoint",
+      "NamespacePrefix": null,
+      "DeveloperName": "ContactPointPreference",
+      "MasterLabel": "連絡先設定",
+      "Label": "連絡先設定",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktSgmntActvtnContactPoint.ContactPointPreferencePriority"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktSgmntActvtnContactPoint.ContactPointPreferencePriority",
+      "QualifiedApiName": "ContactPointPreferencePriority",
+      "EntityDefinitionId": "MktSgmntActvtnContactPoint",
+      "NamespacePrefix": null,
+      "DeveloperName": "ContactPointPreferencePriority",
+      "MasterLabel": "連絡先優先度",
+      "Label": "連絡先優先度",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktSgmntActvtnContactPoint.ContactPointType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktSgmntActvtnContactPoint.ContactPointType",
+      "QualifiedApiName": "ContactPointType",
+      "EntityDefinitionId": "MktSgmntActvtnContactPoint",
+      "NamespacePrefix": null,
+      "DeveloperName": "ContactPointType",
+      "MasterLabel": "連絡先種別",
+      "Label": "連絡先種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktSgmntActvtnContactPoint.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktSgmntActvtnContactPoint.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "MktSgmntActvtnContactPoint",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktSgmntActvtnContactPoint.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktSgmntActvtnContactPoint.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "MktSgmntActvtnContactPoint",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktSgmntActvtnContactPoint.DataChangeStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktSgmntActvtnContactPoint.DataChangeStatus",
+      "QualifiedApiName": "DataChangeStatus",
+      "EntityDefinitionId": "MktSgmntActvtnContactPoint",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataChangeStatus",
+      "MasterLabel": "データ変更状況",
+      "Label": "データ変更状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktSgmntActvtnContactPoint.Field"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktSgmntActvtnContactPoint.Field",
+      "QualifiedApiName": "FieldId",
+      "EntityDefinitionId": "MktSgmntActvtnContactPoint",
+      "NamespacePrefix": null,
+      "DeveloperName": "Field",
+      "MasterLabel": "項目",
+      "Label": "項目",
+      "DataType": "参照関係(データモデル項目)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktSgmntActvtnContactPoint.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktSgmntActvtnContactPoint.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "MktSgmntActvtnContactPoint",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "有効化連絡先 ID",
+      "Label": "有効化連絡先 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktSgmntActvtnContactPoint.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktSgmntActvtnContactPoint.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "MktSgmntActvtnContactPoint",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktSgmntActvtnContactPoint.LastDataChangeStatusDateTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktSgmntActvtnContactPoint.LastDataChangeStatusDateTime",
+      "QualifiedApiName": "LastDataChangeStatusDateTime",
+      "EntityDefinitionId": "MktSgmntActvtnContactPoint",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastDataChangeStatusDateTime",
+      "MasterLabel": "データ変更状況最終更新日",
+      "Label": "データ変更状況最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktSgmntActvtnContactPoint.LastDataChangeStatusErrorCode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktSgmntActvtnContactPoint.LastDataChangeStatusErrorCode",
+      "QualifiedApiName": "LastDataChangeStatusErrorCode",
+      "EntityDefinitionId": "MktSgmntActvtnContactPoint",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastDataChangeStatusErrorCode",
+      "MasterLabel": "データ変更状況エラーコード",
+      "Label": "データ変更状況エラーコード",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktSgmntActvtnContactPoint.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktSgmntActvtnContactPoint.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "MktSgmntActvtnContactPoint",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktSgmntActvtnContactPoint.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktSgmntActvtnContactPoint.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "MktSgmntActvtnContactPoint",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktSgmntActvtnContactPoint.LastReferencedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktSgmntActvtnContactPoint.LastReferencedDate",
+      "QualifiedApiName": "LastReferencedDate",
+      "EntityDefinitionId": "MktSgmntActvtnContactPoint",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastReferencedDate",
+      "MasterLabel": "最終参照日",
+      "Label": "最終参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktSgmntActvtnContactPoint.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktSgmntActvtnContactPoint.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "MktSgmntActvtnContactPoint",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktSgmntActvtnContactPoint.MarketSegmentActivation"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktSgmntActvtnContactPoint.MarketSegmentActivation",
+      "QualifiedApiName": "MarketSegmentActivationId",
+      "EntityDefinitionId": "MktSgmntActvtnContactPoint",
+      "NamespacePrefix": null,
+      "DeveloperName": "MarketSegmentActivation",
+      "MasterLabel": "マーケットセグメント有効化",
+      "Label": "マーケットセグメント有効化",
+      "DataType": "主従関係(有効化)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktSgmntActvtnContactPoint.MktSgtActvCtctPtDef"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktSgmntActvtnContactPoint.MktSgtActvCtctPtDef",
+      "QualifiedApiName": "MktSgtActvCtctPtDefId",
+      "EntityDefinitionId": "MktSgmntActvtnContactPoint",
+      "NamespacePrefix": null,
+      "DeveloperName": "MktSgtActvCtctPtDef",
+      "MasterLabel": "有効化連絡先定義",
+      "Label": "有効化連絡先定義",
+      "DataType": "参照関係(有効化連絡先)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktSgmntActvtnContactPoint.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktSgmntActvtnContactPoint.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "MktSgmntActvtnContactPoint",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktSgmntActvtnContactPoint.Object"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktSgmntActvtnContactPoint.Object",
+      "QualifiedApiName": "ObjectId",
+      "EntityDefinitionId": "MktSgmntActvtnContactPoint",
+      "NamespacePrefix": null,
+      "DeveloperName": "Object",
+      "MasterLabel": "オブジェクト",
+      "Label": "オブジェクト",
+      "DataType": "参照関係(データモデルオブジェクト)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktSgmntActvtnContactPoint.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktSgmntActvtnContactPoint.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "MktSgmntActvtnContactPoint",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktSgmntActvtnContactPoint.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktSgmntActvtnContactPoint.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "MktSgmntActvtnContactPoint",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktSgmntActvtnContactPoint.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktSgmntActvtnContactPoint.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "MktSgmntActvtnContactPoint",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

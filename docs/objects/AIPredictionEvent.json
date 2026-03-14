@@ -1,0 +1,217 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 10,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIPredictionEvent.Confidence"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIPredictionEvent.Confidence",
+      "QualifiedApiName": "Confidence",
+      "EntityDefinitionId": "AIPredictionEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Confidence",
+      "MasterLabel": "AI インサイト値の信頼性",
+      "Label": "AI インサイト値の信頼性",
+      "DataType": "数値(3、2)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIPredictionEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIPredictionEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AIPredictionEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIPredictionEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIPredictionEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AIPredictionEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIPredictionEvent.EventUuid"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIPredictionEvent.EventUuid",
+      "QualifiedApiName": "EventUuid",
+      "EntityDefinitionId": "AIPredictionEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventUuid",
+      "MasterLabel": "イベント UUID",
+      "Label": "イベント UUID",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIPredictionEvent.FieldName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIPredictionEvent.FieldName",
+      "QualifiedApiName": "FieldName",
+      "EntityDefinitionId": "AIPredictionEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "FieldName",
+      "MasterLabel": "AI 予測項目の API 参照名",
+      "Label": "AI 予測項目の API 参照名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIPredictionEvent.HasError"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIPredictionEvent.HasError",
+      "QualifiedApiName": "HasError",
+      "EntityDefinitionId": "AIPredictionEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "HasError",
+      "MasterLabel": "AI にエラーがあります",
+      "Label": "AI にエラーがあります",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIPredictionEvent.InsightId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIPredictionEvent.InsightId",
+      "QualifiedApiName": "InsightId",
+      "EntityDefinitionId": "AIPredictionEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "InsightId",
+      "MasterLabel": "AI レコードインサイト ID",
+      "Label": "AI レコードインサイト ID",
+      "DataType": "テキスト(18)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIPredictionEvent.PredictionEntityId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIPredictionEvent.PredictionEntityId",
+      "QualifiedApiName": "PredictionEntityId",
+      "EntityDefinitionId": "AIPredictionEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "PredictionEntityId",
+      "MasterLabel": "AI インサイト値 ID",
+      "Label": "AI インサイト値 ID",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIPredictionEvent.ReplayId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIPredictionEvent.ReplayId",
+      "QualifiedApiName": "ReplayId",
+      "EntityDefinitionId": "AIPredictionEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReplayId",
+      "MasterLabel": "再実行 ID",
+      "Label": "再実行 ID",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIPredictionEvent.TargetId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIPredictionEvent.TargetId",
+      "QualifiedApiName": "TargetId",
+      "EntityDefinitionId": "AIPredictionEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "TargetId",
+      "MasterLabel": "AI 予測オブジェクト ID",
+      "Label": "AI 予測オブジェクト ID",
+      "DataType": "テキスト(18)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

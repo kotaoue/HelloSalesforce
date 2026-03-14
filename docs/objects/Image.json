@@ -1,0 +1,469 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 22,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Image.AlternateText"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Image.AlternateText",
+      "QualifiedApiName": "AlternateText",
+      "EntityDefinitionId": "Image",
+      "NamespacePrefix": null,
+      "DeveloperName": "AlternateText",
+      "MasterLabel": "アクセシビリティテキスト",
+      "Label": "アクセシビリティテキスト",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Image.CapturedAngle"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Image.CapturedAngle",
+      "QualifiedApiName": "CapturedAngle",
+      "EntityDefinitionId": "Image",
+      "NamespacePrefix": null,
+      "DeveloperName": "CapturedAngle",
+      "MasterLabel": "カメラの角度",
+      "Label": "カメラの角度",
+      "DataType": "テキスト(8)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Image.ContentDocument"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Image.ContentDocument",
+      "QualifiedApiName": "ContentDocumentId",
+      "EntityDefinitionId": "Image",
+      "NamespacePrefix": null,
+      "DeveloperName": "ContentDocument",
+      "MasterLabel": "ファイル",
+      "Label": "ファイル",
+      "DataType": "参照関係(コンテンツドキュメント)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Image.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Image.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "Image",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Image.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Image.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "Image",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Image.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Image.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "Image",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "画像 ID",
+      "Label": "画像 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Image.ImageClass"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Image.ImageClass",
+      "QualifiedApiName": "ImageClass",
+      "EntityDefinitionId": "Image",
+      "NamespacePrefix": null,
+      "DeveloperName": "ImageClass",
+      "MasterLabel": "カテゴリ",
+      "Label": "カテゴリ",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Image.ImageClassObjectType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Image.ImageClassObjectType",
+      "QualifiedApiName": "ImageClassObjectType",
+      "EntityDefinitionId": "Image",
+      "NamespacePrefix": null,
+      "DeveloperName": "ImageClassObjectType",
+      "MasterLabel": "画像の種類",
+      "Label": "画像の種類",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Image.ImageViewType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Image.ImageViewType",
+      "QualifiedApiName": "ImageViewType",
+      "EntityDefinitionId": "Image",
+      "NamespacePrefix": null,
+      "DeveloperName": "ImageViewType",
+      "MasterLabel": "画像の向き",
+      "Label": "画像の向き",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Image.IsActive"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Image.IsActive",
+      "QualifiedApiName": "IsActive",
+      "EntityDefinitionId": "Image",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsActive",
+      "MasterLabel": "有効",
+      "Label": "有効",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Image.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Image.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "Image",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Image.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Image.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "Image",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Image.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Image.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "Image",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Image.LastReferencedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Image.LastReferencedDate",
+      "QualifiedApiName": "LastReferencedDate",
+      "EntityDefinitionId": "Image",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastReferencedDate",
+      "MasterLabel": "最終参照日",
+      "Label": "最終参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Image.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Image.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "Image",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Image.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Image.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "Image",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Image.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Image.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "Image",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者 氏名",
+      "Label": "所有者 氏名",
+      "DataType": "参照関係(ユーザー,グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Image.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Image.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "Image",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Image.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Image.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "Image",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Image.Title"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Image.Title",
+      "QualifiedApiName": "Title",
+      "EntityDefinitionId": "Image",
+      "NamespacePrefix": null,
+      "DeveloperName": "Title",
+      "MasterLabel": "タイトル",
+      "Label": "タイトル",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Image.Url"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Image.Url",
+      "QualifiedApiName": "Url",
+      "EntityDefinitionId": "Image",
+      "NamespacePrefix": null,
+      "DeveloperName": "Url",
+      "MasterLabel": "URL",
+      "Label": "URL",
+      "DataType": "URL(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Image.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Image.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "Image",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

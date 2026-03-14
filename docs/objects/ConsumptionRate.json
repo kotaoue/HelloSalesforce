@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConsumptionRate.ConsumptionSchedule"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConsumptionRate.ConsumptionSchedule",
+      "QualifiedApiName": "ConsumptionScheduleId",
+      "EntityDefinitionId": "ConsumptionRate",
+      "NamespacePrefix": null,
+      "DeveloperName": "ConsumptionSchedule",
+      "MasterLabel": "消費スケジュール",
+      "Label": "消費スケジュール",
+      "DataType": "主従関係(消費スケジュール)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConsumptionRate.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConsumptionRate.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ConsumptionRate",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConsumptionRate.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConsumptionRate.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ConsumptionRate",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConsumptionRate.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConsumptionRate.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "ConsumptionRate",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConsumptionRate.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConsumptionRate.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ConsumptionRate",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "消費率 ID",
+      "Label": "消費率 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConsumptionRate.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConsumptionRate.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ConsumptionRate",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConsumptionRate.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConsumptionRate.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ConsumptionRate",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConsumptionRate.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConsumptionRate.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ConsumptionRate",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConsumptionRate.LowerBound"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConsumptionRate.LowerBound",
+      "QualifiedApiName": "LowerBound",
+      "EntityDefinitionId": "ConsumptionRate",
+      "NamespacePrefix": null,
+      "DeveloperName": "LowerBound",
+      "MasterLabel": "下限",
+      "Label": "下限",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConsumptionRate.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConsumptionRate.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "ConsumptionRate",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "消費率名",
+      "Label": "消費率名",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConsumptionRate.Price"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConsumptionRate.Price",
+      "QualifiedApiName": "Price",
+      "EntityDefinitionId": "ConsumptionRate",
+      "NamespacePrefix": null,
+      "DeveloperName": "Price",
+      "MasterLabel": "価格",
+      "Label": "価格",
+      "DataType": "通貨(11、2)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConsumptionRate.PricingMethod"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConsumptionRate.PricingMethod",
+      "QualifiedApiName": "PricingMethod",
+      "EntityDefinitionId": "ConsumptionRate",
+      "NamespacePrefix": null,
+      "DeveloperName": "PricingMethod",
+      "MasterLabel": "価格設定方法",
+      "Label": "価格設定方法",
+      "DataType": "選択リスト()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConsumptionRate.ProcessingOrder"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConsumptionRate.ProcessingOrder",
+      "QualifiedApiName": "ProcessingOrder",
+      "EntityDefinitionId": "ConsumptionRate",
+      "NamespacePrefix": null,
+      "DeveloperName": "ProcessingOrder",
+      "MasterLabel": "処理順序",
+      "Label": "処理順序",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConsumptionRate.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConsumptionRate.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "ConsumptionRate",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConsumptionRate.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConsumptionRate.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ConsumptionRate",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConsumptionRate.UpperBound"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConsumptionRate.UpperBound",
+      "QualifiedApiName": "UpperBound",
+      "EntityDefinitionId": "ConsumptionRate",
+      "NamespacePrefix": null,
+      "DeveloperName": "UpperBound",
+      "MasterLabel": "上限",
+      "Label": "上限",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConsumptionRate.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConsumptionRate.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "ConsumptionRate",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

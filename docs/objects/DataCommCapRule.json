@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCommCapRule.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataCommCapRule.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DataCommCapRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCommCapRule.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataCommCapRule.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DataCommCapRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCommCapRule.DataCommunicationCapDef"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataCommCapRule.DataCommunicationCapDef",
+      "QualifiedApiName": "DataCommunicationCapDefId",
+      "EntityDefinitionId": "DataCommCapRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataCommunicationCapDef",
+      "MasterLabel": "コミュニケーション制限定義",
+      "Label": "コミュニケーション制限定義",
+      "DataType": "参照関係(コミュニケーション制限定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCommCapRule.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataCommCapRule.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "DataCommCapRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCommCapRule.EndDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataCommCapRule.EndDate",
+      "QualifiedApiName": "EndDate",
+      "EntityDefinitionId": "DataCommCapRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "EndDate",
+      "MasterLabel": "ルール終了日",
+      "Label": "ルール終了日",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCommCapRule.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataCommCapRule.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DataCommCapRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "制限制御ルール ID",
+      "Label": "制限制御ルール ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCommCapRule.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataCommCapRule.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DataCommCapRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCommCapRule.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataCommCapRule.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "DataCommCapRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCommCapRule.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataCommCapRule.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DataCommCapRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCommCapRule.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataCommCapRule.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DataCommCapRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCommCapRule.Limits"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataCommCapRule.Limits",
+      "QualifiedApiName": "Limits",
+      "EntityDefinitionId": "DataCommCapRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Limits",
+      "MasterLabel": "ルール制限",
+      "Label": "ルール制限",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCommCapRule.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataCommCapRule.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "DataCommCapRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCommCapRule.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataCommCapRule.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "DataCommCapRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCommCapRule.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataCommCapRule.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "DataCommCapRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCommCapRule.Source"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataCommCapRule.Source",
+      "QualifiedApiName": "Source",
+      "EntityDefinitionId": "DataCommCapRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Source",
+      "MasterLabel": "ソース",
+      "Label": "ソース",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCommCapRule.StartDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataCommCapRule.StartDate",
+      "QualifiedApiName": "StartDate",
+      "EntityDefinitionId": "DataCommCapRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "StartDate",
+      "MasterLabel": "ルール開始日",
+      "Label": "ルール開始日",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCommCapRule.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataCommCapRule.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DataCommCapRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

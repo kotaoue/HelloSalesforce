@@ -1,0 +1,112 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 5,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/NetworkCustomerLoginMetrics.CustomerLogins"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "NetworkCustomerLoginMetrics.CustomerLogins",
+      "QualifiedApiName": "CustomerLogins",
+      "EntityDefinitionId": "NetworkCustomerLoginMetrics",
+      "NamespacePrefix": null,
+      "DeveloperName": "CustomerLogins",
+      "MasterLabel": "顧客ログイン数",
+      "Label": "顧客ログイン数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/NetworkCustomerLoginMetrics.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "NetworkCustomerLoginMetrics.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "NetworkCustomerLoginMetrics",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "カスタマーコミュニティログインメトリクス ID",
+      "Label": "カスタマーコミュニティログインメトリクス ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/NetworkCustomerLoginMetrics.MetricsDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "NetworkCustomerLoginMetrics.MetricsDate",
+      "QualifiedApiName": "MetricsDate",
+      "EntityDefinitionId": "NetworkCustomerLoginMetrics",
+      "NamespacePrefix": null,
+      "DeveloperName": "MetricsDate",
+      "MasterLabel": "メトリクスの日付",
+      "Label": "メトリクスの日付",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/NetworkCustomerLoginMetrics.ParentEnumOrId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "NetworkCustomerLoginMetrics.ParentEnumOrId",
+      "QualifiedApiName": "UserLicenseId",
+      "EntityDefinitionId": "NetworkCustomerLoginMetrics",
+      "NamespacePrefix": null,
+      "DeveloperName": "ParentEnumOrId",
+      "MasterLabel": "Primary Grain",
+      "Label": "Primary Grain",
+      "DataType": "参照関係(ユーザーライセンス)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/NetworkCustomerLoginMetrics.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "NetworkCustomerLoginMetrics.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "NetworkCustomerLoginMetrics",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

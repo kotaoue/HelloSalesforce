@@ -1,0 +1,301 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 14,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CronTrigger.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CronTrigger.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "CronTrigger",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CronTrigger.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CronTrigger.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "CronTrigger",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CronTrigger.CronExpression"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CronTrigger.CronExpression",
+      "QualifiedApiName": "CronExpression",
+      "EntityDefinitionId": "CronTrigger",
+      "NamespacePrefix": null,
+      "DeveloperName": "CronExpression",
+      "MasterLabel": "Cron 式",
+      "Label": "Cron 式",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CronTrigger.CronJobDetail"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CronTrigger.CronJobDetail",
+      "QualifiedApiName": "CronJobDetailId",
+      "EntityDefinitionId": "CronTrigger",
+      "NamespacePrefix": null,
+      "DeveloperName": "CronJobDetail",
+      "MasterLabel": "ジョブ",
+      "Label": "ジョブ",
+      "DataType": "参照関係(Cron ジョブ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CronTrigger.EndTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CronTrigger.EndTime",
+      "QualifiedApiName": "EndTime",
+      "EntityDefinitionId": "CronTrigger",
+      "NamespacePrefix": null,
+      "DeveloperName": "EndTime",
+      "MasterLabel": "終了時刻",
+      "Label": "終了時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CronTrigger.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CronTrigger.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "CronTrigger",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "スケジュール済みジョブ ID",
+      "Label": "スケジュール済みジョブ ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CronTrigger.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CronTrigger.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "CronTrigger",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CronTrigger.NextFireTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CronTrigger.NextFireTime",
+      "QualifiedApiName": "NextFireTime",
+      "EntityDefinitionId": "CronTrigger",
+      "NamespacePrefix": null,
+      "DeveloperName": "NextFireTime",
+      "MasterLabel": "次の実行時刻",
+      "Label": "次の実行時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CronTrigger.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CronTrigger.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "CronTrigger",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者",
+      "Label": "所有者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CronTrigger.PreviousFireTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CronTrigger.PreviousFireTime",
+      "QualifiedApiName": "PreviousFireTime",
+      "EntityDefinitionId": "CronTrigger",
+      "NamespacePrefix": null,
+      "DeveloperName": "PreviousFireTime",
+      "MasterLabel": "前の実行時刻",
+      "Label": "前の実行時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CronTrigger.StartTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CronTrigger.StartTime",
+      "QualifiedApiName": "StartTime",
+      "EntityDefinitionId": "CronTrigger",
+      "NamespacePrefix": null,
+      "DeveloperName": "StartTime",
+      "MasterLabel": "開始時刻",
+      "Label": "開始時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CronTrigger.State"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CronTrigger.State",
+      "QualifiedApiName": "State",
+      "EntityDefinitionId": "CronTrigger",
+      "NamespacePrefix": null,
+      "DeveloperName": "State",
+      "MasterLabel": "ジョブの状況",
+      "Label": "ジョブの状況",
+      "DataType": "テキスト(16)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CronTrigger.TimesTriggered"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CronTrigger.TimesTriggered",
+      "QualifiedApiName": "TimesTriggered",
+      "EntityDefinitionId": "CronTrigger",
+      "NamespacePrefix": null,
+      "DeveloperName": "TimesTriggered",
+      "MasterLabel": "ジョブ起動回数",
+      "Label": "ジョブ起動回数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CronTrigger.TimeZoneSidKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CronTrigger.TimeZoneSidKey",
+      "QualifiedApiName": "TimeZoneSidKey",
+      "EntityDefinitionId": "CronTrigger",
+      "NamespacePrefix": null,
+      "DeveloperName": "TimeZoneSidKey",
+      "MasterLabel": "Java タイムゾーン ID",
+      "Label": "Java タイムゾーン ID",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

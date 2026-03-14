@@ -1,0 +1,343 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 16,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BulkApiResultEventStore.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BulkApiResultEventStore.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "BulkApiResultEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BulkApiResultEventStore.EvaluationTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BulkApiResultEventStore.EvaluationTime",
+      "QualifiedApiName": "EvaluationTime",
+      "EntityDefinitionId": "BulkApiResultEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "EvaluationTime",
+      "MasterLabel": "評価時間",
+      "Label": "評価時間",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BulkApiResultEventStore.EventDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BulkApiResultEventStore.EventDate",
+      "QualifiedApiName": "EventDate",
+      "EntityDefinitionId": "BulkApiResultEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventDate",
+      "MasterLabel": "イベント日",
+      "Label": "イベント日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BulkApiResultEventStore.EventIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BulkApiResultEventStore.EventIdentifier",
+      "QualifiedApiName": "EventIdentifier",
+      "EntityDefinitionId": "BulkApiResultEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventIdentifier",
+      "MasterLabel": "イベント識別子",
+      "Label": "イベント識別子",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BulkApiResultEventStore.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BulkApiResultEventStore.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "BulkApiResultEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Bulk API 結果イベントストア ID",
+      "Label": "Bulk API 結果イベントストア ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BulkApiResultEventStore.LoginHistory"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BulkApiResultEventStore.LoginHistory",
+      "QualifiedApiName": "LoginHistoryId",
+      "EntityDefinitionId": "BulkApiResultEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "LoginHistory",
+      "MasterLabel": "ログイン履歴",
+      "Label": "ログイン履歴",
+      "DataType": "参照関係(ログイン履歴)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BulkApiResultEventStore.LoginKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BulkApiResultEventStore.LoginKey",
+      "QualifiedApiName": "LoginKey",
+      "EntityDefinitionId": "BulkApiResultEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "LoginKey",
+      "MasterLabel": "ログインキー",
+      "Label": "ログインキー",
+      "DataType": "テキスト(24)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BulkApiResultEventStore.Policy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BulkApiResultEventStore.Policy",
+      "QualifiedApiName": "PolicyId",
+      "EntityDefinitionId": "BulkApiResultEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "Policy",
+      "MasterLabel": "ポリシー",
+      "Label": "ポリシー",
+      "DataType": "参照関係(Transaction Security Policy)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BulkApiResultEventStore.PolicyOutcome"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BulkApiResultEventStore.PolicyOutcome",
+      "QualifiedApiName": "PolicyOutcome",
+      "EntityDefinitionId": "BulkApiResultEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "PolicyOutcome",
+      "MasterLabel": "ポリシーの結果",
+      "Label": "ポリシーの結果",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BulkApiResultEventStore.Query"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BulkApiResultEventStore.Query",
+      "QualifiedApiName": "Query",
+      "EntityDefinitionId": "BulkApiResultEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "Query",
+      "MasterLabel": "クエリ",
+      "Label": "クエリ",
+      "DataType": "テキスト(10000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BulkApiResultEventStore.RelatedEventIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BulkApiResultEventStore.RelatedEventIdentifier",
+      "QualifiedApiName": "RelatedEventIdentifier",
+      "EntityDefinitionId": "BulkApiResultEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "RelatedEventIdentifier",
+      "MasterLabel": "関連イベント識別子",
+      "Label": "関連イベント識別子",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BulkApiResultEventStore.SessionKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BulkApiResultEventStore.SessionKey",
+      "QualifiedApiName": "SessionKey",
+      "EntityDefinitionId": "BulkApiResultEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "SessionKey",
+      "MasterLabel": "セッションキー",
+      "Label": "セッションキー",
+      "DataType": "テキスト(24)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BulkApiResultEventStore.SessionLevel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BulkApiResultEventStore.SessionLevel",
+      "QualifiedApiName": "SessionLevel",
+      "EntityDefinitionId": "BulkApiResultEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "SessionLevel",
+      "MasterLabel": "セッションレベル",
+      "Label": "セッションレベル",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BulkApiResultEventStore.SourceIp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BulkApiResultEventStore.SourceIp",
+      "QualifiedApiName": "SourceIp",
+      "EntityDefinitionId": "BulkApiResultEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "SourceIp",
+      "MasterLabel": "アクセス元 IP",
+      "Label": "アクセス元 IP",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BulkApiResultEventStore.User"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BulkApiResultEventStore.User",
+      "QualifiedApiName": "UserId",
+      "EntityDefinitionId": "BulkApiResultEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "User",
+      "MasterLabel": "ユーザー",
+      "Label": "ユーザー",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BulkApiResultEventStore.Username"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BulkApiResultEventStore.Username",
+      "QualifiedApiName": "Username",
+      "EntityDefinitionId": "BulkApiResultEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "Username",
+      "MasterLabel": "ユーザー名",
+      "Label": "ユーザー名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

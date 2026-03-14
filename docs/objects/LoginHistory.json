@@ -1,0 +1,490 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 23,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginHistory.ApiType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginHistory.ApiType",
+      "QualifiedApiName": "ApiType",
+      "EntityDefinitionId": "LoginHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "ApiType",
+      "MasterLabel": "API 種別",
+      "Label": "API 種別",
+      "DataType": "テキスト(64)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginHistory.ApiVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginHistory.ApiVersion",
+      "QualifiedApiName": "ApiVersion",
+      "EntityDefinitionId": "LoginHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "ApiVersion",
+      "MasterLabel": "API バージョン",
+      "Label": "API バージョン",
+      "DataType": "テキスト(32)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginHistory.Application"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginHistory.Application",
+      "QualifiedApiName": "Application",
+      "EntityDefinitionId": "LoginHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Application",
+      "MasterLabel": "アプリケーション",
+      "Label": "アプリケーション",
+      "DataType": "テキスト(64)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginHistory.AuthenticationService"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginHistory.AuthenticationService",
+      "QualifiedApiName": "AuthenticationServiceId",
+      "EntityDefinitionId": "LoginHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "AuthenticationService",
+      "MasterLabel": "認証サービス",
+      "Label": "認証サービス",
+      "DataType": "参照関係(認証プロバイダー,SAML SSO 設定)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginHistory.AuthMethodReference"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginHistory.AuthMethodReference",
+      "QualifiedApiName": "AuthMethodReference",
+      "EntityDefinitionId": "LoginHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "AuthMethodReference",
+      "MasterLabel": "認証メソッド参照",
+      "Label": "認証メソッド参照",
+      "DataType": "テキスト(128)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginHistory.Browser"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginHistory.Browser",
+      "QualifiedApiName": "Browser",
+      "EntityDefinitionId": "LoginHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Browser",
+      "MasterLabel": "ブラウザー",
+      "Label": "ブラウザー",
+      "DataType": "テキスト(64)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginHistory.CipherSuite"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginHistory.CipherSuite",
+      "QualifiedApiName": "CipherSuite",
+      "EntityDefinitionId": "LoginHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "CipherSuite",
+      "MasterLabel": "TLS Cipher Suite",
+      "Label": "TLS Cipher Suite",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginHistory.ClientVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginHistory.ClientVersion",
+      "QualifiedApiName": "ClientVersion",
+      "EntityDefinitionId": "LoginHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "ClientVersion",
+      "MasterLabel": "クライアントのバージョン",
+      "Label": "クライアントのバージョン",
+      "DataType": "テキスト(64)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginHistory.CountryIso"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginHistory.CountryIso",
+      "QualifiedApiName": "CountryIso",
+      "EntityDefinitionId": "LoginHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "CountryIso",
+      "MasterLabel": "国コード",
+      "Label": "国コード",
+      "DataType": "テキスト(3)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginHistory.ForwardedForIp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginHistory.ForwardedForIp",
+      "QualifiedApiName": "ForwardedForIp",
+      "EntityDefinitionId": "LoginHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "ForwardedForIp",
+      "MasterLabel": "Forwarded For IP",
+      "Label": "Forwarded For IP",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginHistory.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginHistory.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "LoginHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "ログイン履歴 ID",
+      "Label": "ログイン履歴 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginHistory.LoginGeo"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginHistory.LoginGeo",
+      "QualifiedApiName": "LoginGeoId",
+      "EntityDefinitionId": "LoginHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "LoginGeo",
+      "MasterLabel": "ログイン地理情報データ",
+      "Label": "ログイン地理情報データ",
+      "DataType": "参照関係(ログイン地理情報データ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginHistory.LoginSubType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginHistory.LoginSubType",
+      "QualifiedApiName": "LoginSubType",
+      "EntityDefinitionId": "LoginHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "LoginSubType",
+      "MasterLabel": "ログインサブ種別",
+      "Label": "ログインサブ種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginHistory.LoginTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginHistory.LoginTime",
+      "QualifiedApiName": "LoginTime",
+      "EntityDefinitionId": "LoginHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "LoginTime",
+      "MasterLabel": "ログイン時刻",
+      "Label": "ログイン時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginHistory.LoginType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginHistory.LoginType",
+      "QualifiedApiName": "LoginType",
+      "EntityDefinitionId": "LoginHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "LoginType",
+      "MasterLabel": "種別",
+      "Label": "種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginHistory.LoginUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginHistory.LoginUrl",
+      "QualifiedApiName": "LoginUrl",
+      "EntityDefinitionId": "LoginHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "LoginUrl",
+      "MasterLabel": "ログイン URL",
+      "Label": "ログイン URL",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginHistory.Options"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginHistory.Options",
+      "QualifiedApiName": "Options",
+      "EntityDefinitionId": "LoginHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Options",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val Options not found in section udd_LoginHistory",
+      "Label": "__MISSING LABEL__ PropertyFile - val Options not found in section udd_LoginHistory",
+      "DataType": "ビットベクター",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginHistory.Platform"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginHistory.Platform",
+      "QualifiedApiName": "Platform",
+      "EntityDefinitionId": "LoginHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Platform",
+      "MasterLabel": "プラットフォーム",
+      "Label": "プラットフォーム",
+      "DataType": "テキスト(64)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginHistory.RemoteIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginHistory.RemoteIdentifier",
+      "QualifiedApiName": "RemoteIdentifier",
+      "EntityDefinitionId": "LoginHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "RemoteIdentifier",
+      "MasterLabel": "認証プロバイダーのリモート ID",
+      "Label": "認証プロバイダーのリモート ID",
+      "DataType": "テキスト(128)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginHistory.SourceIp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginHistory.SourceIp",
+      "QualifiedApiName": "SourceIp",
+      "EntityDefinitionId": "LoginHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "SourceIp",
+      "MasterLabel": "アクセス元 IP",
+      "Label": "アクセス元 IP",
+      "DataType": "IP アドレス",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginHistory.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginHistory.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "LoginHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "テキスト(128)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginHistory.TlsProtocol"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginHistory.TlsProtocol",
+      "QualifiedApiName": "TlsProtocol",
+      "EntityDefinitionId": "LoginHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "TlsProtocol",
+      "MasterLabel": "TLS プロトコル",
+      "Label": "TLS プロトコル",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginHistory.User"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginHistory.User",
+      "QualifiedApiName": "UserId",
+      "EntityDefinitionId": "LoginHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "User",
+      "MasterLabel": "ユーザー",
+      "Label": "ユーザー",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

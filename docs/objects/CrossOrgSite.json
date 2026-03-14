@@ -1,0 +1,448 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 21,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgSite.Admin"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgSite.Admin",
+      "QualifiedApiName": "AdminId",
+      "EntityDefinitionId": "CrossOrgSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "Admin",
+      "MasterLabel": "サイトの管理者",
+      "Label": "サイトの管理者",
+      "DataType": "参照関係(すべてのユーザーの基本)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgSite.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgSite.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "CrossOrgSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgSite.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgSite.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "CrossOrgSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgSite.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgSite.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "CrossOrgSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "サイトの説明",
+      "Label": "サイトの説明",
+      "DataType": "テキストエリア(1000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgSite.GuestUser"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgSite.GuestUser",
+      "QualifiedApiName": "GuestUserId",
+      "EntityDefinitionId": "CrossOrgSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "GuestUser",
+      "MasterLabel": "ゲストユーザー",
+      "Label": "ゲストユーザー",
+      "DataType": "参照関係(すべてのユーザーの基本)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgSite.Guid"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgSite.Guid",
+      "QualifiedApiName": "Guid",
+      "EntityDefinitionId": "CrossOrgSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "Guid",
+      "MasterLabel": "一意の ID",
+      "Label": "一意の ID",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgSite.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgSite.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "CrossOrgSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "All Domain Mapping ID",
+      "Label": "All Domain Mapping ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgSite.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgSite.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "CrossOrgSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "サイトのマスター言語",
+      "Label": "サイトのマスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgSite.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgSite.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "CrossOrgSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgSite.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgSite.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "CrossOrgSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgSite.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgSite.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "CrossOrgSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "サイトの表示ラベル",
+      "Label": "サイトの表示ラベル",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgSite.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgSite.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "CrossOrgSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "サイト名",
+      "Label": "サイト名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgSite.Options"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgSite.Options",
+      "QualifiedApiName": "Options",
+      "EntityDefinitionId": "CrossOrgSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "Options",
+      "MasterLabel": "オプション",
+      "Label": "オプション",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgSite.Organization"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgSite.Organization",
+      "QualifiedApiName": "OrganizationId",
+      "EntityDefinitionId": "CrossOrgSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "Organization",
+      "MasterLabel": "AllOrganization",
+      "Label": "AllOrganization",
+      "DataType": "参照関係(AllOrganization)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgSite.RootComponent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgSite.RootComponent",
+      "QualifiedApiName": "RootComponentId",
+      "EntityDefinitionId": "CrossOrgSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "RootComponent",
+      "MasterLabel": "ルートコンポーネント",
+      "Label": "ルートコンポーネント",
+      "DataType": "参照関係(Site Component)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgSite.SiteType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgSite.SiteType",
+      "QualifiedApiName": "SiteType",
+      "EntityDefinitionId": "CrossOrgSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "SiteType",
+      "MasterLabel": "サイト種別",
+      "Label": "サイト種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgSite.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgSite.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "CrossOrgSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "サイトの状況",
+      "Label": "サイトの状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgSite.Subdomain"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgSite.Subdomain",
+      "QualifiedApiName": "Subdomain",
+      "EntityDefinitionId": "CrossOrgSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "Subdomain",
+      "MasterLabel": "サイトのサブドメインプレフィックス",
+      "Label": "サイトのサブドメインプレフィックス",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgSite.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgSite.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "CrossOrgSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgSite.TopLevelDomain"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgSite.TopLevelDomain",
+      "QualifiedApiName": "TopLevelDomain",
+      "EntityDefinitionId": "CrossOrgSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "TopLevelDomain",
+      "MasterLabel": "カスタム Web アドレス",
+      "Label": "カスタム Web アドレス",
+      "DataType": "URL(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgSite.UrlPathPrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgSite.UrlPathPrefix",
+      "QualifiedApiName": "UrlPathPrefix",
+      "EntityDefinitionId": "CrossOrgSite",
+      "NamespacePrefix": null,
+      "DeveloperName": "UrlPathPrefix",
+      "MasterLabel": "デフォルト Web アドレス",
+      "Label": "デフォルト Web アドレス",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

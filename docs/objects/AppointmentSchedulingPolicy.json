@@ -1,0 +1,532 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 25,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentSchedulingPolicy.AppointmentStartTimeInterval"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentSchedulingPolicy.AppointmentStartTimeInterval",
+      "QualifiedApiName": "AppointmentStartTimeInterval",
+      "EntityDefinitionId": "AppointmentSchedulingPolicy",
+      "NamespacePrefix": null,
+      "DeveloperName": "AppointmentStartTimeInterval",
+      "MasterLabel": "予定開始時間間隔",
+      "Label": "予定開始時間間隔",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentSchedulingPolicy.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentSchedulingPolicy.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AppointmentSchedulingPolicy",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentSchedulingPolicy.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentSchedulingPolicy.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AppointmentSchedulingPolicy",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentSchedulingPolicy.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentSchedulingPolicy.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "AppointmentSchedulingPolicy",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "API 参照名",
+      "Label": "API 参照名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentSchedulingPolicy.ExtCalEventHandler"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentSchedulingPolicy.ExtCalEventHandler",
+      "QualifiedApiName": "ExtCalEventHandlerId",
+      "EntityDefinitionId": "AppointmentSchedulingPolicy",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExtCalEventHandler",
+      "MasterLabel": "外部システムでリソースの対応可能状況を確認",
+      "Label": "外部システムでリソースの対応可能状況を確認",
+      "DataType": "参照関係(Apex クラス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentSchedulingPolicy.Fullname"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentSchedulingPolicy.Fullname",
+      "QualifiedApiName": "Fullname",
+      "EntityDefinitionId": "AppointmentSchedulingPolicy",
+      "NamespacePrefix": null,
+      "DeveloperName": "Fullname",
+      "MasterLabel": "氏名",
+      "Label": "氏名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentSchedulingPolicy.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentSchedulingPolicy.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AppointmentSchedulingPolicy",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "予定スケジュールポリシー ID",
+      "Label": "予定スケジュールポリシー ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentSchedulingPolicy.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentSchedulingPolicy.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AppointmentSchedulingPolicy",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentSchedulingPolicy.IsOrgDefault"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentSchedulingPolicy.IsOrgDefault",
+      "QualifiedApiName": "IsOrgDefault",
+      "EntityDefinitionId": "AppointmentSchedulingPolicy",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsOrgDefault",
+      "MasterLabel": "デフォルト",
+      "Label": "デフォルト",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentSchedulingPolicy.IsSvcTerritoryMemberShiftUsed"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentSchedulingPolicy.IsSvcTerritoryMemberShiftUsed",
+      "QualifiedApiName": "IsSvcTerritoryMemberShiftUsed",
+      "EntityDefinitionId": "AppointmentSchedulingPolicy",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsSvcTerritoryMemberShiftUsed",
+      "MasterLabel": "サービステリトリーメンバーのシフトを使用",
+      "Label": "サービステリトリーメンバーのシフトを使用",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentSchedulingPolicy.IsSvcTerrOpHoursWithShiftsUsed"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentSchedulingPolicy.IsSvcTerrOpHoursWithShiftsUsed",
+      "QualifiedApiName": "IsSvcTerrOpHoursWithShiftsUsed",
+      "EntityDefinitionId": "AppointmentSchedulingPolicy",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsSvcTerrOpHoursWithShiftsUsed",
+      "MasterLabel": "シフトと共にサービステリトリーの営業時間を使用",
+      "Label": "シフトと共にサービステリトリーの営業時間を使用",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentSchedulingPolicy.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentSchedulingPolicy.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "AppointmentSchedulingPolicy",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentSchedulingPolicy.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentSchedulingPolicy.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AppointmentSchedulingPolicy",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentSchedulingPolicy.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentSchedulingPolicy.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AppointmentSchedulingPolicy",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentSchedulingPolicy.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentSchedulingPolicy.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "AppointmentSchedulingPolicy",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentSchedulingPolicy.Metadata"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentSchedulingPolicy.Metadata",
+      "QualifiedApiName": "Metadata",
+      "EntityDefinitionId": "AppointmentSchedulingPolicy",
+      "NamespacePrefix": null,
+      "DeveloperName": "Metadata",
+      "MasterLabel": "メタデータ",
+      "Label": "メタデータ",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentSchedulingPolicy.ShouldConsiderCalendarEvents"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentSchedulingPolicy.ShouldConsiderCalendarEvents",
+      "QualifiedApiName": "ShouldConsiderCalendarEvents",
+      "EntityDefinitionId": "AppointmentSchedulingPolicy",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShouldConsiderCalendarEvents",
+      "MasterLabel": "Salesforce カレンダーでリソースの対応可能状況を確認",
+      "Label": "Salesforce カレンダーでリソースの対応可能状況を確認",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentSchedulingPolicy.ShouldEnforceExcludedResource"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentSchedulingPolicy.ShouldEnforceExcludedResource",
+      "QualifiedApiName": "ShouldEnforceExcludedResource",
+      "EntityDefinitionId": "AppointmentSchedulingPolicy",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShouldEnforceExcludedResource",
+      "MasterLabel": "除外されたサービスリソースを無視",
+      "Label": "除外されたサービスリソースを無視",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentSchedulingPolicy.ShouldEnforceRequiredResource"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentSchedulingPolicy.ShouldEnforceRequiredResource",
+      "QualifiedApiName": "ShouldEnforceRequiredResource",
+      "EntityDefinitionId": "AppointmentSchedulingPolicy",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShouldEnforceRequiredResource",
+      "MasterLabel": "必要なサービスリソースのみを含める",
+      "Label": "必要なサービスリソースのみを含める",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentSchedulingPolicy.ShouldMatchSkill"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentSchedulingPolicy.ShouldMatchSkill",
+      "QualifiedApiName": "ShouldMatchSkill",
+      "EntityDefinitionId": "AppointmentSchedulingPolicy",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShouldMatchSkill",
+      "MasterLabel": "スキルを照合",
+      "Label": "スキルを照合",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentSchedulingPolicy.ShouldMatchSkillLevel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentSchedulingPolicy.ShouldMatchSkillLevel",
+      "QualifiedApiName": "ShouldMatchSkillLevel",
+      "EntityDefinitionId": "AppointmentSchedulingPolicy",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShouldMatchSkillLevel",
+      "MasterLabel": "スキルレベルを照合",
+      "Label": "スキルレベルを照合",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentSchedulingPolicy.ShouldRespectVisitingHours"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentSchedulingPolicy.ShouldRespectVisitingHours",
+      "QualifiedApiName": "ShouldRespectVisitingHours",
+      "EntityDefinitionId": "AppointmentSchedulingPolicy",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShouldRespectVisitingHours",
+      "MasterLabel": "取引先の訪問時間を適用",
+      "Label": "取引先の訪問時間を適用",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentSchedulingPolicy.ShouldUsePrimaryMembers"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentSchedulingPolicy.ShouldUsePrimaryMembers",
+      "QualifiedApiName": "ShouldUsePrimaryMembers",
+      "EntityDefinitionId": "AppointmentSchedulingPolicy",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShouldUsePrimaryMembers",
+      "MasterLabel": "プライマリサービステリトリーメンバーを含める",
+      "Label": "プライマリサービステリトリーメンバーを含める",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentSchedulingPolicy.ShouldUseSecondaryMembers"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentSchedulingPolicy.ShouldUseSecondaryMembers",
+      "QualifiedApiName": "ShouldUseSecondaryMembers",
+      "EntityDefinitionId": "AppointmentSchedulingPolicy",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShouldUseSecondaryMembers",
+      "MasterLabel": "セカンダリサービステリトリーメンバーを含める",
+      "Label": "セカンダリサービステリトリーメンバーを含める",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentSchedulingPolicy.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentSchedulingPolicy.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AppointmentSchedulingPolicy",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

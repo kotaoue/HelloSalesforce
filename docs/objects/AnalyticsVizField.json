@@ -1,0 +1,511 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 24,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsVizField.AdHocCalc"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsVizField.AdHocCalc",
+      "QualifiedApiName": "AdHocCalc",
+      "EntityDefinitionId": "AnalyticsVizField",
+      "NamespacePrefix": null,
+      "DeveloperName": "AdHocCalc",
+      "MasterLabel": "Ad-hoc Calculation",
+      "Label": "Ad-hoc Calculation",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsVizField.AnalyticsVizVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsVizField.AnalyticsVizVersion",
+      "QualifiedApiName": "AnalyticsVizVersionId",
+      "EntityDefinitionId": "AnalyticsVizField",
+      "NamespacePrefix": null,
+      "DeveloperName": "AnalyticsVizVersion",
+      "MasterLabel": "Analytics Visualization Version",
+      "Label": "Analytics Visualization Version",
+      "DataType": "参照関係(Analytics Visualization Version)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsVizField.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsVizField.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AnalyticsVizField",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsVizField.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsVizField.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AnalyticsVizField",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsVizField.DisplayCategory"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsVizField.DisplayCategory",
+      "QualifiedApiName": "DisplayCategory",
+      "EntityDefinitionId": "AnalyticsVizField",
+      "NamespacePrefix": null,
+      "DeveloperName": "DisplayCategory",
+      "MasterLabel": "Display Category",
+      "Label": "Display Category",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsVizField.FieldKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsVizField.FieldKey",
+      "QualifiedApiName": "FieldKey",
+      "EntityDefinitionId": "AnalyticsVizField",
+      "NamespacePrefix": null,
+      "DeveloperName": "FieldKey",
+      "MasterLabel": "Field Key",
+      "Label": "Field Key",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsVizField.Function"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsVizField.Function",
+      "QualifiedApiName": "Function",
+      "EntityDefinitionId": "AnalyticsVizField",
+      "NamespacePrefix": null,
+      "DeveloperName": "Function",
+      "MasterLabel": "Function",
+      "Label": "Function",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsVizField.HierarchyName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsVizField.HierarchyName",
+      "QualifiedApiName": "HierarchyName",
+      "EntityDefinitionId": "AnalyticsVizField",
+      "NamespacePrefix": null,
+      "DeveloperName": "HierarchyName",
+      "MasterLabel": "Hierarchy Name",
+      "Label": "Hierarchy Name",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsVizField.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsVizField.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AnalyticsVizField",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "AnalyticsVizField ID",
+      "Label": "AnalyticsVizField ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsVizField.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsVizField.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AnalyticsVizField",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsVizField.Label"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsVizField.Label",
+      "QualifiedApiName": "Label",
+      "EntityDefinitionId": "AnalyticsVizField",
+      "NamespacePrefix": null,
+      "DeveloperName": "Label",
+      "MasterLabel": "Label",
+      "Label": "Label",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsVizField.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsVizField.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AnalyticsVizField",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsVizField.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsVizField.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AnalyticsVizField",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsVizField.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsVizField.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "AnalyticsVizField",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsVizField.Positional"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsVizField.Positional",
+      "QualifiedApiName": "Positional",
+      "EntityDefinitionId": "AnalyticsVizField",
+      "NamespacePrefix": null,
+      "DeveloperName": "Positional",
+      "MasterLabel": "The map positional of the field",
+      "Label": "The map positional of the field",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsVizField.PositionName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsVizField.PositionName",
+      "QualifiedApiName": "PositionName",
+      "EntityDefinitionId": "AnalyticsVizField",
+      "NamespacePrefix": null,
+      "DeveloperName": "PositionName",
+      "MasterLabel": "The position name of the field",
+      "Label": "The position name of the field",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsVizField.Role"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsVizField.Role",
+      "QualifiedApiName": "Role",
+      "EntityDefinitionId": "AnalyticsVizField",
+      "NamespacePrefix": null,
+      "DeveloperName": "Role",
+      "MasterLabel": "Role",
+      "Label": "Role",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsVizField.SemanticField"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsVizField.SemanticField",
+      "QualifiedApiName": "SemanticFieldId",
+      "EntityDefinitionId": "AnalyticsVizField",
+      "NamespacePrefix": null,
+      "DeveloperName": "SemanticField",
+      "MasterLabel": "Semantic Field",
+      "Label": "Semantic Field",
+      "DataType": "参照関係(Semantic Data Object Field,Semantic Calculated Dimension,Semantic Measurement,Semantic Definition)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsVizField.SemanticFieldApiName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsVizField.SemanticFieldApiName",
+      "QualifiedApiName": "SemanticFieldApiName",
+      "EntityDefinitionId": "AnalyticsVizField",
+      "NamespacePrefix": null,
+      "DeveloperName": "SemanticFieldApiName",
+      "MasterLabel": "Semantic Field API Name",
+      "Label": "Semantic Field API Name",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsVizField.SemanticObjectApiName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsVizField.SemanticObjectApiName",
+      "QualifiedApiName": "SemanticObjectApiName",
+      "EntityDefinitionId": "AnalyticsVizField",
+      "NamespacePrefix": null,
+      "DeveloperName": "SemanticObjectApiName",
+      "MasterLabel": "Semantic Object API Name",
+      "Label": "Semantic Object API Name",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsVizField.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsVizField.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AnalyticsVizField",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsVizField.Type"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsVizField.Type",
+      "QualifiedApiName": "Type",
+      "EntityDefinitionId": "AnalyticsVizField",
+      "NamespacePrefix": null,
+      "DeveloperName": "Type",
+      "MasterLabel": "Type",
+      "Label": "Type",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsVizField.UniqueIndex"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsVizField.UniqueIndex",
+      "QualifiedApiName": "UniqueIndex",
+      "EntityDefinitionId": "AnalyticsVizField",
+      "NamespacePrefix": null,
+      "DeveloperName": "UniqueIndex",
+      "MasterLabel": "Unique constraint formula for an analytics visualization field",
+      "Label": "Unique constraint formula for an analytics visualization field",
+      "DataType": "数式 (テキスト)  (ユニーク、大文字と小文字を区別する)",
+      "IsCalculated": true,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsVizField.Visualization"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsVizField.Visualization",
+      "QualifiedApiName": "VisualizationId",
+      "EntityDefinitionId": "AnalyticsVizField",
+      "NamespacePrefix": null,
+      "DeveloperName": "Visualization",
+      "MasterLabel": "Analytics Visualization",
+      "Label": "Analytics Visualization",
+      "DataType": "主従関係(Analytics Visualization)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

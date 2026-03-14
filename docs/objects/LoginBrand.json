@@ -1,0 +1,301 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 14,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginBrand.BrandAssetCrc"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginBrand.BrandAssetCrc",
+      "QualifiedApiName": "BrandAssetCrc",
+      "EntityDefinitionId": "LoginBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "BrandAssetCrc",
+      "MasterLabel": "ブランドアセット CRC",
+      "Label": "ブランドアセット CRC",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginBrand.BrandingOrganization"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginBrand.BrandingOrganization",
+      "QualifiedApiName": "BrandingOrganizationId",
+      "EntityDefinitionId": "LoginBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "BrandingOrganization",
+      "MasterLabel": "組織のブランド",
+      "Label": "組織のブランド",
+      "DataType": "参照関係(AllOrganization)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginBrand.BrandType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginBrand.BrandType",
+      "QualifiedApiName": "BrandType",
+      "EntityDefinitionId": "LoginBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "BrandType",
+      "MasterLabel": "ブランド種別",
+      "Label": "ブランド種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginBrand.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginBrand.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "LoginBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginBrand.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginBrand.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "LoginBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginBrand.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginBrand.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "LoginBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "API 参照名",
+      "Label": "API 参照名",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginBrand.Domain"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginBrand.Domain",
+      "QualifiedApiName": "Domain",
+      "EntityDefinitionId": "LoginBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "Domain",
+      "MasterLabel": "ドメイン",
+      "Label": "ドメイン",
+      "DataType": "テキスト(20)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginBrand.DomainNew"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginBrand.DomainNew",
+      "QualifiedApiName": "DomainNew",
+      "EntityDefinitionId": "LoginBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "DomainNew",
+      "MasterLabel": "ドメイン",
+      "Label": "ドメイン",
+      "DataType": "テキスト(100)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginBrand.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginBrand.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "LoginBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "ログインブランド ID",
+      "Label": "ログインブランド ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginBrand.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginBrand.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "LoginBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginBrand.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginBrand.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "LoginBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginBrand.ReleaseState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginBrand.ReleaseState",
+      "QualifiedApiName": "ReleaseState",
+      "EntityDefinitionId": "LoginBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReleaseState",
+      "MasterLabel": "ブランドのリリース状態",
+      "Label": "ブランドのリリース状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginBrand.Server"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginBrand.Server",
+      "QualifiedApiName": "Server",
+      "EntityDefinitionId": "LoginBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "Server",
+      "MasterLabel": "サーバー",
+      "Label": "サーバー",
+      "DataType": "テキスト(3)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginBrand.SourceSystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginBrand.SourceSystemModstamp",
+      "QualifiedApiName": "SourceSystemModstamp",
+      "EntityDefinitionId": "LoginBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "SourceSystemModstamp",
+      "MasterLabel": "ソース System Modstamp",
+      "Label": "ソース System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

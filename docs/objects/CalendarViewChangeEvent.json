@@ -1,0 +1,385 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 18,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarViewChangeEvent.CalendarModel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarViewChangeEvent.CalendarModel",
+      "QualifiedApiName": "CalendarModelId",
+      "EntityDefinitionId": "CalendarViewChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CalendarModel",
+      "MasterLabel": "カレンダーモデル",
+      "Label": "カレンダーモデル",
+      "DataType": "参照関係(カレンダーモデル)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarViewChangeEvent.ChangeEventHeader"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarViewChangeEvent.ChangeEventHeader",
+      "QualifiedApiName": "ChangeEventHeader",
+      "EntityDefinitionId": "CalendarViewChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChangeEventHeader",
+      "MasterLabel": "変更イベントヘッダー",
+      "Label": "変更イベントヘッダー",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarViewChangeEvent.Color"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarViewChangeEvent.Color",
+      "QualifiedApiName": "Color",
+      "EntityDefinitionId": "CalendarViewChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Color",
+      "MasterLabel": "色",
+      "Label": "色",
+      "DataType": "テキスト(6)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarViewChangeEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarViewChangeEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "CalendarViewChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarViewChangeEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarViewChangeEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "CalendarViewChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarViewChangeEvent.DateHandlingType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarViewChangeEvent.DateHandlingType",
+      "QualifiedApiName": "DateHandlingType",
+      "EntityDefinitionId": "CalendarViewChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DateHandlingType",
+      "MasterLabel": "日付処理種別",
+      "Label": "日付処理種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarViewChangeEvent.DisplayField"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarViewChangeEvent.DisplayField",
+      "QualifiedApiName": "DisplayField",
+      "EntityDefinitionId": "CalendarViewChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DisplayField",
+      "MasterLabel": "表示項目",
+      "Label": "表示項目",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarViewChangeEvent.EndField"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarViewChangeEvent.EndField",
+      "QualifiedApiName": "EndField",
+      "EntityDefinitionId": "CalendarViewChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EndField",
+      "MasterLabel": "終了項目",
+      "Label": "終了項目",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarViewChangeEvent.FillPattern"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarViewChangeEvent.FillPattern",
+      "QualifiedApiName": "FillPattern",
+      "EntityDefinitionId": "CalendarViewChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "FillPattern",
+      "MasterLabel": "入力パターン",
+      "Label": "入力パターン",
+      "DataType": "テキスト(50)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarViewChangeEvent.IsDisplayed"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarViewChangeEvent.IsDisplayed",
+      "QualifiedApiName": "IsDisplayed",
+      "EntityDefinitionId": "CalendarViewChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDisplayed",
+      "MasterLabel": "表示",
+      "Label": "表示",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarViewChangeEvent.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarViewChangeEvent.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "CalendarViewChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarViewChangeEvent.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarViewChangeEvent.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "CalendarViewChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarViewChangeEvent.ListViewFilter"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarViewChangeEvent.ListViewFilter",
+      "QualifiedApiName": "ListViewFilterId",
+      "EntityDefinitionId": "CalendarViewChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ListViewFilter",
+      "MasterLabel": "リストビュー検索条件",
+      "Label": "リストビュー検索条件",
+      "DataType": "参照関係(リストビュー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarViewChangeEvent.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarViewChangeEvent.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "CalendarViewChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "カレンダー名",
+      "Label": "カレンダー名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarViewChangeEvent.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarViewChangeEvent.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "CalendarViewChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者 氏名",
+      "Label": "所有者 氏名",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarViewChangeEvent.Publisher"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarViewChangeEvent.Publisher",
+      "QualifiedApiName": "PublisherId",
+      "EntityDefinitionId": "CalendarViewChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Publisher",
+      "MasterLabel": "パブリッシャー",
+      "Label": "パブリッシャー",
+      "DataType": "参照関係(ユーザー,カレンダー,リストビュー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarViewChangeEvent.SobjectType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarViewChangeEvent.SobjectType",
+      "QualifiedApiName": "SobjectType",
+      "EntityDefinitionId": "CalendarViewChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "SobjectType",
+      "MasterLabel": "sObject 型",
+      "Label": "sObject 型",
+      "DataType": "選択リスト()",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarViewChangeEvent.StartField"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarViewChangeEvent.StartField",
+      "QualifiedApiName": "StartField",
+      "EntityDefinitionId": "CalendarViewChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "StartField",
+      "MasterLabel": "開始項目",
+      "Label": "開始項目",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 15,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShareHistory.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShareHistory.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ExtDataShareHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShareHistory.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShareHistory.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ExtDataShareHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShareHistory.DataType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShareHistory.DataType",
+      "QualifiedApiName": "DataType",
+      "EntityDefinitionId": "ExtDataShareHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataType",
+      "MasterLabel": "データ型",
+      "Label": "データ型",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShareHistory.ExtDataShare"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShareHistory.ExtDataShare",
+      "QualifiedApiName": "ExtDataShareId",
+      "EntityDefinitionId": "ExtDataShareHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExtDataShare",
+      "MasterLabel": "データ共有",
+      "Label": "データ共有",
+      "DataType": "参照関係(データ共有)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShareHistory.Field"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShareHistory.Field",
+      "QualifiedApiName": "Field",
+      "EntityDefinitionId": "ExtDataShareHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Field",
+      "MasterLabel": "変更された項目",
+      "Label": "変更された項目",
+      "DataType": "選択リスト(カスタム項目の定義,カスタム項目データ列)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShareHistory.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShareHistory.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ExtDataShareHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "データ共有履歴 ID",
+      "Label": "データ共有履歴 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShareHistory.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShareHistory.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ExtDataShareHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShareHistory.NewvalDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShareHistory.NewvalDate",
+      "QualifiedApiName": "NewvalDate",
+      "EntityDefinitionId": "ExtDataShareHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewvalDate",
+      "MasterLabel": "新規の日付",
+      "Label": "新規の日付",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShareHistory.NewvalFirstName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShareHistory.NewvalFirstName",
+      "QualifiedApiName": "NewvalFirstName",
+      "EntityDefinitionId": "ExtDataShareHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewvalFirstName",
+      "MasterLabel": "新規の名",
+      "Label": "新規の名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShareHistory.NewvalLastName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShareHistory.NewvalLastName",
+      "QualifiedApiName": "NewvalLastName",
+      "EntityDefinitionId": "ExtDataShareHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewvalLastName",
+      "MasterLabel": "新規の姓",
+      "Label": "新規の姓",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShareHistory.NewValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShareHistory.NewValue",
+      "QualifiedApiName": "NewValue",
+      "EntityDefinitionId": "ExtDataShareHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewValue",
+      "MasterLabel": "新しい値",
+      "Label": "新しい値",
+      "DataType": "参照関係",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShareHistory.OldvalDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShareHistory.OldvalDate",
+      "QualifiedApiName": "OldvalDate",
+      "EntityDefinitionId": "ExtDataShareHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldvalDate",
+      "MasterLabel": "元の日付",
+      "Label": "元の日付",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShareHistory.OldvalFirstName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShareHistory.OldvalFirstName",
+      "QualifiedApiName": "OldvalFirstName",
+      "EntityDefinitionId": "ExtDataShareHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldvalFirstName",
+      "MasterLabel": "元の名",
+      "Label": "元の名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShareHistory.OldvalLastName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShareHistory.OldvalLastName",
+      "QualifiedApiName": "OldvalLastName",
+      "EntityDefinitionId": "ExtDataShareHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldvalLastName",
+      "MasterLabel": "元の姓",
+      "Label": "元の姓",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShareHistory.OldValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShareHistory.OldValue",
+      "QualifiedApiName": "OldValue",
+      "EntityDefinitionId": "ExtDataShareHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldValue",
+      "MasterLabel": "元の値",
+      "Label": "元の値",
+      "DataType": "参照関係",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

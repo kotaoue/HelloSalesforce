@@ -1,0 +1,532 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 25,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppSamlPlcyCnfg.AcsUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppSamlPlcyCnfg.AcsUrl",
+      "QualifiedApiName": "AcsUrl",
+      "EntityDefinitionId": "ExtlClntAppSamlPlcyCnfg",
+      "NamespacePrefix": null,
+      "DeveloperName": "AcsUrl",
+      "MasterLabel": "ACS URL",
+      "Label": "ACS URL",
+      "DataType": "URL(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppSamlPlcyCnfg.Certificate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppSamlPlcyCnfg.Certificate",
+      "QualifiedApiName": "Certificate",
+      "EntityDefinitionId": "ExtlClntAppSamlPlcyCnfg",
+      "NamespacePrefix": null,
+      "DeveloperName": "Certificate",
+      "MasterLabel": "証明書",
+      "Label": "証明書",
+      "DataType": "テキストエリア(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppSamlPlcyCnfg.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppSamlPlcyCnfg.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ExtlClntAppSamlPlcyCnfg",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppSamlPlcyCnfg.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppSamlPlcyCnfg.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ExtlClntAppSamlPlcyCnfg",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppSamlPlcyCnfg.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppSamlPlcyCnfg.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "ExtlClntAppSamlPlcyCnfg",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppSamlPlcyCnfg.EncryptionCertificate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppSamlPlcyCnfg.EncryptionCertificate",
+      "QualifiedApiName": "EncryptionCertificate",
+      "EntityDefinitionId": "ExtlClntAppSamlPlcyCnfg",
+      "NamespacePrefix": null,
+      "DeveloperName": "EncryptionCertificate",
+      "MasterLabel": "暗号化証明書",
+      "Label": "暗号化証明書",
+      "DataType": "テキストエリア(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppSamlPlcyCnfg.EncryptionType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppSamlPlcyCnfg.EncryptionType",
+      "QualifiedApiName": "EncryptionType",
+      "EntityDefinitionId": "ExtlClntAppSamlPlcyCnfg",
+      "NamespacePrefix": null,
+      "DeveloperName": "EncryptionType",
+      "MasterLabel": "暗号化種別",
+      "Label": "暗号化種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppSamlPlcyCnfg.EntityUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppSamlPlcyCnfg.EntityUrl",
+      "QualifiedApiName": "EntityUrl",
+      "EntityDefinitionId": "ExtlClntAppSamlPlcyCnfg",
+      "NamespacePrefix": null,
+      "DeveloperName": "EntityUrl",
+      "MasterLabel": "エンティティ ID",
+      "Label": "エンティティ ID",
+      "DataType": "URL(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppSamlPlcyCnfg.ExternalClientApplication"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppSamlPlcyCnfg.ExternalClientApplication",
+      "QualifiedApiName": "ExternalClientApplicationId",
+      "EntityDefinitionId": "ExtlClntAppSamlPlcyCnfg",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExternalClientApplication",
+      "MasterLabel": "External Client Applications",
+      "Label": "External Client Applications",
+      "DataType": "参照関係(External Client Applications)  (ユニーク)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppSamlPlcyCnfg.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppSamlPlcyCnfg.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ExtlClntAppSamlPlcyCnfg",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "外部クライアントアプリケーション SAML ポリシー設定 ID",
+      "Label": "外部クライアントアプリケーション SAML ポリシー設定 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppSamlPlcyCnfg.IdpCertificate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppSamlPlcyCnfg.IdpCertificate",
+      "QualifiedApiName": "IdpCertificateId",
+      "EntityDefinitionId": "ExtlClntAppSamlPlcyCnfg",
+      "NamespacePrefix": null,
+      "DeveloperName": "IdpCertificate",
+      "MasterLabel": "証明書と鍵",
+      "Label": "証明書と鍵",
+      "DataType": "参照関係(証明書と鍵)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppSamlPlcyCnfg.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppSamlPlcyCnfg.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ExtlClntAppSamlPlcyCnfg",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppSamlPlcyCnfg.Issuer"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppSamlPlcyCnfg.Issuer",
+      "QualifiedApiName": "Issuer",
+      "EntityDefinitionId": "ExtlClntAppSamlPlcyCnfg",
+      "NamespacePrefix": null,
+      "DeveloperName": "Issuer",
+      "MasterLabel": "発行者",
+      "Label": "発行者",
+      "DataType": "URL(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppSamlPlcyCnfg.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppSamlPlcyCnfg.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "ExtlClntAppSamlPlcyCnfg",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppSamlPlcyCnfg.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppSamlPlcyCnfg.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ExtlClntAppSamlPlcyCnfg",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppSamlPlcyCnfg.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppSamlPlcyCnfg.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ExtlClntAppSamlPlcyCnfg",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppSamlPlcyCnfg.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppSamlPlcyCnfg.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "ExtlClntAppSamlPlcyCnfg",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppSamlPlcyCnfg.NameIdFormat"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppSamlPlcyCnfg.NameIdFormat",
+      "QualifiedApiName": "NameIdFormat",
+      "EntityDefinitionId": "ExtlClntAppSamlPlcyCnfg",
+      "NamespacePrefix": null,
+      "DeveloperName": "NameIdFormat",
+      "MasterLabel": "名前 ID 形式",
+      "Label": "名前 ID 形式",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppSamlPlcyCnfg.SigningAlgorithmType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppSamlPlcyCnfg.SigningAlgorithmType",
+      "QualifiedApiName": "SigningAlgorithmType",
+      "EntityDefinitionId": "ExtlClntAppSamlPlcyCnfg",
+      "NamespacePrefix": null,
+      "DeveloperName": "SigningAlgorithmType",
+      "MasterLabel": "SAML メッセージの署名アルゴリズム",
+      "Label": "SAML メッセージの署名アルゴリズム",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppSamlPlcyCnfg.SingleLogoutBindingType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppSamlPlcyCnfg.SingleLogoutBindingType",
+      "QualifiedApiName": "SingleLogoutBindingType",
+      "EntityDefinitionId": "ExtlClntAppSamlPlcyCnfg",
+      "NamespacePrefix": null,
+      "DeveloperName": "SingleLogoutBindingType",
+      "MasterLabel": "シングルログアウトバインド",
+      "Label": "シングルログアウトバインド",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppSamlPlcyCnfg.SingleLogoutUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppSamlPlcyCnfg.SingleLogoutUrl",
+      "QualifiedApiName": "SingleLogoutUrl",
+      "EntityDefinitionId": "ExtlClntAppSamlPlcyCnfg",
+      "NamespacePrefix": null,
+      "DeveloperName": "SingleLogoutUrl",
+      "MasterLabel": "シングルログアウト URL",
+      "Label": "シングルログアウト URL",
+      "DataType": "URL(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppSamlPlcyCnfg.StartUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppSamlPlcyCnfg.StartUrl",
+      "QualifiedApiName": "StartUrl",
+      "EntityDefinitionId": "ExtlClntAppSamlPlcyCnfg",
+      "NamespacePrefix": null,
+      "DeveloperName": "StartUrl",
+      "MasterLabel": "開始 URL",
+      "Label": "開始 URL",
+      "DataType": "URL(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppSamlPlcyCnfg.SubjectCustomAttribute"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppSamlPlcyCnfg.SubjectCustomAttribute",
+      "QualifiedApiName": "SubjectCustomAttribute",
+      "EntityDefinitionId": "ExtlClntAppSamlPlcyCnfg",
+      "NamespacePrefix": null,
+      "DeveloperName": "SubjectCustomAttribute",
+      "MasterLabel": "件名カスタム属性",
+      "Label": "件名カスタム属性",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppSamlPlcyCnfg.SubjectType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppSamlPlcyCnfg.SubjectType",
+      "QualifiedApiName": "SubjectType",
+      "EntityDefinitionId": "ExtlClntAppSamlPlcyCnfg",
+      "NamespacePrefix": null,
+      "DeveloperName": "SubjectType",
+      "MasterLabel": "件名種別",
+      "Label": "件名種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppSamlPlcyCnfg.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppSamlPlcyCnfg.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ExtlClntAppSamlPlcyCnfg",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

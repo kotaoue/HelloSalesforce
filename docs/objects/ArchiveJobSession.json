@@ -1,0 +1,322 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 15,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ArchiveJobSession.CreationDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ArchiveJobSession.CreationDate",
+      "QualifiedApiName": "CreationDate",
+      "EntityDefinitionId": "ArchiveJobSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreationDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ArchiveJobSession.CurrentObject"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ArchiveJobSession.CurrentObject",
+      "QualifiedApiName": "CurrentObject",
+      "EntityDefinitionId": "ArchiveJobSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "CurrentObject",
+      "MasterLabel": "現在のオブジェクト",
+      "Label": "現在のオブジェクト",
+      "DataType": "テキスト(128)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ArchiveJobSession.EndTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ArchiveJobSession.EndTime",
+      "QualifiedApiName": "EndTime",
+      "EntityDefinitionId": "ArchiveJobSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "EndTime",
+      "MasterLabel": "終了時刻",
+      "Label": "終了時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ArchiveJobSession.ExternalId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ArchiveJobSession.ExternalId",
+      "QualifiedApiName": "ExternalId",
+      "EntityDefinitionId": "ArchiveJobSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExternalId",
+      "MasterLabel": "外部 ID",
+      "Label": "外部 ID",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ArchiveJobSession.FailureLog"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ArchiveJobSession.FailureLog",
+      "QualifiedApiName": "FailureLog",
+      "EntityDefinitionId": "ArchiveJobSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "FailureLog",
+      "MasterLabel": "失敗ログ",
+      "Label": "失敗ログ",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ArchiveJobSession.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ArchiveJobSession.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ArchiveJobSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "アーカイブジョブセッション ID",
+      "Label": "アーカイブジョブセッション ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ArchiveJobSession.IsPreview"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ArchiveJobSession.IsPreview",
+      "QualifiedApiName": "IsPreview",
+      "EntityDefinitionId": "ArchiveJobSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsPreview",
+      "MasterLabel": "プレビュー",
+      "Label": "プレビュー",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ArchiveJobSession.JobSessionName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ArchiveJobSession.JobSessionName",
+      "QualifiedApiName": "JobSessionName",
+      "EntityDefinitionId": "ArchiveJobSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "JobSessionName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ArchiveJobSession.JobStartType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ArchiveJobSession.JobStartType",
+      "QualifiedApiName": "JobStartType",
+      "EntityDefinitionId": "ArchiveJobSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "JobStartType",
+      "MasterLabel": "ジョブ開始種別",
+      "Label": "ジョブ開始種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ArchiveJobSession.JobStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ArchiveJobSession.JobStatus",
+      "QualifiedApiName": "JobStatus",
+      "EntityDefinitionId": "ArchiveJobSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "JobStatus",
+      "MasterLabel": "ジョブの状況",
+      "Label": "ジョブの状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ArchiveJobSession.PolicyDescription"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ArchiveJobSession.PolicyDescription",
+      "QualifiedApiName": "PolicyDescription",
+      "EntityDefinitionId": "ArchiveJobSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "PolicyDescription",
+      "MasterLabel": "ポリシーの説明",
+      "Label": "ポリシーの説明",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ArchiveJobSession.PolicyName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ArchiveJobSession.PolicyName",
+      "QualifiedApiName": "PolicyName",
+      "EntityDefinitionId": "ArchiveJobSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "PolicyName",
+      "MasterLabel": "ポリシー名",
+      "Label": "ポリシー名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ArchiveJobSession.ScheduledTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ArchiveJobSession.ScheduledTime",
+      "QualifiedApiName": "ScheduledTime",
+      "EntityDefinitionId": "ArchiveJobSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "ScheduledTime",
+      "MasterLabel": "スケジュール済み時刻",
+      "Label": "スケジュール済み時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ArchiveJobSession.SerializedPolicy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ArchiveJobSession.SerializedPolicy",
+      "QualifiedApiName": "SerializedPolicy",
+      "EntityDefinitionId": "ArchiveJobSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "SerializedPolicy",
+      "MasterLabel": "逐次化されたポリシー",
+      "Label": "逐次化されたポリシー",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ArchiveJobSession.StartTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ArchiveJobSession.StartTime",
+      "QualifiedApiName": "StartTime",
+      "EntityDefinitionId": "ArchiveJobSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "StartTime",
+      "MasterLabel": "開始時刻",
+      "Label": "開始時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

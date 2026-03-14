@@ -1,0 +1,91 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 4,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgEmailAddressSecurity.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgEmailAddressSecurity.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "OrgEmailAddressSecurity",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "組織のメールアドレスセキュリティ ID",
+      "Label": "組織のメールアドレスセキュリティ ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgEmailAddressSecurity.OrgWideEmailAddress"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgEmailAddressSecurity.OrgWideEmailAddress",
+      "QualifiedApiName": "OrgWideEmailAddressId",
+      "EntityDefinitionId": "OrgEmailAddressSecurity",
+      "NamespacePrefix": null,
+      "DeveloperName": "OrgWideEmailAddress",
+      "MasterLabel": "組織の送信元メールアドレス",
+      "Label": "組織の送信元メールアドレス",
+      "DataType": "参照関係(組織の送信元メールアドレス)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgEmailAddressSecurity.Parent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgEmailAddressSecurity.Parent",
+      "QualifiedApiName": "ParentId",
+      "EntityDefinitionId": "OrgEmailAddressSecurity",
+      "NamespacePrefix": null,
+      "DeveloperName": "Parent",
+      "MasterLabel": "プロファイル",
+      "Label": "プロファイル",
+      "DataType": "参照関係(プロファイル)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgEmailAddressSecurity.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgEmailAddressSecurity.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "OrgEmailAddressSecurity",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

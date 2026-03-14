@@ -1,0 +1,385 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 18,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FileSearchActivity.AvgNumResults"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FileSearchActivity.AvgNumResults",
+      "QualifiedApiName": "AvgNumResults",
+      "EntityDefinitionId": "FileSearchActivity",
+      "NamespacePrefix": null,
+      "DeveloperName": "AvgNumResults",
+      "MasterLabel": "平均結果数",
+      "Label": "平均結果数",
+      "DataType": "数値(17、1)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FileSearchActivity.ClickRank"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FileSearchActivity.ClickRank",
+      "QualifiedApiName": "ClickRank",
+      "EntityDefinitionId": "FileSearchActivity",
+      "NamespacePrefix": null,
+      "DeveloperName": "ClickRank",
+      "MasterLabel": "平均クリック順位",
+      "Label": "平均クリック順位",
+      "DataType": "数値(17、1)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FileSearchActivity.CountQueries"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FileSearchActivity.CountQueries",
+      "QualifiedApiName": "CountQueries",
+      "EntityDefinitionId": "FileSearchActivity",
+      "NamespacePrefix": null,
+      "DeveloperName": "CountQueries",
+      "MasterLabel": "検索数",
+      "Label": "検索数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FileSearchActivity.CountUsers"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FileSearchActivity.CountUsers",
+      "QualifiedApiName": "CountUsers",
+      "EntityDefinitionId": "FileSearchActivity",
+      "NamespacePrefix": null,
+      "DeveloperName": "CountUsers",
+      "MasterLabel": "ユーザー数",
+      "Label": "ユーザー数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FileSearchActivity.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FileSearchActivity.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "FileSearchActivity",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FileSearchActivity.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FileSearchActivity.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "FileSearchActivity",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FileSearchActivity.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FileSearchActivity.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "FileSearchActivity",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "検索活動 ID",
+      "Label": "検索活動 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FileSearchActivity.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FileSearchActivity.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "FileSearchActivity",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FileSearchActivity.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FileSearchActivity.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "FileSearchActivity",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FileSearchActivity.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FileSearchActivity.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "FileSearchActivity",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FileSearchActivity.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FileSearchActivity.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "FileSearchActivity",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "検索活動名",
+      "Label": "検索活動名",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FileSearchActivity.Period"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FileSearchActivity.Period",
+      "QualifiedApiName": "Period",
+      "EntityDefinitionId": "FileSearchActivity",
+      "NamespacePrefix": null,
+      "DeveloperName": "Period",
+      "MasterLabel": "期間",
+      "Label": "期間",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FileSearchActivity.QueryDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FileSearchActivity.QueryDate",
+      "QualifiedApiName": "QueryDate",
+      "EntityDefinitionId": "FileSearchActivity",
+      "NamespacePrefix": null,
+      "DeveloperName": "QueryDate",
+      "MasterLabel": "検索日",
+      "Label": "検索日",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FileSearchActivity.QueryLanguage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FileSearchActivity.QueryLanguage",
+      "QualifiedApiName": "QueryLanguage",
+      "EntityDefinitionId": "FileSearchActivity",
+      "NamespacePrefix": null,
+      "DeveloperName": "QueryLanguage",
+      "MasterLabel": "言語",
+      "Label": "言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FileSearchActivity.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FileSearchActivity.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "FileSearchActivity",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FileSearchActivity.SearchTerm"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FileSearchActivity.SearchTerm",
+      "QualifiedApiName": "SearchTerm",
+      "EntityDefinitionId": "FileSearchActivity",
+      "NamespacePrefix": null,
+      "DeveloperName": "SearchTerm",
+      "MasterLabel": "検索語",
+      "Label": "検索語",
+      "DataType": "テキスト(100)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FileSearchActivity.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FileSearchActivity.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "FileSearchActivity",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FileSearchActivity.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FileSearchActivity.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "FileSearchActivity",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

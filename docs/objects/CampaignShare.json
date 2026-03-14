@@ -1,0 +1,175 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 8,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CampaignShare.Campaign"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CampaignShare.Campaign",
+      "QualifiedApiName": "CampaignId",
+      "EntityDefinitionId": "CampaignShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "Campaign",
+      "MasterLabel": "キャンペーン",
+      "Label": "キャンペーン",
+      "DataType": "参照関係(キャンペーン)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CampaignShare.CampaignAccessLevel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CampaignShare.CampaignAccessLevel",
+      "QualifiedApiName": "CampaignAccessLevel",
+      "EntityDefinitionId": "CampaignShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "CampaignAccessLevel",
+      "MasterLabel": "キャンペーンのアクセス権",
+      "Label": "キャンペーンのアクセス権",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CampaignShare.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CampaignShare.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "CampaignShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "キャンペーンの共有 ID",
+      "Label": "キャンペーンの共有 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CampaignShare.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CampaignShare.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "CampaignShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CampaignShare.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CampaignShare.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "CampaignShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CampaignShare.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CampaignShare.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "CampaignShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CampaignShare.RowCause"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CampaignShare.RowCause",
+      "QualifiedApiName": "RowCause",
+      "EntityDefinitionId": "CampaignShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "RowCause",
+      "MasterLabel": "テリトリー割り当て方法",
+      "Label": "テリトリー割り当て方法",
+      "DataType": "選択リスト(Apex 共有の理由)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CampaignShare.UserOrGroup"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CampaignShare.UserOrGroup",
+      "QualifiedApiName": "UserOrGroupId",
+      "EntityDefinitionId": "CampaignShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserOrGroup",
+      "MasterLabel": "ユーザー/グループ",
+      "Label": "ユーザー/グループ",
+      "DataType": "参照関係(ユーザー,グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

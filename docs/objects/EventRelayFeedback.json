@@ -1,0 +1,427 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 20,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventRelayFeedback.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventRelayFeedback.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "EventRelayFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventRelayFeedback.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventRelayFeedback.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "EventRelayFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventRelayFeedback.ErrorCode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventRelayFeedback.ErrorCode",
+      "QualifiedApiName": "ErrorCode",
+      "EntityDefinitionId": "EventRelayFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorCode",
+      "MasterLabel": "エラーコード",
+      "Label": "エラーコード",
+      "DataType": "テキスト(128)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventRelayFeedback.ErrorIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventRelayFeedback.ErrorIdentifier",
+      "QualifiedApiName": "ErrorIdentifier",
+      "EntityDefinitionId": "EventRelayFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorIdentifier",
+      "MasterLabel": "エラー識別子",
+      "Label": "エラー識別子",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventRelayFeedback.ErrorMessage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventRelayFeedback.ErrorMessage",
+      "QualifiedApiName": "ErrorMessage",
+      "EntityDefinitionId": "EventRelayFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorMessage",
+      "MasterLabel": "エラーメッセージ",
+      "Label": "エラーメッセージ",
+      "DataType": "ロングテキストエリア(1024)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventRelayFeedback.ErrorTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventRelayFeedback.ErrorTime",
+      "QualifiedApiName": "ErrorTime",
+      "EntityDefinitionId": "EventRelayFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorTime",
+      "MasterLabel": "エラー時刻",
+      "Label": "エラー時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventRelayFeedback.EventRelayConfig"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventRelayFeedback.EventRelayConfig",
+      "QualifiedApiName": "EventRelayConfigId",
+      "EntityDefinitionId": "EventRelayFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventRelayConfig",
+      "MasterLabel": "イベントリレー設定",
+      "Label": "イベントリレー設定",
+      "DataType": "参照関係(イベントリレー設定)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventRelayFeedback.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventRelayFeedback.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "EventRelayFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "イベントリレーフィードバック ID",
+      "Label": "イベントリレーフィードバック ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventRelayFeedback.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventRelayFeedback.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "EventRelayFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventRelayFeedback.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventRelayFeedback.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "EventRelayFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventRelayFeedback.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventRelayFeedback.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "EventRelayFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventRelayFeedback.LastRelayedEventTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventRelayFeedback.LastRelayedEventTime",
+      "QualifiedApiName": "LastRelayedEventTime",
+      "EntityDefinitionId": "EventRelayFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastRelayedEventTime",
+      "MasterLabel": "最後にリレーされたイベントのタイムスタンプ",
+      "Label": "最後にリレーされたイベントのタイムスタンプ",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventRelayFeedback.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventRelayFeedback.Name",
+      "QualifiedApiName": "EventRelayNumber",
+      "EntityDefinitionId": "EventRelayFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "イベントリレーフィードバック名",
+      "Label": "イベントリレーフィードバック名",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventRelayFeedback.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventRelayFeedback.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "EventRelayFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventRelayFeedback.RemoteResource"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventRelayFeedback.RemoteResource",
+      "QualifiedApiName": "RemoteResource",
+      "EntityDefinitionId": "EventRelayFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "RemoteResource",
+      "MasterLabel": "リモートリソース",
+      "Label": "リモートリソース",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventRelayFeedback.Replay"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventRelayFeedback.Replay",
+      "QualifiedApiName": "Replay",
+      "EntityDefinitionId": "EventRelayFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "Replay",
+      "MasterLabel": "最後の再実行",
+      "Label": "最後の再実行",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventRelayFeedback.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventRelayFeedback.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "EventRelayFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "現在の状況",
+      "Label": "現在の状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventRelayFeedback.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventRelayFeedback.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "EventRelayFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventRelayFeedback.UsageType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventRelayFeedback.UsageType",
+      "QualifiedApiName": "UsageType",
+      "EntityDefinitionId": "EventRelayFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "UsageType",
+      "MasterLabel": "イベントリレー利用状況種別",
+      "Label": "イベントリレー利用状況種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EventRelayFeedback.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EventRelayFeedback.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "EventRelayFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

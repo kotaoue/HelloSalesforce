@@ -1,0 +1,490 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 23,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSemanticSearch.AttachmentDmo"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSemanticSearch.AttachmentDmo",
+      "QualifiedApiName": "AttachmentDmo",
+      "EntityDefinitionId": "DataSemanticSearch",
+      "NamespacePrefix": null,
+      "DeveloperName": "AttachmentDmo",
+      "MasterLabel": "File Attachments Data Model Object",
+      "Label": "File Attachments Data Model Object",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSemanticSearch.ChunkDmo"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSemanticSearch.ChunkDmo",
+      "QualifiedApiName": "ChunkDmo",
+      "EntityDefinitionId": "DataSemanticSearch",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChunkDmo",
+      "MasterLabel": "Chunk Data Model Object",
+      "Label": "Chunk Data Model Object",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSemanticSearch.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSemanticSearch.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DataSemanticSearch",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSemanticSearch.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSemanticSearch.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DataSemanticSearch",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSemanticSearch.CreationType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSemanticSearch.CreationType",
+      "QualifiedApiName": "CreationType",
+      "EntityDefinitionId": "DataSemanticSearch",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreationType",
+      "MasterLabel": "作成種別",
+      "Label": "作成種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSemanticSearch.DataSemanticSearchDef"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSemanticSearch.DataSemanticSearchDef",
+      "QualifiedApiName": "DataSemanticSearchDefId",
+      "EntityDefinitionId": "DataSemanticSearch",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataSemanticSearchDef",
+      "MasterLabel": "データセマンティック検索定義",
+      "Label": "データセマンティック検索定義",
+      "DataType": "参照関係(データセマンティック検索定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSemanticSearch.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSemanticSearch.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DataSemanticSearch",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "データセマンティック検索 ID",
+      "Label": "データセマンティック検索 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSemanticSearch.IndexRefreshedOn"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSemanticSearch.IndexRefreshedOn",
+      "QualifiedApiName": "IndexRefreshedOn",
+      "EntityDefinitionId": "DataSemanticSearch",
+      "NamespacePrefix": null,
+      "DeveloperName": "IndexRefreshedOn",
+      "MasterLabel": "Search Index Refreshed On",
+      "Label": "Search Index Refreshed On",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSemanticSearch.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSemanticSearch.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DataSemanticSearch",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSemanticSearch.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSemanticSearch.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DataSemanticSearch",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSemanticSearch.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSemanticSearch.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DataSemanticSearch",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSemanticSearch.LastReferencedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSemanticSearch.LastReferencedDate",
+      "QualifiedApiName": "LastReferencedDate",
+      "EntityDefinitionId": "DataSemanticSearch",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastReferencedDate",
+      "MasterLabel": "最終参照日",
+      "Label": "最終参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSemanticSearch.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSemanticSearch.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "DataSemanticSearch",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSemanticSearch.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSemanticSearch.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "DataSemanticSearch",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "設定名",
+      "Label": "設定名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSemanticSearch.PrimaryDmo"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSemanticSearch.PrimaryDmo",
+      "QualifiedApiName": "PrimaryDmo",
+      "EntityDefinitionId": "DataSemanticSearch",
+      "NamespacePrefix": null,
+      "DeveloperName": "PrimaryDmo",
+      "MasterLabel": "Source Data Model Object",
+      "Label": "Source Data Model Object",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSemanticSearch.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSemanticSearch.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "DataSemanticSearch",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSemanticSearch.RuntimeStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSemanticSearch.RuntimeStatus",
+      "QualifiedApiName": "RuntimeStatus",
+      "EntityDefinitionId": "DataSemanticSearch",
+      "NamespacePrefix": null,
+      "DeveloperName": "RuntimeStatus",
+      "MasterLabel": "Search Index Last Run Status",
+      "Label": "Search Index Last Run Status",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSemanticSearch.SearchType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSemanticSearch.SearchType",
+      "QualifiedApiName": "SearchType",
+      "EntityDefinitionId": "DataSemanticSearch",
+      "NamespacePrefix": null,
+      "DeveloperName": "SearchType",
+      "MasterLabel": "Search Type",
+      "Label": "Search Type",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSemanticSearch.SemanticSearchApiName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSemanticSearch.SemanticSearchApiName",
+      "QualifiedApiName": "SemanticSearchApiName",
+      "EntityDefinitionId": "DataSemanticSearch",
+      "NamespacePrefix": null,
+      "DeveloperName": "SemanticSearchApiName",
+      "MasterLabel": "API 参照名",
+      "Label": "API 参照名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSemanticSearch.SharingStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSemanticSearch.SharingStatus",
+      "QualifiedApiName": "SharingStatus",
+      "EntityDefinitionId": "DataSemanticSearch",
+      "NamespacePrefix": null,
+      "DeveloperName": "SharingStatus",
+      "MasterLabel": "Sharing Status",
+      "Label": "Sharing Status",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSemanticSearch.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSemanticSearch.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DataSemanticSearch",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSemanticSearch.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSemanticSearch.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "DataSemanticSearch",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSemanticSearch.VectorDmo"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSemanticSearch.VectorDmo",
+      "QualifiedApiName": "VectorDmo",
+      "EntityDefinitionId": "DataSemanticSearch",
+      "NamespacePrefix": null,
+      "DeveloperName": "VectorDmo",
+      "MasterLabel": "Index Data Model Object",
+      "Label": "Index Data Model Object",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

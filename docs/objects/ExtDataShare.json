@@ -1,0 +1,448 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 21,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShare.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShare.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ExtDataShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShare.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShare.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ExtDataShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShare.DataShareConsentFormStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShare.DataShareConsentFormStatus",
+      "QualifiedApiName": "DataShareConsentFormStatus",
+      "EntityDefinitionId": "ExtDataShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataShareConsentFormStatus",
+      "MasterLabel": "同意",
+      "Label": "同意",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShare.DataShareDefinition"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShare.DataShareDefinition",
+      "QualifiedApiName": "DataShareDefinitionId",
+      "EntityDefinitionId": "ExtDataShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataShareDefinition",
+      "MasterLabel": "データ共有定義",
+      "Label": "データ共有定義",
+      "DataType": "参照関係(データ共有定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShare.DataShareStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShare.DataShareStatus",
+      "QualifiedApiName": "DataShareStatus",
+      "EntityDefinitionId": "ExtDataShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataShareStatus",
+      "MasterLabel": "データ共有状況",
+      "Label": "データ共有状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShare.DataShareType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShare.DataShareType",
+      "QualifiedApiName": "DataShareType",
+      "EntityDefinitionId": "ExtDataShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataShareType",
+      "MasterLabel": "データ共有種別",
+      "Label": "データ共有種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShare.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShare.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ExtDataShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "データ共有 ID",
+      "Label": "データ共有 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShare.InboundDataShareName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShare.InboundDataShareName",
+      "QualifiedApiName": "InboundDataShareName",
+      "EntityDefinitionId": "ExtDataShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "InboundDataShareName",
+      "MasterLabel": "受信データ共有名",
+      "Label": "受信データ共有名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShare.InboundDataShareOrgIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShare.InboundDataShareOrgIdentifier",
+      "QualifiedApiName": "InboundDataShareOrgIdentifier",
+      "EntityDefinitionId": "ExtDataShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "InboundDataShareOrgIdentifier",
+      "MasterLabel": "受信データ共有組織 ID",
+      "Label": "受信データ共有組織 ID",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShare.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShare.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ExtDataShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShare.LastDataChangeStatusDateTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShare.LastDataChangeStatusDateTime",
+      "QualifiedApiName": "LastDataChangeStatusDateTime",
+      "EntityDefinitionId": "ExtDataShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastDataChangeStatusDateTime",
+      "MasterLabel": "最終データ変更状況日時",
+      "Label": "最終データ変更状況日時",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShare.LastDataChangeStatusErrorCode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShare.LastDataChangeStatusErrorCode",
+      "QualifiedApiName": "LastDataChangeStatusErrorCode",
+      "EntityDefinitionId": "ExtDataShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastDataChangeStatusErrorCode",
+      "MasterLabel": "最終データ変更状況エラーコード",
+      "Label": "最終データ変更状況エラーコード",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShare.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShare.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ExtDataShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShare.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShare.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ExtDataShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShare.LastReferencedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShare.LastReferencedDate",
+      "QualifiedApiName": "LastReferencedDate",
+      "EntityDefinitionId": "ExtDataShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastReferencedDate",
+      "MasterLabel": "最終参照日",
+      "Label": "最終参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShare.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShare.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "ExtDataShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShare.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShare.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "ExtDataShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "データ共有名",
+      "Label": "データ共有名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShare.ObjectCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShare.ObjectCount",
+      "QualifiedApiName": "ObjectCount",
+      "EntityDefinitionId": "ExtDataShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "ObjectCount",
+      "MasterLabel": "オブジェクトの数",
+      "Label": "オブジェクトの数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShare.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShare.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "ExtDataShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShare.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShare.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ExtDataShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtDataShare.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtDataShare.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "ExtDataShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 9,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalServiceCompatRef.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalServiceCompatRef.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ExternalServiceCompatRef",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalServiceCompatRef.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalServiceCompatRef.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ExternalServiceCompatRef",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalServiceCompatRef.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalServiceCompatRef.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ExternalServiceCompatRef",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "外部サービス互換性参照 ID",
+      "Label": "外部サービス互換性参照 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalServiceCompatRef.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalServiceCompatRef.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ExternalServiceCompatRef",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalServiceCompatRef.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalServiceCompatRef.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ExternalServiceCompatRef",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalServiceCompatRef.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalServiceCompatRef.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ExternalServiceCompatRef",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalServiceCompatRef.Reference"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalServiceCompatRef.Reference",
+      "QualifiedApiName": "ReferenceId",
+      "EntityDefinitionId": "ExternalServiceCompatRef",
+      "NamespacePrefix": null,
+      "DeveloperName": "Reference",
+      "MasterLabel": "参照子コンポーネント",
+      "Label": "参照子コンポーネント",
+      "DataType": "参照関係(外部サービスリスト種別,外部サービス対応付け種別,外部サービスオブジェクト種別,外部サービス単純型,外部サービス操作,外部サービスパラメーター,外部サービスプロパティ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalServiceCompatRef.Service"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalServiceCompatRef.Service",
+      "QualifiedApiName": "ServiceId",
+      "EntityDefinitionId": "ExternalServiceCompatRef",
+      "NamespacePrefix": null,
+      "DeveloperName": "Service",
+      "MasterLabel": "外部サービス登録参照",
+      "Label": "外部サービス登録参照",
+      "DataType": "主従関係(外部サービス登録)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalServiceCompatRef.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalServiceCompatRef.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ExternalServiceCompatRef",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

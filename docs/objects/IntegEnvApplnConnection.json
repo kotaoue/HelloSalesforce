@@ -1,0 +1,238 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 11,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegEnvApplnConnection.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegEnvApplnConnection.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "IntegEnvApplnConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegEnvApplnConnection.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegEnvApplnConnection.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "IntegEnvApplnConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegEnvApplnConnection.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegEnvApplnConnection.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "IntegEnvApplnConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "インテグレーション環境アプリケーション接続 ID",
+      "Label": "インテグレーション環境アプリケーション接続 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegEnvApplnConnection.IntegrationEnvApplication"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegEnvApplnConnection.IntegrationEnvApplication",
+      "QualifiedApiName": "IntegrationEnvApplicationId",
+      "EntityDefinitionId": "IntegEnvApplnConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "IntegrationEnvApplication",
+      "MasterLabel": "インテグレーション環境アプリケーション",
+      "Label": "インテグレーション環境アプリケーション",
+      "DataType": "主従関係(インテグレーション環境アプリケーション)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegEnvApplnConnection.IntegrationEnvConnection"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegEnvApplnConnection.IntegrationEnvConnection",
+      "QualifiedApiName": "IntegrationEnvConnectionId",
+      "EntityDefinitionId": "IntegEnvApplnConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "IntegrationEnvConnection",
+      "MasterLabel": "インテグレーション環境接続",
+      "Label": "インテグレーション環境接続",
+      "DataType": "主従関係(インテグレーション環境接続)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegEnvApplnConnection.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegEnvApplnConnection.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "IntegEnvApplnConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegEnvApplnConnection.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegEnvApplnConnection.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "IntegEnvApplnConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegEnvApplnConnection.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegEnvApplnConnection.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "IntegEnvApplnConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegEnvApplnConnection.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegEnvApplnConnection.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "IntegEnvApplnConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegEnvApplnConnection.StatusReason"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegEnvApplnConnection.StatusReason",
+      "QualifiedApiName": "StatusReason",
+      "EntityDefinitionId": "IntegEnvApplnConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "StatusReason",
+      "MasterLabel": "状況の理由",
+      "Label": "状況の理由",
+      "DataType": "テキストエリア(1333)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegEnvApplnConnection.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegEnvApplnConnection.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "IntegEnvApplnConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

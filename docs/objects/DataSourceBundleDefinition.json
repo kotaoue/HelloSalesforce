@@ -1,0 +1,406 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 19,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSourceBundleDefinition.BundleVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSourceBundleDefinition.BundleVersion",
+      "QualifiedApiName": "BundleVersion",
+      "EntityDefinitionId": "DataSourceBundleDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "BundleVersion",
+      "MasterLabel": "バンドルバージョン",
+      "Label": "バンドルバージョン",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSourceBundleDefinition.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSourceBundleDefinition.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DataSourceBundleDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSourceBundleDefinition.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSourceBundleDefinition.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DataSourceBundleDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSourceBundleDefinition.DataPlatform"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSourceBundleDefinition.DataPlatform",
+      "QualifiedApiName": "DataPlatformId",
+      "EntityDefinitionId": "DataSourceBundleDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataPlatform",
+      "MasterLabel": "データプラットフォーム",
+      "Label": "データプラットフォーム",
+      "DataType": "参照関係(データプラットフォーム)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSourceBundleDefinition.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSourceBundleDefinition.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "DataSourceBundleDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSourceBundleDefinition.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSourceBundleDefinition.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "DataSourceBundleDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSourceBundleDefinition.FullName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSourceBundleDefinition.FullName",
+      "QualifiedApiName": "FullName",
+      "EntityDefinitionId": "DataSourceBundleDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "FullName",
+      "MasterLabel": "データソースバンドルの完全名",
+      "Label": "データソースバンドルの完全名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSourceBundleDefinition.Icon"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSourceBundleDefinition.Icon",
+      "QualifiedApiName": "Icon",
+      "EntityDefinitionId": "DataSourceBundleDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Icon",
+      "MasterLabel": "アイコン",
+      "Label": "アイコン",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSourceBundleDefinition.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSourceBundleDefinition.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DataSourceBundleDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "データソースバンドル定義 ID",
+      "Label": "データソースバンドル定義 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSourceBundleDefinition.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSourceBundleDefinition.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DataSourceBundleDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSourceBundleDefinition.IsMultiDeploymentSupported"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSourceBundleDefinition.IsMultiDeploymentSupported",
+      "QualifiedApiName": "IsMultiDeploymentSupported",
+      "EntityDefinitionId": "DataSourceBundleDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsMultiDeploymentSupported",
+      "MasterLabel": "複数リリースをサポート",
+      "Label": "複数リリースをサポート",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSourceBundleDefinition.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSourceBundleDefinition.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "DataSourceBundleDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSourceBundleDefinition.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSourceBundleDefinition.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DataSourceBundleDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSourceBundleDefinition.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSourceBundleDefinition.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DataSourceBundleDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSourceBundleDefinition.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSourceBundleDefinition.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "DataSourceBundleDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSourceBundleDefinition.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSourceBundleDefinition.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "DataSourceBundleDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSourceBundleDefinition.Metadata"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSourceBundleDefinition.Metadata",
+      "QualifiedApiName": "Metadata",
+      "EntityDefinitionId": "DataSourceBundleDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Metadata",
+      "MasterLabel": "メタデータ",
+      "Label": "メタデータ",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSourceBundleDefinition.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSourceBundleDefinition.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "DataSourceBundleDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataSourceBundleDefinition.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataSourceBundleDefinition.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DataSourceBundleDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

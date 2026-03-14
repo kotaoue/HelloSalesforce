@@ -1,0 +1,427 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 20,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResultLimits.ApexTestResult"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResultLimits.ApexTestResult",
+      "QualifiedApiName": "ApexTestResultId",
+      "EntityDefinitionId": "ApexTestResultLimits",
+      "NamespacePrefix": null,
+      "DeveloperName": "ApexTestResult",
+      "MasterLabel": "アプリケーションテスト結果",
+      "Label": "アプリケーションテスト結果",
+      "DataType": "主従関係(アプリケーションテスト結果)  (ユニーク)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResultLimits.AsyncCalls"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResultLimits.AsyncCalls",
+      "QualifiedApiName": "AsyncCalls",
+      "EntityDefinitionId": "ApexTestResultLimits",
+      "NamespacePrefix": null,
+      "DeveloperName": "AsyncCalls",
+      "MasterLabel": "非同期コールの総数",
+      "Label": "非同期コールの総数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResultLimits.Callouts"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResultLimits.Callouts",
+      "QualifiedApiName": "Callouts",
+      "EntityDefinitionId": "ApexTestResultLimits",
+      "NamespacePrefix": null,
+      "DeveloperName": "Callouts",
+      "MasterLabel": "コールアウトの総数",
+      "Label": "コールアウトの総数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResultLimits.Cpu"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResultLimits.Cpu",
+      "QualifiedApiName": "Cpu",
+      "EntityDefinitionId": "ApexTestResultLimits",
+      "NamespacePrefix": null,
+      "DeveloperName": "Cpu",
+      "MasterLabel": "Salesforce サーバーの最大 CPU 時間",
+      "Label": "Salesforce サーバーの最大 CPU 時間",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResultLimits.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResultLimits.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ApexTestResultLimits",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResultLimits.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResultLimits.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ApexTestResultLimits",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResultLimits.Dml"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResultLimits.Dml",
+      "QualifiedApiName": "Dml",
+      "EntityDefinitionId": "ApexTestResultLimits",
+      "NamespacePrefix": null,
+      "DeveloperName": "Dml",
+      "MasterLabel": "発行された DML ステートメントの総数",
+      "Label": "発行された DML ステートメントの総数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResultLimits.DmlRows"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResultLimits.DmlRows",
+      "QualifiedApiName": "DmlRows",
+      "EntityDefinitionId": "ApexTestResultLimits",
+      "NamespacePrefix": null,
+      "DeveloperName": "DmlRows",
+      "MasterLabel": "DML ステートメントの結果として処理されたレコードの総数",
+      "Label": "DML ステートメントの結果として処理されたレコードの総数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResultLimits.Email"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResultLimits.Email",
+      "QualifiedApiName": "Email",
+      "EntityDefinitionId": "ApexTestResultLimits",
+      "NamespacePrefix": null,
+      "DeveloperName": "Email",
+      "MasterLabel": "許可されている sendEmail メソッドの総数",
+      "Label": "許可されている sendEmail メソッドの総数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResultLimits.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResultLimits.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ApexTestResultLimits",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Apex テスト結果制限 ID",
+      "Label": "Apex テスト結果制限 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResultLimits.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResultLimits.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ApexTestResultLimits",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResultLimits.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResultLimits.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ApexTestResultLimits",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResultLimits.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResultLimits.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ApexTestResultLimits",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResultLimits.LimitContext"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResultLimits.LimitContext",
+      "QualifiedApiName": "LimitContext",
+      "EntityDefinitionId": "ApexTestResultLimits",
+      "NamespacePrefix": null,
+      "DeveloperName": "LimitContext",
+      "MasterLabel": "コンテキストを制限",
+      "Label": "コンテキストを制限",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResultLimits.LimitExceptions"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResultLimits.LimitExceptions",
+      "QualifiedApiName": "LimitExceptions",
+      "EntityDefinitionId": "ApexTestResultLimits",
+      "NamespacePrefix": null,
+      "DeveloperName": "LimitExceptions",
+      "MasterLabel": "例外を制限",
+      "Label": "例外を制限",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResultLimits.MobilePush"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResultLimits.MobilePush",
+      "QualifiedApiName": "MobilePush",
+      "EntityDefinitionId": "ApexTestResultLimits",
+      "NamespacePrefix": null,
+      "DeveloperName": "MobilePush",
+      "MasterLabel": "Apex トランザクションごとに許可されているプッシュ通知メソッドコールの最大数",
+      "Label": "Apex トランザクションごとに許可されているプッシュ通知メソッドコールの最大数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResultLimits.QueryRows"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResultLimits.QueryRows",
+      "QualifiedApiName": "QueryRows",
+      "EntityDefinitionId": "ApexTestResultLimits",
+      "NamespacePrefix": null,
+      "DeveloperName": "QueryRows",
+      "MasterLabel": "SOQL クエリで取得されたレコードの総数",
+      "Label": "SOQL クエリで取得されたレコードの総数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResultLimits.Soql"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResultLimits.Soql",
+      "QualifiedApiName": "Soql",
+      "EntityDefinitionId": "ApexTestResultLimits",
+      "NamespacePrefix": null,
+      "DeveloperName": "Soql",
+      "MasterLabel": "発行された SOQL クエリの総数",
+      "Label": "発行された SOQL クエリの総数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResultLimits.Sosl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResultLimits.Sosl",
+      "QualifiedApiName": "Sosl",
+      "EntityDefinitionId": "ApexTestResultLimits",
+      "NamespacePrefix": null,
+      "DeveloperName": "Sosl",
+      "MasterLabel": "発行された SOSL クエリの総数",
+      "Label": "発行された SOSL クエリの総数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResultLimits.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResultLimits.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ApexTestResultLimits",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

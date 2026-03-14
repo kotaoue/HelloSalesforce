@@ -1,0 +1,196 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 9,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDistributionView.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDistributionView.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ContentDistributionView",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDistributionView.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDistributionView.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ContentDistributionView",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "参照日付",
+      "Label": "参照日付",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDistributionView.Distribution"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDistributionView.Distribution",
+      "QualifiedApiName": "DistributionId",
+      "EntityDefinitionId": "ContentDistributionView",
+      "NamespacePrefix": null,
+      "DeveloperName": "Distribution",
+      "MasterLabel": "コンテンツ配信",
+      "Label": "コンテンツ配信",
+      "DataType": "参照関係(コンテンツ配信)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDistributionView.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDistributionView.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ContentDistributionView",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "コンテンツ配信ビュー ID",
+      "Label": "コンテンツ配信ビュー ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDistributionView.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDistributionView.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ContentDistributionView",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDistributionView.IsDownload"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDistributionView.IsDownload",
+      "QualifiedApiName": "IsDownload",
+      "EntityDefinitionId": "ContentDistributionView",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDownload",
+      "MasterLabel": "ダウンロードされたファイル",
+      "Label": "ダウンロードされたファイル",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDistributionView.IsInternal"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDistributionView.IsInternal",
+      "QualifiedApiName": "IsInternal",
+      "EntityDefinitionId": "ContentDistributionView",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsInternal",
+      "MasterLabel": "社内参照",
+      "Label": "社内参照",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDistributionView.ParentView"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDistributionView.ParentView",
+      "QualifiedApiName": "ParentViewId",
+      "EntityDefinitionId": "ContentDistributionView",
+      "NamespacePrefix": null,
+      "DeveloperName": "ParentView",
+      "MasterLabel": "コンテンツ配信参照",
+      "Label": "コンテンツ配信参照",
+      "DataType": "参照関係(コンテンツ配信ビュー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDistributionView.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDistributionView.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ContentDistributionView",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,448 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 21,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Coupon.CouponCode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Coupon.CouponCode",
+      "QualifiedApiName": "CouponCode",
+      "EntityDefinitionId": "Coupon",
+      "NamespacePrefix": null,
+      "DeveloperName": "CouponCode",
+      "MasterLabel": "クーポンコード",
+      "Label": "クーポンコード",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Coupon.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Coupon.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "Coupon",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Coupon.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Coupon.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "Coupon",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Coupon.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Coupon.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "Coupon",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "テキストエリア(1000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Coupon.EndDateTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Coupon.EndDateTime",
+      "QualifiedApiName": "EndDateTime",
+      "EntityDefinitionId": "Coupon",
+      "NamespacePrefix": null,
+      "DeveloperName": "EndDateTime",
+      "MasterLabel": "終了日時",
+      "Label": "終了日時",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Coupon.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Coupon.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "Coupon",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "クーポン ID",
+      "Label": "クーポン ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Coupon.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Coupon.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "Coupon",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Coupon.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Coupon.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "Coupon",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Coupon.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Coupon.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "Coupon",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Coupon.LastReferencedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Coupon.LastReferencedDate",
+      "QualifiedApiName": "LastReferencedDate",
+      "EntityDefinitionId": "Coupon",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastReferencedDate",
+      "MasterLabel": "最終参照日",
+      "Label": "最終参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Coupon.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Coupon.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "Coupon",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Coupon.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Coupon.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "Coupon",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "クーポン番号",
+      "Label": "クーポン番号",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Coupon.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Coupon.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "Coupon",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者 氏名",
+      "Label": "所有者 氏名",
+      "DataType": "参照関係(ユーザー,グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Coupon.Promotion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Coupon.Promotion",
+      "QualifiedApiName": "PromotionId",
+      "EntityDefinitionId": "Coupon",
+      "NamespacePrefix": null,
+      "DeveloperName": "Promotion",
+      "MasterLabel": "プロモーション",
+      "Label": "プロモーション",
+      "DataType": "参照関係(プロモーション)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Coupon.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Coupon.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "Coupon",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Coupon.RedemptionLimitAllBuyers"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Coupon.RedemptionLimitAllBuyers",
+      "QualifiedApiName": "RedemptionLimitAllBuyers",
+      "EntityDefinitionId": "Coupon",
+      "NamespacePrefix": null,
+      "DeveloperName": "RedemptionLimitAllBuyers",
+      "MasterLabel": "受け取り制限 (すべてのバイヤー)",
+      "Label": "受け取り制限 (すべてのバイヤー)",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Coupon.RedemptionLimitPerBuyer"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Coupon.RedemptionLimitPerBuyer",
+      "QualifiedApiName": "RedemptionLimitPerBuyer",
+      "EntityDefinitionId": "Coupon",
+      "NamespacePrefix": null,
+      "DeveloperName": "RedemptionLimitPerBuyer",
+      "MasterLabel": "受け取り制限 (バイヤーごと)",
+      "Label": "受け取り制限 (バイヤーごと)",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Coupon.StartDateTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Coupon.StartDateTime",
+      "QualifiedApiName": "StartDateTime",
+      "EntityDefinitionId": "Coupon",
+      "NamespacePrefix": null,
+      "DeveloperName": "StartDateTime",
+      "MasterLabel": "開始日時",
+      "Label": "開始日時",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Coupon.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Coupon.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "Coupon",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Coupon.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Coupon.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "Coupon",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Coupon.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Coupon.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "Coupon",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

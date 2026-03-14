@@ -1,0 +1,217 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 10,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestQueueItem.ApexClass"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestQueueItem.ApexClass",
+      "QualifiedApiName": "ApexClassId",
+      "EntityDefinitionId": "ApexTestQueueItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "ApexClass",
+      "MasterLabel": "Apex クラス",
+      "Label": "Apex クラス",
+      "DataType": "参照関係(Apex クラス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestQueueItem.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestQueueItem.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ApexTestQueueItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestQueueItem.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestQueueItem.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ApexTestQueueItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestQueueItem.ExtendedStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestQueueItem.ExtendedStatus",
+      "QualifiedApiName": "ExtendedStatus",
+      "EntityDefinitionId": "ApexTestQueueItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExtendedStatus",
+      "MasterLabel": "状況の詳細",
+      "Label": "状況の詳細",
+      "DataType": "テキスト(1000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestQueueItem.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestQueueItem.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ApexTestQueueItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Apex テストキュー項目 ID",
+      "Label": "Apex テストキュー項目 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestQueueItem.ParentJob"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestQueueItem.ParentJob",
+      "QualifiedApiName": "ParentJobId",
+      "EntityDefinitionId": "ApexTestQueueItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "ParentJob",
+      "MasterLabel": "親ジョブ",
+      "Label": "親ジョブ",
+      "DataType": "参照関係(Apex ジョブ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestQueueItem.ShouldSkipCodeCoverage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestQueueItem.ShouldSkipCodeCoverage",
+      "QualifiedApiName": "ShouldSkipCodeCoverage",
+      "EntityDefinitionId": "ApexTestQueueItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShouldSkipCodeCoverage",
+      "MasterLabel": "コードカバー率をスキップ",
+      "Label": "コードカバー率をスキップ",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestQueueItem.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestQueueItem.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "ApexTestQueueItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestQueueItem.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestQueueItem.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ApexTestQueueItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestQueueItem.TestRunResult"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestQueueItem.TestRunResult",
+      "QualifiedApiName": "TestRunResultId",
+      "EntityDefinitionId": "ApexTestQueueItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "TestRunResult",
+      "MasterLabel": "Apex テスト実行結果",
+      "Label": "Apex テスト実行結果",
+      "DataType": "参照関係(Apex テスト実行結果)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

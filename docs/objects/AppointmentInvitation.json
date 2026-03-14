@@ -1,0 +1,511 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 24,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentInvitation.AppointmentTopic"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentInvitation.AppointmentTopic",
+      "QualifiedApiName": "AppointmentTopicId",
+      "EntityDefinitionId": "AppointmentInvitation",
+      "NamespacePrefix": null,
+      "DeveloperName": "AppointmentTopic",
+      "MasterLabel": "予定トピック",
+      "Label": "予定トピック",
+      "DataType": "参照関係(作業種別,作業種別グループ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentInvitation.AppointmentTopicType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentInvitation.AppointmentTopicType",
+      "QualifiedApiName": "AppointmentTopicType",
+      "EntityDefinitionId": "AppointmentInvitation",
+      "NamespacePrefix": null,
+      "DeveloperName": "AppointmentTopicType",
+      "MasterLabel": "予定トピック種別",
+      "Label": "予定トピック種別",
+      "DataType": "テキスト(50)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentInvitation.AppointmentType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentInvitation.AppointmentType",
+      "QualifiedApiName": "AppointmentType",
+      "EntityDefinitionId": "AppointmentInvitation",
+      "NamespacePrefix": null,
+      "DeveloperName": "AppointmentType",
+      "MasterLabel": "予定種別",
+      "Label": "予定種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentInvitation.BookingEndDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentInvitation.BookingEndDate",
+      "QualifiedApiName": "BookingEndDate",
+      "EntityDefinitionId": "AppointmentInvitation",
+      "NamespacePrefix": null,
+      "DeveloperName": "BookingEndDate",
+      "MasterLabel": "予約終了日",
+      "Label": "予約終了日",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentInvitation.BookingStartDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentInvitation.BookingStartDate",
+      "QualifiedApiName": "BookingStartDate",
+      "EntityDefinitionId": "AppointmentInvitation",
+      "NamespacePrefix": null,
+      "DeveloperName": "BookingStartDate",
+      "MasterLabel": "予約開始日",
+      "Label": "予約開始日",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentInvitation.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentInvitation.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AppointmentInvitation",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentInvitation.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentInvitation.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AppointmentInvitation",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentInvitation.EngagementChannelType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentInvitation.EngagementChannelType",
+      "QualifiedApiName": "EngagementChannelTypeId",
+      "EntityDefinitionId": "AppointmentInvitation",
+      "NamespacePrefix": null,
+      "DeveloperName": "EngagementChannelType",
+      "MasterLabel": "エンゲージメントチャネル種別",
+      "Label": "エンゲージメントチャネル種別",
+      "DataType": "参照関係(エンゲージメントチャネル種別)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentInvitation.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentInvitation.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AppointmentInvitation",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "予定招待 ID",
+      "Label": "予定招待 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentInvitation.InvitationIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentInvitation.InvitationIdentifier",
+      "QualifiedApiName": "InvitationIdentifier",
+      "EntityDefinitionId": "AppointmentInvitation",
+      "NamespacePrefix": null,
+      "DeveloperName": "InvitationIdentifier",
+      "MasterLabel": "招待識別子",
+      "Label": "招待識別子",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentInvitation.InvitationUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentInvitation.InvitationUrl",
+      "QualifiedApiName": "InvitationUrl",
+      "EntityDefinitionId": "AppointmentInvitation",
+      "NamespacePrefix": null,
+      "DeveloperName": "InvitationUrl",
+      "MasterLabel": "招待 URL",
+      "Label": "招待 URL",
+      "DataType": "URL(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentInvitation.IsActive"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentInvitation.IsActive",
+      "QualifiedApiName": "IsActive",
+      "EntityDefinitionId": "AppointmentInvitation",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsActive",
+      "MasterLabel": "有効",
+      "Label": "有効",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentInvitation.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentInvitation.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AppointmentInvitation",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentInvitation.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentInvitation.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AppointmentInvitation",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentInvitation.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentInvitation.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AppointmentInvitation",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentInvitation.LastReferencedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentInvitation.LastReferencedDate",
+      "QualifiedApiName": "LastReferencedDate",
+      "EntityDefinitionId": "AppointmentInvitation",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastReferencedDate",
+      "MasterLabel": "最終参照日",
+      "Label": "最終参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentInvitation.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentInvitation.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "AppointmentInvitation",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentInvitation.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentInvitation.Name",
+      "QualifiedApiName": "InvitationNumber",
+      "EntityDefinitionId": "AppointmentInvitation",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "招待番号",
+      "Label": "招待番号",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentInvitation.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentInvitation.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "AppointmentInvitation",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者",
+      "Label": "所有者",
+      "DataType": "参照関係(ユーザー,グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentInvitation.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentInvitation.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "AppointmentInvitation",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentInvitation.ServiceTerritory"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentInvitation.ServiceTerritory",
+      "QualifiedApiName": "ServiceTerritoryId",
+      "EntityDefinitionId": "AppointmentInvitation",
+      "NamespacePrefix": null,
+      "DeveloperName": "ServiceTerritory",
+      "MasterLabel": "サービステリトリー",
+      "Label": "サービステリトリー",
+      "DataType": "参照関係(サービステリトリー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentInvitation.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentInvitation.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AppointmentInvitation",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentInvitation.UrlExpiryDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentInvitation.UrlExpiryDate",
+      "QualifiedApiName": "UrlExpiryDate",
+      "EntityDefinitionId": "AppointmentInvitation",
+      "NamespacePrefix": null,
+      "DeveloperName": "UrlExpiryDate",
+      "MasterLabel": "URL の有効期限",
+      "Label": "URL の有効期限",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentInvitation.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentInvitation.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "AppointmentInvitation",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

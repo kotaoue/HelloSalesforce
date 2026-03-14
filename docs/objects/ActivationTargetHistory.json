@@ -1,0 +1,322 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 15,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetHistory.ActivationTarget"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetHistory.ActivationTarget",
+      "QualifiedApiName": "ActivationTargetId",
+      "EntityDefinitionId": "ActivationTargetHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActivationTarget",
+      "MasterLabel": "有効化対象",
+      "Label": "有効化対象",
+      "DataType": "参照関係(有効化対象)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetHistory.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetHistory.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ActivationTargetHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetHistory.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetHistory.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ActivationTargetHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetHistory.DataType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetHistory.DataType",
+      "QualifiedApiName": "DataType",
+      "EntityDefinitionId": "ActivationTargetHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataType",
+      "MasterLabel": "データ型",
+      "Label": "データ型",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetHistory.Field"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetHistory.Field",
+      "QualifiedApiName": "Field",
+      "EntityDefinitionId": "ActivationTargetHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Field",
+      "MasterLabel": "変更された項目",
+      "Label": "変更された項目",
+      "DataType": "選択リスト(カスタム項目の定義,カスタム項目データ列)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetHistory.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetHistory.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ActivationTargetHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "有効化対象履歴 ID",
+      "Label": "有効化対象履歴 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetHistory.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetHistory.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ActivationTargetHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetHistory.NewvalDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetHistory.NewvalDate",
+      "QualifiedApiName": "NewvalDate",
+      "EntityDefinitionId": "ActivationTargetHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewvalDate",
+      "MasterLabel": "新規の日付",
+      "Label": "新規の日付",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetHistory.NewvalFirstName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetHistory.NewvalFirstName",
+      "QualifiedApiName": "NewvalFirstName",
+      "EntityDefinitionId": "ActivationTargetHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewvalFirstName",
+      "MasterLabel": "新規の名",
+      "Label": "新規の名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetHistory.NewvalLastName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetHistory.NewvalLastName",
+      "QualifiedApiName": "NewvalLastName",
+      "EntityDefinitionId": "ActivationTargetHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewvalLastName",
+      "MasterLabel": "新規の姓",
+      "Label": "新規の姓",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetHistory.NewValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetHistory.NewValue",
+      "QualifiedApiName": "NewValue",
+      "EntityDefinitionId": "ActivationTargetHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewValue",
+      "MasterLabel": "新しい値",
+      "Label": "新しい値",
+      "DataType": "参照関係",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetHistory.OldvalDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetHistory.OldvalDate",
+      "QualifiedApiName": "OldvalDate",
+      "EntityDefinitionId": "ActivationTargetHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldvalDate",
+      "MasterLabel": "元の日付",
+      "Label": "元の日付",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetHistory.OldvalFirstName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetHistory.OldvalFirstName",
+      "QualifiedApiName": "OldvalFirstName",
+      "EntityDefinitionId": "ActivationTargetHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldvalFirstName",
+      "MasterLabel": "元の名",
+      "Label": "元の名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetHistory.OldvalLastName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetHistory.OldvalLastName",
+      "QualifiedApiName": "OldvalLastName",
+      "EntityDefinitionId": "ActivationTargetHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldvalLastName",
+      "MasterLabel": "元の姓",
+      "Label": "元の姓",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetHistory.OldValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetHistory.OldValue",
+      "QualifiedApiName": "OldValue",
+      "EntityDefinitionId": "ActivationTargetHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldValue",
+      "MasterLabel": "元の値",
+      "Label": "元の値",
+      "DataType": "参照関係",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

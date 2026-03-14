@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalAIModel.ApplicationType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalAIModel.ApplicationType",
+      "QualifiedApiName": "ApplicationType",
+      "EntityDefinitionId": "ExternalAIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "ApplicationType",
+      "MasterLabel": "アプリケーション種別",
+      "Label": "アプリケーション種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalAIModel.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalAIModel.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ExternalAIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalAIModel.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalAIModel.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ExternalAIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalAIModel.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalAIModel.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "ExternalAIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalAIModel.ExternalModelKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalAIModel.ExternalModelKey",
+      "QualifiedApiName": "ExternalModelKey",
+      "EntityDefinitionId": "ExternalAIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExternalModelKey",
+      "MasterLabel": "外部モデルキー",
+      "Label": "外部モデルキー",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalAIModel.Fullname"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalAIModel.Fullname",
+      "QualifiedApiName": "Fullname",
+      "EntityDefinitionId": "ExternalAIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "Fullname",
+      "MasterLabel": "氏名",
+      "Label": "氏名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalAIModel.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalAIModel.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ExternalAIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "外部 AI モデル ID",
+      "Label": "外部 AI モデル ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalAIModel.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalAIModel.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ExternalAIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalAIModel.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalAIModel.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "ExternalAIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalAIModel.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalAIModel.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ExternalAIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalAIModel.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalAIModel.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ExternalAIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalAIModel.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalAIModel.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "ExternalAIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalAIModel.Metadata"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalAIModel.Metadata",
+      "QualifiedApiName": "Metadata",
+      "EntityDefinitionId": "ExternalAIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "Metadata",
+      "MasterLabel": "メタデータ",
+      "Label": "メタデータ",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalAIModel.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalAIModel.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "ExternalAIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalAIModel.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalAIModel.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ExternalAIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalAIModel.Threshold"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalAIModel.Threshold",
+      "QualifiedApiName": "Threshold",
+      "EntityDefinitionId": "ExternalAIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "Threshold",
+      "MasterLabel": "しきい値",
+      "Label": "しきい値",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalAIModel.TrainingJobName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalAIModel.TrainingJobName",
+      "QualifiedApiName": "TrainingJobName",
+      "EntityDefinitionId": "ExternalAIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "TrainingJobName",
+      "MasterLabel": "トレーニングジョブ名",
+      "Label": "トレーニングジョブ名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

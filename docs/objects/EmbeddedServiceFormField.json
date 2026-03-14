@@ -1,0 +1,322 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 15,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceFormField.ChoiceControllingField"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceFormField.ChoiceControllingField",
+      "QualifiedApiName": "ChoiceControllingFieldId",
+      "EntityDefinitionId": "EmbeddedServiceFormField",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChoiceControllingField",
+      "MasterLabel": "選択制御項目",
+      "Label": "選択制御項目",
+      "DataType": "参照関係(組み込みサービスフォーム項目)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceFormField.ChoiceList"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceFormField.ChoiceList",
+      "QualifiedApiName": "ChoiceListId",
+      "EntityDefinitionId": "EmbeddedServiceFormField",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChoiceList",
+      "MasterLabel": "選択肢リスト",
+      "Label": "選択肢リスト",
+      "DataType": "参照関係(選択肢リスト)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceFormField.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceFormField.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "EmbeddedServiceFormField",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceFormField.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceFormField.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "EmbeddedServiceFormField",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceFormField.DisplayOrder"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceFormField.DisplayOrder",
+      "QualifiedApiName": "DisplayOrder",
+      "EntityDefinitionId": "EmbeddedServiceFormField",
+      "NamespacePrefix": null,
+      "DeveloperName": "DisplayOrder",
+      "MasterLabel": "表示順序",
+      "Label": "表示順序",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceFormField.EmbeddedServiceForm"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceFormField.EmbeddedServiceForm",
+      "QualifiedApiName": "EmbeddedServiceFormId",
+      "EntityDefinitionId": "EmbeddedServiceFormField",
+      "NamespacePrefix": null,
+      "DeveloperName": "EmbeddedServiceForm",
+      "MasterLabel": "組み込みサービスフォーム",
+      "Label": "組み込みサービスフォーム",
+      "DataType": "主従関係(組み込みサービスフォーム)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceFormField.FormField"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceFormField.FormField",
+      "QualifiedApiName": "FormField",
+      "EntityDefinitionId": "EmbeddedServiceFormField",
+      "NamespacePrefix": null,
+      "DeveloperName": "FormField",
+      "MasterLabel": "フォーム項目",
+      "Label": "フォーム項目",
+      "DataType": "選択リスト(メッセージングチャネルパラメーター)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceFormField.FormFieldType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceFormField.FormFieldType",
+      "QualifiedApiName": "FormFieldType",
+      "EntityDefinitionId": "EmbeddedServiceFormField",
+      "NamespacePrefix": null,
+      "DeveloperName": "FormFieldType",
+      "MasterLabel": "フォーム項目の種類",
+      "Label": "フォーム項目の種類",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceFormField.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceFormField.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "EmbeddedServiceFormField",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "組み込みサービスフォーム項目 ID",
+      "Label": "組み込みサービスフォーム項目 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceFormField.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceFormField.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "EmbeddedServiceFormField",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceFormField.IsHidden"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceFormField.IsHidden",
+      "QualifiedApiName": "IsHidden",
+      "EntityDefinitionId": "EmbeddedServiceFormField",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsHidden",
+      "MasterLabel": "非表示",
+      "Label": "非表示",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceFormField.IsRequired"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceFormField.IsRequired",
+      "QualifiedApiName": "IsRequired",
+      "EntityDefinitionId": "EmbeddedServiceFormField",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsRequired",
+      "MasterLabel": "必須",
+      "Label": "必須",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceFormField.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceFormField.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "EmbeddedServiceFormField",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceFormField.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceFormField.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "EmbeddedServiceFormField",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceFormField.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceFormField.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "EmbeddedServiceFormField",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

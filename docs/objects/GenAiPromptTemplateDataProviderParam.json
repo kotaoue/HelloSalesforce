@@ -1,0 +1,259 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 12,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPromptTemplateDataProviderParam.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPromptTemplateDataProviderParam.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "GenAiPromptTemplateDataProviderParam",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPromptTemplateDataProviderParam.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPromptTemplateDataProviderParam.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "GenAiPromptTemplateDataProviderParam",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPromptTemplateDataProviderParam.DataProvider"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPromptTemplateDataProviderParam.DataProvider",
+      "QualifiedApiName": "DataProviderId",
+      "EntityDefinitionId": "GenAiPromptTemplateDataProviderParam",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataProvider",
+      "MasterLabel": "Prompt Template Data Provider",
+      "Label": "Prompt Template Data Provider",
+      "DataType": "主従関係(Generative AI Prompt Template Data Providers)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPromptTemplateDataProviderParam.Definition"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPromptTemplateDataProviderParam.Definition",
+      "QualifiedApiName": "Definition",
+      "EntityDefinitionId": "GenAiPromptTemplateDataProviderParam",
+      "NamespacePrefix": null,
+      "DeveloperName": "Definition",
+      "MasterLabel": "Definition",
+      "Label": "Definition",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPromptTemplateDataProviderParam.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPromptTemplateDataProviderParam.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "GenAiPromptTemplateDataProviderParam",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Generative AI Prompt Template Data Provider Parameters ID",
+      "Label": "Generative AI Prompt Template Data Provider Parameters ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPromptTemplateDataProviderParam.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPromptTemplateDataProviderParam.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "GenAiPromptTemplateDataProviderParam",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPromptTemplateDataProviderParam.IsRequired"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPromptTemplateDataProviderParam.IsRequired",
+      "QualifiedApiName": "IsRequired",
+      "EntityDefinitionId": "GenAiPromptTemplateDataProviderParam",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsRequired",
+      "MasterLabel": "Is Required",
+      "Label": "Is Required",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPromptTemplateDataProviderParam.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPromptTemplateDataProviderParam.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "GenAiPromptTemplateDataProviderParam",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPromptTemplateDataProviderParam.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPromptTemplateDataProviderParam.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "GenAiPromptTemplateDataProviderParam",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPromptTemplateDataProviderParam.ParameterName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPromptTemplateDataProviderParam.ParameterName",
+      "QualifiedApiName": "ParameterName",
+      "EntityDefinitionId": "GenAiPromptTemplateDataProviderParam",
+      "NamespacePrefix": null,
+      "DeveloperName": "ParameterName",
+      "MasterLabel": "Parameter Name",
+      "Label": "Parameter Name",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPromptTemplateDataProviderParam.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPromptTemplateDataProviderParam.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "GenAiPromptTemplateDataProviderParam",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPromptTemplateDataProviderParam.ValueExpression"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPromptTemplateDataProviderParam.ValueExpression",
+      "QualifiedApiName": "ValueExpression",
+      "EntityDefinitionId": "GenAiPromptTemplateDataProviderParam",
+      "NamespacePrefix": null,
+      "DeveloperName": "ValueExpression",
+      "MasterLabel": "Value Or Expression",
+      "Label": "Value Or Expression",
+      "DataType": "ロングテキストエリア(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

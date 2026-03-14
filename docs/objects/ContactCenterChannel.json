@@ -1,0 +1,238 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 11,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCenterChannel.Channel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCenterChannel.Channel",
+      "QualifiedApiName": "ChannelId",
+      "EntityDefinitionId": "ContactCenterChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "Channel",
+      "MasterLabel": "チャネル",
+      "Label": "チャネル",
+      "DataType": "参照関係(メッセージングチャネル)  (ユニーク)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCenterChannel.ContactCenter"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCenterChannel.ContactCenter",
+      "QualifiedApiName": "ContactCenterId",
+      "EntityDefinitionId": "ContactCenterChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "ContactCenter",
+      "MasterLabel": "コンタクトセンター",
+      "Label": "コンタクトセンター",
+      "DataType": "主従関係(Call Center)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCenterChannel.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCenterChannel.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ContactCenterChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCenterChannel.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCenterChannel.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ContactCenterChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCenterChannel.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCenterChannel.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ContactCenterChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "コンタクトセンターチャネル ID",
+      "Label": "コンタクトセンターチャネル ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCenterChannel.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCenterChannel.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ContactCenterChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCenterChannel.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCenterChannel.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ContactCenterChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCenterChannel.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCenterChannel.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ContactCenterChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCenterChannel.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCenterChannel.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ContactCenterChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCenterChannel.VoicemailFallbackQueue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCenterChannel.VoicemailFallbackQueue",
+      "QualifiedApiName": "VoicemailFallbackQueueId",
+      "EntityDefinitionId": "ContactCenterChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "VoicemailFallbackQueue",
+      "MasterLabel": "ボイスメール代替キュー",
+      "Label": "ボイスメール代替キュー",
+      "DataType": "参照関係(グループ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCenterChannel.VoicemailHandler"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCenterChannel.VoicemailHandler",
+      "QualifiedApiName": "VoicemailHandler",
+      "EntityDefinitionId": "ContactCenterChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "VoicemailHandler",
+      "MasterLabel": "ボイスメールハンドラー",
+      "Label": "ボイスメールハンドラー",
+      "DataType": "選択リスト(グループ,フロー定義)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

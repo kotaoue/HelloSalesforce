@@ -1,0 +1,385 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 18,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBrand.BrandingOrganization"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBrand.BrandingOrganization",
+      "QualifiedApiName": "BrandingOrganizationId",
+      "EntityDefinitionId": "EmailBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "BrandingOrganization",
+      "MasterLabel": "組織のブランド",
+      "Label": "組織のブランド",
+      "DataType": "参照関係(AllOrganization)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBrand.BrandType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBrand.BrandType",
+      "QualifiedApiName": "BrandType",
+      "EntityDefinitionId": "EmailBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "BrandType",
+      "MasterLabel": "ブランド種別",
+      "Label": "ブランド種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBrand.CompanyName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBrand.CompanyName",
+      "QualifiedApiName": "CompanyName",
+      "EntityDefinitionId": "EmailBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "CompanyName",
+      "MasterLabel": "会社名",
+      "Label": "会社名",
+      "DataType": "テキスト(120)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBrand.CompanyWebsite"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBrand.CompanyWebsite",
+      "QualifiedApiName": "CompanyWebsite",
+      "EntityDefinitionId": "EmailBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "CompanyWebsite",
+      "MasterLabel": "企業の Web サイト",
+      "Label": "企業の Web サイト",
+      "DataType": "テキスト(260)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBrand.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBrand.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "EmailBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBrand.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBrand.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "EmailBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBrand.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBrand.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "EmailBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "API 参照名",
+      "Label": "API 参照名",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBrand.FromDisplayName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBrand.FromDisplayName",
+      "QualifiedApiName": "FromDisplayName",
+      "EntityDefinitionId": "EmailBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "FromDisplayName",
+      "MasterLabel": "差出人表示名",
+      "Label": "差出人表示名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBrand.FromEmailAddress"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBrand.FromEmailAddress",
+      "QualifiedApiName": "FromEmailAddress",
+      "EntityDefinitionId": "EmailBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "FromEmailAddress",
+      "MasterLabel": "差出人メールアドレス",
+      "Label": "差出人メールアドレス",
+      "DataType": "メール",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBrand.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBrand.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "EmailBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "メールブランド ID",
+      "Label": "メールブランド ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBrand.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBrand.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "EmailBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBrand.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBrand.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "EmailBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBrand.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBrand.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "EmailBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "マスター表示ラベル",
+      "Label": "マスター表示ラベル",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBrand.ProductName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBrand.ProductName",
+      "QualifiedApiName": "ProductName",
+      "EntityDefinitionId": "EmailBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "ProductName",
+      "MasterLabel": "商品名",
+      "Label": "商品名",
+      "DataType": "テキスト(60)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBrand.ReleaseState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBrand.ReleaseState",
+      "QualifiedApiName": "ReleaseState",
+      "EntityDefinitionId": "EmailBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReleaseState",
+      "MasterLabel": "リリースの状態",
+      "Label": "リリースの状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBrand.Server"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBrand.Server",
+      "QualifiedApiName": "Server",
+      "EntityDefinitionId": "EmailBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "Server",
+      "MasterLabel": "サーバー",
+      "Label": "サーバー",
+      "DataType": "テキスト(3)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBrand.SourceSystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBrand.SourceSystemModstamp",
+      "QualifiedApiName": "SourceSystemModstamp",
+      "EntityDefinitionId": "EmailBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "SourceSystemModstamp",
+      "MasterLabel": "ソース System Modstamp",
+      "Label": "ソース System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBrand.SupportContact"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBrand.SupportContact",
+      "QualifiedApiName": "SupportContact",
+      "EntityDefinitionId": "EmailBrand",
+      "NamespacePrefix": null,
+      "DeveloperName": "SupportContact",
+      "MasterLabel": "サポート連絡先",
+      "Label": "サポート連絡先",
+      "DataType": "テキスト(260)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

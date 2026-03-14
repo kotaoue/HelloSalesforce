@@ -1,0 +1,70 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 3,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChatterConversationMember.Conversation"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChatterConversationMember.Conversation",
+      "QualifiedApiName": "ConversationId",
+      "EntityDefinitionId": "ChatterConversationMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "Conversation",
+      "MasterLabel": "Chatter の会話",
+      "Label": "Chatter の会話",
+      "DataType": "参照関係(Chatter の会話)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChatterConversationMember.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChatterConversationMember.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ChatterConversationMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "会話メンバー ID",
+      "Label": "会話メンバー ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChatterConversationMember.Member"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChatterConversationMember.Member",
+      "QualifiedApiName": "MemberId",
+      "EntityDefinitionId": "ChatterConversationMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "Member",
+      "MasterLabel": "メンバー",
+      "Label": "メンバー",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

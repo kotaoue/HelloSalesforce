@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageDefSyncLogFeed.BestComment"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageDefSyncLogFeed.BestComment",
+      "QualifiedApiName": "BestCommentId",
+      "EntityDefinitionId": "DataLineageDefSyncLogFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "BestComment",
+      "MasterLabel": "最良のコメント",
+      "Label": "最良のコメント",
+      "DataType": "参照関係(フィードコメント)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageDefSyncLogFeed.Body"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageDefSyncLogFeed.Body",
+      "QualifiedApiName": "Body",
+      "EntityDefinitionId": "DataLineageDefSyncLogFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "Body",
+      "MasterLabel": "内容",
+      "Label": "内容",
+      "DataType": "ロングテキストエリア(10000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageDefSyncLogFeed.CommentCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageDefSyncLogFeed.CommentCount",
+      "QualifiedApiName": "CommentCount",
+      "EntityDefinitionId": "DataLineageDefSyncLogFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "CommentCount",
+      "MasterLabel": "コメント数",
+      "Label": "コメント数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageDefSyncLogFeed.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageDefSyncLogFeed.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DataLineageDefSyncLogFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageDefSyncLogFeed.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageDefSyncLogFeed.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DataLineageDefSyncLogFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageDefSyncLogFeed.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageDefSyncLogFeed.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DataLineageDefSyncLogFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "フィード項目 ID",
+      "Label": "フィード項目 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageDefSyncLogFeed.InsertedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageDefSyncLogFeed.InsertedBy",
+      "QualifiedApiName": "InsertedById",
+      "EntityDefinitionId": "DataLineageDefSyncLogFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "InsertedBy",
+      "MasterLabel": "挿入者",
+      "Label": "挿入者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageDefSyncLogFeed.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageDefSyncLogFeed.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DataLineageDefSyncLogFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageDefSyncLogFeed.IsRichText"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageDefSyncLogFeed.IsRichText",
+      "QualifiedApiName": "IsRichText",
+      "EntityDefinitionId": "DataLineageDefSyncLogFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsRichText",
+      "MasterLabel": "リッチテキスト",
+      "Label": "リッチテキスト",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageDefSyncLogFeed.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageDefSyncLogFeed.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DataLineageDefSyncLogFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageDefSyncLogFeed.LikeCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageDefSyncLogFeed.LikeCount",
+      "QualifiedApiName": "LikeCount",
+      "EntityDefinitionId": "DataLineageDefSyncLogFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "LikeCount",
+      "MasterLabel": "いいね! の数",
+      "Label": "いいね! の数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageDefSyncLogFeed.LinkUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageDefSyncLogFeed.LinkUrl",
+      "QualifiedApiName": "LinkUrl",
+      "EntityDefinitionId": "DataLineageDefSyncLogFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "LinkUrl",
+      "MasterLabel": "リンク URL",
+      "Label": "リンク URL",
+      "DataType": "URL(1000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageDefSyncLogFeed.Parent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageDefSyncLogFeed.Parent",
+      "QualifiedApiName": "ParentId",
+      "EntityDefinitionId": "DataLineageDefSyncLogFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "Parent",
+      "MasterLabel": "親",
+      "Label": "親",
+      "DataType": "参照関係(データ系統定義同期ログ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageDefSyncLogFeed.RelatedRecord"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageDefSyncLogFeed.RelatedRecord",
+      "QualifiedApiName": "RelatedRecordId",
+      "EntityDefinitionId": "DataLineageDefSyncLogFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "RelatedRecord",
+      "MasterLabel": "関連レコード",
+      "Label": "関連レコード",
+      "DataType": "参照関係(コンテンツバージョン,キャンバスフィード項目)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageDefSyncLogFeed.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageDefSyncLogFeed.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DataLineageDefSyncLogFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageDefSyncLogFeed.Title"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageDefSyncLogFeed.Title",
+      "QualifiedApiName": "Title",
+      "EntityDefinitionId": "DataLineageDefSyncLogFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "Title",
+      "MasterLabel": "タイトル",
+      "Label": "タイトル",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageDefSyncLogFeed.Type"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageDefSyncLogFeed.Type",
+      "QualifiedApiName": "Type",
+      "EntityDefinitionId": "DataLineageDefSyncLogFeed",
+      "NamespacePrefix": null,
+      "DeveloperName": "Type",
+      "MasterLabel": "フィード項目種別",
+      "Label": "フィード項目種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

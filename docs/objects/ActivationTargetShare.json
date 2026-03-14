@@ -1,0 +1,175 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 8,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetShare.AccessLevel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetShare.AccessLevel",
+      "QualifiedApiName": "AccessLevel",
+      "EntityDefinitionId": "ActivationTargetShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "AccessLevel",
+      "MasterLabel": "カスタムオブジェクトのアクセス権",
+      "Label": "カスタムオブジェクトのアクセス権",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetShare.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetShare.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ActivationTargetShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "カスタムオブジェクト共有 ID",
+      "Label": "カスタムオブジェクト共有 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetShare.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetShare.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ActivationTargetShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetShare.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetShare.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ActivationTargetShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetShare.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetShare.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ActivationTargetShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetShare.Parent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetShare.Parent",
+      "QualifiedApiName": "ParentId",
+      "EntityDefinitionId": "ActivationTargetShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "Parent",
+      "MasterLabel": "参照先",
+      "Label": "参照先",
+      "DataType": "参照関係(有効化対象)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetShare.RowCause"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetShare.RowCause",
+      "QualifiedApiName": "RowCause",
+      "EntityDefinitionId": "ActivationTargetShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "RowCause",
+      "MasterLabel": "テリトリー割り当て方法",
+      "Label": "テリトリー割り当て方法",
+      "DataType": "選択リスト(Apex 共有の理由)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTargetShare.UserOrGroup"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTargetShare.UserOrGroup",
+      "QualifiedApiName": "UserOrGroupId",
+      "EntityDefinitionId": "ActivationTargetShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserOrGroup",
+      "MasterLabel": "ユーザー/グループ",
+      "Label": "ユーザー/グループ",
+      "DataType": "参照関係(ユーザー,グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

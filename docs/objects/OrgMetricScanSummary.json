@@ -1,0 +1,406 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 19,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgMetricScanSummary.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgMetricScanSummary.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "OrgMetricScanSummary",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgMetricScanSummary.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgMetricScanSummary.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "OrgMetricScanSummary",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgMetricScanSummary.ErrorMessage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgMetricScanSummary.ErrorMessage",
+      "QualifiedApiName": "ErrorMessage",
+      "EntityDefinitionId": "OrgMetricScanSummary",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorMessage",
+      "MasterLabel": "エラーメッセージ",
+      "Label": "エラーメッセージ",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgMetricScanSummary.FeatureLimit"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgMetricScanSummary.FeatureLimit",
+      "QualifiedApiName": "FeatureLimit",
+      "EntityDefinitionId": "OrgMetricScanSummary",
+      "NamespacePrefix": null,
+      "DeveloperName": "FeatureLimit",
+      "MasterLabel": "使用制限",
+      "Label": "使用制限",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgMetricScanSummary.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgMetricScanSummary.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "OrgMetricScanSummary",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "組織メトリクスのスキャン概要 ID",
+      "Label": "組織メトリクスのスキャン概要 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgMetricScanSummary.ImplementationEffort"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgMetricScanSummary.ImplementationEffort",
+      "QualifiedApiName": "ImplementationEffort",
+      "EntityDefinitionId": "OrgMetricScanSummary",
+      "NamespacePrefix": null,
+      "DeveloperName": "ImplementationEffort",
+      "MasterLabel": "実装所要時間",
+      "Label": "実装所要時間",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgMetricScanSummary.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgMetricScanSummary.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "OrgMetricScanSummary",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgMetricScanSummary.ItemCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgMetricScanSummary.ItemCount",
+      "QualifiedApiName": "ItemCount",
+      "EntityDefinitionId": "OrgMetricScanSummary",
+      "NamespacePrefix": null,
+      "DeveloperName": "ItemCount",
+      "MasterLabel": "件数",
+      "Label": "件数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgMetricScanSummary.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgMetricScanSummary.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "OrgMetricScanSummary",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgMetricScanSummary.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgMetricScanSummary.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "OrgMetricScanSummary",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgMetricScanSummary.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgMetricScanSummary.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "OrgMetricScanSummary",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "組織メトリクスのスキャン概要",
+      "Label": "組織メトリクスのスキャン概要",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgMetricScanSummary.OrgMetric"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgMetricScanSummary.OrgMetric",
+      "QualifiedApiName": "OrgMetricId",
+      "EntityDefinitionId": "OrgMetricScanSummary",
+      "NamespacePrefix": null,
+      "DeveloperName": "OrgMetric",
+      "MasterLabel": "組織メトリクス",
+      "Label": "組織メトリクス",
+      "DataType": "主従関係(組織メトリクス)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgMetricScanSummary.PercentUsage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgMetricScanSummary.PercentUsage",
+      "QualifiedApiName": "PercentUsage",
+      "EntityDefinitionId": "OrgMetricScanSummary",
+      "NamespacePrefix": null,
+      "DeveloperName": "PercentUsage",
+      "MasterLabel": "利用状況パーセント",
+      "Label": "利用状況パーセント",
+      "DataType": "パーセント(3、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgMetricScanSummary.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgMetricScanSummary.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "OrgMetricScanSummary",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgMetricScanSummary.ScanDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgMetricScanSummary.ScanDate",
+      "QualifiedApiName": "ScanDate",
+      "EntityDefinitionId": "OrgMetricScanSummary",
+      "NamespacePrefix": null,
+      "DeveloperName": "ScanDate",
+      "MasterLabel": "スキャン日",
+      "Label": "スキャン日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgMetricScanSummary.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgMetricScanSummary.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "OrgMetricScanSummary",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgMetricScanSummary.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgMetricScanSummary.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "OrgMetricScanSummary",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgMetricScanSummary.Unit"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgMetricScanSummary.Unit",
+      "QualifiedApiName": "Unit",
+      "EntityDefinitionId": "OrgMetricScanSummary",
+      "NamespacePrefix": null,
+      "DeveloperName": "Unit",
+      "MasterLabel": "単位",
+      "Label": "単位",
+      "DataType": "テキスト(64)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgMetricScanSummary.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgMetricScanSummary.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "OrgMetricScanSummary",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

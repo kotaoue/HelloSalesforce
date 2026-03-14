@@ -1,0 +1,490 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 23,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetActionSource.ActualTax"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetActionSource.ActualTax",
+      "QualifiedApiName": "ActualTax",
+      "EntityDefinitionId": "AssetActionSource",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActualTax",
+      "MasterLabel": "実効税額",
+      "Label": "実効税額",
+      "DataType": "通貨(16、2)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetActionSource.AdjustmentAmount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetActionSource.AdjustmentAmount",
+      "QualifiedApiName": "AdjustmentAmount",
+      "EntityDefinitionId": "AssetActionSource",
+      "NamespacePrefix": null,
+      "DeveloperName": "AdjustmentAmount",
+      "MasterLabel": "調整金額",
+      "Label": "調整金額",
+      "DataType": "通貨(16、2)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetActionSource.AssetAction"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetActionSource.AssetAction",
+      "QualifiedApiName": "AssetActionId",
+      "EntityDefinitionId": "AssetActionSource",
+      "NamespacePrefix": null,
+      "DeveloperName": "AssetAction",
+      "MasterLabel": "納入商品アクション",
+      "Label": "納入商品アクション",
+      "DataType": "主従関係(納入商品アクション)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetActionSource.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetActionSource.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AssetActionSource",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetActionSource.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetActionSource.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AssetActionSource",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetActionSource.EndDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetActionSource.EndDate",
+      "QualifiedApiName": "EndDate",
+      "EntityDefinitionId": "AssetActionSource",
+      "NamespacePrefix": null,
+      "DeveloperName": "EndDate",
+      "MasterLabel": "終了日",
+      "Label": "終了日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetActionSource.EstimatedTax"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetActionSource.EstimatedTax",
+      "QualifiedApiName": "EstimatedTax",
+      "EntityDefinitionId": "AssetActionSource",
+      "NamespacePrefix": null,
+      "DeveloperName": "EstimatedTax",
+      "MasterLabel": "予想税額",
+      "Label": "予想税額",
+      "DataType": "通貨(16、2)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetActionSource.ExternalReference"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetActionSource.ExternalReference",
+      "QualifiedApiName": "ExternalReference",
+      "EntityDefinitionId": "AssetActionSource",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExternalReference",
+      "MasterLabel": "外部参照",
+      "Label": "外部参照",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetActionSource.ExternalReferenceDataSource"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetActionSource.ExternalReferenceDataSource",
+      "QualifiedApiName": "ExternalReferenceDataSource",
+      "EntityDefinitionId": "AssetActionSource",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExternalReferenceDataSource",
+      "MasterLabel": "外部参照データソース",
+      "Label": "外部参照データソース",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetActionSource.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetActionSource.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AssetActionSource",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "納入商品アクションソース ID",
+      "Label": "納入商品アクションソース ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetActionSource.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetActionSource.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AssetActionSource",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetActionSource.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetActionSource.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AssetActionSource",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetActionSource.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetActionSource.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AssetActionSource",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetActionSource.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetActionSource.Name",
+      "QualifiedApiName": "AssetActionSourceNumber",
+      "EntityDefinitionId": "AssetActionSource",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetActionSource.ProductAmount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetActionSource.ProductAmount",
+      "QualifiedApiName": "ProductAmount",
+      "EntityDefinitionId": "AssetActionSource",
+      "NamespacePrefix": null,
+      "DeveloperName": "ProductAmount",
+      "MasterLabel": "商品金額",
+      "Label": "商品金額",
+      "DataType": "通貨(16、2)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetActionSource.Quantity"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetActionSource.Quantity",
+      "QualifiedApiName": "Quantity",
+      "EntityDefinitionId": "AssetActionSource",
+      "NamespacePrefix": null,
+      "DeveloperName": "Quantity",
+      "MasterLabel": "数量",
+      "Label": "数量",
+      "DataType": "数値(12、2)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetActionSource.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetActionSource.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "AssetActionSource",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetActionSource.ReferenceEntityItem"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetActionSource.ReferenceEntityItem",
+      "QualifiedApiName": "ReferenceEntityItemId",
+      "EntityDefinitionId": "AssetActionSource",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReferenceEntityItem",
+      "MasterLabel": "参照エンティティ品目",
+      "Label": "参照エンティティ品目",
+      "DataType": "参照関係(注文商品,作業指示品目)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetActionSource.StartDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetActionSource.StartDate",
+      "QualifiedApiName": "StartDate",
+      "EntityDefinitionId": "AssetActionSource",
+      "NamespacePrefix": null,
+      "DeveloperName": "StartDate",
+      "MasterLabel": "開始日",
+      "Label": "開始日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetActionSource.Subtotal"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetActionSource.Subtotal",
+      "QualifiedApiName": "Subtotal",
+      "EntityDefinitionId": "AssetActionSource",
+      "NamespacePrefix": null,
+      "DeveloperName": "Subtotal",
+      "MasterLabel": "小計",
+      "Label": "小計",
+      "DataType": "数式 (通貨)",
+      "IsCalculated": true,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetActionSource.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetActionSource.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AssetActionSource",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetActionSource.TransactionDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetActionSource.TransactionDate",
+      "QualifiedApiName": "TransactionDate",
+      "EntityDefinitionId": "AssetActionSource",
+      "NamespacePrefix": null,
+      "DeveloperName": "TransactionDate",
+      "MasterLabel": "取引日",
+      "Label": "取引日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetActionSource.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetActionSource.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "AssetActionSource",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

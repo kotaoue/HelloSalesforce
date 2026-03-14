@@ -1,0 +1,238 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 11,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsgnRsrcApptSchdEvent.AssignedResourceId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsgnRsrcApptSchdEvent.AssignedResourceId",
+      "QualifiedApiName": "AssignedResourceId",
+      "EntityDefinitionId": "AsgnRsrcApptSchdEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "AssignedResourceId",
+      "MasterLabel": "割り当て済みリソース ID",
+      "Label": "割り当て済みリソース ID",
+      "DataType": "テキスト(30)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsgnRsrcApptSchdEvent.ChangedFields"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsgnRsrcApptSchdEvent.ChangedFields",
+      "QualifiedApiName": "ChangedFields",
+      "EntityDefinitionId": "AsgnRsrcApptSchdEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChangedFields",
+      "MasterLabel": "変更された項目",
+      "Label": "変更された項目",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsgnRsrcApptSchdEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsgnRsrcApptSchdEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AsgnRsrcApptSchdEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsgnRsrcApptSchdEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsgnRsrcApptSchdEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AsgnRsrcApptSchdEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsgnRsrcApptSchdEvent.EventUuid"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsgnRsrcApptSchdEvent.EventUuid",
+      "QualifiedApiName": "EventUuid",
+      "EntityDefinitionId": "AsgnRsrcApptSchdEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventUuid",
+      "MasterLabel": "イベント UUID",
+      "Label": "イベント UUID",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsgnRsrcApptSchdEvent.IsPrimaryResource"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsgnRsrcApptSchdEvent.IsPrimaryResource",
+      "QualifiedApiName": "IsPrimaryResource",
+      "EntityDefinitionId": "AsgnRsrcApptSchdEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsPrimaryResource",
+      "MasterLabel": "プライマリリソース",
+      "Label": "プライマリリソース",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsgnRsrcApptSchdEvent.IsRequiredResource"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsgnRsrcApptSchdEvent.IsRequiredResource",
+      "QualifiedApiName": "IsRequiredResource",
+      "EntityDefinitionId": "AsgnRsrcApptSchdEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsRequiredResource",
+      "MasterLabel": "必要なリソース",
+      "Label": "必要なリソース",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsgnRsrcApptSchdEvent.ServiceResourceId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsgnRsrcApptSchdEvent.ServiceResourceId",
+      "QualifiedApiName": "ServiceResourceId",
+      "EntityDefinitionId": "AsgnRsrcApptSchdEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ServiceResourceId",
+      "MasterLabel": "サービスリソース ID",
+      "Label": "サービスリソース ID",
+      "DataType": "テキスト(30)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsgnRsrcApptSchdEvent.ServiceResourceUserEmail"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsgnRsrcApptSchdEvent.ServiceResourceUserEmail",
+      "QualifiedApiName": "ServiceResourceUserEmail",
+      "EntityDefinitionId": "AsgnRsrcApptSchdEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ServiceResourceUserEmail",
+      "MasterLabel": "サービスリソースユーザーメール",
+      "Label": "サービスリソースユーザーメール",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsgnRsrcApptSchdEvent.ServiceResourceUserId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsgnRsrcApptSchdEvent.ServiceResourceUserId",
+      "QualifiedApiName": "ServiceResourceUserId",
+      "EntityDefinitionId": "AsgnRsrcApptSchdEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ServiceResourceUserId",
+      "MasterLabel": "サービスリソースユーザー ID",
+      "Label": "サービスリソースユーザー ID",
+      "DataType": "テキスト(30)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsgnRsrcApptSchdEvent.ServiceResourceUserName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsgnRsrcApptSchdEvent.ServiceResourceUserName",
+      "QualifiedApiName": "ServiceResourceUserName",
+      "EntityDefinitionId": "AsgnRsrcApptSchdEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ServiceResourceUserName",
+      "MasterLabel": "サービスリソースユーザー名",
+      "Label": "サービスリソースユーザー名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

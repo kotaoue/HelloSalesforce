@@ -1,0 +1,343 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 16,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MsgSessStatusChangedEvent.Channel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MsgSessStatusChangedEvent.Channel",
+      "QualifiedApiName": "Channel",
+      "EntityDefinitionId": "MsgSessStatusChangedEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Channel",
+      "MasterLabel": "セッションのチャネルの ID",
+      "Label": "セッションのチャネルの ID",
+      "DataType": "テキスト(18)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MsgSessStatusChangedEvent.ChannelAddressIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MsgSessStatusChangedEvent.ChannelAddressIdentifier",
+      "QualifiedApiName": "ChannelAddressIdentifier",
+      "EntityDefinitionId": "MsgSessStatusChangedEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChannelAddressIdentifier",
+      "MasterLabel": "チャネルアドレス識別子",
+      "Label": "チャネルアドレス識別子",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MsgSessStatusChangedEvent.Conversation"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MsgSessStatusChangedEvent.Conversation",
+      "QualifiedApiName": "Conversation",
+      "EntityDefinitionId": "MsgSessStatusChangedEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Conversation",
+      "MasterLabel": "セッションに関連付けられた会話識別子",
+      "Label": "セッションに関連付けられた会話識別子",
+      "DataType": "テキスト(18)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MsgSessStatusChangedEvent.ConversationIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MsgSessStatusChangedEvent.ConversationIdentifier",
+      "QualifiedApiName": "ConversationIdentifier",
+      "EntityDefinitionId": "MsgSessStatusChangedEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ConversationIdentifier",
+      "MasterLabel": "会話識別子",
+      "Label": "会話識別子",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MsgSessStatusChangedEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MsgSessStatusChangedEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "MsgSessStatusChangedEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MsgSessStatusChangedEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MsgSessStatusChangedEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "MsgSessStatusChangedEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MsgSessStatusChangedEvent.EndTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MsgSessStatusChangedEvent.EndTime",
+      "QualifiedApiName": "EndTime",
+      "EntityDefinitionId": "MsgSessStatusChangedEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EndTime",
+      "MasterLabel": "セッションが終了した時刻",
+      "Label": "セッションが終了した時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MsgSessStatusChangedEvent.EventUuid"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MsgSessStatusChangedEvent.EventUuid",
+      "QualifiedApiName": "EventUuid",
+      "EntityDefinitionId": "MsgSessStatusChangedEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventUuid",
+      "MasterLabel": "イベント UUID",
+      "Label": "イベント UUID",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MsgSessStatusChangedEvent.MessagingEndUser"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MsgSessStatusChangedEvent.MessagingEndUser",
+      "QualifiedApiName": "MessagingEndUser",
+      "EntityDefinitionId": "MsgSessStatusChangedEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "MessagingEndUser",
+      "MasterLabel": "セッションの MessagingEndUser の ID",
+      "Label": "セッションの MessagingEndUser の ID",
+      "DataType": "テキスト(18)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MsgSessStatusChangedEvent.MessagingSessionStatusEndedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MsgSessStatusChangedEvent.MessagingSessionStatusEndedBy",
+      "QualifiedApiName": "MessagingSessionStatusEndedBy",
+      "EntityDefinitionId": "MsgSessStatusChangedEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "MessagingSessionStatusEndedBy",
+      "MasterLabel": "終了者種別",
+      "Label": "終了者種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MsgSessStatusChangedEvent.PreviousSessionStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MsgSessStatusChangedEvent.PreviousSessionStatus",
+      "QualifiedApiName": "PreviousSessionStatus",
+      "EntityDefinitionId": "MsgSessStatusChangedEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "PreviousSessionStatus",
+      "MasterLabel": "セッションの以前の状況",
+      "Label": "セッションの以前の状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MsgSessStatusChangedEvent.ReplayId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MsgSessStatusChangedEvent.ReplayId",
+      "QualifiedApiName": "ReplayId",
+      "EntityDefinitionId": "MsgSessStatusChangedEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReplayId",
+      "MasterLabel": "再実行 ID",
+      "Label": "再実行 ID",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MsgSessStatusChangedEvent.Session"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MsgSessStatusChangedEvent.Session",
+      "QualifiedApiName": "Session",
+      "EntityDefinitionId": "MsgSessStatusChangedEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Session",
+      "MasterLabel": "セッションの識別子",
+      "Label": "セッションの識別子",
+      "DataType": "テキスト(18)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MsgSessStatusChangedEvent.SessionOrigin"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MsgSessStatusChangedEvent.SessionOrigin",
+      "QualifiedApiName": "SessionOrigin",
+      "EntityDefinitionId": "MsgSessStatusChangedEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "SessionOrigin",
+      "MasterLabel": "セッションが開始された方法",
+      "Label": "セッションが開始された方法",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MsgSessStatusChangedEvent.SessionStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MsgSessStatusChangedEvent.SessionStatus",
+      "QualifiedApiName": "SessionStatus",
+      "EntityDefinitionId": "MsgSessStatusChangedEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "SessionStatus",
+      "MasterLabel": "セッションの状況",
+      "Label": "セッションの状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MsgSessStatusChangedEvent.StartTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MsgSessStatusChangedEvent.StartTime",
+      "QualifiedApiName": "StartTime",
+      "EntityDefinitionId": "MsgSessStatusChangedEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "StartTime",
+      "MasterLabel": "セッションが開始された時刻",
+      "Label": "セッションが開始された時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

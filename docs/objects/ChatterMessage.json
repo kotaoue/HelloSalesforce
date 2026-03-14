@@ -1,0 +1,133 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 6,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChatterMessage.Body"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChatterMessage.Body",
+      "QualifiedApiName": "Body",
+      "EntityDefinitionId": "ChatterMessage",
+      "NamespacePrefix": null,
+      "DeveloperName": "Body",
+      "MasterLabel": "内容",
+      "Label": "内容",
+      "DataType": "ロングテキストエリア(10000)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChatterMessage.Conversation"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChatterMessage.Conversation",
+      "QualifiedApiName": "ConversationId",
+      "EntityDefinitionId": "ChatterMessage",
+      "NamespacePrefix": null,
+      "DeveloperName": "Conversation",
+      "MasterLabel": "Chatter の会話",
+      "Label": "Chatter の会話",
+      "DataType": "参照関係(Chatter の会話)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChatterMessage.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChatterMessage.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ChatterMessage",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChatterMessage.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChatterMessage.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ChatterMessage",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Chatter メッセージ ID",
+      "Label": "Chatter メッセージ ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChatterMessage.Sender"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChatterMessage.Sender",
+      "QualifiedApiName": "SenderId",
+      "EntityDefinitionId": "ChatterMessage",
+      "NamespacePrefix": null,
+      "DeveloperName": "Sender",
+      "MasterLabel": "送信者",
+      "Label": "送信者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChatterMessage.SentDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChatterMessage.SentDate",
+      "QualifiedApiName": "SentDate",
+      "EntityDefinitionId": "ChatterMessage",
+      "NamespacePrefix": null,
+      "DeveloperName": "SentDate",
+      "MasterLabel": "メッセージ送信日",
+      "Label": "メッセージ送信日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 19,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatform.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatform.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DataPlatform",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatform.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatform.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DataPlatform",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatform.DataConnectorType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatform.DataConnectorType",
+      "QualifiedApiName": "DataConnectorType",
+      "EntityDefinitionId": "DataPlatform",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataConnectorType",
+      "MasterLabel": "データコネクタタイプ",
+      "Label": "データコネクタタイプ",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatform.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatform.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "DataPlatform",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatform.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatform.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "DataPlatform",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatform.ForExportIntOrgName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatform.ForExportIntOrgName",
+      "QualifiedApiName": "ForExportIntOrgName",
+      "EntityDefinitionId": "DataPlatform",
+      "NamespacePrefix": null,
+      "DeveloperName": "ForExportIntOrgName",
+      "MasterLabel": "エクスポートの内部組織名",
+      "Label": "エクスポートの内部組織名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatform.ForImportIntOrgName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatform.ForImportIntOrgName",
+      "QualifiedApiName": "ForImportIntOrgName",
+      "EntityDefinitionId": "DataPlatform",
+      "NamespacePrefix": null,
+      "DeveloperName": "ForImportIntOrgName",
+      "MasterLabel": "インポートの内部組織名",
+      "Label": "インポートの内部組織名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatform.FullName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatform.FullName",
+      "QualifiedApiName": "FullName",
+      "EntityDefinitionId": "DataPlatform",
+      "NamespacePrefix": null,
+      "DeveloperName": "FullName",
+      "MasterLabel": "データプラットフォーム名",
+      "Label": "データプラットフォーム名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatform.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatform.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DataPlatform",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "データプラットフォーム ID",
+      "Label": "データプラットフォーム ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatform.IsConfiguredByAdmin"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatform.IsConfiguredByAdmin",
+      "QualifiedApiName": "IsConfiguredByAdmin",
+      "EntityDefinitionId": "DataPlatform",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsConfiguredByAdmin",
+      "MasterLabel": "システム管理者が設定",
+      "Label": "システム管理者が設定",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatform.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatform.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DataPlatform",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatform.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatform.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "DataPlatform",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatform.LargeIconUri"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatform.LargeIconUri",
+      "QualifiedApiName": "LargeIconUri",
+      "EntityDefinitionId": "DataPlatform",
+      "NamespacePrefix": null,
+      "DeveloperName": "LargeIconUri",
+      "MasterLabel": "大きいアイコン URI",
+      "Label": "大きいアイコン URI",
+      "DataType": "URL(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatform.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatform.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DataPlatform",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatform.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatform.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DataPlatform",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatform.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatform.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "DataPlatform",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatform.Metadata"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatform.Metadata",
+      "QualifiedApiName": "Metadata",
+      "EntityDefinitionId": "DataPlatform",
+      "NamespacePrefix": null,
+      "DeveloperName": "Metadata",
+      "MasterLabel": "メタデータ",
+      "Label": "メタデータ",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatform.SmallIconUri"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatform.SmallIconUri",
+      "QualifiedApiName": "SmallIconUri",
+      "EntityDefinitionId": "DataPlatform",
+      "NamespacePrefix": null,
+      "DeveloperName": "SmallIconUri",
+      "MasterLabel": "小さいアイコン URI",
+      "Label": "小さいアイコン URI",
+      "DataType": "URL(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataPlatform.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataPlatform.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DataPlatform",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

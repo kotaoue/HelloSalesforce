@@ -1,0 +1,511 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 24,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LicenseDefinition.AggregationGroup"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LicenseDefinition.AggregationGroup",
+      "QualifiedApiName": "AggregationGroup",
+      "EntityDefinitionId": "LicenseDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "AggregationGroup",
+      "MasterLabel": "Aggregation Group",
+      "Label": "Aggregation Group",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LicenseDefinition.AggregationKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LicenseDefinition.AggregationKey",
+      "QualifiedApiName": "AggregationKey",
+      "EntityDefinitionId": "LicenseDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "AggregationKey",
+      "MasterLabel": "Aggregation Key",
+      "Label": "Aggregation Key",
+      "DataType": "数式 (テキスト)",
+      "IsCalculated": true,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LicenseDefinition.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LicenseDefinition.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "LicenseDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LicenseDefinition.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LicenseDefinition.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "LicenseDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LicenseDefinition.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LicenseDefinition.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "LicenseDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "Description",
+      "Label": "Description",
+      "DataType": "ロングテキストエリア(2048)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LicenseDefinition.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LicenseDefinition.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "LicenseDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LicenseDefinition.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LicenseDefinition.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "LicenseDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "ライセンス定義 ID",
+      "Label": "ライセンス定義 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LicenseDefinition.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LicenseDefinition.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "LicenseDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LicenseDefinition.IsPublished"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LicenseDefinition.IsPublished",
+      "QualifiedApiName": "IsPublished",
+      "EntityDefinitionId": "LicenseDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsPublished",
+      "MasterLabel": "Published",
+      "Label": "Published",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LicenseDefinition.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LicenseDefinition.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "LicenseDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LicenseDefinition.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LicenseDefinition.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "LicenseDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LicenseDefinition.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LicenseDefinition.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "LicenseDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LicenseDefinition.LicenseDefinitionKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LicenseDefinition.LicenseDefinitionKey",
+      "QualifiedApiName": "LicenseDefinitionKey",
+      "EntityDefinitionId": "LicenseDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "LicenseDefinitionKey",
+      "MasterLabel": "License Definition Key",
+      "Label": "License Definition Key",
+      "DataType": "数式 (テキスト)  (ユニーク、大文字と小文字を区別する)",
+      "IsCalculated": true,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LicenseDefinition.LicensingAuthority"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LicenseDefinition.LicensingAuthority",
+      "QualifiedApiName": "LicensingAuthority",
+      "EntityDefinitionId": "LicenseDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "LicensingAuthority",
+      "MasterLabel": "Licensing Authority",
+      "Label": "Licensing Authority",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LicenseDefinition.LicensingAuthorityProvider"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LicenseDefinition.LicensingAuthorityProvider",
+      "QualifiedApiName": "LicensingAuthorityProvider",
+      "EntityDefinitionId": "LicenseDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "LicensingAuthorityProvider",
+      "MasterLabel": "Licensing Authority Provider",
+      "Label": "Licensing Authority Provider",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LicenseDefinition.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LicenseDefinition.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "LicenseDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LicenseDefinition.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LicenseDefinition.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "LicenseDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LicenseDefinition.MinPlatformVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LicenseDefinition.MinPlatformVersion",
+      "QualifiedApiName": "MinPlatformVersion",
+      "EntityDefinitionId": "LicenseDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "MinPlatformVersion",
+      "MasterLabel": "Min Platform Version",
+      "Label": "Min Platform Version",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LicenseDefinition.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LicenseDefinition.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "LicenseDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LicenseDefinition.Origin"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LicenseDefinition.Origin",
+      "QualifiedApiName": "Origin",
+      "EntityDefinitionId": "LicenseDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Origin",
+      "MasterLabel": "Origin",
+      "Label": "Origin",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LicenseDefinition.Revision"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LicenseDefinition.Revision",
+      "QualifiedApiName": "Revision",
+      "EntityDefinitionId": "LicenseDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Revision",
+      "MasterLabel": "Revision",
+      "Label": "Revision",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LicenseDefinition.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LicenseDefinition.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "LicenseDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LicenseDefinition.TrialLicenseDuration"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LicenseDefinition.TrialLicenseDuration",
+      "QualifiedApiName": "TrialLicenseDuration",
+      "EntityDefinitionId": "LicenseDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "TrialLicenseDuration",
+      "MasterLabel": "Trial License Duration",
+      "Label": "Trial License Duration",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LicenseDefinition.TrialLicenseQuantity"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LicenseDefinition.TrialLicenseQuantity",
+      "QualifiedApiName": "TrialLicenseQuantity",
+      "EntityDefinitionId": "LicenseDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "TrialLicenseQuantity",
+      "MasterLabel": "Trial License Quantity",
+      "Label": "Trial License Quantity",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

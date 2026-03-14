@@ -1,0 +1,406 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 19,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldHistory.Activity"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldHistory.Activity",
+      "QualifiedApiName": "ActivityId",
+      "EntityDefinitionId": "ActivityFieldHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Activity",
+      "MasterLabel": "活動",
+      "Label": "活動",
+      "DataType": "参照関係(ToDo,行動)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldHistory.ChangedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldHistory.ChangedBy",
+      "QualifiedApiName": "ChangedById",
+      "EntityDefinitionId": "ActivityFieldHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChangedBy",
+      "MasterLabel": "Changed By",
+      "Label": "Changed By",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldHistory.ChangedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldHistory.ChangedDate",
+      "QualifiedApiName": "ChangedDate",
+      "EntityDefinitionId": "ActivityFieldHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChangedDate",
+      "MasterLabel": "Changed Date",
+      "Label": "Changed Date",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldHistory.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldHistory.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ActivityFieldHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldHistory.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldHistory.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ActivityFieldHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldHistory.DataType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldHistory.DataType",
+      "QualifiedApiName": "DataType",
+      "EntityDefinitionId": "ActivityFieldHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataType",
+      "MasterLabel": "データ型",
+      "Label": "データ型",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldHistory.FieldName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldHistory.FieldName",
+      "QualifiedApiName": "FieldName",
+      "EntityDefinitionId": "ActivityFieldHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "FieldName",
+      "MasterLabel": "項目",
+      "Label": "項目",
+      "DataType": "テキスト(120)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldHistory.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldHistory.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ActivityFieldHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "エンティティの履歴 ID",
+      "Label": "エンティティの履歴 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldHistory.IsDataAvailable"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldHistory.IsDataAvailable",
+      "QualifiedApiName": "IsDataAvailable",
+      "EntityDefinitionId": "ActivityFieldHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDataAvailable",
+      "MasterLabel": "Data Available",
+      "Label": "Data Available",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldHistory.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldHistory.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ActivityFieldHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldHistory.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldHistory.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ActivityFieldHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldHistory.NewValueDateTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldHistory.NewValueDateTime",
+      "QualifiedApiName": "NewValueDateTime",
+      "EntityDefinitionId": "ActivityFieldHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewValueDateTime",
+      "MasterLabel": "新規の日付",
+      "Label": "新規の日付",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldHistory.NewValueNumber"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldHistory.NewValueNumber",
+      "QualifiedApiName": "NewValueNumber",
+      "EntityDefinitionId": "ActivityFieldHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewValueNumber",
+      "MasterLabel": "新規の数値",
+      "Label": "新規の数値",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldHistory.NewValueText"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldHistory.NewValueText",
+      "QualifiedApiName": "NewValueText",
+      "EntityDefinitionId": "ActivityFieldHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewValueText",
+      "MasterLabel": "新規の文字列値",
+      "Label": "新規の文字列値",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldHistory.OldValueDateTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldHistory.OldValueDateTime",
+      "QualifiedApiName": "OldValueDateTime",
+      "EntityDefinitionId": "ActivityFieldHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldValueDateTime",
+      "MasterLabel": "元の日付",
+      "Label": "元の日付",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldHistory.OldValueNumber"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldHistory.OldValueNumber",
+      "QualifiedApiName": "OldValueNumber",
+      "EntityDefinitionId": "ActivityFieldHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldValueNumber",
+      "MasterLabel": "元の数値",
+      "Label": "元の数値",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldHistory.OldValueText"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldHistory.OldValueText",
+      "QualifiedApiName": "OldValueText",
+      "EntityDefinitionId": "ActivityFieldHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldValueText",
+      "MasterLabel": "元の文字列値",
+      "Label": "元の文字列値",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldHistory.Operation"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldHistory.Operation",
+      "QualifiedApiName": "Operation",
+      "EntityDefinitionId": "ActivityFieldHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Operation",
+      "MasterLabel": "Change Operation",
+      "Label": "Change Operation",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldHistory.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldHistory.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ActivityFieldHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

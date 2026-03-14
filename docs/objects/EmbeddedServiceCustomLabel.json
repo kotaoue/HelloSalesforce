@@ -1,0 +1,238 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 11,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceCustomLabel.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceCustomLabel.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "EmbeddedServiceCustomLabel",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceCustomLabel.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceCustomLabel.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "EmbeddedServiceCustomLabel",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceCustomLabel.CustomLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceCustomLabel.CustomLabel",
+      "QualifiedApiName": "CustomLabelId",
+      "EntityDefinitionId": "EmbeddedServiceCustomLabel",
+      "NamespacePrefix": null,
+      "DeveloperName": "CustomLabel",
+      "MasterLabel": "カスタム表示ラベル",
+      "Label": "カスタム表示ラベル",
+      "DataType": "参照関係(カスタム表示ラベル)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceCustomLabel.EmbeddedServiceConfig"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceCustomLabel.EmbeddedServiceConfig",
+      "QualifiedApiName": "EmbeddedServiceConfigId",
+      "EntityDefinitionId": "EmbeddedServiceCustomLabel",
+      "NamespacePrefix": null,
+      "DeveloperName": "EmbeddedServiceConfig",
+      "MasterLabel": "親",
+      "Label": "親",
+      "DataType": "主従関係(組み込みサービスリリース,チャネルメニューリリース,チャネルメニュー項目,組み込みサービスフォーム項目,選択肢リスト値)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceCustomLabel.Feature"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceCustomLabel.Feature",
+      "QualifiedApiName": "Feature",
+      "EntityDefinitionId": "EmbeddedServiceCustomLabel",
+      "NamespacePrefix": null,
+      "DeveloperName": "Feature",
+      "MasterLabel": "機能",
+      "Label": "機能",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceCustomLabel.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceCustomLabel.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "EmbeddedServiceCustomLabel",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "組み込みサービス用のカスタムラベル ID",
+      "Label": "組み込みサービス用のカスタムラベル ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceCustomLabel.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceCustomLabel.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "EmbeddedServiceCustomLabel",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceCustomLabel.LabelKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceCustomLabel.LabelKey",
+      "QualifiedApiName": "LabelKey",
+      "EntityDefinitionId": "EmbeddedServiceCustomLabel",
+      "NamespacePrefix": null,
+      "DeveloperName": "LabelKey",
+      "MasterLabel": "表示ラベルキー",
+      "Label": "表示ラベルキー",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceCustomLabel.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceCustomLabel.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "EmbeddedServiceCustomLabel",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceCustomLabel.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceCustomLabel.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "EmbeddedServiceCustomLabel",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceCustomLabel.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceCustomLabel.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "EmbeddedServiceCustomLabel",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

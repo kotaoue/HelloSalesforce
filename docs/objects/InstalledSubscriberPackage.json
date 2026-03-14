@@ -1,0 +1,112 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 5,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InstalledSubscriberPackage.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InstalledSubscriberPackage.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "InstalledSubscriberPackage",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "インストール済み登録者パッケージ ID",
+      "Label": "インストール済み登録者パッケージ ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InstalledSubscriberPackage.MinPackageVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InstalledSubscriberPackage.MinPackageVersion",
+      "QualifiedApiName": "MinPackageVersionId",
+      "EntityDefinitionId": "InstalledSubscriberPackage",
+      "NamespacePrefix": null,
+      "DeveloperName": "MinPackageVersion",
+      "MasterLabel": "最小パッケージバージョン",
+      "Label": "最小パッケージバージョン",
+      "DataType": "参照関係(登録者パッケージバージョン)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InstalledSubscriberPackage.PackageCategory"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InstalledSubscriberPackage.PackageCategory",
+      "QualifiedApiName": "PackageCategory",
+      "EntityDefinitionId": "InstalledSubscriberPackage",
+      "NamespacePrefix": null,
+      "DeveloperName": "PackageCategory",
+      "MasterLabel": "パッケージカテゴリ",
+      "Label": "パッケージカテゴリ",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InstalledSubscriberPackage.SubscriberPackage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InstalledSubscriberPackage.SubscriberPackage",
+      "QualifiedApiName": "SubscriberPackageId",
+      "EntityDefinitionId": "InstalledSubscriberPackage",
+      "NamespacePrefix": null,
+      "DeveloperName": "SubscriberPackage",
+      "MasterLabel": "登録者パッケージ",
+      "Label": "登録者パッケージ",
+      "DataType": "参照関係(登録者パッケージ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InstalledSubscriberPackage.SubscriberPackageVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InstalledSubscriberPackage.SubscriberPackageVersion",
+      "QualifiedApiName": "SubscriberPackageVersionId",
+      "EntityDefinitionId": "InstalledSubscriberPackage",
+      "NamespacePrefix": null,
+      "DeveloperName": "SubscriberPackageVersion",
+      "MasterLabel": "登録者パッケージバージョン",
+      "Label": "登録者パッケージバージョン",
+      "DataType": "参照関係(登録者パッケージバージョン)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

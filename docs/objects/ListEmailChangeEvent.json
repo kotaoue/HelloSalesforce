@@ -1,0 +1,511 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 24,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.Campaign"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.Campaign",
+      "QualifiedApiName": "CampaignId",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Campaign",
+      "MasterLabel": "キャンペーン",
+      "Label": "キャンペーン",
+      "DataType": "参照関係(キャンペーン)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.ChangeEventHeader"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.ChangeEventHeader",
+      "QualifiedApiName": "ChangeEventHeader",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChangeEventHeader",
+      "MasterLabel": "変更イベントヘッダー",
+      "Label": "変更イベントヘッダー",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.FromAddress"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.FromAddress",
+      "QualifiedApiName": "FromAddress",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "FromAddress",
+      "MasterLabel": "送信元アドレス",
+      "Label": "送信元アドレス",
+      "DataType": "ロングテキストエリア(320)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.FromName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.FromName",
+      "QualifiedApiName": "FromName",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "FromName",
+      "MasterLabel": "差出人名",
+      "Label": "差出人名",
+      "DataType": "テキスト(121)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.HasAttachment"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.HasAttachment",
+      "QualifiedApiName": "HasAttachment",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "HasAttachment",
+      "MasterLabel": "添付あり",
+      "Label": "添付あり",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.HtmlBody"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.HtmlBody",
+      "QualifiedApiName": "HtmlBody",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "HtmlBody",
+      "MasterLabel": "HTML 内容",
+      "Label": "HTML 内容",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.IsTracked"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.IsTracked",
+      "QualifiedApiName": "IsTracked",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsTracked",
+      "MasterLabel": "追跡中",
+      "Label": "追跡中",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者 氏名",
+      "Label": "所有者 氏名",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.PardotAsset"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.PardotAsset",
+      "QualifiedApiName": "PardotAsset",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "PardotAsset",
+      "MasterLabel": "Pardot Asset",
+      "Label": "Pardot Asset",
+      "DataType": "テキスト(100)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.PardotExternalId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.PardotExternalId",
+      "QualifiedApiName": "PardotExternalId",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "PardotExternalId",
+      "MasterLabel": "Pardot External ID",
+      "Label": "Pardot External ID",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.PardotTenant"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.PardotTenant",
+      "QualifiedApiName": "PardotTenant",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "PardotTenant",
+      "MasterLabel": "Pardot Tenant",
+      "Label": "Pardot Tenant",
+      "DataType": "テキスト(100)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.RelatedTo"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.RelatedTo",
+      "QualifiedApiName": "RelatedToId",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "RelatedTo",
+      "MasterLabel": "関連先",
+      "Label": "関連先",
+      "DataType": "参照関係(障害,リード,商談,取引先責任者,ユーザー,ケース,商品,予定招待)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.ReplyToAddress"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.ReplyToAddress",
+      "QualifiedApiName": "ReplyToAddress",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReplyToAddress",
+      "MasterLabel": "返信先アドレス",
+      "Label": "返信先アドレス",
+      "DataType": "ロングテキストエリア(320)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.ScheduledDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.ScheduledDate",
+      "QualifiedApiName": "ScheduledDate",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ScheduledDate",
+      "MasterLabel": "予定日",
+      "Label": "予定日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.SentVia"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.SentVia",
+      "QualifiedApiName": "SentVia",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "SentVia",
+      "MasterLabel": "送信方法",
+      "Label": "送信方法",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.Subject"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.Subject",
+      "QualifiedApiName": "Subject",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Subject",
+      "MasterLabel": "件名",
+      "Label": "件名",
+      "DataType": "ロングテキストエリア(3000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.TextBody"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.TextBody",
+      "QualifiedApiName": "TextBody",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "TextBody",
+      "MasterLabel": "テキスト内容",
+      "Label": "テキスト内容",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.TotalSent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.TotalSent",
+      "QualifiedApiName": "TotalSent",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "TotalSent",
+      "MasterLabel": "送信総数",
+      "Label": "送信総数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

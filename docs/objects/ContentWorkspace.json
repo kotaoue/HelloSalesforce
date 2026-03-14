@@ -1,0 +1,427 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 20,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspace.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspace.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ContentWorkspace",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspace.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspace.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ContentWorkspace",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspace.DefaultRecordType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspace.DefaultRecordType",
+      "QualifiedApiName": "DefaultRecordTypeId",
+      "EntityDefinitionId": "ContentWorkspace",
+      "NamespacePrefix": null,
+      "DeveloperName": "DefaultRecordType",
+      "MasterLabel": "デフォルトのレコードタイプ",
+      "Label": "デフォルトのレコードタイプ",
+      "DataType": "参照関係(レコードタイプ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspace.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspace.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "ContentWorkspace",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "テキストエリア(500)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspace.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspace.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "ContentWorkspace",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "一意の名前",
+      "Label": "一意の名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspace.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspace.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ContentWorkspace",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "ライブラリ ID",
+      "Label": "ライブラリ ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspace.IsInheritContentTypes"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspace.IsInheritContentTypes",
+      "QualifiedApiName": "IsInheritContentTypes",
+      "EntityDefinitionId": "ContentWorkspace",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsInheritContentTypes",
+      "MasterLabel": "レコードタイプの継承",
+      "Label": "レコードタイプの継承",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspace.IsRestrictContentTypes"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspace.IsRestrictContentTypes",
+      "QualifiedApiName": "IsRestrictContentTypes",
+      "EntityDefinitionId": "ContentWorkspace",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsRestrictContentTypes",
+      "MasterLabel": "レコードタイプの制限",
+      "Label": "レコードタイプの制限",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspace.IsRestrictLinkedContentTypes"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspace.IsRestrictLinkedContentTypes",
+      "QualifiedApiName": "IsRestrictLinkedContentTypes",
+      "EntityDefinitionId": "ContentWorkspace",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsRestrictLinkedContentTypes",
+      "MasterLabel": "リンク済みレコードタイプの制限",
+      "Label": "リンク済みレコードタイプの制限",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspace.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspace.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ContentWorkspace",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspace.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspace.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ContentWorkspace",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspace.LastWorkspaceActivityDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspace.LastWorkspaceActivityDate",
+      "QualifiedApiName": "LastWorkspaceActivityDate",
+      "EntityDefinitionId": "ContentWorkspace",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastWorkspaceActivityDate",
+      "MasterLabel": "最終活動日",
+      "Label": "最終活動日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspace.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspace.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "ContentWorkspace",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspace.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspace.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "ContentWorkspace",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspace.RootContentFolder"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspace.RootContentFolder",
+      "QualifiedApiName": "RootContentFolderId",
+      "EntityDefinitionId": "ContentWorkspace",
+      "NamespacePrefix": null,
+      "DeveloperName": "RootContentFolder",
+      "MasterLabel": "コンテンツフォルダー",
+      "Label": "コンテンツフォルダー",
+      "DataType": "参照関係(コンテンツフォルダー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspace.ShouldAddCreatorMembership"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspace.ShouldAddCreatorMembership",
+      "QualifiedApiName": "ShouldAddCreatorMembership",
+      "EntityDefinitionId": "ContentWorkspace",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShouldAddCreatorMembership",
+      "MasterLabel": "作成者メンバーシップを追加",
+      "Label": "作成者メンバーシップを追加",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspace.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspace.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ContentWorkspace",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspace.TagModel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspace.TagModel",
+      "QualifiedApiName": "TagModel",
+      "EntityDefinitionId": "ContentWorkspace",
+      "NamespacePrefix": null,
+      "DeveloperName": "TagModel",
+      "MasterLabel": "タグモデル",
+      "Label": "タグモデル",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspace.WorkspaceImage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspace.WorkspaceImage",
+      "QualifiedApiName": "WorkspaceImageId",
+      "EntityDefinitionId": "ContentWorkspace",
+      "NamespacePrefix": null,
+      "DeveloperName": "WorkspaceImage",
+      "MasterLabel": "ライブラリ画像",
+      "Label": "ライブラリ画像",
+      "DataType": "参照関係(アセットファイル)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspace.WorkspaceType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspace.WorkspaceType",
+      "QualifiedApiName": "WorkspaceType",
+      "EntityDefinitionId": "ContentWorkspace",
+      "NamespacePrefix": null,
+      "DeveloperName": "WorkspaceType",
+      "MasterLabel": "ライブラリタイプ",
+      "Label": "ライブラリタイプ",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 19,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDocumentChangeEvent.ArchivedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDocumentChangeEvent.ArchivedBy",
+      "QualifiedApiName": "ArchivedById",
+      "EntityDefinitionId": "ContentDocumentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ArchivedBy",
+      "MasterLabel": "アーカイブ作成者",
+      "Label": "アーカイブ作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDocumentChangeEvent.ArchivedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDocumentChangeEvent.ArchivedDate",
+      "QualifiedApiName": "ArchivedDate",
+      "EntityDefinitionId": "ContentDocumentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ArchivedDate",
+      "MasterLabel": "アーカイブ日",
+      "Label": "アーカイブ日",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDocumentChangeEvent.ChangeEventHeader"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDocumentChangeEvent.ChangeEventHeader",
+      "QualifiedApiName": "ChangeEventHeader",
+      "EntityDefinitionId": "ContentDocumentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChangeEventHeader",
+      "MasterLabel": "変更イベントヘッダー",
+      "Label": "変更イベントヘッダー",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDocumentChangeEvent.ContentAsset"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDocumentChangeEvent.ContentAsset",
+      "QualifiedApiName": "ContentAssetId",
+      "EntityDefinitionId": "ContentDocumentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ContentAsset",
+      "MasterLabel": "アセットファイルの詳細",
+      "Label": "アセットファイルの詳細",
+      "DataType": "参照関係(アセットファイル)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDocumentChangeEvent.ContentModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDocumentChangeEvent.ContentModifiedDate",
+      "QualifiedApiName": "ContentModifiedDate",
+      "EntityDefinitionId": "ContentDocumentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ContentModifiedDate",
+      "MasterLabel": "コンテンツ更新日",
+      "Label": "コンテンツ更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDocumentChangeEvent.ContentSizeLong"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDocumentChangeEvent.ContentSizeLong",
+      "QualifiedApiName": "ContentSizeLong",
+      "EntityDefinitionId": "ContentDocumentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ContentSizeLong",
+      "MasterLabel": "サイズ",
+      "Label": "サイズ",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDocumentChangeEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDocumentChangeEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ContentDocumentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDocumentChangeEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDocumentChangeEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ContentDocumentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDocumentChangeEvent.IsArchived"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDocumentChangeEvent.IsArchived",
+      "QualifiedApiName": "IsArchived",
+      "EntityDefinitionId": "ContentDocumentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsArchived",
+      "MasterLabel": "アーカイブ済み",
+      "Label": "アーカイブ済み",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDocumentChangeEvent.IsInternalOnly"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDocumentChangeEvent.IsInternalOnly",
+      "QualifiedApiName": "IsInternalOnly",
+      "EntityDefinitionId": "ContentDocumentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsInternalOnly",
+      "MasterLabel": "社内のみ",
+      "Label": "社内のみ",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDocumentChangeEvent.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDocumentChangeEvent.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ContentDocumentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDocumentChangeEvent.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDocumentChangeEvent.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ContentDocumentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDocumentChangeEvent.LatestPublishedVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDocumentChangeEvent.LatestPublishedVersion",
+      "QualifiedApiName": "LatestPublishedVersionId",
+      "EntityDefinitionId": "ContentDocumentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LatestPublishedVersion",
+      "MasterLabel": "最新の公開バージョン",
+      "Label": "最新の公開バージョン",
+      "DataType": "参照関係(コンテンツバージョン)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDocumentChangeEvent.MalwareScanDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDocumentChangeEvent.MalwareScanDate",
+      "QualifiedApiName": "MalwareScanDate",
+      "EntityDefinitionId": "ContentDocumentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "MalwareScanDate",
+      "MasterLabel": "マルウェアスキャン日",
+      "Label": "マルウェアスキャン日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDocumentChangeEvent.MalwareScanStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDocumentChangeEvent.MalwareScanStatus",
+      "QualifiedApiName": "MalwareScanStatus",
+      "EntityDefinitionId": "ContentDocumentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "MalwareScanStatus",
+      "MasterLabel": "マルウェアスキャン状況",
+      "Label": "マルウェアスキャン状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDocumentChangeEvent.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDocumentChangeEvent.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "ContentDocumentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者",
+      "Label": "所有者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDocumentChangeEvent.Parent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDocumentChangeEvent.Parent",
+      "QualifiedApiName": "ParentId",
+      "EntityDefinitionId": "ContentDocumentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Parent",
+      "MasterLabel": "参照先",
+      "Label": "参照先",
+      "DataType": "参照関係(ライブラリ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDocumentChangeEvent.PublishStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDocumentChangeEvent.PublishStatus",
+      "QualifiedApiName": "PublishStatus",
+      "EntityDefinitionId": "ContentDocumentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "PublishStatus",
+      "MasterLabel": "公開状況",
+      "Label": "公開状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentDocumentChangeEvent.Title"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentDocumentChangeEvent.Title",
+      "QualifiedApiName": "Title",
+      "EntityDefinitionId": "ContentDocumentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Title",
+      "MasterLabel": "タイトル",
+      "Label": "タイトル",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

@@ -1,0 +1,448 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 21,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ManagedContentVariant.ContentTypeFullyQualifiedName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ManagedContentVariant.ContentTypeFullyQualifiedName",
+      "QualifiedApiName": "ContentTypeFullyQualifiedName",
+      "EntityDefinitionId": "ManagedContentVariant",
+      "NamespacePrefix": null,
+      "DeveloperName": "ContentTypeFullyQualifiedName",
+      "MasterLabel": "コンテンツタイプ完全修飾名",
+      "Label": "コンテンツタイプ完全修飾名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ManagedContentVariant.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ManagedContentVariant.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ManagedContentVariant",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ManagedContentVariant.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ManagedContentVariant.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ManagedContentVariant",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ManagedContentVariant.HasLocks"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ManagedContentVariant.HasLocks",
+      "QualifiedApiName": "HasLocks",
+      "EntityDefinitionId": "ManagedContentVariant",
+      "NamespacePrefix": null,
+      "DeveloperName": "HasLocks",
+      "MasterLabel": "更新のためにロックされています",
+      "Label": "更新のためにロックされています",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ManagedContentVariant.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ManagedContentVariant.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ManagedContentVariant",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "管理コンテンツバリエーション ID",
+      "Label": "管理コンテンツバリエーション ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ManagedContentVariant.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ManagedContentVariant.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ManagedContentVariant",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ManagedContentVariant.IsPrimary"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ManagedContentVariant.IsPrimary",
+      "QualifiedApiName": "IsPrimary",
+      "EntityDefinitionId": "ManagedContentVariant",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsPrimary",
+      "MasterLabel": "プライマリバリエーション",
+      "Label": "プライマリバリエーション",
+      "DataType": "数式 (チェックボックス)",
+      "IsCalculated": true,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ManagedContentVariant.IsPublished"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ManagedContentVariant.IsPublished",
+      "QualifiedApiName": "IsPublished",
+      "EntityDefinitionId": "ManagedContentVariant",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsPublished",
+      "MasterLabel": "公開済み",
+      "Label": "公開済み",
+      "DataType": "数式 (チェックボックス)",
+      "IsCalculated": true,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ManagedContentVariant.IsReady"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ManagedContentVariant.IsReady",
+      "QualifiedApiName": "IsReady",
+      "EntityDefinitionId": "ManagedContentVariant",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsReady",
+      "MasterLabel": "公開準備完了",
+      "Label": "公開準備完了",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ManagedContentVariant.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ManagedContentVariant.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "ManagedContentVariant",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "言語",
+      "Label": "言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ManagedContentVariant.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ManagedContentVariant.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ManagedContentVariant",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ManagedContentVariant.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ManagedContentVariant.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ManagedContentVariant",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ManagedContentVariant.ManagedContent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ManagedContentVariant.ManagedContent",
+      "QualifiedApiName": "ManagedContentId",
+      "EntityDefinitionId": "ManagedContentVariant",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManagedContent",
+      "MasterLabel": "管理コンテンツ",
+      "Label": "管理コンテンツ",
+      "DataType": "参照関係(管理コンテンツ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ManagedContentVariant.ManagedContentKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ManagedContentVariant.ManagedContentKey",
+      "QualifiedApiName": "ManagedContentKey",
+      "EntityDefinitionId": "ManagedContentVariant",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManagedContentKey",
+      "MasterLabel": "コンテンツキー",
+      "Label": "コンテンツキー",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ManagedContentVariant.ManagedContentVariantStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ManagedContentVariant.ManagedContentVariantStatus",
+      "QualifiedApiName": "ManagedContentVariantStatus",
+      "EntityDefinitionId": "ManagedContentVariant",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManagedContentVariantStatus",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ManagedContentVariant.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ManagedContentVariant.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "ManagedContentVariant",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "タイトル",
+      "Label": "タイトル",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ManagedContentVariant.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ManagedContentVariant.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "ManagedContentVariant",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ManagedContentVariant.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ManagedContentVariant.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ManagedContentVariant",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ManagedContentVariant.UrlName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ManagedContentVariant.UrlName",
+      "QualifiedApiName": "UrlName",
+      "EntityDefinitionId": "ManagedContentVariant",
+      "NamespacePrefix": null,
+      "DeveloperName": "UrlName",
+      "MasterLabel": "コンテンツスラッグ",
+      "Label": "コンテンツスラッグ",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ManagedContentVariant.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ManagedContentVariant.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "ManagedContentVariant",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ManagedContentVariant.VariantType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ManagedContentVariant.VariantType",
+      "QualifiedApiName": "VariantType",
+      "EntityDefinitionId": "ManagedContentVariant",
+      "NamespacePrefix": null,
+      "DeveloperName": "VariantType",
+      "MasterLabel": "バリエーション種別",
+      "Label": "バリエーション種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

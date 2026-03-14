@@ -1,0 +1,280 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 13,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MilestoneCriteriaCondition.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MilestoneCriteriaCondition.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "MilestoneCriteriaCondition",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MilestoneCriteriaCondition.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MilestoneCriteriaCondition.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "MilestoneCriteriaCondition",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MilestoneCriteriaCondition.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MilestoneCriteriaCondition.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "MilestoneCriteriaCondition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "マイルストーン検索条件項目 ID",
+      "Label": "マイルストーン検索条件項目 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MilestoneCriteriaCondition.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MilestoneCriteriaCondition.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "MilestoneCriteriaCondition",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MilestoneCriteriaCondition.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MilestoneCriteriaCondition.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "MilestoneCriteriaCondition",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MilestoneCriteriaCondition.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MilestoneCriteriaCondition.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "MilestoneCriteriaCondition",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MilestoneCriteriaCondition.MilestoneCriteria"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MilestoneCriteriaCondition.MilestoneCriteria",
+      "QualifiedApiName": "MilestoneCriteriaId",
+      "EntityDefinitionId": "MilestoneCriteriaCondition",
+      "NamespacePrefix": null,
+      "DeveloperName": "MilestoneCriteria",
+      "MasterLabel": "MilestoneCriteria",
+      "Label": "MilestoneCriteria",
+      "DataType": "主従関係(マイルストーンの検索条件)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MilestoneCriteriaCondition.Operator"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MilestoneCriteriaCondition.Operator",
+      "QualifiedApiName": "Operator",
+      "EntityDefinitionId": "MilestoneCriteriaCondition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Operator",
+      "MasterLabel": "演算子",
+      "Label": "演算子",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MilestoneCriteriaCondition.SortOrder"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MilestoneCriteriaCondition.SortOrder",
+      "QualifiedApiName": "SortOrder",
+      "EntityDefinitionId": "MilestoneCriteriaCondition",
+      "NamespacePrefix": null,
+      "DeveloperName": "SortOrder",
+      "MasterLabel": "並び替え順",
+      "Label": "並び替え順",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MilestoneCriteriaCondition.SourceField"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MilestoneCriteriaCondition.SourceField",
+      "QualifiedApiName": "SourceField",
+      "EntityDefinitionId": "MilestoneCriteriaCondition",
+      "NamespacePrefix": null,
+      "DeveloperName": "SourceField",
+      "MasterLabel": "ソース項目",
+      "Label": "ソース項目",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MilestoneCriteriaCondition.SourceObject"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MilestoneCriteriaCondition.SourceObject",
+      "QualifiedApiName": "SourceObject",
+      "EntityDefinitionId": "MilestoneCriteriaCondition",
+      "NamespacePrefix": null,
+      "DeveloperName": "SourceObject",
+      "MasterLabel": "ソースオブジェクト",
+      "Label": "ソースオブジェクト",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MilestoneCriteriaCondition.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MilestoneCriteriaCondition.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "MilestoneCriteriaCondition",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MilestoneCriteriaCondition.Value"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MilestoneCriteriaCondition.Value",
+      "QualifiedApiName": "Value",
+      "EntityDefinitionId": "MilestoneCriteriaCondition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Value",
+      "MasterLabel": "値",
+      "Label": "値",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

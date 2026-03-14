@@ -1,0 +1,448 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 21,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartDeliveryGroupChangeEvent.Cart"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartDeliveryGroupChangeEvent.Cart",
+      "QualifiedApiName": "CartId",
+      "EntityDefinitionId": "CartDeliveryGroupChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Cart",
+      "MasterLabel": "カート",
+      "Label": "カート",
+      "DataType": "参照関係(カート)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartDeliveryGroupChangeEvent.ChangeEventHeader"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartDeliveryGroupChangeEvent.ChangeEventHeader",
+      "QualifiedApiName": "ChangeEventHeader",
+      "EntityDefinitionId": "CartDeliveryGroupChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChangeEventHeader",
+      "MasterLabel": "変更イベントヘッダー",
+      "Label": "変更イベントヘッダー",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartDeliveryGroupChangeEvent.CompanyName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartDeliveryGroupChangeEvent.CompanyName",
+      "QualifiedApiName": "CompanyName",
+      "EntityDefinitionId": "CartDeliveryGroupChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CompanyName",
+      "MasterLabel": "会社の名前",
+      "Label": "会社の名前",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartDeliveryGroupChangeEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartDeliveryGroupChangeEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "CartDeliveryGroupChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartDeliveryGroupChangeEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartDeliveryGroupChangeEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "CartDeliveryGroupChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartDeliveryGroupChangeEvent.DeliverToAddress"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartDeliveryGroupChangeEvent.DeliverToAddress",
+      "QualifiedApiName": "DeliverToAddress",
+      "EntityDefinitionId": "CartDeliveryGroupChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeliverToAddress",
+      "MasterLabel": "納品先住所",
+      "Label": "納品先住所",
+      "DataType": "住所",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartDeliveryGroupChangeEvent.DeliverToFirstName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartDeliveryGroupChangeEvent.DeliverToFirstName",
+      "QualifiedApiName": "DeliverToFirstName",
+      "EntityDefinitionId": "CartDeliveryGroupChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeliverToFirstName",
+      "MasterLabel": "配送先(名)",
+      "Label": "配送先(名)",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartDeliveryGroupChangeEvent.DeliverToLastName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartDeliveryGroupChangeEvent.DeliverToLastName",
+      "QualifiedApiName": "DeliverToLastName",
+      "EntityDefinitionId": "CartDeliveryGroupChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeliverToLastName",
+      "MasterLabel": "配送先(姓)",
+      "Label": "配送先(姓)",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartDeliveryGroupChangeEvent.DeliverToName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartDeliveryGroupChangeEvent.DeliverToName",
+      "QualifiedApiName": "DeliverToName",
+      "EntityDefinitionId": "CartDeliveryGroupChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeliverToName",
+      "MasterLabel": "配送先名",
+      "Label": "配送先名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartDeliveryGroupChangeEvent.DesiredDeliveryDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartDeliveryGroupChangeEvent.DesiredDeliveryDate",
+      "QualifiedApiName": "DesiredDeliveryDate",
+      "EntityDefinitionId": "CartDeliveryGroupChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DesiredDeliveryDate",
+      "MasterLabel": "希望配送日",
+      "Label": "希望配送日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartDeliveryGroupChangeEvent.GiftMessage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartDeliveryGroupChangeEvent.GiftMessage",
+      "QualifiedApiName": "GiftMessage",
+      "EntityDefinitionId": "CartDeliveryGroupChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "GiftMessage",
+      "MasterLabel": "ギフトメッセージ",
+      "Label": "ギフトメッセージ",
+      "DataType": "ロングテキストエリア(2000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartDeliveryGroupChangeEvent.GiftToName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartDeliveryGroupChangeEvent.GiftToName",
+      "QualifiedApiName": "GiftToName",
+      "EntityDefinitionId": "CartDeliveryGroupChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "GiftToName",
+      "MasterLabel": "ギフト受取人名",
+      "Label": "ギフト受取人名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartDeliveryGroupChangeEvent.IsDefault"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartDeliveryGroupChangeEvent.IsDefault",
+      "QualifiedApiName": "IsDefault",
+      "EntityDefinitionId": "CartDeliveryGroupChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDefault",
+      "MasterLabel": "デフォルト",
+      "Label": "デフォルト",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartDeliveryGroupChangeEvent.IsGift"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartDeliveryGroupChangeEvent.IsGift",
+      "QualifiedApiName": "IsGift",
+      "EntityDefinitionId": "CartDeliveryGroupChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsGift",
+      "MasterLabel": "これはギフトですか?",
+      "Label": "これはギフトですか?",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartDeliveryGroupChangeEvent.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartDeliveryGroupChangeEvent.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "CartDeliveryGroupChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartDeliveryGroupChangeEvent.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartDeliveryGroupChangeEvent.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "CartDeliveryGroupChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartDeliveryGroupChangeEvent.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartDeliveryGroupChangeEvent.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "CartDeliveryGroupChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "カート配送グループ名",
+      "Label": "カート配送グループ名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartDeliveryGroupChangeEvent.SelectedDeliveryMethod"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartDeliveryGroupChangeEvent.SelectedDeliveryMethod",
+      "QualifiedApiName": "SelectedDeliveryMethodId",
+      "EntityDefinitionId": "CartDeliveryGroupChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "SelectedDeliveryMethod",
+      "MasterLabel": "選択済みの配送方法",
+      "Label": "選択済みの配送方法",
+      "DataType": "参照関係(カート配送グループ化方法)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartDeliveryGroupChangeEvent.ShippingInstructions"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartDeliveryGroupChangeEvent.ShippingInstructions",
+      "QualifiedApiName": "ShippingInstructions",
+      "EntityDefinitionId": "CartDeliveryGroupChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShippingInstructions",
+      "MasterLabel": "配送手順",
+      "Label": "配送手順",
+      "DataType": "ロングテキストエリア(2000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartDeliveryGroupChangeEvent.ShipToPhoneNumber"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartDeliveryGroupChangeEvent.ShipToPhoneNumber",
+      "QualifiedApiName": "ShipToPhoneNumber",
+      "EntityDefinitionId": "CartDeliveryGroupChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShipToPhoneNumber",
+      "MasterLabel": "住所(納入先) に記載されている電話番号",
+      "Label": "住所(納入先) に記載されている電話番号",
+      "DataType": "電話",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartDeliveryGroupChangeEvent.TotalCartItemCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartDeliveryGroupChangeEvent.TotalCartItemCount",
+      "QualifiedApiName": "TotalCartItemCount",
+      "EntityDefinitionId": "CartDeliveryGroupChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "TotalCartItemCount",
+      "MasterLabel": "配送グループのカート品目数合計",
+      "Label": "配送グループのカート品目数合計",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 16,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightFeedback.ActualValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightFeedback.ActualValue",
+      "QualifiedApiName": "ActualValue",
+      "EntityDefinitionId": "AIInsightFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActualValue",
+      "MasterLabel": "実際の値",
+      "Label": "実際の値",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightFeedback.AiFeedback"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightFeedback.AiFeedback",
+      "QualifiedApiName": "AiFeedback",
+      "EntityDefinitionId": "AIInsightFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "AiFeedback",
+      "MasterLabel": "AI インサイトフィードバック",
+      "Label": "AI インサイトフィードバック",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightFeedback.AiInsightFeedbackType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightFeedback.AiInsightFeedbackType",
+      "QualifiedApiName": "AiInsightFeedbackType",
+      "EntityDefinitionId": "AIInsightFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "AiInsightFeedbackType",
+      "MasterLabel": "AI インサイトフィードバック種別",
+      "Label": "AI インサイトフィードバック種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightFeedback.AiRecordInsight"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightFeedback.AiRecordInsight",
+      "QualifiedApiName": "AiRecordInsightId",
+      "EntityDefinitionId": "AIInsightFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "AiRecordInsight",
+      "MasterLabel": "AI レコードインサイト",
+      "Label": "AI レコードインサイト",
+      "DataType": "主従関係(AI レコードインサイト)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightFeedback.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightFeedback.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AIInsightFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightFeedback.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightFeedback.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AIInsightFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightFeedback.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightFeedback.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AIInsightFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "AI インサイトフィードバック ID",
+      "Label": "AI インサイトフィードバック ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightFeedback.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightFeedback.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AIInsightFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightFeedback.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightFeedback.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AIInsightFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightFeedback.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightFeedback.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AIInsightFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightFeedback.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightFeedback.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "AIInsightFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightFeedback.Rank"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightFeedback.Rank",
+      "QualifiedApiName": "Rank",
+      "EntityDefinitionId": "AIInsightFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "Rank",
+      "MasterLabel": "ランク",
+      "Label": "ランク",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightFeedback.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightFeedback.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "AIInsightFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightFeedback.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightFeedback.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AIInsightFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightFeedback.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightFeedback.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "AIInsightFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightFeedback.Value"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightFeedback.Value",
+      "QualifiedApiName": "ValueId",
+      "EntityDefinitionId": "AIInsightFeedback",
+      "NamespacePrefix": null,
+      "DeveloperName": "Value",
+      "MasterLabel": "値",
+      "Label": "値",
+      "DataType": "参照関係(AI Insight Value,AIInsightActions)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 15,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomSetup.ClientName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomSetup.ClientName",
+      "QualifiedApiName": "ClientName",
+      "EntityDefinitionId": "CustomSetup",
+      "NamespacePrefix": null,
+      "DeveloperName": "ClientName",
+      "MasterLabel": "クライアント名",
+      "Label": "クライアント名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomSetup.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomSetup.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "CustomSetup",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomSetup.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomSetup.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "CustomSetup",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomSetup.CustomSetupDefinition"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomSetup.CustomSetupDefinition",
+      "QualifiedApiName": "CustomSetupDefinitionId",
+      "EntityDefinitionId": "CustomSetup",
+      "NamespacePrefix": null,
+      "DeveloperName": "CustomSetupDefinition",
+      "MasterLabel": "カスタム設定の定義",
+      "Label": "カスタム設定の定義",
+      "DataType": "参照関係(カスタム設定の定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomSetup.DataType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomSetup.DataType",
+      "QualifiedApiName": "DataType",
+      "EntityDefinitionId": "CustomSetup",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataType",
+      "MasterLabel": "データ型",
+      "Label": "データ型",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomSetup.DomainSobjectType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomSetup.DomainSobjectType",
+      "QualifiedApiName": "DomainSobjectType",
+      "EntityDefinitionId": "CustomSetup",
+      "NamespacePrefix": null,
+      "DeveloperName": "DomainSobjectType",
+      "MasterLabel": "ドメイン",
+      "Label": "ドメイン",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomSetup.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomSetup.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "CustomSetup",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "カスタム設定 ID",
+      "Label": "カスタム設定 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomSetup.KeyPath"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomSetup.KeyPath",
+      "QualifiedApiName": "KeyPath",
+      "EntityDefinitionId": "CustomSetup",
+      "NamespacePrefix": null,
+      "DeveloperName": "KeyPath",
+      "MasterLabel": "キーパス",
+      "Label": "キーパス",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomSetup.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomSetup.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "CustomSetup",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomSetup.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomSetup.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "CustomSetup",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomSetup.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomSetup.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "CustomSetup",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "マスター表示ラベル",
+      "Label": "マスター表示ラベル",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomSetup.Parent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomSetup.Parent",
+      "QualifiedApiName": "ParentId",
+      "EntityDefinitionId": "CustomSetup",
+      "NamespacePrefix": null,
+      "DeveloperName": "Parent",
+      "MasterLabel": "参照先エンティティ",
+      "Label": "参照先エンティティ",
+      "DataType": "参照関係(組織,プロファイル,ユーザー,Call Center)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomSetup.SobjectType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomSetup.SobjectType",
+      "QualifiedApiName": "SobjectType",
+      "EntityDefinitionId": "CustomSetup",
+      "NamespacePrefix": null,
+      "DeveloperName": "SobjectType",
+      "MasterLabel": "設定の種別",
+      "Label": "設定の種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomSetup.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomSetup.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "CustomSetup",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomSetup.Value"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomSetup.Value",
+      "QualifiedApiName": "Value",
+      "EntityDefinitionId": "CustomSetup",
+      "NamespacePrefix": null,
+      "DeveloperName": "Value",
+      "MasterLabel": "カスタム設定値",
+      "Label": "カスタム設定値",
+      "DataType": "参照関係",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

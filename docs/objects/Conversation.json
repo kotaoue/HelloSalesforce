@@ -1,0 +1,280 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 13,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Conversation.ConversationChannel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Conversation.ConversationChannel",
+      "QualifiedApiName": "ConversationChannelId",
+      "EntityDefinitionId": "Conversation",
+      "NamespacePrefix": null,
+      "DeveloperName": "ConversationChannel",
+      "MasterLabel": "会話チャネル",
+      "Label": "会話チャネル",
+      "DataType": "参照関係(会話チャネル,メッセージングチャネル,Call Center)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Conversation.ConversationIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Conversation.ConversationIdentifier",
+      "QualifiedApiName": "ConversationIdentifier",
+      "EntityDefinitionId": "Conversation",
+      "NamespacePrefix": null,
+      "DeveloperName": "ConversationIdentifier",
+      "MasterLabel": "会話識別子",
+      "Label": "会話識別子",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Conversation.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Conversation.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "Conversation",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Conversation.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Conversation.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "Conversation",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Conversation.EndTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Conversation.EndTime",
+      "QualifiedApiName": "EndTime",
+      "EntityDefinitionId": "Conversation",
+      "NamespacePrefix": null,
+      "DeveloperName": "EndTime",
+      "MasterLabel": "会話終了時刻",
+      "Label": "会話終了時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Conversation.EndTimeMilliSecs"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Conversation.EndTimeMilliSecs",
+      "QualifiedApiName": "EndTimeMilliSecs",
+      "EntityDefinitionId": "Conversation",
+      "NamespacePrefix": null,
+      "DeveloperName": "EndTimeMilliSecs",
+      "MasterLabel": "会話終了時刻のミリ秒部分",
+      "Label": "会話終了時刻のミリ秒部分",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Conversation.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Conversation.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "Conversation",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "会話 ID",
+      "Label": "会話 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Conversation.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Conversation.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "Conversation",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Conversation.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Conversation.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "Conversation",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Conversation.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Conversation.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "Conversation",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Conversation.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Conversation.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "Conversation",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "会話名",
+      "Label": "会話名",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Conversation.StartTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Conversation.StartTime",
+      "QualifiedApiName": "StartTime",
+      "EntityDefinitionId": "Conversation",
+      "NamespacePrefix": null,
+      "DeveloperName": "StartTime",
+      "MasterLabel": "会話開始時刻",
+      "Label": "会話開始時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Conversation.StartTimeMilliSecs"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Conversation.StartTimeMilliSecs",
+      "QualifiedApiName": "StartTimeMilliSecs",
+      "EntityDefinitionId": "Conversation",
+      "NamespacePrefix": null,
+      "DeveloperName": "StartTimeMilliSecs",
+      "MasterLabel": "会話開始時刻のミリ秒部分",
+      "Label": "会話開始時刻のミリ秒部分",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 12,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/McpServerAccess.Active"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "McpServerAccess.Active",
+      "QualifiedApiName": "Active",
+      "EntityDefinitionId": "McpServerAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "Active",
+      "MasterLabel": "The active status of MCP server",
+      "Label": "The active status of MCP server",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/McpServerAccess.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "McpServerAccess.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "McpServerAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/McpServerAccess.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "McpServerAccess.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "McpServerAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/McpServerAccess.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "McpServerAccess.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "McpServerAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/McpServerAccess.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "McpServerAccess.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "McpServerAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "MCP Server Access ID",
+      "Label": "MCP Server Access ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/McpServerAccess.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "McpServerAccess.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "McpServerAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/McpServerAccess.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "McpServerAccess.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "McpServerAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/McpServerAccess.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "McpServerAccess.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "McpServerAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/McpServerAccess.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "McpServerAccess.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "McpServerAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/McpServerAccess.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "McpServerAccess.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "McpServerAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/McpServerAccess.McpServer"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "McpServerAccess.McpServer",
+      "QualifiedApiName": "McpServerId",
+      "EntityDefinitionId": "McpServerAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "McpServer",
+      "MasterLabel": "The Server to which this McpServerAccess belongs",
+      "Label": "The Server to which this McpServerAccess belongs",
+      "DataType": "参照関係(MCP サーバー定義)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/McpServerAccess.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "McpServerAccess.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "McpServerAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

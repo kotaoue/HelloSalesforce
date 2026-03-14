@@ -1,0 +1,217 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 10,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannelHandler.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannelHandler.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "EmbeddedMessagingChannelHandler",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannelHandler.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannelHandler.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "EmbeddedMessagingChannelHandler",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannelHandler.EmbeddedMessagingChannel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannelHandler.EmbeddedMessagingChannel",
+      "QualifiedApiName": "EmbeddedMessagingChannelId",
+      "EntityDefinitionId": "EmbeddedMessagingChannelHandler",
+      "NamespacePrefix": null,
+      "DeveloperName": "EmbeddedMessagingChannel",
+      "MasterLabel": "組み込みメッセージングチャネル",
+      "Label": "組み込みメッセージングチャネル",
+      "DataType": "主従関係(組み込みメッセージングチャネル)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannelHandler.Handler"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannelHandler.Handler",
+      "QualifiedApiName": "Handler",
+      "EntityDefinitionId": "EmbeddedMessagingChannelHandler",
+      "NamespacePrefix": null,
+      "DeveloperName": "Handler",
+      "MasterLabel": "ハンドラー",
+      "Label": "ハンドラー",
+      "DataType": "選択リスト(アクション,Apex クラス)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannelHandler.HandlerFunctionType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannelHandler.HandlerFunctionType",
+      "QualifiedApiName": "HandlerFunctionType",
+      "EntityDefinitionId": "EmbeddedMessagingChannelHandler",
+      "NamespacePrefix": null,
+      "DeveloperName": "HandlerFunctionType",
+      "MasterLabel": "ハンドラー関数種別",
+      "Label": "ハンドラー関数種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannelHandler.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannelHandler.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "EmbeddedMessagingChannelHandler",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "組み込みメッセージングハンドラー ID",
+      "Label": "組み込みメッセージングハンドラー ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannelHandler.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannelHandler.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "EmbeddedMessagingChannelHandler",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannelHandler.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannelHandler.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "EmbeddedMessagingChannelHandler",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannelHandler.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannelHandler.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "EmbeddedMessagingChannelHandler",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannelHandler.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannelHandler.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "EmbeddedMessagingChannelHandler",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

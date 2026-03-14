@@ -1,0 +1,175 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 8,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssistantInteractionShare.AccessLevel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssistantInteractionShare.AccessLevel",
+      "QualifiedApiName": "AccessLevel",
+      "EntityDefinitionId": "AssistantInteractionShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "AccessLevel",
+      "MasterLabel": "カスタムオブジェクトのアクセス権",
+      "Label": "カスタムオブジェクトのアクセス権",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssistantInteractionShare.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssistantInteractionShare.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AssistantInteractionShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "カスタムオブジェクト共有 ID",
+      "Label": "カスタムオブジェクト共有 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssistantInteractionShare.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssistantInteractionShare.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AssistantInteractionShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssistantInteractionShare.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssistantInteractionShare.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AssistantInteractionShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssistantInteractionShare.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssistantInteractionShare.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AssistantInteractionShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssistantInteractionShare.Parent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssistantInteractionShare.Parent",
+      "QualifiedApiName": "ParentId",
+      "EntityDefinitionId": "AssistantInteractionShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "Parent",
+      "MasterLabel": "参照先",
+      "Label": "参照先",
+      "DataType": "参照関係(Assistant Interactions)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssistantInteractionShare.RowCause"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssistantInteractionShare.RowCause",
+      "QualifiedApiName": "RowCause",
+      "EntityDefinitionId": "AssistantInteractionShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "RowCause",
+      "MasterLabel": "テリトリー割り当て方法",
+      "Label": "テリトリー割り当て方法",
+      "DataType": "選択リスト(Apex 共有の理由)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssistantInteractionShare.UserOrGroup"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssistantInteractionShare.UserOrGroup",
+      "QualifiedApiName": "UserOrGroupId",
+      "EntityDefinitionId": "AssistantInteractionShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserOrGroup",
+      "MasterLabel": "ユーザー/グループ",
+      "Label": "ユーザー/グループ",
+      "DataType": "参照関係(ユーザー,グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

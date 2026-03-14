@@ -1,0 +1,154 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 7,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataFeatureDeprovisionEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataFeatureDeprovisionEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DataFeatureDeprovisionEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataFeatureDeprovisionEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataFeatureDeprovisionEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DataFeatureDeprovisionEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataFeatureDeprovisionEvent.Error"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataFeatureDeprovisionEvent.Error",
+      "QualifiedApiName": "Error",
+      "EntityDefinitionId": "DataFeatureDeprovisionEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Error",
+      "MasterLabel": "エラーメッセージ (発生した場合)",
+      "Label": "エラーメッセージ (発生した場合)",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataFeatureDeprovisionEvent.EventUuid"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataFeatureDeprovisionEvent.EventUuid",
+      "QualifiedApiName": "EventUuid",
+      "EntityDefinitionId": "DataFeatureDeprovisionEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventUuid",
+      "MasterLabel": "イベント UUID",
+      "Label": "イベント UUID",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataFeatureDeprovisionEvent.FeatureIdentifierList"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataFeatureDeprovisionEvent.FeatureIdentifierList",
+      "QualifiedApiName": "FeatureIdentifierList",
+      "EntityDefinitionId": "DataFeatureDeprovisionEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "FeatureIdentifierList",
+      "MasterLabel": "機能 ID (カンマ区切り)",
+      "Label": "機能 ID (カンマ区切り)",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataFeatureDeprovisionEvent.ReplayId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataFeatureDeprovisionEvent.ReplayId",
+      "QualifiedApiName": "ReplayId",
+      "EntityDefinitionId": "DataFeatureDeprovisionEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReplayId",
+      "MasterLabel": "再実行 ID",
+      "Label": "再実行 ID",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataFeatureDeprovisionEvent.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataFeatureDeprovisionEvent.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "DataFeatureDeprovisionEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "機能プロビジョニング解除状況",
+      "Label": "機能プロビジョニング解除状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

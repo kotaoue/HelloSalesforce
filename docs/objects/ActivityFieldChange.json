@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldChange.Activity"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldChange.Activity",
+      "QualifiedApiName": "ActivityId",
+      "EntityDefinitionId": "ActivityFieldChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "Activity",
+      "MasterLabel": "活動",
+      "Label": "活動",
+      "DataType": "参照関係(ToDo,行動)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldChange.ChangedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldChange.ChangedBy",
+      "QualifiedApiName": "ChangedById",
+      "EntityDefinitionId": "ActivityFieldChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChangedBy",
+      "MasterLabel": "Changed By",
+      "Label": "Changed By",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldChange.ChangedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldChange.ChangedDate",
+      "QualifiedApiName": "ChangedDate",
+      "EntityDefinitionId": "ActivityFieldChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChangedDate",
+      "MasterLabel": "Changed Date",
+      "Label": "Changed Date",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldChange.DataType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldChange.DataType",
+      "QualifiedApiName": "DataType",
+      "EntityDefinitionId": "ActivityFieldChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataType",
+      "MasterLabel": "データ型",
+      "Label": "データ型",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldChange.DeleteKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldChange.DeleteKey",
+      "QualifiedApiName": "DeleteKey",
+      "EntityDefinitionId": "ActivityFieldChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeleteKey",
+      "MasterLabel": "Delete Key",
+      "Label": "Delete Key",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldChange.FieldName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldChange.FieldName",
+      "QualifiedApiName": "FieldName",
+      "EntityDefinitionId": "ActivityFieldChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "FieldName",
+      "MasterLabel": "項目",
+      "Label": "項目",
+      "DataType": "選択リスト(カスタム項目の定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldChange.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldChange.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ActivityFieldChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "エンティティの履歴 ID",
+      "Label": "エンティティの履歴 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldChange.IsDataAvailable"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldChange.IsDataAvailable",
+      "QualifiedApiName": "IsDataAvailable",
+      "EntityDefinitionId": "ActivityFieldChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDataAvailable",
+      "MasterLabel": "Data Available",
+      "Label": "Data Available",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldChange.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldChange.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ActivityFieldChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldChange.NewValueDateTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldChange.NewValueDateTime",
+      "QualifiedApiName": "NewValueDateTime",
+      "EntityDefinitionId": "ActivityFieldChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewValueDateTime",
+      "MasterLabel": "新規の日付",
+      "Label": "新規の日付",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldChange.NewValueNumber"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldChange.NewValueNumber",
+      "QualifiedApiName": "NewValueNumber",
+      "EntityDefinitionId": "ActivityFieldChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewValueNumber",
+      "MasterLabel": "新規の数値",
+      "Label": "新規の数値",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldChange.NewValueText"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldChange.NewValueText",
+      "QualifiedApiName": "NewValueText",
+      "EntityDefinitionId": "ActivityFieldChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewValueText",
+      "MasterLabel": "新規の文字列値",
+      "Label": "新規の文字列値",
+      "DataType": "テキスト(1000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldChange.OldValueDateTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldChange.OldValueDateTime",
+      "QualifiedApiName": "OldValueDateTime",
+      "EntityDefinitionId": "ActivityFieldChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldValueDateTime",
+      "MasterLabel": "元の日付",
+      "Label": "元の日付",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldChange.OldValueNumber"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldChange.OldValueNumber",
+      "QualifiedApiName": "OldValueNumber",
+      "EntityDefinitionId": "ActivityFieldChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldValueNumber",
+      "MasterLabel": "元の数値",
+      "Label": "元の数値",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldChange.OldValueText"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldChange.OldValueText",
+      "QualifiedApiName": "OldValueText",
+      "EntityDefinitionId": "ActivityFieldChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldValueText",
+      "MasterLabel": "元の文字列値",
+      "Label": "元の文字列値",
+      "DataType": "テキスト(1000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldChange.Operation"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldChange.Operation",
+      "QualifiedApiName": "Operation",
+      "EntityDefinitionId": "ActivityFieldChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "Operation",
+      "MasterLabel": "Change Operation",
+      "Label": "Change Operation",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivityFieldChange.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivityFieldChange.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ActivityFieldChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

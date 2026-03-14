@@ -1,0 +1,427 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 20,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentCreditTransaction.Amount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentCreditTransaction.Amount",
+      "QualifiedApiName": "Amount",
+      "EntityDefinitionId": "PaymentCreditTransaction",
+      "NamespacePrefix": null,
+      "DeveloperName": "Amount",
+      "MasterLabel": "金額",
+      "Label": "金額",
+      "DataType": "通貨(16、2)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentCreditTransaction.AssociatedAccount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentCreditTransaction.AssociatedAccount",
+      "QualifiedApiName": "AssociatedAccountId",
+      "EntityDefinitionId": "PaymentCreditTransaction",
+      "NamespacePrefix": null,
+      "DeveloperName": "AssociatedAccount",
+      "MasterLabel": "関連付けられている取引先",
+      "Label": "関連付けられている取引先",
+      "DataType": "参照関係(取引先)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentCreditTransaction.ClientContext"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentCreditTransaction.ClientContext",
+      "QualifiedApiName": "ClientContext",
+      "EntityDefinitionId": "PaymentCreditTransaction",
+      "NamespacePrefix": null,
+      "DeveloperName": "ClientContext",
+      "MasterLabel": "クライアントコンテキスト",
+      "Label": "クライアントコンテキスト",
+      "DataType": "ロングテキストエリア(2000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentCreditTransaction.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentCreditTransaction.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "PaymentCreditTransaction",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentCreditTransaction.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentCreditTransaction.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "PaymentCreditTransaction",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentCreditTransaction.ExternalReference"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentCreditTransaction.ExternalReference",
+      "QualifiedApiName": "ExternalReference",
+      "EntityDefinitionId": "PaymentCreditTransaction",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExternalReference",
+      "MasterLabel": "外部参照",
+      "Label": "外部参照",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentCreditTransaction.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentCreditTransaction.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "PaymentCreditTransaction",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "支払クレジット取引 ID",
+      "Label": "支払クレジット取引 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentCreditTransaction.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentCreditTransaction.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "PaymentCreditTransaction",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentCreditTransaction.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentCreditTransaction.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "PaymentCreditTransaction",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentCreditTransaction.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentCreditTransaction.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "PaymentCreditTransaction",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentCreditTransaction.LastReferencedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentCreditTransaction.LastReferencedDate",
+      "QualifiedApiName": "LastReferencedDate",
+      "EntityDefinitionId": "PaymentCreditTransaction",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastReferencedDate",
+      "MasterLabel": "最終参照日",
+      "Label": "最終参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentCreditTransaction.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentCreditTransaction.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "PaymentCreditTransaction",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentCreditTransaction.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentCreditTransaction.Name",
+      "QualifiedApiName": "PaymentCreditTransactionNumber",
+      "EntityDefinitionId": "PaymentCreditTransaction",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "支払クレジット取引番号",
+      "Label": "支払クレジット取引番号",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentCreditTransaction.PaymentCredit"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentCreditTransaction.PaymentCredit",
+      "QualifiedApiName": "PaymentCreditId",
+      "EntityDefinitionId": "PaymentCreditTransaction",
+      "NamespacePrefix": null,
+      "DeveloperName": "PaymentCredit",
+      "MasterLabel": "支払クレジット",
+      "Label": "支払クレジット",
+      "DataType": "主従関係(支払クレジット)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentCreditTransaction.ProcessingMode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentCreditTransaction.ProcessingMode",
+      "QualifiedApiName": "ProcessingMode",
+      "EntityDefinitionId": "PaymentCreditTransaction",
+      "NamespacePrefix": null,
+      "DeveloperName": "ProcessingMode",
+      "MasterLabel": "処理モード",
+      "Label": "処理モード",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentCreditTransaction.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentCreditTransaction.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "PaymentCreditTransaction",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentCreditTransaction.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentCreditTransaction.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "PaymentCreditTransaction",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentCreditTransaction.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentCreditTransaction.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "PaymentCreditTransaction",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentCreditTransaction.TransactionMessage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentCreditTransaction.TransactionMessage",
+      "QualifiedApiName": "TransactionMessage",
+      "EntityDefinitionId": "PaymentCreditTransaction",
+      "NamespacePrefix": null,
+      "DeveloperName": "TransactionMessage",
+      "MasterLabel": "取引メッセージ",
+      "Label": "取引メッセージ",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentCreditTransaction.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentCreditTransaction.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "PaymentCreditTransaction",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

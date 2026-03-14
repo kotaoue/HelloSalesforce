@@ -1,0 +1,490 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 23,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MacroUsage.AppContext"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MacroUsage.AppContext",
+      "QualifiedApiName": "AppContext",
+      "EntityDefinitionId": "MacroUsage",
+      "NamespacePrefix": null,
+      "DeveloperName": "AppContext",
+      "MasterLabel": "アプリケーションコンテキスト",
+      "Label": "アプリケーションコンテキスト",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MacroUsage.ConditionCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MacroUsage.ConditionCount",
+      "QualifiedApiName": "ConditionCount",
+      "EntityDefinitionId": "MacroUsage",
+      "NamespacePrefix": null,
+      "DeveloperName": "ConditionCount",
+      "MasterLabel": "条件数",
+      "Label": "条件数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MacroUsage.ContextRecord"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MacroUsage.ContextRecord",
+      "QualifiedApiName": "ContextRecord",
+      "EntityDefinitionId": "MacroUsage",
+      "NamespacePrefix": null,
+      "DeveloperName": "ContextRecord",
+      "MasterLabel": "コンテキストレコード",
+      "Label": "コンテキストレコード",
+      "DataType": "テキスト(18)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MacroUsage.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MacroUsage.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "MacroUsage",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MacroUsage.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MacroUsage.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "MacroUsage",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MacroUsage.DurationInMs"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MacroUsage.DurationInMs",
+      "QualifiedApiName": "DurationInMs",
+      "EntityDefinitionId": "MacroUsage",
+      "NamespacePrefix": null,
+      "DeveloperName": "DurationInMs",
+      "MasterLabel": "期間 (ミリ秒)",
+      "Label": "期間 (ミリ秒)",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MacroUsage.ExecutedInstructionCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MacroUsage.ExecutedInstructionCount",
+      "QualifiedApiName": "ExecutedInstructionCount",
+      "EntityDefinitionId": "MacroUsage",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExecutedInstructionCount",
+      "MasterLabel": "実行された命令数",
+      "Label": "実行された命令数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MacroUsage.ExecutionEndTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MacroUsage.ExecutionEndTime",
+      "QualifiedApiName": "ExecutionEndTime",
+      "EntityDefinitionId": "MacroUsage",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExecutionEndTime",
+      "MasterLabel": "実行終了時刻",
+      "Label": "実行終了時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MacroUsage.ExecutionState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MacroUsage.ExecutionState",
+      "QualifiedApiName": "ExecutionState",
+      "EntityDefinitionId": "MacroUsage",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExecutionState",
+      "MasterLabel": "実行状況",
+      "Label": "実行状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MacroUsage.FailureReason"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MacroUsage.FailureReason",
+      "QualifiedApiName": "FailureReason",
+      "EntityDefinitionId": "MacroUsage",
+      "NamespacePrefix": null,
+      "DeveloperName": "FailureReason",
+      "MasterLabel": "失敗の理由",
+      "Label": "失敗の理由",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MacroUsage.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MacroUsage.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "MacroUsage",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "マクロ利用状況 ID",
+      "Label": "マクロ利用状況 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MacroUsage.InstructionCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MacroUsage.InstructionCount",
+      "QualifiedApiName": "InstructionCount",
+      "EntityDefinitionId": "MacroUsage",
+      "NamespacePrefix": null,
+      "DeveloperName": "InstructionCount",
+      "MasterLabel": "命令数",
+      "Label": "命令数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MacroUsage.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MacroUsage.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "MacroUsage",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MacroUsage.IsFromBulk"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MacroUsage.IsFromBulk",
+      "QualifiedApiName": "IsFromBulk",
+      "EntityDefinitionId": "MacroUsage",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsFromBulk",
+      "MasterLabel": "一括実行から",
+      "Label": "一括実行から",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MacroUsage.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MacroUsage.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "MacroUsage",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MacroUsage.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MacroUsage.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "MacroUsage",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MacroUsage.Macro"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MacroUsage.Macro",
+      "QualifiedApiName": "MacroId",
+      "EntityDefinitionId": "MacroUsage",
+      "NamespacePrefix": null,
+      "DeveloperName": "Macro",
+      "MasterLabel": "マクロ",
+      "Label": "マクロ",
+      "DataType": "参照関係(マクロ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MacroUsage.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MacroUsage.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "MacroUsage",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "マクロ利用状況名",
+      "Label": "マクロ利用状況名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MacroUsage.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MacroUsage.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "MacroUsage",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者 氏名",
+      "Label": "所有者 氏名",
+      "DataType": "参照関係(ユーザー,グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MacroUsage.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MacroUsage.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "MacroUsage",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MacroUsage.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MacroUsage.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "MacroUsage",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MacroUsage.User"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MacroUsage.User",
+      "QualifiedApiName": "UserId",
+      "EntityDefinitionId": "MacroUsage",
+      "NamespacePrefix": null,
+      "DeveloperName": "User",
+      "MasterLabel": "ユーザー",
+      "Label": "ユーザー",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MacroUsage.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MacroUsage.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "MacroUsage",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,532 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 25,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticle.ArchivedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticle.ArchivedBy",
+      "QualifiedApiName": "ArchivedById",
+      "EntityDefinitionId": "KnowledgeArticle",
+      "NamespacePrefix": null,
+      "DeveloperName": "ArchivedBy",
+      "MasterLabel": "アーカイブ作成者",
+      "Label": "アーカイブ作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticle.ArchivedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticle.ArchivedDate",
+      "QualifiedApiName": "ArchivedDate",
+      "EntityDefinitionId": "KnowledgeArticle",
+      "NamespacePrefix": null,
+      "DeveloperName": "ArchivedDate",
+      "MasterLabel": "アーカイブ日",
+      "Label": "アーカイブ日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticle.ArticleNumber"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticle.ArticleNumber",
+      "QualifiedApiName": "ArticleNumber",
+      "EntityDefinitionId": "KnowledgeArticle",
+      "NamespacePrefix": null,
+      "DeveloperName": "ArticleNumber",
+      "MasterLabel": "記事番号",
+      "Label": "記事番号",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticle.CaseAssociationCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticle.CaseAssociationCount",
+      "QualifiedApiName": "CaseAssociationCount",
+      "EntityDefinitionId": "KnowledgeArticle",
+      "NamespacePrefix": null,
+      "DeveloperName": "CaseAssociationCount",
+      "MasterLabel": "ケース関連付け件数",
+      "Label": "ケース関連付け件数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticle.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticle.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "KnowledgeArticle",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticle.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticle.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "KnowledgeArticle",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticle.DraftVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticle.DraftVersion",
+      "QualifiedApiName": "DraftVersionId",
+      "EntityDefinitionId": "KnowledgeArticle",
+      "NamespacePrefix": null,
+      "DeveloperName": "DraftVersion",
+      "MasterLabel": "ドラフト版",
+      "Label": "ドラフト版",
+      "DataType": "参照関係(ナレッジの記事バージョン)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticle.FirstPublishedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticle.FirstPublishedDate",
+      "QualifiedApiName": "FirstPublishedDate",
+      "EntityDefinitionId": "KnowledgeArticle",
+      "NamespacePrefix": null,
+      "DeveloperName": "FirstPublishedDate",
+      "MasterLabel": "初公開日",
+      "Label": "初公開日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticle.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticle.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "KnowledgeArticle",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "ナレッジの記事 ID",
+      "Label": "ナレッジの記事 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticle.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticle.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "KnowledgeArticle",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除済み",
+      "Label": "削除済み",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticle.IsGeneratedByLlm"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticle.IsGeneratedByLlm",
+      "QualifiedApiName": "IsGeneratedByLlm",
+      "EntityDefinitionId": "KnowledgeArticle",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsGeneratedByLlm",
+      "MasterLabel": "大規模言語モデルによって生成",
+      "Label": "大規模言語モデルによって生成",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticle.LastArchivedVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticle.LastArchivedVersion",
+      "QualifiedApiName": "LastArchivedVersionId",
+      "EntityDefinitionId": "KnowledgeArticle",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastArchivedVersion",
+      "MasterLabel": "最新アーカイブ版",
+      "Label": "最新アーカイブ版",
+      "DataType": "参照関係(ナレッジの記事バージョン)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticle.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticle.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "KnowledgeArticle",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticle.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticle.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "KnowledgeArticle",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticle.LastPublishedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticle.LastPublishedDate",
+      "QualifiedApiName": "LastPublishedDate",
+      "EntityDefinitionId": "KnowledgeArticle",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastPublishedDate",
+      "MasterLabel": "最終公開日",
+      "Label": "最終公開日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticle.LastReferencedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticle.LastReferencedDate",
+      "QualifiedApiName": "LastReferencedDate",
+      "EntityDefinitionId": "KnowledgeArticle",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastReferencedDate",
+      "MasterLabel": "最終参照日",
+      "Label": "最終参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticle.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticle.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "KnowledgeArticle",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticle.MasterLanguage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticle.MasterLanguage",
+      "QualifiedApiName": "MasterLanguage",
+      "EntityDefinitionId": "KnowledgeArticle",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLanguage",
+      "MasterLabel": "言語",
+      "Label": "言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticle.MigratedToFromArticle"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticle.MigratedToFromArticle",
+      "QualifiedApiName": "MigratedToFromArticle",
+      "EntityDefinitionId": "KnowledgeArticle",
+      "NamespacePrefix": null,
+      "DeveloperName": "MigratedToFromArticle",
+      "MasterLabel": "古い記事と移行済みの記事間で情報を対応付け中",
+      "Label": "古い記事と移行済みの記事間で情報を対応付け中",
+      "DataType": "テキスト(15)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticle.OnlineVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticle.OnlineVersion",
+      "QualifiedApiName": "OnlineVersionId",
+      "EntityDefinitionId": "KnowledgeArticle",
+      "NamespacePrefix": null,
+      "DeveloperName": "OnlineVersion",
+      "MasterLabel": "オンライン版",
+      "Label": "オンライン版",
+      "DataType": "参照関係(ナレッジの記事バージョン)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticle.Security"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticle.Security",
+      "QualifiedApiName": "SecurityId",
+      "EntityDefinitionId": "KnowledgeArticle",
+      "NamespacePrefix": null,
+      "DeveloperName": "Security",
+      "MasterLabel": "ナレッジの記事バージョン",
+      "Label": "ナレッジの記事バージョン",
+      "DataType": "参照関係(ナレッジの記事バージョン)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticle.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticle.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "KnowledgeArticle",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticle.TaskOwner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticle.TaskOwner",
+      "QualifiedApiName": "TaskOwnerId",
+      "EntityDefinitionId": "KnowledgeArticle",
+      "NamespacePrefix": null,
+      "DeveloperName": "TaskOwner",
+      "MasterLabel": "所有者",
+      "Label": "所有者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticle.Title"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticle.Title",
+      "QualifiedApiName": "Title",
+      "EntityDefinitionId": "KnowledgeArticle",
+      "NamespacePrefix": null,
+      "DeveloperName": "Title",
+      "MasterLabel": "タイトル",
+      "Label": "タイトル",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticle.TotalViewCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticle.TotalViewCount",
+      "QualifiedApiName": "TotalViewCount",
+      "EntityDefinitionId": "KnowledgeArticle",
+      "NamespacePrefix": null,
+      "DeveloperName": "TotalViewCount",
+      "MasterLabel": "合計参照数",
+      "Label": "合計参照数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

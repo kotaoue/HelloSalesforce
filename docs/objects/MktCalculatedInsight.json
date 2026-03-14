@@ -1,0 +1,511 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 24,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktCalculatedInsight.CalculatedInsightStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktCalculatedInsight.CalculatedInsightStatus",
+      "QualifiedApiName": "CalculatedInsightStatus",
+      "EntityDefinitionId": "MktCalculatedInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "CalculatedInsightStatus",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktCalculatedInsight.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktCalculatedInsight.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "MktCalculatedInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktCalculatedInsight.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktCalculatedInsight.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "MktCalculatedInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktCalculatedInsight.ExternalErrorProperties"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktCalculatedInsight.ExternalErrorProperties",
+      "QualifiedApiName": "ExternalErrorProperties",
+      "EntityDefinitionId": "MktCalculatedInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExternalErrorProperties",
+      "MasterLabel": "最終実行状況エラープロパティ",
+      "Label": "最終実行状況エラープロパティ",
+      "DataType": "ロングテキストエリア(128000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktCalculatedInsight.HistoryCi"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktCalculatedInsight.HistoryCi",
+      "QualifiedApiName": "HistoryCiId",
+      "EntityDefinitionId": "MktCalculatedInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "HistoryCi",
+      "MasterLabel": "計算済みインサイト",
+      "Label": "計算済みインサイト",
+      "DataType": "参照関係(計算済みインサイト)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktCalculatedInsight.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktCalculatedInsight.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "MktCalculatedInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "計算済みインサイト ID",
+      "Label": "計算済みインサイト ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktCalculatedInsight.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktCalculatedInsight.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "MktCalculatedInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktCalculatedInsight.IsRemote"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktCalculatedInsight.IsRemote",
+      "QualifiedApiName": "IsRemote",
+      "EntityDefinitionId": "MktCalculatedInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsRemote",
+      "MasterLabel": "リモート",
+      "Label": "リモート",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktCalculatedInsight.LastCalcInsightStatusDateTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktCalculatedInsight.LastCalcInsightStatusDateTime",
+      "QualifiedApiName": "LastCalcInsightStatusDateTime",
+      "EntityDefinitionId": "MktCalculatedInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastCalcInsightStatusDateTime",
+      "MasterLabel": "最終計算インサイト状況日時",
+      "Label": "最終計算インサイト状況日時",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktCalculatedInsight.LastCalcInsightStatusErrorCode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktCalculatedInsight.LastCalcInsightStatusErrorCode",
+      "QualifiedApiName": "LastCalcInsightStatusErrorCode",
+      "EntityDefinitionId": "MktCalculatedInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastCalcInsightStatusErrorCode",
+      "MasterLabel": "最終計算インサイト状況エラーコード",
+      "Label": "最終計算インサイト状況エラーコード",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktCalculatedInsight.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktCalculatedInsight.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "MktCalculatedInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktCalculatedInsight.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktCalculatedInsight.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "MktCalculatedInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktCalculatedInsight.LastReferencedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktCalculatedInsight.LastReferencedDate",
+      "QualifiedApiName": "LastReferencedDate",
+      "EntityDefinitionId": "MktCalculatedInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastReferencedDate",
+      "MasterLabel": "最終参照日",
+      "Label": "最終参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktCalculatedInsight.LastRunDateTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktCalculatedInsight.LastRunDateTime",
+      "QualifiedApiName": "LastRunDateTime",
+      "EntityDefinitionId": "MktCalculatedInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastRunDateTime",
+      "MasterLabel": "最終実行日時",
+      "Label": "最終実行日時",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktCalculatedInsight.LastRunStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktCalculatedInsight.LastRunStatus",
+      "QualifiedApiName": "LastRunStatus",
+      "EntityDefinitionId": "MktCalculatedInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastRunStatus",
+      "MasterLabel": "最終実行状況",
+      "Label": "最終実行状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktCalculatedInsight.LastRunStatusDateTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktCalculatedInsight.LastRunStatusDateTime",
+      "QualifiedApiName": "LastRunStatusDateTime",
+      "EntityDefinitionId": "MktCalculatedInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastRunStatusDateTime",
+      "MasterLabel": "最終実行状況日時",
+      "Label": "最終実行状況日時",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktCalculatedInsight.LastRunStatusErrorCode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktCalculatedInsight.LastRunStatusErrorCode",
+      "QualifiedApiName": "LastRunStatusErrorCode",
+      "EntityDefinitionId": "MktCalculatedInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastRunStatusErrorCode",
+      "MasterLabel": "最終実行状況エラーコード",
+      "Label": "最終実行状況エラーコード",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktCalculatedInsight.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktCalculatedInsight.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "MktCalculatedInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktCalculatedInsight.MktCalcInsightObjectDef"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktCalculatedInsight.MktCalcInsightObjectDef",
+      "QualifiedApiName": "MktCalcInsightObjectDefId",
+      "EntityDefinitionId": "MktCalculatedInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "MktCalcInsightObjectDef",
+      "MasterLabel": "計算済みインサイトオブジェクト定義",
+      "Label": "計算済みインサイトオブジェクト定義",
+      "DataType": "参照関係(計算済みインサイトオブジェクト定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktCalculatedInsight.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktCalculatedInsight.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "MktCalculatedInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "計算済みインサイト名",
+      "Label": "計算済みインサイト名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktCalculatedInsight.OwnedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktCalculatedInsight.OwnedBy",
+      "QualifiedApiName": "OwnedBy",
+      "EntityDefinitionId": "MktCalculatedInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "OwnedBy",
+      "MasterLabel": "所有接続",
+      "Label": "所有接続",
+      "DataType": "テキスト(100)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktCalculatedInsight.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktCalculatedInsight.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "MktCalculatedInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktCalculatedInsight.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktCalculatedInsight.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "MktCalculatedInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktCalculatedInsight.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktCalculatedInsight.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "MktCalculatedInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 18,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OpportunityHistory.Amount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OpportunityHistory.Amount",
+      "QualifiedApiName": "Amount",
+      "EntityDefinitionId": "OpportunityHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Amount",
+      "MasterLabel": "金額",
+      "Label": "金額",
+      "DataType": "通貨(16、2)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OpportunityHistory.CloseDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OpportunityHistory.CloseDate",
+      "QualifiedApiName": "CloseDate",
+      "EntityDefinitionId": "OpportunityHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "CloseDate",
+      "MasterLabel": "完了予定日",
+      "Label": "完了予定日",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OpportunityHistory.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OpportunityHistory.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "OpportunityHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OpportunityHistory.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OpportunityHistory.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "OpportunityHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OpportunityHistory.ExpectedRevenue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OpportunityHistory.ExpectedRevenue",
+      "QualifiedApiName": "ExpectedRevenue",
+      "EntityDefinitionId": "OpportunityHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExpectedRevenue",
+      "MasterLabel": "期待収益",
+      "Label": "期待収益",
+      "DataType": "通貨(16、2)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OpportunityHistory.ForecastCategory"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OpportunityHistory.ForecastCategory",
+      "QualifiedApiName": "ForecastCategory",
+      "EntityDefinitionId": "OpportunityHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "ForecastCategory",
+      "MasterLabel": "売上予測分類へ",
+      "Label": "売上予測分類へ",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OpportunityHistory.FromForecastCategory"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OpportunityHistory.FromForecastCategory",
+      "QualifiedApiName": "FromForecastCategory",
+      "EntityDefinitionId": "OpportunityHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "FromForecastCategory",
+      "MasterLabel": "売上予測分類から",
+      "Label": "売上予測分類から",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OpportunityHistory.FromOpportunityStageName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OpportunityHistory.FromOpportunityStageName",
+      "QualifiedApiName": "FromOpportunityStageName",
+      "EntityDefinitionId": "OpportunityHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "FromOpportunityStageName",
+      "MasterLabel": "商談 フェーズ名から",
+      "Label": "商談 フェーズ名から",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OpportunityHistory.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OpportunityHistory.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "OpportunityHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "商談履歴 ID",
+      "Label": "商談履歴 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OpportunityHistory.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OpportunityHistory.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "OpportunityHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OpportunityHistory.Opportunity"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OpportunityHistory.Opportunity",
+      "QualifiedApiName": "OpportunityId",
+      "EntityDefinitionId": "OpportunityHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Opportunity",
+      "MasterLabel": "商談",
+      "Label": "商談",
+      "DataType": "参照関係(商談)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OpportunityHistory.PrevAmount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OpportunityHistory.PrevAmount",
+      "QualifiedApiName": "PrevAmount",
+      "EntityDefinitionId": "OpportunityHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "PrevAmount",
+      "MasterLabel": "以前の金額",
+      "Label": "以前の金額",
+      "DataType": "通貨(16、2)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OpportunityHistory.PrevCloseDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OpportunityHistory.PrevCloseDate",
+      "QualifiedApiName": "PrevCloseDate",
+      "EntityDefinitionId": "OpportunityHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "PrevCloseDate",
+      "MasterLabel": "以前の完了予定日",
+      "Label": "以前の完了予定日",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OpportunityHistory.PrevForecastUpdate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OpportunityHistory.PrevForecastUpdate",
+      "QualifiedApiName": "PrevForecastUpdate",
+      "EntityDefinitionId": "OpportunityHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "PrevForecastUpdate",
+      "MasterLabel": "以前の売上予測更新",
+      "Label": "以前の売上予測更新",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OpportunityHistory.PrevOpportunityStageUpdate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OpportunityHistory.PrevOpportunityStageUpdate",
+      "QualifiedApiName": "PrevOpportunityStageUpdate",
+      "EntityDefinitionId": "OpportunityHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "PrevOpportunityStageUpdate",
+      "MasterLabel": "以前の商談 フェーズ名",
+      "Label": "以前の商談 フェーズ名",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OpportunityHistory.Probability"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OpportunityHistory.Probability",
+      "QualifiedApiName": "Probability",
+      "EntityDefinitionId": "OpportunityHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Probability",
+      "MasterLabel": "確度",
+      "Label": "確度",
+      "DataType": "パーセント(3、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OpportunityHistory.StageName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OpportunityHistory.StageName",
+      "QualifiedApiName": "StageName",
+      "EntityDefinitionId": "OpportunityHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "StageName",
+      "MasterLabel": "フェーズ名",
+      "Label": "フェーズ名",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OpportunityHistory.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OpportunityHistory.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "OpportunityHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

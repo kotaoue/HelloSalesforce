@@ -1,0 +1,280 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 13,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppOauthConsumer.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppOauthConsumer.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ExtlClntAppOauthConsumer",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppOauthConsumer.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppOauthConsumer.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ExtlClntAppOauthConsumer",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppOauthConsumer.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppOauthConsumer.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "ExtlClntAppOauthConsumer",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppOauthConsumer.ExternalClientApplication"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppOauthConsumer.ExternalClientApplication",
+      "QualifiedApiName": "ExternalClientApplicationId",
+      "EntityDefinitionId": "ExtlClntAppOauthConsumer",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExternalClientApplication",
+      "MasterLabel": "外部クライアントアプリケーション",
+      "Label": "外部クライアントアプリケーション",
+      "DataType": "参照関係(External Client Applications)  (ユニーク)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppOauthConsumer.ExtlClntAppOauthSettings"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppOauthConsumer.ExtlClntAppOauthSettings",
+      "QualifiedApiName": "ExtlClntAppOauthSettingsId",
+      "EntityDefinitionId": "ExtlClntAppOauthConsumer",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExtlClntAppOauthSettings",
+      "MasterLabel": "外部クライアントアプリケーション OAuth 設定",
+      "Label": "外部クライアントアプリケーション OAuth 設定",
+      "DataType": "参照関係(外部クライアントアプリケーション OAuth 設定)  (ユニーク)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppOauthConsumer.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppOauthConsumer.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ExtlClntAppOauthConsumer",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "外部クライアントアプリケーショングローバル OAuth コンシューマー ID",
+      "Label": "外部クライアントアプリケーショングローバル OAuth コンシューマー ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppOauthConsumer.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppOauthConsumer.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ExtlClntAppOauthConsumer",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppOauthConsumer.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppOauthConsumer.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "ExtlClntAppOauthConsumer",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppOauthConsumer.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppOauthConsumer.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ExtlClntAppOauthConsumer",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppOauthConsumer.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppOauthConsumer.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ExtlClntAppOauthConsumer",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppOauthConsumer.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppOauthConsumer.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "ExtlClntAppOauthConsumer",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppOauthConsumer.OauthConsumer"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppOauthConsumer.OauthConsumer",
+      "QualifiedApiName": "OauthConsumerId",
+      "EntityDefinitionId": "ExtlClntAppOauthConsumer",
+      "NamespacePrefix": null,
+      "DeveloperName": "OauthConsumer",
+      "MasterLabel": "OAuth コンシューマー",
+      "Label": "OAuth コンシューマー",
+      "DataType": "参照関係(リモートアクセス,外部クライアントアプリケーションローカル OAuth コンシューマー)  (ユニーク)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppOauthConsumer.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppOauthConsumer.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ExtlClntAppOauthConsumer",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

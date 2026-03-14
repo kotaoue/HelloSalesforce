@@ -1,0 +1,175 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 8,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticleViewStat.Channel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticleViewStat.Channel",
+      "QualifiedApiName": "Channel",
+      "EntityDefinitionId": "KnowledgeArticleViewStat",
+      "NamespacePrefix": null,
+      "DeveloperName": "Channel",
+      "MasterLabel": "チャネル",
+      "Label": "チャネル",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticleViewStat.HalfLife"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticleViewStat.HalfLife",
+      "QualifiedApiName": "HalfLife",
+      "EntityDefinitionId": "KnowledgeArticleViewStat",
+      "NamespacePrefix": null,
+      "DeveloperName": "HalfLife",
+      "MasterLabel": "半減期",
+      "Label": "半減期",
+      "DataType": "数値(17、1)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticleViewStat.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticleViewStat.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "KnowledgeArticleViewStat",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "ビューの統計 ID",
+      "Label": "ビューの統計 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticleViewStat.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticleViewStat.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "KnowledgeArticleViewStat",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticleViewStat.NormalizedScore"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticleViewStat.NormalizedScore",
+      "QualifiedApiName": "NormalizedScore",
+      "EntityDefinitionId": "KnowledgeArticleViewStat",
+      "NamespacePrefix": null,
+      "DeveloperName": "NormalizedScore",
+      "MasterLabel": "スコア",
+      "Label": "スコア",
+      "DataType": "数値(14、4)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticleViewStat.Parent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticleViewStat.Parent",
+      "QualifiedApiName": "ParentId",
+      "EntityDefinitionId": "KnowledgeArticleViewStat",
+      "NamespacePrefix": null,
+      "DeveloperName": "Parent",
+      "MasterLabel": "参照先",
+      "Label": "参照先",
+      "DataType": "参照関係(ナレッジの記事)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticleViewStat.ReferenceDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticleViewStat.ReferenceDate",
+      "QualifiedApiName": "ReferenceDate",
+      "EntityDefinitionId": "KnowledgeArticleViewStat",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReferenceDate",
+      "MasterLabel": "参照日",
+      "Label": "参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/KnowledgeArticleViewStat.ViewCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeArticleViewStat.ViewCount",
+      "QualifiedApiName": "ViewCount",
+      "EntityDefinitionId": "KnowledgeArticleViewStat",
+      "NamespacePrefix": null,
+      "DeveloperName": "ViewCount",
+      "MasterLabel": "ビューの合計数",
+      "Label": "ビューの合計数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

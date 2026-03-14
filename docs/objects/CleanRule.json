@@ -1,0 +1,511 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 24,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CleanRule.CleanDataService"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CleanRule.CleanDataService",
+      "QualifiedApiName": "CleanDataServiceId",
+      "EntityDefinitionId": "CleanRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "CleanDataService",
+      "MasterLabel": "データサービス",
+      "Label": "データサービス",
+      "DataType": "参照関係(データサービス)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CleanRule.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CleanRule.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "CleanRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CleanRule.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CleanRule.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "CleanRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CleanRule.DataAssessmentStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CleanRule.DataAssessmentStatus",
+      "QualifiedApiName": "DataAssessmentStatus",
+      "EntityDefinitionId": "CleanRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataAssessmentStatus",
+      "MasterLabel": "データ評価状況",
+      "Label": "データ評価状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CleanRule.DataAssessmentStatusChangeDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CleanRule.DataAssessmentStatusChangeDate",
+      "QualifiedApiName": "DataAssessmentStatusChangeDate",
+      "EntityDefinitionId": "CleanRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataAssessmentStatusChangeDate",
+      "MasterLabel": "データ評価状況変更日",
+      "Label": "データ評価状況変更日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CleanRule.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CleanRule.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "CleanRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "テキストエリア(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CleanRule.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CleanRule.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "CleanRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "オブジェクト名",
+      "Label": "オブジェクト名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CleanRule.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CleanRule.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "CleanRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "データインテグレーションルール ID",
+      "Label": "データインテグレーションルール ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CleanRule.IsBulkEnabled"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CleanRule.IsBulkEnabled",
+      "QualifiedApiName": "IsBulkEnabled",
+      "EntityDefinitionId": "CleanRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsBulkEnabled",
+      "MasterLabel": "一括",
+      "Label": "一括",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CleanRule.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CleanRule.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "CleanRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CleanRule.IsSilentSaveEnabled"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CleanRule.IsSilentSaveEnabled",
+      "QualifiedApiName": "IsSilentSaveEnabled",
+      "EntityDefinitionId": "CleanRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsSilentSaveEnabled",
+      "MasterLabel": "最後に変更された情報を維持",
+      "Label": "最後に変更された情報を維持",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CleanRule.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CleanRule.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "CleanRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CleanRule.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CleanRule.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "CleanRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CleanRule.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CleanRule.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "CleanRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CleanRule.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CleanRule.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "CleanRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CleanRule.MatchConfidence"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CleanRule.MatchConfidence",
+      "QualifiedApiName": "MatchConfidence",
+      "EntityDefinitionId": "CleanRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "MatchConfidence",
+      "MasterLabel": "一致を決定するための最少スコア",
+      "Label": "一致を決定するための最少スコア",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CleanRule.MatchRule"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CleanRule.MatchRule",
+      "QualifiedApiName": "MatchRule",
+      "EntityDefinitionId": "CleanRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "MatchRule",
+      "MasterLabel": "一致ルール",
+      "Label": "一致ルール",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CleanRule.OperatingMode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CleanRule.OperatingMode",
+      "QualifiedApiName": "OperatingMode",
+      "EntityDefinitionId": "CleanRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "OperatingMode",
+      "MasterLabel": "操作モード",
+      "Label": "操作モード",
+      "DataType": "ビットベクター",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CleanRule.ShouldBypassTriggers"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CleanRule.ShouldBypassTriggers",
+      "QualifiedApiName": "ShouldBypassTriggers",
+      "EntityDefinitionId": "CleanRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShouldBypassTriggers",
+      "MasterLabel": "トリガーをスキップ",
+      "Label": "トリガーをスキップ",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CleanRule.ShouldBypassWorkflow"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CleanRule.ShouldBypassWorkflow",
+      "QualifiedApiName": "ShouldBypassWorkflow",
+      "EntityDefinitionId": "CleanRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShouldBypassWorkflow",
+      "MasterLabel": "ワークフロールールをスキップ",
+      "Label": "ワークフロールールをスキップ",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CleanRule.SobjectType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CleanRule.SobjectType",
+      "QualifiedApiName": "SobjectType",
+      "EntityDefinitionId": "CleanRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "SobjectType",
+      "MasterLabel": "オブジェクト",
+      "Label": "オブジェクト",
+      "DataType": "選択リスト(カスタムオブジェクトの定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CleanRule.SourceSobjectType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CleanRule.SourceSobjectType",
+      "QualifiedApiName": "SourceSobjectType",
+      "EntityDefinitionId": "CleanRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "SourceSobjectType",
+      "MasterLabel": "ソースオブジェクト",
+      "Label": "ソースオブジェクト",
+      "DataType": "選択リスト(カスタムオブジェクトの定義)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CleanRule.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CleanRule.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "CleanRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "現在の状況",
+      "Label": "現在の状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CleanRule.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CleanRule.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "CleanRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,490 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 23,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiJobRun.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiJobRun.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AiJobRun",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiJobRun.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiJobRun.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AiJobRun",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiJobRun.EndTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiJobRun.EndTime",
+      "QualifiedApiName": "EndTime",
+      "EntityDefinitionId": "AiJobRun",
+      "NamespacePrefix": null,
+      "DeveloperName": "EndTime",
+      "MasterLabel": "終了時刻",
+      "Label": "終了時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiJobRun.ErrorCode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiJobRun.ErrorCode",
+      "QualifiedApiName": "ErrorCode",
+      "EntityDefinitionId": "AiJobRun",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorCode",
+      "MasterLabel": "エラーコード",
+      "Label": "エラーコード",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiJobRun.ErrorMessage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiJobRun.ErrorMessage",
+      "QualifiedApiName": "ErrorMessage",
+      "EntityDefinitionId": "AiJobRun",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorMessage",
+      "MasterLabel": "エラーメッセージ",
+      "Label": "エラーメッセージ",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiJobRun.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiJobRun.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AiJobRun",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "AI ジョブ実行 ID",
+      "Label": "AI ジョブ実行 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiJobRun.InputIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiJobRun.InputIdentifier",
+      "QualifiedApiName": "InputIdentifier",
+      "EntityDefinitionId": "AiJobRun",
+      "NamespacePrefix": null,
+      "DeveloperName": "InputIdentifier",
+      "MasterLabel": "入力ファイル",
+      "Label": "入力ファイル",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiJobRun.InternalTarget"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiJobRun.InternalTarget",
+      "QualifiedApiName": "InternalTarget",
+      "EntityDefinitionId": "AiJobRun",
+      "NamespacePrefix": null,
+      "DeveloperName": "InternalTarget",
+      "MasterLabel": "内部対象",
+      "Label": "内部対象",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiJobRun.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiJobRun.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AiJobRun",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiJobRun.JobRefIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiJobRun.JobRefIdentifier",
+      "QualifiedApiName": "JobRefIdentifier",
+      "EntityDefinitionId": "AiJobRun",
+      "NamespacePrefix": null,
+      "DeveloperName": "JobRefIdentifier",
+      "MasterLabel": "ジョブ参照",
+      "Label": "ジョブ参照",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiJobRun.JobType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiJobRun.JobType",
+      "QualifiedApiName": "JobType",
+      "EntityDefinitionId": "AiJobRun",
+      "NamespacePrefix": null,
+      "DeveloperName": "JobType",
+      "MasterLabel": "ジョブ種別",
+      "Label": "ジョブ種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiJobRun.Label"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiJobRun.Label",
+      "QualifiedApiName": "Label",
+      "EntityDefinitionId": "AiJobRun",
+      "NamespacePrefix": null,
+      "DeveloperName": "Label",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiJobRun.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiJobRun.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AiJobRun",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiJobRun.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiJobRun.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AiJobRun",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiJobRun.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiJobRun.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "AiJobRun",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiJobRun.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiJobRun.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "AiJobRun",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者 氏名",
+      "Label": "所有者 氏名",
+      "DataType": "参照関係(ユーザー,グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiJobRun.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiJobRun.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "AiJobRun",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiJobRun.ResultIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiJobRun.ResultIdentifier",
+      "QualifiedApiName": "ResultIdentifier",
+      "EntityDefinitionId": "AiJobRun",
+      "NamespacePrefix": null,
+      "DeveloperName": "ResultIdentifier",
+      "MasterLabel": "結果ファイル",
+      "Label": "結果ファイル",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiJobRun.StartTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiJobRun.StartTime",
+      "QualifiedApiName": "StartTime",
+      "EntityDefinitionId": "AiJobRun",
+      "NamespacePrefix": null,
+      "DeveloperName": "StartTime",
+      "MasterLabel": "開始時刻",
+      "Label": "開始時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiJobRun.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiJobRun.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "AiJobRun",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiJobRun.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiJobRun.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AiJobRun",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiJobRun.Target"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiJobRun.Target",
+      "QualifiedApiName": "Target",
+      "EntityDefinitionId": "AiJobRun",
+      "NamespacePrefix": null,
+      "DeveloperName": "Target",
+      "MasterLabel": "対象",
+      "Label": "対象",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiJobRun.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiJobRun.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "AiJobRun",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

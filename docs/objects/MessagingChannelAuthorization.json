@@ -1,0 +1,238 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 11,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingChannelAuthorization.AuthIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingChannelAuthorization.AuthIdentifier",
+      "QualifiedApiName": "AuthIdentifier",
+      "EntityDefinitionId": "MessagingChannelAuthorization",
+      "NamespacePrefix": null,
+      "DeveloperName": "AuthIdentifier",
+      "MasterLabel": "認証識別子",
+      "Label": "認証識別子",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingChannelAuthorization.AuthorizationConfig"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingChannelAuthorization.AuthorizationConfig",
+      "QualifiedApiName": "AuthorizationConfigId",
+      "EntityDefinitionId": "MessagingChannelAuthorization",
+      "NamespacePrefix": null,
+      "DeveloperName": "AuthorizationConfig",
+      "MasterLabel": "認証設定",
+      "Label": "認証設定",
+      "DataType": "参照関係(公開鍵証明書セット,認証プロバイダー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingChannelAuthorization.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingChannelAuthorization.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "MessagingChannelAuthorization",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingChannelAuthorization.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingChannelAuthorization.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "MessagingChannelAuthorization",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingChannelAuthorization.Disabled"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingChannelAuthorization.Disabled",
+      "QualifiedApiName": "Disabled",
+      "EntityDefinitionId": "MessagingChannelAuthorization",
+      "NamespacePrefix": null,
+      "DeveloperName": "Disabled",
+      "MasterLabel": "無効",
+      "Label": "無効",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingChannelAuthorization.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingChannelAuthorization.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "MessagingChannelAuthorization",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "メッセージングチャネル認証 ID",
+      "Label": "メッセージングチャネル認証 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingChannelAuthorization.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingChannelAuthorization.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "MessagingChannelAuthorization",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingChannelAuthorization.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingChannelAuthorization.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "MessagingChannelAuthorization",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingChannelAuthorization.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingChannelAuthorization.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "MessagingChannelAuthorization",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingChannelAuthorization.MessagingChannel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingChannelAuthorization.MessagingChannel",
+      "QualifiedApiName": "MessagingChannelId",
+      "EntityDefinitionId": "MessagingChannelAuthorization",
+      "NamespacePrefix": null,
+      "DeveloperName": "MessagingChannel",
+      "MasterLabel": "メッセージングチャネル",
+      "Label": "メッセージングチャネル",
+      "DataType": "主従関係(メッセージングチャネル)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingChannelAuthorization.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingChannelAuthorization.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "MessagingChannelAuthorization",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,532 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 25,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceBranding.ContrastInvertedColor"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceBranding.ContrastInvertedColor",
+      "QualifiedApiName": "ContrastInvertedColor",
+      "EntityDefinitionId": "EmbeddedServiceBranding",
+      "NamespacePrefix": null,
+      "DeveloperName": "ContrastInvertedColor",
+      "MasterLabel": "コントラスト反転色",
+      "Label": "コントラスト反転色",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceBranding.ContrastPrimaryColor"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceBranding.ContrastPrimaryColor",
+      "QualifiedApiName": "ContrastPrimaryColor",
+      "EntityDefinitionId": "EmbeddedServiceBranding",
+      "NamespacePrefix": null,
+      "DeveloperName": "ContrastPrimaryColor",
+      "MasterLabel": "コントラストのプライマリ色",
+      "Label": "コントラストのプライマリ色",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceBranding.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceBranding.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "EmbeddedServiceBranding",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceBranding.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceBranding.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "EmbeddedServiceBranding",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceBranding.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceBranding.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "EmbeddedServiceBranding",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceBranding.EmbeddedServiceConfig"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceBranding.EmbeddedServiceConfig",
+      "QualifiedApiName": "EmbeddedServiceConfigId",
+      "EntityDefinitionId": "EmbeddedServiceBranding",
+      "NamespacePrefix": null,
+      "DeveloperName": "EmbeddedServiceConfig",
+      "MasterLabel": "組み込みサービスリリース",
+      "Label": "組み込みサービスリリース",
+      "DataType": "参照関係(組み込みサービスリリース)  (ユニーク)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceBranding.Font"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceBranding.Font",
+      "QualifiedApiName": "Font",
+      "EntityDefinitionId": "EmbeddedServiceBranding",
+      "NamespacePrefix": null,
+      "DeveloperName": "Font",
+      "MasterLabel": "フォント",
+      "Label": "フォント",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceBranding.FullName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceBranding.FullName",
+      "QualifiedApiName": "FullName",
+      "EntityDefinitionId": "EmbeddedServiceBranding",
+      "NamespacePrefix": null,
+      "DeveloperName": "FullName",
+      "MasterLabel": "氏名",
+      "Label": "氏名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceBranding.Height"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceBranding.Height",
+      "QualifiedApiName": "Height",
+      "EntityDefinitionId": "EmbeddedServiceBranding",
+      "NamespacePrefix": null,
+      "DeveloperName": "Height",
+      "MasterLabel": "高さ",
+      "Label": "高さ",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceBranding.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceBranding.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "EmbeddedServiceBranding",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "組み込みサービスブランド設定 ID",
+      "Label": "組み込みサービスブランド設定 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceBranding.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceBranding.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "EmbeddedServiceBranding",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceBranding.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceBranding.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "EmbeddedServiceBranding",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceBranding.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceBranding.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "EmbeddedServiceBranding",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceBranding.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceBranding.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "EmbeddedServiceBranding",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceBranding.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceBranding.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "EmbeddedServiceBranding",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceBranding.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceBranding.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "EmbeddedServiceBranding",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceBranding.Metadata"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceBranding.Metadata",
+      "QualifiedApiName": "Metadata",
+      "EntityDefinitionId": "EmbeddedServiceBranding",
+      "NamespacePrefix": null,
+      "DeveloperName": "Metadata",
+      "MasterLabel": "メタデータ",
+      "Label": "メタデータ",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceBranding.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceBranding.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "EmbeddedServiceBranding",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceBranding.NavBarColor"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceBranding.NavBarColor",
+      "QualifiedApiName": "NavBarColor",
+      "EntityDefinitionId": "EmbeddedServiceBranding",
+      "NamespacePrefix": null,
+      "DeveloperName": "NavBarColor",
+      "MasterLabel": "ナビゲーションバーの色",
+      "Label": "ナビゲーションバーの色",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceBranding.NavBarTextColor"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceBranding.NavBarTextColor",
+      "QualifiedApiName": "NavBarTextColor",
+      "EntityDefinitionId": "EmbeddedServiceBranding",
+      "NamespacePrefix": null,
+      "DeveloperName": "NavBarTextColor",
+      "MasterLabel": "ナビゲーションバーのテキストの色",
+      "Label": "ナビゲーションバーのテキストの色",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceBranding.PrimaryColor"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceBranding.PrimaryColor",
+      "QualifiedApiName": "PrimaryColor",
+      "EntityDefinitionId": "EmbeddedServiceBranding",
+      "NamespacePrefix": null,
+      "DeveloperName": "PrimaryColor",
+      "MasterLabel": "プライマリ色",
+      "Label": "プライマリ色",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceBranding.SecondaryColor"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceBranding.SecondaryColor",
+      "QualifiedApiName": "SecondaryColor",
+      "EntityDefinitionId": "EmbeddedServiceBranding",
+      "NamespacePrefix": null,
+      "DeveloperName": "SecondaryColor",
+      "MasterLabel": "セカンダリ色",
+      "Label": "セカンダリ色",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceBranding.SecondaryNavBarColor"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceBranding.SecondaryNavBarColor",
+      "QualifiedApiName": "SecondaryNavBarColor",
+      "EntityDefinitionId": "EmbeddedServiceBranding",
+      "NamespacePrefix": null,
+      "DeveloperName": "SecondaryNavBarColor",
+      "MasterLabel": "セカンダリナビゲーションバーの色",
+      "Label": "セカンダリナビゲーションバーの色",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceBranding.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceBranding.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "EmbeddedServiceBranding",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceBranding.Width"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceBranding.Width",
+      "QualifiedApiName": "Width",
+      "EntityDefinitionId": "EmbeddedServiceBranding",
+      "NamespacePrefix": null,
+      "DeveloperName": "Width",
+      "MasterLabel": "幅",
+      "Label": "幅",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

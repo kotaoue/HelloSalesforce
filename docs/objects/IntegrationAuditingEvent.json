@@ -1,0 +1,406 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 19,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegrationAuditingEvent.Context"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegrationAuditingEvent.Context",
+      "QualifiedApiName": "Context",
+      "EntityDefinitionId": "IntegrationAuditingEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Context",
+      "MasterLabel": "Context",
+      "Label": "Context",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegrationAuditingEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegrationAuditingEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "IntegrationAuditingEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegrationAuditingEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegrationAuditingEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "IntegrationAuditingEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegrationAuditingEvent.EntityType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegrationAuditingEvent.EntityType",
+      "QualifiedApiName": "EntityType",
+      "EntityDefinitionId": "IntegrationAuditingEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EntityType",
+      "MasterLabel": "エンティティ種別",
+      "Label": "エンティティ種別",
+      "DataType": "テキスト(120)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegrationAuditingEvent.EventDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegrationAuditingEvent.EventDate",
+      "QualifiedApiName": "EventDate",
+      "EntityDefinitionId": "IntegrationAuditingEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventDate",
+      "MasterLabel": "イベント日",
+      "Label": "イベント日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegrationAuditingEvent.EventIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegrationAuditingEvent.EventIdentifier",
+      "QualifiedApiName": "EventIdentifier",
+      "EntityDefinitionId": "IntegrationAuditingEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventIdentifier",
+      "MasterLabel": "イベント識別子",
+      "Label": "イベント識別子",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegrationAuditingEvent.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegrationAuditingEvent.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "IntegrationAuditingEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Integration Auditing Events ID",
+      "Label": "Integration Auditing Events ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegrationAuditingEvent.Issuer"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegrationAuditingEvent.Issuer",
+      "QualifiedApiName": "Issuer",
+      "EntityDefinitionId": "IntegrationAuditingEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Issuer",
+      "MasterLabel": "Issuer",
+      "Label": "Issuer",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegrationAuditingEvent.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegrationAuditingEvent.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "IntegrationAuditingEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegrationAuditingEvent.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegrationAuditingEvent.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "IntegrationAuditingEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegrationAuditingEvent.LoginKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegrationAuditingEvent.LoginKey",
+      "QualifiedApiName": "LoginKey",
+      "EntityDefinitionId": "IntegrationAuditingEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LoginKey",
+      "MasterLabel": "ログインキー",
+      "Label": "ログインキー",
+      "DataType": "テキスト(24)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegrationAuditingEvent.Operation"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegrationAuditingEvent.Operation",
+      "QualifiedApiName": "Operation",
+      "EntityDefinitionId": "IntegrationAuditingEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Operation",
+      "MasterLabel": "操作",
+      "Label": "操作",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegrationAuditingEvent.RelatedEventIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegrationAuditingEvent.RelatedEventIdentifier",
+      "QualifiedApiName": "RelatedEventIdentifier",
+      "EntityDefinitionId": "IntegrationAuditingEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "RelatedEventIdentifier",
+      "MasterLabel": "関連イベント識別子",
+      "Label": "関連イベント識別子",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegrationAuditingEvent.SessionKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegrationAuditingEvent.SessionKey",
+      "QualifiedApiName": "SessionKey",
+      "EntityDefinitionId": "IntegrationAuditingEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "SessionKey",
+      "MasterLabel": "セッションキー",
+      "Label": "セッションキー",
+      "DataType": "テキスト(24)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegrationAuditingEvent.SessionLevel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegrationAuditingEvent.SessionLevel",
+      "QualifiedApiName": "SessionLevel",
+      "EntityDefinitionId": "IntegrationAuditingEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "SessionLevel",
+      "MasterLabel": "セッションレベル",
+      "Label": "セッションレベル",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegrationAuditingEvent.SourceIp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegrationAuditingEvent.SourceIp",
+      "QualifiedApiName": "SourceIp",
+      "EntityDefinitionId": "IntegrationAuditingEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "SourceIp",
+      "MasterLabel": "アクセス元 IP",
+      "Label": "アクセス元 IP",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegrationAuditingEvent.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegrationAuditingEvent.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "IntegrationAuditingEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegrationAuditingEvent.User"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegrationAuditingEvent.User",
+      "QualifiedApiName": "UserId",
+      "EntityDefinitionId": "IntegrationAuditingEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "User",
+      "MasterLabel": "ユーザー",
+      "Label": "ユーザー",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IntegrationAuditingEvent.Username"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IntegrationAuditingEvent.Username",
+      "QualifiedApiName": "Username",
+      "EntityDefinitionId": "IntegrationAuditingEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Username",
+      "MasterLabel": "ユーザー名",
+      "Label": "ユーザー名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

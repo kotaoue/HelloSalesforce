@@ -1,0 +1,238 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 11,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBounceEvent.BouncedAddress"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBounceEvent.BouncedAddress",
+      "QualifiedApiName": "BouncedAddress",
+      "EntityDefinitionId": "EmailBounceEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "BouncedAddress",
+      "MasterLabel": "バウンスされたアドレス",
+      "Label": "バウンスされたアドレス",
+      "DataType": "テキスト(5000)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBounceEvent.BounceDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBounceEvent.BounceDate",
+      "QualifiedApiName": "BounceDate",
+      "EntityDefinitionId": "EmailBounceEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "BounceDate",
+      "MasterLabel": "不達発生日",
+      "Label": "不達発生日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBounceEvent.BouncedObject"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBounceEvent.BouncedObject",
+      "QualifiedApiName": "BouncedObjectId",
+      "EntityDefinitionId": "EmailBounceEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "BouncedObject",
+      "MasterLabel": "バウンスされたオブジェクト",
+      "Label": "バウンスされたオブジェクト",
+      "DataType": "参照関係(取引先責任者,リード)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBounceEvent.Classification"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBounceEvent.Classification",
+      "QualifiedApiName": "Classification",
+      "EntityDefinitionId": "EmailBounceEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Classification",
+      "MasterLabel": "バウンス分類",
+      "Label": "バウンス分類",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBounceEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBounceEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "EmailBounceEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBounceEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBounceEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "EmailBounceEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBounceEvent.ErrorMessage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBounceEvent.ErrorMessage",
+      "QualifiedApiName": "ErrorMessage",
+      "EntityDefinitionId": "EmailBounceEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorMessage",
+      "MasterLabel": "エラーメッセージ",
+      "Label": "エラーメッセージ",
+      "DataType": "テキスト(5000)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBounceEvent.EventUuid"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBounceEvent.EventUuid",
+      "QualifiedApiName": "EventUuid",
+      "EntityDefinitionId": "EmailBounceEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventUuid",
+      "MasterLabel": "イベント UUID",
+      "Label": "イベント UUID",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBounceEvent.ReplayId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBounceEvent.ReplayId",
+      "QualifiedApiName": "ReplayId",
+      "EntityDefinitionId": "EmailBounceEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReplayId",
+      "MasterLabel": "再実行 ID",
+      "Label": "再実行 ID",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBounceEvent.SenderAddress"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBounceEvent.SenderAddress",
+      "QualifiedApiName": "SenderAddress",
+      "EntityDefinitionId": "EmailBounceEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "SenderAddress",
+      "MasterLabel": "送信者アドレス",
+      "Label": "送信者アドレス",
+      "DataType": "テキスト(5000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailBounceEvent.ShouldGenerateDsn"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailBounceEvent.ShouldGenerateDsn",
+      "QualifiedApiName": "ShouldGenerateDsn",
+      "EntityDefinitionId": "EmailBounceEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShouldGenerateDsn",
+      "MasterLabel": "DSN を生成する必要がある",
+      "Label": "DSN を生成する必要がある",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 11,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FeedRevision.Action"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FeedRevision.Action",
+      "QualifiedApiName": "Action",
+      "EntityDefinitionId": "FeedRevision",
+      "NamespacePrefix": null,
+      "DeveloperName": "Action",
+      "MasterLabel": "アクション",
+      "Label": "アクション",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FeedRevision.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FeedRevision.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "FeedRevision",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FeedRevision.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FeedRevision.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "FeedRevision",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FeedRevision.EditedAttribute"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FeedRevision.EditedAttribute",
+      "QualifiedApiName": "EditedAttribute",
+      "EntityDefinitionId": "FeedRevision",
+      "NamespacePrefix": null,
+      "DeveloperName": "EditedAttribute",
+      "MasterLabel": "編集された属性",
+      "Label": "編集された属性",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FeedRevision.FeedEntity"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FeedRevision.FeedEntity",
+      "QualifiedApiName": "FeedEntityId",
+      "EntityDefinitionId": "FeedRevision",
+      "NamespacePrefix": null,
+      "DeveloperName": "FeedEntity",
+      "MasterLabel": "フィードエンティティ",
+      "Label": "フィードエンティティ",
+      "DataType": "参照関係(フィード項目,フィードコメント)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FeedRevision.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FeedRevision.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "FeedRevision",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "フィードリビジョン ID",
+      "Label": "フィードリビジョン ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FeedRevision.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FeedRevision.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "FeedRevision",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FeedRevision.IsValueRichText"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FeedRevision.IsValueRichText",
+      "QualifiedApiName": "IsValueRichText",
+      "EntityDefinitionId": "FeedRevision",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsValueRichText",
+      "MasterLabel": "値がリッチテキスト",
+      "Label": "値がリッチテキスト",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FeedRevision.Revision"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FeedRevision.Revision",
+      "QualifiedApiName": "Revision",
+      "EntityDefinitionId": "FeedRevision",
+      "NamespacePrefix": null,
+      "DeveloperName": "Revision",
+      "MasterLabel": "リビジョン",
+      "Label": "リビジョン",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FeedRevision.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FeedRevision.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "FeedRevision",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FeedRevision.Value"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FeedRevision.Value",
+      "QualifiedApiName": "Value",
+      "EntityDefinitionId": "FeedRevision",
+      "NamespacePrefix": null,
+      "DeveloperName": "Value",
+      "MasterLabel": "値",
+      "Label": "値",
+      "DataType": "ロングテキストエリア(10000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

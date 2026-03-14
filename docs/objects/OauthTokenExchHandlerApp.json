@@ -1,0 +1,301 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 14,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OauthTokenExchHandlerApp.ApexExecutionUser"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OauthTokenExchHandlerApp.ApexExecutionUser",
+      "QualifiedApiName": "ApexExecutionUserId",
+      "EntityDefinitionId": "OauthTokenExchHandlerApp",
+      "NamespacePrefix": null,
+      "DeveloperName": "ApexExecutionUser",
+      "MasterLabel": "Apex 実行ユーザー",
+      "Label": "Apex 実行ユーザー",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OauthTokenExchHandlerApp.Application"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OauthTokenExchHandlerApp.Application",
+      "QualifiedApiName": "ApplicationId",
+      "EntityDefinitionId": "OauthTokenExchHandlerApp",
+      "NamespacePrefix": null,
+      "DeveloperName": "Application",
+      "MasterLabel": "アプリケーション",
+      "Label": "アプリケーション",
+      "DataType": "参照関係(アプリケーション)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OauthTokenExchHandlerApp.ConnectedApplication"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OauthTokenExchHandlerApp.ConnectedApplication",
+      "QualifiedApiName": "ConnectedApplicationId",
+      "EntityDefinitionId": "OauthTokenExchHandlerApp",
+      "NamespacePrefix": null,
+      "DeveloperName": "ConnectedApplication",
+      "MasterLabel": "接続アプリケーション",
+      "Label": "接続アプリケーション",
+      "DataType": "参照関係(接続アプリケーション)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OauthTokenExchHandlerApp.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OauthTokenExchHandlerApp.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "OauthTokenExchHandlerApp",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OauthTokenExchHandlerApp.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OauthTokenExchHandlerApp.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "OauthTokenExchHandlerApp",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OauthTokenExchHandlerApp.ExternalClientApplication"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OauthTokenExchHandlerApp.ExternalClientApplication",
+      "QualifiedApiName": "ExternalClientApplicationId",
+      "EntityDefinitionId": "OauthTokenExchHandlerApp",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExternalClientApplication",
+      "MasterLabel": "外部クライアントアプリケーション",
+      "Label": "外部クライアントアプリケーション",
+      "DataType": "参照関係(External Client Applications)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OauthTokenExchHandlerApp.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OauthTokenExchHandlerApp.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "OauthTokenExchHandlerApp",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Oauth トークン Exchange ハンドラーアプリケーション ID",
+      "Label": "Oauth トークン Exchange ハンドラーアプリケーション ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OauthTokenExchHandlerApp.IsDefault"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OauthTokenExchHandlerApp.IsDefault",
+      "QualifiedApiName": "IsDefault",
+      "EntityDefinitionId": "OauthTokenExchHandlerApp",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDefault",
+      "MasterLabel": "デフォルト",
+      "Label": "デフォルト",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OauthTokenExchHandlerApp.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OauthTokenExchHandlerApp.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "OauthTokenExchHandlerApp",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OauthTokenExchHandlerApp.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OauthTokenExchHandlerApp.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "OauthTokenExchHandlerApp",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OauthTokenExchHandlerApp.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OauthTokenExchHandlerApp.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "OauthTokenExchHandlerApp",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OauthTokenExchHandlerApp.OauthConsumer"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OauthTokenExchHandlerApp.OauthConsumer",
+      "QualifiedApiName": "OauthConsumerId",
+      "EntityDefinitionId": "OauthTokenExchHandlerApp",
+      "NamespacePrefix": null,
+      "DeveloperName": "OauthConsumer",
+      "MasterLabel": "Oauth コンシューマー",
+      "Label": "Oauth コンシューマー",
+      "DataType": "参照関係(リモートアクセス)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OauthTokenExchHandlerApp.OauthTokenExchangeHandler"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OauthTokenExchHandlerApp.OauthTokenExchangeHandler",
+      "QualifiedApiName": "OauthTokenExchangeHandlerId",
+      "EntityDefinitionId": "OauthTokenExchHandlerApp",
+      "NamespacePrefix": null,
+      "DeveloperName": "OauthTokenExchangeHandler",
+      "MasterLabel": "OAuth トークン Exchange ハンドラー",
+      "Label": "OAuth トークン Exchange ハンドラー",
+      "DataType": "参照関係(OAuth トークン Exchange ハンドラー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OauthTokenExchHandlerApp.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OauthTokenExchHandlerApp.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "OauthTokenExchHandlerApp",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,532 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 25,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataConnection.ConnectionMethod"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktDataConnection.ConnectionMethod",
+      "QualifiedApiName": "ConnectionMethod",
+      "EntityDefinitionId": "MktDataConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "ConnectionMethod",
+      "MasterLabel": "接続方法",
+      "Label": "接続方法",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataConnection.ConnectionState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktDataConnection.ConnectionState",
+      "QualifiedApiName": "ConnectionState",
+      "EntityDefinitionId": "MktDataConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "ConnectionState",
+      "MasterLabel": "接続状態",
+      "Label": "接続状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataConnection.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktDataConnection.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "MktDataConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataConnection.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktDataConnection.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "MktDataConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataConnection.DataConnectorType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktDataConnection.DataConnectorType",
+      "QualifiedApiName": "DataConnectorType",
+      "EntityDefinitionId": "MktDataConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataConnectorType",
+      "MasterLabel": "データコネクタタイプ",
+      "Label": "データコネクタタイプ",
+      "DataType": "選択リスト(データコネクタ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataConnection.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktDataConnection.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "MktDataConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataConnection.ExternalRecordIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktDataConnection.ExternalRecordIdentifier",
+      "QualifiedApiName": "ExternalRecordIdentifier",
+      "EntityDefinitionId": "MktDataConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExternalRecordIdentifier",
+      "MasterLabel": "外部レコード識別子",
+      "Label": "外部レコード識別子",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataConnection.FullName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktDataConnection.FullName",
+      "QualifiedApiName": "FullName",
+      "EntityDefinitionId": "MktDataConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "FullName",
+      "MasterLabel": "データ接続名",
+      "Label": "データ接続名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataConnection.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktDataConnection.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "MktDataConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "データ接続 ID",
+      "Label": "データ接続 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataConnection.IsActivityEnabled"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktDataConnection.IsActivityEnabled",
+      "QualifiedApiName": "IsActivityEnabled",
+      "EntityDefinitionId": "MktDataConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsActivityEnabled",
+      "MasterLabel": "アクティビティが有効",
+      "Label": "アクティビティが有効",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataConnection.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktDataConnection.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "MktDataConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataConnection.IsSentosEnabled"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktDataConnection.IsSentosEnabled",
+      "QualifiedApiName": "IsSentosEnabled",
+      "EntityDefinitionId": "MktDataConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsSentosEnabled",
+      "MasterLabel": "SentOS が有効",
+      "Label": "SentOS が有効",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataConnection.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktDataConnection.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "MktDataConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataConnection.LastDataChangeStatusErrorCode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktDataConnection.LastDataChangeStatusErrorCode",
+      "QualifiedApiName": "LastDataChangeStatusErrorCode",
+      "EntityDefinitionId": "MktDataConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastDataChangeStatusErrorCode",
+      "MasterLabel": "データ変更状況の最終更新エラーコード",
+      "Label": "データ変更状況の最終更新エラーコード",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataConnection.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktDataConnection.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "MktDataConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataConnection.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktDataConnection.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "MktDataConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataConnection.LastSyncDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktDataConnection.LastSyncDate",
+      "QualifiedApiName": "LastSyncDate",
+      "EntityDefinitionId": "MktDataConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastSyncDate",
+      "MasterLabel": "最終同期日",
+      "Label": "最終同期日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataConnection.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktDataConnection.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "MktDataConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataConnection.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktDataConnection.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "MktDataConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataConnection.Metadata"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktDataConnection.Metadata",
+      "QualifiedApiName": "Metadata",
+      "EntityDefinitionId": "MktDataConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "Metadata",
+      "MasterLabel": "メタデータ",
+      "Label": "メタデータ",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataConnection.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktDataConnection.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "MktDataConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataConnection.OutboundConnection"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktDataConnection.OutboundConnection",
+      "QualifiedApiName": "OutboundConnectionId",
+      "EntityDefinitionId": "MktDataConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "OutboundConnection",
+      "MasterLabel": "アウトバウンドネットワーク接続",
+      "Label": "アウトバウンドネットワーク接続",
+      "DataType": "参照関係(発信ネットワーク接続)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataConnection.ShouldAutoCreatePolicies"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktDataConnection.ShouldAutoCreatePolicies",
+      "QualifiedApiName": "ShouldAutoCreatePolicies",
+      "EntityDefinitionId": "MktDataConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShouldAutoCreatePolicies",
+      "MasterLabel": "ポリシーの自動作成が必要",
+      "Label": "ポリシーの自動作成が必要",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataConnection.SyncStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktDataConnection.SyncStatus",
+      "QualifiedApiName": "SyncStatus",
+      "EntityDefinitionId": "MktDataConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "SyncStatus",
+      "MasterLabel": "同期状況",
+      "Label": "同期状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataConnection.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktDataConnection.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "MktDataConnection",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

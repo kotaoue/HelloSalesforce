@@ -1,0 +1,217 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 10,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailMessageRelation.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailMessageRelation.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "EmailMessageRelation",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailMessageRelation.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailMessageRelation.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "EmailMessageRelation",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailMessageRelation.EmailMessage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailMessageRelation.EmailMessage",
+      "QualifiedApiName": "EmailMessageId",
+      "EntityDefinitionId": "EmailMessageRelation",
+      "NamespacePrefix": null,
+      "DeveloperName": "EmailMessage",
+      "MasterLabel": "メールメッセージ",
+      "Label": "メールメッセージ",
+      "DataType": "参照関係(メールメッセージ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailMessageRelation.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailMessageRelation.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "EmailMessageRelation",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "メールメッセージリレーション ID",
+      "Label": "メールメッセージリレーション ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailMessageRelation.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailMessageRelation.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "EmailMessageRelation",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailMessageRelation.Relation"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailMessageRelation.Relation",
+      "QualifiedApiName": "RelationId",
+      "EntityDefinitionId": "EmailMessageRelation",
+      "NamespacePrefix": null,
+      "DeveloperName": "Relation",
+      "MasterLabel": "リレーション",
+      "Label": "リレーション",
+      "DataType": "参照関係(取引先責任者,リード,ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailMessageRelation.RelationAddress"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailMessageRelation.RelationAddress",
+      "QualifiedApiName": "RelationAddress",
+      "EntityDefinitionId": "EmailMessageRelation",
+      "NamespacePrefix": null,
+      "DeveloperName": "RelationAddress",
+      "MasterLabel": "リレーションアドレス",
+      "Label": "リレーションアドレス",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailMessageRelation.RelationObjectType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailMessageRelation.RelationObjectType",
+      "QualifiedApiName": "RelationObjectType",
+      "EntityDefinitionId": "EmailMessageRelation",
+      "NamespacePrefix": null,
+      "DeveloperName": "RelationObjectType",
+      "MasterLabel": "リレーションオブジェクト種別",
+      "Label": "リレーションオブジェクト種別",
+      "DataType": "テキスト(50)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailMessageRelation.RelationType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailMessageRelation.RelationType",
+      "QualifiedApiName": "RelationType",
+      "EntityDefinitionId": "EmailMessageRelation",
+      "NamespacePrefix": null,
+      "DeveloperName": "RelationType",
+      "MasterLabel": "リレーション種別",
+      "Label": "リレーション種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailMessageRelation.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailMessageRelation.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "EmailMessageRelation",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

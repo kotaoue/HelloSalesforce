@@ -1,0 +1,217 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 10,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowElementTestCoverage.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowElementTestCoverage.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "FlowElementTestCoverage",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowElementTestCoverage.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowElementTestCoverage.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "FlowElementTestCoverage",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowElementTestCoverage.ElementName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowElementTestCoverage.ElementName",
+      "QualifiedApiName": "ElementName",
+      "EntityDefinitionId": "FlowElementTestCoverage",
+      "NamespacePrefix": null,
+      "DeveloperName": "ElementName",
+      "MasterLabel": "フロー要素名",
+      "Label": "フロー要素名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowElementTestCoverage.FlowTestCoverage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowElementTestCoverage.FlowTestCoverage",
+      "QualifiedApiName": "FlowTestCoverageId",
+      "EntityDefinitionId": "FlowElementTestCoverage",
+      "NamespacePrefix": null,
+      "DeveloperName": "FlowTestCoverage",
+      "MasterLabel": "フローテストカバー率",
+      "Label": "フローテストカバー率",
+      "DataType": "主従関係(フローテストカバー率レコード (フローバージョンへのテストメソッドの関連付け (例: MyTestClass.myTestMethod で MyFlow バージョン 2 をコール)))",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowElementTestCoverage.FlowVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowElementTestCoverage.FlowVersion",
+      "QualifiedApiName": "FlowVersionId",
+      "EntityDefinitionId": "FlowElementTestCoverage",
+      "NamespacePrefix": null,
+      "DeveloperName": "FlowVersion",
+      "MasterLabel": "インタラクション定義バージョン",
+      "Label": "インタラクション定義バージョン",
+      "DataType": "参照関係(フローのバージョン)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowElementTestCoverage.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowElementTestCoverage.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "FlowElementTestCoverage",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "フロー要素テストカバー率 ID",
+      "Label": "フロー要素テストカバー率 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowElementTestCoverage.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowElementTestCoverage.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "FlowElementTestCoverage",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowElementTestCoverage.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowElementTestCoverage.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "FlowElementTestCoverage",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowElementTestCoverage.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowElementTestCoverage.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "FlowElementTestCoverage",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowElementTestCoverage.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowElementTestCoverage.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "FlowElementTestCoverage",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

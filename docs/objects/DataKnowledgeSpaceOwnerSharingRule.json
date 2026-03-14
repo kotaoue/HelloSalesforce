@@ -1,0 +1,280 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 13,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpaceOwnerSharingRule.AccessLevel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSpaceOwnerSharingRule.AccessLevel",
+      "QualifiedApiName": "AccessLevel",
+      "EntityDefinitionId": "DataKnowledgeSpaceOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "AccessLevel",
+      "MasterLabel": "カスタムオブジェクトのアクセス権",
+      "Label": "カスタムオブジェクトのアクセス権",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpaceOwnerSharingRule.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSpaceOwnerSharingRule.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DataKnowledgeSpaceOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpaceOwnerSharingRule.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSpaceOwnerSharingRule.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DataKnowledgeSpaceOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpaceOwnerSharingRule.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSpaceOwnerSharingRule.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "DataKnowledgeSpaceOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "テキストエリア(1000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpaceOwnerSharingRule.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSpaceOwnerSharingRule.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "DataKnowledgeSpaceOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "API 参照名",
+      "Label": "API 参照名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpaceOwnerSharingRule.Group"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSpaceOwnerSharingRule.Group",
+      "QualifiedApiName": "GroupId",
+      "EntityDefinitionId": "DataKnowledgeSpaceOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Group",
+      "MasterLabel": "グループ",
+      "Label": "グループ",
+      "DataType": "参照関係(グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpaceOwnerSharingRule.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSpaceOwnerSharingRule.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DataKnowledgeSpaceOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "カスタムオブジェクト所有者ルール ID",
+      "Label": "カスタムオブジェクト所有者ルール ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpaceOwnerSharingRule.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSpaceOwnerSharingRule.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DataKnowledgeSpaceOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpaceOwnerSharingRule.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSpaceOwnerSharingRule.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DataKnowledgeSpaceOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpaceOwnerSharingRule.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSpaceOwnerSharingRule.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "DataKnowledgeSpaceOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpaceOwnerSharingRule.Options"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSpaceOwnerSharingRule.Options",
+      "QualifiedApiName": "Options",
+      "EntityDefinitionId": "DataKnowledgeSpaceOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Options",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val Options not found in section udd_CustomObjectOwnerSharingRule",
+      "Label": "__MISSING LABEL__ PropertyFile - val Options not found in section udd_CustomObjectOwnerSharingRule",
+      "DataType": "ビットベクター",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpaceOwnerSharingRule.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSpaceOwnerSharingRule.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DataKnowledgeSpaceOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpaceOwnerSharingRule.UserOrGroup"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSpaceOwnerSharingRule.UserOrGroup",
+      "QualifiedApiName": "UserOrGroupId",
+      "EntityDefinitionId": "DataKnowledgeSpaceOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserOrGroup",
+      "MasterLabel": "ユーザー/グループ",
+      "Label": "ユーザー/グループ",
+      "DataType": "参照関係(グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

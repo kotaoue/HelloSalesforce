@@ -1,0 +1,406 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 19,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PartyConsentChangeEvent.Action"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PartyConsentChangeEvent.Action",
+      "QualifiedApiName": "Action",
+      "EntityDefinitionId": "PartyConsentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Action",
+      "MasterLabel": "アクション",
+      "Label": "アクション",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PartyConsentChangeEvent.BusinessBrand"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PartyConsentChangeEvent.BusinessBrand",
+      "QualifiedApiName": "BusinessBrandId",
+      "EntityDefinitionId": "PartyConsentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "BusinessBrand",
+      "MasterLabel": "ビジネスブランド",
+      "Label": "ビジネスブランド",
+      "DataType": "参照関係(ビジネスブランド)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PartyConsentChangeEvent.CaptureContactPointType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PartyConsentChangeEvent.CaptureContactPointType",
+      "QualifiedApiName": "CaptureContactPointType",
+      "EntityDefinitionId": "PartyConsentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CaptureContactPointType",
+      "MasterLabel": "同意キャプチャ連絡先種別",
+      "Label": "同意キャプチャ連絡先種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PartyConsentChangeEvent.CaptureDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PartyConsentChangeEvent.CaptureDate",
+      "QualifiedApiName": "CaptureDate",
+      "EntityDefinitionId": "PartyConsentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CaptureDate",
+      "MasterLabel": "同意キャプチャ日時",
+      "Label": "同意キャプチャ日時",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PartyConsentChangeEvent.CaptureSource"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PartyConsentChangeEvent.CaptureSource",
+      "QualifiedApiName": "CaptureSource",
+      "EntityDefinitionId": "PartyConsentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CaptureSource",
+      "MasterLabel": "同意キャプチャ元",
+      "Label": "同意キャプチャ元",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PartyConsentChangeEvent.ChangeEventHeader"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PartyConsentChangeEvent.ChangeEventHeader",
+      "QualifiedApiName": "ChangeEventHeader",
+      "EntityDefinitionId": "PartyConsentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChangeEventHeader",
+      "MasterLabel": "変更イベントヘッダー",
+      "Label": "変更イベントヘッダー",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PartyConsentChangeEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PartyConsentChangeEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "PartyConsentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PartyConsentChangeEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PartyConsentChangeEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "PartyConsentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PartyConsentChangeEvent.DataUsePurpose"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PartyConsentChangeEvent.DataUsePurpose",
+      "QualifiedApiName": "DataUsePurposeId",
+      "EntityDefinitionId": "PartyConsentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataUsePurpose",
+      "MasterLabel": "データ使用目的",
+      "Label": "データ使用目的",
+      "DataType": "参照関係(データ使用目的)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PartyConsentChangeEvent.DoubleConsentCaptureDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PartyConsentChangeEvent.DoubleConsentCaptureDate",
+      "QualifiedApiName": "DoubleConsentCaptureDate",
+      "EntityDefinitionId": "PartyConsentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DoubleConsentCaptureDate",
+      "MasterLabel": "二重同意キャプチャ日時",
+      "Label": "二重同意キャプチャ日時",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PartyConsentChangeEvent.EffectiveFrom"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PartyConsentChangeEvent.EffectiveFrom",
+      "QualifiedApiName": "EffectiveFrom",
+      "EntityDefinitionId": "PartyConsentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EffectiveFrom",
+      "MasterLabel": "有効開始日",
+      "Label": "有効開始日",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PartyConsentChangeEvent.EffectiveTo"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PartyConsentChangeEvent.EffectiveTo",
+      "QualifiedApiName": "EffectiveTo",
+      "EntityDefinitionId": "PartyConsentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EffectiveTo",
+      "MasterLabel": "有効終了日",
+      "Label": "有効終了日",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PartyConsentChangeEvent.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PartyConsentChangeEvent.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "PartyConsentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PartyConsentChangeEvent.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PartyConsentChangeEvent.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "PartyConsentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PartyConsentChangeEvent.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PartyConsentChangeEvent.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "PartyConsentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PartyConsentChangeEvent.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PartyConsentChangeEvent.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "PartyConsentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者 氏名",
+      "Label": "所有者 氏名",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PartyConsentChangeEvent.Party"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PartyConsentChangeEvent.Party",
+      "QualifiedApiName": "PartyId",
+      "EntityDefinitionId": "PartyConsentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Party",
+      "MasterLabel": "関係者",
+      "Label": "関係者",
+      "DataType": "参照関係(個人)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PartyConsentChangeEvent.PartyRole"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PartyConsentChangeEvent.PartyRole",
+      "QualifiedApiName": "PartyRoleId",
+      "EntityDefinitionId": "PartyConsentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "PartyRole",
+      "MasterLabel": "関係者ロール",
+      "Label": "関係者ロール",
+      "DataType": "参照関係(顧客,販売業者)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PartyConsentChangeEvent.PrivacyConsentStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PartyConsentChangeEvent.PrivacyConsentStatus",
+      "QualifiedApiName": "PrivacyConsentStatus",
+      "EntityDefinitionId": "PartyConsentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "PrivacyConsentStatus",
+      "MasterLabel": "プライバシーに関する同意状況",
+      "Label": "プライバシーに関する同意状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

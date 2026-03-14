@@ -1,0 +1,385 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 18,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceMenuItem.Channel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceMenuItem.Channel",
+      "QualifiedApiName": "ChannelId",
+      "EntityDefinitionId": "EmbeddedServiceMenuItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "Channel",
+      "MasterLabel": "チャネル",
+      "Label": "チャネル",
+      "DataType": "参照関係(組み込みサービスリリース,メッセージングチャネル)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceMenuItem.ChannelType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceMenuItem.ChannelType",
+      "QualifiedApiName": "ChannelType",
+      "EntityDefinitionId": "EmbeddedServiceMenuItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChannelType",
+      "MasterLabel": "チャネル種別",
+      "Label": "チャネル種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceMenuItem.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceMenuItem.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "EmbeddedServiceMenuItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceMenuItem.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceMenuItem.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "EmbeddedServiceMenuItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceMenuItem.CustomUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceMenuItem.CustomUrl",
+      "QualifiedApiName": "CustomUrl",
+      "EntityDefinitionId": "EmbeddedServiceMenuItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "CustomUrl",
+      "MasterLabel": "カスタム URL",
+      "Label": "カスタム URL",
+      "DataType": "URL(1000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceMenuItem.DisplayOrder"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceMenuItem.DisplayOrder",
+      "QualifiedApiName": "DisplayOrder",
+      "EntityDefinitionId": "EmbeddedServiceMenuItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "DisplayOrder",
+      "MasterLabel": "表示順序",
+      "Label": "表示順序",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceMenuItem.EmbeddedServiceMenu"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceMenuItem.EmbeddedServiceMenu",
+      "QualifiedApiName": "EmbeddedServiceMenuId",
+      "EntityDefinitionId": "EmbeddedServiceMenuItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "EmbeddedServiceMenu",
+      "MasterLabel": "チャネルメニューリリース",
+      "Label": "チャネルメニューリリース",
+      "DataType": "主従関係(チャネルメニューリリース)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceMenuItem.IconUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceMenuItem.IconUrl",
+      "QualifiedApiName": "IconUrl",
+      "EntityDefinitionId": "EmbeddedServiceMenuItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "IconUrl",
+      "MasterLabel": "メニュー項目アイコン URL",
+      "Label": "メニュー項目アイコン URL",
+      "DataType": "URL(1000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceMenuItem.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceMenuItem.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "EmbeddedServiceMenuItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "チャネルメニュー項目 ID",
+      "Label": "チャネルメニュー項目 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceMenuItem.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceMenuItem.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "EmbeddedServiceMenuItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceMenuItem.IsDisplayedOnPageLoad"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceMenuItem.IsDisplayedOnPageLoad",
+      "QualifiedApiName": "IsDisplayedOnPageLoad",
+      "EntityDefinitionId": "EmbeddedServiceMenuItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDisplayedOnPageLoad",
+      "MasterLabel": "ページ読み込み時に表示",
+      "Label": "ページ読み込み時に表示",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceMenuItem.ItemName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceMenuItem.ItemName",
+      "QualifiedApiName": "ItemName",
+      "EntityDefinitionId": "EmbeddedServiceMenuItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "ItemName",
+      "MasterLabel": "メニュー項目名",
+      "Label": "メニュー項目名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceMenuItem.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceMenuItem.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "EmbeddedServiceMenuItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceMenuItem.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceMenuItem.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "EmbeddedServiceMenuItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceMenuItem.OsOptions"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceMenuItem.OsOptions",
+      "QualifiedApiName": "OsOptions",
+      "EntityDefinitionId": "EmbeddedServiceMenuItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "OsOptions",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val OsOptions not found in section udd_EmbeddedServiceMenuItem",
+      "Label": "__MISSING LABEL__ PropertyFile - val OsOptions not found in section udd_EmbeddedServiceMenuItem",
+      "DataType": "ビットベクター",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceMenuItem.PhoneNumber"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceMenuItem.PhoneNumber",
+      "QualifiedApiName": "PhoneNumber",
+      "EntityDefinitionId": "EmbeddedServiceMenuItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "PhoneNumber",
+      "MasterLabel": "電話番号",
+      "Label": "電話番号",
+      "DataType": "電話",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceMenuItem.ShouldOpenUrlInSameTab"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceMenuItem.ShouldOpenUrlInSameTab",
+      "QualifiedApiName": "ShouldOpenUrlInSameTab",
+      "EntityDefinitionId": "EmbeddedServiceMenuItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShouldOpenUrlInSameTab",
+      "MasterLabel": "URL を同じタブで開く",
+      "Label": "URL を同じタブで開く",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceMenuItem.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceMenuItem.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "EmbeddedServiceMenuItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

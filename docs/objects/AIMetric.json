@@ -1,0 +1,406 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 19,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIMetric.BasicMetricValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIMetric.BasicMetricValue",
+      "QualifiedApiName": "BasicMetricValue",
+      "EntityDefinitionId": "AIMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "BasicMetricValue",
+      "MasterLabel": "基本的なメトリクス",
+      "Label": "基本的なメトリクス",
+      "DataType": "数値(16、8)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIMetric.ComplexMetricValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIMetric.ComplexMetricValue",
+      "QualifiedApiName": "ComplexMetricValue",
+      "EntityDefinitionId": "AIMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "ComplexMetricValue",
+      "MasterLabel": "複雑なメトリクス",
+      "Label": "複雑なメトリクス",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIMetric.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIMetric.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AIMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIMetric.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIMetric.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AIMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIMetric.EndTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIMetric.EndTime",
+      "QualifiedApiName": "EndTime",
+      "EntityDefinitionId": "AIMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "EndTime",
+      "MasterLabel": "終了時刻",
+      "Label": "終了時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIMetric.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIMetric.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AIMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "AI ライブモデルメトリクス ID",
+      "Label": "AI ライブモデルメトリクス ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIMetric.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIMetric.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AIMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIMetric.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIMetric.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AIMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIMetric.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIMetric.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AIMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIMetric.MetricOrigin"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIMetric.MetricOrigin",
+      "QualifiedApiName": "MetricOrigin",
+      "EntityDefinitionId": "AIMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "MetricOrigin",
+      "MasterLabel": "メトリクス発生源",
+      "Label": "メトリクス発生源",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIMetric.MetricType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIMetric.MetricType",
+      "QualifiedApiName": "MetricType",
+      "EntityDefinitionId": "AIMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "MetricType",
+      "MasterLabel": "メトリクス種別",
+      "Label": "メトリクス種別",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIMetric.Model"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIMetric.Model",
+      "QualifiedApiName": "ModelId",
+      "EntityDefinitionId": "AIMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "Model",
+      "MasterLabel": "AI Model",
+      "Label": "AI Model",
+      "DataType": "参照関係(AI Model)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIMetric.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIMetric.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "AIMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIMetric.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIMetric.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "AIMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIMetric.RowCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIMetric.RowCount",
+      "QualifiedApiName": "RowCount",
+      "EntityDefinitionId": "AIMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "RowCount",
+      "MasterLabel": "トランザクション数",
+      "Label": "トランザクション数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIMetric.Span"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIMetric.Span",
+      "QualifiedApiName": "Span",
+      "EntityDefinitionId": "AIMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "Span",
+      "MasterLabel": "範囲",
+      "Label": "範囲",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIMetric.StartTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIMetric.StartTime",
+      "QualifiedApiName": "StartTime",
+      "EntityDefinitionId": "AIMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "StartTime",
+      "MasterLabel": "開始時刻",
+      "Label": "開始時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIMetric.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIMetric.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AIMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIMetric.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIMetric.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "AIMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

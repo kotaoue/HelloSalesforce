@@ -1,0 +1,406 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 19,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsRequestInfo.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsRequestInfo.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DevopsRequestInfo",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsRequestInfo.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsRequestInfo.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DevopsRequestInfo",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsRequestInfo.ErrorDetails"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsRequestInfo.ErrorDetails",
+      "QualifiedApiName": "ErrorDetails",
+      "EntityDefinitionId": "DevopsRequestInfo",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorDetails",
+      "MasterLabel": "エラーの詳細",
+      "Label": "エラーの詳細",
+      "DataType": "ロングテキストエリア(32768)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsRequestInfo.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsRequestInfo.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DevopsRequestInfo",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "DevOps 要求情報 ID",
+      "Label": "DevOps 要求情報 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsRequestInfo.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsRequestInfo.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DevopsRequestInfo",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsRequestInfo.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsRequestInfo.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DevopsRequestInfo",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsRequestInfo.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsRequestInfo.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DevopsRequestInfo",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsRequestInfo.LastReferencedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsRequestInfo.LastReferencedDate",
+      "QualifiedApiName": "LastReferencedDate",
+      "EntityDefinitionId": "DevopsRequestInfo",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastReferencedDate",
+      "MasterLabel": "最終参照日",
+      "Label": "最終参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsRequestInfo.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsRequestInfo.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "DevopsRequestInfo",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsRequestInfo.Message"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsRequestInfo.Message",
+      "QualifiedApiName": "Message",
+      "EntityDefinitionId": "DevopsRequestInfo",
+      "NamespacePrefix": null,
+      "DeveloperName": "Message",
+      "MasterLabel": "メッセージ",
+      "Label": "メッセージ",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsRequestInfo.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsRequestInfo.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "DevopsRequestInfo",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsRequestInfo.OperationType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsRequestInfo.OperationType",
+      "QualifiedApiName": "OperationType",
+      "EntityDefinitionId": "DevopsRequestInfo",
+      "NamespacePrefix": null,
+      "DeveloperName": "OperationType",
+      "MasterLabel": "操作種別",
+      "Label": "操作種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsRequestInfo.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsRequestInfo.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "DevopsRequestInfo",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者 氏名",
+      "Label": "所有者 氏名",
+      "DataType": "参照関係(ユーザー,グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsRequestInfo.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsRequestInfo.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "DevopsRequestInfo",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsRequestInfo.RequestCompletionDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsRequestInfo.RequestCompletionDate",
+      "QualifiedApiName": "RequestCompletionDate",
+      "EntityDefinitionId": "DevopsRequestInfo",
+      "NamespacePrefix": null,
+      "DeveloperName": "RequestCompletionDate",
+      "MasterLabel": "要求完了日",
+      "Label": "要求完了日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsRequestInfo.RequestToken"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsRequestInfo.RequestToken",
+      "QualifiedApiName": "RequestToken",
+      "EntityDefinitionId": "DevopsRequestInfo",
+      "NamespacePrefix": null,
+      "DeveloperName": "RequestToken",
+      "MasterLabel": "要求 ID",
+      "Label": "要求 ID",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsRequestInfo.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsRequestInfo.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "DevopsRequestInfo",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsRequestInfo.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsRequestInfo.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DevopsRequestInfo",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsRequestInfo.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsRequestInfo.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "DevopsRequestInfo",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

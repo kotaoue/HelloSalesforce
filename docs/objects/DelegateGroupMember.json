@@ -1,0 +1,133 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 6,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DelegateGroupMember.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DelegateGroupMember.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DelegateGroupMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DelegateGroupMember.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DelegateGroupMember.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DelegateGroupMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DelegateGroupMember.DelegateGroup"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DelegateGroupMember.DelegateGroup",
+      "QualifiedApiName": "DelegateGroupId",
+      "EntityDefinitionId": "DelegateGroupMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "DelegateGroup",
+      "MasterLabel": "${udd_DelegateGroup.Id}",
+      "Label": "${udd_DelegateGroup.Id}",
+      "DataType": "参照関係(代理グループ:)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DelegateGroupMember.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DelegateGroupMember.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DelegateGroupMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "DelegateGroupMember ID",
+      "Label": "DelegateGroupMember ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DelegateGroupMember.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DelegateGroupMember.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DelegateGroupMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DelegateGroupMember.UserOrGroup"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DelegateGroupMember.UserOrGroup",
+      "QualifiedApiName": "UserOrGroupId",
+      "EntityDefinitionId": "DelegateGroupMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserOrGroup",
+      "MasterLabel": "ユーザー",
+      "Label": "ユーザー",
+      "DataType": "参照関係(ユーザー,グループ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

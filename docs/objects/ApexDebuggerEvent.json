@@ -1,0 +1,490 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 23,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexDebuggerEvent.Breakpoint"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexDebuggerEvent.Breakpoint",
+      "QualifiedApiName": "BreakpointId",
+      "EntityDefinitionId": "ApexDebuggerEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Breakpoint",
+      "MasterLabel": "Apex Debugger Breakpoint",
+      "Label": "Apex Debugger Breakpoint",
+      "DataType": "参照関係(Apex Debugger Breakpoint)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexDebuggerEvent.ClassBody"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexDebuggerEvent.ClassBody",
+      "QualifiedApiName": "ClassBody",
+      "EntityDefinitionId": "ApexDebuggerEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ClassBody",
+      "MasterLabel": "Class Body",
+      "Label": "Class Body",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexDebuggerEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexDebuggerEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ApexDebuggerEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexDebuggerEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexDebuggerEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ApexDebuggerEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexDebuggerEvent.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexDebuggerEvent.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "ApexDebuggerEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "Description",
+      "Label": "Description",
+      "DataType": "テキストエリア(1000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexDebuggerEvent.FileName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexDebuggerEvent.FileName",
+      "QualifiedApiName": "FileName",
+      "EntityDefinitionId": "ApexDebuggerEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "FileName",
+      "MasterLabel": "File Name",
+      "Label": "File Name",
+      "DataType": "テキストエリア(1000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexDebuggerEvent.HasClassBody"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexDebuggerEvent.HasClassBody",
+      "QualifiedApiName": "HasClassBody",
+      "EntityDefinitionId": "ApexDebuggerEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "HasClassBody",
+      "MasterLabel": "Has Class Body",
+      "Label": "Has Class Body",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexDebuggerEvent.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexDebuggerEvent.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ApexDebuggerEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Apex Debugger Event ID",
+      "Label": "Apex Debugger Event ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexDebuggerEvent.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexDebuggerEvent.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ApexDebuggerEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexDebuggerEvent.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexDebuggerEvent.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ApexDebuggerEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexDebuggerEvent.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexDebuggerEvent.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ApexDebuggerEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexDebuggerEvent.Line"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexDebuggerEvent.Line",
+      "QualifiedApiName": "Line",
+      "EntityDefinitionId": "ApexDebuggerEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Line",
+      "MasterLabel": "Line Number",
+      "Label": "Line Number",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexDebuggerEvent.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexDebuggerEvent.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "ApexDebuggerEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "Name",
+      "Label": "Name",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexDebuggerEvent.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexDebuggerEvent.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "ApexDebuggerEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexDebuggerEvent.Request"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexDebuggerEvent.Request",
+      "QualifiedApiName": "RequestId",
+      "EntityDefinitionId": "ApexDebuggerEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Request",
+      "MasterLabel": "Apex Debugger Request",
+      "Label": "Apex Debugger Request",
+      "DataType": "参照関係(Apex Debugger Request)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexDebuggerEvent.RequestSequence"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexDebuggerEvent.RequestSequence",
+      "QualifiedApiName": "RequestSequence",
+      "EntityDefinitionId": "ApexDebuggerEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "RequestSequence",
+      "MasterLabel": "Request Sequence",
+      "Label": "Request Sequence",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexDebuggerEvent.Sequence"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexDebuggerEvent.Sequence",
+      "QualifiedApiName": "Sequence",
+      "EntityDefinitionId": "ApexDebuggerEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Sequence",
+      "MasterLabel": "Sequence",
+      "Label": "Sequence",
+      "DataType": "数式 (数値)",
+      "IsCalculated": true,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexDebuggerEvent.Session"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexDebuggerEvent.Session",
+      "QualifiedApiName": "SessionId",
+      "EntityDefinitionId": "ApexDebuggerEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Session",
+      "MasterLabel": "Apex Debugger Session",
+      "Label": "Apex Debugger Session",
+      "DataType": "主従関係(Apex Debugger Session)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexDebuggerEvent.Stacktrace"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexDebuggerEvent.Stacktrace",
+      "QualifiedApiName": "Stacktrace",
+      "EntityDefinitionId": "ApexDebuggerEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Stacktrace",
+      "MasterLabel": "Stacktrace",
+      "Label": "Stacktrace",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexDebuggerEvent.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexDebuggerEvent.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ApexDebuggerEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexDebuggerEvent.Type"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexDebuggerEvent.Type",
+      "QualifiedApiName": "Type",
+      "EntityDefinitionId": "ApexDebuggerEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Type",
+      "MasterLabel": "Event Type",
+      "Label": "Event Type",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexDebuggerEvent.Username"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexDebuggerEvent.Username",
+      "QualifiedApiName": "Username",
+      "EntityDefinitionId": "ApexDebuggerEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Username",
+      "MasterLabel": "Username",
+      "Label": "Username",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexDebuggerEvent.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexDebuggerEvent.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "ApexDebuggerEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

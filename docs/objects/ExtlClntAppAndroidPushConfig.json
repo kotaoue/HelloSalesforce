@@ -1,0 +1,238 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 11,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppAndroidPushConfig.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppAndroidPushConfig.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ExtlClntAppAndroidPushConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppAndroidPushConfig.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppAndroidPushConfig.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ExtlClntAppAndroidPushConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppAndroidPushConfig.ExtlClntAppPushSettings"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppAndroidPushConfig.ExtlClntAppPushSettings",
+      "QualifiedApiName": "ExtlClntAppPushSettingsId",
+      "EntityDefinitionId": "ExtlClntAppAndroidPushConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExtlClntAppPushSettings",
+      "MasterLabel": "外部クライアントアプリケーション転送設定",
+      "Label": "外部クライアントアプリケーション転送設定",
+      "DataType": "主従関係(外部クライアントアプリケーション転送設定)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppAndroidPushConfig.FcmProject"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppAndroidPushConfig.FcmProject",
+      "QualifiedApiName": "FcmProject",
+      "EntityDefinitionId": "ExtlClntAppAndroidPushConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "FcmProject",
+      "MasterLabel": "プロジェクト ID",
+      "Label": "プロジェクト ID",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppAndroidPushConfig.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppAndroidPushConfig.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ExtlClntAppAndroidPushConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "外部クライアントアプリケーション Android 転送設定 ID",
+      "Label": "外部クライアントアプリケーション Android 転送設定 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppAndroidPushConfig.IsCurrent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppAndroidPushConfig.IsCurrent",
+      "QualifiedApiName": "IsCurrent",
+      "EntityDefinitionId": "ExtlClntAppAndroidPushConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsCurrent",
+      "MasterLabel": "現在の Android 転送設定",
+      "Label": "現在の Android 転送設定",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppAndroidPushConfig.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppAndroidPushConfig.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ExtlClntAppAndroidPushConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppAndroidPushConfig.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppAndroidPushConfig.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ExtlClntAppAndroidPushConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppAndroidPushConfig.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppAndroidPushConfig.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ExtlClntAppAndroidPushConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppAndroidPushConfig.ServiceAccount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppAndroidPushConfig.ServiceAccount",
+      "QualifiedApiName": "ServiceAccount",
+      "EntityDefinitionId": "ExtlClntAppAndroidPushConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "ServiceAccount",
+      "MasterLabel": "サービス鍵",
+      "Label": "サービス鍵",
+      "DataType": "ロングテキストエリア(8000)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppAndroidPushConfig.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppAndroidPushConfig.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ExtlClntAppAndroidPushConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

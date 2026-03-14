@@ -1,0 +1,175 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 8,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FieldPermissions.Field"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FieldPermissions.Field",
+      "QualifiedApiName": "Field",
+      "EntityDefinitionId": "FieldPermissions",
+      "NamespacePrefix": null,
+      "DeveloperName": "Field",
+      "MasterLabel": "標準項目名またはカスタム項目",
+      "Label": "標準項目名またはカスタム項目",
+      "DataType": "選択リスト(カスタム項目の定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FieldPermissions.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FieldPermissions.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "FieldPermissions",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "項目権限 ID",
+      "Label": "項目権限 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FieldPermissions.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FieldPermissions.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "FieldPermissions",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FieldPermissions.Parent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FieldPermissions.Parent",
+      "QualifiedApiName": "ParentId",
+      "EntityDefinitionId": "FieldPermissions",
+      "NamespacePrefix": null,
+      "DeveloperName": "Parent",
+      "MasterLabel": "参照先エンティティ",
+      "Label": "参照先エンティティ",
+      "DataType": "参照関係(権限セット,権限セットのミュート)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FieldPermissions.PermissionsEdit"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FieldPermissions.PermissionsEdit",
+      "QualifiedApiName": "PermissionsEdit",
+      "EntityDefinitionId": "FieldPermissions",
+      "NamespacePrefix": null,
+      "DeveloperName": "PermissionsEdit",
+      "MasterLabel": "編集可",
+      "Label": "編集可",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FieldPermissions.PermissionsRead"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FieldPermissions.PermissionsRead",
+      "QualifiedApiName": "PermissionsRead",
+      "EntityDefinitionId": "FieldPermissions",
+      "NamespacePrefix": null,
+      "DeveloperName": "PermissionsRead",
+      "MasterLabel": null,
+      "Label": null,
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FieldPermissions.SobjectType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FieldPermissions.SobjectType",
+      "QualifiedApiName": "SobjectType",
+      "EntityDefinitionId": "FieldPermissions",
+      "NamespacePrefix": null,
+      "DeveloperName": "SobjectType",
+      "MasterLabel": "エンティティ",
+      "Label": "エンティティ",
+      "DataType": "選択リスト(カスタムオブジェクトの定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FieldPermissions.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FieldPermissions.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "FieldPermissions",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

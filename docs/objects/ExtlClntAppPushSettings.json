@@ -1,0 +1,343 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 16,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppPushSettings.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppPushSettings.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ExtlClntAppPushSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppPushSettings.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppPushSettings.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ExtlClntAppPushSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppPushSettings.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppPushSettings.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "ExtlClntAppPushSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppPushSettings.ExternalClientApplication"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppPushSettings.ExternalClientApplication",
+      "QualifiedApiName": "ExternalClientApplicationId",
+      "EntityDefinitionId": "ExtlClntAppPushSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExternalClientApplication",
+      "MasterLabel": "外部クライアントアプリケーション",
+      "Label": "外部クライアントアプリケーション",
+      "DataType": "参照関係(External Client Applications)  (ユニーク)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppPushSettings.ExtlClntAppOauthSettings"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppPushSettings.ExtlClntAppOauthSettings",
+      "QualifiedApiName": "ExtlClntAppOauthSettingsId",
+      "EntityDefinitionId": "ExtlClntAppPushSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExtlClntAppOauthSettings",
+      "MasterLabel": "外部クライアントアプリケーション OAuth 設定",
+      "Label": "外部クライアントアプリケーション OAuth 設定",
+      "DataType": "参照関係(外部クライアントアプリケーション OAuth 設定)  (ユニーク)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppPushSettings.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppPushSettings.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ExtlClntAppPushSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "外部クライアントアプリケーション転送設定 ID",
+      "Label": "外部クライアントアプリケーション転送設定 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppPushSettings.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppPushSettings.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ExtlClntAppPushSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppPushSettings.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppPushSettings.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "ExtlClntAppPushSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppPushSettings.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppPushSettings.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ExtlClntAppPushSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppPushSettings.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppPushSettings.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ExtlClntAppPushSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppPushSettings.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppPushSettings.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "ExtlClntAppPushSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppPushSettings.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppPushSettings.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "ExtlClntAppPushSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppPushSettings.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppPushSettings.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "ExtlClntAppPushSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppPushSettings.PushConfigLink"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppPushSettings.PushConfigLink",
+      "QualifiedApiName": "PushConfigLink",
+      "EntityDefinitionId": "ExtlClntAppPushSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "PushConfigLink",
+      "MasterLabel": "転送設定リンク",
+      "Label": "転送設定リンク",
+      "DataType": "テキスト(50)  (ユニーク、大文字と小文字を区別する)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppPushSettings.PushServiceType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppPushSettings.PushServiceType",
+      "QualifiedApiName": "PushServiceType",
+      "EntityDefinitionId": "ExtlClntAppPushSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "PushServiceType",
+      "MasterLabel": "転送サービス種別",
+      "Label": "転送サービス種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlClntAppPushSettings.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlClntAppPushSettings.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ExtlClntAppPushSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

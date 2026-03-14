@@ -1,0 +1,280 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 13,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMappingOwnerSharingRule.AccessLevel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMappingOwnerSharingRule.AccessLevel",
+      "QualifiedApiName": "AccessLevel",
+      "EntityDefinitionId": "ExternalEventMappingOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "AccessLevel",
+      "MasterLabel": "カスタムオブジェクトのアクセス権",
+      "Label": "カスタムオブジェクトのアクセス権",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMappingOwnerSharingRule.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMappingOwnerSharingRule.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ExternalEventMappingOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMappingOwnerSharingRule.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMappingOwnerSharingRule.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ExternalEventMappingOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMappingOwnerSharingRule.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMappingOwnerSharingRule.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "ExternalEventMappingOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "テキストエリア(1000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMappingOwnerSharingRule.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMappingOwnerSharingRule.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "ExternalEventMappingOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "API 参照名",
+      "Label": "API 参照名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMappingOwnerSharingRule.Group"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMappingOwnerSharingRule.Group",
+      "QualifiedApiName": "GroupId",
+      "EntityDefinitionId": "ExternalEventMappingOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Group",
+      "MasterLabel": "グループ",
+      "Label": "グループ",
+      "DataType": "参照関係(グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMappingOwnerSharingRule.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMappingOwnerSharingRule.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ExternalEventMappingOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "カスタムオブジェクト所有者ルール ID",
+      "Label": "カスタムオブジェクト所有者ルール ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMappingOwnerSharingRule.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMappingOwnerSharingRule.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ExternalEventMappingOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMappingOwnerSharingRule.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMappingOwnerSharingRule.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ExternalEventMappingOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMappingOwnerSharingRule.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMappingOwnerSharingRule.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "ExternalEventMappingOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMappingOwnerSharingRule.Options"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMappingOwnerSharingRule.Options",
+      "QualifiedApiName": "Options",
+      "EntityDefinitionId": "ExternalEventMappingOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Options",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val Options not found in section udd_CustomObjectOwnerSharingRule",
+      "Label": "__MISSING LABEL__ PropertyFile - val Options not found in section udd_CustomObjectOwnerSharingRule",
+      "DataType": "ビットベクター",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMappingOwnerSharingRule.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMappingOwnerSharingRule.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ExternalEventMappingOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalEventMappingOwnerSharingRule.UserOrGroup"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEventMappingOwnerSharingRule.UserOrGroup",
+      "QualifiedApiName": "UserOrGroupId",
+      "EntityDefinitionId": "ExternalEventMappingOwnerSharingRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserOrGroup",
+      "MasterLabel": "ユーザー/グループ",
+      "Label": "ユーザー/グループ",
+      "DataType": "参照関係(グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

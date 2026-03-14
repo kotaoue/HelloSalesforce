@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageOperationError.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageOperationError.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "PackageOperationError",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageOperationError.CreatedByOrganization"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageOperationError.CreatedByOrganization",
+      "QualifiedApiName": "CreatedByOrganizationId",
+      "EntityDefinitionId": "PackageOperationError",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedByOrganization",
+      "MasterLabel": "作成組織",
+      "Label": "作成組織",
+      "DataType": "参照関係(組織)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageOperationError.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageOperationError.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "PackageOperationError",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageOperationError.ErrorComponent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageOperationError.ErrorComponent",
+      "QualifiedApiName": "ErrorComponentId",
+      "EntityDefinitionId": "PackageOperationError",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorComponent",
+      "MasterLabel": "エラーコンポーネント",
+      "Label": "エラーコンポーネント",
+      "DataType": "参照関係(Apex クラス,Apex トリガー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageOperationError.ErrorContext"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageOperationError.ErrorContext",
+      "QualifiedApiName": "ErrorContextId",
+      "EntityDefinitionId": "PackageOperationError",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorContext",
+      "MasterLabel": "エラーコンテキスト",
+      "Label": "エラーコンテキスト",
+      "DataType": "参照関係(パッケージバージョン)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageOperationError.ErrorDetails"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageOperationError.ErrorDetails",
+      "QualifiedApiName": "ErrorDetails",
+      "EntityDefinitionId": "PackageOperationError",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorDetails",
+      "MasterLabel": "エラーの詳細",
+      "Label": "エラーの詳細",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageOperationError.ErrorMessage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageOperationError.ErrorMessage",
+      "QualifiedApiName": "ErrorMessage",
+      "EntityDefinitionId": "PackageOperationError",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorMessage",
+      "MasterLabel": "エラーメッセージ",
+      "Label": "エラーメッセージ",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageOperationError.ErrorSeverity"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageOperationError.ErrorSeverity",
+      "QualifiedApiName": "ErrorSeverity",
+      "EntityDefinitionId": "PackageOperationError",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorSeverity",
+      "MasterLabel": "エラーの重大度",
+      "Label": "エラーの重大度",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageOperationError.ErrorStack"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageOperationError.ErrorStack",
+      "QualifiedApiName": "ErrorStack",
+      "EntityDefinitionId": "PackageOperationError",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorStack",
+      "MasterLabel": "エラースタック",
+      "Label": "エラースタック",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageOperationError.ErrorTitle"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageOperationError.ErrorTitle",
+      "QualifiedApiName": "ErrorTitle",
+      "EntityDefinitionId": "PackageOperationError",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorTitle",
+      "MasterLabel": "エラーのタイトル",
+      "Label": "エラーのタイトル",
+      "DataType": "テキスト(765)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageOperationError.ErrorType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageOperationError.ErrorType",
+      "QualifiedApiName": "ErrorType",
+      "EntityDefinitionId": "PackageOperationError",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorType",
+      "MasterLabel": "エラーの種類",
+      "Label": "エラーの種類",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageOperationError.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageOperationError.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "PackageOperationError",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "パッケージ操作エラー ID",
+      "Label": "パッケージ操作エラー ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageOperationError.LinkedError"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageOperationError.LinkedError",
+      "QualifiedApiName": "LinkedErrorId",
+      "EntityDefinitionId": "PackageOperationError",
+      "NamespacePrefix": null,
+      "DeveloperName": "LinkedError",
+      "MasterLabel": "リンクエラー",
+      "Label": "リンクエラー",
+      "DataType": "参照関係(アプリケーションテスト結果)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageOperationError.LinkedErrorKeyPrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageOperationError.LinkedErrorKeyPrefix",
+      "QualifiedApiName": "LinkedErrorKeyPrefix",
+      "EntityDefinitionId": "PackageOperationError",
+      "NamespacePrefix": null,
+      "DeveloperName": "LinkedErrorKeyPrefix",
+      "MasterLabel": "リンクエラーのキープレフィックス",
+      "Label": "リンクエラーのキープレフィックス",
+      "DataType": "テキスト(3)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageOperationError.Operation"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageOperationError.Operation",
+      "QualifiedApiName": "Operation",
+      "EntityDefinitionId": "PackageOperationError",
+      "NamespacePrefix": null,
+      "DeveloperName": "Operation",
+      "MasterLabel": "演算子",
+      "Label": "演算子",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageOperationError.SequenceNumber"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageOperationError.SequenceNumber",
+      "QualifiedApiName": "SequenceNumber",
+      "EntityDefinitionId": "PackageOperationError",
+      "NamespacePrefix": null,
+      "DeveloperName": "SequenceNumber",
+      "MasterLabel": "連番",
+      "Label": "連番",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageOperationError.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageOperationError.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "PackageOperationError",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

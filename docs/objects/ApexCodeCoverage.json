@@ -1,0 +1,301 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 14,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexCodeCoverage.ApexClassOrTrigger"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexCodeCoverage.ApexClassOrTrigger",
+      "QualifiedApiName": "ApexClassOrTriggerId",
+      "EntityDefinitionId": "ApexCodeCoverage",
+      "NamespacePrefix": null,
+      "DeveloperName": "ApexClassOrTrigger",
+      "MasterLabel": "Apex クラスまたはトリガー",
+      "Label": "Apex クラスまたはトリガー",
+      "DataType": "参照関係(Apex クラス,Apex トリガー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexCodeCoverage.ApexTestClass"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexCodeCoverage.ApexTestClass",
+      "QualifiedApiName": "ApexTestClassId",
+      "EntityDefinitionId": "ApexCodeCoverage",
+      "NamespacePrefix": null,
+      "DeveloperName": "ApexTestClass",
+      "MasterLabel": "Apex テストクラス",
+      "Label": "Apex テストクラス",
+      "DataType": "参照関係(Apex クラス)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexCodeCoverage.Coverage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexCodeCoverage.Coverage",
+      "QualifiedApiName": "Coverage",
+      "EntityDefinitionId": "ApexCodeCoverage",
+      "NamespacePrefix": null,
+      "DeveloperName": "Coverage",
+      "MasterLabel": "わかりやすいカバー率データ",
+      "Label": "わかりやすいカバー率データ",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexCodeCoverage.CoverageRaw"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexCodeCoverage.CoverageRaw",
+      "QualifiedApiName": "CoverageRaw",
+      "EntityDefinitionId": "ApexCodeCoverage",
+      "NamespacePrefix": null,
+      "DeveloperName": "CoverageRaw",
+      "MasterLabel": "未加工のカバー率データ",
+      "Label": "未加工のカバー率データ",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexCodeCoverage.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexCodeCoverage.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ApexCodeCoverage",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexCodeCoverage.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexCodeCoverage.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ApexCodeCoverage",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexCodeCoverage.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexCodeCoverage.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ApexCodeCoverage",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Apex コードカバー率 ID",
+      "Label": "Apex コードカバー率 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexCodeCoverage.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexCodeCoverage.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ApexCodeCoverage",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexCodeCoverage.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexCodeCoverage.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ApexCodeCoverage",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexCodeCoverage.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexCodeCoverage.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ApexCodeCoverage",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexCodeCoverage.NumLinesCovered"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexCodeCoverage.NumLinesCovered",
+      "QualifiedApiName": "NumLinesCovered",
+      "EntityDefinitionId": "ApexCodeCoverage",
+      "NamespacePrefix": null,
+      "DeveloperName": "NumLinesCovered",
+      "MasterLabel": "カバーされている行数",
+      "Label": "カバーされている行数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexCodeCoverage.NumLinesUncovered"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexCodeCoverage.NumLinesUncovered",
+      "QualifiedApiName": "NumLinesUncovered",
+      "EntityDefinitionId": "ApexCodeCoverage",
+      "NamespacePrefix": null,
+      "DeveloperName": "NumLinesUncovered",
+      "MasterLabel": "カバーされていない行数",
+      "Label": "カバーされていない行数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexCodeCoverage.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexCodeCoverage.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ApexCodeCoverage",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexCodeCoverage.TestMethodName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexCodeCoverage.TestMethodName",
+      "QualifiedApiName": "TestMethodName",
+      "EntityDefinitionId": "ApexCodeCoverage",
+      "NamespacePrefix": null,
+      "DeveloperName": "TestMethodName",
+      "MasterLabel": "テストメソッド名",
+      "Label": "テストメソッド名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,532 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 25,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GuestUserAnomalyEventStore.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GuestUserAnomalyEventStore.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "GuestUserAnomalyEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GuestUserAnomalyEventStore.EvaluationTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GuestUserAnomalyEventStore.EvaluationTime",
+      "QualifiedApiName": "EvaluationTime",
+      "EntityDefinitionId": "GuestUserAnomalyEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "EvaluationTime",
+      "MasterLabel": "評価時間",
+      "Label": "評価時間",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GuestUserAnomalyEventStore.EventDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GuestUserAnomalyEventStore.EventDate",
+      "QualifiedApiName": "EventDate",
+      "EntityDefinitionId": "GuestUserAnomalyEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventDate",
+      "MasterLabel": "イベント日",
+      "Label": "イベント日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GuestUserAnomalyEventStore.EventIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GuestUserAnomalyEventStore.EventIdentifier",
+      "QualifiedApiName": "EventIdentifier",
+      "EntityDefinitionId": "GuestUserAnomalyEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventIdentifier",
+      "MasterLabel": "行動 ID",
+      "Label": "行動 ID",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GuestUserAnomalyEventStore.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GuestUserAnomalyEventStore.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "GuestUserAnomalyEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "ゲストユーザー異常イベントストア ID",
+      "Label": "ゲストユーザー異常イベントストア ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GuestUserAnomalyEventStore.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GuestUserAnomalyEventStore.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "GuestUserAnomalyEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GuestUserAnomalyEventStore.LastReferencedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GuestUserAnomalyEventStore.LastReferencedDate",
+      "QualifiedApiName": "LastReferencedDate",
+      "EntityDefinitionId": "GuestUserAnomalyEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastReferencedDate",
+      "MasterLabel": "最終参照日",
+      "Label": "最終参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GuestUserAnomalyEventStore.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GuestUserAnomalyEventStore.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "GuestUserAnomalyEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GuestUserAnomalyEventStore.LoginKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GuestUserAnomalyEventStore.LoginKey",
+      "QualifiedApiName": "LoginKey",
+      "EntityDefinitionId": "GuestUserAnomalyEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "LoginKey",
+      "MasterLabel": "ログインキー",
+      "Label": "ログインキー",
+      "DataType": "テキスト(24)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GuestUserAnomalyEventStore.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GuestUserAnomalyEventStore.Name",
+      "QualifiedApiName": "GuestUserAnomalyEventNumber",
+      "EntityDefinitionId": "GuestUserAnomalyEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "イベント名",
+      "Label": "イベント名",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GuestUserAnomalyEventStore.Policy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GuestUserAnomalyEventStore.Policy",
+      "QualifiedApiName": "PolicyId",
+      "EntityDefinitionId": "GuestUserAnomalyEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "Policy",
+      "MasterLabel": "ポリシー",
+      "Label": "ポリシー",
+      "DataType": "参照関係(Transaction Security Policy)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GuestUserAnomalyEventStore.PolicyOutcome"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GuestUserAnomalyEventStore.PolicyOutcome",
+      "QualifiedApiName": "PolicyOutcome",
+      "EntityDefinitionId": "GuestUserAnomalyEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "PolicyOutcome",
+      "MasterLabel": "ポリシーの結果",
+      "Label": "ポリシーの結果",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GuestUserAnomalyEventStore.RequestedEntities"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GuestUserAnomalyEventStore.RequestedEntities",
+      "QualifiedApiName": "RequestedEntities",
+      "EntityDefinitionId": "GuestUserAnomalyEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "RequestedEntities",
+      "MasterLabel": "要求されたエンティティ",
+      "Label": "要求されたエンティティ",
+      "DataType": "ロングテキストエリア(131000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GuestUserAnomalyEventStore.Score"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GuestUserAnomalyEventStore.Score",
+      "QualifiedApiName": "Score",
+      "EntityDefinitionId": "GuestUserAnomalyEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "Score",
+      "MasterLabel": "スコア",
+      "Label": "スコア",
+      "DataType": "数値(6、6)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GuestUserAnomalyEventStore.SecurityEventData"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GuestUserAnomalyEventStore.SecurityEventData",
+      "QualifiedApiName": "SecurityEventData",
+      "EntityDefinitionId": "GuestUserAnomalyEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "SecurityEventData",
+      "MasterLabel": "セキュリティイベントデータ",
+      "Label": "セキュリティイベントデータ",
+      "DataType": "ロングテキストエリア(131000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GuestUserAnomalyEventStore.SessionKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GuestUserAnomalyEventStore.SessionKey",
+      "QualifiedApiName": "SessionKey",
+      "EntityDefinitionId": "GuestUserAnomalyEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "SessionKey",
+      "MasterLabel": "セッションキー",
+      "Label": "セッションキー",
+      "DataType": "テキスト(24)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GuestUserAnomalyEventStore.SoqlCommands"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GuestUserAnomalyEventStore.SoqlCommands",
+      "QualifiedApiName": "SoqlCommands",
+      "EntityDefinitionId": "GuestUserAnomalyEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "SoqlCommands",
+      "MasterLabel": "SOQL コマンド",
+      "Label": "SOQL コマンド",
+      "DataType": "ロングテキストエリア(131000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GuestUserAnomalyEventStore.SourceIp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GuestUserAnomalyEventStore.SourceIp",
+      "QualifiedApiName": "SourceIp",
+      "EntityDefinitionId": "GuestUserAnomalyEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "SourceIp",
+      "MasterLabel": "IP アドレス",
+      "Label": "IP アドレス",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GuestUserAnomalyEventStore.Summary"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GuestUserAnomalyEventStore.Summary",
+      "QualifiedApiName": "Summary",
+      "EntityDefinitionId": "GuestUserAnomalyEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "Summary",
+      "MasterLabel": "概要",
+      "Label": "概要",
+      "DataType": "ロングテキストエリア(1000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GuestUserAnomalyEventStore.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GuestUserAnomalyEventStore.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "GuestUserAnomalyEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GuestUserAnomalyEventStore.TotalControllerEvents"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GuestUserAnomalyEventStore.TotalControllerEvents",
+      "QualifiedApiName": "TotalControllerEvents",
+      "EntityDefinitionId": "GuestUserAnomalyEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "TotalControllerEvents",
+      "MasterLabel": "コントローラーイベント総数",
+      "Label": "コントローラーイベント総数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GuestUserAnomalyEventStore.User"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GuestUserAnomalyEventStore.User",
+      "QualifiedApiName": "UserId",
+      "EntityDefinitionId": "GuestUserAnomalyEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "User",
+      "MasterLabel": "ユーザー",
+      "Label": "ユーザー",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GuestUserAnomalyEventStore.UserAgent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GuestUserAnomalyEventStore.UserAgent",
+      "QualifiedApiName": "UserAgent",
+      "EntityDefinitionId": "GuestUserAnomalyEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserAgent",
+      "MasterLabel": "現在のユーザーエージェント",
+      "Label": "現在のユーザーエージェント",
+      "DataType": "テキスト(1000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GuestUserAnomalyEventStore.Username"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GuestUserAnomalyEventStore.Username",
+      "QualifiedApiName": "Username",
+      "EntityDefinitionId": "GuestUserAnomalyEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "Username",
+      "MasterLabel": "ユーザー名",
+      "Label": "ユーザー名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GuestUserAnomalyEventStore.UserType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GuestUserAnomalyEventStore.UserType",
+      "QualifiedApiName": "UserType",
+      "EntityDefinitionId": "GuestUserAnomalyEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserType",
+      "MasterLabel": "現在のユーザー種別",
+      "Label": "現在のユーザー種別",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

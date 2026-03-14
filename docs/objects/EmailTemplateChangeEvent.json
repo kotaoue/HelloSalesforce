@@ -1,0 +1,553 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 26,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailTemplateChangeEvent.ApiVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailTemplateChangeEvent.ApiVersion",
+      "QualifiedApiName": "ApiVersion",
+      "EntityDefinitionId": "EmailTemplateChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ApiVersion",
+      "MasterLabel": "API バージョン",
+      "Label": "API バージョン",
+      "DataType": "数値(17、1)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailTemplateChangeEvent.Body"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailTemplateChangeEvent.Body",
+      "QualifiedApiName": "Body",
+      "EntityDefinitionId": "EmailTemplateChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Body",
+      "MasterLabel": "メール内容",
+      "Label": "メール内容",
+      "DataType": "ロングテキストエリア(384000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailTemplateChangeEvent.BrandTemplate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailTemplateChangeEvent.BrandTemplate",
+      "QualifiedApiName": "BrandTemplateId",
+      "EntityDefinitionId": "EmailTemplateChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "BrandTemplate",
+      "MasterLabel": "レターヘッド",
+      "Label": "レターヘッド",
+      "DataType": "参照関係(レターヘッド)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailTemplateChangeEvent.ChangeEventHeader"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailTemplateChangeEvent.ChangeEventHeader",
+      "QualifiedApiName": "ChangeEventHeader",
+      "EntityDefinitionId": "EmailTemplateChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChangeEventHeader",
+      "MasterLabel": "変更イベントヘッダー",
+      "Label": "変更イベントヘッダー",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailTemplateChangeEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailTemplateChangeEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "EmailTemplateChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailTemplateChangeEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailTemplateChangeEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "EmailTemplateChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailTemplateChangeEvent.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailTemplateChangeEvent.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "EmailTemplateChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailTemplateChangeEvent.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailTemplateChangeEvent.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "EmailTemplateChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "テンプレートの一意の名前",
+      "Label": "テンプレートの一意の名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailTemplateChangeEvent.Encoding"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailTemplateChangeEvent.Encoding",
+      "QualifiedApiName": "Encoding",
+      "EntityDefinitionId": "EmailTemplateChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Encoding",
+      "MasterLabel": "文字コード",
+      "Label": "文字コード",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailTemplateChangeEvent.EnhancedLetterhead"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailTemplateChangeEvent.EnhancedLetterhead",
+      "QualifiedApiName": "EnhancedLetterheadId",
+      "EntityDefinitionId": "EmailTemplateChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EnhancedLetterhead",
+      "MasterLabel": "拡張レターヘッド",
+      "Label": "拡張レターヘッド",
+      "DataType": "参照関係(拡張レターヘッド)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailTemplateChangeEvent.Folder"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailTemplateChangeEvent.Folder",
+      "QualifiedApiName": "FolderId",
+      "EntityDefinitionId": "EmailTemplateChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Folder",
+      "MasterLabel": "フォルダー",
+      "Label": "フォルダー",
+      "DataType": "参照関係(フォルダー,組織,ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailTemplateChangeEvent.HtmlValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailTemplateChangeEvent.HtmlValue",
+      "QualifiedApiName": "HtmlValue",
+      "EntityDefinitionId": "EmailTemplateChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "HtmlValue",
+      "MasterLabel": "HTML 値",
+      "Label": "HTML 値",
+      "DataType": "ロングテキストエリア(384000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailTemplateChangeEvent.IsActive"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailTemplateChangeEvent.IsActive",
+      "QualifiedApiName": "IsActive",
+      "EntityDefinitionId": "EmailTemplateChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsActive",
+      "MasterLabel": "有効",
+      "Label": "有効",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailTemplateChangeEvent.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailTemplateChangeEvent.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "EmailTemplateChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailTemplateChangeEvent.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailTemplateChangeEvent.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "EmailTemplateChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailTemplateChangeEvent.LastUsedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailTemplateChangeEvent.LastUsedDate",
+      "QualifiedApiName": "LastUsedDate",
+      "EntityDefinitionId": "EmailTemplateChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastUsedDate",
+      "MasterLabel": "最終使用日",
+      "Label": "最終使用日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailTemplateChangeEvent.Markup"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailTemplateChangeEvent.Markup",
+      "QualifiedApiName": "Markup",
+      "EntityDefinitionId": "EmailTemplateChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Markup",
+      "MasterLabel": "マークアップ",
+      "Label": "マークアップ",
+      "DataType": "ロングテキストエリア(1048576)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailTemplateChangeEvent.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailTemplateChangeEvent.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "EmailTemplateChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "メールテンプレート名",
+      "Label": "メールテンプレート名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailTemplateChangeEvent.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailTemplateChangeEvent.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "EmailTemplateChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailTemplateChangeEvent.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailTemplateChangeEvent.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "EmailTemplateChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "著者",
+      "Label": "著者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailTemplateChangeEvent.RelatedEntityType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailTemplateChangeEvent.RelatedEntityType",
+      "QualifiedApiName": "RelatedEntityType",
+      "EntityDefinitionId": "EmailTemplateChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "RelatedEntityType",
+      "MasterLabel": "関連エンティティ種別",
+      "Label": "関連エンティティ種別",
+      "DataType": "選択リスト(カスタムオブジェクトの定義)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailTemplateChangeEvent.Subject"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailTemplateChangeEvent.Subject",
+      "QualifiedApiName": "Subject",
+      "EntityDefinitionId": "EmailTemplateChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Subject",
+      "MasterLabel": "件名",
+      "Label": "件名",
+      "DataType": "テキスト(1000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailTemplateChangeEvent.TemplateStyle"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailTemplateChangeEvent.TemplateStyle",
+      "QualifiedApiName": "TemplateStyle",
+      "EntityDefinitionId": "EmailTemplateChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "TemplateStyle",
+      "MasterLabel": "スタイル",
+      "Label": "スタイル",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailTemplateChangeEvent.TemplateType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailTemplateChangeEvent.TemplateType",
+      "QualifiedApiName": "TemplateType",
+      "EntityDefinitionId": "EmailTemplateChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "TemplateType",
+      "MasterLabel": "テンプレートの種類",
+      "Label": "テンプレートの種類",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailTemplateChangeEvent.TimesUsed"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailTemplateChangeEvent.TimesUsed",
+      "QualifiedApiName": "TimesUsed",
+      "EntityDefinitionId": "EmailTemplateChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "TimesUsed",
+      "MasterLabel": "使用回数",
+      "Label": "使用回数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailTemplateChangeEvent.UiType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailTemplateChangeEvent.UiType",
+      "QualifiedApiName": "UiType",
+      "EntityDefinitionId": "EmailTemplateChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "UiType",
+      "MasterLabel": "UI 種別",
+      "Label": "UI 種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

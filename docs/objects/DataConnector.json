@@ -1,0 +1,511 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 24,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataConnector.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataConnector.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DataConnector",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataConnector.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataConnector.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DataConnector",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataConnector.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataConnector.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "DataConnector",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "コネクタの説明",
+      "Label": "コネクタの説明",
+      "DataType": "ロングテキストエリア(4000)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataConnector.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataConnector.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "DataConnector",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataConnector.Features"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataConnector.Features",
+      "QualifiedApiName": "Features",
+      "EntityDefinitionId": "DataConnector",
+      "NamespacePrefix": null,
+      "DeveloperName": "Features",
+      "MasterLabel": "機能",
+      "Label": "機能",
+      "DataType": "ビットベクター",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataConnector.Icon"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataConnector.Icon",
+      "QualifiedApiName": "IconId",
+      "EntityDefinitionId": "DataConnector",
+      "NamespacePrefix": null,
+      "DeveloperName": "Icon",
+      "MasterLabel": "コネクタアイコン",
+      "Label": "コネクタアイコン",
+      "DataType": "参照関係(静的リソース)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataConnector.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataConnector.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DataConnector",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "データコネクタ ID",
+      "Label": "データコネクタ ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataConnector.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataConnector.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DataConnector",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataConnector.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataConnector.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "DataConnector",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataConnector.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataConnector.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DataConnector",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataConnector.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataConnector.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DataConnector",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataConnector.LicenseAgreement"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataConnector.LicenseAgreement",
+      "QualifiedApiName": "LicenseAgreement",
+      "EntityDefinitionId": "DataConnector",
+      "NamespacePrefix": null,
+      "DeveloperName": "LicenseAgreement",
+      "MasterLabel": "コネクタ使用許諾契約書",
+      "Label": "コネクタ使用許諾契約書",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataConnector.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataConnector.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "DataConnector",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataConnector.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataConnector.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "DataConnector",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataConnector.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataConnector.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "DataConnector",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataConnector.OwnerLocation"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataConnector.OwnerLocation",
+      "QualifiedApiName": "OwnerLocation",
+      "EntityDefinitionId": "DataConnector",
+      "NamespacePrefix": null,
+      "DeveloperName": "OwnerLocation",
+      "MasterLabel": "コネクタ所有者の場所",
+      "Label": "コネクタ所有者の場所",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataConnector.OwnerLogo"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataConnector.OwnerLogo",
+      "QualifiedApiName": "OwnerLogoId",
+      "EntityDefinitionId": "DataConnector",
+      "NamespacePrefix": null,
+      "DeveloperName": "OwnerLogo",
+      "MasterLabel": "コネクタ所有者のロゴ",
+      "Label": "コネクタ所有者のロゴ",
+      "DataType": "参照関係(静的リソース)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataConnector.OwnerName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataConnector.OwnerName",
+      "QualifiedApiName": "OwnerName",
+      "EntityDefinitionId": "DataConnector",
+      "NamespacePrefix": null,
+      "DeveloperName": "OwnerName",
+      "MasterLabel": "コネクタ所有者名",
+      "Label": "コネクタ所有者名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataConnector.ParentConnector"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataConnector.ParentConnector",
+      "QualifiedApiName": "ParentConnector",
+      "EntityDefinitionId": "DataConnector",
+      "NamespacePrefix": null,
+      "DeveloperName": "ParentConnector",
+      "MasterLabel": "親コネクタ",
+      "Label": "親コネクタ",
+      "DataType": "選択リスト(データコネクタ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataConnector.ReleaseLevel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataConnector.ReleaseLevel",
+      "QualifiedApiName": "ReleaseLevel",
+      "EntityDefinitionId": "DataConnector",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReleaseLevel",
+      "MasterLabel": "コネクタリリースレベル",
+      "Label": "コネクタリリースレベル",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataConnector.SupportEmail"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataConnector.SupportEmail",
+      "QualifiedApiName": "SupportEmail",
+      "EntityDefinitionId": "DataConnector",
+      "NamespacePrefix": null,
+      "DeveloperName": "SupportEmail",
+      "MasterLabel": "コネクタサポートのメール",
+      "Label": "コネクタサポートのメール",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataConnector.SupportMessage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataConnector.SupportMessage",
+      "QualifiedApiName": "SupportMessage",
+      "EntityDefinitionId": "DataConnector",
+      "NamespacePrefix": null,
+      "DeveloperName": "SupportMessage",
+      "MasterLabel": "コネクタサポートのメッセージ",
+      "Label": "コネクタサポートのメッセージ",
+      "DataType": "ロングテキストエリア(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataConnector.SupportPhone"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataConnector.SupportPhone",
+      "QualifiedApiName": "SupportPhone",
+      "EntityDefinitionId": "DataConnector",
+      "NamespacePrefix": null,
+      "DeveloperName": "SupportPhone",
+      "MasterLabel": "コネクタサポートの電話",
+      "Label": "コネクタサポートの電話",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataConnector.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataConnector.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DataConnector",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

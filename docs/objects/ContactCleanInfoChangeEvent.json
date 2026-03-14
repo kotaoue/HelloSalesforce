@@ -1,0 +1,490 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 23,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCleanInfoChangeEvent.Address"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCleanInfoChangeEvent.Address",
+      "QualifiedApiName": "Address",
+      "EntityDefinitionId": "ContactCleanInfoChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Address",
+      "MasterLabel": "住所",
+      "Label": "住所",
+      "DataType": "住所",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCleanInfoChangeEvent.ChangeEventHeader"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCleanInfoChangeEvent.ChangeEventHeader",
+      "QualifiedApiName": "ChangeEventHeader",
+      "EntityDefinitionId": "ContactCleanInfoChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChangeEventHeader",
+      "MasterLabel": "変更イベントヘッダー",
+      "Label": "変更イベントヘッダー",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCleanInfoChangeEvent.CleanedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCleanInfoChangeEvent.CleanedBy",
+      "QualifiedApiName": "CleanedBy",
+      "EntityDefinitionId": "ContactCleanInfoChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CleanedBy",
+      "MasterLabel": "クリーンアップ基準",
+      "Label": "クリーンアップ基準",
+      "DataType": "ビットベクター",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCleanInfoChangeEvent.Contact"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCleanInfoChangeEvent.Contact",
+      "QualifiedApiName": "ContactId",
+      "EntityDefinitionId": "ContactCleanInfoChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Contact",
+      "MasterLabel": "取引先責任者",
+      "Label": "取引先責任者",
+      "DataType": "参照関係(取引先責任者)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCleanInfoChangeEvent.ContactStatusDataDotCom"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCleanInfoChangeEvent.ContactStatusDataDotCom",
+      "QualifiedApiName": "ContactStatusDataDotCom",
+      "EntityDefinitionId": "ContactCleanInfoChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ContactStatusDataDotCom",
+      "MasterLabel": "取引先責任者の状況 (Data.com> 情報)",
+      "Label": "取引先責任者の状況 (Data.com> 情報)",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCleanInfoChangeEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCleanInfoChangeEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ContactCleanInfoChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCleanInfoChangeEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCleanInfoChangeEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ContactCleanInfoChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCleanInfoChangeEvent.DataDotComId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCleanInfoChangeEvent.DataDotComId",
+      "QualifiedApiName": "DataDotComId",
+      "EntityDefinitionId": "ContactCleanInfoChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataDotComId",
+      "MasterLabel": "Data.com ID",
+      "Label": "Data.com ID",
+      "DataType": "テキスト(20)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCleanInfoChangeEvent.Email"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCleanInfoChangeEvent.Email",
+      "QualifiedApiName": "Email",
+      "EntityDefinitionId": "ContactCleanInfoChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Email",
+      "MasterLabel": "メール",
+      "Label": "メール",
+      "DataType": "メール",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCleanInfoChangeEvent.FirstName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCleanInfoChangeEvent.FirstName",
+      "QualifiedApiName": "FirstName",
+      "EntityDefinitionId": "ContactCleanInfoChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "FirstName",
+      "MasterLabel": "名",
+      "Label": "名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCleanInfoChangeEvent.IsDifferent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCleanInfoChangeEvent.IsDifferent",
+      "QualifiedApiName": "IsDifferent",
+      "EntityDefinitionId": "ContactCleanInfoChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDifferent",
+      "MasterLabel": "不一致",
+      "Label": "不一致",
+      "DataType": "ビットベクター",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCleanInfoChangeEvent.IsFlaggedWrong"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCleanInfoChangeEvent.IsFlaggedWrong",
+      "QualifiedApiName": "IsFlaggedWrong",
+      "EntityDefinitionId": "ContactCleanInfoChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsFlaggedWrong",
+      "MasterLabel": "不正フラグが設定されています",
+      "Label": "不正フラグが設定されています",
+      "DataType": "ビットベクター",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCleanInfoChangeEvent.IsInactive"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCleanInfoChangeEvent.IsInactive",
+      "QualifiedApiName": "IsInactive",
+      "EntityDefinitionId": "ContactCleanInfoChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsInactive",
+      "MasterLabel": "Salesforce での取引先責任者の状況",
+      "Label": "Salesforce での取引先責任者の状況",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCleanInfoChangeEvent.IsReviewed"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCleanInfoChangeEvent.IsReviewed",
+      "QualifiedApiName": "IsReviewed",
+      "EntityDefinitionId": "ContactCleanInfoChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsReviewed",
+      "MasterLabel": "レビュー済み",
+      "Label": "レビュー済み",
+      "DataType": "ビットベクター",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCleanInfoChangeEvent.LastMatchedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCleanInfoChangeEvent.LastMatchedDate",
+      "QualifiedApiName": "LastMatchedDate",
+      "EntityDefinitionId": "ContactCleanInfoChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastMatchedDate",
+      "MasterLabel": "最終一致日",
+      "Label": "最終一致日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCleanInfoChangeEvent.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCleanInfoChangeEvent.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ContactCleanInfoChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCleanInfoChangeEvent.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCleanInfoChangeEvent.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ContactCleanInfoChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCleanInfoChangeEvent.LastName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCleanInfoChangeEvent.LastName",
+      "QualifiedApiName": "LastName",
+      "EntityDefinitionId": "ContactCleanInfoChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastName",
+      "MasterLabel": "姓",
+      "Label": "姓",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCleanInfoChangeEvent.LastStatusChangedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCleanInfoChangeEvent.LastStatusChangedBy",
+      "QualifiedApiName": "LastStatusChangedById",
+      "EntityDefinitionId": "ContactCleanInfoChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastStatusChangedBy",
+      "MasterLabel": "最終状況変更者",
+      "Label": "最終状況変更者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCleanInfoChangeEvent.LastStatusChangedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCleanInfoChangeEvent.LastStatusChangedDate",
+      "QualifiedApiName": "LastStatusChangedDate",
+      "EntityDefinitionId": "ContactCleanInfoChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastStatusChangedDate",
+      "MasterLabel": "最終状況変更日",
+      "Label": "最終状況変更日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCleanInfoChangeEvent.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCleanInfoChangeEvent.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "ContactCleanInfoChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "取引先責任者クリーンアップ情報名",
+      "Label": "取引先責任者クリーンアップ情報名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCleanInfoChangeEvent.Phone"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCleanInfoChangeEvent.Phone",
+      "QualifiedApiName": "Phone",
+      "EntityDefinitionId": "ContactCleanInfoChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Phone",
+      "MasterLabel": "電話",
+      "Label": "電話",
+      "DataType": "電話",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactCleanInfoChangeEvent.Title"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactCleanInfoChangeEvent.Title",
+      "QualifiedApiName": "Title",
+      "EntityDefinitionId": "ContactCleanInfoChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Title",
+      "MasterLabel": "役職",
+      "Label": "役職",
+      "DataType": "テキスト(128)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

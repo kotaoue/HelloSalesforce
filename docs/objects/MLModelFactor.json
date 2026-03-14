@@ -1,0 +1,343 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 16,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelFactor.Correlation"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelFactor.Correlation",
+      "QualifiedApiName": "Correlation",
+      "EntityDefinitionId": "MLModelFactor",
+      "NamespacePrefix": null,
+      "DeveloperName": "Correlation",
+      "MasterLabel": "相関関係",
+      "Label": "相関関係",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelFactor.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelFactor.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "MLModelFactor",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelFactor.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelFactor.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "MLModelFactor",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelFactor.FactorType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelFactor.FactorType",
+      "QualifiedApiName": "FactorType",
+      "EntityDefinitionId": "MLModelFactor",
+      "NamespacePrefix": null,
+      "DeveloperName": "FactorType",
+      "MasterLabel": "要素カテゴリ",
+      "Label": "要素カテゴリ",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelFactor.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelFactor.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "MLModelFactor",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "ML モデル要素 ID",
+      "Label": "ML モデル要素 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelFactor.Importance"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelFactor.Importance",
+      "QualifiedApiName": "Importance",
+      "EntityDefinitionId": "MLModelFactor",
+      "NamespacePrefix": null,
+      "DeveloperName": "Importance",
+      "MasterLabel": "重要度",
+      "Label": "重要度",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelFactor.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelFactor.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "MLModelFactor",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelFactor.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelFactor.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "MLModelFactor",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelFactor.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelFactor.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "MLModelFactor",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelFactor.Model"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelFactor.Model",
+      "QualifiedApiName": "ModelId",
+      "EntityDefinitionId": "MLModelFactor",
+      "NamespacePrefix": null,
+      "DeveloperName": "Model",
+      "MasterLabel": "ML モデル",
+      "Label": "ML モデル",
+      "DataType": "主従関係(ML モデル)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelFactor.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelFactor.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "MLModelFactor",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelFactor.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelFactor.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "MLModelFactor",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelFactor.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelFactor.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "MLModelFactor",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelFactor.Type"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelFactor.Type",
+      "QualifiedApiName": "Type",
+      "EntityDefinitionId": "MLModelFactor",
+      "NamespacePrefix": null,
+      "DeveloperName": "Type",
+      "MasterLabel": "要素種別",
+      "Label": "要素種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelFactor.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelFactor.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "MLModelFactor",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelFactor.Weight"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelFactor.Weight",
+      "QualifiedApiName": "Weight",
+      "EntityDefinitionId": "MLModelFactor",
+      "NamespacePrefix": null,
+      "DeveloperName": "Weight",
+      "MasterLabel": "加重",
+      "Label": "加重",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

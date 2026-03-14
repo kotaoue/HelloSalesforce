@@ -1,0 +1,448 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 21,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionLinkTemplate.ActionLinkGroupTemplate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionLinkTemplate.ActionLinkGroupTemplate",
+      "QualifiedApiName": "ActionLinkGroupTemplateId",
+      "EntityDefinitionId": "ActionLinkTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActionLinkGroupTemplate",
+      "MasterLabel": "アクションリンクグループテンプレート",
+      "Label": "アクションリンクグループテンプレート",
+      "DataType": "主従関係(アクションリンクグループテンプレート)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionLinkTemplate.ActionUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionLinkTemplate.ActionUrl",
+      "QualifiedApiName": "ActionUrl",
+      "EntityDefinitionId": "ActionLinkTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActionUrl",
+      "MasterLabel": "アクション URL",
+      "Label": "アクション URL",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionLinkTemplate.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionLinkTemplate.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ActionLinkTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionLinkTemplate.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionLinkTemplate.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ActionLinkTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionLinkTemplate.Headers"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionLinkTemplate.Headers",
+      "QualifiedApiName": "Headers",
+      "EntityDefinitionId": "ActionLinkTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "Headers",
+      "MasterLabel": "HTTP ヘッダー",
+      "Label": "HTTP ヘッダー",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionLinkTemplate.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionLinkTemplate.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ActionLinkTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "アクションリンクテンプレート ID",
+      "Label": "アクションリンクテンプレート ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionLinkTemplate.IsConfirmationRequired"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionLinkTemplate.IsConfirmationRequired",
+      "QualifiedApiName": "IsConfirmationRequired",
+      "EntityDefinitionId": "ActionLinkTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsConfirmationRequired",
+      "MasterLabel": "要確認",
+      "Label": "要確認",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionLinkTemplate.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionLinkTemplate.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ActionLinkTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionLinkTemplate.IsGroupDefault"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionLinkTemplate.IsGroupDefault",
+      "QualifiedApiName": "IsGroupDefault",
+      "EntityDefinitionId": "ActionLinkTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsGroupDefault",
+      "MasterLabel": "グループ内のデフォルトリンク",
+      "Label": "グループ内のデフォルトリンク",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionLinkTemplate.Label"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionLinkTemplate.Label",
+      "QualifiedApiName": "Label",
+      "EntityDefinitionId": "ActionLinkTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "Label",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionLinkTemplate.LabelKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionLinkTemplate.LabelKey",
+      "QualifiedApiName": "LabelKey",
+      "EntityDefinitionId": "ActionLinkTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "LabelKey",
+      "MasterLabel": "表示ラベルキー",
+      "Label": "表示ラベルキー",
+      "DataType": "テキスト(128)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionLinkTemplate.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionLinkTemplate.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ActionLinkTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionLinkTemplate.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionLinkTemplate.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ActionLinkTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionLinkTemplate.LinkType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionLinkTemplate.LinkType",
+      "QualifiedApiName": "LinkType",
+      "EntityDefinitionId": "ActionLinkTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "LinkType",
+      "MasterLabel": "アクション種別",
+      "Label": "アクション種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionLinkTemplate.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionLinkTemplate.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "ActionLinkTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionLinkTemplate.Method"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionLinkTemplate.Method",
+      "QualifiedApiName": "Method",
+      "EntityDefinitionId": "ActionLinkTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "Method",
+      "MasterLabel": "HTTP メソッド",
+      "Label": "HTTP メソッド",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionLinkTemplate.Position"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionLinkTemplate.Position",
+      "QualifiedApiName": "Position",
+      "EntityDefinitionId": "ActionLinkTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "Position",
+      "MasterLabel": "位置",
+      "Label": "位置",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionLinkTemplate.RequestBody"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionLinkTemplate.RequestBody",
+      "QualifiedApiName": "RequestBody",
+      "EntityDefinitionId": "ActionLinkTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "RequestBody",
+      "MasterLabel": "HTTP リクエストボディ",
+      "Label": "HTTP リクエストボディ",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionLinkTemplate.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionLinkTemplate.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ActionLinkTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionLinkTemplate.UserAlias"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionLinkTemplate.UserAlias",
+      "QualifiedApiName": "UserAlias",
+      "EntityDefinitionId": "ActionLinkTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserAlias",
+      "MasterLabel": "カスタムユーザー(別名)",
+      "Label": "カスタムユーザー(別名)",
+      "DataType": "テキスト(128)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionLinkTemplate.UserVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionLinkTemplate.UserVisibility",
+      "QualifiedApiName": "UserVisibility",
+      "EntityDefinitionId": "ActionLinkTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserVisibility",
+      "MasterLabel": "ユーザー表示設定",
+      "Label": "ユーザー表示設定",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

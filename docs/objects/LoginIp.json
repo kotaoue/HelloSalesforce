@@ -1,0 +1,154 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 7,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginIp.ChallengeMethod"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginIp.ChallengeMethod",
+      "QualifiedApiName": "ChallengeMethod",
+      "EntityDefinitionId": "LoginIp",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChallengeMethod",
+      "MasterLabel": "メソッドを確認",
+      "Label": "メソッドを確認",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginIp.ChallengeSentDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginIp.ChallengeSentDate",
+      "QualifiedApiName": "ChallengeSentDate",
+      "EntityDefinitionId": "LoginIp",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChallengeSentDate",
+      "MasterLabel": "SentDate を確認",
+      "Label": "SentDate を確認",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginIp.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginIp.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "LoginIp",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginIp.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginIp.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "LoginIp",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "ログイン IP ID",
+      "Label": "ログイン IP ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginIp.IsAuthenticated"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginIp.IsAuthenticated",
+      "QualifiedApiName": "IsAuthenticated",
+      "EntityDefinitionId": "LoginIp",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsAuthenticated",
+      "MasterLabel": "認証済み",
+      "Label": "認証済み",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginIp.SourceIp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginIp.SourceIp",
+      "QualifiedApiName": "SourceIp",
+      "EntityDefinitionId": "LoginIp",
+      "NamespacePrefix": null,
+      "DeveloperName": "SourceIp",
+      "MasterLabel": "アクセス元 IP",
+      "Label": "アクセス元 IP",
+      "DataType": "IP アドレス",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LoginIp.Users"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LoginIp.Users",
+      "QualifiedApiName": "UsersId",
+      "EntityDefinitionId": "LoginIp",
+      "NamespacePrefix": null,
+      "DeveloperName": "Users",
+      "MasterLabel": "ユーザー",
+      "Label": "ユーザー",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

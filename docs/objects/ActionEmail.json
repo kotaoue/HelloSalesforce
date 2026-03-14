@@ -1,0 +1,448 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 21,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionEmail.AllManagedPackageMember"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionEmail.AllManagedPackageMember",
+      "QualifiedApiName": "AllManagedPackageMemberId",
+      "EntityDefinitionId": "ActionEmail",
+      "NamespacePrefix": null,
+      "DeveloperName": "AllManagedPackageMember",
+      "MasterLabel": "AMPM エントリ",
+      "Label": "AMPM エントリ",
+      "DataType": "参照関係(すべての管理パッケージメンバー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionEmail.CcEmails"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionEmail.CcEmails",
+      "QualifiedApiName": "CcEmails",
+      "EntityDefinitionId": "ActionEmail",
+      "NamespacePrefix": null,
+      "DeveloperName": "CcEmails",
+      "MasterLabel": "CC メール",
+      "Label": "CC メール",
+      "DataType": "テキストエリア(500)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionEmail.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionEmail.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ActionEmail",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionEmail.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionEmail.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ActionEmail",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionEmail.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionEmail.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "ActionEmail",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "テキストエリア(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionEmail.DescriptionNorm"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionEmail.DescriptionNorm",
+      "QualifiedApiName": "DescriptionNorm",
+      "EntityDefinitionId": "ActionEmail",
+      "NamespacePrefix": null,
+      "DeveloperName": "DescriptionNorm",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "テキスト(510)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionEmail.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionEmail.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "ActionEmail",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "一意の名前",
+      "Label": "一意の名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionEmail.EntityDefinition"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionEmail.EntityDefinition",
+      "QualifiedApiName": "EntityDefinitionId",
+      "EntityDefinitionId": "ActionEmail",
+      "NamespacePrefix": null,
+      "DeveloperName": "EntityDefinition",
+      "MasterLabel": "エンティティ定義",
+      "Label": "エンティティ定義",
+      "DataType": "外部参照(エンティティ定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionEmail.FullName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionEmail.FullName",
+      "QualifiedApiName": "FullName",
+      "EntityDefinitionId": "ActionEmail",
+      "NamespacePrefix": null,
+      "DeveloperName": "FullName",
+      "MasterLabel": "メタデータ API の完全名",
+      "Label": "メタデータ API の完全名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionEmail.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionEmail.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ActionEmail",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "メールアラート ID",
+      "Label": "メールアラート ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionEmail.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionEmail.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ActionEmail",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionEmail.IsProtected"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionEmail.IsProtected",
+      "QualifiedApiName": "IsProtected",
+      "EntityDefinitionId": "ActionEmail",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsProtected",
+      "MasterLabel": "保護コンポーネント",
+      "Label": "保護コンポーネント",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionEmail.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionEmail.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ActionEmail",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionEmail.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionEmail.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ActionEmail",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionEmail.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionEmail.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "ActionEmail",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionEmail.Metadata"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionEmail.Metadata",
+      "QualifiedApiName": "Metadata",
+      "EntityDefinitionId": "ActionEmail",
+      "NamespacePrefix": null,
+      "DeveloperName": "Metadata",
+      "MasterLabel": "ワークフローアラートのメタデータ",
+      "Label": "ワークフローアラートのメタデータ",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionEmail.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionEmail.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "ActionEmail",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionEmail.Sender"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionEmail.Sender",
+      "QualifiedApiName": "SenderId",
+      "EntityDefinitionId": "ActionEmail",
+      "NamespacePrefix": null,
+      "DeveloperName": "Sender",
+      "MasterLabel": "送信者",
+      "Label": "送信者",
+      "DataType": "参照関係(組織の送信元メールアドレス,ユーザー,グループ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionEmail.SenderType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionEmail.SenderType",
+      "QualifiedApiName": "SenderType",
+      "EntityDefinitionId": "ActionEmail",
+      "NamespacePrefix": null,
+      "DeveloperName": "SenderType",
+      "MasterLabel": "送信者タイプ",
+      "Label": "送信者タイプ",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionEmail.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionEmail.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ActionEmail",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActionEmail.Template"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActionEmail.Template",
+      "QualifiedApiName": "TemplateId",
+      "EntityDefinitionId": "ActionEmail",
+      "NamespacePrefix": null,
+      "DeveloperName": "Template",
+      "MasterLabel": "メールテンプレート",
+      "Label": "メールテンプレート",
+      "DataType": "参照関係(メールテンプレート)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

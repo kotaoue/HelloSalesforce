@@ -1,0 +1,322 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 15,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGraphDependencyMppng.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGraphDependencyMppng.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DataGraphDependencyMppng",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGraphDependencyMppng.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGraphDependencyMppng.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DataGraphDependencyMppng",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGraphDependencyMppng.DaoDefinition"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGraphDependencyMppng.DaoDefinition",
+      "QualifiedApiName": "DaoDefinitionId",
+      "EntityDefinitionId": "DataGraphDependencyMppng",
+      "NamespacePrefix": null,
+      "DeveloperName": "DaoDefinition",
+      "MasterLabel": "データグラフ定義",
+      "Label": "データグラフ定義",
+      "DataType": "参照関係(データグラフ定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGraphDependencyMppng.DaoDependencyMappingType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGraphDependencyMppng.DaoDependencyMappingType",
+      "QualifiedApiName": "DaoDependencyMappingType",
+      "EntityDefinitionId": "DataGraphDependencyMppng",
+      "NamespacePrefix": null,
+      "DeveloperName": "DaoDependencyMappingType",
+      "MasterLabel": "マッピング種別",
+      "Label": "マッピング種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGraphDependencyMppng.DaoSourceObject"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGraphDependencyMppng.DaoSourceObject",
+      "QualifiedApiName": "DaoSourceObjectId",
+      "EntityDefinitionId": "DataGraphDependencyMppng",
+      "NamespacePrefix": null,
+      "DeveloperName": "DaoSourceObject",
+      "MasterLabel": "データグラフソースオブジェクト",
+      "Label": "データグラフソースオブジェクト",
+      "DataType": "参照関係(データグラフソースオブジェクト)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGraphDependencyMppng.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGraphDependencyMppng.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "DataGraphDependencyMppng",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGraphDependencyMppng.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGraphDependencyMppng.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DataGraphDependencyMppng",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "データグラフ連動関係の対応付け ID",
+      "Label": "データグラフ連動関係の対応付け ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGraphDependencyMppng.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGraphDependencyMppng.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DataGraphDependencyMppng",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGraphDependencyMppng.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGraphDependencyMppng.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "DataGraphDependencyMppng",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGraphDependencyMppng.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGraphDependencyMppng.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DataGraphDependencyMppng",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGraphDependencyMppng.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGraphDependencyMppng.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DataGraphDependencyMppng",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGraphDependencyMppng.MappingObject"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGraphDependencyMppng.MappingObject",
+      "QualifiedApiName": "MappingObjectId",
+      "EntityDefinitionId": "DataGraphDependencyMppng",
+      "NamespacePrefix": null,
+      "DeveloperName": "MappingObject",
+      "MasterLabel": "マッピングオブジェクト",
+      "Label": "マッピングオブジェクト",
+      "DataType": "参照関係(データモデルオブジェクト,データ変換)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGraphDependencyMppng.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGraphDependencyMppng.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "DataGraphDependencyMppng",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGraphDependencyMppng.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGraphDependencyMppng.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "DataGraphDependencyMppng",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGraphDependencyMppng.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGraphDependencyMppng.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DataGraphDependencyMppng",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

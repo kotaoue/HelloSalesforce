@@ -1,0 +1,322 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 15,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChangeRequestRelatedItem.Asset"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChangeRequestRelatedItem.Asset",
+      "QualifiedApiName": "AssetId",
+      "EntityDefinitionId": "ChangeRequestRelatedItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "Asset",
+      "MasterLabel": "納入商品",
+      "Label": "納入商品",
+      "DataType": "参照関係(納入商品)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChangeRequestRelatedItem.ChangeRequest"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChangeRequestRelatedItem.ChangeRequest",
+      "QualifiedApiName": "ChangeRequestId",
+      "EntityDefinitionId": "ChangeRequestRelatedItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChangeRequest",
+      "MasterLabel": "変更要求",
+      "Label": "変更要求",
+      "DataType": "主従関係(変更要求)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChangeRequestRelatedItem.Comment"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChangeRequestRelatedItem.Comment",
+      "QualifiedApiName": "Comment",
+      "EntityDefinitionId": "ChangeRequestRelatedItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "Comment",
+      "MasterLabel": "コメント",
+      "Label": "コメント",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChangeRequestRelatedItem.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChangeRequestRelatedItem.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ChangeRequestRelatedItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChangeRequestRelatedItem.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChangeRequestRelatedItem.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ChangeRequestRelatedItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChangeRequestRelatedItem.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChangeRequestRelatedItem.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ChangeRequestRelatedItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "変更要求関連項目 ID",
+      "Label": "変更要求関連項目 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChangeRequestRelatedItem.ImpactLevel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChangeRequestRelatedItem.ImpactLevel",
+      "QualifiedApiName": "ImpactLevel",
+      "EntityDefinitionId": "ChangeRequestRelatedItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "ImpactLevel",
+      "MasterLabel": "影響レベル",
+      "Label": "影響レベル",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChangeRequestRelatedItem.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChangeRequestRelatedItem.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ChangeRequestRelatedItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChangeRequestRelatedItem.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChangeRequestRelatedItem.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ChangeRequestRelatedItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChangeRequestRelatedItem.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChangeRequestRelatedItem.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ChangeRequestRelatedItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChangeRequestRelatedItem.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChangeRequestRelatedItem.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "ChangeRequestRelatedItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "変更要求関連項目番号",
+      "Label": "変更要求関連項目番号",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChangeRequestRelatedItem.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChangeRequestRelatedItem.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "ChangeRequestRelatedItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChangeRequestRelatedItem.RelationshipType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChangeRequestRelatedItem.RelationshipType",
+      "QualifiedApiName": "RelationshipType",
+      "EntityDefinitionId": "ChangeRequestRelatedItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "RelationshipType",
+      "MasterLabel": "リレーション種別",
+      "Label": "リレーション種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChangeRequestRelatedItem.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChangeRequestRelatedItem.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ChangeRequestRelatedItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChangeRequestRelatedItem.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChangeRequestRelatedItem.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "ChangeRequestRelatedItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

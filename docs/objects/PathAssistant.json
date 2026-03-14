@@ -1,0 +1,448 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 21,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PathAssistant.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PathAssistant.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "PathAssistant",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PathAssistant.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PathAssistant.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "PathAssistant",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PathAssistant.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PathAssistant.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "PathAssistant",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "API 参照名",
+      "Label": "API 参照名",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PathAssistant.FullName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PathAssistant.FullName",
+      "QualifiedApiName": "FullName",
+      "EntityDefinitionId": "PathAssistant",
+      "NamespacePrefix": null,
+      "DeveloperName": "FullName",
+      "MasterLabel": "メタデータ API の完全名",
+      "Label": "メタデータ API の完全名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PathAssistant.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PathAssistant.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "PathAssistant",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "パスアシスタント ID",
+      "Label": "パスアシスタント ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PathAssistant.IsActive"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PathAssistant.IsActive",
+      "QualifiedApiName": "IsActive",
+      "EntityDefinitionId": "PathAssistant",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsActive",
+      "MasterLabel": "有効",
+      "Label": "有効",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PathAssistant.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PathAssistant.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "PathAssistant",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PathAssistant.IsMasterRecordType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PathAssistant.IsMasterRecordType",
+      "QualifiedApiName": "IsMasterRecordType",
+      "EntityDefinitionId": "PathAssistant",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsMasterRecordType",
+      "MasterLabel": "マスターレコードタイプです",
+      "Label": "マスターレコードタイプです",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PathAssistant.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PathAssistant.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "PathAssistant",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PathAssistant.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PathAssistant.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "PathAssistant",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PathAssistant.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PathAssistant.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "PathAssistant",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PathAssistant.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PathAssistant.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "PathAssistant",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PathAssistant.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PathAssistant.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "PathAssistant",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PathAssistant.Metadata"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PathAssistant.Metadata",
+      "QualifiedApiName": "Metadata",
+      "EntityDefinitionId": "PathAssistant",
+      "NamespacePrefix": null,
+      "DeveloperName": "Metadata",
+      "MasterLabel": "パスアシスタントメタデータ",
+      "Label": "パスアシスタントメタデータ",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PathAssistant.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PathAssistant.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "PathAssistant",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PathAssistant.RecordType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PathAssistant.RecordType",
+      "QualifiedApiName": "RecordTypeId",
+      "EntityDefinitionId": "PathAssistant",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordType",
+      "MasterLabel": "レコードタイプ",
+      "Label": "レコードタイプ",
+      "DataType": "参照関係(レコードタイプ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PathAssistant.SobjectProcessField"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PathAssistant.SobjectProcessField",
+      "QualifiedApiName": "SobjectProcessField",
+      "EntityDefinitionId": "PathAssistant",
+      "NamespacePrefix": null,
+      "DeveloperName": "SobjectProcessField",
+      "MasterLabel": "プロセス項目",
+      "Label": "プロセス項目",
+      "DataType": "選択リスト(カスタム項目の定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PathAssistant.SobjectProcessFieldValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PathAssistant.SobjectProcessFieldValue",
+      "QualifiedApiName": "SobjectProcessFieldValue",
+      "EntityDefinitionId": "PathAssistant",
+      "NamespacePrefix": null,
+      "DeveloperName": "SobjectProcessFieldValue",
+      "MasterLabel": "プロセス項目",
+      "Label": "プロセス項目",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PathAssistant.SobjectType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PathAssistant.SobjectType",
+      "QualifiedApiName": "SobjectType",
+      "EntityDefinitionId": "PathAssistant",
+      "NamespacePrefix": null,
+      "DeveloperName": "SobjectType",
+      "MasterLabel": "エンティティ名",
+      "Label": "エンティティ名",
+      "DataType": "選択リスト(カスタムオブジェクトの定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PathAssistant.SobjectTypeValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PathAssistant.SobjectTypeValue",
+      "QualifiedApiName": "SobjectTypeValue",
+      "EntityDefinitionId": "PathAssistant",
+      "NamespacePrefix": null,
+      "DeveloperName": "SobjectTypeValue",
+      "MasterLabel": "エンティティ名",
+      "Label": "エンティティ名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PathAssistant.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PathAssistant.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "PathAssistant",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

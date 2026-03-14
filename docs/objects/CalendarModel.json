@@ -1,0 +1,427 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 20,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarModel.AllDayFieldName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarModel.AllDayFieldName",
+      "QualifiedApiName": "AllDayFieldName",
+      "EntityDefinitionId": "CalendarModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "AllDayFieldName",
+      "MasterLabel": "終日項目名",
+      "Label": "終日項目名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarModel.CalendarType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarModel.CalendarType",
+      "QualifiedApiName": "CalendarType",
+      "EntityDefinitionId": "CalendarModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "CalendarType",
+      "MasterLabel": "カレンダー種別",
+      "Label": "カレンダー種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarModel.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarModel.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "CalendarModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarModel.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarModel.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "CalendarModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarModel.DataSource"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarModel.DataSource",
+      "QualifiedApiName": "DataSourceId",
+      "EntityDefinitionId": "CalendarModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataSource",
+      "MasterLabel": "リストビュー検索条件",
+      "Label": "リストビュー検索条件",
+      "DataType": "参照関係(リストビュー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarModel.DateHandlingType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarModel.DateHandlingType",
+      "QualifiedApiName": "DateHandlingType",
+      "EntityDefinitionId": "CalendarModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "DateHandlingType",
+      "MasterLabel": "日付処理種別",
+      "Label": "日付処理種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarModel.DisplayField"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarModel.DisplayField",
+      "QualifiedApiName": "DisplayField",
+      "EntityDefinitionId": "CalendarModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "DisplayField",
+      "MasterLabel": "表示項目",
+      "Label": "表示項目",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarModel.EndField"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarModel.EndField",
+      "QualifiedApiName": "EndField",
+      "EntityDefinitionId": "CalendarModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "EndField",
+      "MasterLabel": "終了項目",
+      "Label": "終了項目",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarModel.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarModel.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "CalendarModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "カレンダーモデル ID",
+      "Label": "カレンダーモデル ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarModel.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarModel.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "CalendarModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarModel.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarModel.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "CalendarModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarModel.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarModel.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "CalendarModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarModel.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarModel.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "CalendarModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "カレンダーモデル名",
+      "Label": "カレンダーモデル名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarModel.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarModel.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "CalendarModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者 氏名",
+      "Label": "所有者 氏名",
+      "DataType": "参照関係(ユーザー,グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarModel.Publisher"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarModel.Publisher",
+      "QualifiedApiName": "PublisherId",
+      "EntityDefinitionId": "CalendarModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "Publisher",
+      "MasterLabel": "パブリッシャー",
+      "Label": "パブリッシャー",
+      "DataType": "参照関係(ユーザー,カレンダー,リストビュー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarModel.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarModel.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "CalendarModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarModel.SobjectType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarModel.SobjectType",
+      "QualifiedApiName": "SobjectType",
+      "EntityDefinitionId": "CalendarModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "SobjectType",
+      "MasterLabel": "sObject 型",
+      "Label": "sObject 型",
+      "DataType": "選択リスト()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarModel.StartField"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarModel.StartField",
+      "QualifiedApiName": "StartField",
+      "EntityDefinitionId": "CalendarModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "StartField",
+      "MasterLabel": "開始項目",
+      "Label": "開始項目",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarModel.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarModel.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "CalendarModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CalendarModel.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CalendarModel.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "CalendarModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 18,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContractLineItemChangeEvent.Asset"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContractLineItemChangeEvent.Asset",
+      "QualifiedApiName": "AssetId",
+      "EntityDefinitionId": "ContractLineItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Asset",
+      "MasterLabel": "納入商品名",
+      "Label": "納入商品名",
+      "DataType": "参照関係(納入商品)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContractLineItemChangeEvent.ChangeEventHeader"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContractLineItemChangeEvent.ChangeEventHeader",
+      "QualifiedApiName": "ChangeEventHeader",
+      "EntityDefinitionId": "ContractLineItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChangeEventHeader",
+      "MasterLabel": "変更イベントヘッダー",
+      "Label": "変更イベントヘッダー",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContractLineItemChangeEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContractLineItemChangeEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ContractLineItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContractLineItemChangeEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContractLineItemChangeEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ContractLineItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContractLineItemChangeEvent.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContractLineItemChangeEvent.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "ContractLineItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContractLineItemChangeEvent.Discount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContractLineItemChangeEvent.Discount",
+      "QualifiedApiName": "Discount",
+      "EntityDefinitionId": "ContractLineItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Discount",
+      "MasterLabel": "割引",
+      "Label": "割引",
+      "DataType": "パーセント(3、2)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContractLineItemChangeEvent.EndDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContractLineItemChangeEvent.EndDate",
+      "QualifiedApiName": "EndDate",
+      "EntityDefinitionId": "ContractLineItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EndDate",
+      "MasterLabel": "終了日",
+      "Label": "終了日",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContractLineItemChangeEvent.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContractLineItemChangeEvent.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ContractLineItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContractLineItemChangeEvent.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContractLineItemChangeEvent.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ContractLineItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContractLineItemChangeEvent.Location"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContractLineItemChangeEvent.Location",
+      "QualifiedApiName": "LocationId",
+      "EntityDefinitionId": "ContractLineItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Location",
+      "MasterLabel": "ロケーション",
+      "Label": "ロケーション",
+      "DataType": "参照関係(ロケーション)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContractLineItemChangeEvent.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContractLineItemChangeEvent.Name",
+      "QualifiedApiName": "LineItemNumber",
+      "EntityDefinitionId": "ContractLineItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "品目番号",
+      "Label": "品目番号",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContractLineItemChangeEvent.ParentContractLineItem"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContractLineItemChangeEvent.ParentContractLineItem",
+      "QualifiedApiName": "ParentContractLineItemId",
+      "EntityDefinitionId": "ContractLineItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ParentContractLineItem",
+      "MasterLabel": "親契約品目名",
+      "Label": "親契約品目名",
+      "DataType": "参照関係(契約品目名)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContractLineItemChangeEvent.PricebookEntry"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContractLineItemChangeEvent.PricebookEntry",
+      "QualifiedApiName": "PricebookEntryId",
+      "EntityDefinitionId": "ContractLineItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "PricebookEntry",
+      "MasterLabel": "価格表エントリ",
+      "Label": "価格表エントリ",
+      "DataType": "参照関係(価格表エントリ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContractLineItemChangeEvent.Quantity"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContractLineItemChangeEvent.Quantity",
+      "QualifiedApiName": "Quantity",
+      "EntityDefinitionId": "ContractLineItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Quantity",
+      "MasterLabel": "数量",
+      "Label": "数量",
+      "DataType": "数値(10、2)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContractLineItemChangeEvent.RootContractLineItem"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContractLineItemChangeEvent.RootContractLineItem",
+      "QualifiedApiName": "RootContractLineItemId",
+      "EntityDefinitionId": "ContractLineItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "RootContractLineItem",
+      "MasterLabel": "ルート契約品目名",
+      "Label": "ルート契約品目名",
+      "DataType": "参照関係(契約品目名)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContractLineItemChangeEvent.ServiceContract"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContractLineItemChangeEvent.ServiceContract",
+      "QualifiedApiName": "ServiceContractId",
+      "EntityDefinitionId": "ContractLineItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ServiceContract",
+      "MasterLabel": "サービス契約",
+      "Label": "サービス契約",
+      "DataType": "参照関係(サービス契約)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContractLineItemChangeEvent.StartDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContractLineItemChangeEvent.StartDate",
+      "QualifiedApiName": "StartDate",
+      "EntityDefinitionId": "ContractLineItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "StartDate",
+      "MasterLabel": "開始日",
+      "Label": "開始日",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContractLineItemChangeEvent.UnitPrice"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContractLineItemChangeEvent.UnitPrice",
+      "QualifiedApiName": "UnitPrice",
+      "EntityDefinitionId": "ContractLineItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "UnitPrice",
+      "MasterLabel": "販売価格",
+      "Label": "販売価格",
+      "DataType": "通貨(16、2)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

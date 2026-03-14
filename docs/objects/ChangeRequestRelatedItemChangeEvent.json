@@ -1,0 +1,238 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 11,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChangeRequestRelatedItemChangeEvent.Asset"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChangeRequestRelatedItemChangeEvent.Asset",
+      "QualifiedApiName": "AssetId",
+      "EntityDefinitionId": "ChangeRequestRelatedItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Asset",
+      "MasterLabel": "納入商品",
+      "Label": "納入商品",
+      "DataType": "参照関係(納入商品)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChangeRequestRelatedItemChangeEvent.ChangeEventHeader"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChangeRequestRelatedItemChangeEvent.ChangeEventHeader",
+      "QualifiedApiName": "ChangeEventHeader",
+      "EntityDefinitionId": "ChangeRequestRelatedItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChangeEventHeader",
+      "MasterLabel": "変更イベントヘッダー",
+      "Label": "変更イベントヘッダー",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChangeRequestRelatedItemChangeEvent.ChangeRequest"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChangeRequestRelatedItemChangeEvent.ChangeRequest",
+      "QualifiedApiName": "ChangeRequestId",
+      "EntityDefinitionId": "ChangeRequestRelatedItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChangeRequest",
+      "MasterLabel": "変更要求",
+      "Label": "変更要求",
+      "DataType": "参照関係(変更要求)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChangeRequestRelatedItemChangeEvent.Comment"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChangeRequestRelatedItemChangeEvent.Comment",
+      "QualifiedApiName": "Comment",
+      "EntityDefinitionId": "ChangeRequestRelatedItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Comment",
+      "MasterLabel": "コメント",
+      "Label": "コメント",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChangeRequestRelatedItemChangeEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChangeRequestRelatedItemChangeEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ChangeRequestRelatedItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChangeRequestRelatedItemChangeEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChangeRequestRelatedItemChangeEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ChangeRequestRelatedItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChangeRequestRelatedItemChangeEvent.ImpactLevel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChangeRequestRelatedItemChangeEvent.ImpactLevel",
+      "QualifiedApiName": "ImpactLevel",
+      "EntityDefinitionId": "ChangeRequestRelatedItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ImpactLevel",
+      "MasterLabel": "影響レベル",
+      "Label": "影響レベル",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChangeRequestRelatedItemChangeEvent.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChangeRequestRelatedItemChangeEvent.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ChangeRequestRelatedItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChangeRequestRelatedItemChangeEvent.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChangeRequestRelatedItemChangeEvent.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ChangeRequestRelatedItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChangeRequestRelatedItemChangeEvent.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChangeRequestRelatedItemChangeEvent.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "ChangeRequestRelatedItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "変更要求関連項目番号",
+      "Label": "変更要求関連項目番号",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ChangeRequestRelatedItemChangeEvent.RelationshipType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ChangeRequestRelatedItemChangeEvent.RelationshipType",
+      "QualifiedApiName": "RelationshipType",
+      "EntityDefinitionId": "ChangeRequestRelatedItemChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "RelationshipType",
+      "MasterLabel": "リレーション種別",
+      "Label": "リレーション種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

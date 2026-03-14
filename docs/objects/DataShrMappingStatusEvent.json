@@ -1,0 +1,280 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 13,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataShrMappingStatusEvent.ApiType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataShrMappingStatusEvent.ApiType",
+      "QualifiedApiName": "ApiType",
+      "EntityDefinitionId": "DataShrMappingStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ApiType",
+      "MasterLabel": "実行中の API またはアクション",
+      "Label": "実行中の API またはアクション",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataShrMappingStatusEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataShrMappingStatusEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DataShrMappingStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataShrMappingStatusEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataShrMappingStatusEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DataShrMappingStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataShrMappingStatusEvent.DataShareName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataShrMappingStatusEvent.DataShareName",
+      "QualifiedApiName": "DataShareName",
+      "EntityDefinitionId": "DataShrMappingStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataShareName",
+      "MasterLabel": "データ共有の API 参照名",
+      "Label": "データ共有の API 参照名",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataShrMappingStatusEvent.DataShareTargetName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataShrMappingStatusEvent.DataShareTargetName",
+      "QualifiedApiName": "DataShareTargetName",
+      "EntityDefinitionId": "DataShrMappingStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataShareTargetName",
+      "MasterLabel": "データ共有対象の API 参照名",
+      "Label": "データ共有対象の API 参照名",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataShrMappingStatusEvent.EventCreationDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataShrMappingStatusEvent.EventCreationDate",
+      "QualifiedApiName": "EventCreationDate",
+      "EntityDefinitionId": "DataShrMappingStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventCreationDate",
+      "MasterLabel": "イベント作成時刻",
+      "Label": "イベント作成時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataShrMappingStatusEvent.EventPublishDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataShrMappingStatusEvent.EventPublishDate",
+      "QualifiedApiName": "EventPublishDate",
+      "EntityDefinitionId": "DataShrMappingStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventPublishDate",
+      "MasterLabel": "イベント公開時刻",
+      "Label": "イベント公開時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataShrMappingStatusEvent.EventType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataShrMappingStatusEvent.EventType",
+      "QualifiedApiName": "EventType",
+      "EntityDefinitionId": "DataShrMappingStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventType",
+      "MasterLabel": "Data Cloud イベントの種別",
+      "Label": "Data Cloud イベントの種別",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataShrMappingStatusEvent.EventUuid"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataShrMappingStatusEvent.EventUuid",
+      "QualifiedApiName": "EventUuid",
+      "EntityDefinitionId": "DataShrMappingStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventUuid",
+      "MasterLabel": "EventUuid",
+      "Label": "EventUuid",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataShrMappingStatusEvent.ReplayId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataShrMappingStatusEvent.ReplayId",
+      "QualifiedApiName": "ReplayId",
+      "EntityDefinitionId": "DataShrMappingStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReplayId",
+      "MasterLabel": "再実行 ID",
+      "Label": "再実行 ID",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataShrMappingStatusEvent.SchemaVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataShrMappingStatusEvent.SchemaVersion",
+      "QualifiedApiName": "SchemaVersion",
+      "EntityDefinitionId": "DataShrMappingStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "SchemaVersion",
+      "MasterLabel": "スキーマバージョン",
+      "Label": "スキーマバージョン",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataShrMappingStatusEvent.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataShrMappingStatusEvent.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "DataShrMappingStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "実行中の API またはアクションに基づく状況",
+      "Label": "実行中の API またはアクションに基づく状況",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataShrMappingStatusEvent.TableName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataShrMappingStatusEvent.TableName",
+      "QualifiedApiName": "TableName",
+      "EntityDefinitionId": "DataShrMappingStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "TableName",
+      "MasterLabel": "更新中のテーブル名",
+      "Label": "更新中のテーブル名",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

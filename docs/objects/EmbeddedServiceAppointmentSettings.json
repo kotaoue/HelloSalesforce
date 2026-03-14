@@ -1,0 +1,301 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 14,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceAppointmentSettings.AppointmentConfirmImg"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceAppointmentSettings.AppointmentConfirmImg",
+      "QualifiedApiName": "AppointmentConfirmImg",
+      "EntityDefinitionId": "EmbeddedServiceAppointmentSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "AppointmentConfirmImg",
+      "MasterLabel": "予定の確認画像の URL",
+      "Label": "予定の確認画像の URL",
+      "DataType": "URL(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceAppointmentSettings.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceAppointmentSettings.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "EmbeddedServiceAppointmentSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceAppointmentSettings.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceAppointmentSettings.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "EmbeddedServiceAppointmentSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceAppointmentSettings.EmbeddedServiceConfig"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceAppointmentSettings.EmbeddedServiceConfig",
+      "QualifiedApiName": "EmbeddedServiceConfigId",
+      "EntityDefinitionId": "EmbeddedServiceAppointmentSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "EmbeddedServiceConfig",
+      "MasterLabel": "組み込みサービスリリース",
+      "Label": "組み込みサービスリリース",
+      "DataType": "主従関係(組み込みサービスリリース)  (ユニーク)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceAppointmentSettings.Enabled"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceAppointmentSettings.Enabled",
+      "QualifiedApiName": "Enabled",
+      "EntityDefinitionId": "EmbeddedServiceAppointmentSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "Enabled",
+      "MasterLabel": "有効",
+      "Label": "有効",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceAppointmentSettings.HomeImg"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceAppointmentSettings.HomeImg",
+      "QualifiedApiName": "HomeImg",
+      "EntityDefinitionId": "EmbeddedServiceAppointmentSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "HomeImg",
+      "MasterLabel": "組み込みサービス予定管理のホーム画像の URL",
+      "Label": "組み込みサービス予定管理のホーム画像の URL",
+      "DataType": "URL(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceAppointmentSettings.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceAppointmentSettings.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "EmbeddedServiceAppointmentSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "予定管理のための組み込みサービスリリース ID",
+      "Label": "予定管理のための組み込みサービスリリース ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceAppointmentSettings.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceAppointmentSettings.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "EmbeddedServiceAppointmentSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceAppointmentSettings.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceAppointmentSettings.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "EmbeddedServiceAppointmentSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceAppointmentSettings.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceAppointmentSettings.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "EmbeddedServiceAppointmentSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceAppointmentSettings.LogoImg"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceAppointmentSettings.LogoImg",
+      "QualifiedApiName": "LogoImg",
+      "EntityDefinitionId": "EmbeddedServiceAppointmentSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "LogoImg",
+      "MasterLabel": "組み込みサービス予定管理のロゴ画像の URL",
+      "Label": "組み込みサービス予定管理のロゴ画像の URL",
+      "DataType": "URL(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceAppointmentSettings.ShouldShowExistingAppointment"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceAppointmentSettings.ShouldShowExistingAppointment",
+      "QualifiedApiName": "ShouldShowExistingAppointment",
+      "EntityDefinitionId": "EmbeddedServiceAppointmentSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShouldShowExistingAppointment",
+      "MasterLabel": "既存の予定を表示",
+      "Label": "既存の予定を表示",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceAppointmentSettings.ShouldShowNewAppointment"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceAppointmentSettings.ShouldShowNewAppointment",
+      "QualifiedApiName": "ShouldShowNewAppointment",
+      "EntityDefinitionId": "EmbeddedServiceAppointmentSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShouldShowNewAppointment",
+      "MasterLabel": "新規予定を表示",
+      "Label": "新規予定を表示",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceAppointmentSettings.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceAppointmentSettings.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "EmbeddedServiceAppointmentSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

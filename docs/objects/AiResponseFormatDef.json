@@ -1,0 +1,385 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 18,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiResponseFormatDef.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiResponseFormatDef.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AiResponseFormatDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiResponseFormatDef.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiResponseFormatDef.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AiResponseFormatDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiResponseFormatDef.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiResponseFormatDef.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "AiResponseFormatDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiResponseFormatDef.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiResponseFormatDef.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "AiResponseFormatDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "AI 応答形式定義名",
+      "Label": "AI 応答形式定義名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiResponseFormatDef.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiResponseFormatDef.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AiResponseFormatDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "AI 応答形式定義 ID",
+      "Label": "AI 応答形式定義 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiResponseFormatDef.Input"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiResponseFormatDef.Input",
+      "QualifiedApiName": "Input",
+      "EntityDefinitionId": "AiResponseFormatDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "Input",
+      "MasterLabel": "入力",
+      "Label": "入力",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiResponseFormatDef.InvocationTarget"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiResponseFormatDef.InvocationTarget",
+      "QualifiedApiName": "InvocationTarget",
+      "EntityDefinitionId": "AiResponseFormatDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "InvocationTarget",
+      "MasterLabel": "呼び出し対象",
+      "Label": "呼び出し対象",
+      "DataType": "選択リスト(Apex クラス,フロー定義,Generative AI Prompt Templates)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiResponseFormatDef.InvocationTargetType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiResponseFormatDef.InvocationTargetType",
+      "QualifiedApiName": "InvocationTargetType",
+      "EntityDefinitionId": "AiResponseFormatDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "InvocationTargetType",
+      "MasterLabel": "呼び出し対象種別",
+      "Label": "呼び出し対象種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiResponseFormatDef.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiResponseFormatDef.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AiResponseFormatDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiResponseFormatDef.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiResponseFormatDef.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "AiResponseFormatDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiResponseFormatDef.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiResponseFormatDef.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AiResponseFormatDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiResponseFormatDef.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiResponseFormatDef.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AiResponseFormatDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiResponseFormatDef.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiResponseFormatDef.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "AiResponseFormatDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiResponseFormatDef.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiResponseFormatDef.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "AiResponseFormatDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "AI 応答形式定義マスター表示ラベル",
+      "Label": "AI 応答形式定義マスター表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiResponseFormatDef.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiResponseFormatDef.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "AiResponseFormatDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiResponseFormatDef.Output"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiResponseFormatDef.Output",
+      "QualifiedApiName": "Output",
+      "EntityDefinitionId": "AiResponseFormatDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "Output",
+      "MasterLabel": "出力",
+      "Label": "出力",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiResponseFormatDef.Source"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiResponseFormatDef.Source",
+      "QualifiedApiName": "Source",
+      "EntityDefinitionId": "AiResponseFormatDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "Source",
+      "MasterLabel": "AI 応答形式定義",
+      "Label": "AI 応答形式定義",
+      "DataType": "選択リスト(AI 応答形式定義)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiResponseFormatDef.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiResponseFormatDef.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AiResponseFormatDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

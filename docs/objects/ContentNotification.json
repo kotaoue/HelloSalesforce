@@ -1,0 +1,175 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 8,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentNotification.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentNotification.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ContentNotification",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentNotification.EntityIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentNotification.EntityIdentifier",
+      "QualifiedApiName": "EntityIdentifierId",
+      "EntityDefinitionId": "ContentNotification",
+      "NamespacePrefix": null,
+      "DeveloperName": "EntityIdentifier",
+      "MasterLabel": "エンティティ ID",
+      "Label": "エンティティ ID",
+      "DataType": "参照関係(ユーザー,ライブラリ,コンテンツドキュメント,コンテンツバージョン,コンテンツタグ,ライブラリ権限)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentNotification.EntityType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentNotification.EntityType",
+      "QualifiedApiName": "EntityType",
+      "EntityDefinitionId": "ContentNotification",
+      "NamespacePrefix": null,
+      "DeveloperName": "EntityType",
+      "MasterLabel": "エンティティ種別",
+      "Label": "エンティティ種別",
+      "DataType": "テキスト(20)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentNotification.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentNotification.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ContentNotification",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "ContentNotification ID",
+      "Label": "ContentNotification ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentNotification.Nature"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentNotification.Nature",
+      "QualifiedApiName": "Nature",
+      "EntityDefinitionId": "ContentNotification",
+      "NamespacePrefix": null,
+      "DeveloperName": "Nature",
+      "MasterLabel": "種類",
+      "Label": "種類",
+      "DataType": "テキスト(20)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentNotification.Subject"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentNotification.Subject",
+      "QualifiedApiName": "Subject",
+      "EntityDefinitionId": "ContentNotification",
+      "NamespacePrefix": null,
+      "DeveloperName": "Subject",
+      "MasterLabel": "件名",
+      "Label": "件名",
+      "DataType": "テキストエリア(333)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentNotification.Text"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentNotification.Text",
+      "QualifiedApiName": "Text",
+      "EntityDefinitionId": "ContentNotification",
+      "NamespacePrefix": null,
+      "DeveloperName": "Text",
+      "MasterLabel": "テキスト",
+      "Label": "テキスト",
+      "DataType": "テキストエリア(666)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentNotification.Users"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentNotification.Users",
+      "QualifiedApiName": "UsersId",
+      "EntityDefinitionId": "ContentNotification",
+      "NamespacePrefix": null,
+      "DeveloperName": "Users",
+      "MasterLabel": "ユーザー",
+      "Label": "ユーザー",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 7,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgLimitUsageHistory.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgLimitUsageHistory.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "CrossOrgLimitUsageHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "XI 利用制限履歴 ID",
+      "Label": "XI 利用制限履歴 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgLimitUsageHistory.LimitType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgLimitUsageHistory.LimitType",
+      "QualifiedApiName": "LimitType",
+      "EntityDefinitionId": "CrossOrgLimitUsageHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "LimitType",
+      "MasterLabel": "制限種別",
+      "Label": "制限種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgLimitUsageHistory.Organization"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgLimitUsageHistory.Organization",
+      "QualifiedApiName": "OrganizationId",
+      "EntityDefinitionId": "CrossOrgLimitUsageHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Organization",
+      "MasterLabel": "AllOrganization",
+      "Label": "AllOrganization",
+      "DataType": "参照関係(AllOrganization)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgLimitUsageHistory.Target"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgLimitUsageHistory.Target",
+      "QualifiedApiName": "TargetId",
+      "EntityDefinitionId": "CrossOrgLimitUsageHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Target",
+      "MasterLabel": "対象オブジェクト",
+      "Label": "対象オブジェクト",
+      "DataType": "参照関係(All Domain Mapping)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgLimitUsageHistory.TimeSegment"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgLimitUsageHistory.TimeSegment",
+      "QualifiedApiName": "TimeSegment",
+      "EntityDefinitionId": "CrossOrgLimitUsageHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "TimeSegment",
+      "MasterLabel": "時間区分",
+      "Label": "時間区分",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgLimitUsageHistory.Usage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgLimitUsageHistory.Usage",
+      "QualifiedApiName": "Usage",
+      "EntityDefinitionId": "CrossOrgLimitUsageHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Usage",
+      "MasterLabel": "利用状況",
+      "Label": "利用状況",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CrossOrgLimitUsageHistory.UsageDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CrossOrgLimitUsageHistory.UsageDate",
+      "QualifiedApiName": "UsageDate",
+      "EntityDefinitionId": "CrossOrgLimitUsageHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "UsageDate",
+      "MasterLabel": "利用日",
+      "Label": "利用日",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 13,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdpEventLog.App"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpEventLog.App",
+      "QualifiedApiName": "AppId",
+      "EntityDefinitionId": "IdpEventLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "App",
+      "MasterLabel": "アプリケーション",
+      "Label": "アプリケーション",
+      "DataType": "参照関係(接続アプリケーション)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdpEventLog.AuthSession"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpEventLog.AuthSession",
+      "QualifiedApiName": "AuthSessionId",
+      "EntityDefinitionId": "IdpEventLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "AuthSession",
+      "MasterLabel": "認証セッション",
+      "Label": "認証セッション",
+      "DataType": "参照関係(認証セッション)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdpEventLog.ErrorCode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpEventLog.ErrorCode",
+      "QualifiedApiName": "ErrorCode",
+      "EntityDefinitionId": "IdpEventLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorCode",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdpEventLog.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpEventLog.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "IdpEventLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "イベントログエントリ ID",
+      "Label": "イベントログエントリ ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdpEventLog.IdentityUsed"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpEventLog.IdentityUsed",
+      "QualifiedApiName": "IdentityUsed",
+      "EntityDefinitionId": "IdpEventLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "IdentityUsed",
+      "MasterLabel": "使用された ID",
+      "Label": "使用された ID",
+      "DataType": "テキスト(765)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdpEventLog.InitiatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpEventLog.InitiatedBy",
+      "QualifiedApiName": "InitiatedBy",
+      "EntityDefinitionId": "IdpEventLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "InitiatedBy",
+      "MasterLabel": "利用状況の種別",
+      "Label": "利用状況の種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdpEventLog.OauthConsumer"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpEventLog.OauthConsumer",
+      "QualifiedApiName": "OauthConsumerId",
+      "EntityDefinitionId": "IdpEventLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "OauthConsumer",
+      "MasterLabel": "OAuth コンシューマー",
+      "Label": "OAuth コンシューマー",
+      "DataType": "参照関係(リモートアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdpEventLog.Options"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpEventLog.Options",
+      "QualifiedApiName": "Options",
+      "EntityDefinitionId": "IdpEventLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "Options",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val Options not found in section udd_IdpEventLog",
+      "Label": "__MISSING LABEL__ PropertyFile - val Options not found in section udd_IdpEventLog",
+      "DataType": "ビットベクター",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdpEventLog.SamlEntityUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpEventLog.SamlEntityUrl",
+      "QualifiedApiName": "SamlEntityUrl",
+      "EntityDefinitionId": "IdpEventLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "SamlEntityUrl",
+      "MasterLabel": "エンティティ ID",
+      "Label": "エンティティ ID",
+      "DataType": "テキスト(1500)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdpEventLog.ServiceProvider"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpEventLog.ServiceProvider",
+      "QualifiedApiName": "ServiceProviderId",
+      "EntityDefinitionId": "IdpEventLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "ServiceProvider",
+      "MasterLabel": "サービスプロバイダー",
+      "Label": "サービスプロバイダー",
+      "DataType": "参照関係(サービスプロバイダー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdpEventLog.SsoType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpEventLog.SsoType",
+      "QualifiedApiName": "SsoType",
+      "EntityDefinitionId": "IdpEventLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "SsoType",
+      "MasterLabel": "SSO 種別",
+      "Label": "SSO 種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdpEventLog.Timestamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpEventLog.Timestamp",
+      "QualifiedApiName": "Timestamp",
+      "EntityDefinitionId": "IdpEventLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "Timestamp",
+      "MasterLabel": "タイムスタンプ",
+      "Label": "タイムスタンプ",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdpEventLog.User"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpEventLog.User",
+      "QualifiedApiName": "UserId",
+      "EntityDefinitionId": "IdpEventLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "User",
+      "MasterLabel": "ユーザー",
+      "Label": "ユーザー",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

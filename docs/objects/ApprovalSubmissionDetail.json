@@ -1,0 +1,385 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 18,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApprovalSubmissionDetail.ActionChannelName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApprovalSubmissionDetail.ActionChannelName",
+      "QualifiedApiName": "ActionChannelName",
+      "EntityDefinitionId": "ApprovalSubmissionDetail",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActionChannelName",
+      "MasterLabel": "アクションチャネル名",
+      "Label": "アクションチャネル名",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApprovalSubmissionDetail.ActionContext"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApprovalSubmissionDetail.ActionContext",
+      "QualifiedApiName": "ActionContext",
+      "EntityDefinitionId": "ApprovalSubmissionDetail",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActionContext",
+      "MasterLabel": "アクションコンテキスト",
+      "Label": "アクションコンテキスト",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApprovalSubmissionDetail.ActionName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApprovalSubmissionDetail.ActionName",
+      "QualifiedApiName": "ActionName",
+      "EntityDefinitionId": "ApprovalSubmissionDetail",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActionName",
+      "MasterLabel": "アクション名",
+      "Label": "アクション名",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApprovalSubmissionDetail.ActionPerformedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApprovalSubmissionDetail.ActionPerformedBy",
+      "QualifiedApiName": "ActionPerformedById",
+      "EntityDefinitionId": "ApprovalSubmissionDetail",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActionPerformedBy",
+      "MasterLabel": "アクション実行者",
+      "Label": "アクション実行者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApprovalSubmissionDetail.ActionPerformerRole"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApprovalSubmissionDetail.ActionPerformerRole",
+      "QualifiedApiName": "ActionPerformerRole",
+      "EntityDefinitionId": "ApprovalSubmissionDetail",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActionPerformerRole",
+      "MasterLabel": "アクション実施者ロール",
+      "Label": "アクション実施者ロール",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApprovalSubmissionDetail.ApprovalSubmission"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApprovalSubmissionDetail.ApprovalSubmission",
+      "QualifiedApiName": "ApprovalSubmissionId",
+      "EntityDefinitionId": "ApprovalSubmissionDetail",
+      "NamespacePrefix": null,
+      "DeveloperName": "ApprovalSubmission",
+      "MasterLabel": "提出した承認申請",
+      "Label": "提出した承認申請",
+      "DataType": "主従関係(提出した承認申請)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApprovalSubmissionDetail.ApprovalWorkItem"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApprovalSubmissionDetail.ApprovalWorkItem",
+      "QualifiedApiName": "ApprovalWorkItemId",
+      "EntityDefinitionId": "ApprovalSubmissionDetail",
+      "NamespacePrefix": null,
+      "DeveloperName": "ApprovalWorkItem",
+      "MasterLabel": "承認作業項目",
+      "Label": "承認作業項目",
+      "DataType": "参照関係(承認作業項目)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApprovalSubmissionDetail.Comments"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApprovalSubmissionDetail.Comments",
+      "QualifiedApiName": "Comments",
+      "EntityDefinitionId": "ApprovalSubmissionDetail",
+      "NamespacePrefix": null,
+      "DeveloperName": "Comments",
+      "MasterLabel": "コメント",
+      "Label": "コメント",
+      "DataType": "リッチテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApprovalSubmissionDetail.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApprovalSubmissionDetail.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ApprovalSubmissionDetail",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApprovalSubmissionDetail.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApprovalSubmissionDetail.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ApprovalSubmissionDetail",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApprovalSubmissionDetail.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApprovalSubmissionDetail.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ApprovalSubmissionDetail",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "提出した承認申請の詳細 ID",
+      "Label": "提出した承認申請の詳細 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApprovalSubmissionDetail.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApprovalSubmissionDetail.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ApprovalSubmissionDetail",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApprovalSubmissionDetail.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApprovalSubmissionDetail.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ApprovalSubmissionDetail",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApprovalSubmissionDetail.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApprovalSubmissionDetail.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ApprovalSubmissionDetail",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApprovalSubmissionDetail.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApprovalSubmissionDetail.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "ApprovalSubmissionDetail",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "提出した承認申請の詳細名",
+      "Label": "提出した承認申請の詳細名",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApprovalSubmissionDetail.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApprovalSubmissionDetail.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "ApprovalSubmissionDetail",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApprovalSubmissionDetail.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApprovalSubmissionDetail.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ApprovalSubmissionDetail",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApprovalSubmissionDetail.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApprovalSubmissionDetail.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "ApprovalSubmissionDetail",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

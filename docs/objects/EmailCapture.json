@@ -1,0 +1,322 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 15,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailCapture.CaptureDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailCapture.CaptureDate",
+      "QualifiedApiName": "CaptureDate",
+      "EntityDefinitionId": "EmailCapture",
+      "NamespacePrefix": null,
+      "DeveloperName": "CaptureDate",
+      "MasterLabel": "キャプチャ日",
+      "Label": "キャプチャ日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailCapture.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailCapture.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "EmailCapture",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailCapture.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailCapture.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "EmailCapture",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailCapture.FromPattern"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailCapture.FromPattern",
+      "QualifiedApiName": "FromPattern",
+      "EntityDefinitionId": "EmailCapture",
+      "NamespacePrefix": null,
+      "DeveloperName": "FromPattern",
+      "MasterLabel": "送信者",
+      "Label": "送信者",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailCapture.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailCapture.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "EmailCapture",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "メールキャプチャ ID",
+      "Label": "メールキャプチャ ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailCapture.IsActive"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailCapture.IsActive",
+      "QualifiedApiName": "IsActive",
+      "EntityDefinitionId": "EmailCapture",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsActive",
+      "MasterLabel": "有効",
+      "Label": "有効",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailCapture.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailCapture.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "EmailCapture",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailCapture.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailCapture.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "EmailCapture",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailCapture.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailCapture.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "EmailCapture",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailCapture.RawMessage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailCapture.RawMessage",
+      "QualifiedApiName": "RawMessage",
+      "EntityDefinitionId": "EmailCapture",
+      "NamespacePrefix": null,
+      "DeveloperName": "RawMessage",
+      "MasterLabel": "未加工メッセージ",
+      "Label": "未加工メッセージ",
+      "DataType": "テキストエリア",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailCapture.RawMessageLength"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailCapture.RawMessageLength",
+      "QualifiedApiName": "RawMessageLength",
+      "EntityDefinitionId": "EmailCapture",
+      "NamespacePrefix": null,
+      "DeveloperName": "RawMessageLength",
+      "MasterLabel": "未加工のメッセージ長",
+      "Label": "未加工のメッセージ長",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailCapture.Recipient"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailCapture.Recipient",
+      "QualifiedApiName": "Recipient",
+      "EntityDefinitionId": "EmailCapture",
+      "NamespacePrefix": null,
+      "DeveloperName": "Recipient",
+      "MasterLabel": "受信者",
+      "Label": "受信者",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailCapture.Sender"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailCapture.Sender",
+      "QualifiedApiName": "Sender",
+      "EntityDefinitionId": "EmailCapture",
+      "NamespacePrefix": null,
+      "DeveloperName": "Sender",
+      "MasterLabel": "送信者",
+      "Label": "送信者",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailCapture.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailCapture.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "EmailCapture",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailCapture.ToPattern"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailCapture.ToPattern",
+      "QualifiedApiName": "ToPattern",
+      "EntityDefinitionId": "EmailCapture",
+      "NamespacePrefix": null,
+      "DeveloperName": "ToPattern",
+      "MasterLabel": "宛先",
+      "Label": "宛先",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

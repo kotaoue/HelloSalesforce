@@ -1,0 +1,469 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 22,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DashboardComponent.ChartTheme"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DashboardComponent.ChartTheme",
+      "QualifiedApiName": "ChartTheme",
+      "EntityDefinitionId": "DashboardComponent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChartTheme",
+      "MasterLabel": "グラフのテーマ",
+      "Label": "グラフのテーマ",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DashboardComponent.ChartUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DashboardComponent.ChartUrl",
+      "QualifiedApiName": "ChartUrl",
+      "EntityDefinitionId": "DashboardComponent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChartUrl",
+      "MasterLabel": "グラフの URL",
+      "Label": "グラフの URL",
+      "DataType": "テキスト(2000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DashboardComponent.ComponentType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DashboardComponent.ComponentType",
+      "QualifiedApiName": "ComponentType",
+      "EntityDefinitionId": "DashboardComponent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ComponentType",
+      "MasterLabel": "コンポーネントの種類",
+      "Label": "コンポーネントの種類",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DashboardComponent.ConfigError"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DashboardComponent.ConfigError",
+      "QualifiedApiName": "ConfigError",
+      "EntityDefinitionId": "DashboardComponent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ConfigError",
+      "MasterLabel": "レポートの設定エラー",
+      "Label": "レポートの設定エラー",
+      "DataType": "テキスト(1024)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DashboardComponent.CustomReport"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DashboardComponent.CustomReport",
+      "QualifiedApiName": "CustomReportId",
+      "EntityDefinitionId": "DashboardComponent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CustomReport",
+      "MasterLabel": "カスタムレポート",
+      "Label": "カスタムレポート",
+      "DataType": "参照関係(レポート)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DashboardComponent.Dashboard"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DashboardComponent.Dashboard",
+      "QualifiedApiName": "DashboardId",
+      "EntityDefinitionId": "DashboardComponent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Dashboard",
+      "MasterLabel": "ダッシュボード",
+      "Label": "ダッシュボード",
+      "DataType": "参照関係(ダッシュボード)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DashboardComponent.DashboardColumn"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DashboardComponent.DashboardColumn",
+      "QualifiedApiName": "DashboardColumn",
+      "EntityDefinitionId": "DashboardComponent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DashboardColumn",
+      "MasterLabel": "ダッシュボード列",
+      "Label": "ダッシュボード列",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DashboardComponent.Footer"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DashboardComponent.Footer",
+      "QualifiedApiName": "Footer",
+      "EntityDefinitionId": "DashboardComponent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Footer",
+      "MasterLabel": "フッター",
+      "Label": "フッター",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DashboardComponent.Header"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DashboardComponent.Header",
+      "QualifiedApiName": "Header",
+      "EntityDefinitionId": "DashboardComponent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Header",
+      "MasterLabel": "ヘッダー",
+      "Label": "ヘッダー",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DashboardComponent.Height"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DashboardComponent.Height",
+      "QualifiedApiName": "Height",
+      "EntityDefinitionId": "DashboardComponent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Height",
+      "MasterLabel": "高さ (ピクセル単位)",
+      "Label": "高さ (ピクセル単位)",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DashboardComponent.HtmlUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DashboardComponent.HtmlUrl",
+      "QualifiedApiName": "HtmlUrl",
+      "EntityDefinitionId": "DashboardComponent",
+      "NamespacePrefix": null,
+      "DeveloperName": "HtmlUrl",
+      "MasterLabel": "HTML URL",
+      "Label": "HTML URL",
+      "DataType": "URL(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DashboardComponent.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DashboardComponent.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DashboardComponent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "ダッシュボードコンポーネント ID",
+      "Label": "ダッシュボードコンポーネント ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DashboardComponent.LastRefreshDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DashboardComponent.LastRefreshDate",
+      "QualifiedApiName": "LastRefreshDate",
+      "EntityDefinitionId": "DashboardComponent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastRefreshDate",
+      "MasterLabel": "最終更新",
+      "Label": "最終更新",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DashboardComponent.Metric"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DashboardComponent.Metric",
+      "QualifiedApiName": "Metric",
+      "EntityDefinitionId": "DashboardComponent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Metric",
+      "MasterLabel": "メトリクス表示ラベル",
+      "Label": "メトリクス表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DashboardComponent.MetricBreakpointColor"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DashboardComponent.MetricBreakpointColor",
+      "QualifiedApiName": "MetricBreakpointColor",
+      "EntityDefinitionId": "DashboardComponent",
+      "NamespacePrefix": null,
+      "DeveloperName": "MetricBreakpointColor",
+      "MasterLabel": "メトリクスブレークポイント色",
+      "Label": "メトリクスブレークポイント色",
+      "DataType": "テキスト(7)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DashboardComponent.MetricValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DashboardComponent.MetricValue",
+      "QualifiedApiName": "MetricValue",
+      "EntityDefinitionId": "DashboardComponent",
+      "NamespacePrefix": null,
+      "DeveloperName": "MetricValue",
+      "MasterLabel": "フォーマット済みメトリクス",
+      "Label": "フォーマット済みメトリクス",
+      "DataType": "テキスト(50)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DashboardComponent.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DashboardComponent.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "DashboardComponent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "ダッシュボードコンポーネント名",
+      "Label": "ダッシュボードコンポーネント名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DashboardComponent.RunningUserError"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DashboardComponent.RunningUserError",
+      "QualifiedApiName": "RunningUserError",
+      "EntityDefinitionId": "DashboardComponent",
+      "NamespacePrefix": null,
+      "DeveloperName": "RunningUserError",
+      "MasterLabel": "実行ユーザーエラー",
+      "Label": "実行ユーザーエラー",
+      "DataType": "テキスト(1024)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DashboardComponent.RuntimeError"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DashboardComponent.RuntimeError",
+      "QualifiedApiName": "RuntimeError",
+      "EntityDefinitionId": "DashboardComponent",
+      "NamespacePrefix": null,
+      "DeveloperName": "RuntimeError",
+      "MasterLabel": "レポートのランタイムエラー",
+      "Label": "レポートのランタイムエラー",
+      "DataType": "テキスト(1024)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DashboardComponent.RuntimeWarning"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DashboardComponent.RuntimeWarning",
+      "QualifiedApiName": "RuntimeWarning",
+      "EntityDefinitionId": "DashboardComponent",
+      "NamespacePrefix": null,
+      "DeveloperName": "RuntimeWarning",
+      "MasterLabel": "レポートのランタイム警告",
+      "Label": "レポートのランタイム警告",
+      "DataType": "テキスト(1024)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DashboardComponent.SortOrder"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DashboardComponent.SortOrder",
+      "QualifiedApiName": "SortOrder",
+      "EntityDefinitionId": "DashboardComponent",
+      "NamespacePrefix": null,
+      "DeveloperName": "SortOrder",
+      "MasterLabel": "並び替え順",
+      "Label": "並び替え順",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DashboardComponent.TableContent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DashboardComponent.TableContent",
+      "QualifiedApiName": "TableContent",
+      "EntityDefinitionId": "DashboardComponent",
+      "NamespacePrefix": null,
+      "DeveloperName": "TableContent",
+      "MasterLabel": "テーブルコンテンツ",
+      "Label": "テーブルコンテンツ",
+      "DataType": "テキスト(1048576)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

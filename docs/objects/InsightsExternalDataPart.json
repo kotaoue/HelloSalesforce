@@ -1,0 +1,259 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 12,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InsightsExternalDataPart.CompressedDataLength"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsightsExternalDataPart.CompressedDataLength",
+      "QualifiedApiName": "CompressedDataLength",
+      "EntityDefinitionId": "InsightsExternalDataPart",
+      "NamespacePrefix": null,
+      "DeveloperName": "CompressedDataLength",
+      "MasterLabel": "ファイルパーツ圧縮長",
+      "Label": "ファイルパーツ圧縮長",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InsightsExternalDataPart.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsightsExternalDataPart.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "InsightsExternalDataPart",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InsightsExternalDataPart.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsightsExternalDataPart.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "InsightsExternalDataPart",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InsightsExternalDataPart.DataFile"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsightsExternalDataPart.DataFile",
+      "QualifiedApiName": "DataFile",
+      "EntityDefinitionId": "InsightsExternalDataPart",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataFile",
+      "MasterLabel": "データパーツ",
+      "Label": "データパーツ",
+      "DataType": "テキストエリア",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InsightsExternalDataPart.DataLength"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsightsExternalDataPart.DataLength",
+      "QualifiedApiName": "DataLength",
+      "EntityDefinitionId": "InsightsExternalDataPart",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataLength",
+      "MasterLabel": "データパーツ長",
+      "Label": "データパーツ長",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InsightsExternalDataPart.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsightsExternalDataPart.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "InsightsExternalDataPart",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "外部データのパート ID",
+      "Label": "外部データのパート ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InsightsExternalDataPart.InsightsExternalData"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsightsExternalDataPart.InsightsExternalData",
+      "QualifiedApiName": "InsightsExternalDataId",
+      "EntityDefinitionId": "InsightsExternalDataPart",
+      "NamespacePrefix": null,
+      "DeveloperName": "InsightsExternalData",
+      "MasterLabel": "外部データ",
+      "Label": "外部データ",
+      "DataType": "参照関係(外部データ,Wave テンプレート外部データ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InsightsExternalDataPart.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsightsExternalDataPart.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "InsightsExternalDataPart",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InsightsExternalDataPart.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsightsExternalDataPart.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "InsightsExternalDataPart",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InsightsExternalDataPart.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsightsExternalDataPart.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "InsightsExternalDataPart",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InsightsExternalDataPart.PartNumber"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsightsExternalDataPart.PartNumber",
+      "QualifiedApiName": "PartNumber",
+      "EntityDefinitionId": "InsightsExternalDataPart",
+      "NamespacePrefix": null,
+      "DeveloperName": "PartNumber",
+      "MasterLabel": "データパーツ番号",
+      "Label": "データパーツ番号",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InsightsExternalDataPart.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsightsExternalDataPart.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "InsightsExternalDataPart",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

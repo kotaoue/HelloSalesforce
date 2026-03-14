@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessProcess.AllManagedPackageMember"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessProcess.AllManagedPackageMember",
+      "QualifiedApiName": "AllManagedPackageMemberId",
+      "EntityDefinitionId": "BusinessProcess",
+      "NamespacePrefix": null,
+      "DeveloperName": "AllManagedPackageMember",
+      "MasterLabel": "AMPM エントリ",
+      "Label": "AMPM エントリ",
+      "DataType": "参照関係(すべての管理パッケージメンバー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessProcess.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessProcess.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "BusinessProcess",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessProcess.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessProcess.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "BusinessProcess",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessProcess.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessProcess.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "BusinessProcess",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessProcess.EntityDefinition"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessProcess.EntityDefinition",
+      "QualifiedApiName": "EntityDefinitionId",
+      "EntityDefinitionId": "BusinessProcess",
+      "NamespacePrefix": null,
+      "DeveloperName": "EntityDefinition",
+      "MasterLabel": "エンティティ定義",
+      "Label": "エンティティ定義",
+      "DataType": "外部参照(エンティティ定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessProcess.FullName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessProcess.FullName",
+      "QualifiedApiName": "FullName",
+      "EntityDefinitionId": "BusinessProcess",
+      "NamespacePrefix": null,
+      "DeveloperName": "FullName",
+      "MasterLabel": "メタデータ API の完全名",
+      "Label": "メタデータ API の完全名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessProcess.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessProcess.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "BusinessProcess",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "ビジネスプロセス ID",
+      "Label": "ビジネスプロセス ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessProcess.IsActive"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessProcess.IsActive",
+      "QualifiedApiName": "IsActive",
+      "EntityDefinitionId": "BusinessProcess",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsActive",
+      "MasterLabel": "有効",
+      "Label": "有効",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessProcess.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessProcess.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "BusinessProcess",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessProcess.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessProcess.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "BusinessProcess",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessProcess.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessProcess.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "BusinessProcess",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessProcess.Metadata"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessProcess.Metadata",
+      "QualifiedApiName": "Metadata",
+      "EntityDefinitionId": "BusinessProcess",
+      "NamespacePrefix": null,
+      "DeveloperName": "Metadata",
+      "MasterLabel": "ビジネスプロセスメタデータ",
+      "Label": "ビジネスプロセスメタデータ",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessProcess.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessProcess.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "BusinessProcess",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessProcess.NameNorm"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessProcess.NameNorm",
+      "QualifiedApiName": "NameNorm",
+      "EntityDefinitionId": "BusinessProcess",
+      "NamespacePrefix": null,
+      "DeveloperName": "NameNorm",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(160)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessProcess.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessProcess.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "BusinessProcess",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessProcess.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessProcess.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "BusinessProcess",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessProcess.TableEnumOrId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessProcess.TableEnumOrId",
+      "QualifiedApiName": "TableEnumOrId",
+      "EntityDefinitionId": "BusinessProcess",
+      "NamespacePrefix": null,
+      "DeveloperName": "TableEnumOrId",
+      "MasterLabel": "エンティティ",
+      "Label": "エンティティ",
+      "DataType": "選択リスト(カスタムオブジェクトの定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

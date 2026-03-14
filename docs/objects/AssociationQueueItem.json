@@ -1,0 +1,154 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 7,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssociationQueueItem.AssociationData"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssociationQueueItem.AssociationData",
+      "QualifiedApiName": "AssociationData",
+      "EntityDefinitionId": "AssociationQueueItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "AssociationData",
+      "MasterLabel": "関連付けデータ",
+      "Label": "関連付けデータ",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssociationQueueItem.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssociationQueueItem.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AssociationQueueItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssociationQueueItem.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssociationQueueItem.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AssociationQueueItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Outlook キュー項目 ID",
+      "Label": "Outlook キュー項目 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssociationQueueItem.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssociationQueueItem.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AssociationQueueItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssociationQueueItem.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssociationQueueItem.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "AssociationQueueItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者 氏名",
+      "Label": "所有者 氏名",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssociationQueueItem.Parent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssociationQueueItem.Parent",
+      "QualifiedApiName": "ParentId",
+      "EntityDefinitionId": "AssociationQueueItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "Parent",
+      "MasterLabel": "親",
+      "Label": "親",
+      "DataType": "参照関係(取引先責任者)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssociationQueueItem.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssociationQueueItem.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AssociationQueueItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

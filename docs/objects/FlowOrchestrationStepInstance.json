@@ -1,0 +1,448 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 21,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowOrchestrationStepInstance.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationStepInstance.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "FlowOrchestrationStepInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowOrchestrationStepInstance.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationStepInstance.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "FlowOrchestrationStepInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowOrchestrationStepInstance.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationStepInstance.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "FlowOrchestrationStepInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowOrchestrationStepInstance.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationStepInstance.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "FlowOrchestrationStepInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "オーケストレーションステップ実行 ID",
+      "Label": "オーケストレーションステップ実行 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowOrchestrationStepInstance.InProgressStepOutputs"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationStepInstance.InProgressStepOutputs",
+      "QualifiedApiName": "InProgressStepOutputs",
+      "EntityDefinitionId": "FlowOrchestrationStepInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "InProgressStepOutputs",
+      "MasterLabel": "進行中のステップの出力",
+      "Label": "進行中のステップの出力",
+      "DataType": "ロングテキストエリア(100000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowOrchestrationStepInstance.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationStepInstance.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "FlowOrchestrationStepInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowOrchestrationStepInstance.Label"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationStepInstance.Label",
+      "QualifiedApiName": "Label",
+      "EntityDefinitionId": "FlowOrchestrationStepInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "Label",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowOrchestrationStepInstance.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationStepInstance.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "FlowOrchestrationStepInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowOrchestrationStepInstance.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationStepInstance.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "FlowOrchestrationStepInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowOrchestrationStepInstance.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationStepInstance.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "FlowOrchestrationStepInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowOrchestrationStepInstance.OrchestrationInstance"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationStepInstance.OrchestrationInstance",
+      "QualifiedApiName": "OrchestrationInstanceId",
+      "EntityDefinitionId": "FlowOrchestrationStepInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "OrchestrationInstance",
+      "MasterLabel": "オーケストレーション実行",
+      "Label": "オーケストレーション実行",
+      "DataType": "参照関係(オーケストレーション実行)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowOrchestrationStepInstance.OrchestrationName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationStepInstance.OrchestrationName",
+      "QualifiedApiName": "OrchestrationName",
+      "EntityDefinitionId": "FlowOrchestrationStepInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "OrchestrationName",
+      "MasterLabel": "オーケストレーションの API 参照名",
+      "Label": "オーケストレーションの API 参照名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowOrchestrationStepInstance.OrchestrationStageName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationStepInstance.OrchestrationStageName",
+      "QualifiedApiName": "OrchestrationStageName",
+      "EntityDefinitionId": "FlowOrchestrationStepInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "OrchestrationStageName",
+      "MasterLabel": "オーケストレーションフェーズ実行名",
+      "Label": "オーケストレーションフェーズ実行名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowOrchestrationStepInstance.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationStepInstance.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "FlowOrchestrationStepInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者 氏名",
+      "Label": "所有者 氏名",
+      "DataType": "参照関係(ユーザー,グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowOrchestrationStepInstance.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationStepInstance.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "FlowOrchestrationStepInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowOrchestrationStepInstance.RelatedRecord"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationStepInstance.RelatedRecord",
+      "QualifiedApiName": "RelatedRecord",
+      "EntityDefinitionId": "FlowOrchestrationStepInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "RelatedRecord",
+      "MasterLabel": "コンテキストレコード",
+      "Label": "コンテキストレコード",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowOrchestrationStepInstance.StageInstance"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationStepInstance.StageInstance",
+      "QualifiedApiName": "StageInstanceId",
+      "EntityDefinitionId": "FlowOrchestrationStepInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "StageInstance",
+      "MasterLabel": "オーケストレーションフェーズ実行",
+      "Label": "オーケストレーションフェーズ実行",
+      "DataType": "参照関係(オーケストレーションフェーズ実行)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowOrchestrationStepInstance.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationStepInstance.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "FlowOrchestrationStepInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowOrchestrationStepInstance.StepType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationStepInstance.StepType",
+      "QualifiedApiName": "StepType",
+      "EntityDefinitionId": "FlowOrchestrationStepInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "StepType",
+      "MasterLabel": "ステップタイプ",
+      "Label": "ステップタイプ",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowOrchestrationStepInstance.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationStepInstance.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "FlowOrchestrationStepInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowOrchestrationStepInstance.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationStepInstance.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "FlowOrchestrationStepInstance",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

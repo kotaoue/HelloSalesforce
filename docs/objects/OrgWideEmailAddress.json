@@ -1,0 +1,259 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 12,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgWideEmailAddress.Address"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgWideEmailAddress.Address",
+      "QualifiedApiName": "Address",
+      "EntityDefinitionId": "OrgWideEmailAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "Address",
+      "MasterLabel": "メールアドレス",
+      "Label": "メールアドレス",
+      "DataType": "メール",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgWideEmailAddress.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgWideEmailAddress.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "OrgWideEmailAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgWideEmailAddress.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgWideEmailAddress.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "OrgWideEmailAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgWideEmailAddress.DisplayName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgWideEmailAddress.DisplayName",
+      "QualifiedApiName": "DisplayName",
+      "EntityDefinitionId": "OrgWideEmailAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "DisplayName",
+      "MasterLabel": "表示名",
+      "Label": "表示名",
+      "DataType": "テキスト(300)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgWideEmailAddress.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgWideEmailAddress.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "OrgWideEmailAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "組織の送信元メールアドレス ID",
+      "Label": "組織の送信元メールアドレス ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgWideEmailAddress.IsAllowAllProfiles"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgWideEmailAddress.IsAllowAllProfiles",
+      "QualifiedApiName": "IsAllowAllProfiles",
+      "EntityDefinitionId": "OrgWideEmailAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsAllowAllProfiles",
+      "MasterLabel": "すべてのプロファイルを許可",
+      "Label": "すべてのプロファイルを許可",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgWideEmailAddress.IsVerified"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgWideEmailAddress.IsVerified",
+      "QualifiedApiName": "IsVerified",
+      "EntityDefinitionId": "OrgWideEmailAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsVerified",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgWideEmailAddress.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgWideEmailAddress.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "OrgWideEmailAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgWideEmailAddress.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgWideEmailAddress.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "OrgWideEmailAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgWideEmailAddress.Purpose"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgWideEmailAddress.Purpose",
+      "QualifiedApiName": "Purpose",
+      "EntityDefinitionId": "OrgWideEmailAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "Purpose",
+      "MasterLabel": "目的",
+      "Label": "目的",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgWideEmailAddress.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgWideEmailAddress.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "OrgWideEmailAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OrgWideEmailAddress.VerificationSentDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OrgWideEmailAddress.VerificationSentDate",
+      "QualifiedApiName": "VerificationSentDate",
+      "EntityDefinitionId": "OrgWideEmailAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "VerificationSentDate",
+      "MasterLabel": "確認送信日",
+      "Label": "確認送信日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

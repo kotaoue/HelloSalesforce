@@ -1,0 +1,343 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 16,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailmergeTemplate.Body"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailmergeTemplate.Body",
+      "QualifiedApiName": "Body",
+      "EntityDefinitionId": "MailmergeTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "Body",
+      "MasterLabel": "本文",
+      "Label": "本文",
+      "DataType": "テキストエリア",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailmergeTemplate.BodyLength"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailmergeTemplate.BodyLength",
+      "QualifiedApiName": "BodyLength",
+      "EntityDefinitionId": "MailmergeTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "BodyLength",
+      "MasterLabel": "内容の長さ",
+      "Label": "内容の長さ",
+      "DataType": "数値(8、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailmergeTemplate.BodyLengthCompressed"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailmergeTemplate.BodyLengthCompressed",
+      "QualifiedApiName": "BodyLengthCompressed",
+      "EntityDefinitionId": "MailmergeTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "BodyLengthCompressed",
+      "MasterLabel": "圧縮された内容の長さ",
+      "Label": "圧縮された内容の長さ",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailmergeTemplate.Category"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailmergeTemplate.Category",
+      "QualifiedApiName": "Category",
+      "EntityDefinitionId": "MailmergeTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "Category",
+      "MasterLabel": "ドキュメント種別",
+      "Label": "ドキュメント種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailmergeTemplate.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailmergeTemplate.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "MailmergeTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailmergeTemplate.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailmergeTemplate.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "MailmergeTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailmergeTemplate.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailmergeTemplate.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "MailmergeTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailmergeTemplate.Filename"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailmergeTemplate.Filename",
+      "QualifiedApiName": "Filename",
+      "EntityDefinitionId": "MailmergeTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "Filename",
+      "MasterLabel": "ファイル",
+      "Label": "ファイル",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailmergeTemplate.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailmergeTemplate.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "MailmergeTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Mailmerge Template ID",
+      "Label": "Mailmerge Template ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailmergeTemplate.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailmergeTemplate.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "MailmergeTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailmergeTemplate.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailmergeTemplate.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "MailmergeTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailmergeTemplate.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailmergeTemplate.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "MailmergeTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailmergeTemplate.LastUsedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailmergeTemplate.LastUsedDate",
+      "QualifiedApiName": "LastUsedDate",
+      "EntityDefinitionId": "MailmergeTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastUsedDate",
+      "MasterLabel": "最終使用日",
+      "Label": "最終使用日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailmergeTemplate.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailmergeTemplate.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "MailmergeTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailmergeTemplate.SecurityOptions"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailmergeTemplate.SecurityOptions",
+      "QualifiedApiName": "SecurityOptions",
+      "EntityDefinitionId": "MailmergeTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "SecurityOptions",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val SecurityOptions not found in section udd_MailmergeTemplate",
+      "Label": "__MISSING LABEL__ PropertyFile - val SecurityOptions not found in section udd_MailmergeTemplate",
+      "DataType": "ビットベクター",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailmergeTemplate.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailmergeTemplate.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "MailmergeTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

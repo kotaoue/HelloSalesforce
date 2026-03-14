@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIFilter.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIFilter.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AIFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIFilter.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIFilter.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AIFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIFilter.FilterGroup"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIFilter.FilterGroup",
+      "QualifiedApiName": "FilterGroupId",
+      "EntityDefinitionId": "AIFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "FilterGroup",
+      "MasterLabel": "AI Filter Group",
+      "Label": "AI Filter Group",
+      "DataType": "主従関係(AI Filter Group)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIFilter.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIFilter.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AIFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "AI Filter ID",
+      "Label": "AI Filter ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIFilter.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIFilter.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AIFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIFilter.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIFilter.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AIFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIFilter.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIFilter.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AIFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIFilter.LhFilter"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIFilter.LhFilter",
+      "QualifiedApiName": "LhFilterId",
+      "EntityDefinitionId": "AIFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "LhFilter",
+      "MasterLabel": "Left Hand Filter",
+      "Label": "Left Hand Filter",
+      "DataType": "参照関係(AI Filter)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIFilter.LhPredictionField"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIFilter.LhPredictionField",
+      "QualifiedApiName": "LhPredictionFieldId",
+      "EntityDefinitionId": "AIFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "LhPredictionField",
+      "MasterLabel": "Left Hand Prediction Field",
+      "Label": "Left Hand Prediction Field",
+      "DataType": "参照関係(エンティティ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIFilter.LhUnit"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIFilter.LhUnit",
+      "QualifiedApiName": "LhUnit",
+      "EntityDefinitionId": "AIFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "LhUnit",
+      "MasterLabel": "Filter Unit for Left Hand Filter",
+      "Label": "Filter Unit for Left Hand Filter",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIFilter.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIFilter.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "AIFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIFilter.Operation"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIFilter.Operation",
+      "QualifiedApiName": "Operation",
+      "EntityDefinitionId": "AIFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "Operation",
+      "MasterLabel": "Operation",
+      "Label": "Operation",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIFilter.RhFilter"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIFilter.RhFilter",
+      "QualifiedApiName": "RhFilterId",
+      "EntityDefinitionId": "AIFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "RhFilter",
+      "MasterLabel": "Right Hand Filter",
+      "Label": "Right Hand Filter",
+      "DataType": "参照関係(AI Filter)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIFilter.RhPredictionField"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIFilter.RhPredictionField",
+      "QualifiedApiName": "RhPredictionFieldId",
+      "EntityDefinitionId": "AIFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "RhPredictionField",
+      "MasterLabel": "Right Hand Prediction Field",
+      "Label": "Right Hand Prediction Field",
+      "DataType": "参照関係(エンティティ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIFilter.RhUnit"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIFilter.RhUnit",
+      "QualifiedApiName": "RhUnit",
+      "EntityDefinitionId": "AIFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "RhUnit",
+      "MasterLabel": "Filter Unit for Right Hand Filter",
+      "Label": "Filter Unit for Right Hand Filter",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIFilter.SortOrder"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIFilter.SortOrder",
+      "QualifiedApiName": "SortOrder",
+      "EntityDefinitionId": "AIFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "SortOrder",
+      "MasterLabel": "Sort Order",
+      "Label": "Sort Order",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIFilter.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIFilter.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AIFilter",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

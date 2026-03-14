@@ -1,0 +1,448 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 21,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationEntryCopy.ClientDuration"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationEntryCopy.ClientDuration",
+      "QualifiedApiName": "ClientDuration",
+      "EntityDefinitionId": "ConversationEntryCopy",
+      "NamespacePrefix": null,
+      "DeveloperName": "ClientDuration",
+      "MasterLabel": "クライアント期間",
+      "Label": "クライアント期間",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationEntryCopy.ClientTimestamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationEntryCopy.ClientTimestamp",
+      "QualifiedApiName": "ClientTimestamp",
+      "EntityDefinitionId": "ConversationEntryCopy",
+      "NamespacePrefix": null,
+      "DeveloperName": "ClientTimestamp",
+      "MasterLabel": "クライアントタイムスタンプ",
+      "Label": "クライアントタイムスタンプ",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationEntryCopy.Conversation"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationEntryCopy.Conversation",
+      "QualifiedApiName": "ConversationId",
+      "EntityDefinitionId": "ConversationEntryCopy",
+      "NamespacePrefix": null,
+      "DeveloperName": "Conversation",
+      "MasterLabel": "会話",
+      "Label": "会話",
+      "DataType": "参照関係(会話)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationEntryCopy.ConversationEntryIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationEntryCopy.ConversationEntryIdentifier",
+      "QualifiedApiName": "ConversationEntryIdentifier",
+      "EntityDefinitionId": "ConversationEntryCopy",
+      "NamespacePrefix": null,
+      "DeveloperName": "ConversationEntryIdentifier",
+      "MasterLabel": "会話エントリ識別子",
+      "Label": "会話エントリ識別子",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationEntryCopy.ConversationParticipant"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationEntryCopy.ConversationParticipant",
+      "QualifiedApiName": "ConversationParticipantId",
+      "EntityDefinitionId": "ConversationEntryCopy",
+      "NamespacePrefix": null,
+      "DeveloperName": "ConversationParticipant",
+      "MasterLabel": "会話参加者",
+      "Label": "会話参加者",
+      "DataType": "参照関係(会話参加者)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationEntryCopy.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationEntryCopy.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ConversationEntryCopy",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationEntryCopy.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationEntryCopy.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ConversationEntryCopy",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationEntryCopy.EntryPayload"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationEntryCopy.EntryPayload",
+      "QualifiedApiName": "EntryPayload",
+      "EntityDefinitionId": "ConversationEntryCopy",
+      "NamespacePrefix": null,
+      "DeveloperName": "EntryPayload",
+      "MasterLabel": "エントリペイロード",
+      "Label": "エントリペイロード",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationEntryCopy.EntryType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationEntryCopy.EntryType",
+      "QualifiedApiName": "EntryType",
+      "EntityDefinitionId": "ConversationEntryCopy",
+      "NamespacePrefix": null,
+      "DeveloperName": "EntryType",
+      "MasterLabel": "エントリタイプ",
+      "Label": "エントリタイプ",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationEntryCopy.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationEntryCopy.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ConversationEntryCopy",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "会話エントリコピー ID",
+      "Label": "会話エントリコピー ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationEntryCopy.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationEntryCopy.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ConversationEntryCopy",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationEntryCopy.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationEntryCopy.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "ConversationEntryCopy",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "言語",
+      "Label": "言語",
+      "DataType": "テキスト(64)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationEntryCopy.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationEntryCopy.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ConversationEntryCopy",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationEntryCopy.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationEntryCopy.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ConversationEntryCopy",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationEntryCopy.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationEntryCopy.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "ConversationEntryCopy",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "会話エントリコピー名",
+      "Label": "会話エントリコピー名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationEntryCopy.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationEntryCopy.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "ConversationEntryCopy",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationEntryCopy.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationEntryCopy.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ConversationEntryCopy",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationEntryCopy.TranscriptedTimestamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationEntryCopy.TranscriptedTimestamp",
+      "QualifiedApiName": "TranscriptedTimestamp",
+      "EntityDefinitionId": "ConversationEntryCopy",
+      "NamespacePrefix": null,
+      "DeveloperName": "TranscriptedTimestamp",
+      "MasterLabel": "トランスクリプトタイムスタンプ",
+      "Label": "トランスクリプトタイムスタンプ",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationEntryCopy.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationEntryCopy.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "ConversationEntryCopy",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationEntryCopy.Version"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationEntryCopy.Version",
+      "QualifiedApiName": "Version",
+      "EntityDefinitionId": "ConversationEntryCopy",
+      "NamespacePrefix": null,
+      "DeveloperName": "Version",
+      "MasterLabel": "バージョン",
+      "Label": "バージョン",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationEntryCopy.VisibilityStrategy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationEntryCopy.VisibilityStrategy",
+      "QualifiedApiName": "VisibilityStrategy",
+      "EntityDefinitionId": "ConversationEntryCopy",
+      "NamespacePrefix": null,
+      "DeveloperName": "VisibilityStrategy",
+      "MasterLabel": "表示戦略",
+      "Label": "表示戦略",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

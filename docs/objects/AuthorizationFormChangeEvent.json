@@ -1,0 +1,259 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 12,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthorizationFormChangeEvent.ChangeEventHeader"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthorizationFormChangeEvent.ChangeEventHeader",
+      "QualifiedApiName": "ChangeEventHeader",
+      "EntityDefinitionId": "AuthorizationFormChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChangeEventHeader",
+      "MasterLabel": "変更イベントヘッダー",
+      "Label": "変更イベントヘッダー",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthorizationFormChangeEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthorizationFormChangeEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AuthorizationFormChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthorizationFormChangeEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthorizationFormChangeEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AuthorizationFormChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthorizationFormChangeEvent.DefaultAuthFormText"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthorizationFormChangeEvent.DefaultAuthFormText",
+      "QualifiedApiName": "DefaultAuthFormTextId",
+      "EntityDefinitionId": "AuthorizationFormChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DefaultAuthFormText",
+      "MasterLabel": "デフォルトの認証フォームテキスト",
+      "Label": "デフォルトの認証フォームテキスト",
+      "DataType": "参照関係(認証フォームテキスト)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthorizationFormChangeEvent.EffectiveFromDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthorizationFormChangeEvent.EffectiveFromDate",
+      "QualifiedApiName": "EffectiveFromDate",
+      "EntityDefinitionId": "AuthorizationFormChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EffectiveFromDate",
+      "MasterLabel": "有効開始日",
+      "Label": "有効開始日",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthorizationFormChangeEvent.EffectiveToDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthorizationFormChangeEvent.EffectiveToDate",
+      "QualifiedApiName": "EffectiveToDate",
+      "EntityDefinitionId": "AuthorizationFormChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EffectiveToDate",
+      "MasterLabel": "有効終了日",
+      "Label": "有効終了日",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthorizationFormChangeEvent.IsSignatureRequired"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthorizationFormChangeEvent.IsSignatureRequired",
+      "QualifiedApiName": "IsSignatureRequired",
+      "EntityDefinitionId": "AuthorizationFormChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsSignatureRequired",
+      "MasterLabel": "署名が必要",
+      "Label": "署名が必要",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthorizationFormChangeEvent.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthorizationFormChangeEvent.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AuthorizationFormChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthorizationFormChangeEvent.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthorizationFormChangeEvent.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AuthorizationFormChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthorizationFormChangeEvent.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthorizationFormChangeEvent.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "AuthorizationFormChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthorizationFormChangeEvent.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthorizationFormChangeEvent.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "AuthorizationFormChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者 氏名",
+      "Label": "所有者 氏名",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthorizationFormChangeEvent.RevisionNumber"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthorizationFormChangeEvent.RevisionNumber",
+      "QualifiedApiName": "RevisionNumber",
+      "EntityDefinitionId": "AuthorizationFormChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "RevisionNumber",
+      "MasterLabel": "リビジョン番号",
+      "Label": "リビジョン番号",
+      "DataType": "テキスト(10)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

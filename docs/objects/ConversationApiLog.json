@@ -1,0 +1,448 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 21,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationApiLog.Action"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationApiLog.Action",
+      "QualifiedApiName": "Action",
+      "EntityDefinitionId": "ConversationApiLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "Action",
+      "MasterLabel": "アクション",
+      "Label": "アクション",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationApiLog.Context"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationApiLog.Context",
+      "QualifiedApiName": "Context",
+      "EntityDefinitionId": "ConversationApiLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "Context",
+      "MasterLabel": "コンテキスト",
+      "Label": "コンテキスト",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationApiLog.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationApiLog.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ConversationApiLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationApiLog.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationApiLog.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ConversationApiLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationApiLog.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationApiLog.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ConversationApiLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "会話 API ログ ID",
+      "Label": "会話 API ログ ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationApiLog.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationApiLog.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ConversationApiLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationApiLog.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationApiLog.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ConversationApiLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationApiLog.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationApiLog.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ConversationApiLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationApiLog.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationApiLog.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "ConversationApiLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "会話 API ログ名",
+      "Label": "会話 API ログ名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationApiLog.Operation"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationApiLog.Operation",
+      "QualifiedApiName": "Operation",
+      "EntityDefinitionId": "ConversationApiLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "Operation",
+      "MasterLabel": "操作",
+      "Label": "操作",
+      "DataType": "テキスト(100)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationApiLog.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationApiLog.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "ConversationApiLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者 氏名",
+      "Label": "所有者 氏名",
+      "DataType": "参照関係(ユーザー,グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationApiLog.Parameter"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationApiLog.Parameter",
+      "QualifiedApiName": "Parameter",
+      "EntityDefinitionId": "ConversationApiLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "Parameter",
+      "MasterLabel": "パラメーター",
+      "Label": "パラメーター",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationApiLog.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationApiLog.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "ConversationApiLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationApiLog.RequestedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationApiLog.RequestedBy",
+      "QualifiedApiName": "RequestedById",
+      "EntityDefinitionId": "ConversationApiLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "RequestedBy",
+      "MasterLabel": "要求者",
+      "Label": "要求者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationApiLog.RequestedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationApiLog.RequestedDate",
+      "QualifiedApiName": "RequestedDate",
+      "EntityDefinitionId": "ConversationApiLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "RequestedDate",
+      "MasterLabel": "要求日",
+      "Label": "要求日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationApiLog.RequestedEntityIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationApiLog.RequestedEntityIdentifier",
+      "QualifiedApiName": "RequestedEntityIdentifier",
+      "EntityDefinitionId": "ConversationApiLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "RequestedEntityIdentifier",
+      "MasterLabel": "要求されたエンティティ識別子",
+      "Label": "要求されたエンティティ識別子",
+      "DataType": "テキスト(15)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationApiLog.RequestedEntityType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationApiLog.RequestedEntityType",
+      "QualifiedApiName": "RequestedEntityType",
+      "EntityDefinitionId": "ConversationApiLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "RequestedEntityType",
+      "MasterLabel": "要求されたエンティティ種別",
+      "Label": "要求されたエンティティ種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationApiLog.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationApiLog.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "ConversationApiLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationApiLog.StatusHistory"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationApiLog.StatusHistory",
+      "QualifiedApiName": "StatusHistory",
+      "EntityDefinitionId": "ConversationApiLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "StatusHistory",
+      "MasterLabel": "状況の履歴",
+      "Label": "状況の履歴",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationApiLog.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationApiLog.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ConversationApiLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConversationApiLog.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationApiLog.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "ConversationApiLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

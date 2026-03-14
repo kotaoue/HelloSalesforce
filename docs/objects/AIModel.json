@@ -1,0 +1,532 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 25,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIModel.ApprovalStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIModel.ApprovalStatus",
+      "QualifiedApiName": "ApprovalStatus",
+      "EntityDefinitionId": "AIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "ApprovalStatus",
+      "MasterLabel": "Approval Status",
+      "Label": "Approval Status",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIModel.ContentVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIModel.ContentVersion",
+      "QualifiedApiName": "ContentVersion",
+      "EntityDefinitionId": "AIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "ContentVersion",
+      "MasterLabel": "Content Version",
+      "Label": "Content Version",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIModel.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIModel.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIModel.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIModel.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIModel.Dataset"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIModel.Dataset",
+      "QualifiedApiName": "Dataset",
+      "EntityDefinitionId": "AIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "Dataset",
+      "MasterLabel": "Dataset Id",
+      "Label": "Dataset Id",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIModel.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIModel.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "AIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIModel.ExternalId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIModel.ExternalId",
+      "QualifiedApiName": "ExternalId",
+      "EntityDefinitionId": "AIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExternalId",
+      "MasterLabel": "External Id",
+      "Label": "External Id",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIModel.FailureReasonCode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIModel.FailureReasonCode",
+      "QualifiedApiName": "FailureReasonCode",
+      "EntityDefinitionId": "AIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "FailureReasonCode",
+      "MasterLabel": "Failure Reason Code",
+      "Label": "Failure Reason Code",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIModel.FullName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIModel.FullName",
+      "QualifiedApiName": "FullName",
+      "EntityDefinitionId": "AIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "FullName",
+      "MasterLabel": "Model Name",
+      "Label": "Model Name",
+      "DataType": "テキスト(128)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIModel.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIModel.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "AI Model ID",
+      "Label": "AI Model ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIModel.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIModel.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIModel.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIModel.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "AIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIModel.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIModel.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIModel.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIModel.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIModel.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIModel.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "AIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIModel.Metadata"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIModel.Metadata",
+      "QualifiedApiName": "Metadata",
+      "EntityDefinitionId": "AIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "Metadata",
+      "MasterLabel": "Metadata",
+      "Label": "Metadata",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIModel.ModelContent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIModel.ModelContent",
+      "QualifiedApiName": "ModelContent",
+      "EntityDefinitionId": "AIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "ModelContent",
+      "MasterLabel": "Model Content",
+      "Label": "Model Content",
+      "DataType": "テキストエリア",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIModel.ModelContentLength"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIModel.ModelContentLength",
+      "QualifiedApiName": "ModelContentLength",
+      "EntityDefinitionId": "AIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "ModelContentLength",
+      "MasterLabel": "Model Content Length",
+      "Label": "Model Content Length",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIModel.ModelDefinition"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIModel.ModelDefinition",
+      "QualifiedApiName": "ModelDefinitionId",
+      "EntityDefinitionId": "AIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "ModelDefinition",
+      "MasterLabel": "AI モデル定義",
+      "Label": "AI モデル定義",
+      "DataType": "参照関係(AI モデル定義)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIModel.Priority"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIModel.Priority",
+      "QualifiedApiName": "Priority",
+      "EntityDefinitionId": "AIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "Priority",
+      "MasterLabel": "Priority",
+      "Label": "Priority",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIModel.ScoringStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIModel.ScoringStatus",
+      "QualifiedApiName": "ScoringStatus",
+      "EntityDefinitionId": "AIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "ScoringStatus",
+      "MasterLabel": "Scoring Status",
+      "Label": "Scoring Status",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIModel.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIModel.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIModel.TrainingEndTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIModel.TrainingEndTime",
+      "QualifiedApiName": "TrainingEndTime",
+      "EntityDefinitionId": "AIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "TrainingEndTime",
+      "MasterLabel": "Training End Time",
+      "Label": "Training End Time",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIModel.TrainingStartTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIModel.TrainingStartTime",
+      "QualifiedApiName": "TrainingStartTime",
+      "EntityDefinitionId": "AIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "TrainingStartTime",
+      "MasterLabel": "Training Start Time",
+      "Label": "Training Start Time",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIModel.Type"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIModel.Type",
+      "QualifiedApiName": "Type",
+      "EntityDefinitionId": "AIModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "Type",
+      "MasterLabel": "Type",
+      "Label": "Type",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

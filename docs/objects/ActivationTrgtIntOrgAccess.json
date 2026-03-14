@@ -1,0 +1,385 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 18,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTrgtIntOrgAccess.ActivationTarget"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTrgtIntOrgAccess.ActivationTarget",
+      "QualifiedApiName": "ActivationTargetId",
+      "EntityDefinitionId": "ActivationTrgtIntOrgAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActivationTarget",
+      "MasterLabel": "有効化対象",
+      "Label": "有効化対象",
+      "DataType": "主従関係(有効化対象)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTrgtIntOrgAccess.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTrgtIntOrgAccess.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ActivationTrgtIntOrgAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTrgtIntOrgAccess.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTrgtIntOrgAccess.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ActivationTrgtIntOrgAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTrgtIntOrgAccess.DataChangeStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTrgtIntOrgAccess.DataChangeStatus",
+      "QualifiedApiName": "DataChangeStatus",
+      "EntityDefinitionId": "ActivationTrgtIntOrgAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataChangeStatus",
+      "MasterLabel": "データ変更状況",
+      "Label": "データ変更状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTrgtIntOrgAccess.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTrgtIntOrgAccess.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ActivationTrgtIntOrgAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "有効化対象内部組織アクセス ID",
+      "Label": "有効化対象内部組織アクセス ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTrgtIntOrgAccess.InternalOrganization"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTrgtIntOrgAccess.InternalOrganization",
+      "QualifiedApiName": "InternalOrganizationId",
+      "EntityDefinitionId": "ActivationTrgtIntOrgAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "InternalOrganization",
+      "MasterLabel": "内部組織",
+      "Label": "内部組織",
+      "DataType": "参照関係(内部組織)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTrgtIntOrgAccess.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTrgtIntOrgAccess.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ActivationTrgtIntOrgAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTrgtIntOrgAccess.LastDataChangeStatusDateTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTrgtIntOrgAccess.LastDataChangeStatusDateTime",
+      "QualifiedApiName": "LastDataChangeStatusDateTime",
+      "EntityDefinitionId": "ActivationTrgtIntOrgAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastDataChangeStatusDateTime",
+      "MasterLabel": "データ変更状況最終更新",
+      "Label": "データ変更状況最終更新",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTrgtIntOrgAccess.LastDataChangeStatusErrorCode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTrgtIntOrgAccess.LastDataChangeStatusErrorCode",
+      "QualifiedApiName": "LastDataChangeStatusErrorCode",
+      "EntityDefinitionId": "ActivationTrgtIntOrgAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastDataChangeStatusErrorCode",
+      "MasterLabel": "データ変更状況エラーコード",
+      "Label": "データ変更状況エラーコード",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTrgtIntOrgAccess.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTrgtIntOrgAccess.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ActivationTrgtIntOrgAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTrgtIntOrgAccess.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTrgtIntOrgAccess.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ActivationTrgtIntOrgAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTrgtIntOrgAccess.LastReferencedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTrgtIntOrgAccess.LastReferencedDate",
+      "QualifiedApiName": "LastReferencedDate",
+      "EntityDefinitionId": "ActivationTrgtIntOrgAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastReferencedDate",
+      "MasterLabel": "最終参照日",
+      "Label": "最終参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTrgtIntOrgAccess.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTrgtIntOrgAccess.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "ActivationTrgtIntOrgAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTrgtIntOrgAccess.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTrgtIntOrgAccess.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "ActivationTrgtIntOrgAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTrgtIntOrgAccess.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTrgtIntOrgAccess.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "ActivationTrgtIntOrgAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者 氏名",
+      "Label": "所有者 氏名",
+      "DataType": "参照関係(ユーザー,グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTrgtIntOrgAccess.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTrgtIntOrgAccess.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "ActivationTrgtIntOrgAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTrgtIntOrgAccess.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTrgtIntOrgAccess.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ActivationTrgtIntOrgAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActivationTrgtIntOrgAccess.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActivationTrgtIntOrgAccess.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "ActivationTrgtIntOrgAccess",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

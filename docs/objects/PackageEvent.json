@@ -1,0 +1,133 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 6,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageEvent.AllPackageVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageEvent.AllPackageVersion",
+      "QualifiedApiName": "AllPackageVersionId",
+      "EntityDefinitionId": "PackageEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "AllPackageVersion",
+      "MasterLabel": "パッケージバージョン",
+      "Label": "パッケージバージョン",
+      "DataType": "参照関係(パッケージバージョン)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "PackageEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "PackageEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageEvent.EventType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageEvent.EventType",
+      "QualifiedApiName": "EventType",
+      "EntityDefinitionId": "PackageEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventType",
+      "MasterLabel": "行動の種別",
+      "Label": "行動の種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageEvent.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageEvent.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "PackageEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "パッケージイベント ID",
+      "Label": "パッケージイベント ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageEvent.Organization"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageEvent.Organization",
+      "QualifiedApiName": "OrganizationId",
+      "EntityDefinitionId": "PackageEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Organization",
+      "MasterLabel": "AllOrganization",
+      "Label": "AllOrganization",
+      "DataType": "参照関係(AllOrganization)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

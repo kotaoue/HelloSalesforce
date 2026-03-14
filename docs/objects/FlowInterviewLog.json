@@ -1,0 +1,427 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 20,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowInterviewLog.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowInterviewLog.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "FlowInterviewLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowInterviewLog.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowInterviewLog.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "FlowInterviewLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowInterviewLog.FlowDeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowInterviewLog.FlowDeveloperName",
+      "QualifiedApiName": "FlowDeveloperName",
+      "EntityDefinitionId": "FlowInterviewLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "FlowDeveloperName",
+      "MasterLabel": "フローの API 参照名",
+      "Label": "フローの API 参照名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowInterviewLog.FlowInterviewGuid"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowInterviewLog.FlowInterviewGuid",
+      "QualifiedApiName": "FlowInterviewGuid",
+      "EntityDefinitionId": "FlowInterviewLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "FlowInterviewGuid",
+      "MasterLabel": "フローインタビュー GUID",
+      "Label": "フローインタビュー GUID",
+      "DataType": "テキスト(255)  (ユニーク、大文字と小文字を区別しない)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowInterviewLog.FlowLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowInterviewLog.FlowLabel",
+      "QualifiedApiName": "FlowLabel",
+      "EntityDefinitionId": "FlowInterviewLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "FlowLabel",
+      "MasterLabel": "フローの表示ラベル",
+      "Label": "フローの表示ラベル",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowInterviewLog.FlowNamespace"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowInterviewLog.FlowNamespace",
+      "QualifiedApiName": "FlowNamespace",
+      "EntityDefinitionId": "FlowInterviewLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "FlowNamespace",
+      "MasterLabel": "フロー名前空間",
+      "Label": "フロー名前空間",
+      "DataType": "テキスト(15)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowInterviewLog.FlowVersionNumber"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowInterviewLog.FlowVersionNumber",
+      "QualifiedApiName": "FlowVersionNumber",
+      "EntityDefinitionId": "FlowInterviewLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "FlowVersionNumber",
+      "MasterLabel": "フローバージョン番号",
+      "Label": "フローバージョン番号",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowInterviewLog.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowInterviewLog.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "FlowInterviewLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "フローインタビューログ ID",
+      "Label": "フローインタビューログ ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowInterviewLog.InterviewDurationInMinutes"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowInterviewLog.InterviewDurationInMinutes",
+      "QualifiedApiName": "InterviewDurationInMinutes",
+      "EntityDefinitionId": "FlowInterviewLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "InterviewDurationInMinutes",
+      "MasterLabel": "インタビューの期間 (分)",
+      "Label": "インタビューの期間 (分)",
+      "DataType": "数値(16、2)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowInterviewLog.InterviewEndTimestamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowInterviewLog.InterviewEndTimestamp",
+      "QualifiedApiName": "InterviewEndTimestamp",
+      "EntityDefinitionId": "FlowInterviewLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "InterviewEndTimestamp",
+      "MasterLabel": "インタビュー終了タイムスタンプ",
+      "Label": "インタビュー終了タイムスタンプ",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowInterviewLog.InterviewStartTimestamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowInterviewLog.InterviewStartTimestamp",
+      "QualifiedApiName": "InterviewStartTimestamp",
+      "EntityDefinitionId": "FlowInterviewLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "InterviewStartTimestamp",
+      "MasterLabel": "インタビュー開始タイムスタンプ",
+      "Label": "インタビュー開始タイムスタンプ",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowInterviewLog.InterviewStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowInterviewLog.InterviewStatus",
+      "QualifiedApiName": "InterviewStatus",
+      "EntityDefinitionId": "FlowInterviewLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "InterviewStatus",
+      "MasterLabel": "インタビューの状況",
+      "Label": "インタビューの状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowInterviewLog.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowInterviewLog.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "FlowInterviewLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowInterviewLog.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowInterviewLog.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "FlowInterviewLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowInterviewLog.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowInterviewLog.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "FlowInterviewLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowInterviewLog.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowInterviewLog.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "FlowInterviewLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowInterviewLog.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowInterviewLog.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "FlowInterviewLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者 氏名",
+      "Label": "所有者 氏名",
+      "DataType": "参照関係(ユーザー,グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowInterviewLog.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowInterviewLog.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "FlowInterviewLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowInterviewLog.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowInterviewLog.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "FlowInterviewLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowInterviewLog.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowInterviewLog.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "FlowInterviewLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

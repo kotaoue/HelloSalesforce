@@ -1,0 +1,280 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 13,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsAssetAction.ActionType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsAssetAction.ActionType",
+      "QualifiedApiName": "ActionType",
+      "EntityDefinitionId": "AnalyticsAssetAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActionType",
+      "MasterLabel": "Action Type",
+      "Label": "Action Type",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsAssetAction.AnalyticsAssetVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsAssetAction.AnalyticsAssetVersion",
+      "QualifiedApiName": "AnalyticsAssetVersionId",
+      "EntityDefinitionId": "AnalyticsAssetAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "AnalyticsAssetVersion",
+      "MasterLabel": "Analytics Asset Version",
+      "Label": "Analytics Asset Version",
+      "DataType": "参照関係(Analytics Visualization Version)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsAssetAction.Asset"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsAssetAction.Asset",
+      "QualifiedApiName": "AssetId",
+      "EntityDefinitionId": "AnalyticsAssetAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "Asset",
+      "MasterLabel": "Asset",
+      "Label": "Asset",
+      "DataType": "主従関係(Analytics Dashboard Widget,Analytics Visualization)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsAssetAction.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsAssetAction.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AnalyticsAssetAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsAssetAction.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsAssetAction.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AnalyticsAssetAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsAssetAction.EventType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsAssetAction.EventType",
+      "QualifiedApiName": "EventType",
+      "EntityDefinitionId": "AnalyticsAssetAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventType",
+      "MasterLabel": "Event Type",
+      "Label": "Event Type",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsAssetAction.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsAssetAction.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AnalyticsAssetAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "AnalyticsAssetAction ID",
+      "Label": "AnalyticsAssetAction ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsAssetAction.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsAssetAction.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AnalyticsAssetAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsAssetAction.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsAssetAction.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AnalyticsAssetAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsAssetAction.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsAssetAction.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AnalyticsAssetAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsAssetAction.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsAssetAction.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "AnalyticsAssetAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsAssetAction.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsAssetAction.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AnalyticsAssetAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsAssetAction.Version"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsAssetAction.Version",
+      "QualifiedApiName": "Version",
+      "EntityDefinitionId": "AnalyticsAssetAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "Version",
+      "MasterLabel": "Action Input Detail Version",
+      "Label": "Action Input Detail Version",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

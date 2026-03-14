@@ -1,0 +1,406 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 19,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LearningItemType.ApexEvaluationHandler"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LearningItemType.ApexEvaluationHandler",
+      "QualifiedApiName": "ApexEvaluationHandlerId",
+      "EntityDefinitionId": "LearningItemType",
+      "NamespacePrefix": null,
+      "DeveloperName": "ApexEvaluationHandler",
+      "MasterLabel": "Apex 評価ハンドラー",
+      "Label": "Apex 評価ハンドラー",
+      "DataType": "参照関係(Apex クラス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LearningItemType.ApexSerializerDeserializer"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LearningItemType.ApexSerializerDeserializer",
+      "QualifiedApiName": "ApexSerializerDeserializerId",
+      "EntityDefinitionId": "LearningItemType",
+      "NamespacePrefix": null,
+      "DeveloperName": "ApexSerializerDeserializer",
+      "MasterLabel": "Apex シリアライザー/デシリアライザー",
+      "Label": "Apex シリアライザー/デシリアライザー",
+      "DataType": "参照関係(Apex クラス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LearningItemType.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LearningItemType.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "LearningItemType",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LearningItemType.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LearningItemType.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "LearningItemType",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LearningItemType.CustomField"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LearningItemType.CustomField",
+      "QualifiedApiName": "CustomField",
+      "EntityDefinitionId": "LearningItemType",
+      "NamespacePrefix": null,
+      "DeveloperName": "CustomField",
+      "MasterLabel": "カスタム項目",
+      "Label": "カスタム項目",
+      "DataType": "選択リスト(カスタム項目の定義)  (ユニーク)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LearningItemType.CustomObject"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LearningItemType.CustomObject",
+      "QualifiedApiName": "CustomObject",
+      "EntityDefinitionId": "LearningItemType",
+      "NamespacePrefix": null,
+      "DeveloperName": "CustomObject",
+      "MasterLabel": "カスタムオブジェクト",
+      "Label": "カスタムオブジェクト",
+      "DataType": "選択リスト(カスタムオブジェクトの定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LearningItemType.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LearningItemType.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "LearningItemType",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LearningItemType.Icon"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LearningItemType.Icon",
+      "QualifiedApiName": "Icon",
+      "EntityDefinitionId": "LearningItemType",
+      "NamespacePrefix": null,
+      "DeveloperName": "Icon",
+      "MasterLabel": "アイコン",
+      "Label": "アイコン",
+      "DataType": "ロングテキストエリア(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LearningItemType.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LearningItemType.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "LearningItemType",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "学習項目種別 ID",
+      "Label": "学習項目種別 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LearningItemType.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LearningItemType.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "LearningItemType",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LearningItemType.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LearningItemType.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "LearningItemType",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LearningItemType.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LearningItemType.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "LearningItemType",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LearningItemType.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LearningItemType.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "LearningItemType",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LearningItemType.LightningComponentDef"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LearningItemType.LightningComponentDef",
+      "QualifiedApiName": "LightningComponentDefId",
+      "EntityDefinitionId": "LearningItemType",
+      "NamespacePrefix": null,
+      "DeveloperName": "LightningComponentDef",
+      "MasterLabel": "Lightning コンポーネント定義",
+      "Label": "Lightning コンポーネント定義",
+      "DataType": "参照関係(Lightning Web コンポーネントバンドル)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LearningItemType.LightningComponentName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LearningItemType.LightningComponentName",
+      "QualifiedApiName": "LightningComponentName",
+      "EntityDefinitionId": "LearningItemType",
+      "NamespacePrefix": null,
+      "DeveloperName": "LightningComponentName",
+      "MasterLabel": "Lightning コンポーネント名",
+      "Label": "Lightning コンポーネント名",
+      "DataType": "テキスト(270)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LearningItemType.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LearningItemType.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "LearningItemType",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LearningItemType.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LearningItemType.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "LearningItemType",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "マスター表示ラベル",
+      "Label": "マスター表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LearningItemType.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LearningItemType.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "LearningItemType",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LearningItemType.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LearningItemType.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "LearningItemType",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

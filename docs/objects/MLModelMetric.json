@@ -1,0 +1,427 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 20,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelMetric.BasicMetricValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelMetric.BasicMetricValue",
+      "QualifiedApiName": "BasicMetricValue",
+      "EntityDefinitionId": "MLModelMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "BasicMetricValue",
+      "MasterLabel": "基本的なメトリクス",
+      "Label": "基本的なメトリクス",
+      "DataType": "数値(16、8)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelMetric.ComplexMetricValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelMetric.ComplexMetricValue",
+      "QualifiedApiName": "ComplexMetricValue",
+      "EntityDefinitionId": "MLModelMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "ComplexMetricValue",
+      "MasterLabel": "複雑なメトリクス",
+      "Label": "複雑なメトリクス",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelMetric.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelMetric.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "MLModelMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelMetric.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelMetric.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "MLModelMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelMetric.DataSetType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelMetric.DataSetType",
+      "QualifiedApiName": "DataSetType",
+      "EntityDefinitionId": "MLModelMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataSetType",
+      "MasterLabel": "データセット種別",
+      "Label": "データセット種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelMetric.EndTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelMetric.EndTime",
+      "QualifiedApiName": "EndTime",
+      "EntityDefinitionId": "MLModelMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "EndTime",
+      "MasterLabel": "終了時刻",
+      "Label": "終了時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelMetric.GraphType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelMetric.GraphType",
+      "QualifiedApiName": "GraphType",
+      "EntityDefinitionId": "MLModelMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "GraphType",
+      "MasterLabel": "グラフ種別",
+      "Label": "グラフ種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelMetric.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelMetric.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "MLModelMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "ML モデルメトリクス ID",
+      "Label": "ML モデルメトリクス ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelMetric.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelMetric.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "MLModelMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelMetric.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelMetric.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "MLModelMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelMetric.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelMetric.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "MLModelMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelMetric.MetricType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelMetric.MetricType",
+      "QualifiedApiName": "MetricType",
+      "EntityDefinitionId": "MLModelMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "MetricType",
+      "MasterLabel": "メトリクス種別",
+      "Label": "メトリクス種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelMetric.Model"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelMetric.Model",
+      "QualifiedApiName": "ModelId",
+      "EntityDefinitionId": "MLModelMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "Model",
+      "MasterLabel": "ML モデル",
+      "Label": "ML モデル",
+      "DataType": "参照関係(ML モデル)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelMetric.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelMetric.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "MLModelMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelMetric.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelMetric.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "MLModelMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelMetric.RowCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelMetric.RowCount",
+      "QualifiedApiName": "RowCount",
+      "EntityDefinitionId": "MLModelMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "RowCount",
+      "MasterLabel": "トランザクション数",
+      "Label": "トランザクション数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelMetric.Span"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelMetric.Span",
+      "QualifiedApiName": "Span",
+      "EntityDefinitionId": "MLModelMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "Span",
+      "MasterLabel": "メトリクス範囲",
+      "Label": "メトリクス範囲",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelMetric.StartTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelMetric.StartTime",
+      "QualifiedApiName": "StartTime",
+      "EntityDefinitionId": "MLModelMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "StartTime",
+      "MasterLabel": "開始時刻",
+      "Label": "開始時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelMetric.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelMetric.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "MLModelMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLModelMetric.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLModelMetric.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "MLModelMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

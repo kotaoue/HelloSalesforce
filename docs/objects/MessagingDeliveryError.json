@@ -1,0 +1,427 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 20,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingDeliveryError.CorrelationIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingDeliveryError.CorrelationIdentifier",
+      "QualifiedApiName": "CorrelationIdentifier",
+      "EntityDefinitionId": "MessagingDeliveryError",
+      "NamespacePrefix": null,
+      "DeveloperName": "CorrelationIdentifier",
+      "MasterLabel": "相関関係識別子",
+      "Label": "相関関係識別子",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingDeliveryError.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingDeliveryError.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "MessagingDeliveryError",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingDeliveryError.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingDeliveryError.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "MessagingDeliveryError",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "日付",
+      "Label": "日付",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingDeliveryError.DestinationPhoneNumber"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingDeliveryError.DestinationPhoneNumber",
+      "QualifiedApiName": "DestinationPhoneNumber",
+      "EntityDefinitionId": "MessagingDeliveryError",
+      "NamespacePrefix": null,
+      "DeveloperName": "DestinationPhoneNumber",
+      "MasterLabel": "受信者の電話番号",
+      "Label": "受信者の電話番号",
+      "DataType": "テキスト(64)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingDeliveryError.FailureReason"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingDeliveryError.FailureReason",
+      "QualifiedApiName": "FailureReason",
+      "EntityDefinitionId": "MessagingDeliveryError",
+      "NamespacePrefix": null,
+      "DeveloperName": "FailureReason",
+      "MasterLabel": "エラー",
+      "Label": "エラー",
+      "DataType": "ロングテキストエリア(65536)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingDeliveryError.FlowEntity"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingDeliveryError.FlowEntity",
+      "QualifiedApiName": "FlowEntity",
+      "EntityDefinitionId": "MessagingDeliveryError",
+      "NamespacePrefix": null,
+      "DeveloperName": "FlowEntity",
+      "MasterLabel": "ソースレコード ID",
+      "Label": "ソースレコード ID",
+      "DataType": "テキスト(18)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingDeliveryError.FlowVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingDeliveryError.FlowVersion",
+      "QualifiedApiName": "FlowVersionId",
+      "EntityDefinitionId": "MessagingDeliveryError",
+      "NamespacePrefix": null,
+      "DeveloperName": "FlowVersion",
+      "MasterLabel": "プロセスバージョン",
+      "Label": "プロセスバージョン",
+      "DataType": "参照関係(フローのバージョン)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingDeliveryError.FullMessage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingDeliveryError.FullMessage",
+      "QualifiedApiName": "FullMessage",
+      "EntityDefinitionId": "MessagingDeliveryError",
+      "NamespacePrefix": null,
+      "DeveloperName": "FullMessage",
+      "MasterLabel": "メッセージ",
+      "Label": "メッセージ",
+      "DataType": "ロングテキストエリア(65536)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingDeliveryError.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingDeliveryError.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "MessagingDeliveryError",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "メッセージ配信エラー ID",
+      "Label": "メッセージ配信エラー ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingDeliveryError.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingDeliveryError.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "MessagingDeliveryError",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingDeliveryError.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingDeliveryError.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "MessagingDeliveryError",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingDeliveryError.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingDeliveryError.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "MessagingDeliveryError",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingDeliveryError.MessagingChannel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingDeliveryError.MessagingChannel",
+      "QualifiedApiName": "MessagingChannelId",
+      "EntityDefinitionId": "MessagingDeliveryError",
+      "NamespacePrefix": null,
+      "DeveloperName": "MessagingChannel",
+      "MasterLabel": "チャネル",
+      "Label": "チャネル",
+      "DataType": "参照関係(メッセージングチャネル)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingDeliveryError.MessagingEndUser"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingDeliveryError.MessagingEndUser",
+      "QualifiedApiName": "MessagingEndUserId",
+      "EntityDefinitionId": "MessagingDeliveryError",
+      "NamespacePrefix": null,
+      "DeveloperName": "MessagingEndUser",
+      "MasterLabel": "メッセージングユーザー",
+      "Label": "メッセージングユーザー",
+      "DataType": "参照関係(メッセージングユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingDeliveryError.MessagingTemplate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingDeliveryError.MessagingTemplate",
+      "QualifiedApiName": "MessagingTemplateId",
+      "EntityDefinitionId": "MessagingDeliveryError",
+      "NamespacePrefix": null,
+      "DeveloperName": "MessagingTemplate",
+      "MasterLabel": "メッセージングテンプレート",
+      "Label": "メッセージングテンプレート",
+      "DataType": "参照関係(メッセージングテンプレート)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingDeliveryError.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingDeliveryError.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "MessagingDeliveryError",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "メッセージ配信エラー名",
+      "Label": "メッセージ配信エラー名",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingDeliveryError.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingDeliveryError.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "MessagingDeliveryError",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingDeliveryError.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingDeliveryError.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "MessagingDeliveryError",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingDeliveryError.Type"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingDeliveryError.Type",
+      "QualifiedApiName": "Type",
+      "EntityDefinitionId": "MessagingDeliveryError",
+      "NamespacePrefix": null,
+      "DeveloperName": "Type",
+      "MasterLabel": "種別",
+      "Label": "種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MessagingDeliveryError.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingDeliveryError.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "MessagingDeliveryError",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

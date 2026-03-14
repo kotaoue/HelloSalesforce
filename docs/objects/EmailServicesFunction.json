@@ -1,0 +1,448 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 21,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailServicesFunction.AddressInactiveAction"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailServicesFunction.AddressInactiveAction",
+      "QualifiedApiName": "AddressInactiveAction",
+      "EntityDefinitionId": "EmailServicesFunction",
+      "NamespacePrefix": null,
+      "DeveloperName": "AddressInactiveAction",
+      "MasterLabel": "メールアドレス無効時のアクション",
+      "Label": "メールアドレス無効時のアクション",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailServicesFunction.ApexClass"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailServicesFunction.ApexClass",
+      "QualifiedApiName": "ApexClassId",
+      "EntityDefinitionId": "EmailServicesFunction",
+      "NamespacePrefix": null,
+      "DeveloperName": "ApexClass",
+      "MasterLabel": "Apex クラス",
+      "Label": "Apex クラス",
+      "DataType": "参照関係(Apex クラス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailServicesFunction.AttachmentOption"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailServicesFunction.AttachmentOption",
+      "QualifiedApiName": "AttachmentOption",
+      "EntityDefinitionId": "EmailServicesFunction",
+      "NamespacePrefix": null,
+      "DeveloperName": "AttachmentOption",
+      "MasterLabel": "受け入れる添付ファイル",
+      "Label": "受け入れる添付ファイル",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailServicesFunction.AuthenticationFailureAction"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailServicesFunction.AuthenticationFailureAction",
+      "QualifiedApiName": "AuthenticationFailureAction",
+      "EntityDefinitionId": "EmailServicesFunction",
+      "NamespacePrefix": null,
+      "DeveloperName": "AuthenticationFailureAction",
+      "MasterLabel": "送信者が認証されない時のアクション",
+      "Label": "送信者が認証されない時のアクション",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailServicesFunction.AuthorizationFailureAction"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailServicesFunction.AuthorizationFailureAction",
+      "QualifiedApiName": "AuthorizationFailureAction",
+      "EntityDefinitionId": "EmailServicesFunction",
+      "NamespacePrefix": null,
+      "DeveloperName": "AuthorizationFailureAction",
+      "MasterLabel": "送信者が許可されていない時のアクション",
+      "Label": "送信者が許可されていない時のアクション",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailServicesFunction.AuthorizedSenders"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailServicesFunction.AuthorizedSenders",
+      "QualifiedApiName": "AuthorizedSenders",
+      "EntityDefinitionId": "EmailServicesFunction",
+      "NamespacePrefix": null,
+      "DeveloperName": "AuthorizedSenders",
+      "MasterLabel": "許可する送信元",
+      "Label": "許可する送信元",
+      "DataType": "テキストエリア(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailServicesFunction.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailServicesFunction.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "EmailServicesFunction",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailServicesFunction.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailServicesFunction.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "EmailServicesFunction",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailServicesFunction.ErrorRoutingAddress"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailServicesFunction.ErrorRoutingAddress",
+      "QualifiedApiName": "ErrorRoutingAddress",
+      "EntityDefinitionId": "EmailServicesFunction",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorRoutingAddress",
+      "MasterLabel": "エラーになったメールをこのメールアドレスにルーティング",
+      "Label": "エラーになったメールをこのメールアドレスにルーティング",
+      "DataType": "メール",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailServicesFunction.FunctionInactiveAction"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailServicesFunction.FunctionInactiveAction",
+      "QualifiedApiName": "FunctionInactiveAction",
+      "EntityDefinitionId": "EmailServicesFunction",
+      "NamespacePrefix": null,
+      "DeveloperName": "FunctionInactiveAction",
+      "MasterLabel": "メールサービス無効時のアクション",
+      "Label": "メールサービス無効時のアクション",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailServicesFunction.FunctionName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailServicesFunction.FunctionName",
+      "QualifiedApiName": "FunctionName",
+      "EntityDefinitionId": "EmailServicesFunction",
+      "NamespacePrefix": null,
+      "DeveloperName": "FunctionName",
+      "MasterLabel": "メールサービス名",
+      "Label": "メールサービス名",
+      "DataType": "テキスト(64)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailServicesFunction.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailServicesFunction.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "EmailServicesFunction",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "メールサービス ID",
+      "Label": "メールサービス ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailServicesFunction.IsActive"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailServicesFunction.IsActive",
+      "QualifiedApiName": "IsActive",
+      "EntityDefinitionId": "EmailServicesFunction",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsActive",
+      "MasterLabel": "有効",
+      "Label": "有効",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailServicesFunction.IsAuthenticationRequired"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailServicesFunction.IsAuthenticationRequired",
+      "QualifiedApiName": "IsAuthenticationRequired",
+      "EntityDefinitionId": "EmailServicesFunction",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsAuthenticationRequired",
+      "MasterLabel": "高度なメールセキュリティ設定",
+      "Label": "高度なメールセキュリティ設定",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailServicesFunction.IsErrorRoutingEnabled"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailServicesFunction.IsErrorRoutingEnabled",
+      "QualifiedApiName": "IsErrorRoutingEnabled",
+      "EntityDefinitionId": "EmailServicesFunction",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsErrorRoutingEnabled",
+      "MasterLabel": "エラールーティングの有効化",
+      "Label": "エラールーティングの有効化",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailServicesFunction.IsTextAttachmentsAsBinary"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailServicesFunction.IsTextAttachmentsAsBinary",
+      "QualifiedApiName": "IsTextAttachmentsAsBinary",
+      "EntityDefinitionId": "EmailServicesFunction",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsTextAttachmentsAsBinary",
+      "MasterLabel": "テキスト添付ファイルをバイナリ添付ファイルに変換",
+      "Label": "テキスト添付ファイルをバイナリ添付ファイルに変換",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailServicesFunction.IsTlsRequired"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailServicesFunction.IsTlsRequired",
+      "QualifiedApiName": "IsTlsRequired",
+      "EntityDefinitionId": "EmailServicesFunction",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsTlsRequired",
+      "MasterLabel": "TLS が必要",
+      "Label": "TLS が必要",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailServicesFunction.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailServicesFunction.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "EmailServicesFunction",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailServicesFunction.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailServicesFunction.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "EmailServicesFunction",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailServicesFunction.OverLimitAction"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailServicesFunction.OverLimitAction",
+      "QualifiedApiName": "OverLimitAction",
+      "EntityDefinitionId": "EmailServicesFunction",
+      "NamespacePrefix": null,
+      "DeveloperName": "OverLimitAction",
+      "MasterLabel": "メールの処理数制限超過時のアクション",
+      "Label": "メールの処理数制限超過時のアクション",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmailServicesFunction.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailServicesFunction.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "EmailServicesFunction",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 15,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BackgroundOpStatusEvent.BackgroundOperation"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BackgroundOpStatusEvent.BackgroundOperation",
+      "QualifiedApiName": "BackgroundOperationId",
+      "EntityDefinitionId": "BackgroundOpStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "BackgroundOperation",
+      "MasterLabel": "バックグラウンド操作",
+      "Label": "バックグラウンド操作",
+      "DataType": "参照関係(バックグラウンド操作)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BackgroundOpStatusEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BackgroundOpStatusEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "BackgroundOpStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BackgroundOpStatusEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BackgroundOpStatusEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "BackgroundOpStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BackgroundOpStatusEvent.Error"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BackgroundOpStatusEvent.Error",
+      "QualifiedApiName": "Error",
+      "EntityDefinitionId": "BackgroundOpStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Error",
+      "MasterLabel": "エラー",
+      "Label": "エラー",
+      "DataType": "テキスト(1000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BackgroundOpStatusEvent.EventUuid"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BackgroundOpStatusEvent.EventUuid",
+      "QualifiedApiName": "EventUuid",
+      "EntityDefinitionId": "BackgroundOpStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventUuid",
+      "MasterLabel": "イベント UUID",
+      "Label": "イベント UUID",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BackgroundOpStatusEvent.ExpiresAt"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BackgroundOpStatusEvent.ExpiresAt",
+      "QualifiedApiName": "ExpiresAt",
+      "EntityDefinitionId": "BackgroundOpStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExpiresAt",
+      "MasterLabel": "有効期限",
+      "Label": "有効期限",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BackgroundOpStatusEvent.FinishedAt"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BackgroundOpStatusEvent.FinishedAt",
+      "QualifiedApiName": "FinishedAt",
+      "EntityDefinitionId": "BackgroundOpStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "FinishedAt",
+      "MasterLabel": "完了日時",
+      "Label": "完了日時",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BackgroundOpStatusEvent.Input"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BackgroundOpStatusEvent.Input",
+      "QualifiedApiName": "Input",
+      "EntityDefinitionId": "BackgroundOpStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Input",
+      "MasterLabel": "入力",
+      "Label": "入力",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BackgroundOpStatusEvent.ReplayId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BackgroundOpStatusEvent.ReplayId",
+      "QualifiedApiName": "ReplayId",
+      "EntityDefinitionId": "BackgroundOpStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReplayId",
+      "MasterLabel": "再実行 ID",
+      "Label": "再実行 ID",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BackgroundOpStatusEvent.Result"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BackgroundOpStatusEvent.Result",
+      "QualifiedApiName": "Result",
+      "EntityDefinitionId": "BackgroundOpStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Result",
+      "MasterLabel": "結果",
+      "Label": "結果",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BackgroundOpStatusEvent.RetryCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BackgroundOpStatusEvent.RetryCount",
+      "QualifiedApiName": "RetryCount",
+      "EntityDefinitionId": "BackgroundOpStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "RetryCount",
+      "MasterLabel": "再試行回数",
+      "Label": "再試行回数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BackgroundOpStatusEvent.StartedAt"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BackgroundOpStatusEvent.StartedAt",
+      "QualifiedApiName": "StartedAt",
+      "EntityDefinitionId": "BackgroundOpStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "StartedAt",
+      "MasterLabel": "開始済み",
+      "Label": "開始済み",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BackgroundOpStatusEvent.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BackgroundOpStatusEvent.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "BackgroundOpStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BackgroundOpStatusEvent.SubmittedAt"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BackgroundOpStatusEvent.SubmittedAt",
+      "QualifiedApiName": "SubmittedAt",
+      "EntityDefinitionId": "BackgroundOpStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "SubmittedAt",
+      "MasterLabel": "処理日時",
+      "Label": "処理日時",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BackgroundOpStatusEvent.Type"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BackgroundOpStatusEvent.Type",
+      "QualifiedApiName": "Type",
+      "EntityDefinitionId": "BackgroundOpStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Type",
+      "MasterLabel": "種別",
+      "Label": "種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

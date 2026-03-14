@@ -1,0 +1,448 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 21,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactPointEmailChangeEvent.ActiveFromDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactPointEmailChangeEvent.ActiveFromDate",
+      "QualifiedApiName": "ActiveFromDate",
+      "EntityDefinitionId": "ContactPointEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActiveFromDate",
+      "MasterLabel": "有効化日",
+      "Label": "有効化日",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactPointEmailChangeEvent.ActiveToDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactPointEmailChangeEvent.ActiveToDate",
+      "QualifiedApiName": "ActiveToDate",
+      "EntityDefinitionId": "ContactPointEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActiveToDate",
+      "MasterLabel": "終了日",
+      "Label": "終了日",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactPointEmailChangeEvent.BestTimeToContactEndTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactPointEmailChangeEvent.BestTimeToContactEndTime",
+      "QualifiedApiName": "BestTimeToContactEndTime",
+      "EntityDefinitionId": "ContactPointEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "BestTimeToContactEndTime",
+      "MasterLabel": "ご連絡可能な時間 (終了時間)",
+      "Label": "ご連絡可能な時間 (終了時間)",
+      "DataType": "時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactPointEmailChangeEvent.BestTimeToContactStartTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactPointEmailChangeEvent.BestTimeToContactStartTime",
+      "QualifiedApiName": "BestTimeToContactStartTime",
+      "EntityDefinitionId": "ContactPointEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "BestTimeToContactStartTime",
+      "MasterLabel": "ご連絡可能な時間 (開始時間)",
+      "Label": "ご連絡可能な時間 (開始時間)",
+      "DataType": "時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactPointEmailChangeEvent.BestTimeToContactTimezone"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactPointEmailChangeEvent.BestTimeToContactTimezone",
+      "QualifiedApiName": "BestTimeToContactTimezone",
+      "EntityDefinitionId": "ContactPointEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "BestTimeToContactTimezone",
+      "MasterLabel": "ご連絡可能な時間帯",
+      "Label": "ご連絡可能な時間帯",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactPointEmailChangeEvent.ChangeEventHeader"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactPointEmailChangeEvent.ChangeEventHeader",
+      "QualifiedApiName": "ChangeEventHeader",
+      "EntityDefinitionId": "ContactPointEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChangeEventHeader",
+      "MasterLabel": "変更イベントヘッダー",
+      "Label": "変更イベントヘッダー",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactPointEmailChangeEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactPointEmailChangeEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ContactPointEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactPointEmailChangeEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactPointEmailChangeEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ContactPointEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactPointEmailChangeEvent.EmailAddress"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactPointEmailChangeEvent.EmailAddress",
+      "QualifiedApiName": "EmailAddress",
+      "EntityDefinitionId": "ContactPointEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EmailAddress",
+      "MasterLabel": "メールアドレス",
+      "Label": "メールアドレス",
+      "DataType": "メール",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactPointEmailChangeEvent.EmailDomain"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactPointEmailChangeEvent.EmailDomain",
+      "QualifiedApiName": "EmailDomain",
+      "EntityDefinitionId": "ContactPointEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EmailDomain",
+      "MasterLabel": "メールドメイン",
+      "Label": "メールドメイン",
+      "DataType": "テキスト(250)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactPointEmailChangeEvent.EmailLatestBounceDateTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactPointEmailChangeEvent.EmailLatestBounceDateTime",
+      "QualifiedApiName": "EmailLatestBounceDateTime",
+      "EntityDefinitionId": "ContactPointEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EmailLatestBounceDateTime",
+      "MasterLabel": "メールの最後のバウンス日時",
+      "Label": "メールの最後のバウンス日時",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactPointEmailChangeEvent.EmailLatestBounceReasonText"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactPointEmailChangeEvent.EmailLatestBounceReasonText",
+      "QualifiedApiName": "EmailLatestBounceReasonText",
+      "EntityDefinitionId": "ContactPointEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EmailLatestBounceReasonText",
+      "MasterLabel": "メールの最後のバウンス理由テキスト",
+      "Label": "メールの最後のバウンス理由テキスト",
+      "DataType": "テキスト(250)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactPointEmailChangeEvent.EmailMailBox"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactPointEmailChangeEvent.EmailMailBox",
+      "QualifiedApiName": "EmailMailBox",
+      "EntityDefinitionId": "ContactPointEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EmailMailBox",
+      "MasterLabel": "メールボックス",
+      "Label": "メールボックス",
+      "DataType": "テキスト(250)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactPointEmailChangeEvent.IsPrimary"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactPointEmailChangeEvent.IsPrimary",
+      "QualifiedApiName": "IsPrimary",
+      "EntityDefinitionId": "ContactPointEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsPrimary",
+      "MasterLabel": "主",
+      "Label": "主",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactPointEmailChangeEvent.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactPointEmailChangeEvent.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ContactPointEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactPointEmailChangeEvent.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactPointEmailChangeEvent.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ContactPointEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactPointEmailChangeEvent.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactPointEmailChangeEvent.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "ContactPointEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactPointEmailChangeEvent.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactPointEmailChangeEvent.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "ContactPointEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者 氏名",
+      "Label": "所有者 氏名",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactPointEmailChangeEvent.Parent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactPointEmailChangeEvent.Parent",
+      "QualifiedApiName": "ParentId",
+      "EntityDefinitionId": "ContactPointEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Parent",
+      "MasterLabel": "親",
+      "Label": "親",
+      "DataType": "参照関係(個人,取引先)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactPointEmailChangeEvent.PreferenceRank"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactPointEmailChangeEvent.PreferenceRank",
+      "QualifiedApiName": "PreferenceRank",
+      "EntityDefinitionId": "ContactPointEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "PreferenceRank",
+      "MasterLabel": "設定ランク",
+      "Label": "設定ランク",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContactPointEmailChangeEvent.UsageType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContactPointEmailChangeEvent.UsageType",
+      "QualifiedApiName": "UsageType",
+      "EntityDefinitionId": "ContactPointEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "UsageType",
+      "MasterLabel": "利用状況の種別",
+      "Label": "利用状況の種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

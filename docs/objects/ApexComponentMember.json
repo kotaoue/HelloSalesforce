@@ -1,0 +1,301 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 14,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexComponentMember.Body"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexComponentMember.Body",
+      "QualifiedApiName": "Body",
+      "EntityDefinitionId": "ApexComponentMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "Body",
+      "MasterLabel": "本文",
+      "Label": "本文",
+      "DataType": "ロングテキストエリア(1048576)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexComponentMember.Content"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexComponentMember.Content",
+      "QualifiedApiName": "Content",
+      "EntityDefinitionId": "ApexComponentMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "Content",
+      "MasterLabel": "コンテンツ",
+      "Label": "コンテンツ",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexComponentMember.ContentEntity"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexComponentMember.ContentEntity",
+      "QualifiedApiName": "ContentEntityId",
+      "EntityDefinitionId": "ApexComponentMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "ContentEntity",
+      "MasterLabel": "コンテンツエンティティ",
+      "Label": "コンテンツエンティティ",
+      "DataType": "参照関係(Visualforce コンポーネント)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexComponentMember.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexComponentMember.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ApexComponentMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexComponentMember.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexComponentMember.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ApexComponentMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexComponentMember.FullName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexComponentMember.FullName",
+      "QualifiedApiName": "FullName",
+      "EntityDefinitionId": "ApexComponentMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "FullName",
+      "MasterLabel": "氏名",
+      "Label": "氏名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexComponentMember.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexComponentMember.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ApexComponentMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "メタデータコンテナメンバー ID",
+      "Label": "メタデータコンテナメンバー ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexComponentMember.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexComponentMember.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ApexComponentMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexComponentMember.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexComponentMember.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ApexComponentMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexComponentMember.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexComponentMember.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ApexComponentMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexComponentMember.LastSyncDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexComponentMember.LastSyncDate",
+      "QualifiedApiName": "LastSyncDate",
+      "EntityDefinitionId": "ApexComponentMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastSyncDate",
+      "MasterLabel": "最終同期日",
+      "Label": "最終同期日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexComponentMember.Metadata"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexComponentMember.Metadata",
+      "QualifiedApiName": "Metadata",
+      "EntityDefinitionId": "ApexComponentMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "Metadata",
+      "MasterLabel": "メタデータ",
+      "Label": "メタデータ",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexComponentMember.MetadataContainer"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexComponentMember.MetadataContainer",
+      "QualifiedApiName": "MetadataContainerId",
+      "EntityDefinitionId": "ApexComponentMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "MetadataContainer",
+      "MasterLabel": "メタデータコンテナメンバー",
+      "Label": "メタデータコンテナメンバー",
+      "DataType": "参照関係(メタデータコンテナ,コンテナ非同期要求)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexComponentMember.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexComponentMember.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ApexComponentMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

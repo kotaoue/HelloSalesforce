@@ -1,0 +1,133 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 6,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CaseTeamTemplateRecord.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CaseTeamTemplateRecord.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "CaseTeamTemplateRecord",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CaseTeamTemplateRecord.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CaseTeamTemplateRecord.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "CaseTeamTemplateRecord",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CaseTeamTemplateRecord.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CaseTeamTemplateRecord.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "CaseTeamTemplateRecord",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "定義済みチームレコード ID",
+      "Label": "定義済みチームレコード ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CaseTeamTemplateRecord.Parent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CaseTeamTemplateRecord.Parent",
+      "QualifiedApiName": "ParentId",
+      "EntityDefinitionId": "CaseTeamTemplateRecord",
+      "NamespacePrefix": null,
+      "DeveloperName": "Parent",
+      "MasterLabel": "ケース",
+      "Label": "ケース",
+      "DataType": "参照関係(ケース)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CaseTeamTemplateRecord.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CaseTeamTemplateRecord.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "CaseTeamTemplateRecord",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CaseTeamTemplateRecord.TeamTemplate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CaseTeamTemplateRecord.TeamTemplate",
+      "QualifiedApiName": "TeamTemplateId",
+      "EntityDefinitionId": "CaseTeamTemplateRecord",
+      "NamespacePrefix": null,
+      "DeveloperName": "TeamTemplate",
+      "MasterLabel": "チームテンプレート",
+      "Label": "チームテンプレート",
+      "DataType": "参照関係(定義済みケースチーム)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

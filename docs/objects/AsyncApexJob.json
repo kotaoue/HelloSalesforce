@@ -1,0 +1,385 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 18,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsyncApexJob.ApexClass"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncApexJob.ApexClass",
+      "QualifiedApiName": "ApexClassId",
+      "EntityDefinitionId": "AsyncApexJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "ApexClass",
+      "MasterLabel": "Apex クラス",
+      "Label": "Apex クラス",
+      "DataType": "参照関係(Apex クラス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsyncApexJob.CompletedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncApexJob.CompletedDate",
+      "QualifiedApiName": "CompletedDate",
+      "EntityDefinitionId": "AsyncApexJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "CompletedDate",
+      "MasterLabel": "完了日",
+      "Label": "完了日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsyncApexJob.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncApexJob.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AsyncApexJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsyncApexJob.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncApexJob.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AsyncApexJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsyncApexJob.CronTrigger"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncApexJob.CronTrigger",
+      "QualifiedApiName": "CronTriggerId",
+      "EntityDefinitionId": "AsyncApexJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "CronTrigger",
+      "MasterLabel": "スケジュール済みジョブ",
+      "Label": "スケジュール済みジョブ",
+      "DataType": "参照関係(スケジュール済みジョブ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsyncApexJob.ExtendedStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncApexJob.ExtendedStatus",
+      "QualifiedApiName": "ExtendedStatus",
+      "EntityDefinitionId": "AsyncApexJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExtendedStatus",
+      "MasterLabel": "状況の詳細",
+      "Label": "状況の詳細",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsyncApexJob.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncApexJob.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AsyncApexJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Apex ジョブ ID",
+      "Label": "Apex ジョブ ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsyncApexJob.JobItemsProcessed"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncApexJob.JobItemsProcessed",
+      "QualifiedApiName": "JobItemsProcessed",
+      "EntityDefinitionId": "AsyncApexJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "JobItemsProcessed",
+      "MasterLabel": "一括処理済み",
+      "Label": "一括処理済み",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsyncApexJob.JobType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncApexJob.JobType",
+      "QualifiedApiName": "JobType",
+      "EntityDefinitionId": "AsyncApexJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "JobType",
+      "MasterLabel": "ジョブ種別",
+      "Label": "ジョブ種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsyncApexJob.LastProcessed"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncApexJob.LastProcessed",
+      "QualifiedApiName": "LastProcessed",
+      "EntityDefinitionId": "AsyncApexJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastProcessed",
+      "MasterLabel": "処理されてコミットされた最終 ID",
+      "Label": "処理されてコミットされた最終 ID",
+      "DataType": "テキスト(15)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsyncApexJob.LastProcessedOffset"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncApexJob.LastProcessedOffset",
+      "QualifiedApiName": "LastProcessedOffset",
+      "EntityDefinitionId": "AsyncApexJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastProcessedOffset",
+      "MasterLabel": "処理されてコミットされた最終 ID のオフセット",
+      "Label": "処理されてコミットされた最終 ID のオフセット",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsyncApexJob.MethodName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncApexJob.MethodName",
+      "QualifiedApiName": "MethodName",
+      "EntityDefinitionId": "AsyncApexJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "MethodName",
+      "MasterLabel": "Apex メソッド",
+      "Label": "Apex メソッド",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsyncApexJob.NumberOfErrors"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncApexJob.NumberOfErrors",
+      "QualifiedApiName": "NumberOfErrors",
+      "EntityDefinitionId": "AsyncApexJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "NumberOfErrors",
+      "MasterLabel": "失敗",
+      "Label": "失敗",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsyncApexJob.ParentJob"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncApexJob.ParentJob",
+      "QualifiedApiName": "ParentJobId",
+      "EntityDefinitionId": "AsyncApexJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "ParentJob",
+      "MasterLabel": "親ジョブ",
+      "Label": "親ジョブ",
+      "DataType": "参照関係(Apex ジョブ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsyncApexJob.QueueType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncApexJob.QueueType",
+      "QualifiedApiName": "QueueType",
+      "EntityDefinitionId": "AsyncApexJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "QueueType",
+      "MasterLabel": "キューの種別",
+      "Label": "キューの種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsyncApexJob.State"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncApexJob.State",
+      "QualifiedApiName": "State",
+      "EntityDefinitionId": "AsyncApexJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "State",
+      "MasterLabel": "ジョブの状況",
+      "Label": "ジョブの状況",
+      "DataType": "テキストエリア",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsyncApexJob.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncApexJob.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "AsyncApexJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AsyncApexJob.TotalJobItems"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncApexJob.TotalJobItems",
+      "QualifiedApiName": "TotalJobItems",
+      "EntityDefinitionId": "AsyncApexJob",
+      "NamespacePrefix": null,
+      "DeveloperName": "TotalJobItems",
+      "MasterLabel": "合計バッチ数",
+      "Label": "合計バッチ数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

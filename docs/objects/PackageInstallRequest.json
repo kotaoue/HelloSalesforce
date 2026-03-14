@@ -1,0 +1,427 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 20,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageInstallRequest.ApexCompileType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageInstallRequest.ApexCompileType",
+      "QualifiedApiName": "ApexCompileType",
+      "EntityDefinitionId": "PackageInstallRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "ApexCompileType",
+      "MasterLabel": "Apex コンパイルタイプ",
+      "Label": "Apex コンパイルタイプ",
+      "DataType": "テキスト(15)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageInstallRequest.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageInstallRequest.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "PackageInstallRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageInstallRequest.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageInstallRequest.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "PackageInstallRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageInstallRequest.EnableRss"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageInstallRequest.EnableRss",
+      "QualifiedApiName": "EnableRss",
+      "EntityDefinitionId": "PackageInstallRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "EnableRss",
+      "MasterLabel": "RSS を有効化",
+      "Label": "RSS を有効化",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageInstallRequest.Errors"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageInstallRequest.Errors",
+      "QualifiedApiName": "Errors",
+      "EntityDefinitionId": "PackageInstallRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "Errors",
+      "MasterLabel": "エラー",
+      "Label": "エラー",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageInstallRequest.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageInstallRequest.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "PackageInstallRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "登録者パッケージインストール要求 ID",
+      "Label": "登録者パッケージインストール要求 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageInstallRequest.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageInstallRequest.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "PackageInstallRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageInstallRequest.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageInstallRequest.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "PackageInstallRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageInstallRequest.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageInstallRequest.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "PackageInstallRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageInstallRequest.MetadataDeployRequest"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageInstallRequest.MetadataDeployRequest",
+      "QualifiedApiName": "MetadataDeployRequestId",
+      "EntityDefinitionId": "PackageInstallRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "MetadataDeployRequest",
+      "MasterLabel": "Deploy Request",
+      "Label": "Deploy Request",
+      "DataType": "参照関係(Deploy Request)  (ユニーク)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageInstallRequest.NameConflictResolution"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageInstallRequest.NameConflictResolution",
+      "QualifiedApiName": "NameConflictResolution",
+      "EntityDefinitionId": "PackageInstallRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "NameConflictResolution",
+      "MasterLabel": "名前競合解決",
+      "Label": "名前競合解決",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageInstallRequest.PackageInstallSource"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageInstallRequest.PackageInstallSource",
+      "QualifiedApiName": "PackageInstallSource",
+      "EntityDefinitionId": "PackageInstallRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "PackageInstallSource",
+      "MasterLabel": "パッケージインストールソース",
+      "Label": "パッケージインストールソース",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageInstallRequest.Password"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageInstallRequest.Password",
+      "QualifiedApiName": "Password",
+      "EntityDefinitionId": "PackageInstallRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "Password",
+      "MasterLabel": "パスワード",
+      "Label": "パスワード",
+      "DataType": "テキスト(100)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageInstallRequest.ProfileMappings"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageInstallRequest.ProfileMappings",
+      "QualifiedApiName": "ProfileMappings",
+      "EntityDefinitionId": "PackageInstallRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "ProfileMappings",
+      "MasterLabel": "プロファイルマッピング",
+      "Label": "プロファイルマッピング",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageInstallRequest.SecurityType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageInstallRequest.SecurityType",
+      "QualifiedApiName": "SecurityType",
+      "EntityDefinitionId": "PackageInstallRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "SecurityType",
+      "MasterLabel": "セキュリティ種別",
+      "Label": "セキュリティ種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageInstallRequest.SkipHandlers"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageInstallRequest.SkipHandlers",
+      "QualifiedApiName": "SkipHandlers",
+      "EntityDefinitionId": "PackageInstallRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "SkipHandlers",
+      "MasterLabel": "スキップハンドラー",
+      "Label": "スキップハンドラー",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageInstallRequest.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageInstallRequest.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "PackageInstallRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageInstallRequest.SubscriberPackageVersionKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageInstallRequest.SubscriberPackageVersionKey",
+      "QualifiedApiName": "SubscriberPackageVersionKey",
+      "EntityDefinitionId": "PackageInstallRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "SubscriberPackageVersionKey",
+      "MasterLabel": "登録者パッケージバージョン ID",
+      "Label": "登録者パッケージバージョン ID",
+      "DataType": "テキスト(18)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageInstallRequest.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageInstallRequest.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "PackageInstallRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PackageInstallRequest.UpgradeType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PackageInstallRequest.UpgradeType",
+      "QualifiedApiName": "UpgradeType",
+      "EntityDefinitionId": "PackageInstallRequest",
+      "NamespacePrefix": null,
+      "DeveloperName": "UpgradeType",
+      "MasterLabel": "アップグレード種別",
+      "Label": "アップグレード種別",
+      "DataType": "テキスト(15)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

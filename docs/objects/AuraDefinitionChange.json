@@ -1,0 +1,301 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 14,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuraDefinitionChange.Content"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuraDefinitionChange.Content",
+      "QualifiedApiName": "Content",
+      "EntityDefinitionId": "AuraDefinitionChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "Content",
+      "MasterLabel": "コンテンツ",
+      "Label": "コンテンツ",
+      "DataType": "ロングテキストエリア(1024)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuraDefinitionChange.ContentEntity"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuraDefinitionChange.ContentEntity",
+      "QualifiedApiName": "ContentEntityId",
+      "EntityDefinitionId": "AuraDefinitionChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "ContentEntity",
+      "MasterLabel": "コンテンツエンティティ",
+      "Label": "コンテンツエンティティ",
+      "DataType": "参照関係(Lightning コンポーネント定義)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuraDefinitionChange.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuraDefinitionChange.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AuraDefinitionChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuraDefinitionChange.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuraDefinitionChange.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AuraDefinitionChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuraDefinitionChange.DeleteIndicator"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuraDefinitionChange.DeleteIndicator",
+      "QualifiedApiName": "DeleteIndicator",
+      "EntityDefinitionId": "AuraDefinitionChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeleteIndicator",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuraDefinitionChange.FullName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuraDefinitionChange.FullName",
+      "QualifiedApiName": "FullName",
+      "EntityDefinitionId": "AuraDefinitionChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "FullName",
+      "MasterLabel": "氏名",
+      "Label": "氏名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuraDefinitionChange.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuraDefinitionChange.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AuraDefinitionChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "メタデータコンテナメンバー ID",
+      "Label": "メタデータコンテナメンバー ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuraDefinitionChange.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuraDefinitionChange.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AuraDefinitionChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuraDefinitionChange.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuraDefinitionChange.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AuraDefinitionChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuraDefinitionChange.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuraDefinitionChange.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AuraDefinitionChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuraDefinitionChange.LastSyncDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuraDefinitionChange.LastSyncDate",
+      "QualifiedApiName": "LastSyncDate",
+      "EntityDefinitionId": "AuraDefinitionChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastSyncDate",
+      "MasterLabel": "最終同期日",
+      "Label": "最終同期日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuraDefinitionChange.MetadataContainer"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuraDefinitionChange.MetadataContainer",
+      "QualifiedApiName": "MetadataContainerId",
+      "EntityDefinitionId": "AuraDefinitionChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "MetadataContainer",
+      "MasterLabel": "メタデータコンテナメンバー",
+      "Label": "メタデータコンテナメンバー",
+      "DataType": "参照関係(メタデータコンテナ,コンテナ非同期要求)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuraDefinitionChange.Source"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuraDefinitionChange.Source",
+      "QualifiedApiName": "Source",
+      "EntityDefinitionId": "AuraDefinitionChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "Source",
+      "MasterLabel": "ソース",
+      "Label": "ソース",
+      "DataType": "ロングテキストエリア(1000000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuraDefinitionChange.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuraDefinitionChange.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AuraDefinitionChange",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

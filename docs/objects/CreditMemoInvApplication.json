@@ -1,0 +1,469 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 22,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CreditMemoInvApplication.Amount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CreditMemoInvApplication.Amount",
+      "QualifiedApiName": "Amount",
+      "EntityDefinitionId": "CreditMemoInvApplication",
+      "NamespacePrefix": null,
+      "DeveloperName": "Amount",
+      "MasterLabel": "金額",
+      "Label": "金額",
+      "DataType": "通貨(16、2)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CreditMemoInvApplication.AppliedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CreditMemoInvApplication.AppliedDate",
+      "QualifiedApiName": "AppliedDate",
+      "EntityDefinitionId": "CreditMemoInvApplication",
+      "NamespacePrefix": null,
+      "DeveloperName": "AppliedDate",
+      "MasterLabel": "適用日",
+      "Label": "適用日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CreditMemoInvApplication.AssociatedLine"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CreditMemoInvApplication.AssociatedLine",
+      "QualifiedApiName": "AssociatedLineId",
+      "EntityDefinitionId": "CreditMemoInvApplication",
+      "NamespacePrefix": null,
+      "DeveloperName": "AssociatedLine",
+      "MasterLabel": "関連付けられている品目",
+      "Label": "関連付けられている品目",
+      "DataType": "参照関係(クレジットメモ請求書アプリケーション)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CreditMemoInvApplication.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CreditMemoInvApplication.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "CreditMemoInvApplication",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CreditMemoInvApplication.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CreditMemoInvApplication.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "CreditMemoInvApplication",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CreditMemoInvApplication.CreditMemo"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CreditMemoInvApplication.CreditMemo",
+      "QualifiedApiName": "CreditMemoId",
+      "EntityDefinitionId": "CreditMemoInvApplication",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreditMemo",
+      "MasterLabel": "クレジットメモ",
+      "Label": "クレジットメモ",
+      "DataType": "参照関係(クレジットメモ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CreditMemoInvApplication.Date"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CreditMemoInvApplication.Date",
+      "QualifiedApiName": "Date",
+      "EntityDefinitionId": "CreditMemoInvApplication",
+      "NamespacePrefix": null,
+      "DeveloperName": "Date",
+      "MasterLabel": "日付",
+      "Label": "日付",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CreditMemoInvApplication.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CreditMemoInvApplication.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "CreditMemoInvApplication",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CreditMemoInvApplication.EffectiveDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CreditMemoInvApplication.EffectiveDate",
+      "QualifiedApiName": "EffectiveDate",
+      "EntityDefinitionId": "CreditMemoInvApplication",
+      "NamespacePrefix": null,
+      "DeveloperName": "EffectiveDate",
+      "MasterLabel": "発効日",
+      "Label": "発効日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CreditMemoInvApplication.HasBeenUnapplied"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CreditMemoInvApplication.HasBeenUnapplied",
+      "QualifiedApiName": "HasBeenUnapplied",
+      "EntityDefinitionId": "CreditMemoInvApplication",
+      "NamespacePrefix": null,
+      "DeveloperName": "HasBeenUnapplied",
+      "MasterLabel": "適用解除済み",
+      "Label": "適用解除済み",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CreditMemoInvApplication.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CreditMemoInvApplication.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "CreditMemoInvApplication",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "クレジットメモ請求書申請 ID",
+      "Label": "クレジットメモ請求書申請 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CreditMemoInvApplication.ImpactAmount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CreditMemoInvApplication.ImpactAmount",
+      "QualifiedApiName": "ImpactAmount",
+      "EntityDefinitionId": "CreditMemoInvApplication",
+      "NamespacePrefix": null,
+      "DeveloperName": "ImpactAmount",
+      "MasterLabel": "影響金額",
+      "Label": "影響金額",
+      "DataType": "数式 (通貨)",
+      "IsCalculated": true,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CreditMemoInvApplication.Invoice"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CreditMemoInvApplication.Invoice",
+      "QualifiedApiName": "InvoiceId",
+      "EntityDefinitionId": "CreditMemoInvApplication",
+      "NamespacePrefix": null,
+      "DeveloperName": "Invoice",
+      "MasterLabel": "請求書",
+      "Label": "請求書",
+      "DataType": "主従関係(請求書)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CreditMemoInvApplication.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CreditMemoInvApplication.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "CreditMemoInvApplication",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CreditMemoInvApplication.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CreditMemoInvApplication.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "CreditMemoInvApplication",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CreditMemoInvApplication.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CreditMemoInvApplication.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "CreditMemoInvApplication",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CreditMemoInvApplication.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CreditMemoInvApplication.Name",
+      "QualifiedApiName": "CreditMemoInvoiceNumber",
+      "EntityDefinitionId": "CreditMemoInvApplication",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CreditMemoInvApplication.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CreditMemoInvApplication.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "CreditMemoInvApplication",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CreditMemoInvApplication.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CreditMemoInvApplication.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "CreditMemoInvApplication",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CreditMemoInvApplication.Type"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CreditMemoInvApplication.Type",
+      "QualifiedApiName": "Type",
+      "EntityDefinitionId": "CreditMemoInvApplication",
+      "NamespacePrefix": null,
+      "DeveloperName": "Type",
+      "MasterLabel": "種別",
+      "Label": "種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CreditMemoInvApplication.UnappliedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CreditMemoInvApplication.UnappliedDate",
+      "QualifiedApiName": "UnappliedDate",
+      "EntityDefinitionId": "CreditMemoInvApplication",
+      "NamespacePrefix": null,
+      "DeveloperName": "UnappliedDate",
+      "MasterLabel": "適用解除日",
+      "Label": "適用解除日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CreditMemoInvApplication.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CreditMemoInvApplication.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "CreditMemoInvApplication",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

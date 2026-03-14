@@ -1,0 +1,280 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 13,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataUserAuth.AuthProvider"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataUserAuth.AuthProvider",
+      "QualifiedApiName": "AuthProviderId",
+      "EntityDefinitionId": "ExternalDataUserAuth",
+      "NamespacePrefix": null,
+      "DeveloperName": "AuthProvider",
+      "MasterLabel": "認証プロバイダー",
+      "Label": "認証プロバイダー",
+      "DataType": "参照関係(認証プロバイダー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataUserAuth.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataUserAuth.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ExternalDataUserAuth",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataUserAuth.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataUserAuth.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ExternalDataUserAuth",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataUserAuth.ExternalDataSource"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataUserAuth.ExternalDataSource",
+      "QualifiedApiName": "ExternalDataSourceId",
+      "EntityDefinitionId": "ExternalDataUserAuth",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExternalDataSource",
+      "MasterLabel": "外部データソース",
+      "Label": "外部データソース",
+      "DataType": "主従関係(外部データソース,指定ログイン情報)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataUserAuth.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataUserAuth.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ExternalDataUserAuth",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "外部データユーザー認証 ID",
+      "Label": "外部データユーザー認証 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataUserAuth.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataUserAuth.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ExternalDataUserAuth",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataUserAuth.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataUserAuth.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ExternalDataUserAuth",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataUserAuth.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataUserAuth.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ExternalDataUserAuth",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataUserAuth.Password"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataUserAuth.Password",
+      "QualifiedApiName": "Password",
+      "EntityDefinitionId": "ExternalDataUserAuth",
+      "NamespacePrefix": null,
+      "DeveloperName": "Password",
+      "MasterLabel": "パスワード",
+      "Label": "パスワード",
+      "DataType": "ロングテキストエリア(6000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataUserAuth.Protocol"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataUserAuth.Protocol",
+      "QualifiedApiName": "Protocol",
+      "EntityDefinitionId": "ExternalDataUserAuth",
+      "NamespacePrefix": null,
+      "DeveloperName": "Protocol",
+      "MasterLabel": "認証プロトコル",
+      "Label": "認証プロトコル",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataUserAuth.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataUserAuth.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ExternalDataUserAuth",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataUserAuth.User"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataUserAuth.User",
+      "QualifiedApiName": "UserId",
+      "EntityDefinitionId": "ExternalDataUserAuth",
+      "NamespacePrefix": null,
+      "DeveloperName": "User",
+      "MasterLabel": "ユーザー",
+      "Label": "ユーザー",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalDataUserAuth.Username"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalDataUserAuth.Username",
+      "QualifiedApiName": "Username",
+      "EntityDefinitionId": "ExternalDataUserAuth",
+      "NamespacePrefix": null,
+      "DeveloperName": "Username",
+      "MasterLabel": "ユーザー名",
+      "Label": "ユーザー名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

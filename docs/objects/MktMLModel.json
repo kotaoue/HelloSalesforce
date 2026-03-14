@@ -1,0 +1,490 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 23,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLModel.AggregatedStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLModel.AggregatedStatus",
+      "QualifiedApiName": "AggregatedStatus",
+      "EntityDefinitionId": "MktMLModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "AggregatedStatus",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLModel.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLModel.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "MktMLModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLModel.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLModel.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "MktMLModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLModel.DeployStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLModel.DeployStatus",
+      "QualifiedApiName": "DeployStatus",
+      "EntityDefinitionId": "MktMLModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeployStatus",
+      "MasterLabel": "モデルのリリース状況",
+      "Label": "モデルのリリース状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLModel.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLModel.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "MktMLModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "ロングテキストエリア(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLModel.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLModel.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "MktMLModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "モデル ID",
+      "Label": "モデル ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLModel.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLModel.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "MktMLModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLModel.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLModel.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "MktMLModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLModel.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLModel.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "MktMLModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLModel.LastProcessedRecords"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLModel.LastProcessedRecords",
+      "QualifiedApiName": "LastProcessedRecords",
+      "EntityDefinitionId": "MktMLModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastProcessedRecords",
+      "MasterLabel": "最終処理レコード",
+      "Label": "最終処理レコード",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLModel.LastReferencedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLModel.LastReferencedDate",
+      "QualifiedApiName": "LastReferencedDate",
+      "EntityDefinitionId": "MktMLModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastReferencedDate",
+      "MasterLabel": "最終参照日",
+      "Label": "最終参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLModel.LastRefreshDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLModel.LastRefreshDate",
+      "QualifiedApiName": "LastRefreshDate",
+      "EntityDefinitionId": "MktMLModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastRefreshDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLModel.LastRunStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLModel.LastRunStatus",
+      "QualifiedApiName": "LastRunStatus",
+      "EntityDefinitionId": "MktMLModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastRunStatus",
+      "MasterLabel": "最終実行状況",
+      "Label": "最終実行状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLModel.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLModel.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "MktMLModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLModel.MktMlModelDefinition"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLModel.MktMlModelDefinition",
+      "QualifiedApiName": "MktMlModelDefinitionId",
+      "EntityDefinitionId": "MktMLModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "MktMlModelDefinition",
+      "MasterLabel": "モデル定義",
+      "Label": "モデル定義",
+      "DataType": "参照関係(モデル定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLModel.MlModelApiName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLModel.MlModelApiName",
+      "QualifiedApiName": "MlModelApiName",
+      "EntityDefinitionId": "MktMLModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "MlModelApiName",
+      "MasterLabel": "モデル API 参照名",
+      "Label": "モデル API 参照名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLModel.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLModel.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "MktMLModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "モデル名",
+      "Label": "モデル名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLModel.OffCoreSyncStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLModel.OffCoreSyncStatus",
+      "QualifiedApiName": "OffCoreSyncStatus",
+      "EntityDefinitionId": "MktMLModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "OffCoreSyncStatus",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLModel.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLModel.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "MktMLModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者 氏名",
+      "Label": "所有者 氏名",
+      "DataType": "参照関係(ユーザー,グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLModel.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLModel.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "MktMLModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLModel.ScoringMode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLModel.ScoringMode",
+      "QualifiedApiName": "ScoringMode",
+      "EntityDefinitionId": "MktMLModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "ScoringMode",
+      "MasterLabel": "スコアリングモード",
+      "Label": "スコアリングモード",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLModel.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLModel.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "MktMLModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktMLModel.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktMLModel.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "MktMLModel",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

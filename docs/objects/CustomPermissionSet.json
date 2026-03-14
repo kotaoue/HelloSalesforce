@@ -1,0 +1,448 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 21,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomPermissionSet.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomPermissionSet.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "CustomPermissionSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomPermissionSet.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomPermissionSet.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "CustomPermissionSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomPermissionSet.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomPermissionSet.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "CustomPermissionSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomPermissionSet.HasActivationRequired"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomPermissionSet.HasActivationRequired",
+      "QualifiedApiName": "HasActivationRequired",
+      "EntityDefinitionId": "CustomPermissionSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "HasActivationRequired",
+      "MasterLabel": "セッションの有効化が必要",
+      "Label": "セッションの有効化が必要",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomPermissionSet.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomPermissionSet.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "CustomPermissionSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "権限セット ID",
+      "Label": "権限セット ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomPermissionSet.IntegrationName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomPermissionSet.IntegrationName",
+      "QualifiedApiName": "IntegrationName",
+      "EntityDefinitionId": "CustomPermissionSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "IntegrationName",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val IntegrationName not found in section udd_CustomPermissionSet",
+      "Label": "__MISSING LABEL__ PropertyFile - val IntegrationName not found in section udd_CustomPermissionSet",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomPermissionSet.IsCustom"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomPermissionSet.IsCustom",
+      "QualifiedApiName": "IsCustom",
+      "EntityDefinitionId": "CustomPermissionSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsCustom",
+      "MasterLabel": "カスタム",
+      "Label": "カスタム",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomPermissionSet.IsOwnedByProfile"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomPermissionSet.IsOwnedByProfile",
+      "QualifiedApiName": "IsOwnedByProfile",
+      "EntityDefinitionId": "CustomPermissionSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsOwnedByProfile",
+      "MasterLabel": "所有者プロファイル",
+      "Label": "所有者プロファイル",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomPermissionSet.Label"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomPermissionSet.Label",
+      "QualifiedApiName": "Label",
+      "EntityDefinitionId": "CustomPermissionSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "Label",
+      "MasterLabel": "権限セット名",
+      "Label": "権限セット名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomPermissionSet.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomPermissionSet.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "CustomPermissionSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomPermissionSet.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomPermissionSet.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "CustomPermissionSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomPermissionSet.License"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomPermissionSet.License",
+      "QualifiedApiName": "LicenseId",
+      "EntityDefinitionId": "CustomPermissionSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "License",
+      "MasterLabel": "ライセンス",
+      "Label": "ライセンス",
+      "DataType": "参照関係(ユーザーライセンス,Permission Set License)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomPermissionSet.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomPermissionSet.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "CustomPermissionSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomPermissionSet.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomPermissionSet.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "CustomPermissionSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "API 参照名",
+      "Label": "API 参照名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomPermissionSet.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomPermissionSet.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "CustomPermissionSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomPermissionSet.Permissions"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomPermissionSet.Permissions",
+      "QualifiedApiName": "Permissions",
+      "EntityDefinitionId": "CustomPermissionSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "Permissions",
+      "MasterLabel": "権限",
+      "Label": "権限",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomPermissionSet.PermissionSetGroup"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomPermissionSet.PermissionSetGroup",
+      "QualifiedApiName": "PermissionSetGroupId",
+      "EntityDefinitionId": "CustomPermissionSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "PermissionSetGroup",
+      "MasterLabel": "権限セットグループ",
+      "Label": "権限セットグループ",
+      "DataType": "参照関係(権限セットグループ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomPermissionSet.Profile"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomPermissionSet.Profile",
+      "QualifiedApiName": "ProfileId",
+      "EntityDefinitionId": "CustomPermissionSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "Profile",
+      "MasterLabel": "プロファイル",
+      "Label": "プロファイル",
+      "DataType": "参照関係(プロファイル)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomPermissionSet.PsgCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomPermissionSet.PsgCount",
+      "QualifiedApiName": "PsgCount",
+      "EntityDefinitionId": "CustomPermissionSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "PsgCount",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val PsgCount not found in section udd_CustomPermissionSet",
+      "Label": "__MISSING LABEL__ PropertyFile - val PsgCount not found in section udd_CustomPermissionSet",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomPermissionSet.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomPermissionSet.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "CustomPermissionSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CustomPermissionSet.Type"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomPermissionSet.Type",
+      "QualifiedApiName": "Type",
+      "EntityDefinitionId": "CustomPermissionSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "Type",
+      "MasterLabel": "権限セット種別",
+      "Label": "権限セット種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

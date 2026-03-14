@@ -1,0 +1,259 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 12,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisExtlAuthIdPrvdProfile.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisExtlAuthIdPrvdProfile.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "GisExtlAuthIdPrvdProfile",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisExtlAuthIdPrvdProfile.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisExtlAuthIdPrvdProfile.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "GisExtlAuthIdPrvdProfile",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisExtlAuthIdPrvdProfile.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisExtlAuthIdPrvdProfile.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "GisExtlAuthIdPrvdProfile",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisExtlAuthIdPrvdProfile.GisExtlAuthIdProvider"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisExtlAuthIdPrvdProfile.GisExtlAuthIdProvider",
+      "QualifiedApiName": "GisExtlAuthIdProviderId",
+      "EntityDefinitionId": "GisExtlAuthIdPrvdProfile",
+      "NamespacePrefix": null,
+      "DeveloperName": "GisExtlAuthIdProvider",
+      "MasterLabel": "プロファイルに添付された GIS 外部認証プロバイダー",
+      "Label": "プロファイルに添付された GIS 外部認証プロバイダー",
+      "DataType": "参照関係(Gis 外部認証 ID プロバイダー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisExtlAuthIdPrvdProfile.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisExtlAuthIdPrvdProfile.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "GisExtlAuthIdPrvdProfile",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Gis 外部認証 ID プロバイダープロファイル ID",
+      "Label": "Gis 外部認証 ID プロバイダープロファイル ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisExtlAuthIdPrvdProfile.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisExtlAuthIdPrvdProfile.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "GisExtlAuthIdPrvdProfile",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisExtlAuthIdPrvdProfile.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisExtlAuthIdPrvdProfile.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "GisExtlAuthIdPrvdProfile",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisExtlAuthIdPrvdProfile.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisExtlAuthIdPrvdProfile.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "GisExtlAuthIdPrvdProfile",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisExtlAuthIdPrvdProfile.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisExtlAuthIdPrvdProfile.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "GisExtlAuthIdPrvdProfile",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisExtlAuthIdPrvdProfile.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisExtlAuthIdPrvdProfile.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "GisExtlAuthIdPrvdProfile",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisExtlAuthIdPrvdProfile.Profile"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisExtlAuthIdPrvdProfile.Profile",
+      "QualifiedApiName": "ProfileId",
+      "EntityDefinitionId": "GisExtlAuthIdPrvdProfile",
+      "NamespacePrefix": null,
+      "DeveloperName": "Profile",
+      "MasterLabel": "GIS 外部認証プロバイダーに添付されたプロファイル",
+      "Label": "GIS 外部認証プロバイダーに添付されたプロファイル",
+      "DataType": "参照関係(プロファイル)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GisExtlAuthIdPrvdProfile.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GisExtlAuthIdPrvdProfile.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "GisExtlAuthIdPrvdProfile",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

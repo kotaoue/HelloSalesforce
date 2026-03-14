@@ -1,0 +1,112 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 5,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LightningUsageByAppTypeMetrics.FieldValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LightningUsageByAppTypeMetrics.FieldValue",
+      "QualifiedApiName": "AppExperience",
+      "EntityDefinitionId": "LightningUsageByAppTypeMetrics",
+      "NamespacePrefix": null,
+      "DeveloperName": "FieldValue",
+      "MasterLabel": "アプリケーション環境",
+      "Label": "アプリケーション環境",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LightningUsageByAppTypeMetrics.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LightningUsageByAppTypeMetrics.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "LightningUsageByAppTypeMetrics",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Lightning アプリケーション種別別使用状況メトリクス ID",
+      "Label": "Lightning アプリケーション種別別使用状況メトリクス ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LightningUsageByAppTypeMetrics.MetricsDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LightningUsageByAppTypeMetrics.MetricsDate",
+      "QualifiedApiName": "MetricsDate",
+      "EntityDefinitionId": "LightningUsageByAppTypeMetrics",
+      "NamespacePrefix": null,
+      "DeveloperName": "MetricsDate",
+      "MasterLabel": "メトリクスの日付",
+      "Label": "メトリクスの日付",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LightningUsageByAppTypeMetrics.ParentEnumOrId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LightningUsageByAppTypeMetrics.ParentEnumOrId",
+      "QualifiedApiName": "UserId",
+      "EntityDefinitionId": "LightningUsageByAppTypeMetrics",
+      "NamespacePrefix": null,
+      "DeveloperName": "ParentEnumOrId",
+      "MasterLabel": "ユーザー",
+      "Label": "ユーザー",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LightningUsageByAppTypeMetrics.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LightningUsageByAppTypeMetrics.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "LightningUsageByAppTypeMetrics",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

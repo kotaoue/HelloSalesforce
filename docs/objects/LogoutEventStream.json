@@ -1,0 +1,280 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 13,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LogoutEventStream.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LogoutEventStream.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "LogoutEventStream",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LogoutEventStream.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LogoutEventStream.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "LogoutEventStream",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LogoutEventStream.EventDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LogoutEventStream.EventDate",
+      "QualifiedApiName": "EventDate",
+      "EntityDefinitionId": "LogoutEventStream",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventDate",
+      "MasterLabel": "行動日",
+      "Label": "行動日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LogoutEventStream.EventIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LogoutEventStream.EventIdentifier",
+      "QualifiedApiName": "EventIdentifier",
+      "EntityDefinitionId": "LogoutEventStream",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventIdentifier",
+      "MasterLabel": "イベント識別子",
+      "Label": "イベント識別子",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LogoutEventStream.EventUuid"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LogoutEventStream.EventUuid",
+      "QualifiedApiName": "EventUuid",
+      "EntityDefinitionId": "LogoutEventStream",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventUuid",
+      "MasterLabel": "イベント UUID",
+      "Label": "イベント UUID",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LogoutEventStream.LoginKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LogoutEventStream.LoginKey",
+      "QualifiedApiName": "LoginKey",
+      "EntityDefinitionId": "LogoutEventStream",
+      "NamespacePrefix": null,
+      "DeveloperName": "LoginKey",
+      "MasterLabel": "ログインキー",
+      "Label": "ログインキー",
+      "DataType": "テキスト(24)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LogoutEventStream.RelatedEventIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LogoutEventStream.RelatedEventIdentifier",
+      "QualifiedApiName": "RelatedEventIdentifier",
+      "EntityDefinitionId": "LogoutEventStream",
+      "NamespacePrefix": null,
+      "DeveloperName": "RelatedEventIdentifier",
+      "MasterLabel": "関連イベント識別子",
+      "Label": "関連イベント識別子",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LogoutEventStream.ReplayId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LogoutEventStream.ReplayId",
+      "QualifiedApiName": "ReplayId",
+      "EntityDefinitionId": "LogoutEventStream",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReplayId",
+      "MasterLabel": "再実行 ID",
+      "Label": "再実行 ID",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LogoutEventStream.SessionKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LogoutEventStream.SessionKey",
+      "QualifiedApiName": "SessionKey",
+      "EntityDefinitionId": "LogoutEventStream",
+      "NamespacePrefix": null,
+      "DeveloperName": "SessionKey",
+      "MasterLabel": "セッションキー",
+      "Label": "セッションキー",
+      "DataType": "テキスト(24)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LogoutEventStream.SessionLevel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LogoutEventStream.SessionLevel",
+      "QualifiedApiName": "SessionLevel",
+      "EntityDefinitionId": "LogoutEventStream",
+      "NamespacePrefix": null,
+      "DeveloperName": "SessionLevel",
+      "MasterLabel": "セッションレベル",
+      "Label": "セッションレベル",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LogoutEventStream.SourceIp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LogoutEventStream.SourceIp",
+      "QualifiedApiName": "SourceIp",
+      "EntityDefinitionId": "LogoutEventStream",
+      "NamespacePrefix": null,
+      "DeveloperName": "SourceIp",
+      "MasterLabel": "アクセス元 IP",
+      "Label": "アクセス元 IP",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LogoutEventStream.User"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LogoutEventStream.User",
+      "QualifiedApiName": "UserId",
+      "EntityDefinitionId": "LogoutEventStream",
+      "NamespacePrefix": null,
+      "DeveloperName": "User",
+      "MasterLabel": "ユーザー",
+      "Label": "ユーザー",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LogoutEventStream.Username"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LogoutEventStream.Username",
+      "QualifiedApiName": "Username",
+      "EntityDefinitionId": "LogoutEventStream",
+      "NamespacePrefix": null,
+      "DeveloperName": "Username",
+      "MasterLabel": "ユーザー名",
+      "Label": "ユーザー名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

@@ -1,0 +1,532 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 25,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityVerificationEvent.Activity"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityVerificationEvent.Activity",
+      "QualifiedApiName": "Activity",
+      "EntityDefinitionId": "IdentityVerificationEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Activity",
+      "MasterLabel": "ユーザーアクティビティ",
+      "Label": "ユーザーアクティビティ",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityVerificationEvent.City"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityVerificationEvent.City",
+      "QualifiedApiName": "City",
+      "EntityDefinitionId": "IdentityVerificationEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "City",
+      "MasterLabel": "市区郡",
+      "Label": "市区郡",
+      "DataType": "テキスト(200)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityVerificationEvent.Country"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityVerificationEvent.Country",
+      "QualifiedApiName": "Country",
+      "EntityDefinitionId": "IdentityVerificationEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Country",
+      "MasterLabel": "国",
+      "Label": "国",
+      "DataType": "テキスト(200)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityVerificationEvent.CountryIso"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityVerificationEvent.CountryIso",
+      "QualifiedApiName": "CountryIso",
+      "EntityDefinitionId": "IdentityVerificationEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CountryIso",
+      "MasterLabel": "国コード",
+      "Label": "国コード",
+      "DataType": "テキスト(3)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityVerificationEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityVerificationEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "IdentityVerificationEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityVerificationEvent.EventDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityVerificationEvent.EventDate",
+      "QualifiedApiName": "EventDate",
+      "EntityDefinitionId": "IdentityVerificationEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventDate",
+      "MasterLabel": "イベント日",
+      "Label": "イベント日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityVerificationEvent.EventGroup"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityVerificationEvent.EventGroup",
+      "QualifiedApiName": "EventGroup",
+      "EntityDefinitionId": "IdentityVerificationEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventGroup",
+      "MasterLabel": "検証試行",
+      "Label": "検証試行",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityVerificationEvent.EventIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityVerificationEvent.EventIdentifier",
+      "QualifiedApiName": "EventIdentifier",
+      "EntityDefinitionId": "IdentityVerificationEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventIdentifier",
+      "MasterLabel": "イベント識別子",
+      "Label": "イベント識別子",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityVerificationEvent.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityVerificationEvent.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "IdentityVerificationEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "ID 検証イベント ID",
+      "Label": "ID 検証イベント ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityVerificationEvent.Latitude"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityVerificationEvent.Latitude",
+      "QualifiedApiName": "Latitude",
+      "EntityDefinitionId": "IdentityVerificationEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Latitude",
+      "MasterLabel": "緯度",
+      "Label": "緯度",
+      "DataType": "数値(3、6)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityVerificationEvent.LoginHistory"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityVerificationEvent.LoginHistory",
+      "QualifiedApiName": "LoginHistoryId",
+      "EntityDefinitionId": "IdentityVerificationEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LoginHistory",
+      "MasterLabel": "ログイン履歴",
+      "Label": "ログイン履歴",
+      "DataType": "参照関係(ログイン履歴)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityVerificationEvent.LoginKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityVerificationEvent.LoginKey",
+      "QualifiedApiName": "LoginKey",
+      "EntityDefinitionId": "IdentityVerificationEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LoginKey",
+      "MasterLabel": "ログインキー",
+      "Label": "ログインキー",
+      "DataType": "テキスト(24)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityVerificationEvent.Longitude"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityVerificationEvent.Longitude",
+      "QualifiedApiName": "Longitude",
+      "EntityDefinitionId": "IdentityVerificationEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Longitude",
+      "MasterLabel": "経度",
+      "Label": "経度",
+      "DataType": "数値(3、6)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityVerificationEvent.Policy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityVerificationEvent.Policy",
+      "QualifiedApiName": "Policy",
+      "EntityDefinitionId": "IdentityVerificationEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Policy",
+      "MasterLabel": "トリガー基準",
+      "Label": "トリガー基準",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityVerificationEvent.PostalCode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityVerificationEvent.PostalCode",
+      "QualifiedApiName": "PostalCode",
+      "EntityDefinitionId": "IdentityVerificationEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "PostalCode",
+      "MasterLabel": "郵便番号",
+      "Label": "郵便番号",
+      "DataType": "テキスト(20)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityVerificationEvent.Remarks"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityVerificationEvent.Remarks",
+      "QualifiedApiName": "Remarks",
+      "EntityDefinitionId": "IdentityVerificationEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Remarks",
+      "MasterLabel": "アクティビティメッセージ",
+      "Label": "アクティビティメッセージ",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityVerificationEvent.Resource"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityVerificationEvent.Resource",
+      "QualifiedApiName": "ResourceId",
+      "EntityDefinitionId": "IdentityVerificationEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Resource",
+      "MasterLabel": "接続アプリケーション",
+      "Label": "接続アプリケーション",
+      "DataType": "参照関係(接続アプリケーション)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityVerificationEvent.SessionKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityVerificationEvent.SessionKey",
+      "QualifiedApiName": "SessionKey",
+      "EntityDefinitionId": "IdentityVerificationEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "SessionKey",
+      "MasterLabel": "セッションキー",
+      "Label": "セッションキー",
+      "DataType": "テキスト(24)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityVerificationEvent.SessionLevel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityVerificationEvent.SessionLevel",
+      "QualifiedApiName": "SessionLevel",
+      "EntityDefinitionId": "IdentityVerificationEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "SessionLevel",
+      "MasterLabel": "セッションレベル",
+      "Label": "セッションレベル",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityVerificationEvent.SourceIp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityVerificationEvent.SourceIp",
+      "QualifiedApiName": "SourceIp",
+      "EntityDefinitionId": "IdentityVerificationEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "SourceIp",
+      "MasterLabel": "アクセス元 IP",
+      "Label": "アクセス元 IP",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityVerificationEvent.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityVerificationEvent.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "IdentityVerificationEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityVerificationEvent.Subdivision"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityVerificationEvent.Subdivision",
+      "QualifiedApiName": "Subdivision",
+      "EntityDefinitionId": "IdentityVerificationEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Subdivision",
+      "MasterLabel": "下位区分",
+      "Label": "下位区分",
+      "DataType": "テキスト(200)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityVerificationEvent.User"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityVerificationEvent.User",
+      "QualifiedApiName": "UserId",
+      "EntityDefinitionId": "IdentityVerificationEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "User",
+      "MasterLabel": "ユーザー",
+      "Label": "ユーザー",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityVerificationEvent.Username"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityVerificationEvent.Username",
+      "QualifiedApiName": "Username",
+      "EntityDefinitionId": "IdentityVerificationEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Username",
+      "MasterLabel": "ユーザー名",
+      "Label": "ユーザー名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityVerificationEvent.VerificationMethod"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityVerificationEvent.VerificationMethod",
+      "QualifiedApiName": "VerificationMethod",
+      "EntityDefinitionId": "IdentityVerificationEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "VerificationMethod",
+      "MasterLabel": "メソッド",
+      "Label": "メソッド",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

@@ -1,0 +1,532 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 25,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPredictionDefinition.Application"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPredictionDefinition.Application",
+      "QualifiedApiName": "ApplicationId",
+      "EntityDefinitionId": "MLPredictionDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Application",
+      "MasterLabel": "AI アプリケーション",
+      "Label": "AI アプリケーション",
+      "DataType": "参照関係(AI アプリケーション)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPredictionDefinition.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPredictionDefinition.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "MLPredictionDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPredictionDefinition.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPredictionDefinition.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "MLPredictionDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPredictionDefinition.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPredictionDefinition.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "MLPredictionDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "予測定義の説明",
+      "Label": "予測定義の説明",
+      "DataType": "テキスト(128)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPredictionDefinition.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPredictionDefinition.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "MLPredictionDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPredictionDefinition.ExternalId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPredictionDefinition.ExternalId",
+      "QualifiedApiName": "ExternalId",
+      "EntityDefinitionId": "MLPredictionDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExternalId",
+      "MasterLabel": "外部 ID",
+      "Label": "外部 ID",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPredictionDefinition.FullName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPredictionDefinition.FullName",
+      "QualifiedApiName": "FullName",
+      "EntityDefinitionId": "MLPredictionDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "FullName",
+      "MasterLabel": "予測定義名",
+      "Label": "予測定義名",
+      "DataType": "テキスト(128)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPredictionDefinition.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPredictionDefinition.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "MLPredictionDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "ML 予測定義 ID",
+      "Label": "ML 予測定義 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPredictionDefinition.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPredictionDefinition.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "MLPredictionDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPredictionDefinition.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPredictionDefinition.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "MLPredictionDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPredictionDefinition.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPredictionDefinition.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "MLPredictionDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPredictionDefinition.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPredictionDefinition.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "MLPredictionDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPredictionDefinition.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPredictionDefinition.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "MLPredictionDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPredictionDefinition.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPredictionDefinition.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "MLPredictionDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPredictionDefinition.Metadata"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPredictionDefinition.Metadata",
+      "QualifiedApiName": "Metadata",
+      "EntityDefinitionId": "MLPredictionDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Metadata",
+      "MasterLabel": "メタデータ",
+      "Label": "メタデータ",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPredictionDefinition.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPredictionDefinition.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "MLPredictionDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPredictionDefinition.NegativeExpression"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPredictionDefinition.NegativeExpression",
+      "QualifiedApiName": "NegativeExpressionId",
+      "EntityDefinitionId": "MLPredictionDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "NegativeExpression",
+      "MasterLabel": "否定表現",
+      "Label": "否定表現",
+      "DataType": "参照関係(ML 条件)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPredictionDefinition.PositiveExpression"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPredictionDefinition.PositiveExpression",
+      "QualifiedApiName": "PositiveExpressionId",
+      "EntityDefinitionId": "MLPredictionDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "PositiveExpression",
+      "MasterLabel": "肯定表現",
+      "Label": "肯定表現",
+      "DataType": "参照関係(ML 条件)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPredictionDefinition.PredictionField"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPredictionDefinition.PredictionField",
+      "QualifiedApiName": "PredictionField",
+      "EntityDefinitionId": "MLPredictionDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "PredictionField",
+      "MasterLabel": "予測項目",
+      "Label": "予測項目",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPredictionDefinition.PredictionStrategy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPredictionDefinition.PredictionStrategy",
+      "QualifiedApiName": "PredictionStrategy",
+      "EntityDefinitionId": "MLPredictionDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "PredictionStrategy",
+      "MasterLabel": "予測戦略",
+      "Label": "予測戦略",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPredictionDefinition.Priority"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPredictionDefinition.Priority",
+      "QualifiedApiName": "Priority",
+      "EntityDefinitionId": "MLPredictionDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Priority",
+      "MasterLabel": "優先度",
+      "Label": "優先度",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPredictionDefinition.PushbackField"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPredictionDefinition.PushbackField",
+      "QualifiedApiName": "PushbackField",
+      "EntityDefinitionId": "MLPredictionDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "PushbackField",
+      "MasterLabel": "プッシュバック項目",
+      "Label": "プッシュバック項目",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPredictionDefinition.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPredictionDefinition.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "MLPredictionDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "ML 予測状況",
+      "Label": "ML 予測状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPredictionDefinition.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPredictionDefinition.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "MLPredictionDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPredictionDefinition.Type"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPredictionDefinition.Type",
+      "QualifiedApiName": "Type",
+      "EntityDefinitionId": "MLPredictionDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Type",
+      "MasterLabel": "ML 予測種別",
+      "Label": "ML 予測種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 18,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LmaApiSession.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LmaApiSession.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "LmaApiSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LmaApiSession.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LmaApiSession.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "LmaApiSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LmaApiSession.Expires"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LmaApiSession.Expires",
+      "QualifiedApiName": "Expires",
+      "EntityDefinitionId": "LmaApiSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "Expires",
+      "MasterLabel": "Session Expiration Time",
+      "Label": "Session Expiration Time",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LmaApiSession.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LmaApiSession.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "LmaApiSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "License Manager Application Session ID",
+      "Label": "License Manager Application Session ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LmaApiSession.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LmaApiSession.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "LmaApiSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LmaApiSession.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LmaApiSession.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "LmaApiSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LmaApiSession.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LmaApiSession.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "LmaApiSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LmaApiSession.LinkedSession"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LmaApiSession.LinkedSession",
+      "QualifiedApiName": "LinkedSession",
+      "EntityDefinitionId": "LmaApiSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "LinkedSession",
+      "MasterLabel": "Linked Session Id",
+      "Label": "Linked Session Id",
+      "DataType": "テキスト(15)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LmaApiSession.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LmaApiSession.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "LmaApiSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "Name",
+      "Label": "Name",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LmaApiSession.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LmaApiSession.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "LmaApiSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者 氏名",
+      "Label": "所有者 氏名",
+      "DataType": "参照関係(ユーザー,グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LmaApiSession.Perms1"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LmaApiSession.Perms1",
+      "QualifiedApiName": "Perms1",
+      "EntityDefinitionId": "LmaApiSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "Perms1",
+      "MasterLabel": "ParnerBT Perms1",
+      "Label": "ParnerBT Perms1",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LmaApiSession.ProxyUsername"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LmaApiSession.ProxyUsername",
+      "QualifiedApiName": "ProxyUsername",
+      "EntityDefinitionId": "LmaApiSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "ProxyUsername",
+      "MasterLabel": "Proxy Username",
+      "Label": "Proxy Username",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LmaApiSession.RealAuthSession"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LmaApiSession.RealAuthSession",
+      "QualifiedApiName": "RealAuthSession",
+      "EntityDefinitionId": "LmaApiSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "RealAuthSession",
+      "MasterLabel": "Real Login Session",
+      "Label": "Real Login Session",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LmaApiSession.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LmaApiSession.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "LmaApiSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LmaApiSession.SourceIp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LmaApiSession.SourceIp",
+      "QualifiedApiName": "SourceIp",
+      "EntityDefinitionId": "LmaApiSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "SourceIp",
+      "MasterLabel": "Server",
+      "Label": "Server",
+      "DataType": "テキスト(15)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LmaApiSession.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LmaApiSession.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "LmaApiSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LmaApiSession.Type"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LmaApiSession.Type",
+      "QualifiedApiName": "Type",
+      "EntityDefinitionId": "LmaApiSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "Type",
+      "MasterLabel": "Session Type",
+      "Label": "Session Type",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LmaApiSession.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LmaApiSession.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "LmaApiSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

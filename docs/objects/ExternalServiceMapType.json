@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalServiceMapType.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalServiceMapType.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ExternalServiceMapType",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalServiceMapType.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalServiceMapType.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ExternalServiceMapType",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalServiceMapType.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalServiceMapType.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "ExternalServiceMapType",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "テキスト(1333)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalServiceMapType.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalServiceMapType.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ExternalServiceMapType",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "外部サービスリスト種別 ID",
+      "Label": "外部サービスリスト種別 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalServiceMapType.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalServiceMapType.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ExternalServiceMapType",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalServiceMapType.IsOrdered"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalServiceMapType.IsOrdered",
+      "QualifiedApiName": "IsOrdered",
+      "EntityDefinitionId": "ExternalServiceMapType",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsOrdered",
+      "MasterLabel": "注文済み",
+      "Label": "注文済み",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalServiceMapType.KeyDataType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalServiceMapType.KeyDataType",
+      "QualifiedApiName": "KeyDataTypeId",
+      "EntityDefinitionId": "ExternalServiceMapType",
+      "NamespacePrefix": null,
+      "DeveloperName": "KeyDataType",
+      "MasterLabel": "キーのデータ型",
+      "Label": "キーのデータ型",
+      "DataType": "参照関係(外部サービスデータ型,外部サービスリスト種別,外部サービス対応付け種別,外部サービスオブジェクト種別,外部サービス単純型)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalServiceMapType.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalServiceMapType.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ExternalServiceMapType",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalServiceMapType.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalServiceMapType.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ExternalServiceMapType",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalServiceMapType.MapTypeName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalServiceMapType.MapTypeName",
+      "QualifiedApiName": "MapTypeName",
+      "EntityDefinitionId": "ExternalServiceMapType",
+      "NamespacePrefix": null,
+      "DeveloperName": "MapTypeName",
+      "MasterLabel": "リストのデータ型名",
+      "Label": "リストのデータ型名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalServiceMapType.MaxOccurs"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalServiceMapType.MaxOccurs",
+      "QualifiedApiName": "MaxOccurs",
+      "EntityDefinitionId": "ExternalServiceMapType",
+      "NamespacePrefix": null,
+      "DeveloperName": "MaxOccurs",
+      "MasterLabel": "最大数",
+      "Label": "最大数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalServiceMapType.MinOccurs"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalServiceMapType.MinOccurs",
+      "QualifiedApiName": "MinOccurs",
+      "EntityDefinitionId": "ExternalServiceMapType",
+      "NamespacePrefix": null,
+      "DeveloperName": "MinOccurs",
+      "MasterLabel": "最小数",
+      "Label": "最小数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalServiceMapType.Parent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalServiceMapType.Parent",
+      "QualifiedApiName": "ParentId",
+      "EntityDefinitionId": "ExternalServiceMapType",
+      "NamespacePrefix": null,
+      "DeveloperName": "Parent",
+      "MasterLabel": "親コンテキスト",
+      "Label": "親コンテキスト",
+      "DataType": "参照関係(外部サービス登録,外部サービスパラメーター,外部サービスプロパティ,外部サービスリスト種別,外部サービス対応付け種別)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalServiceMapType.Service"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalServiceMapType.Service",
+      "QualifiedApiName": "ServiceId",
+      "EntityDefinitionId": "ExternalServiceMapType",
+      "NamespacePrefix": null,
+      "DeveloperName": "Service",
+      "MasterLabel": "外部サービス登録参照",
+      "Label": "外部サービス登録参照",
+      "DataType": "主従関係(外部サービス登録)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalServiceMapType.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalServiceMapType.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ExternalServiceMapType",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalServiceMapType.ValueDataType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalServiceMapType.ValueDataType",
+      "QualifiedApiName": "ValueDataTypeId",
+      "EntityDefinitionId": "ExternalServiceMapType",
+      "NamespacePrefix": null,
+      "DeveloperName": "ValueDataType",
+      "MasterLabel": "値のデータ型",
+      "Label": "値のデータ型",
+      "DataType": "参照関係(外部サービスデータ型,外部サービスリスト種別,外部サービス対応付け種別,外部サービスオブジェクト種別,外部サービス単純型)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExternalServiceMapType.Version"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalServiceMapType.Version",
+      "QualifiedApiName": "VersionId",
+      "EntityDefinitionId": "ExternalServiceMapType",
+      "NamespacePrefix": null,
+      "DeveloperName": "Version",
+      "MasterLabel": "バージョン",
+      "Label": "バージョン",
+      "DataType": "参照関係(カタログ式 API アイテムバージョン情報)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,448 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 21,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalCopilotTestCaseRslt.ActionsSequence"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalCopilotTestCaseRslt.ActionsSequence",
+      "QualifiedApiName": "ActionsSequence",
+      "EntityDefinitionId": "AiEvalCopilotTestCaseRslt",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActionsSequence",
+      "MasterLabel": "アクション順序",
+      "Label": "アクション順序",
+      "DataType": "ロングテキストエリア(16384)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalCopilotTestCaseRslt.AiEvalTestCaseResult"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalCopilotTestCaseRslt.AiEvalTestCaseResult",
+      "QualifiedApiName": "AiEvalTestCaseResultId",
+      "EntityDefinitionId": "AiEvalCopilotTestCaseRslt",
+      "NamespacePrefix": null,
+      "DeveloperName": "AiEvalTestCaseResult",
+      "MasterLabel": "AI 評価テストケース結果",
+      "Label": "AI 評価テストケース結果",
+      "DataType": "主従関係(AI 評価テストケース結果)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalCopilotTestCaseRslt.Citations"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalCopilotTestCaseRslt.Citations",
+      "QualifiedApiName": "Citations",
+      "EntityDefinitionId": "AiEvalCopilotTestCaseRslt",
+      "NamespacePrefix": null,
+      "DeveloperName": "Citations",
+      "MasterLabel": "引用",
+      "Label": "引用",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalCopilotTestCaseRslt.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalCopilotTestCaseRslt.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AiEvalCopilotTestCaseRslt",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalCopilotTestCaseRslt.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalCopilotTestCaseRslt.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AiEvalCopilotTestCaseRslt",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalCopilotTestCaseRslt.GeneratedResponse"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalCopilotTestCaseRslt.GeneratedResponse",
+      "QualifiedApiName": "GeneratedResponse",
+      "EntityDefinitionId": "AiEvalCopilotTestCaseRslt",
+      "NamespacePrefix": null,
+      "DeveloperName": "GeneratedResponse",
+      "MasterLabel": "生成された応答",
+      "Label": "生成された応答",
+      "DataType": "ロングテキストエリア(30000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalCopilotTestCaseRslt.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalCopilotTestCaseRslt.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AiEvalCopilotTestCaseRslt",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "AI 評価 Copilot テストケース結果 ID",
+      "Label": "AI 評価 Copilot テストケース結果 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalCopilotTestCaseRslt.InputTokensCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalCopilotTestCaseRslt.InputTokensCount",
+      "QualifiedApiName": "InputTokensCount",
+      "EntityDefinitionId": "AiEvalCopilotTestCaseRslt",
+      "NamespacePrefix": null,
+      "DeveloperName": "InputTokensCount",
+      "MasterLabel": "入力トークン数",
+      "Label": "入力トークン数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalCopilotTestCaseRslt.InvokedActions"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalCopilotTestCaseRslt.InvokedActions",
+      "QualifiedApiName": "InvokedActions",
+      "EntityDefinitionId": "AiEvalCopilotTestCaseRslt",
+      "NamespacePrefix": null,
+      "DeveloperName": "InvokedActions",
+      "MasterLabel": "呼び出されたアクション",
+      "Label": "呼び出されたアクション",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalCopilotTestCaseRslt.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalCopilotTestCaseRslt.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AiEvalCopilotTestCaseRslt",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalCopilotTestCaseRslt.IsPageContext"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalCopilotTestCaseRslt.IsPageContext",
+      "QualifiedApiName": "IsPageContext",
+      "EntityDefinitionId": "AiEvalCopilotTestCaseRslt",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsPageContext",
+      "MasterLabel": "ページコンテキスト",
+      "Label": "ページコンテキスト",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalCopilotTestCaseRslt.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalCopilotTestCaseRslt.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AiEvalCopilotTestCaseRslt",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalCopilotTestCaseRslt.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalCopilotTestCaseRslt.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AiEvalCopilotTestCaseRslt",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalCopilotTestCaseRslt.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalCopilotTestCaseRslt.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "AiEvalCopilotTestCaseRslt",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalCopilotTestCaseRslt.Outcome"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalCopilotTestCaseRslt.Outcome",
+      "QualifiedApiName": "Outcome",
+      "EntityDefinitionId": "AiEvalCopilotTestCaseRslt",
+      "NamespacePrefix": null,
+      "DeveloperName": "Outcome",
+      "MasterLabel": "結果",
+      "Label": "結果",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalCopilotTestCaseRslt.OutputTokensCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalCopilotTestCaseRslt.OutputTokensCount",
+      "QualifiedApiName": "OutputTokensCount",
+      "EntityDefinitionId": "AiEvalCopilotTestCaseRslt",
+      "NamespacePrefix": null,
+      "DeveloperName": "OutputTokensCount",
+      "MasterLabel": "出力トークン数",
+      "Label": "出力トークン数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalCopilotTestCaseRslt.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalCopilotTestCaseRslt.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "AiEvalCopilotTestCaseRslt",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalCopilotTestCaseRslt.SessionIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalCopilotTestCaseRslt.SessionIdentifier",
+      "QualifiedApiName": "SessionIdentifier",
+      "EntityDefinitionId": "AiEvalCopilotTestCaseRslt",
+      "NamespacePrefix": null,
+      "DeveloperName": "SessionIdentifier",
+      "MasterLabel": "セッション識別子",
+      "Label": "セッション識別子",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalCopilotTestCaseRslt.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalCopilotTestCaseRslt.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AiEvalCopilotTestCaseRslt",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalCopilotTestCaseRslt.Topic"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalCopilotTestCaseRslt.Topic",
+      "QualifiedApiName": "Topic",
+      "EntityDefinitionId": "AiEvalCopilotTestCaseRslt",
+      "NamespacePrefix": null,
+      "DeveloperName": "Topic",
+      "MasterLabel": "トピック",
+      "Label": "トピック",
+      "DataType": "ロングテキストエリア(16384)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiEvalCopilotTestCaseRslt.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiEvalCopilotTestCaseRslt.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "AiEvalCopilotTestCaseRslt",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

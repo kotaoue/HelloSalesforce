@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InteractionLayoutSet.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InteractionLayoutSet.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "InteractionLayoutSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InteractionLayoutSet.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InteractionLayoutSet.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "InteractionLayoutSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InteractionLayoutSet.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InteractionLayoutSet.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "InteractionLayoutSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "オブジェクト名",
+      "Label": "オブジェクト名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InteractionLayoutSet.EntryAction"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InteractionLayoutSet.EntryAction",
+      "QualifiedApiName": "EntryActionId",
+      "EntityDefinitionId": "InteractionLayoutSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "EntryAction",
+      "MasterLabel": "開始アクション",
+      "Label": "開始アクション",
+      "DataType": "参照関係(インタラクションアクションコール)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InteractionLayoutSet.ExitAction"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InteractionLayoutSet.ExitAction",
+      "QualifiedApiName": "ExitActionId",
+      "EntityDefinitionId": "InteractionLayoutSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExitAction",
+      "MasterLabel": "終了アクション",
+      "Label": "終了アクション",
+      "DataType": "参照関係(インタラクションアクションコール)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InteractionLayoutSet.GroupName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InteractionLayoutSet.GroupName",
+      "QualifiedApiName": "GroupName",
+      "EntityDefinitionId": "InteractionLayoutSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "GroupName",
+      "MasterLabel": "グループ名",
+      "Label": "グループ名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InteractionLayoutSet.GroupType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InteractionLayoutSet.GroupType",
+      "QualifiedApiName": "GroupType",
+      "EntityDefinitionId": "InteractionLayoutSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "GroupType",
+      "MasterLabel": "グループの種別",
+      "Label": "グループの種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InteractionLayoutSet.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InteractionLayoutSet.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "InteractionLayoutSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "インタラクションレイアウトセット ID",
+      "Label": "インタラクションレイアウトセット ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InteractionLayoutSet.IsCollapsed"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InteractionLayoutSet.IsCollapsed",
+      "QualifiedApiName": "IsCollapsed",
+      "EntityDefinitionId": "InteractionLayoutSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsCollapsed",
+      "MasterLabel": "折りたたみ済み",
+      "Label": "折りたたみ済み",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InteractionLayoutSet.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InteractionLayoutSet.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "InteractionLayoutSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InteractionLayoutSet.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InteractionLayoutSet.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "InteractionLayoutSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InteractionLayoutSet.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InteractionLayoutSet.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "InteractionLayoutSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InteractionLayoutSet.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InteractionLayoutSet.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "InteractionLayoutSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InteractionLayoutSet.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InteractionLayoutSet.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "InteractionLayoutSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InteractionLayoutSet.SobjectType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InteractionLayoutSet.SobjectType",
+      "QualifiedApiName": "DefinitionVersionId",
+      "EntityDefinitionId": "InteractionLayoutSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "SobjectType",
+      "MasterLabel": "フローのバージョン",
+      "Label": "フローのバージョン",
+      "DataType": "参照関係(フローのバージョン)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InteractionLayoutSet.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InteractionLayoutSet.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "InteractionLayoutSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InteractionLayoutSet.VersionString"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InteractionLayoutSet.VersionString",
+      "QualifiedApiName": "VersionString",
+      "EntityDefinitionId": "InteractionLayoutSet",
+      "NamespacePrefix": null,
+      "DeveloperName": "VersionString",
+      "MasterLabel": "バージョン文字列",
+      "Label": "バージョン文字列",
+      "DataType": "テキスト(32)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

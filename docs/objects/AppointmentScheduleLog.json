@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentScheduleLog.AppointmentDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentScheduleLog.AppointmentDate",
+      "QualifiedApiName": "AppointmentDate",
+      "EntityDefinitionId": "AppointmentScheduleLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "AppointmentDate",
+      "MasterLabel": "Appointment Date",
+      "Label": "Appointment Date",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentScheduleLog.AppointmentScheduleAggr"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentScheduleLog.AppointmentScheduleAggr",
+      "QualifiedApiName": "AppointmentScheduleAggrId",
+      "EntityDefinitionId": "AppointmentScheduleLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "AppointmentScheduleAggr",
+      "MasterLabel": "Appointment Schedule Aggregates",
+      "Label": "Appointment Schedule Aggregates",
+      "DataType": "主従関係(Appointment Schedule Aggregates)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentScheduleLog.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentScheduleLog.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AppointmentScheduleLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentScheduleLog.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentScheduleLog.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AppointmentScheduleLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentScheduleLog.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentScheduleLog.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AppointmentScheduleLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Appointment Schedule Logs ID",
+      "Label": "Appointment Schedule Logs ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentScheduleLog.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentScheduleLog.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AppointmentScheduleLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentScheduleLog.IsUsedForResourceUtilization"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentScheduleLog.IsUsedForResourceUtilization",
+      "QualifiedApiName": "IsUsedForResourceUtilization",
+      "EntityDefinitionId": "AppointmentScheduleLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsUsedForResourceUtilization",
+      "MasterLabel": "Used for Resource Utilization",
+      "Label": "Used for Resource Utilization",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentScheduleLog.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentScheduleLog.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AppointmentScheduleLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentScheduleLog.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentScheduleLog.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AppointmentScheduleLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentScheduleLog.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentScheduleLog.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "AppointmentScheduleLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "Name",
+      "Label": "Name",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentScheduleLog.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentScheduleLog.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "AppointmentScheduleLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentScheduleLog.RelatedRecord"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentScheduleLog.RelatedRecord",
+      "QualifiedApiName": "RelatedRecordId",
+      "EntityDefinitionId": "AppointmentScheduleLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "RelatedRecord",
+      "MasterLabel": "Related Record",
+      "Label": "Related Record",
+      "DataType": "参照関係(サービス予定,行動,リソースの不在)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentScheduleLog.ResourceUtilization"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentScheduleLog.ResourceUtilization",
+      "QualifiedApiName": "ResourceUtilization",
+      "EntityDefinitionId": "AppointmentScheduleLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "ResourceUtilization",
+      "MasterLabel": "Resource Utilization",
+      "Label": "Resource Utilization",
+      "DataType": "数値(16、2)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentScheduleLog.ServiceResource"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentScheduleLog.ServiceResource",
+      "QualifiedApiName": "ServiceResourceId",
+      "EntityDefinitionId": "AppointmentScheduleLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "ServiceResource",
+      "MasterLabel": "サービスリソース",
+      "Label": "サービスリソース",
+      "DataType": "参照関係(サービスリソース)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentScheduleLog.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentScheduleLog.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AppointmentScheduleLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentScheduleLog.UsageType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentScheduleLog.UsageType",
+      "QualifiedApiName": "UsageType",
+      "EntityDefinitionId": "AppointmentScheduleLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "UsageType",
+      "MasterLabel": "Usage Type",
+      "Label": "Usage Type",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AppointmentScheduleLog.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AppointmentScheduleLog.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "AppointmentScheduleLog",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

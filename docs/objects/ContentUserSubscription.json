@@ -1,0 +1,70 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 3,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentUserSubscription.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentUserSubscription.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ContentUserSubscription",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "ContentUserSubscription ID",
+      "Label": "ContentUserSubscription ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentUserSubscription.SubscribedToUser"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentUserSubscription.SubscribedToUser",
+      "QualifiedApiName": "SubscribedToUserId",
+      "EntityDefinitionId": "ContentUserSubscription",
+      "NamespacePrefix": null,
+      "DeveloperName": "SubscribedToUser",
+      "MasterLabel": "ユーザーに登録済み",
+      "Label": "ユーザーに登録済み",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentUserSubscription.SubscriberUser"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentUserSubscription.SubscriberUser",
+      "QualifiedApiName": "SubscriberUserId",
+      "EntityDefinitionId": "ContentUserSubscription",
+      "NamespacePrefix": null,
+      "DeveloperName": "SubscriberUser",
+      "MasterLabel": "登録者ユーザー",
+      "Label": "登録者ユーザー",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

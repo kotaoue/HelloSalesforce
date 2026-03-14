@@ -1,0 +1,280 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 13,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnblPgmTaskMeasureProgress.ContributingRecordCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnblPgmTaskMeasureProgress.ContributingRecordCount",
+      "QualifiedApiName": "ContributingRecordCount",
+      "EntityDefinitionId": "EnblPgmTaskMeasureProgress",
+      "NamespacePrefix": null,
+      "DeveloperName": "ContributingRecordCount",
+      "MasterLabel": "寄与しているレコードの件数",
+      "Label": "寄与しているレコードの件数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnblPgmTaskMeasureProgress.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnblPgmTaskMeasureProgress.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "EnblPgmTaskMeasureProgress",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnblPgmTaskMeasureProgress.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnblPgmTaskMeasureProgress.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "EnblPgmTaskMeasureProgress",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnblPgmTaskMeasureProgress.EnblProgramTaskMeasure"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnblPgmTaskMeasureProgress.EnblProgramTaskMeasure",
+      "QualifiedApiName": "EnblProgramTaskMeasureId",
+      "EntityDefinitionId": "EnblPgmTaskMeasureProgress",
+      "NamespacePrefix": null,
+      "DeveloperName": "EnblProgramTaskMeasure",
+      "MasterLabel": "イネーブルメントプログラムタスク基準",
+      "Label": "イネーブルメントプログラムタスク基準",
+      "DataType": "参照関係(イネーブルメントプログラムタスク基準)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnblPgmTaskMeasureProgress.EnblProgramTaskProgress"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnblPgmTaskMeasureProgress.EnblProgramTaskProgress",
+      "QualifiedApiName": "EnblProgramTaskProgressId",
+      "EntityDefinitionId": "EnblPgmTaskMeasureProgress",
+      "NamespacePrefix": null,
+      "DeveloperName": "EnblProgramTaskProgress",
+      "MasterLabel": "イネーブルメントプログラムタスク進行状況",
+      "Label": "イネーブルメントプログラムタスク進行状況",
+      "DataType": "主従関係(イネーブルメントプログラムタスク進行状況)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnblPgmTaskMeasureProgress.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnblPgmTaskMeasureProgress.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "EnblPgmTaskMeasureProgress",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "イネーブルメントプログラムタスク基準進行状況 ID",
+      "Label": "イネーブルメントプログラムタスク基準進行状況 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnblPgmTaskMeasureProgress.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnblPgmTaskMeasureProgress.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "EnblPgmTaskMeasureProgress",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnblPgmTaskMeasureProgress.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnblPgmTaskMeasureProgress.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "EnblPgmTaskMeasureProgress",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnblPgmTaskMeasureProgress.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnblPgmTaskMeasureProgress.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "EnblPgmTaskMeasureProgress",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnblPgmTaskMeasureProgress.MeasureComputationResult"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnblPgmTaskMeasureProgress.MeasureComputationResult",
+      "QualifiedApiName": "MeasureComputationResult",
+      "EntityDefinitionId": "EnblPgmTaskMeasureProgress",
+      "NamespacePrefix": null,
+      "DeveloperName": "MeasureComputationResult",
+      "MasterLabel": "基準計算結果",
+      "Label": "基準計算結果",
+      "DataType": "数値(9、2)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnblPgmTaskMeasureProgress.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnblPgmTaskMeasureProgress.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "EnblPgmTaskMeasureProgress",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnblPgmTaskMeasureProgress.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnblPgmTaskMeasureProgress.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "EnblPgmTaskMeasureProgress",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnblPgmTaskMeasureProgress.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnblPgmTaskMeasureProgress.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "EnblPgmTaskMeasureProgress",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

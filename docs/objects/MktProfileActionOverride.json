@@ -1,0 +1,301 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 14,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktProfileActionOverride.Action"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktProfileActionOverride.Action",
+      "QualifiedApiName": "Action",
+      "EntityDefinitionId": "MktProfileActionOverride",
+      "NamespacePrefix": null,
+      "DeveloperName": "Action",
+      "MasterLabel": "アクション",
+      "Label": "アクション",
+      "DataType": "選択リスト()",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktProfileActionOverride.Content"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktProfileActionOverride.Content",
+      "QualifiedApiName": "ContentId",
+      "EntityDefinitionId": "MktProfileActionOverride",
+      "NamespacePrefix": null,
+      "DeveloperName": "Content",
+      "MasterLabel": "コンテンツ",
+      "Label": "コンテンツ",
+      "DataType": "参照関係(Lightning ページ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktProfileActionOverride.ContentName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktProfileActionOverride.ContentName",
+      "QualifiedApiName": "ContentName",
+      "EntityDefinitionId": "MktProfileActionOverride",
+      "NamespacePrefix": null,
+      "DeveloperName": "ContentName",
+      "MasterLabel": "コンテンツ名",
+      "Label": "コンテンツ名",
+      "DataType": "テキスト(100)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktProfileActionOverride.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktProfileActionOverride.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "MktProfileActionOverride",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktProfileActionOverride.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktProfileActionOverride.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "MktProfileActionOverride",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktProfileActionOverride.CustomApplication"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktProfileActionOverride.CustomApplication",
+      "QualifiedApiName": "CustomApplicationId",
+      "EntityDefinitionId": "MktProfileActionOverride",
+      "NamespacePrefix": null,
+      "DeveloperName": "CustomApplication",
+      "MasterLabel": "カスタムアプリケーション",
+      "Label": "カスタムアプリケーション",
+      "DataType": "参照関係(カスタムアプリケーション)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktProfileActionOverride.FormFactor"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktProfileActionOverride.FormFactor",
+      "QualifiedApiName": "FormFactor",
+      "EntityDefinitionId": "MktProfileActionOverride",
+      "NamespacePrefix": null,
+      "DeveloperName": "FormFactor",
+      "MasterLabel": "フォーム要素",
+      "Label": "フォーム要素",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktProfileActionOverride.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktProfileActionOverride.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "MktProfileActionOverride",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "アクション上書きの上書き ID",
+      "Label": "アクション上書きの上書き ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktProfileActionOverride.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktProfileActionOverride.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "MktProfileActionOverride",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktProfileActionOverride.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktProfileActionOverride.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "MktProfileActionOverride",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktProfileActionOverride.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktProfileActionOverride.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "MktProfileActionOverride",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktProfileActionOverride.ObjectType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktProfileActionOverride.ObjectType",
+      "QualifiedApiName": "ObjectType",
+      "EntityDefinitionId": "MktProfileActionOverride",
+      "NamespacePrefix": null,
+      "DeveloperName": "ObjectType",
+      "MasterLabel": "データモデルオブジェクト",
+      "Label": "データモデルオブジェクト",
+      "DataType": "選択リスト(データモデルオブジェクト)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktProfileActionOverride.Profile"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktProfileActionOverride.Profile",
+      "QualifiedApiName": "ProfileId",
+      "EntityDefinitionId": "MktProfileActionOverride",
+      "NamespacePrefix": null,
+      "DeveloperName": "Profile",
+      "MasterLabel": "プロファイル",
+      "Label": "プロファイル",
+      "DataType": "参照関係(プロファイル)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktProfileActionOverride.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktProfileActionOverride.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "MktProfileActionOverride",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

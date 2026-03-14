@@ -1,0 +1,343 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 16,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsDashboardLayout.AnalyticsDashboard"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsDashboardLayout.AnalyticsDashboard",
+      "QualifiedApiName": "AnalyticsDashboardId",
+      "EntityDefinitionId": "AnalyticsDashboardLayout",
+      "NamespacePrefix": null,
+      "DeveloperName": "AnalyticsDashboard",
+      "MasterLabel": "Analytics ダッシュボード",
+      "Label": "Analytics ダッシュボード",
+      "DataType": "主従関係(Analytics ダッシュボード)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsDashboardLayout.AnalyticsDashboardVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsDashboardLayout.AnalyticsDashboardVersion",
+      "QualifiedApiName": "AnalyticsDashboardVersionId",
+      "EntityDefinitionId": "AnalyticsDashboardLayout",
+      "NamespacePrefix": null,
+      "DeveloperName": "AnalyticsDashboardVersion",
+      "MasterLabel": "Analytics Dashboard Version",
+      "Label": "Analytics Dashboard Version",
+      "DataType": "参照関係(Analytics Dashboard Version)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsDashboardLayout.ColumnCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsDashboardLayout.ColumnCount",
+      "QualifiedApiName": "ColumnCount",
+      "EntityDefinitionId": "AnalyticsDashboardLayout",
+      "NamespacePrefix": null,
+      "DeveloperName": "ColumnCount",
+      "MasterLabel": "Number Of Columns",
+      "Label": "Number Of Columns",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsDashboardLayout.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsDashboardLayout.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AnalyticsDashboardLayout",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsDashboardLayout.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsDashboardLayout.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AnalyticsDashboardLayout",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsDashboardLayout.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsDashboardLayout.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AnalyticsDashboardLayout",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "AnalyticsDashboardLayout ID",
+      "Label": "AnalyticsDashboardLayout ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsDashboardLayout.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsDashboardLayout.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AnalyticsDashboardLayout",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsDashboardLayout.Label"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsDashboardLayout.Label",
+      "QualifiedApiName": "Label",
+      "EntityDefinitionId": "AnalyticsDashboardLayout",
+      "NamespacePrefix": null,
+      "DeveloperName": "Label",
+      "MasterLabel": "Layout Label",
+      "Label": "Layout Label",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsDashboardLayout.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsDashboardLayout.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AnalyticsDashboardLayout",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsDashboardLayout.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsDashboardLayout.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AnalyticsDashboardLayout",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsDashboardLayout.LayoutName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsDashboardLayout.LayoutName",
+      "QualifiedApiName": "LayoutName",
+      "EntityDefinitionId": "AnalyticsDashboardLayout",
+      "NamespacePrefix": null,
+      "DeveloperName": "LayoutName",
+      "MasterLabel": "Layout Name",
+      "Label": "Layout Name",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsDashboardLayout.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsDashboardLayout.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "AnalyticsDashboardLayout",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsDashboardLayout.MaxWidth"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsDashboardLayout.MaxWidth",
+      "QualifiedApiName": "MaxWidth",
+      "EntityDefinitionId": "AnalyticsDashboardLayout",
+      "NamespacePrefix": null,
+      "DeveloperName": "MaxWidth",
+      "MasterLabel": "Max Width",
+      "Label": "Max Width",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsDashboardLayout.RowHeight"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsDashboardLayout.RowHeight",
+      "QualifiedApiName": "RowHeight",
+      "EntityDefinitionId": "AnalyticsDashboardLayout",
+      "NamespacePrefix": null,
+      "DeveloperName": "RowHeight",
+      "MasterLabel": "Row Height",
+      "Label": "Row Height",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsDashboardLayout.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsDashboardLayout.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AnalyticsDashboardLayout",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsDashboardLayout.Version"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsDashboardLayout.Version",
+      "QualifiedApiName": "Version",
+      "EntityDefinitionId": "AnalyticsDashboardLayout",
+      "NamespacePrefix": null,
+      "DeveloperName": "Version",
+      "MasterLabel": "Layout Entity Version",
+      "Label": "Layout Entity Version",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

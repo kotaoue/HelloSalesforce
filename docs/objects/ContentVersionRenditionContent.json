@@ -1,0 +1,133 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 6,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentVersionRenditionContent.DownloadUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentVersionRenditionContent.DownloadUrl",
+      "QualifiedApiName": "DownloadUrl",
+      "EntityDefinitionId": "ContentVersionRenditionContent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DownloadUrl",
+      "MasterLabel": "変換 URL",
+      "Label": "変換 URL",
+      "DataType": "テキスト(256)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentVersionRenditionContent.FileType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentVersionRenditionContent.FileType",
+      "QualifiedApiName": "FileType",
+      "EntityDefinitionId": "ContentVersionRenditionContent",
+      "NamespacePrefix": null,
+      "DeveloperName": "FileType",
+      "MasterLabel": "ファイルの種類",
+      "Label": "ファイルの種類",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentVersionRenditionContent.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentVersionRenditionContent.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ContentVersionRenditionContent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "コンテンツ変換 ID",
+      "Label": "コンテンツ変換 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentVersionRenditionContent.ParentContent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentVersionRenditionContent.ParentContent",
+      "QualifiedApiName": "ParentContentId",
+      "EntityDefinitionId": "ContentVersionRenditionContent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ParentContent",
+      "MasterLabel": "親コンテンツ",
+      "Label": "親コンテンツ",
+      "DataType": "参照関係(コンテンツバージョン,コンテンツ本文,管理コンテンツ本文)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentVersionRenditionContent.StdRenditionType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentVersionRenditionContent.StdRenditionType",
+      "QualifiedApiName": "StdRenditionType",
+      "EntityDefinitionId": "ContentVersionRenditionContent",
+      "NamespacePrefix": null,
+      "DeveloperName": "StdRenditionType",
+      "MasterLabel": "標準の変換種別",
+      "Label": "標準の変換種別",
+      "DataType": "テキスト(256)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentVersionRenditionContent.VersionData"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentVersionRenditionContent.VersionData",
+      "QualifiedApiName": "VersionData",
+      "EntityDefinitionId": "ContentVersionRenditionContent",
+      "NamespacePrefix": null,
+      "DeveloperName": "VersionData",
+      "MasterLabel": "バージョンデータ",
+      "Label": "バージョンデータ",
+      "DataType": "テキストエリア",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

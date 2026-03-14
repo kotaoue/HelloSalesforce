@@ -1,0 +1,322 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 15,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageNodeDefSyncLogHistory.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageNodeDefSyncLogHistory.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DataLineageNodeDefSyncLogHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageNodeDefSyncLogHistory.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageNodeDefSyncLogHistory.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DataLineageNodeDefSyncLogHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageNodeDefSyncLogHistory.DataLineageNodeDefSyncLog"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageNodeDefSyncLogHistory.DataLineageNodeDefSyncLog",
+      "QualifiedApiName": "DataLineageNodeDefSyncLogId",
+      "EntityDefinitionId": "DataLineageNodeDefSyncLogHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataLineageNodeDefSyncLog",
+      "MasterLabel": "データ系統ノード定義同期ログ",
+      "Label": "データ系統ノード定義同期ログ",
+      "DataType": "参照関係(データ系統ノード定義同期ログ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageNodeDefSyncLogHistory.DataType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageNodeDefSyncLogHistory.DataType",
+      "QualifiedApiName": "DataType",
+      "EntityDefinitionId": "DataLineageNodeDefSyncLogHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataType",
+      "MasterLabel": "データ型",
+      "Label": "データ型",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageNodeDefSyncLogHistory.Field"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageNodeDefSyncLogHistory.Field",
+      "QualifiedApiName": "Field",
+      "EntityDefinitionId": "DataLineageNodeDefSyncLogHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Field",
+      "MasterLabel": "変更された項目",
+      "Label": "変更された項目",
+      "DataType": "選択リスト(カスタム項目の定義,カスタム項目データ列)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageNodeDefSyncLogHistory.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageNodeDefSyncLogHistory.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DataLineageNodeDefSyncLogHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "データ系統ノード定義同期ログ履歴 ID",
+      "Label": "データ系統ノード定義同期ログ履歴 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageNodeDefSyncLogHistory.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageNodeDefSyncLogHistory.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DataLineageNodeDefSyncLogHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageNodeDefSyncLogHistory.NewvalDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageNodeDefSyncLogHistory.NewvalDate",
+      "QualifiedApiName": "NewvalDate",
+      "EntityDefinitionId": "DataLineageNodeDefSyncLogHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewvalDate",
+      "MasterLabel": "新規の日付",
+      "Label": "新規の日付",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageNodeDefSyncLogHistory.NewvalFirstName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageNodeDefSyncLogHistory.NewvalFirstName",
+      "QualifiedApiName": "NewvalFirstName",
+      "EntityDefinitionId": "DataLineageNodeDefSyncLogHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewvalFirstName",
+      "MasterLabel": "新規の名",
+      "Label": "新規の名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageNodeDefSyncLogHistory.NewvalLastName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageNodeDefSyncLogHistory.NewvalLastName",
+      "QualifiedApiName": "NewvalLastName",
+      "EntityDefinitionId": "DataLineageNodeDefSyncLogHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewvalLastName",
+      "MasterLabel": "新規の姓",
+      "Label": "新規の姓",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageNodeDefSyncLogHistory.NewValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageNodeDefSyncLogHistory.NewValue",
+      "QualifiedApiName": "NewValue",
+      "EntityDefinitionId": "DataLineageNodeDefSyncLogHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewValue",
+      "MasterLabel": "新しい値",
+      "Label": "新しい値",
+      "DataType": "参照関係",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageNodeDefSyncLogHistory.OldvalDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageNodeDefSyncLogHistory.OldvalDate",
+      "QualifiedApiName": "OldvalDate",
+      "EntityDefinitionId": "DataLineageNodeDefSyncLogHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldvalDate",
+      "MasterLabel": "元の日付",
+      "Label": "元の日付",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageNodeDefSyncLogHistory.OldvalFirstName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageNodeDefSyncLogHistory.OldvalFirstName",
+      "QualifiedApiName": "OldvalFirstName",
+      "EntityDefinitionId": "DataLineageNodeDefSyncLogHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldvalFirstName",
+      "MasterLabel": "元の名",
+      "Label": "元の名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageNodeDefSyncLogHistory.OldvalLastName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageNodeDefSyncLogHistory.OldvalLastName",
+      "QualifiedApiName": "OldvalLastName",
+      "EntityDefinitionId": "DataLineageNodeDefSyncLogHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldvalLastName",
+      "MasterLabel": "元の姓",
+      "Label": "元の姓",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataLineageNodeDefSyncLogHistory.OldValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataLineageNodeDefSyncLogHistory.OldValue",
+      "QualifiedApiName": "OldValue",
+      "EntityDefinitionId": "DataLineageNodeDefSyncLogHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldValue",
+      "MasterLabel": "元の値",
+      "Label": "元の値",
+      "DataType": "参照関係",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

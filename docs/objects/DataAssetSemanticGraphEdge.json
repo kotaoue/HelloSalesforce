@@ -1,0 +1,553 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 26,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAssetSemanticGraphEdge.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAssetSemanticGraphEdge.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DataAssetSemanticGraphEdge",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAssetSemanticGraphEdge.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAssetSemanticGraphEdge.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DataAssetSemanticGraphEdge",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAssetSemanticGraphEdge.EdgeInfoVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAssetSemanticGraphEdge.EdgeInfoVersion",
+      "QualifiedApiName": "EdgeInfoVersion",
+      "EntityDefinitionId": "DataAssetSemanticGraphEdge",
+      "NamespacePrefix": null,
+      "DeveloperName": "EdgeInfoVersion",
+      "MasterLabel": "エッジのバージョン番号",
+      "Label": "エッジのバージョン番号",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAssetSemanticGraphEdge.EdgeType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAssetSemanticGraphEdge.EdgeType",
+      "QualifiedApiName": "EdgeType",
+      "EntityDefinitionId": "DataAssetSemanticGraphEdge",
+      "NamespacePrefix": null,
+      "DeveloperName": "EdgeType",
+      "MasterLabel": "エッジの種別",
+      "Label": "エッジの種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAssetSemanticGraphEdge.FromDataAssetFieldIdOrName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAssetSemanticGraphEdge.FromDataAssetFieldIdOrName",
+      "QualifiedApiName": "FromDataAssetFieldIdOrName",
+      "EntityDefinitionId": "DataAssetSemanticGraphEdge",
+      "NamespacePrefix": null,
+      "DeveloperName": "FromDataAssetFieldIdOrName",
+      "MasterLabel": "リレーションの左側の項目",
+      "Label": "リレーションの左側の項目",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAssetSemanticGraphEdge.FromDataAssetIdOrName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAssetSemanticGraphEdge.FromDataAssetIdOrName",
+      "QualifiedApiName": "FromDataAssetIdOrName",
+      "EntityDefinitionId": "DataAssetSemanticGraphEdge",
+      "NamespacePrefix": null,
+      "DeveloperName": "FromDataAssetIdOrName",
+      "MasterLabel": "リレーションの左側のエンティティ",
+      "Label": "リレーションの左側のエンティティ",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAssetSemanticGraphEdge.FromEntityAssetType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAssetSemanticGraphEdge.FromEntityAssetType",
+      "QualifiedApiName": "FromEntityAssetType",
+      "EntityDefinitionId": "DataAssetSemanticGraphEdge",
+      "NamespacePrefix": null,
+      "DeveloperName": "FromEntityAssetType",
+      "MasterLabel": "リレーションの左側のエンティティの種別",
+      "Label": "リレーションの左側のエンティティの種別",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAssetSemanticGraphEdge.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAssetSemanticGraphEdge.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DataAssetSemanticGraphEdge",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "データアセットセマンティックグラフエッジ ID",
+      "Label": "データアセットセマンティックグラフエッジ ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAssetSemanticGraphEdge.Info1Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAssetSemanticGraphEdge.Info1Name",
+      "QualifiedApiName": "Info1Name",
+      "EntityDefinitionId": "DataAssetSemanticGraphEdge",
+      "NamespacePrefix": null,
+      "DeveloperName": "Info1Name",
+      "MasterLabel": "第 1 追加情報名",
+      "Label": "第 1 追加情報名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAssetSemanticGraphEdge.Info1Value"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAssetSemanticGraphEdge.Info1Value",
+      "QualifiedApiName": "Info1Value",
+      "EntityDefinitionId": "DataAssetSemanticGraphEdge",
+      "NamespacePrefix": null,
+      "DeveloperName": "Info1Value",
+      "MasterLabel": "第 1 追加情報値",
+      "Label": "第 1 追加情報値",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAssetSemanticGraphEdge.Info2Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAssetSemanticGraphEdge.Info2Name",
+      "QualifiedApiName": "Info2Name",
+      "EntityDefinitionId": "DataAssetSemanticGraphEdge",
+      "NamespacePrefix": null,
+      "DeveloperName": "Info2Name",
+      "MasterLabel": "第 2 追加情報名",
+      "Label": "第 2 追加情報名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAssetSemanticGraphEdge.Info2Value"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAssetSemanticGraphEdge.Info2Value",
+      "QualifiedApiName": "Info2Value",
+      "EntityDefinitionId": "DataAssetSemanticGraphEdge",
+      "NamespacePrefix": null,
+      "DeveloperName": "Info2Value",
+      "MasterLabel": "第 2 追加情報値",
+      "Label": "第 2 追加情報値",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAssetSemanticGraphEdge.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAssetSemanticGraphEdge.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DataAssetSemanticGraphEdge",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAssetSemanticGraphEdge.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAssetSemanticGraphEdge.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DataAssetSemanticGraphEdge",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAssetSemanticGraphEdge.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAssetSemanticGraphEdge.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DataAssetSemanticGraphEdge",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAssetSemanticGraphEdge.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAssetSemanticGraphEdge.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "DataAssetSemanticGraphEdge",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "データアセットセマンティックグラフエッジ名",
+      "Label": "データアセットセマンティックグラフエッジ名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAssetSemanticGraphEdge.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAssetSemanticGraphEdge.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "DataAssetSemanticGraphEdge",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAssetSemanticGraphEdge.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAssetSemanticGraphEdge.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DataAssetSemanticGraphEdge",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAssetSemanticGraphEdge.ToEntityAssetType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAssetSemanticGraphEdge.ToEntityAssetType",
+      "QualifiedApiName": "ToEntityAssetType",
+      "EntityDefinitionId": "DataAssetSemanticGraphEdge",
+      "NamespacePrefix": null,
+      "DeveloperName": "ToEntityAssetType",
+      "MasterLabel": "リレーションの右側のエンティティの種別",
+      "Label": "リレーションの右側のエンティティの種別",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAssetSemanticGraphEdge.ToEntityFieldIdOrName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAssetSemanticGraphEdge.ToEntityFieldIdOrName",
+      "QualifiedApiName": "ToEntityFieldIdOrName",
+      "EntityDefinitionId": "DataAssetSemanticGraphEdge",
+      "NamespacePrefix": null,
+      "DeveloperName": "ToEntityFieldIdOrName",
+      "MasterLabel": "リレーションの右側の項目",
+      "Label": "リレーションの右側の項目",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAssetSemanticGraphEdge.ToEntityIdOrName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAssetSemanticGraphEdge.ToEntityIdOrName",
+      "QualifiedApiName": "ToEntityIdOrName",
+      "EntityDefinitionId": "DataAssetSemanticGraphEdge",
+      "NamespacePrefix": null,
+      "DeveloperName": "ToEntityIdOrName",
+      "MasterLabel": "リレーションの右側のエンティティ",
+      "Label": "リレーションの右側のエンティティ",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAssetSemanticGraphEdge.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAssetSemanticGraphEdge.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "DataAssetSemanticGraphEdge",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAssetSemanticGraphEdge.Weight1Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAssetSemanticGraphEdge.Weight1Name",
+      "QualifiedApiName": "Weight1Name",
+      "EntityDefinitionId": "DataAssetSemanticGraphEdge",
+      "NamespacePrefix": null,
+      "DeveloperName": "Weight1Name",
+      "MasterLabel": "第 1 加重名",
+      "Label": "第 1 加重名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAssetSemanticGraphEdge.Weight1Value"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAssetSemanticGraphEdge.Weight1Value",
+      "QualifiedApiName": "Weight1Value",
+      "EntityDefinitionId": "DataAssetSemanticGraphEdge",
+      "NamespacePrefix": null,
+      "DeveloperName": "Weight1Value",
+      "MasterLabel": "第 1 加重値",
+      "Label": "第 1 加重値",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAssetSemanticGraphEdge.Weight2Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAssetSemanticGraphEdge.Weight2Name",
+      "QualifiedApiName": "Weight2Name",
+      "EntityDefinitionId": "DataAssetSemanticGraphEdge",
+      "NamespacePrefix": null,
+      "DeveloperName": "Weight2Name",
+      "MasterLabel": "第 2 加重名",
+      "Label": "第 2 加重名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataAssetSemanticGraphEdge.Weight2Value"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataAssetSemanticGraphEdge.Weight2Value",
+      "QualifiedApiName": "Weight2Value",
+      "EntityDefinitionId": "DataAssetSemanticGraphEdge",
+      "NamespacePrefix": null,
+      "DeveloperName": "Weight2Value",
+      "MasterLabel": "第 2 加重値",
+      "Label": "第 2 加重値",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

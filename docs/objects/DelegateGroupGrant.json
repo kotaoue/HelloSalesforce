@@ -1,0 +1,154 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 7,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DelegateGroupGrant.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DelegateGroupGrant.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DelegateGroupGrant",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DelegateGroupGrant.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DelegateGroupGrant.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DelegateGroupGrant",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DelegateGroupGrant.DelegateGroup"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DelegateGroupGrant.DelegateGroup",
+      "QualifiedApiName": "DelegateGroupId",
+      "EntityDefinitionId": "DelegateGroupGrant",
+      "NamespacePrefix": null,
+      "DeveloperName": "DelegateGroup",
+      "MasterLabel": "${udd_DelegateGroup.Id}",
+      "Label": "${udd_DelegateGroup.Id}",
+      "DataType": "参照関係(代理グループ:)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DelegateGroupGrant.Granted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DelegateGroupGrant.Granted",
+      "QualifiedApiName": "GrantedId",
+      "EntityDefinitionId": "DelegateGroupGrant",
+      "NamespacePrefix": null,
+      "DeveloperName": "Granted",
+      "MasterLabel": "許可",
+      "Label": "許可",
+      "DataType": "参照関係(ユーザー,ロール,プロファイル,カスタムオブジェクトの定義,権限セット,グループ,権限セットグループ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DelegateGroupGrant.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DelegateGroupGrant.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DelegateGroupGrant",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "DelegateGroupGrant ID",
+      "Label": "DelegateGroupGrant ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DelegateGroupGrant.KeyPrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DelegateGroupGrant.KeyPrefix",
+      "QualifiedApiName": "KeyPrefix",
+      "EntityDefinitionId": "DelegateGroupGrant",
+      "NamespacePrefix": null,
+      "DeveloperName": "KeyPrefix",
+      "MasterLabel": "キープレフィックス",
+      "Label": "キープレフィックス",
+      "DataType": "テキスト(3)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DelegateGroupGrant.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DelegateGroupGrant.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DelegateGroupGrant",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

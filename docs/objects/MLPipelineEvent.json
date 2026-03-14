@@ -1,0 +1,322 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 15,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPipelineEvent.ArtifactId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPipelineEvent.ArtifactId",
+      "QualifiedApiName": "ArtifactId",
+      "EntityDefinitionId": "MLPipelineEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ArtifactId",
+      "MasterLabel": "アイテム ID",
+      "Label": "アイテム ID",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPipelineEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPipelineEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "MLPipelineEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPipelineEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPipelineEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "MLPipelineEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPipelineEvent.ErrorCode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPipelineEvent.ErrorCode",
+      "QualifiedApiName": "ErrorCode",
+      "EntityDefinitionId": "MLPipelineEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorCode",
+      "MasterLabel": "エラーコード",
+      "Label": "エラーコード",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPipelineEvent.ErrorMessage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPipelineEvent.ErrorMessage",
+      "QualifiedApiName": "ErrorMessage",
+      "EntityDefinitionId": "MLPipelineEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorMessage",
+      "MasterLabel": "エラーメッセージ",
+      "Label": "エラーメッセージ",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPipelineEvent.EventType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPipelineEvent.EventType",
+      "QualifiedApiName": "EventType",
+      "EntityDefinitionId": "MLPipelineEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventType",
+      "MasterLabel": "イベント種別",
+      "Label": "イベント種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPipelineEvent.EventUuid"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPipelineEvent.EventUuid",
+      "QualifiedApiName": "EventUuid",
+      "EntityDefinitionId": "MLPipelineEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventUuid",
+      "MasterLabel": "イベント UUID",
+      "Label": "イベント UUID",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPipelineEvent.MlApplicationId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPipelineEvent.MlApplicationId",
+      "QualifiedApiName": "MlApplicationId",
+      "EntityDefinitionId": "MLPipelineEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "MlApplicationId",
+      "MasterLabel": "ML アプリケーション ID",
+      "Label": "ML アプリケーション ID",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPipelineEvent.MlApplicationName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPipelineEvent.MlApplicationName",
+      "QualifiedApiName": "MlApplicationName",
+      "EntityDefinitionId": "MLPipelineEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "MlApplicationName",
+      "MasterLabel": "ML アプリケーション名",
+      "Label": "ML アプリケーション名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPipelineEvent.Payload"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPipelineEvent.Payload",
+      "QualifiedApiName": "Payload",
+      "EntityDefinitionId": "MLPipelineEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Payload",
+      "MasterLabel": "ペイロード",
+      "Label": "ペイロード",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPipelineEvent.PipelineName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPipelineEvent.PipelineName",
+      "QualifiedApiName": "PipelineName",
+      "EntityDefinitionId": "MLPipelineEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "PipelineName",
+      "MasterLabel": "パイプライン名",
+      "Label": "パイプライン名",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPipelineEvent.PipelineNameText"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPipelineEvent.PipelineNameText",
+      "QualifiedApiName": "PipelineNameText",
+      "EntityDefinitionId": "MLPipelineEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "PipelineNameText",
+      "MasterLabel": "パイプライン名のテキスト",
+      "Label": "パイプライン名のテキスト",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPipelineEvent.ReplayId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPipelineEvent.ReplayId",
+      "QualifiedApiName": "ReplayId",
+      "EntityDefinitionId": "MLPipelineEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReplayId",
+      "MasterLabel": "再実行 ID",
+      "Label": "再実行 ID",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPipelineEvent.RunId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPipelineEvent.RunId",
+      "QualifiedApiName": "RunId",
+      "EntityDefinitionId": "MLPipelineEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "RunId",
+      "MasterLabel": "実行 ID",
+      "Label": "実行 ID",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLPipelineEvent.Version"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLPipelineEvent.Version",
+      "QualifiedApiName": "Version",
+      "EntityDefinitionId": "MLPipelineEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Version",
+      "MasterLabel": "バージョン",
+      "Label": "バージョン",
+      "DataType": "テキスト(512)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

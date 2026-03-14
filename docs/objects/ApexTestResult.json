@@ -1,0 +1,343 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 16,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResult.ApexClass"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResult.ApexClass",
+      "QualifiedApiName": "ApexClassId",
+      "EntityDefinitionId": "ApexTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "ApexClass",
+      "MasterLabel": "Apex クラス",
+      "Label": "Apex クラス",
+      "DataType": "参照関係(Apex クラス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResult.ApexLog"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResult.ApexLog",
+      "QualifiedApiName": "ApexLogId",
+      "EntityDefinitionId": "ApexTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "ApexLog",
+      "MasterLabel": "Apex デバッグログ",
+      "Label": "Apex デバッグログ",
+      "DataType": "参照関係(Apex デバッグログ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResult.ApexTestRunResult"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResult.ApexTestRunResult",
+      "QualifiedApiName": "ApexTestRunResultId",
+      "EntityDefinitionId": "ApexTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "ApexTestRunResult",
+      "MasterLabel": "Apex テスト実行結果",
+      "Label": "Apex テスト実行結果",
+      "DataType": "参照関係(Apex テスト実行結果)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResult.AsyncApexJob"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResult.AsyncApexJob",
+      "QualifiedApiName": "AsyncApexJobId",
+      "EntityDefinitionId": "ApexTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "AsyncApexJob",
+      "MasterLabel": "Apex ジョブ",
+      "Label": "Apex ジョブ",
+      "DataType": "参照関係(Apex ジョブ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResult.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResult.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ApexTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Apex テスト結果 ID",
+      "Label": "Apex テスト結果 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResult.IsTestSetup"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResult.IsTestSetup",
+      "QualifiedApiName": "IsTestSetup",
+      "EntityDefinitionId": "ApexTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsTestSetup",
+      "MasterLabel": "テスト設定",
+      "Label": "テスト設定",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResult.Message"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResult.Message",
+      "QualifiedApiName": "Message",
+      "EntityDefinitionId": "ApexTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "Message",
+      "MasterLabel": "エラーメッセージ",
+      "Label": "エラーメッセージ",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResult.MethodName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResult.MethodName",
+      "QualifiedApiName": "MethodName",
+      "EntityDefinitionId": "ApexTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "MethodName",
+      "MasterLabel": "メソッド名",
+      "Label": "メソッド名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResult.Outcome"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResult.Outcome",
+      "QualifiedApiName": "Outcome",
+      "EntityDefinitionId": "ApexTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "Outcome",
+      "MasterLabel": "成功/失敗",
+      "Label": "成功/失敗",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResult.QueueItem"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResult.QueueItem",
+      "QualifiedApiName": "QueueItemId",
+      "EntityDefinitionId": "ApexTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "QueueItem",
+      "MasterLabel": "キュー項目",
+      "Label": "キュー項目",
+      "DataType": "参照関係(Apex テストキュー項目)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResult.RunTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResult.RunTime",
+      "QualifiedApiName": "RunTime",
+      "EntityDefinitionId": "ApexTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "RunTime",
+      "MasterLabel": "実行時刻",
+      "Label": "実行時刻",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResult.StackTrace"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResult.StackTrace",
+      "QualifiedApiName": "StackTrace",
+      "EntityDefinitionId": "ApexTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "StackTrace",
+      "MasterLabel": "スタック追跡",
+      "Label": "スタック追跡",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResult.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResult.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ApexTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResult.TestName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResult.TestName",
+      "QualifiedApiName": "TestName",
+      "EntityDefinitionId": "ApexTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "TestName",
+      "MasterLabel": "動的テストクラス名",
+      "Label": "動的テストクラス名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResult.TestNamespace"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResult.TestNamespace",
+      "QualifiedApiName": "TestNamespace",
+      "EntityDefinitionId": "ApexTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "TestNamespace",
+      "MasterLabel": "動的テストクラス名前空間",
+      "Label": "動的テストクラス名前空間",
+      "DataType": "テキスト(81)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ApexTestResult.TestTimestamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApexTestResult.TestTimestamp",
+      "QualifiedApiName": "TestTimestamp",
+      "EntityDefinitionId": "ApexTestResult",
+      "NamespacePrefix": null,
+      "DeveloperName": "TestTimestamp",
+      "MasterLabel": "開始時刻",
+      "Label": "開始時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

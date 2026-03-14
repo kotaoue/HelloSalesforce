@@ -1,0 +1,448 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 21,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InventoryReservation.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InventoryReservation.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "InventoryReservation",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InventoryReservation.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InventoryReservation.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "InventoryReservation",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InventoryReservation.ErrorCode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InventoryReservation.ErrorCode",
+      "QualifiedApiName": "ErrorCode",
+      "EntityDefinitionId": "InventoryReservation",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorCode",
+      "MasterLabel": "エラーコード",
+      "Label": "エラーコード",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InventoryReservation.ErrorMessage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InventoryReservation.ErrorMessage",
+      "QualifiedApiName": "ErrorMessage",
+      "EntityDefinitionId": "InventoryReservation",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorMessage",
+      "MasterLabel": "エラーメッセージ",
+      "Label": "エラーメッセージ",
+      "DataType": "ロングテキストエリア(2000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InventoryReservation.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InventoryReservation.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "InventoryReservation",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "在庫予約 ID",
+      "Label": "在庫予約 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InventoryReservation.IsAsyncOperationInProgress"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InventoryReservation.IsAsyncOperationInProgress",
+      "QualifiedApiName": "IsAsyncOperationInProgress",
+      "EntityDefinitionId": "InventoryReservation",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsAsyncOperationInProgress",
+      "MasterLabel": "非同期操作が進行中",
+      "Label": "非同期操作が進行中",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InventoryReservation.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InventoryReservation.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "InventoryReservation",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InventoryReservation.IsSuccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InventoryReservation.IsSuccess",
+      "QualifiedApiName": "IsSuccess",
+      "EntityDefinitionId": "InventoryReservation",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsSuccess",
+      "MasterLabel": "最後に成功した操作",
+      "Label": "最後に成功した操作",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InventoryReservation.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InventoryReservation.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "InventoryReservation",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InventoryReservation.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InventoryReservation.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "InventoryReservation",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InventoryReservation.LastReferencedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InventoryReservation.LastReferencedDate",
+      "QualifiedApiName": "LastReferencedDate",
+      "EntityDefinitionId": "InventoryReservation",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastReferencedDate",
+      "MasterLabel": "最終参照日",
+      "Label": "最終参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InventoryReservation.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InventoryReservation.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "InventoryReservation",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InventoryReservation.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InventoryReservation.Name",
+      "QualifiedApiName": "InventoryReservationName",
+      "EntityDefinitionId": "InventoryReservation",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "在庫予約番号",
+      "Label": "在庫予約番号",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InventoryReservation.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InventoryReservation.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "InventoryReservation",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者 氏名",
+      "Label": "所有者 氏名",
+      "DataType": "参照関係(ユーザー,グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InventoryReservation.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InventoryReservation.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "InventoryReservation",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InventoryReservation.ReservationDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InventoryReservation.ReservationDate",
+      "QualifiedApiName": "ReservationDate",
+      "EntityDefinitionId": "InventoryReservation",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReservationDate",
+      "MasterLabel": "予約日",
+      "Label": "予約日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InventoryReservation.ReservationDurationInSeconds"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InventoryReservation.ReservationDurationInSeconds",
+      "QualifiedApiName": "ReservationDurationInSeconds",
+      "EntityDefinitionId": "InventoryReservation",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReservationDurationInSeconds",
+      "MasterLabel": "予約期間 (秒)",
+      "Label": "予約期間 (秒)",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InventoryReservation.ReservationIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InventoryReservation.ReservationIdentifier",
+      "QualifiedApiName": "ReservationIdentifier",
+      "EntityDefinitionId": "InventoryReservation",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReservationIdentifier",
+      "MasterLabel": "予約識別子",
+      "Label": "予約識別子",
+      "DataType": "テキスト(255)  (ユニーク、大文字と小文字を区別する)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InventoryReservation.ReservationSource"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InventoryReservation.ReservationSource",
+      "QualifiedApiName": "ReservationSourceId",
+      "EntityDefinitionId": "InventoryReservation",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReservationSource",
+      "MasterLabel": "予約ソース",
+      "Label": "予約ソース",
+      "DataType": "参照関係(カート,注文,作業指示,返品注文)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InventoryReservation.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InventoryReservation.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "InventoryReservation",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InventoryReservation.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InventoryReservation.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "InventoryReservation",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

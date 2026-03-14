@@ -1,0 +1,301 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 14,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemTaxChangeEvent.Amount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemTaxChangeEvent.Amount",
+      "QualifiedApiName": "Amount",
+      "EntityDefinitionId": "FulfillmentOrderItemTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Amount",
+      "MasterLabel": "金額",
+      "Label": "金額",
+      "DataType": "通貨(16、2)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemTaxChangeEvent.ChangeEventHeader"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemTaxChangeEvent.ChangeEventHeader",
+      "QualifiedApiName": "ChangeEventHeader",
+      "EntityDefinitionId": "FulfillmentOrderItemTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChangeEventHeader",
+      "MasterLabel": "変更イベントヘッダー",
+      "Label": "変更イベントヘッダー",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemTaxChangeEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemTaxChangeEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "FulfillmentOrderItemTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemTaxChangeEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemTaxChangeEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "FulfillmentOrderItemTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemTaxChangeEvent.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemTaxChangeEvent.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "FulfillmentOrderItemTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "ロングテキストエリア(2000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemTaxChangeEvent.FulfillmentOrder"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemTaxChangeEvent.FulfillmentOrder",
+      "QualifiedApiName": "FulfillmentOrderId",
+      "EntityDefinitionId": "FulfillmentOrderItemTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "FulfillmentOrder",
+      "MasterLabel": "履行注文",
+      "Label": "履行注文",
+      "DataType": "参照関係(履行注文)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemTaxChangeEvent.FulfillmentOrderItemAdjust"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemTaxChangeEvent.FulfillmentOrderItemAdjust",
+      "QualifiedApiName": "FulfillmentOrderItemAdjustId",
+      "EntityDefinitionId": "FulfillmentOrderItemTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "FulfillmentOrderItemAdjust",
+      "MasterLabel": "履行注文品目調整",
+      "Label": "履行注文品目調整",
+      "DataType": "参照関係(履行注文品目調整)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemTaxChangeEvent.FulfillmentOrderLineItem"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemTaxChangeEvent.FulfillmentOrderLineItem",
+      "QualifiedApiName": "FulfillmentOrderLineItemId",
+      "EntityDefinitionId": "FulfillmentOrderItemTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "FulfillmentOrderLineItem",
+      "MasterLabel": "履行注文商品",
+      "Label": "履行注文商品",
+      "DataType": "参照関係(履行注文商品)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemTaxChangeEvent.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemTaxChangeEvent.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "FulfillmentOrderItemTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemTaxChangeEvent.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemTaxChangeEvent.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "FulfillmentOrderItemTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemTaxChangeEvent.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemTaxChangeEvent.Name",
+      "QualifiedApiName": "FulfillmentOrderItemTaxNumber",
+      "EntityDefinitionId": "FulfillmentOrderItemTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemTaxChangeEvent.Rate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemTaxChangeEvent.Rate",
+      "QualifiedApiName": "Rate",
+      "EntityDefinitionId": "FulfillmentOrderItemTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Rate",
+      "MasterLabel": "率",
+      "Label": "率",
+      "DataType": "パーセント(3、2)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemTaxChangeEvent.TaxEffectiveDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemTaxChangeEvent.TaxEffectiveDate",
+      "QualifiedApiName": "TaxEffectiveDate",
+      "EntityDefinitionId": "FulfillmentOrderItemTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "TaxEffectiveDate",
+      "MasterLabel": "税発効日",
+      "Label": "税発効日",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemTaxChangeEvent.Type"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemTaxChangeEvent.Type",
+      "QualifiedApiName": "Type",
+      "EntityDefinitionId": "FulfillmentOrderItemTaxChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Type",
+      "MasterLabel": "種別",
+      "Label": "種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 5,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OutgoingEmailRelation.ExternalId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OutgoingEmailRelation.ExternalId",
+      "QualifiedApiName": "ExternalId",
+      "EntityDefinitionId": "OutgoingEmailRelation",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExternalId",
+      "MasterLabel": "外部 ID",
+      "Label": "外部 ID",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OutgoingEmailRelation.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OutgoingEmailRelation.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "OutgoingEmailRelation",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "送信メールリレーション ID",
+      "Label": "送信メールリレーション ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OutgoingEmailRelation.OutgoingEmail"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OutgoingEmailRelation.OutgoingEmail",
+      "QualifiedApiName": "OutgoingEmailId",
+      "EntityDefinitionId": "OutgoingEmailRelation",
+      "NamespacePrefix": null,
+      "DeveloperName": "OutgoingEmail",
+      "MasterLabel": "送信メール",
+      "Label": "送信メール",
+      "DataType": "外部参照(送信メール)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OutgoingEmailRelation.Relation"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OutgoingEmailRelation.Relation",
+      "QualifiedApiName": "RelationId",
+      "EntityDefinitionId": "OutgoingEmailRelation",
+      "NamespacePrefix": null,
+      "DeveloperName": "Relation",
+      "MasterLabel": "リレーション",
+      "Label": "リレーション",
+      "DataType": "参照関係(取引先責任者,リード,ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OutgoingEmailRelation.RelationAddress"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OutgoingEmailRelation.RelationAddress",
+      "QualifiedApiName": "RelationAddress",
+      "EntityDefinitionId": "OutgoingEmailRelation",
+      "NamespacePrefix": null,
+      "DeveloperName": "RelationAddress",
+      "MasterLabel": "リレーションアドレス",
+      "Label": "リレーションアドレス",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

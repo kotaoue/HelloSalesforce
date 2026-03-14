@@ -1,0 +1,406 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 19,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartCheckoutSession.BackgroundOperation"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartCheckoutSession.BackgroundOperation",
+      "QualifiedApiName": "BackgroundOperationId",
+      "EntityDefinitionId": "CartCheckoutSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "BackgroundOperation",
+      "MasterLabel": "バックグラウンド操作",
+      "Label": "バックグラウンド操作",
+      "DataType": "参照関係(バックグラウンド操作)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartCheckoutSession.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartCheckoutSession.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "CartCheckoutSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartCheckoutSession.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartCheckoutSession.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "CartCheckoutSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartCheckoutSession.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartCheckoutSession.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "CartCheckoutSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "カートチェックアウトセッション ID",
+      "Label": "カートチェックアウトセッション ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartCheckoutSession.IsArchived"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartCheckoutSession.IsArchived",
+      "QualifiedApiName": "IsArchived",
+      "EntityDefinitionId": "CartCheckoutSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsArchived",
+      "MasterLabel": "アーカイブ済み",
+      "Label": "アーカイブ済み",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartCheckoutSession.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartCheckoutSession.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "CartCheckoutSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartCheckoutSession.IsError"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartCheckoutSession.IsError",
+      "QualifiedApiName": "IsError",
+      "EntityDefinitionId": "CartCheckoutSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsError",
+      "MasterLabel": "エラー",
+      "Label": "エラー",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartCheckoutSession.IsProcessing"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartCheckoutSession.IsProcessing",
+      "QualifiedApiName": "IsProcessing",
+      "EntityDefinitionId": "CartCheckoutSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsProcessing",
+      "MasterLabel": "処理中",
+      "Label": "処理中",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartCheckoutSession.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartCheckoutSession.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "CartCheckoutSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartCheckoutSession.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartCheckoutSession.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "CartCheckoutSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartCheckoutSession.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartCheckoutSession.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "CartCheckoutSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartCheckoutSession.NextState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartCheckoutSession.NextState",
+      "QualifiedApiName": "NextState",
+      "EntityDefinitionId": "CartCheckoutSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "NextState",
+      "MasterLabel": "次の状態",
+      "Label": "次の状態",
+      "DataType": "テキスト(30)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartCheckoutSession.Order"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartCheckoutSession.Order",
+      "QualifiedApiName": "OrderId",
+      "EntityDefinitionId": "CartCheckoutSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "Order",
+      "MasterLabel": "注文",
+      "Label": "注文",
+      "DataType": "参照関係(注文)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartCheckoutSession.OrderReferenceNumber"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartCheckoutSession.OrderReferenceNumber",
+      "QualifiedApiName": "OrderReferenceNumber",
+      "EntityDefinitionId": "CartCheckoutSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "OrderReferenceNumber",
+      "MasterLabel": "注文参照番号",
+      "Label": "注文参照番号",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartCheckoutSession.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartCheckoutSession.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "CartCheckoutSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartCheckoutSession.State"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartCheckoutSession.State",
+      "QualifiedApiName": "State",
+      "EntityDefinitionId": "CartCheckoutSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "State",
+      "MasterLabel": "状態",
+      "Label": "状態",
+      "DataType": "テキスト(30)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartCheckoutSession.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartCheckoutSession.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "CartCheckoutSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartCheckoutSession.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartCheckoutSession.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "CartCheckoutSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CartCheckoutSession.WebCart"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartCheckoutSession.WebCart",
+      "QualifiedApiName": "WebCartId",
+      "EntityDefinitionId": "CartCheckoutSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "WebCart",
+      "MasterLabel": "カート",
+      "Label": "カート",
+      "DataType": "主従関係(カート)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

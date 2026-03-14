@@ -1,0 +1,385 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 18,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlAuthIdentityPrvdParm.Certificate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlAuthIdentityPrvdParm.Certificate",
+      "QualifiedApiName": "CertificateId",
+      "EntityDefinitionId": "ExtlAuthIdentityPrvdParm",
+      "NamespacePrefix": null,
+      "DeveloperName": "Certificate",
+      "MasterLabel": "証明書",
+      "Label": "証明書",
+      "DataType": "参照関係(証明書と鍵)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlAuthIdentityPrvdParm.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlAuthIdentityPrvdParm.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ExtlAuthIdentityPrvdParm",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlAuthIdentityPrvdParm.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlAuthIdentityPrvdParm.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ExtlAuthIdentityPrvdParm",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlAuthIdentityPrvdParm.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlAuthIdentityPrvdParm.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "ExtlAuthIdentityPrvdParm",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlAuthIdentityPrvdParm.ExtlAuthIdentityProvider"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlAuthIdentityPrvdParm.ExtlAuthIdentityProvider",
+      "QualifiedApiName": "ExtlAuthIdentityProviderId",
+      "EntityDefinitionId": "ExtlAuthIdentityPrvdParm",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExtlAuthIdentityProvider",
+      "MasterLabel": "外部認証 ID プロバイダー",
+      "Label": "外部認証 ID プロバイダー",
+      "DataType": "主従関係(外部認証 ID プロバイダー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlAuthIdentityPrvdParm.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlAuthIdentityPrvdParm.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ExtlAuthIdentityPrvdParm",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "外部認証 ID プロバイダーパラメーター ID",
+      "Label": "外部認証 ID プロバイダーパラメーター ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlAuthIdentityPrvdParm.IsActive"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlAuthIdentityPrvdParm.IsActive",
+      "QualifiedApiName": "IsActive",
+      "EntityDefinitionId": "ExtlAuthIdentityPrvdParm",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsActive",
+      "MasterLabel": "有効",
+      "Label": "有効",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlAuthIdentityPrvdParm.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlAuthIdentityPrvdParm.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ExtlAuthIdentityPrvdParm",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlAuthIdentityPrvdParm.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlAuthIdentityPrvdParm.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ExtlAuthIdentityPrvdParm",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlAuthIdentityPrvdParm.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlAuthIdentityPrvdParm.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ExtlAuthIdentityPrvdParm",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlAuthIdentityPrvdParm.Manageability"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlAuthIdentityPrvdParm.Manageability",
+      "QualifiedApiName": "Manageability",
+      "EntityDefinitionId": "ExtlAuthIdentityPrvdParm",
+      "NamespacePrefix": null,
+      "DeveloperName": "Manageability",
+      "MasterLabel": "管理可能性",
+      "Label": "管理可能性",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlAuthIdentityPrvdParm.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlAuthIdentityPrvdParm.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "ExtlAuthIdentityPrvdParm",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlAuthIdentityPrvdParm.OutboundNetworkConnection"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlAuthIdentityPrvdParm.OutboundNetworkConnection",
+      "QualifiedApiName": "OutboundNetworkConnectionId",
+      "EntityDefinitionId": "ExtlAuthIdentityPrvdParm",
+      "NamespacePrefix": null,
+      "DeveloperName": "OutboundNetworkConnection",
+      "MasterLabel": "アウトバウンドネットワーク接続",
+      "Label": "アウトバウンドネットワーク接続",
+      "DataType": "参照関係(発信ネットワーク接続)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlAuthIdentityPrvdParm.ParameterName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlAuthIdentityPrvdParm.ParameterName",
+      "QualifiedApiName": "ParameterName",
+      "EntityDefinitionId": "ExtlAuthIdentityPrvdParm",
+      "NamespacePrefix": null,
+      "DeveloperName": "ParameterName",
+      "MasterLabel": "パラメーター名",
+      "Label": "パラメーター名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlAuthIdentityPrvdParm.ParameterType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlAuthIdentityPrvdParm.ParameterType",
+      "QualifiedApiName": "ParameterType",
+      "EntityDefinitionId": "ExtlAuthIdentityPrvdParm",
+      "NamespacePrefix": null,
+      "DeveloperName": "ParameterType",
+      "MasterLabel": "パラメーター種別",
+      "Label": "パラメーター種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlAuthIdentityPrvdParm.ParameterValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlAuthIdentityPrvdParm.ParameterValue",
+      "QualifiedApiName": "ParameterValue",
+      "EntityDefinitionId": "ExtlAuthIdentityPrvdParm",
+      "NamespacePrefix": null,
+      "DeveloperName": "ParameterValue",
+      "MasterLabel": "パラメーター値",
+      "Label": "パラメーター値",
+      "DataType": "ロングテキストエリア(10000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlAuthIdentityPrvdParm.SequenceNumber"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlAuthIdentityPrvdParm.SequenceNumber",
+      "QualifiedApiName": "SequenceNumber",
+      "EntityDefinitionId": "ExtlAuthIdentityPrvdParm",
+      "NamespacePrefix": null,
+      "DeveloperName": "SequenceNumber",
+      "MasterLabel": "連番",
+      "Label": "連番",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExtlAuthIdentityPrvdParm.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExtlAuthIdentityPrvdParm.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ExtlAuthIdentityPrvdParm",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,490 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 23,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannel.AllowedFileTypes"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannel.AllowedFileTypes",
+      "QualifiedApiName": "AllowedFileTypes",
+      "EntityDefinitionId": "EmbeddedMessagingChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "AllowedFileTypes",
+      "MasterLabel": "許可されたファイルの種類",
+      "Label": "許可されたファイルの種類",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannel.AnonymousUserJwtExpiry"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannel.AnonymousUserJwtExpiry",
+      "QualifiedApiName": "AnonymousUserJwtExpiry",
+      "EntityDefinitionId": "EmbeddedMessagingChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "AnonymousUserJwtExpiry",
+      "MasterLabel": "匿名ユーザーの JWT の期限切れ",
+      "Label": "匿名ユーザーの JWT の期限切れ",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannel.AuthMode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannel.AuthMode",
+      "QualifiedApiName": "AuthMode",
+      "EntityDefinitionId": "EmbeddedMessagingChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "AuthMode",
+      "MasterLabel": "認証モード",
+      "Label": "認証モード",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannel.CaptchaKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannel.CaptchaKey",
+      "QualifiedApiName": "CaptchaKeyId",
+      "EntityDefinitionId": "EmbeddedMessagingChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "CaptchaKey",
+      "MasterLabel": "Captcha キー",
+      "Label": "Captcha キー",
+      "DataType": "参照関係(Captcha キー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannel.ConnectedApp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannel.ConnectedApp",
+      "QualifiedApiName": "ConnectedApp",
+      "EntityDefinitionId": "EmbeddedMessagingChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "ConnectedApp",
+      "MasterLabel": "接続アプリケーション名",
+      "Label": "接続アプリケーション名",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannel.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannel.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "EmbeddedMessagingChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannel.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannel.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "EmbeddedMessagingChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannel.DoesAllowInbdFiles"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannel.DoesAllowInbdFiles",
+      "QualifiedApiName": "DoesAllowInbdFiles",
+      "EntityDefinitionId": "EmbeddedMessagingChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "DoesAllowInbdFiles",
+      "MasterLabel": "受信ファイルを許可",
+      "Label": "受信ファイルを許可",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannel.DoesAllowInbdFilesDerived"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannel.DoesAllowInbdFilesDerived",
+      "QualifiedApiName": "DoesAllowInbdFilesDerived",
+      "EntityDefinitionId": "EmbeddedMessagingChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "DoesAllowInbdFilesDerived",
+      "MasterLabel": "[受信ファイルを許可] の派生項目",
+      "Label": "[受信ファイルを許可] の派生項目",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannel.DoesAllowTranscriptSave"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannel.DoesAllowTranscriptSave",
+      "QualifiedApiName": "DoesAllowTranscriptSave",
+      "EntityDefinitionId": "EmbeddedMessagingChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "DoesAllowTranscriptSave",
+      "MasterLabel": "トランスクリプトの保存を許可",
+      "Label": "トランスクリプトの保存を許可",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannel.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannel.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "EmbeddedMessagingChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "組み込みメッセージングチャネル ID",
+      "Label": "組み込みメッセージングチャネル ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannel.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannel.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "EmbeddedMessagingChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannel.IsEstimatedWaitTimeEnabled"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannel.IsEstimatedWaitTimeEnabled",
+      "QualifiedApiName": "IsEstimatedWaitTimeEnabled",
+      "EntityDefinitionId": "EmbeddedMessagingChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsEstimatedWaitTimeEnabled",
+      "MasterLabel": "予想待機時間が有効",
+      "Label": "予想待機時間が有効",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannel.IsFallbackMessageEnabled"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannel.IsFallbackMessageEnabled",
+      "QualifiedApiName": "IsFallbackMessageEnabled",
+      "EntityDefinitionId": "EmbeddedMessagingChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsFallbackMessageEnabled",
+      "MasterLabel": "フォールバックメッセージが有効",
+      "Label": "フォールバックメッセージが有効",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannel.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannel.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "EmbeddedMessagingChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannel.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannel.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "EmbeddedMessagingChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannel.MaxFileSize"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannel.MaxFileSize",
+      "QualifiedApiName": "MaxFileSize",
+      "EntityDefinitionId": "EmbeddedMessagingChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "MaxFileSize",
+      "MasterLabel": "最大ファイルサイズ",
+      "Label": "最大ファイルサイズ",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannel.MessagingChannel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannel.MessagingChannel",
+      "QualifiedApiName": "MessagingChannelId",
+      "EntityDefinitionId": "EmbeddedMessagingChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "MessagingChannel",
+      "MasterLabel": "メッセージングチャネル",
+      "Label": "メッセージングチャネル",
+      "DataType": "主従関係(メッセージングチャネル)  (ユニーク)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannel.PresenceTimeout"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannel.PresenceTimeout",
+      "QualifiedApiName": "PresenceTimeout",
+      "EntityDefinitionId": "EmbeddedMessagingChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "PresenceTimeout",
+      "MasterLabel": "プレゼンスタイムアウト",
+      "Label": "プレゼンスタイムアウト",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannel.QueueLimitType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannel.QueueLimitType",
+      "QualifiedApiName": "QueueLimitType",
+      "EntityDefinitionId": "EmbeddedMessagingChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "QueueLimitType",
+      "MasterLabel": "キュー制限種別",
+      "Label": "キュー制限種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannel.QueueThreshold"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannel.QueueThreshold",
+      "QualifiedApiName": "QueueThreshold",
+      "EntityDefinitionId": "EmbeddedMessagingChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "QueueThreshold",
+      "MasterLabel": "キューしきい値",
+      "Label": "キューしきい値",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannel.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannel.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "EmbeddedMessagingChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannel.VerifiedUserJwtExpiry"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannel.VerifiedUserJwtExpiry",
+      "QualifiedApiName": "VerifiedUserJwtExpiry",
+      "EntityDefinitionId": "EmbeddedMessagingChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "VerifiedUserJwtExpiry",
+      "MasterLabel": "検証済みユーザーの JWT の期限切れ",
+      "Label": "検証済みユーザーの JWT の期限切れ",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

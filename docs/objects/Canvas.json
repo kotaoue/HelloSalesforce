@@ -1,0 +1,385 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 18,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Canvas.AccessMethod"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Canvas.AccessMethod",
+      "QualifiedApiName": "AccessMethod",
+      "EntityDefinitionId": "Canvas",
+      "NamespacePrefix": null,
+      "DeveloperName": "AccessMethod",
+      "MasterLabel": "アクセス方法",
+      "Label": "アクセス方法",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Canvas.CanvasOptions"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Canvas.CanvasOptions",
+      "QualifiedApiName": "CanvasOptions",
+      "EntityDefinitionId": "Canvas",
+      "NamespacePrefix": null,
+      "DeveloperName": "CanvasOptions",
+      "MasterLabel": "キャンバスオプション",
+      "Label": "キャンバスオプション",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Canvas.CanvasUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Canvas.CanvasUrl",
+      "QualifiedApiName": "CanvasUrl",
+      "EntityDefinitionId": "Canvas",
+      "NamespacePrefix": null,
+      "DeveloperName": "CanvasUrl",
+      "MasterLabel": "キャンバスアプリケーションの URL",
+      "Label": "キャンバスアプリケーションの URL",
+      "DataType": "URL(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Canvas.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Canvas.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "Canvas",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Canvas.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Canvas.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "Canvas",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Canvas.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Canvas.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "Canvas",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Canvas.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Canvas.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "Canvas",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "キャンバス ID",
+      "Label": "キャンバス ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Canvas.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Canvas.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "Canvas",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Canvas.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Canvas.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "Canvas",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Canvas.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Canvas.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "Canvas",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Canvas.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Canvas.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "Canvas",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Canvas.LifecycleHandler"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Canvas.LifecycleHandler",
+      "QualifiedApiName": "LifecycleHandlerId",
+      "EntityDefinitionId": "Canvas",
+      "NamespacePrefix": null,
+      "DeveloperName": "LifecycleHandler",
+      "MasterLabel": "Apex クラス",
+      "Label": "Apex クラス",
+      "DataType": "参照関係(Apex クラス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Canvas.LocationOptions"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Canvas.LocationOptions",
+      "QualifiedApiName": "LocationOptions",
+      "EntityDefinitionId": "Canvas",
+      "NamespacePrefix": null,
+      "DeveloperName": "LocationOptions",
+      "MasterLabel": "選択可能な場所",
+      "Label": "選択可能な場所",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Canvas.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Canvas.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "Canvas",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Canvas.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Canvas.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "Canvas",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "マスター表示ラベル",
+      "Label": "マスター表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Canvas.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Canvas.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "Canvas",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Canvas.SamlInitiationMethod"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Canvas.SamlInitiationMethod",
+      "QualifiedApiName": "SamlInitiationMethod",
+      "EntityDefinitionId": "Canvas",
+      "NamespacePrefix": null,
+      "DeveloperName": "SamlInitiationMethod",
+      "MasterLabel": "SAML の開始方法",
+      "Label": "SAML の開始方法",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/Canvas.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "Canvas.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "Canvas",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

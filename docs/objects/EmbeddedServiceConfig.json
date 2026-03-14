@@ -1,0 +1,532 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 25,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceConfig.AreGuestUsersAllowed"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceConfig.AreGuestUsersAllowed",
+      "QualifiedApiName": "AreGuestUsersAllowed",
+      "EntityDefinitionId": "EmbeddedServiceConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "AreGuestUsersAllowed",
+      "MasterLabel": "ゲストユーザーを許可",
+      "Label": "ゲストユーザーを許可",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceConfig.AuthMethod"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceConfig.AuthMethod",
+      "QualifiedApiName": "AuthMethod",
+      "EntityDefinitionId": "EmbeddedServiceConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "AuthMethod",
+      "MasterLabel": "認証メソッド",
+      "Label": "認証メソッド",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceConfig.Branding"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceConfig.Branding",
+      "QualifiedApiName": "BrandingId",
+      "EntityDefinitionId": "EmbeddedServiceConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "Branding",
+      "MasterLabel": "ブランド",
+      "Label": "ブランド",
+      "DataType": "参照関係(ブランドセット)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceConfig.ClientVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceConfig.ClientVersion",
+      "QualifiedApiName": "ClientVersion",
+      "EntityDefinitionId": "EmbeddedServiceConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "ClientVersion",
+      "MasterLabel": "クライアントのバージョン",
+      "Label": "クライアントのバージョン",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceConfig.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceConfig.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "EmbeddedServiceConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceConfig.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceConfig.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "EmbeddedServiceConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceConfig.DeploymentFeature"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceConfig.DeploymentFeature",
+      "QualifiedApiName": "DeploymentFeature",
+      "EntityDefinitionId": "EmbeddedServiceConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeploymentFeature",
+      "MasterLabel": "リリース機能",
+      "Label": "リリース機能",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceConfig.DeploymentType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceConfig.DeploymentType",
+      "QualifiedApiName": "DeploymentType",
+      "EntityDefinitionId": "EmbeddedServiceConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeploymentType",
+      "MasterLabel": "リリース種別",
+      "Label": "リリース種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceConfig.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceConfig.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "EmbeddedServiceConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "API 参照名",
+      "Label": "API 参照名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceConfig.FullName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceConfig.FullName",
+      "QualifiedApiName": "FullName",
+      "EntityDefinitionId": "EmbeddedServiceConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "FullName",
+      "MasterLabel": "氏名",
+      "Label": "氏名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceConfig.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceConfig.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "EmbeddedServiceConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "組み込みサービスリリース ID",
+      "Label": "組み込みサービスリリース ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceConfig.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceConfig.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "EmbeddedServiceConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceConfig.IsEnabled"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceConfig.IsEnabled",
+      "QualifiedApiName": "IsEnabled",
+      "EntityDefinitionId": "EmbeddedServiceConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsEnabled",
+      "MasterLabel": "IsEnabled",
+      "Label": "IsEnabled",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceConfig.IsTermsAndConditionsEnabled"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceConfig.IsTermsAndConditionsEnabled",
+      "QualifiedApiName": "IsTermsAndConditionsEnabled",
+      "EntityDefinitionId": "EmbeddedServiceConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsTermsAndConditionsEnabled",
+      "MasterLabel": "使用条件有効",
+      "Label": "使用条件有効",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceConfig.IsTermsAndConditionsRequired"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceConfig.IsTermsAndConditionsRequired",
+      "QualifiedApiName": "IsTermsAndConditionsRequired",
+      "EntityDefinitionId": "EmbeddedServiceConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsTermsAndConditionsRequired",
+      "MasterLabel": "使用条件必須",
+      "Label": "使用条件必須",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceConfig.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceConfig.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "EmbeddedServiceConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceConfig.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceConfig.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "EmbeddedServiceConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceConfig.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceConfig.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "EmbeddedServiceConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceConfig.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceConfig.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "EmbeddedServiceConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceConfig.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceConfig.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "EmbeddedServiceConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "マスター表示ラベル",
+      "Label": "マスター表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceConfig.Metadata"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceConfig.Metadata",
+      "QualifiedApiName": "Metadata",
+      "EntityDefinitionId": "EmbeddedServiceConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "Metadata",
+      "MasterLabel": "メタデータ",
+      "Label": "メタデータ",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceConfig.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceConfig.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "EmbeddedServiceConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceConfig.ShouldHideAuthDialog"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceConfig.ShouldHideAuthDialog",
+      "QualifiedApiName": "ShouldHideAuthDialog",
+      "EntityDefinitionId": "EmbeddedServiceConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShouldHideAuthDialog",
+      "MasterLabel": "認証ダイアログを非表示",
+      "Label": "認証ダイアログを非表示",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceConfig.Site"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceConfig.Site",
+      "QualifiedApiName": "SiteId",
+      "EntityDefinitionId": "EmbeddedServiceConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "Site",
+      "MasterLabel": "サイト",
+      "Label": "サイト",
+      "DataType": "参照関係(サイト)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedServiceConfig.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedServiceConfig.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "EmbeddedServiceConfig",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

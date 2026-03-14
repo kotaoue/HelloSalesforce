@@ -1,0 +1,322 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 15,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MobilePushServiceDevice.Application"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MobilePushServiceDevice.Application",
+      "QualifiedApiName": "ApplicationId",
+      "EntityDefinitionId": "MobilePushServiceDevice",
+      "NamespacePrefix": null,
+      "DeveloperName": "Application",
+      "MasterLabel": "アプリケーション",
+      "Label": "アプリケーション",
+      "DataType": "参照関係(アプリケーション,External Client Applications)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MobilePushServiceDevice.ApplicationBundle"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MobilePushServiceDevice.ApplicationBundle",
+      "QualifiedApiName": "ApplicationBundle",
+      "EntityDefinitionId": "MobilePushServiceDevice",
+      "NamespacePrefix": null,
+      "DeveloperName": "ApplicationBundle",
+      "MasterLabel": "バンドル ID",
+      "Label": "バンドル ID",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MobilePushServiceDevice.CipherName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MobilePushServiceDevice.CipherName",
+      "QualifiedApiName": "CipherName",
+      "EntityDefinitionId": "MobilePushServiceDevice",
+      "NamespacePrefix": null,
+      "DeveloperName": "CipherName",
+      "MasterLabel": "RSA 暗号化名",
+      "Label": "RSA 暗号化名",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MobilePushServiceDevice.ConnectionToken"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MobilePushServiceDevice.ConnectionToken",
+      "QualifiedApiName": "ConnectionToken",
+      "EntityDefinitionId": "MobilePushServiceDevice",
+      "NamespacePrefix": null,
+      "DeveloperName": "ConnectionToken",
+      "MasterLabel": "接続トークン",
+      "Label": "接続トークン",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MobilePushServiceDevice.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MobilePushServiceDevice.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "MobilePushServiceDevice",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MobilePushServiceDevice.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MobilePushServiceDevice.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "MobilePushServiceDevice",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MobilePushServiceDevice.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MobilePushServiceDevice.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "MobilePushServiceDevice",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "デバイス ID",
+      "Label": "デバイス ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MobilePushServiceDevice.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MobilePushServiceDevice.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "MobilePushServiceDevice",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MobilePushServiceDevice.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MobilePushServiceDevice.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "MobilePushServiceDevice",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MobilePushServiceDevice.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MobilePushServiceDevice.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "MobilePushServiceDevice",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MobilePushServiceDevice.LastSubscribed"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MobilePushServiceDevice.LastSubscribed",
+      "QualifiedApiName": "LastSubscribed",
+      "EntityDefinitionId": "MobilePushServiceDevice",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastSubscribed",
+      "MasterLabel": "最終登録日",
+      "Label": "最終登録日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MobilePushServiceDevice.RsaPublicKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MobilePushServiceDevice.RsaPublicKey",
+      "QualifiedApiName": "RsaPublicKey",
+      "EntityDefinitionId": "MobilePushServiceDevice",
+      "NamespacePrefix": null,
+      "DeveloperName": "RsaPublicKey",
+      "MasterLabel": "RSA 公開鍵",
+      "Label": "RSA 公開鍵",
+      "DataType": "テキスト(1000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MobilePushServiceDevice.ServiceType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MobilePushServiceDevice.ServiceType",
+      "QualifiedApiName": "ServiceType",
+      "EntityDefinitionId": "MobilePushServiceDevice",
+      "NamespacePrefix": null,
+      "DeveloperName": "ServiceType",
+      "MasterLabel": "サービス種別",
+      "Label": "サービス種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MobilePushServiceDevice.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MobilePushServiceDevice.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "MobilePushServiceDevice",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MobilePushServiceDevice.User"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MobilePushServiceDevice.User",
+      "QualifiedApiName": "UserId",
+      "EntityDefinitionId": "MobilePushServiceDevice",
+      "NamespacePrefix": null,
+      "DeveloperName": "User",
+      "MasterLabel": "ユーザー",
+      "Label": "ユーザー",
+      "DataType": "主従関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSrcFileRef.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSrcFileRef.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DataKnowledgeSrcFileRef",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSrcFileRef.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSrcFileRef.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DataKnowledgeSrcFileRef",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSrcFileRef.DataKnowledgeLibrary"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSrcFileRef.DataKnowledgeLibrary",
+      "QualifiedApiName": "DataKnowledgeLibraryId",
+      "EntityDefinitionId": "DataKnowledgeSrcFileRef",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataKnowledgeLibrary",
+      "MasterLabel": "データナレッジライブラリ",
+      "Label": "データナレッジライブラリ",
+      "DataType": "参照関係(データナレッジライブラリ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSrcFileRef.DataKnowledgeSource"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSrcFileRef.DataKnowledgeSource",
+      "QualifiedApiName": "DataKnowledgeSourceId",
+      "EntityDefinitionId": "DataKnowledgeSrcFileRef",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataKnowledgeSource",
+      "MasterLabel": "データナレッジソース",
+      "Label": "データナレッジソース",
+      "DataType": "参照関係(データナレッジソース)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSrcFileRef.FileName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSrcFileRef.FileName",
+      "QualifiedApiName": "FileName",
+      "EntityDefinitionId": "DataKnowledgeSrcFileRef",
+      "NamespacePrefix": null,
+      "DeveloperName": "FileName",
+      "MasterLabel": "ファイル名",
+      "Label": "ファイル名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSrcFileRef.FilePath"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSrcFileRef.FilePath",
+      "QualifiedApiName": "FilePath",
+      "EntityDefinitionId": "DataKnowledgeSrcFileRef",
+      "NamespacePrefix": null,
+      "DeveloperName": "FilePath",
+      "MasterLabel": "ファイルパス",
+      "Label": "ファイルパス",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSrcFileRef.FileType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSrcFileRef.FileType",
+      "QualifiedApiName": "FileType",
+      "EntityDefinitionId": "DataKnowledgeSrcFileRef",
+      "NamespacePrefix": null,
+      "DeveloperName": "FileType",
+      "MasterLabel": "ファイルの種類",
+      "Label": "ファイルの種類",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSrcFileRef.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSrcFileRef.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DataKnowledgeSrcFileRef",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "データナレッジソースファイル参照 ID",
+      "Label": "データナレッジソースファイル参照 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSrcFileRef.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSrcFileRef.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DataKnowledgeSrcFileRef",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSrcFileRef.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSrcFileRef.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DataKnowledgeSrcFileRef",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSrcFileRef.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSrcFileRef.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DataKnowledgeSrcFileRef",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSrcFileRef.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSrcFileRef.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "DataKnowledgeSrcFileRef",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "ナレッジソースファイル参照名",
+      "Label": "ナレッジソースファイル参照名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSrcFileRef.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSrcFileRef.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "DataKnowledgeSrcFileRef",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者 氏名",
+      "Label": "所有者 氏名",
+      "DataType": "参照関係(ユーザー,グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSrcFileRef.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSrcFileRef.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "DataKnowledgeSrcFileRef",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSrcFileRef.SourceFileStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSrcFileRef.SourceFileStatus",
+      "QualifiedApiName": "SourceFileStatus",
+      "EntityDefinitionId": "DataKnowledgeSrcFileRef",
+      "NamespacePrefix": null,
+      "DeveloperName": "SourceFileStatus",
+      "MasterLabel": "ソースファイルの状況",
+      "Label": "ソースファイルの状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSrcFileRef.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSrcFileRef.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DataKnowledgeSrcFileRef",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSrcFileRef.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSrcFileRef.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "DataKnowledgeSrcFileRef",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

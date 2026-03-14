@@ -1,0 +1,301 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 14,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdeaComment.CommentBody"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdeaComment.CommentBody",
+      "QualifiedApiName": "CommentBody",
+      "EntityDefinitionId": "IdeaComment",
+      "NamespacePrefix": null,
+      "DeveloperName": "CommentBody",
+      "MasterLabel": "コメント内容",
+      "Label": "コメント内容",
+      "DataType": "リッチテキストエリア(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdeaComment.Community"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdeaComment.Community",
+      "QualifiedApiName": "CommunityId",
+      "EntityDefinitionId": "IdeaComment",
+      "NamespacePrefix": null,
+      "DeveloperName": "Community",
+      "MasterLabel": "ゾーン",
+      "Label": "ゾーン",
+      "DataType": "参照関係(ゾーン)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdeaComment.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdeaComment.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "IdeaComment",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdeaComment.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdeaComment.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "IdeaComment",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdeaComment.CreatorFullPhotoUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdeaComment.CreatorFullPhotoUrl",
+      "QualifiedApiName": "CreatorFullPhotoUrl",
+      "EntityDefinitionId": "IdeaComment",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatorFullPhotoUrl",
+      "MasterLabel": "作成者のプロファイル写真の URL",
+      "Label": "作成者のプロファイル写真の URL",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdeaComment.CreatorName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdeaComment.CreatorName",
+      "QualifiedApiName": "CreatorName",
+      "EntityDefinitionId": "IdeaComment",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatorName",
+      "MasterLabel": "作成者の名前",
+      "Label": "作成者の名前",
+      "DataType": "テキスト(121)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdeaComment.CreatorSmallPhotoUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdeaComment.CreatorSmallPhotoUrl",
+      "QualifiedApiName": "CreatorSmallPhotoUrl",
+      "EntityDefinitionId": "IdeaComment",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatorSmallPhotoUrl",
+      "MasterLabel": "作成者の写真のサムネイルの URL",
+      "Label": "作成者の写真のサムネイルの URL",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdeaComment.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdeaComment.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "IdeaComment",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "アイデアのコメント ID",
+      "Label": "アイデアのコメント ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdeaComment.Idea"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdeaComment.Idea",
+      "QualifiedApiName": "IdeaId",
+      "EntityDefinitionId": "IdeaComment",
+      "NamespacePrefix": null,
+      "DeveloperName": "Idea",
+      "MasterLabel": "アイデア",
+      "Label": "アイデア",
+      "DataType": "参照関係(アイデア)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdeaComment.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdeaComment.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "IdeaComment",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdeaComment.IsHtml"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdeaComment.IsHtml",
+      "QualifiedApiName": "IsHtml",
+      "EntityDefinitionId": "IdeaComment",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsHtml",
+      "MasterLabel": "HTML",
+      "Label": "HTML",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdeaComment.ParentDescription"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdeaComment.ParentDescription",
+      "QualifiedApiName": "ParentDescription",
+      "EntityDefinitionId": "IdeaComment",
+      "NamespacePrefix": null,
+      "DeveloperName": "ParentDescription",
+      "MasterLabel": "アイデア本文",
+      "Label": "アイデア本文",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdeaComment.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdeaComment.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "IdeaComment",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdeaComment.UpVotes"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdeaComment.UpVotes",
+      "QualifiedApiName": "UpVotes",
+      "EntityDefinitionId": "IdeaComment",
+      "NamespacePrefix": null,
+      "DeveloperName": "UpVotes",
+      "MasterLabel": "プラス投票",
+      "Label": "プラス投票",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

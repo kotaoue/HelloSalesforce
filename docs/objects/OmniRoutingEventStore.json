@@ -1,0 +1,301 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 14,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OmniRoutingEventStore.AdditionalDetail"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OmniRoutingEventStore.AdditionalDetail",
+      "QualifiedApiName": "AdditionalDetail",
+      "EntityDefinitionId": "OmniRoutingEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "AdditionalDetail",
+      "MasterLabel": "その他の詳細",
+      "Label": "その他の詳細",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OmniRoutingEventStore.AgentWork"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OmniRoutingEventStore.AgentWork",
+      "QualifiedApiName": "AgentWorkId",
+      "EntityDefinitionId": "OmniRoutingEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "AgentWork",
+      "MasterLabel": "エージェントの作業",
+      "Label": "エージェントの作業",
+      "DataType": "参照関係(エージェントの作業)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OmniRoutingEventStore.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OmniRoutingEventStore.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "OmniRoutingEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OmniRoutingEventStore.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OmniRoutingEventStore.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "OmniRoutingEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OmniRoutingEventStore.EventTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OmniRoutingEventStore.EventTime",
+      "QualifiedApiName": "EventTime",
+      "EntityDefinitionId": "OmniRoutingEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventTime",
+      "MasterLabel": "行動時間",
+      "Label": "行動時間",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OmniRoutingEventStore.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OmniRoutingEventStore.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "OmniRoutingEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Omni ルーティングイベントストア ID",
+      "Label": "Omni ルーティングイベントストア ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OmniRoutingEventStore.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OmniRoutingEventStore.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "OmniRoutingEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OmniRoutingEventStore.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OmniRoutingEventStore.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "OmniRoutingEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OmniRoutingEventStore.PendingServiceRouting"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OmniRoutingEventStore.PendingServiceRouting",
+      "QualifiedApiName": "PendingServiceRoutingId",
+      "EntityDefinitionId": "OmniRoutingEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "PendingServiceRouting",
+      "MasterLabel": "待機中のサービスルーティング",
+      "Label": "待機中のサービスルーティング",
+      "DataType": "参照関係(待機中のサービスルーティング)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OmniRoutingEventStore.Queue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OmniRoutingEventStore.Queue",
+      "QualifiedApiName": "QueueId",
+      "EntityDefinitionId": "OmniRoutingEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "Queue",
+      "MasterLabel": "キュー",
+      "Label": "キュー",
+      "DataType": "参照関係(グループ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OmniRoutingEventStore.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OmniRoutingEventStore.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "OmniRoutingEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OmniRoutingEventStore.Type"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OmniRoutingEventStore.Type",
+      "QualifiedApiName": "Type",
+      "EntityDefinitionId": "OmniRoutingEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "Type",
+      "MasterLabel": "種類",
+      "Label": "種類",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OmniRoutingEventStore.User"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OmniRoutingEventStore.User",
+      "QualifiedApiName": "UserId",
+      "EntityDefinitionId": "OmniRoutingEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "User",
+      "MasterLabel": "ユーザー",
+      "Label": "ユーザー",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/OmniRoutingEventStore.WorkItemId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "OmniRoutingEventStore.WorkItemId",
+      "QualifiedApiName": "WorkItemId",
+      "EntityDefinitionId": "OmniRoutingEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "WorkItemId",
+      "MasterLabel": "作業項目 ID",
+      "Label": "作業項目 ID",
+      "DataType": "テキスト(18)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,469 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 22,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginDefinition.CanEscalate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPluginDefinition.CanEscalate",
+      "QualifiedApiName": "CanEscalate",
+      "EntityDefinitionId": "GenAiPluginDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "CanEscalate",
+      "MasterLabel": "エスカレーション可能",
+      "Label": "エスカレーション可能",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginDefinition.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPluginDefinition.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "GenAiPluginDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginDefinition.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPluginDefinition.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "GenAiPluginDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginDefinition.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPluginDefinition.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "GenAiPluginDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "ロングテキストエリア(2000)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginDefinition.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPluginDefinition.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "GenAiPluginDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "生成 AI プラグイン定義名",
+      "Label": "生成 AI プラグイン定義名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginDefinition.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPluginDefinition.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "GenAiPluginDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "生成 AI プラグイン定義 ID",
+      "Label": "生成 AI プラグイン定義 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginDefinition.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPluginDefinition.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "GenAiPluginDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginDefinition.IsLocal"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPluginDefinition.IsLocal",
+      "QualifiedApiName": "IsLocal",
+      "EntityDefinitionId": "GenAiPluginDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsLocal",
+      "MasterLabel": "ローカル",
+      "Label": "ローカル",
+      "DataType": "数式 (チェックボックス)",
+      "IsCalculated": true,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginDefinition.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPluginDefinition.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "GenAiPluginDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginDefinition.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPluginDefinition.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "GenAiPluginDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginDefinition.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPluginDefinition.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "GenAiPluginDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginDefinition.LocalDeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPluginDefinition.LocalDeveloperName",
+      "QualifiedApiName": "LocalDeveloperName",
+      "EntityDefinitionId": "GenAiPluginDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "LocalDeveloperName",
+      "MasterLabel": "LocalDeveloperName",
+      "Label": "LocalDeveloperName",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginDefinition.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPluginDefinition.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "GenAiPluginDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginDefinition.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPluginDefinition.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "GenAiPluginDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "生成 AI プラグイン定義のマスター表示ラベル",
+      "Label": "生成 AI プラグイン定義のマスター表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginDefinition.Metadata"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPluginDefinition.Metadata",
+      "QualifiedApiName": "Metadata",
+      "EntityDefinitionId": "GenAiPluginDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Metadata",
+      "MasterLabel": "メタデータ",
+      "Label": "メタデータ",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginDefinition.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPluginDefinition.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "GenAiPluginDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginDefinition.Parent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPluginDefinition.Parent",
+      "QualifiedApiName": "ParentId",
+      "EntityDefinitionId": "GenAiPluginDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Parent",
+      "MasterLabel": "親",
+      "Label": "親",
+      "DataType": "参照関係(生成 AI プランナー関数定義,生成 AI プランナー定義)  (ユニーク)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginDefinition.Planner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPluginDefinition.Planner",
+      "QualifiedApiName": "PlannerId",
+      "EntityDefinitionId": "GenAiPluginDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Planner",
+      "MasterLabel": "プランナー",
+      "Label": "プランナー",
+      "DataType": "参照関係(生成 AI プランナー定義)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginDefinition.PluginType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPluginDefinition.PluginType",
+      "QualifiedApiName": "PluginType",
+      "EntityDefinitionId": "GenAiPluginDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "PluginType",
+      "MasterLabel": "プラグイン種別",
+      "Label": "プラグイン種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginDefinition.Scope"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPluginDefinition.Scope",
+      "QualifiedApiName": "Scope",
+      "EntityDefinitionId": "GenAiPluginDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Scope",
+      "MasterLabel": "範囲",
+      "Label": "範囲",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginDefinition.Source"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPluginDefinition.Source",
+      "QualifiedApiName": "Source",
+      "EntityDefinitionId": "GenAiPluginDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Source",
+      "MasterLabel": "ソース",
+      "Label": "ソース",
+      "DataType": "選択リスト(生成 AI プラグイン定義)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginDefinition.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "GenAiPluginDefinition.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "GenAiPluginDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

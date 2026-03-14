@@ -1,0 +1,406 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 19,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemAdjustment.Amount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemAdjustment.Amount",
+      "QualifiedApiName": "Amount",
+      "EntityDefinitionId": "FulfillmentOrderItemAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "Amount",
+      "MasterLabel": "調整",
+      "Label": "調整",
+      "DataType": "通貨(16、2)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemAdjustment.CampaignName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemAdjustment.CampaignName",
+      "QualifiedApiName": "CampaignName",
+      "EntityDefinitionId": "FulfillmentOrderItemAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "CampaignName",
+      "MasterLabel": "キャンペーン名",
+      "Label": "キャンペーン名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemAdjustment.CouponName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemAdjustment.CouponName",
+      "QualifiedApiName": "CouponName",
+      "EntityDefinitionId": "FulfillmentOrderItemAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "CouponName",
+      "MasterLabel": "クーポン名",
+      "Label": "クーポン名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemAdjustment.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemAdjustment.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "FulfillmentOrderItemAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemAdjustment.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemAdjustment.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "FulfillmentOrderItemAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemAdjustment.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemAdjustment.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "FulfillmentOrderItemAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "ロングテキストエリア(2000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemAdjustment.FulfillmentOrder"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemAdjustment.FulfillmentOrder",
+      "QualifiedApiName": "FulfillmentOrderId",
+      "EntityDefinitionId": "FulfillmentOrderItemAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "FulfillmentOrder",
+      "MasterLabel": "履行注文",
+      "Label": "履行注文",
+      "DataType": "参照関係(履行注文)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemAdjustment.FulfillmentOrderLineItem"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemAdjustment.FulfillmentOrderLineItem",
+      "QualifiedApiName": "FulfillmentOrderLineItemId",
+      "EntityDefinitionId": "FulfillmentOrderItemAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "FulfillmentOrderLineItem",
+      "MasterLabel": "履行注文商品",
+      "Label": "履行注文商品",
+      "DataType": "主従関係(履行注文商品)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemAdjustment.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemAdjustment.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "FulfillmentOrderItemAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "履行注文品目調整 ID",
+      "Label": "履行注文品目調整 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemAdjustment.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemAdjustment.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "FulfillmentOrderItemAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemAdjustment.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemAdjustment.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "FulfillmentOrderItemAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemAdjustment.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemAdjustment.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "FulfillmentOrderItemAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemAdjustment.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemAdjustment.Name",
+      "QualifiedApiName": "FulfillmentOrderItemAdjustmentNumber",
+      "EntityDefinitionId": "FulfillmentOrderItemAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemAdjustment.PromotionName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemAdjustment.PromotionName",
+      "QualifiedApiName": "PromotionName",
+      "EntityDefinitionId": "FulfillmentOrderItemAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "PromotionName",
+      "MasterLabel": "プロモーション名",
+      "Label": "プロモーション名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemAdjustment.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemAdjustment.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "FulfillmentOrderItemAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemAdjustment.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemAdjustment.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "FulfillmentOrderItemAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemAdjustment.TotalAmtWithTax"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemAdjustment.TotalAmtWithTax",
+      "QualifiedApiName": "TotalAmtWithTax",
+      "EntityDefinitionId": "FulfillmentOrderItemAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "TotalAmtWithTax",
+      "MasterLabel": "調整額 (税込)",
+      "Label": "調整額 (税込)",
+      "DataType": "通貨(16、2)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemAdjustment.TotalTaxAmount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemAdjustment.TotalTaxAmount",
+      "QualifiedApiName": "TotalTaxAmount",
+      "EntityDefinitionId": "FulfillmentOrderItemAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "TotalTaxAmount",
+      "MasterLabel": "税金",
+      "Label": "税金",
+      "DataType": "通貨(16、2)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FulfillmentOrderItemAdjustment.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderItemAdjustment.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "FulfillmentOrderItemAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

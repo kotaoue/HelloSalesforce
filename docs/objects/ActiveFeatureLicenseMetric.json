@@ -1,0 +1,154 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 7,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActiveFeatureLicenseMetric.ActiveUserCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActiveFeatureLicenseMetric.ActiveUserCount",
+      "QualifiedApiName": "ActiveUserCount",
+      "EntityDefinitionId": "ActiveFeatureLicenseMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActiveUserCount",
+      "MasterLabel": "有効ユーザー数",
+      "Label": "有効ユーザー数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActiveFeatureLicenseMetric.AssignedUserCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActiveFeatureLicenseMetric.AssignedUserCount",
+      "QualifiedApiName": "AssignedUserCount",
+      "EntityDefinitionId": "ActiveFeatureLicenseMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "AssignedUserCount",
+      "MasterLabel": "割り当てユーザー数",
+      "Label": "割り当てユーザー数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActiveFeatureLicenseMetric.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActiveFeatureLicenseMetric.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ActiveFeatureLicenseMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "有効な機能ライセンスメトリクス ID",
+      "Label": "有効な機能ライセンスメトリクス ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActiveFeatureLicenseMetric.MetricsDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActiveFeatureLicenseMetric.MetricsDate",
+      "QualifiedApiName": "MetricsDate",
+      "EntityDefinitionId": "ActiveFeatureLicenseMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "MetricsDate",
+      "MasterLabel": "メトリクスの日付",
+      "Label": "メトリクスの日付",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActiveFeatureLicenseMetric.ParentEnumOrId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActiveFeatureLicenseMetric.ParentEnumOrId",
+      "QualifiedApiName": "FeatureType",
+      "EntityDefinitionId": "ActiveFeatureLicenseMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "ParentEnumOrId",
+      "MasterLabel": "Primary Grain",
+      "Label": "Primary Grain",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActiveFeatureLicenseMetric.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActiveFeatureLicenseMetric.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ActiveFeatureLicenseMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActiveFeatureLicenseMetric.TotalLicenseCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActiveFeatureLicenseMetric.TotalLicenseCount",
+      "QualifiedApiName": "TotalLicenseCount",
+      "EntityDefinitionId": "ActiveFeatureLicenseMetric",
+      "NamespacePrefix": null,
+      "DeveloperName": "TotalLicenseCount",
+      "MasterLabel": "合計ライセンス件数",
+      "Label": "合計ライセンス件数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

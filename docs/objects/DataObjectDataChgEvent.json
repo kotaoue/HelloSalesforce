@@ -1,0 +1,406 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 19,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectDataChgEvent.ActionDeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataObjectDataChgEvent.ActionDeveloperName",
+      "QualifiedApiName": "ActionDeveloperName",
+      "EntityDefinitionId": "DataObjectDataChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActionDeveloperName",
+      "MasterLabel": "アクション識別子",
+      "Label": "アクション識別子",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectDataChgEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataObjectDataChgEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DataObjectDataChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectDataChgEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataObjectDataChgEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DataObjectDataChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectDataChgEvent.EventCreationDateTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataObjectDataChgEvent.EventCreationDateTime",
+      "QualifiedApiName": "EventCreationDateTime",
+      "EntityDefinitionId": "DataObjectDataChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventCreationDateTime",
+      "MasterLabel": "イベント作成時刻",
+      "Label": "イベント作成時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectDataChgEvent.EventPrompt"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataObjectDataChgEvent.EventPrompt",
+      "QualifiedApiName": "EventPrompt",
+      "EntityDefinitionId": "DataObjectDataChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventPrompt",
+      "MasterLabel": "このイベントを発生させたトリガー (挿入/更新/削除/アクション)",
+      "Label": "このイベントを発生させたトリガー (挿入/更新/削除/アクション)",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectDataChgEvent.EventPublishDateTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataObjectDataChgEvent.EventPublishDateTime",
+      "QualifiedApiName": "EventPublishDateTime",
+      "EntityDefinitionId": "DataObjectDataChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventPublishDateTime",
+      "MasterLabel": "イベント公開時刻",
+      "Label": "イベント公開時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectDataChgEvent.EventSchemaVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataObjectDataChgEvent.EventSchemaVersion",
+      "QualifiedApiName": "EventSchemaVersion",
+      "EntityDefinitionId": "DataObjectDataChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventSchemaVersion",
+      "MasterLabel": "スキーマバージョン",
+      "Label": "スキーマバージョン",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectDataChgEvent.EventType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataObjectDataChgEvent.EventType",
+      "QualifiedApiName": "EventType",
+      "EntityDefinitionId": "DataObjectDataChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventType",
+      "MasterLabel": "Data Cloud イベントの種別",
+      "Label": "Data Cloud イベントの種別",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectDataChgEvent.EventUuid"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataObjectDataChgEvent.EventUuid",
+      "QualifiedApiName": "EventUuid",
+      "EntityDefinitionId": "DataObjectDataChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventUuid",
+      "MasterLabel": "イベント UUID",
+      "Label": "イベント UUID",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectDataChgEvent.Offset"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataObjectDataChgEvent.Offset",
+      "QualifiedApiName": "Offset",
+      "EntityDefinitionId": "DataObjectDataChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Offset",
+      "MasterLabel": "テナントあたりの設定されたアクションごとのイベントのイベントオフセット",
+      "Label": "テナントあたりの設定されたアクションごとのイベントのイベントオフセット",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectDataChgEvent.PayloadCurrentValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataObjectDataChgEvent.PayloadCurrentValue",
+      "QualifiedApiName": "PayloadCurrentValue",
+      "EntityDefinitionId": "DataObjectDataChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "PayloadCurrentValue",
+      "MasterLabel": "現在のデータ",
+      "Label": "現在のデータ",
+      "DataType": "ロングテキストエリア(128000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectDataChgEvent.PayloadMetadata"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataObjectDataChgEvent.PayloadMetadata",
+      "QualifiedApiName": "PayloadMetadata",
+      "EntityDefinitionId": "DataObjectDataChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "PayloadMetadata",
+      "MasterLabel": "ペイロードに関する追加情報が含まれるメタデータ JSON",
+      "Label": "ペイロードに関する追加情報が含まれるメタデータ JSON",
+      "DataType": "ロングテキストエリア(128000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectDataChgEvent.PayloadPrevValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataObjectDataChgEvent.PayloadPrevValue",
+      "QualifiedApiName": "PayloadPrevValue",
+      "EntityDefinitionId": "DataObjectDataChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "PayloadPrevValue",
+      "MasterLabel": "以前のデータ",
+      "Label": "以前のデータ",
+      "DataType": "ロングテキストエリア(128000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectDataChgEvent.PayloadSchema"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataObjectDataChgEvent.PayloadSchema",
+      "QualifiedApiName": "PayloadSchema",
+      "EntityDefinitionId": "DataObjectDataChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "PayloadSchema",
+      "MasterLabel": "イベントペイロードのスキーマ",
+      "Label": "イベントペイロードのスキーマ",
+      "DataType": "ロングテキストエリア(128000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectDataChgEvent.ProfileIdValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataObjectDataChgEvent.ProfileIdValue",
+      "QualifiedApiName": "ProfileIdValue",
+      "EntityDefinitionId": "DataObjectDataChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ProfileIdValue",
+      "MasterLabel": "イベントの ProfileId",
+      "Label": "イベントの ProfileId",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectDataChgEvent.ReplayId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataObjectDataChgEvent.ReplayId",
+      "QualifiedApiName": "ReplayId",
+      "EntityDefinitionId": "DataObjectDataChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReplayId",
+      "MasterLabel": "再実行 ID",
+      "Label": "再実行 ID",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectDataChgEvent.SourceObjectDeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataObjectDataChgEvent.SourceObjectDeveloperName",
+      "QualifiedApiName": "SourceObjectDeveloperName",
+      "EntityDefinitionId": "DataObjectDataChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "SourceObjectDeveloperName",
+      "MasterLabel": "ソースエンティティ API 参照名",
+      "Label": "ソースエンティティ API 参照名",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectDataChgEvent.TraceIdValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataObjectDataChgEvent.TraceIdValue",
+      "QualifiedApiName": "TraceIdValue",
+      "EntityDefinitionId": "DataObjectDataChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "TraceIdValue",
+      "MasterLabel": "要求の TraceId",
+      "Label": "要求の TraceId",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectDataChgEvent.TriggerEntity"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataObjectDataChgEvent.TriggerEntity",
+      "QualifiedApiName": "TriggerEntity",
+      "EntityDefinitionId": "DataObjectDataChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "TriggerEntity",
+      "MasterLabel": "トリガーエンティティ",
+      "Label": "トリガーエンティティ",
+      "DataType": "ロングテキストエリア(128000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

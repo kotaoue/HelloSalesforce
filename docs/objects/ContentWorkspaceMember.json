@@ -1,0 +1,175 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 8,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspaceMember.ContentWorkspace"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspaceMember.ContentWorkspace",
+      "QualifiedApiName": "ContentWorkspaceId",
+      "EntityDefinitionId": "ContentWorkspaceMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "ContentWorkspace",
+      "MasterLabel": "ライブラリ",
+      "Label": "ライブラリ",
+      "DataType": "参照関係(ライブラリ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspaceMember.ContentWorkspacePermission"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspaceMember.ContentWorkspacePermission",
+      "QualifiedApiName": "ContentWorkspacePermissionId",
+      "EntityDefinitionId": "ContentWorkspaceMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "ContentWorkspacePermission",
+      "MasterLabel": "ライブラリ権限",
+      "Label": "ライブラリ権限",
+      "DataType": "参照関係(ライブラリ権限)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspaceMember.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspaceMember.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ContentWorkspaceMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspaceMember.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspaceMember.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ContentWorkspaceMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspaceMember.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspaceMember.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ContentWorkspaceMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "ライブラリメンバー ID",
+      "Label": "ライブラリメンバー ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspaceMember.Member"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspaceMember.Member",
+      "QualifiedApiName": "MemberId",
+      "EntityDefinitionId": "ContentWorkspaceMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "Member",
+      "MasterLabel": "メンバー",
+      "Label": "メンバー",
+      "DataType": "参照関係(ユーザー,グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspaceMember.MemberType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspaceMember.MemberType",
+      "QualifiedApiName": "MemberType",
+      "EntityDefinitionId": "ContentWorkspaceMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "MemberType",
+      "MasterLabel": "メンバー種別",
+      "Label": "メンバー種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ContentWorkspaceMember.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentWorkspaceMember.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ContentWorkspaceMember",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

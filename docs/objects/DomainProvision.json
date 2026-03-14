@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DomainProvision.CnameTarget"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DomainProvision.CnameTarget",
+      "QualifiedApiName": "CnameTarget",
+      "EntityDefinitionId": "DomainProvision",
+      "NamespacePrefix": null,
+      "DeveloperName": "CnameTarget",
+      "MasterLabel": "CNAME ターゲット",
+      "Label": "CNAME ターゲット",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DomainProvision.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DomainProvision.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DomainProvision",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DomainProvision.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DomainProvision.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DomainProvision",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DomainProvision.Domain"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DomainProvision.Domain",
+      "QualifiedApiName": "DomainId",
+      "EntityDefinitionId": "DomainProvision",
+      "NamespacePrefix": null,
+      "DeveloperName": "Domain",
+      "MasterLabel": "ドメイン名",
+      "Label": "ドメイン名",
+      "DataType": "参照関係(ドメイン)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DomainProvision.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DomainProvision.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DomainProvision",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "ドメインのプロビジョニング ID",
+      "Label": "ドメインのプロビジョニング ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DomainProvision.IsActive"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DomainProvision.IsActive",
+      "QualifiedApiName": "IsActive",
+      "EntityDefinitionId": "DomainProvision",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsActive",
+      "MasterLabel": "有効",
+      "Label": "有効",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DomainProvision.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DomainProvision.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DomainProvision",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DomainProvision.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DomainProvision.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DomainProvision",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DomainProvision.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DomainProvision.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DomainProvision",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DomainProvision.Options"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DomainProvision.Options",
+      "QualifiedApiName": "Options",
+      "EntityDefinitionId": "DomainProvision",
+      "NamespacePrefix": null,
+      "DeveloperName": "Options",
+      "MasterLabel": "オプション",
+      "Label": "オプション",
+      "DataType": "ビットベクター",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DomainProvision.ProvisionEndDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DomainProvision.ProvisionEndDate",
+      "QualifiedApiName": "ProvisionEndDate",
+      "EntityDefinitionId": "DomainProvision",
+      "NamespacePrefix": null,
+      "DeveloperName": "ProvisionEndDate",
+      "MasterLabel": "プロビジョニング終了日",
+      "Label": "プロビジョニング終了日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DomainProvision.ProvisionFinalizeDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DomainProvision.ProvisionFinalizeDate",
+      "QualifiedApiName": "ProvisionFinalizeDate",
+      "EntityDefinitionId": "DomainProvision",
+      "NamespacePrefix": null,
+      "DeveloperName": "ProvisionFinalizeDate",
+      "MasterLabel": "プロビジョニング最終処理日",
+      "Label": "プロビジョニング最終処理日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DomainProvision.ProvisionStartDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DomainProvision.ProvisionStartDate",
+      "QualifiedApiName": "ProvisionStartDate",
+      "EntityDefinitionId": "DomainProvision",
+      "NamespacePrefix": null,
+      "DeveloperName": "ProvisionStartDate",
+      "MasterLabel": "プロビジョニング開始日",
+      "Label": "プロビジョニング開始日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DomainProvision.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DomainProvision.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "DomainProvision",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DomainProvision.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DomainProvision.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DomainProvision",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DomainProvision.TargetCdnCertificate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DomainProvision.TargetCdnCertificate",
+      "QualifiedApiName": "TargetCdnCertificate",
+      "EntityDefinitionId": "DomainProvision",
+      "NamespacePrefix": null,
+      "DeveloperName": "TargetCdnCertificate",
+      "MasterLabel": "ターゲットの CDN 証明書",
+      "Label": "ターゲットの CDN 証明書",
+      "DataType": "テキスト(30)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DomainProvision.TargetDomainName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DomainProvision.TargetDomainName",
+      "QualifiedApiName": "TargetDomainName",
+      "EntityDefinitionId": "DomainProvision",
+      "NamespacePrefix": null,
+      "DeveloperName": "TargetDomainName",
+      "MasterLabel": "ターゲットのドメイン名",
+      "Label": "ターゲットのドメイン名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

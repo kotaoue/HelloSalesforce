@@ -1,0 +1,259 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 12,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnlytDataAssetEventStore.Action"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnlytDataAssetEventStore.Action",
+      "QualifiedApiName": "Action",
+      "EntityDefinitionId": "AnlytDataAssetEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "Action",
+      "MasterLabel": "実行するユーザーアクション",
+      "Label": "実行するユーザーアクション",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnlytDataAssetEventStore.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnlytDataAssetEventStore.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AnlytDataAssetEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnlytDataAssetEventStore.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnlytDataAssetEventStore.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AnlytDataAssetEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnlytDataAssetEventStore.DataAsset"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnlytDataAssetEventStore.DataAsset",
+      "QualifiedApiName": "DataAsset",
+      "EntityDefinitionId": "AnlytDataAssetEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataAsset",
+      "MasterLabel": "追跡する Analytics データアセット ID",
+      "Label": "追跡する Analytics データアセット ID",
+      "DataType": "テキスト(20)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnlytDataAssetEventStore.DataAssetType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnlytDataAssetEventStore.DataAssetType",
+      "QualifiedApiName": "DataAssetType",
+      "EntityDefinitionId": "AnlytDataAssetEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataAssetType",
+      "MasterLabel": "Analytics データアセットタイプ",
+      "Label": "Analytics データアセットタイプ",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnlytDataAssetEventStore.EventDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnlytDataAssetEventStore.EventDate",
+      "QualifiedApiName": "EventDate",
+      "EntityDefinitionId": "AnlytDataAssetEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventDate",
+      "MasterLabel": "利用状況イベントのタイムスタンプ",
+      "Label": "利用状況イベントのタイムスタンプ",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnlytDataAssetEventStore.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnlytDataAssetEventStore.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AnlytDataAssetEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Analytics データアセット利用状況イベント ID",
+      "Label": "Analytics データアセット利用状況イベント ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnlytDataAssetEventStore.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnlytDataAssetEventStore.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AnlytDataAssetEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnlytDataAssetEventStore.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnlytDataAssetEventStore.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AnlytDataAssetEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnlytDataAssetEventStore.Source"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnlytDataAssetEventStore.Source",
+      "QualifiedApiName": "Source",
+      "EntityDefinitionId": "AnlytDataAssetEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "Source",
+      "MasterLabel": "イベントのキャプチャ元",
+      "Label": "イベントのキャプチャ元",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnlytDataAssetEventStore.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnlytDataAssetEventStore.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AnlytDataAssetEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnlytDataAssetEventStore.UserIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnlytDataAssetEventStore.UserIdentifier",
+      "QualifiedApiName": "UserIdentifier",
+      "EntityDefinitionId": "AnlytDataAssetEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserIdentifier",
+      "MasterLabel": "ユーザー ID",
+      "Label": "ユーザー ID",
+      "DataType": "テキスト(20)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

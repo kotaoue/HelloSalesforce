@@ -1,0 +1,343 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 16,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConvIntelligenceSignalRule.ActionType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConvIntelligenceSignalRule.ActionType",
+      "QualifiedApiName": "ActionType",
+      "EntityDefinitionId": "ConvIntelligenceSignalRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActionType",
+      "MasterLabel": "Action Type",
+      "Label": "Action Type",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConvIntelligenceSignalRule.ActionValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConvIntelligenceSignalRule.ActionValue",
+      "QualifiedApiName": "ActionValue",
+      "EntityDefinitionId": "ConvIntelligenceSignalRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActionValue",
+      "MasterLabel": "Action Value",
+      "Label": "Action Value",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConvIntelligenceSignalRule.ConversationChannel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConvIntelligenceSignalRule.ConversationChannel",
+      "QualifiedApiName": "ConversationChannelId",
+      "EntityDefinitionId": "ConvIntelligenceSignalRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "ConversationChannel",
+      "MasterLabel": "Conversation Channel",
+      "Label": "Conversation Channel",
+      "DataType": "参照関係(会話チャネル,メッセージングチャネル,Call Center)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConvIntelligenceSignalRule.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConvIntelligenceSignalRule.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ConvIntelligenceSignalRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConvIntelligenceSignalRule.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConvIntelligenceSignalRule.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ConvIntelligenceSignalRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConvIntelligenceSignalRule.Criteria"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConvIntelligenceSignalRule.Criteria",
+      "QualifiedApiName": "Criteria",
+      "EntityDefinitionId": "ConvIntelligenceSignalRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Criteria",
+      "MasterLabel": "Criteria",
+      "Label": "Criteria",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConvIntelligenceSignalRule.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConvIntelligenceSignalRule.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "ConvIntelligenceSignalRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "Developer Name",
+      "Label": "Developer Name",
+      "DataType": "テキスト(80)  (ユニーク、大文字と小文字を区別しない)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConvIntelligenceSignalRule.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConvIntelligenceSignalRule.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ConvIntelligenceSignalRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Conversation Intelligence Signal Rule ID",
+      "Label": "Conversation Intelligence Signal Rule ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConvIntelligenceSignalRule.IsActive"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConvIntelligenceSignalRule.IsActive",
+      "QualifiedApiName": "IsActive",
+      "EntityDefinitionId": "ConvIntelligenceSignalRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsActive",
+      "MasterLabel": "Is Active",
+      "Label": "Is Active",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConvIntelligenceSignalRule.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConvIntelligenceSignalRule.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ConvIntelligenceSignalRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConvIntelligenceSignalRule.Label"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConvIntelligenceSignalRule.Label",
+      "QualifiedApiName": "Label",
+      "EntityDefinitionId": "ConvIntelligenceSignalRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Label",
+      "MasterLabel": "Label",
+      "Label": "Label",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConvIntelligenceSignalRule.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConvIntelligenceSignalRule.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ConvIntelligenceSignalRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConvIntelligenceSignalRule.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConvIntelligenceSignalRule.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ConvIntelligenceSignalRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConvIntelligenceSignalRule.ParticipantRole"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConvIntelligenceSignalRule.ParticipantRole",
+      "QualifiedApiName": "ParticipantRole",
+      "EntityDefinitionId": "ConvIntelligenceSignalRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "ParticipantRole",
+      "MasterLabel": "Participant Role",
+      "Label": "Participant Role",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConvIntelligenceSignalRule.Service"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConvIntelligenceSignalRule.Service",
+      "QualifiedApiName": "Service",
+      "EntityDefinitionId": "ConvIntelligenceSignalRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "Service",
+      "MasterLabel": "Service",
+      "Label": "Service",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ConvIntelligenceSignalRule.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConvIntelligenceSignalRule.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ConvIntelligenceSignalRule",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

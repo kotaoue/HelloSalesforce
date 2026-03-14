@@ -1,0 +1,553 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 26,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessHours.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessHours.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "BusinessHours",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessHours.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessHours.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "BusinessHours",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessHours.FridayEndTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessHours.FridayEndTime",
+      "QualifiedApiName": "FridayEndTime",
+      "EntityDefinitionId": "BusinessHours",
+      "NamespacePrefix": null,
+      "DeveloperName": "FridayEndTime",
+      "MasterLabel": "金曜日 終業時間",
+      "Label": "金曜日 終業時間",
+      "DataType": "時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessHours.FridayStartTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessHours.FridayStartTime",
+      "QualifiedApiName": "FridayStartTime",
+      "EntityDefinitionId": "BusinessHours",
+      "NamespacePrefix": null,
+      "DeveloperName": "FridayStartTime",
+      "MasterLabel": "金曜日 始業時間",
+      "Label": "金曜日 始業時間",
+      "DataType": "時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessHours.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessHours.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "BusinessHours",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "営業時間 ID",
+      "Label": "営業時間 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessHours.Is24x7"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessHours.Is24x7",
+      "QualifiedApiName": "Is24x7",
+      "EntityDefinitionId": "BusinessHours",
+      "NamespacePrefix": null,
+      "DeveloperName": "Is24x7",
+      "MasterLabel": "週 7 日 24 時間サポート",
+      "Label": "週 7 日 24 時間サポート",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessHours.IsActive"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessHours.IsActive",
+      "QualifiedApiName": "IsActive",
+      "EntityDefinitionId": "BusinessHours",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsActive",
+      "MasterLabel": "有効",
+      "Label": "有効",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessHours.IsDefault"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessHours.IsDefault",
+      "QualifiedApiName": "IsDefault",
+      "EntityDefinitionId": "BusinessHours",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDefault",
+      "MasterLabel": "デフォルトの営業時間",
+      "Label": "デフォルトの営業時間",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessHours.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessHours.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "BusinessHours",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessHours.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessHours.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "BusinessHours",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessHours.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessHours.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "BusinessHours",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessHours.MondayEndTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessHours.MondayEndTime",
+      "QualifiedApiName": "MondayEndTime",
+      "EntityDefinitionId": "BusinessHours",
+      "NamespacePrefix": null,
+      "DeveloperName": "MondayEndTime",
+      "MasterLabel": "月曜日 終業時間",
+      "Label": "月曜日 終業時間",
+      "DataType": "時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessHours.MondayStartTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessHours.MondayStartTime",
+      "QualifiedApiName": "MondayStartTime",
+      "EntityDefinitionId": "BusinessHours",
+      "NamespacePrefix": null,
+      "DeveloperName": "MondayStartTime",
+      "MasterLabel": "月曜日 始業時間",
+      "Label": "月曜日 始業時間",
+      "DataType": "時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessHours.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessHours.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "BusinessHours",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "営業時間名",
+      "Label": "営業時間名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessHours.SaturdayEndTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessHours.SaturdayEndTime",
+      "QualifiedApiName": "SaturdayEndTime",
+      "EntityDefinitionId": "BusinessHours",
+      "NamespacePrefix": null,
+      "DeveloperName": "SaturdayEndTime",
+      "MasterLabel": "土曜日 終業時間",
+      "Label": "土曜日 終業時間",
+      "DataType": "時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessHours.SaturdayStartTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessHours.SaturdayStartTime",
+      "QualifiedApiName": "SaturdayStartTime",
+      "EntityDefinitionId": "BusinessHours",
+      "NamespacePrefix": null,
+      "DeveloperName": "SaturdayStartTime",
+      "MasterLabel": "土曜日 始業時間",
+      "Label": "土曜日 始業時間",
+      "DataType": "時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessHours.SundayEndTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessHours.SundayEndTime",
+      "QualifiedApiName": "SundayEndTime",
+      "EntityDefinitionId": "BusinessHours",
+      "NamespacePrefix": null,
+      "DeveloperName": "SundayEndTime",
+      "MasterLabel": "日曜日 終業時間",
+      "Label": "日曜日 終業時間",
+      "DataType": "時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessHours.SundayStartTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessHours.SundayStartTime",
+      "QualifiedApiName": "SundayStartTime",
+      "EntityDefinitionId": "BusinessHours",
+      "NamespacePrefix": null,
+      "DeveloperName": "SundayStartTime",
+      "MasterLabel": "日曜日 始業時間",
+      "Label": "日曜日 始業時間",
+      "DataType": "時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessHours.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessHours.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "BusinessHours",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessHours.ThursdayEndTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessHours.ThursdayEndTime",
+      "QualifiedApiName": "ThursdayEndTime",
+      "EntityDefinitionId": "BusinessHours",
+      "NamespacePrefix": null,
+      "DeveloperName": "ThursdayEndTime",
+      "MasterLabel": "木曜日 終業時間",
+      "Label": "木曜日 終業時間",
+      "DataType": "時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessHours.ThursdayStartTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessHours.ThursdayStartTime",
+      "QualifiedApiName": "ThursdayStartTime",
+      "EntityDefinitionId": "BusinessHours",
+      "NamespacePrefix": null,
+      "DeveloperName": "ThursdayStartTime",
+      "MasterLabel": "木曜日 始業時間",
+      "Label": "木曜日 始業時間",
+      "DataType": "時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessHours.TimeZoneSidKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessHours.TimeZoneSidKey",
+      "QualifiedApiName": "TimeZoneSidKey",
+      "EntityDefinitionId": "BusinessHours",
+      "NamespacePrefix": null,
+      "DeveloperName": "TimeZoneSidKey",
+      "MasterLabel": "タイムゾーン",
+      "Label": "タイムゾーン",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessHours.TuesdayEndTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessHours.TuesdayEndTime",
+      "QualifiedApiName": "TuesdayEndTime",
+      "EntityDefinitionId": "BusinessHours",
+      "NamespacePrefix": null,
+      "DeveloperName": "TuesdayEndTime",
+      "MasterLabel": "火曜日 終業時間",
+      "Label": "火曜日 終業時間",
+      "DataType": "時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessHours.TuesdayStartTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessHours.TuesdayStartTime",
+      "QualifiedApiName": "TuesdayStartTime",
+      "EntityDefinitionId": "BusinessHours",
+      "NamespacePrefix": null,
+      "DeveloperName": "TuesdayStartTime",
+      "MasterLabel": "火曜日 始業時間",
+      "Label": "火曜日 始業時間",
+      "DataType": "時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessHours.WednesdayEndTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessHours.WednesdayEndTime",
+      "QualifiedApiName": "WednesdayEndTime",
+      "EntityDefinitionId": "BusinessHours",
+      "NamespacePrefix": null,
+      "DeveloperName": "WednesdayEndTime",
+      "MasterLabel": "水曜日 終業時間",
+      "Label": "水曜日 終業時間",
+      "DataType": "時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/BusinessHours.WednesdayStartTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BusinessHours.WednesdayStartTime",
+      "QualifiedApiName": "WednesdayStartTime",
+      "EntityDefinitionId": "BusinessHours",
+      "NamespacePrefix": null,
+      "DeveloperName": "WednesdayStartTime",
+      "MasterLabel": "水曜日 始業時間",
+      "Label": "水曜日 始業時間",
+      "DataType": "時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

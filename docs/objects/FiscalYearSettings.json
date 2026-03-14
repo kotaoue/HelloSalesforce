@@ -1,0 +1,322 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 15,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FiscalYearSettings.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FiscalYearSettings.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "FiscalYearSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FiscalYearSettings.EndDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FiscalYearSettings.EndDate",
+      "QualifiedApiName": "EndDate",
+      "EntityDefinitionId": "FiscalYearSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "EndDate",
+      "MasterLabel": "終了日",
+      "Label": "終了日",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FiscalYearSettings.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FiscalYearSettings.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "FiscalYearSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "会計年度設定 ID",
+      "Label": "会計年度設定 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FiscalYearSettings.IsStandardYear"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FiscalYearSettings.IsStandardYear",
+      "QualifiedApiName": "IsStandardYear",
+      "EntityDefinitionId": "FiscalYearSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsStandardYear",
+      "MasterLabel": "標準年",
+      "Label": "標準年",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FiscalYearSettings.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FiscalYearSettings.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "FiscalYearSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FiscalYearSettings.Period"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FiscalYearSettings.Period",
+      "QualifiedApiName": "PeriodId",
+      "EntityDefinitionId": "FiscalYearSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "Period",
+      "MasterLabel": "期間",
+      "Label": "期間",
+      "DataType": "参照関係(期間)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FiscalYearSettings.PeriodLabelScheme"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FiscalYearSettings.PeriodLabelScheme",
+      "QualifiedApiName": "PeriodLabelScheme",
+      "EntityDefinitionId": "FiscalYearSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "PeriodLabelScheme",
+      "MasterLabel": "期間名の体系",
+      "Label": "期間名の体系",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FiscalYearSettings.PeriodPrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FiscalYearSettings.PeriodPrefix",
+      "QualifiedApiName": "PeriodPrefix",
+      "EntityDefinitionId": "FiscalYearSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "PeriodPrefix",
+      "MasterLabel": "期間プレフィックス",
+      "Label": "期間プレフィックス",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FiscalYearSettings.QuarterLabelScheme"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FiscalYearSettings.QuarterLabelScheme",
+      "QualifiedApiName": "QuarterLabelScheme",
+      "EntityDefinitionId": "FiscalYearSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "QuarterLabelScheme",
+      "MasterLabel": "四半期名の体系",
+      "Label": "四半期名の体系",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FiscalYearSettings.QuarterPrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FiscalYearSettings.QuarterPrefix",
+      "QualifiedApiName": "QuarterPrefix",
+      "EntityDefinitionId": "FiscalYearSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "QuarterPrefix",
+      "MasterLabel": "四半期プレフィックス",
+      "Label": "四半期プレフィックス",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FiscalYearSettings.StartDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FiscalYearSettings.StartDate",
+      "QualifiedApiName": "StartDate",
+      "EntityDefinitionId": "FiscalYearSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "StartDate",
+      "MasterLabel": "開始日",
+      "Label": "開始日",
+      "DataType": "日付",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FiscalYearSettings.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FiscalYearSettings.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "FiscalYearSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FiscalYearSettings.WeekLabelScheme"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FiscalYearSettings.WeekLabelScheme",
+      "QualifiedApiName": "WeekLabelScheme",
+      "EntityDefinitionId": "FiscalYearSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "WeekLabelScheme",
+      "MasterLabel": "週名の体系",
+      "Label": "週名の体系",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FiscalYearSettings.WeekStartDay"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FiscalYearSettings.WeekStartDay",
+      "QualifiedApiName": "WeekStartDay",
+      "EntityDefinitionId": "FiscalYearSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "WeekStartDay",
+      "MasterLabel": "週開始日",
+      "Label": "週開始日",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FiscalYearSettings.YearType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FiscalYearSettings.YearType",
+      "QualifiedApiName": "YearType",
+      "EntityDefinitionId": "FiscalYearSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "YearType",
+      "MasterLabel": "年種別",
+      "Label": "年種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

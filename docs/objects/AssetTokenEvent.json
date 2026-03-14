@@ -1,0 +1,322 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 15,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetTokenEvent.ActorTokenPayload"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetTokenEvent.ActorTokenPayload",
+      "QualifiedApiName": "ActorTokenPayload",
+      "EntityDefinitionId": "AssetTokenEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActorTokenPayload",
+      "MasterLabel": "アクタートークンペイロード",
+      "Label": "アクタートークンペイロード",
+      "DataType": "ロングテキストエリア(6000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetTokenEvent.Asset"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetTokenEvent.Asset",
+      "QualifiedApiName": "AssetId",
+      "EntityDefinitionId": "AssetTokenEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Asset",
+      "MasterLabel": "納入商品",
+      "Label": "納入商品",
+      "DataType": "参照関係(納入商品)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetTokenEvent.AssetName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetTokenEvent.AssetName",
+      "QualifiedApiName": "AssetName",
+      "EntityDefinitionId": "AssetTokenEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "AssetName",
+      "MasterLabel": "納入商品名",
+      "Label": "納入商品名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetTokenEvent.AssetSerialNumber"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetTokenEvent.AssetSerialNumber",
+      "QualifiedApiName": "AssetSerialNumber",
+      "EntityDefinitionId": "AssetTokenEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "AssetSerialNumber",
+      "MasterLabel": "納入商品 シリアル番号",
+      "Label": "納入商品 シリアル番号",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetTokenEvent.ConnectedApp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetTokenEvent.ConnectedApp",
+      "QualifiedApiName": "ConnectedAppId",
+      "EntityDefinitionId": "AssetTokenEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ConnectedApp",
+      "MasterLabel": "接続アプリケーション",
+      "Label": "接続アプリケーション",
+      "DataType": "参照関係(接続アプリケーション)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetTokenEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetTokenEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AssetTokenEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetTokenEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetTokenEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AssetTokenEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetTokenEvent.DeviceId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetTokenEvent.DeviceId",
+      "QualifiedApiName": "DeviceId",
+      "EntityDefinitionId": "AssetTokenEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeviceId",
+      "MasterLabel": "デバイス ID",
+      "Label": "デバイス ID",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetTokenEvent.DeviceKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetTokenEvent.DeviceKey",
+      "QualifiedApiName": "DeviceKey",
+      "EntityDefinitionId": "AssetTokenEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeviceKey",
+      "MasterLabel": "デバイスキー",
+      "Label": "デバイスキー",
+      "DataType": "ロングテキストエリア(2000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetTokenEvent.EventUuid"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetTokenEvent.EventUuid",
+      "QualifiedApiName": "EventUuid",
+      "EntityDefinitionId": "AssetTokenEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventUuid",
+      "MasterLabel": "イベント UUID",
+      "Label": "イベント UUID",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetTokenEvent.Expiration"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetTokenEvent.Expiration",
+      "QualifiedApiName": "Expiration",
+      "EntityDefinitionId": "AssetTokenEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Expiration",
+      "MasterLabel": "有効期限",
+      "Label": "有効期限",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetTokenEvent.ExternalClientApplication"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetTokenEvent.ExternalClientApplication",
+      "QualifiedApiName": "ExternalClientApplicationId",
+      "EntityDefinitionId": "AssetTokenEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExternalClientApplication",
+      "MasterLabel": "External Client Applications",
+      "Label": "External Client Applications",
+      "DataType": "参照関係(External Client Applications)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetTokenEvent.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetTokenEvent.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "AssetTokenEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetTokenEvent.ReplayId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetTokenEvent.ReplayId",
+      "QualifiedApiName": "ReplayId",
+      "EntityDefinitionId": "AssetTokenEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReplayId",
+      "MasterLabel": "再実行 ID",
+      "Label": "再実行 ID",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AssetTokenEvent.User"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AssetTokenEvent.User",
+      "QualifiedApiName": "UserId",
+      "EntityDefinitionId": "AssetTokenEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "User",
+      "MasterLabel": "ユーザー",
+      "Label": "ユーザー",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InternalOrganization.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InternalOrganization.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "InternalOrganization",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InternalOrganization.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InternalOrganization.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "InternalOrganization",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InternalOrganization.DataConnector"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InternalOrganization.DataConnector",
+      "QualifiedApiName": "DataConnectorId",
+      "EntityDefinitionId": "InternalOrganization",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataConnector",
+      "MasterLabel": "データコネクタ",
+      "Label": "データコネクタ",
+      "DataType": "参照関係(外部データコネクタ,内部データコネクタ,データ接続)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InternalOrganization.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InternalOrganization.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "InternalOrganization",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InternalOrganization.ExternalRecordId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InternalOrganization.ExternalRecordId",
+      "QualifiedApiName": "ExternalRecordId",
+      "EntityDefinitionId": "InternalOrganization",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExternalRecordId",
+      "MasterLabel": "外部レコード ID",
+      "Label": "外部レコード ID",
+      "DataType": "テキスト(254)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InternalOrganization.FullName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InternalOrganization.FullName",
+      "QualifiedApiName": "FullName",
+      "EntityDefinitionId": "InternalOrganization",
+      "NamespacePrefix": null,
+      "DeveloperName": "FullName",
+      "MasterLabel": "内部組織名",
+      "Label": "内部組織名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InternalOrganization.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InternalOrganization.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "InternalOrganization",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "内部組織 ID",
+      "Label": "内部組織 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InternalOrganization.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InternalOrganization.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "InternalOrganization",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InternalOrganization.IsForDataExport"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InternalOrganization.IsForDataExport",
+      "QualifiedApiName": "IsForDataExport",
+      "EntityDefinitionId": "InternalOrganization",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsForDataExport",
+      "MasterLabel": "データエクスポート用",
+      "Label": "データエクスポート用",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InternalOrganization.IsForDataImport"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InternalOrganization.IsForDataImport",
+      "QualifiedApiName": "IsForDataImport",
+      "EntityDefinitionId": "InternalOrganization",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsForDataImport",
+      "MasterLabel": "データインポート用",
+      "Label": "データインポート用",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InternalOrganization.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InternalOrganization.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "InternalOrganization",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InternalOrganization.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InternalOrganization.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "InternalOrganization",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InternalOrganization.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InternalOrganization.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "InternalOrganization",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InternalOrganization.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InternalOrganization.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "InternalOrganization",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InternalOrganization.Metadata"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InternalOrganization.Metadata",
+      "QualifiedApiName": "Metadata",
+      "EntityDefinitionId": "InternalOrganization",
+      "NamespacePrefix": null,
+      "DeveloperName": "Metadata",
+      "MasterLabel": "メタデータ",
+      "Label": "メタデータ",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InternalOrganization.ParentInternalOrganization"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InternalOrganization.ParentInternalOrganization",
+      "QualifiedApiName": "ParentInternalOrganizationId",
+      "EntityDefinitionId": "InternalOrganization",
+      "NamespacePrefix": null,
+      "DeveloperName": "ParentInternalOrganization",
+      "MasterLabel": "親内部組織",
+      "Label": "親内部組織",
+      "DataType": "階層",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/InternalOrganization.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InternalOrganization.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "InternalOrganization",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

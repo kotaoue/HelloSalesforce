@@ -1,0 +1,343 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 16,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthSession.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthSession.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AuthSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成",
+      "Label": "作成",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthSession.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthSession.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AuthSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "認証セッション ID",
+      "Label": "認証セッション ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthSession.IsAssociatedWithJwtAccessToken"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthSession.IsAssociatedWithJwtAccessToken",
+      "QualifiedApiName": "IsAssociatedWithJwtAccessToken",
+      "EntityDefinitionId": "AuthSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsAssociatedWithJwtAccessToken",
+      "MasterLabel": "JWT に関連付ける",
+      "Label": "JWT に関連付ける",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthSession.IsCurrent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthSession.IsCurrent",
+      "QualifiedApiName": "IsCurrent",
+      "EntityDefinitionId": "AuthSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsCurrent",
+      "MasterLabel": "現在のセッション",
+      "Label": "現在のセッション",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthSession.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthSession.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AuthSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "更新",
+      "Label": "更新",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthSession.LoginGeo"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthSession.LoginGeo",
+      "QualifiedApiName": "LoginGeoId",
+      "EntityDefinitionId": "AuthSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "LoginGeo",
+      "MasterLabel": "ログイン地理情報データ",
+      "Label": "ログイン地理情報データ",
+      "DataType": "参照関係(ログイン地理情報データ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthSession.LoginHistory"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthSession.LoginHistory",
+      "QualifiedApiName": "LoginHistoryId",
+      "EntityDefinitionId": "AuthSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "LoginHistory",
+      "MasterLabel": "ログイン履歴",
+      "Label": "ログイン履歴",
+      "DataType": "参照関係(ログイン履歴)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthSession.LoginType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthSession.LoginType",
+      "QualifiedApiName": "LoginType",
+      "EntityDefinitionId": "AuthSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "LoginType",
+      "MasterLabel": "ログイン",
+      "Label": "ログイン",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthSession.LogoutUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthSession.LogoutUrl",
+      "QualifiedApiName": "LogoutUrl",
+      "EntityDefinitionId": "AuthSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "LogoutUrl",
+      "MasterLabel": "ログアウト URL",
+      "Label": "ログアウト URL",
+      "DataType": "テキスト(1500)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthSession.NumSecondsValid"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthSession.NumSecondsValid",
+      "QualifiedApiName": "NumSecondsValid",
+      "EntityDefinitionId": "AuthSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "NumSecondsValid",
+      "MasterLabel": "有効",
+      "Label": "有効",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthSession.Parent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthSession.Parent",
+      "QualifiedApiName": "ParentId",
+      "EntityDefinitionId": "AuthSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "Parent",
+      "MasterLabel": "認証セッション",
+      "Label": "認証セッション",
+      "DataType": "参照関係(認証セッション)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthSession.SessionSecurityLevel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthSession.SessionSecurityLevel",
+      "QualifiedApiName": "SessionSecurityLevel",
+      "EntityDefinitionId": "AuthSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "SessionSecurityLevel",
+      "MasterLabel": "セッションセキュリティレベル",
+      "Label": "セッションセキュリティレベル",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthSession.SessionType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthSession.SessionType",
+      "QualifiedApiName": "SessionType",
+      "EntityDefinitionId": "AuthSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "SessionType",
+      "MasterLabel": "セッション種別",
+      "Label": "セッション種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthSession.SourceIp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthSession.SourceIp",
+      "QualifiedApiName": "SourceIp",
+      "EntityDefinitionId": "AuthSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "SourceIp",
+      "MasterLabel": "アクセス元 IP",
+      "Label": "アクセス元 IP",
+      "DataType": "IP アドレス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthSession.Users"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthSession.Users",
+      "QualifiedApiName": "UsersId",
+      "EntityDefinitionId": "AuthSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "Users",
+      "MasterLabel": "ユーザー",
+      "Label": "ユーザー",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AuthSession.UserType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AuthSession.UserType",
+      "QualifiedApiName": "UserType",
+      "EntityDefinitionId": "AuthSession",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserType",
+      "MasterLabel": "ユーザー種別",
+      "Label": "ユーザー種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

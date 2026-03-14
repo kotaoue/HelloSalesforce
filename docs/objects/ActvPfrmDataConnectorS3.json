@@ -1,0 +1,448 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 21,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPfrmDataConnectorS3.AccessKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPfrmDataConnectorS3.AccessKey",
+      "QualifiedApiName": "AccessKey",
+      "EntityDefinitionId": "ActvPfrmDataConnectorS3",
+      "NamespacePrefix": null,
+      "DeveloperName": "AccessKey",
+      "MasterLabel": "Amazon S3 アクセスキー",
+      "Label": "Amazon S3 アクセスキー",
+      "DataType": "ロングテキストエリア(6000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPfrmDataConnectorS3.AccessSecret"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPfrmDataConnectorS3.AccessSecret",
+      "QualifiedApiName": "AccessSecret",
+      "EntityDefinitionId": "ActvPfrmDataConnectorS3",
+      "NamespacePrefix": null,
+      "DeveloperName": "AccessSecret",
+      "MasterLabel": "Amazon S3 秘密鍵",
+      "Label": "Amazon S3 秘密鍵",
+      "DataType": "ロングテキストエリア(6000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPfrmDataConnectorS3.BucketName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPfrmDataConnectorS3.BucketName",
+      "QualifiedApiName": "BucketName",
+      "EntityDefinitionId": "ActvPfrmDataConnectorS3",
+      "NamespacePrefix": null,
+      "DeveloperName": "BucketName",
+      "MasterLabel": "S3 バケット名",
+      "Label": "S3 バケット名",
+      "DataType": "URL(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPfrmDataConnectorS3.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPfrmDataConnectorS3.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ActvPfrmDataConnectorS3",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPfrmDataConnectorS3.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPfrmDataConnectorS3.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ActvPfrmDataConnectorS3",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPfrmDataConnectorS3.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPfrmDataConnectorS3.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "ActvPfrmDataConnectorS3",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPfrmDataConnectorS3.ExportDirectory"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPfrmDataConnectorS3.ExportDirectory",
+      "QualifiedApiName": "ExportDirectory",
+      "EntityDefinitionId": "ActvPfrmDataConnectorS3",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExportDirectory",
+      "MasterLabel": "ディレクトリ",
+      "Label": "ディレクトリ",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPfrmDataConnectorS3.FullName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPfrmDataConnectorS3.FullName",
+      "QualifiedApiName": "FullName",
+      "EntityDefinitionId": "ActvPfrmDataConnectorS3",
+      "NamespacePrefix": null,
+      "DeveloperName": "FullName",
+      "MasterLabel": "S3 用有効化プラットフォームデータコネクタの完全名",
+      "Label": "S3 用有効化プラットフォームデータコネクタの完全名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPfrmDataConnectorS3.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPfrmDataConnectorS3.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ActvPfrmDataConnectorS3",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "S3 用有効化プラットフォームデータコネクタ ID",
+      "Label": "S3 用有効化プラットフォームデータコネクタ ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPfrmDataConnectorS3.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPfrmDataConnectorS3.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ActvPfrmDataConnectorS3",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPfrmDataConnectorS3.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPfrmDataConnectorS3.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "ActvPfrmDataConnectorS3",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPfrmDataConnectorS3.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPfrmDataConnectorS3.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ActvPfrmDataConnectorS3",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPfrmDataConnectorS3.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPfrmDataConnectorS3.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ActvPfrmDataConnectorS3",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPfrmDataConnectorS3.LastStatusDateTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPfrmDataConnectorS3.LastStatusDateTime",
+      "QualifiedApiName": "LastStatusDateTime",
+      "EntityDefinitionId": "ActvPfrmDataConnectorS3",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastStatusDateTime",
+      "MasterLabel": "最終有効化プラットフォームデータコネクタ状況時刻",
+      "Label": "最終有効化プラットフォームデータコネクタ状況時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPfrmDataConnectorS3.LastStatusErrorCode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPfrmDataConnectorS3.LastStatusErrorCode",
+      "QualifiedApiName": "LastStatusErrorCode",
+      "EntityDefinitionId": "ActvPfrmDataConnectorS3",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastStatusErrorCode",
+      "MasterLabel": "最終有効化プラットフォームデータコネクタ状況エラーコード",
+      "Label": "最終有効化プラットフォームデータコネクタ状況エラーコード",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPfrmDataConnectorS3.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPfrmDataConnectorS3.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "ActvPfrmDataConnectorS3",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPfrmDataConnectorS3.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPfrmDataConnectorS3.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "ActvPfrmDataConnectorS3",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPfrmDataConnectorS3.Metadata"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPfrmDataConnectorS3.Metadata",
+      "QualifiedApiName": "Metadata",
+      "EntityDefinitionId": "ActvPfrmDataConnectorS3",
+      "NamespacePrefix": null,
+      "DeveloperName": "Metadata",
+      "MasterLabel": "メタデータ",
+      "Label": "メタデータ",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPfrmDataConnectorS3.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPfrmDataConnectorS3.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "ActvPfrmDataConnectorS3",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPfrmDataConnectorS3.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPfrmDataConnectorS3.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "ActvPfrmDataConnectorS3",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "有効化プラットフォームデータコネクタ状況",
+      "Label": "有効化プラットフォームデータコネクタ状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPfrmDataConnectorS3.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPfrmDataConnectorS3.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ActvPfrmDataConnectorS3",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

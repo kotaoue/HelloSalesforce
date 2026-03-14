@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPlatformAdncIdentifier.ActivationPlatform"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPlatformAdncIdentifier.ActivationPlatform",
+      "QualifiedApiName": "ActivationPlatformId",
+      "EntityDefinitionId": "ActvPlatformAdncIdentifier",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActivationPlatform",
+      "MasterLabel": "有効化プラットフォーム",
+      "Label": "有効化プラットフォーム",
+      "DataType": "参照関係(有効化プラットフォーム)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPlatformAdncIdentifier.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPlatformAdncIdentifier.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ActvPlatformAdncIdentifier",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPlatformAdncIdentifier.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPlatformAdncIdentifier.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ActvPlatformAdncIdentifier",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPlatformAdncIdentifier.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPlatformAdncIdentifier.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "ActvPlatformAdncIdentifier",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPlatformAdncIdentifier.FullName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPlatformAdncIdentifier.FullName",
+      "QualifiedApiName": "FullName",
+      "EntityDefinitionId": "ActvPlatformAdncIdentifier",
+      "NamespacePrefix": null,
+      "DeveloperName": "FullName",
+      "MasterLabel": "有効化プラットフォーム利用者識別子の完全名",
+      "Label": "有効化プラットフォーム利用者識別子の完全名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPlatformAdncIdentifier.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPlatformAdncIdentifier.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ActvPlatformAdncIdentifier",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "有効化プラットフォーム利用者識別子 ID",
+      "Label": "有効化プラットフォーム利用者識別子 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPlatformAdncIdentifier.IdentifierHashMethod"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPlatformAdncIdentifier.IdentifierHashMethod",
+      "QualifiedApiName": "IdentifierHashMethod",
+      "EntityDefinitionId": "ActvPlatformAdncIdentifier",
+      "NamespacePrefix": null,
+      "DeveloperName": "IdentifierHashMethod",
+      "MasterLabel": "識別子ハッシュ方法",
+      "Label": "識別子ハッシュ方法",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPlatformAdncIdentifier.IdentifierType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPlatformAdncIdentifier.IdentifierType",
+      "QualifiedApiName": "IdentifierType",
+      "EntityDefinitionId": "ActvPlatformAdncIdentifier",
+      "NamespacePrefix": null,
+      "DeveloperName": "IdentifierType",
+      "MasterLabel": "識別子種別",
+      "Label": "識別子種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPlatformAdncIdentifier.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPlatformAdncIdentifier.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ActvPlatformAdncIdentifier",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPlatformAdncIdentifier.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPlatformAdncIdentifier.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "ActvPlatformAdncIdentifier",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPlatformAdncIdentifier.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPlatformAdncIdentifier.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ActvPlatformAdncIdentifier",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPlatformAdncIdentifier.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPlatformAdncIdentifier.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ActvPlatformAdncIdentifier",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPlatformAdncIdentifier.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPlatformAdncIdentifier.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "ActvPlatformAdncIdentifier",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPlatformAdncIdentifier.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPlatformAdncIdentifier.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "ActvPlatformAdncIdentifier",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPlatformAdncIdentifier.Metadata"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPlatformAdncIdentifier.Metadata",
+      "QualifiedApiName": "Metadata",
+      "EntityDefinitionId": "ActvPlatformAdncIdentifier",
+      "NamespacePrefix": null,
+      "DeveloperName": "Metadata",
+      "MasterLabel": "メタデータ",
+      "Label": "メタデータ",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPlatformAdncIdentifier.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPlatformAdncIdentifier.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "ActvPlatformAdncIdentifier",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ActvPlatformAdncIdentifier.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ActvPlatformAdncIdentifier.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ActvPlatformAdncIdentifier",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

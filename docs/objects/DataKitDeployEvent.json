@@ -1,0 +1,322 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 15,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKitDeployEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKitDeployEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DataKitDeployEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKitDeployEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKitDeployEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DataKitDeployEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKitDeployEvent.DataKitDeployStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKitDeployEvent.DataKitDeployStatus",
+      "QualifiedApiName": "DataKitDeployStatus",
+      "EntityDefinitionId": "DataKitDeployEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataKitDeployStatus",
+      "MasterLabel": "データキットリリース状況",
+      "Label": "データキットリリース状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKitDeployEvent.DataKitName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKitDeployEvent.DataKitName",
+      "QualifiedApiName": "DataKitName",
+      "EntityDefinitionId": "DataKitDeployEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataKitName",
+      "MasterLabel": "データキット名",
+      "Label": "データキット名",
+      "DataType": "テキスト(200)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKitDeployEvent.DataspaceName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKitDeployEvent.DataspaceName",
+      "QualifiedApiName": "DataspaceName",
+      "EntityDefinitionId": "DataKitDeployEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataspaceName",
+      "MasterLabel": "データスペース名",
+      "Label": "データスペース名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKitDeployEvent.DeployStartTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKitDeployEvent.DeployStartTime",
+      "QualifiedApiName": "DeployStartTime",
+      "EntityDefinitionId": "DataKitDeployEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeployStartTime",
+      "MasterLabel": "データキットリリース開始時刻",
+      "Label": "データキットリリース開始時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKitDeployEvent.ErrorDetails"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKitDeployEvent.ErrorDetails",
+      "QualifiedApiName": "ErrorDetails",
+      "EntityDefinitionId": "DataKitDeployEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorDetails",
+      "MasterLabel": "エラーメッセージ",
+      "Label": "エラーメッセージ",
+      "DataType": "ロングテキストエリア(128000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKitDeployEvent.EventCreationDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKitDeployEvent.EventCreationDate",
+      "QualifiedApiName": "EventCreationDate",
+      "EntityDefinitionId": "DataKitDeployEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventCreationDate",
+      "MasterLabel": "イベント作成日",
+      "Label": "イベント作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKitDeployEvent.EventPublishDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKitDeployEvent.EventPublishDate",
+      "QualifiedApiName": "EventPublishDate",
+      "EntityDefinitionId": "DataKitDeployEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventPublishDate",
+      "MasterLabel": "イベント公開日",
+      "Label": "イベント公開日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKitDeployEvent.EventType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKitDeployEvent.EventType",
+      "QualifiedApiName": "EventType",
+      "EntityDefinitionId": "DataKitDeployEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventType",
+      "MasterLabel": "イベント種別",
+      "Label": "イベント種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKitDeployEvent.EventUuid"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKitDeployEvent.EventUuid",
+      "QualifiedApiName": "EventUuid",
+      "EntityDefinitionId": "DataKitDeployEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventUuid",
+      "MasterLabel": "イベント UUID",
+      "Label": "イベント UUID",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKitDeployEvent.IsDataKitDeployStatusSuccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKitDeployEvent.IsDataKitDeployStatusSuccess",
+      "QualifiedApiName": "IsDataKitDeployStatusSuccess",
+      "EntityDefinitionId": "DataKitDeployEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDataKitDeployStatusSuccess",
+      "MasterLabel": "[非推奨] データキットリリース状況",
+      "Label": "[非推奨] データキットリリース状況",
+      "DataType": "テキスト(200)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKitDeployEvent.JobIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKitDeployEvent.JobIdentifier",
+      "QualifiedApiName": "JobIdentifier",
+      "EntityDefinitionId": "DataKitDeployEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "JobIdentifier",
+      "MasterLabel": "データキットリリースジョブ識別子",
+      "Label": "データキットリリースジョブ識別子",
+      "DataType": "テキスト(200)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKitDeployEvent.ReplayId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKitDeployEvent.ReplayId",
+      "QualifiedApiName": "ReplayId",
+      "EntityDefinitionId": "DataKitDeployEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReplayId",
+      "MasterLabel": "再実行 ID",
+      "Label": "再実行 ID",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKitDeployEvent.TemplateName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKitDeployEvent.TemplateName",
+      "QualifiedApiName": "TemplateName",
+      "EntityDefinitionId": "DataKitDeployEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "TemplateName",
+      "MasterLabel": "データキットコンポーネントテンプレート名",
+      "Label": "データキットコンポーネントテンプレート名",
+      "DataType": "テキスト(400)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 16,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsWorkspaceAsset.ActivePromotionRequest"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsWorkspaceAsset.ActivePromotionRequest",
+      "QualifiedApiName": "ActivePromotionRequestId",
+      "EntityDefinitionId": "AnalyticsWorkspaceAsset",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActivePromotionRequest",
+      "MasterLabel": "有効なプロモーション要求",
+      "Label": "有効なプロモーション要求",
+      "DataType": "参照関係(データアセットプロモーション要求)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsWorkspaceAsset.AnalyticsWorkspace"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsWorkspaceAsset.AnalyticsWorkspace",
+      "QualifiedApiName": "AnalyticsWorkspaceId",
+      "EntityDefinitionId": "AnalyticsWorkspaceAsset",
+      "NamespacePrefix": null,
+      "DeveloperName": "AnalyticsWorkspace",
+      "MasterLabel": "分析ワークスペース",
+      "Label": "分析ワークスペース",
+      "DataType": "主従関係(分析ワークスペース)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsWorkspaceAsset.Asset"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsWorkspaceAsset.Asset",
+      "QualifiedApiName": "AssetId",
+      "EntityDefinitionId": "AnalyticsWorkspaceAsset",
+      "NamespacePrefix": null,
+      "DeveloperName": "Asset",
+      "MasterLabel": "アセット",
+      "Label": "アセット",
+      "DataType": "参照関係(Analytics ダッシュボード,Analytics Visualization,Semantic Model,データモデルオブジェクト,計算済みインサイトオブジェクト,データレイクオブジェクト定義,データ接続,Data Transform Setups)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsWorkspaceAsset.AssetType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsWorkspaceAsset.AssetType",
+      "QualifiedApiName": "AssetType",
+      "EntityDefinitionId": "AnalyticsWorkspaceAsset",
+      "NamespacePrefix": null,
+      "DeveloperName": "AssetType",
+      "MasterLabel": "アセットタイプ",
+      "Label": "アセットタイプ",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsWorkspaceAsset.AssetUsageType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsWorkspaceAsset.AssetUsageType",
+      "QualifiedApiName": "AssetUsageType",
+      "EntityDefinitionId": "AnalyticsWorkspaceAsset",
+      "NamespacePrefix": null,
+      "DeveloperName": "AssetUsageType",
+      "MasterLabel": "アセット利用状況種別",
+      "Label": "アセット利用状況種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsWorkspaceAsset.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsWorkspaceAsset.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AnalyticsWorkspaceAsset",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsWorkspaceAsset.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsWorkspaceAsset.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AnalyticsWorkspaceAsset",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsWorkspaceAsset.HistoricalPromotionStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsWorkspaceAsset.HistoricalPromotionStatus",
+      "QualifiedApiName": "HistoricalPromotionStatus",
+      "EntityDefinitionId": "AnalyticsWorkspaceAsset",
+      "NamespacePrefix": null,
+      "DeveloperName": "HistoricalPromotionStatus",
+      "MasterLabel": "履歴プロモーションの状況",
+      "Label": "履歴プロモーションの状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsWorkspaceAsset.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsWorkspaceAsset.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AnalyticsWorkspaceAsset",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "分析ワークスペースアセット ID",
+      "Label": "分析ワークスペースアセット ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsWorkspaceAsset.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsWorkspaceAsset.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AnalyticsWorkspaceAsset",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsWorkspaceAsset.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsWorkspaceAsset.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AnalyticsWorkspaceAsset",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsWorkspaceAsset.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsWorkspaceAsset.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AnalyticsWorkspaceAsset",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsWorkspaceAsset.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsWorkspaceAsset.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "AnalyticsWorkspaceAsset",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsWorkspaceAsset.MetadataSourceType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsWorkspaceAsset.MetadataSourceType",
+      "QualifiedApiName": "MetadataSourceType",
+      "EntityDefinitionId": "AnalyticsWorkspaceAsset",
+      "NamespacePrefix": null,
+      "DeveloperName": "MetadataSourceType",
+      "MasterLabel": "メタデータソース種別",
+      "Label": "メタデータソース種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsWorkspaceAsset.SourceOrg"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsWorkspaceAsset.SourceOrg",
+      "QualifiedApiName": "SourceOrgId",
+      "EntityDefinitionId": "AnalyticsWorkspaceAsset",
+      "NamespacePrefix": null,
+      "DeveloperName": "SourceOrg",
+      "MasterLabel": "組織",
+      "Label": "組織",
+      "DataType": "参照関係(組織)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AnalyticsWorkspaceAsset.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsWorkspaceAsset.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AnalyticsWorkspaceAsset",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

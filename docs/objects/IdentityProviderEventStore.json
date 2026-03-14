@@ -1,0 +1,322 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 15,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityProviderEventStore.App"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityProviderEventStore.App",
+      "QualifiedApiName": "AppId",
+      "EntityDefinitionId": "IdentityProviderEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "App",
+      "MasterLabel": "アプリケーション",
+      "Label": "アプリケーション",
+      "DataType": "参照関係(接続アプリケーション)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityProviderEventStore.AuthSession"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityProviderEventStore.AuthSession",
+      "QualifiedApiName": "AuthSessionId",
+      "EntityDefinitionId": "IdentityProviderEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "AuthSession",
+      "MasterLabel": "認証セッション",
+      "Label": "認証セッション",
+      "DataType": "参照関係(認証セッション)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityProviderEventStore.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityProviderEventStore.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "IdentityProviderEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityProviderEventStore.ErrorCode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityProviderEventStore.ErrorCode",
+      "QualifiedApiName": "ErrorCode",
+      "EntityDefinitionId": "IdentityProviderEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorCode",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityProviderEventStore.EventDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityProviderEventStore.EventDate",
+      "QualifiedApiName": "EventDate",
+      "EntityDefinitionId": "IdentityProviderEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventDate",
+      "MasterLabel": "イベント日",
+      "Label": "イベント日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityProviderEventStore.EventIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityProviderEventStore.EventIdentifier",
+      "QualifiedApiName": "EventIdentifier",
+      "EntityDefinitionId": "IdentityProviderEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventIdentifier",
+      "MasterLabel": "イベント識別子",
+      "Label": "イベント識別子",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityProviderEventStore.HasLogoutUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityProviderEventStore.HasLogoutUrl",
+      "QualifiedApiName": "HasLogoutUrl",
+      "EntityDefinitionId": "IdentityProviderEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "HasLogoutUrl",
+      "MasterLabel": "ログアウト URL あり",
+      "Label": "ログアウト URL あり",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityProviderEventStore.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityProviderEventStore.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "IdentityProviderEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "ID プロバイダーイベントストア ID",
+      "Label": "ID プロバイダーイベントストア ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityProviderEventStore.IdentityUsed"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityProviderEventStore.IdentityUsed",
+      "QualifiedApiName": "IdentityUsed",
+      "EntityDefinitionId": "IdentityProviderEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "IdentityUsed",
+      "MasterLabel": "使用された ID",
+      "Label": "使用された ID",
+      "DataType": "テキスト(765)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityProviderEventStore.InitiatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityProviderEventStore.InitiatedBy",
+      "QualifiedApiName": "InitiatedBy",
+      "EntityDefinitionId": "IdentityProviderEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "InitiatedBy",
+      "MasterLabel": "利用状況の種別",
+      "Label": "利用状況の種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityProviderEventStore.OauthConsumer"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityProviderEventStore.OauthConsumer",
+      "QualifiedApiName": "OauthConsumerId",
+      "EntityDefinitionId": "IdentityProviderEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "OauthConsumer",
+      "MasterLabel": "OAuth コンシューマー",
+      "Label": "OAuth コンシューマー",
+      "DataType": "参照関係(リモートアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityProviderEventStore.SamlEntityUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityProviderEventStore.SamlEntityUrl",
+      "QualifiedApiName": "SamlEntityUrl",
+      "EntityDefinitionId": "IdentityProviderEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "SamlEntityUrl",
+      "MasterLabel": "エンティティ ID",
+      "Label": "エンティティ ID",
+      "DataType": "テキスト(1500)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityProviderEventStore.ServiceProvider"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityProviderEventStore.ServiceProvider",
+      "QualifiedApiName": "ServiceProviderId",
+      "EntityDefinitionId": "IdentityProviderEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "ServiceProvider",
+      "MasterLabel": "サービスプロバイダー",
+      "Label": "サービスプロバイダー",
+      "DataType": "参照関係(サービスプロバイダー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityProviderEventStore.SsoType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityProviderEventStore.SsoType",
+      "QualifiedApiName": "SsoType",
+      "EntityDefinitionId": "IdentityProviderEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "SsoType",
+      "MasterLabel": "SSO 種別",
+      "Label": "SSO 種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/IdentityProviderEventStore.User"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdentityProviderEventStore.User",
+      "QualifiedApiName": "UserId",
+      "EntityDefinitionId": "IdentityProviderEventStore",
+      "NamespacePrefix": null,
+      "DeveloperName": "User",
+      "MasterLabel": "ユーザー",
+      "Label": "ユーザー",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 10,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ObjectPermissions.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ObjectPermissions.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ObjectPermissions",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ObjectPermissions.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ObjectPermissions.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ObjectPermissions",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ObjectPermissions.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ObjectPermissions.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ObjectPermissions",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "オブジェクト権限 ID",
+      "Label": "オブジェクト権限 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ObjectPermissions.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ObjectPermissions.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ObjectPermissions",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ObjectPermissions.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ObjectPermissions.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ObjectPermissions",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ObjectPermissions.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ObjectPermissions.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "ObjectPermissions",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ObjectPermissions.Parent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ObjectPermissions.Parent",
+      "QualifiedApiName": "ParentId",
+      "EntityDefinitionId": "ObjectPermissions",
+      "NamespacePrefix": null,
+      "DeveloperName": "Parent",
+      "MasterLabel": "参照先エンティティ",
+      "Label": "参照先エンティティ",
+      "DataType": "参照関係(権限セット,ユーザーライセンス,Permission Set License,権限セットのミュート)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ObjectPermissions.Permissions"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ObjectPermissions.Permissions",
+      "QualifiedApiName": "Permissions",
+      "EntityDefinitionId": "ObjectPermissions",
+      "NamespacePrefix": null,
+      "DeveloperName": "Permissions",
+      "MasterLabel": null,
+      "Label": null,
+      "DataType": "ビットベクター",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ObjectPermissions.SobjectType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ObjectPermissions.SobjectType",
+      "QualifiedApiName": "SobjectType",
+      "EntityDefinitionId": "ObjectPermissions",
+      "NamespacePrefix": null,
+      "DeveloperName": "SobjectType",
+      "MasterLabel": "エンティティ名",
+      "Label": "エンティティ名",
+      "DataType": "選択リスト(カスタムオブジェクトの定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ObjectPermissions.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ObjectPermissions.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ObjectPermissions",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

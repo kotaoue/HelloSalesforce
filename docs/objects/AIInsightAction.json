@@ -1,0 +1,322 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 15,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightAction.Action"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightAction.Action",
+      "QualifiedApiName": "ActionId",
+      "EntityDefinitionId": "AIInsightAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "Action",
+      "MasterLabel": "アクション",
+      "Label": "アクション",
+      "DataType": "参照関係(メールアラート,ワークフローアウトバウンドメッセージ,Apex クラス,Aura コンポーネントバンドル,カスタム通知種別,外部データトランスポートオブジェクト,外部サービス操作,フロー定義,Generative AI Prompt Templates,マクロ,ML Model Kits,アクション)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightAction.ActionName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightAction.ActionName",
+      "QualifiedApiName": "ActionName",
+      "EntityDefinitionId": "AIInsightAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActionName",
+      "MasterLabel": "アクション名",
+      "Label": "アクション名",
+      "DataType": "選択リスト()",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightAction.AiRecordInsight"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightAction.AiRecordInsight",
+      "QualifiedApiName": "AiRecordInsightId",
+      "EntityDefinitionId": "AIInsightAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "AiRecordInsight",
+      "MasterLabel": "AI レコードインサイト",
+      "Label": "AI レコードインサイト",
+      "DataType": "主従関係(AI レコードインサイト)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightAction.Confidence"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightAction.Confidence",
+      "QualifiedApiName": "Confidence",
+      "EntityDefinitionId": "AIInsightAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "Confidence",
+      "MasterLabel": "信頼性",
+      "Label": "信頼性",
+      "DataType": "数値(2、2)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightAction.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightAction.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AIInsightAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightAction.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightAction.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AIInsightAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightAction.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightAction.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AIInsightAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "AIInsightActions ID",
+      "Label": "AIInsightActions ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightAction.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightAction.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AIInsightAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightAction.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightAction.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AIInsightAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightAction.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightAction.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AIInsightAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightAction.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightAction.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "AIInsightAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightAction.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightAction.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "AIInsightAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightAction.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightAction.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AIInsightAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightAction.Type"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightAction.Type",
+      "QualifiedApiName": "Type",
+      "EntityDefinitionId": "AIInsightAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "Type",
+      "MasterLabel": "アクション種別",
+      "Label": "アクション種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AIInsightAction.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIInsightAction.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "AIInsightAction",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

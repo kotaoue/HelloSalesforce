@@ -1,0 +1,511 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 24,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnablementProgram.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnablementProgram.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "EnablementProgram",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnablementProgram.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnablementProgram.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "EnablementProgram",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnablementProgram.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnablementProgram.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "EnablementProgram",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "ロングテキストエリア(350)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnablementProgram.DoesAllowSelfEnrollment"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnablementProgram.DoesAllowSelfEnrollment",
+      "QualifiedApiName": "DoesAllowSelfEnrollment",
+      "EntityDefinitionId": "EnablementProgram",
+      "NamespacePrefix": null,
+      "DeveloperName": "DoesAllowSelfEnrollment",
+      "MasterLabel": "ユーザーに自己登録を許可",
+      "Label": "ユーザーに自己登録を許可",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnablementProgram.EnablementProgramDefinition"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnablementProgram.EnablementProgramDefinition",
+      "QualifiedApiName": "EnablementProgramDefinitionId",
+      "EntityDefinitionId": "EnablementProgram",
+      "NamespacePrefix": null,
+      "DeveloperName": "EnablementProgramDefinition",
+      "MasterLabel": "イネーブルメントプログラム定義",
+      "Label": "イネーブルメントプログラム定義",
+      "DataType": "参照関係(イネーブルメントプログラム定義)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnablementProgram.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnablementProgram.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "EnablementProgram",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "イネーブルメントプログラム ID",
+      "Label": "イネーブルメントプログラム ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnablementProgram.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnablementProgram.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "EnablementProgram",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnablementProgram.IsOutcomeBased"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnablementProgram.IsOutcomeBased",
+      "QualifiedApiName": "IsOutcomeBased",
+      "EntityDefinitionId": "EnablementProgram",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsOutcomeBased",
+      "MasterLabel": "結果ベース",
+      "Label": "結果ベース",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnablementProgram.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnablementProgram.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "EnablementProgram",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnablementProgram.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnablementProgram.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "EnablementProgram",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnablementProgram.LastReferencedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnablementProgram.LastReferencedDate",
+      "QualifiedApiName": "LastReferencedDate",
+      "EntityDefinitionId": "EnablementProgram",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastReferencedDate",
+      "MasterLabel": "最終参照日",
+      "Label": "最終参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnablementProgram.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnablementProgram.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "EnablementProgram",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnablementProgram.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnablementProgram.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "EnablementProgram",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "プログラム名",
+      "Label": "プログラム名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnablementProgram.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnablementProgram.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "EnablementProgram",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "プログラム所有者",
+      "Label": "プログラム所有者",
+      "DataType": "参照関係(ユーザー,グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnablementProgram.PublishedDateTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnablementProgram.PublishedDateTime",
+      "QualifiedApiName": "PublishedDateTime",
+      "EntityDefinitionId": "EnablementProgram",
+      "NamespacePrefix": null,
+      "DeveloperName": "PublishedDateTime",
+      "MasterLabel": "公開日",
+      "Label": "公開日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnablementProgram.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnablementProgram.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "EnablementProgram",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnablementProgram.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnablementProgram.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "EnablementProgram",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnablementProgram.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnablementProgram.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "EnablementProgram",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnablementProgram.TotalAssigned"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnablementProgram.TotalAssigned",
+      "QualifiedApiName": "TotalAssigned",
+      "EntityDefinitionId": "EnablementProgram",
+      "NamespacePrefix": null,
+      "DeveloperName": "TotalAssigned",
+      "MasterLabel": "登録されたユーザー",
+      "Label": "登録されたユーザー",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnablementProgram.TotalBehind"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnablementProgram.TotalBehind",
+      "QualifiedApiName": "TotalBehind",
+      "EntityDefinitionId": "EnablementProgram",
+      "NamespacePrefix": null,
+      "DeveloperName": "TotalBehind",
+      "MasterLabel": "遅延しているユーザー",
+      "Label": "遅延しているユーザー",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnablementProgram.TotalCompleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnablementProgram.TotalCompleted",
+      "QualifiedApiName": "TotalCompleted",
+      "EntityDefinitionId": "EnablementProgram",
+      "NamespacePrefix": null,
+      "DeveloperName": "TotalCompleted",
+      "MasterLabel": "完了したユーザー",
+      "Label": "完了したユーザー",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnablementProgram.TotalDays"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnablementProgram.TotalDays",
+      "QualifiedApiName": "TotalDays",
+      "EntityDefinitionId": "EnablementProgram",
+      "NamespacePrefix": null,
+      "DeveloperName": "TotalDays",
+      "MasterLabel": "合計日数",
+      "Label": "合計日数",
+      "DataType": "積み上げ集計 ( イネーブルメントプログラムタスク定義)",
+      "IsCalculated": true,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnablementProgram.Type"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnablementProgram.Type",
+      "QualifiedApiName": "Type",
+      "EntityDefinitionId": "EnablementProgram",
+      "NamespacePrefix": null,
+      "DeveloperName": "Type",
+      "MasterLabel": "種別",
+      "Label": "種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EnablementProgram.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EnablementProgram.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "EnablementProgram",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

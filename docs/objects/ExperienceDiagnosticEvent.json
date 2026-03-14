@@ -1,0 +1,553 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 26,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExperienceDiagnosticEvent.BrowserDeviceType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExperienceDiagnosticEvent.BrowserDeviceType",
+      "QualifiedApiName": "BrowserDeviceType",
+      "EntityDefinitionId": "ExperienceDiagnosticEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "BrowserDeviceType",
+      "MasterLabel": "ブラウザーデバイス種別",
+      "Label": "ブラウザーデバイス種別",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExperienceDiagnosticEvent.ContextId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExperienceDiagnosticEvent.ContextId",
+      "QualifiedApiName": "ContextId",
+      "EntityDefinitionId": "ExperienceDiagnosticEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ContextId",
+      "MasterLabel": "コンテキスト ID",
+      "Label": "コンテキスト ID",
+      "DataType": "テキスト(32)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExperienceDiagnosticEvent.ContextId2"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExperienceDiagnosticEvent.ContextId2",
+      "QualifiedApiName": "ContextId2",
+      "EntityDefinitionId": "ExperienceDiagnosticEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ContextId2",
+      "MasterLabel": "2 つ目のコンテキスト ID",
+      "Label": "2 つ目のコンテキスト ID",
+      "DataType": "テキスト(32)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExperienceDiagnosticEvent.ContextMap"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExperienceDiagnosticEvent.ContextMap",
+      "QualifiedApiName": "ContextMap",
+      "EntityDefinitionId": "ExperienceDiagnosticEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ContextMap",
+      "MasterLabel": "コンテキスト対応付け",
+      "Label": "コンテキスト対応付け",
+      "DataType": "テキスト(1024)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExperienceDiagnosticEvent.CorrelationId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExperienceDiagnosticEvent.CorrelationId",
+      "QualifiedApiName": "CorrelationId",
+      "EntityDefinitionId": "ExperienceDiagnosticEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CorrelationId",
+      "MasterLabel": "相関関係 ID",
+      "Label": "相関関係 ID",
+      "DataType": "テキスト(32)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExperienceDiagnosticEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExperienceDiagnosticEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ExperienceDiagnosticEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExperienceDiagnosticEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExperienceDiagnosticEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ExperienceDiagnosticEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExperienceDiagnosticEvent.ErrorCode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExperienceDiagnosticEvent.ErrorCode",
+      "QualifiedApiName": "ErrorCode",
+      "EntityDefinitionId": "ExperienceDiagnosticEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorCode",
+      "MasterLabel": "エラーコード",
+      "Label": "エラーコード",
+      "DataType": "テキスト(50)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExperienceDiagnosticEvent.ErrorMessage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExperienceDiagnosticEvent.ErrorMessage",
+      "QualifiedApiName": "ErrorMessage",
+      "EntityDefinitionId": "ExperienceDiagnosticEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorMessage",
+      "MasterLabel": "エラーメッセージ",
+      "Label": "エラーメッセージ",
+      "DataType": "テキスト(512)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExperienceDiagnosticEvent.EventDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExperienceDiagnosticEvent.EventDate",
+      "QualifiedApiName": "EventDate",
+      "EntityDefinitionId": "ExperienceDiagnosticEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventDate",
+      "MasterLabel": "イベント日",
+      "Label": "イベント日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExperienceDiagnosticEvent.EventIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExperienceDiagnosticEvent.EventIdentifier",
+      "QualifiedApiName": "EventIdentifier",
+      "EntityDefinitionId": "ExperienceDiagnosticEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventIdentifier",
+      "MasterLabel": "イベント識別子",
+      "Label": "イベント識別子",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExperienceDiagnosticEvent.EventUuid"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExperienceDiagnosticEvent.EventUuid",
+      "QualifiedApiName": "EventUuid",
+      "EntityDefinitionId": "ExperienceDiagnosticEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventUuid",
+      "MasterLabel": "イベント UUID",
+      "Label": "イベント UUID",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExperienceDiagnosticEvent.InputCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExperienceDiagnosticEvent.InputCount",
+      "QualifiedApiName": "InputCount",
+      "EntityDefinitionId": "ExperienceDiagnosticEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "InputCount",
+      "MasterLabel": "InputCount",
+      "Label": "InputCount",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExperienceDiagnosticEvent.IsRetry"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExperienceDiagnosticEvent.IsRetry",
+      "QualifiedApiName": "IsRetry",
+      "EntityDefinitionId": "ExperienceDiagnosticEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsRetry",
+      "MasterLabel": "再試行",
+      "Label": "再試行",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExperienceDiagnosticEvent.NetworkId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExperienceDiagnosticEvent.NetworkId",
+      "QualifiedApiName": "NetworkId",
+      "EntityDefinitionId": "ExperienceDiagnosticEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "NetworkId",
+      "MasterLabel": "ネットワーク ID",
+      "Label": "ネットワーク ID",
+      "DataType": "テキスト(32)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExperienceDiagnosticEvent.Operation"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExperienceDiagnosticEvent.Operation",
+      "QualifiedApiName": "Operation",
+      "EntityDefinitionId": "ExperienceDiagnosticEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Operation",
+      "MasterLabel": "演算子",
+      "Label": "演算子",
+      "DataType": "テキスト(50)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExperienceDiagnosticEvent.OperationStage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExperienceDiagnosticEvent.OperationStage",
+      "QualifiedApiName": "OperationStage",
+      "EntityDefinitionId": "ExperienceDiagnosticEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "OperationStage",
+      "MasterLabel": "操作フェーズ",
+      "Label": "操作フェーズ",
+      "DataType": "テキスト(50)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExperienceDiagnosticEvent.OperationStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExperienceDiagnosticEvent.OperationStatus",
+      "QualifiedApiName": "OperationStatus",
+      "EntityDefinitionId": "ExperienceDiagnosticEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "OperationStatus",
+      "MasterLabel": "操作状況",
+      "Label": "操作状況",
+      "DataType": "テキスト(50)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExperienceDiagnosticEvent.OperationTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExperienceDiagnosticEvent.OperationTime",
+      "QualifiedApiName": "OperationTime",
+      "EntityDefinitionId": "ExperienceDiagnosticEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "OperationTime",
+      "MasterLabel": "操作の経過時間",
+      "Label": "操作の経過時間",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExperienceDiagnosticEvent.OsVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExperienceDiagnosticEvent.OsVersion",
+      "QualifiedApiName": "OsVersion",
+      "EntityDefinitionId": "ExperienceDiagnosticEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "OsVersion",
+      "MasterLabel": "OS バージョン",
+      "Label": "OS バージョン",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExperienceDiagnosticEvent.RelatedEventIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExperienceDiagnosticEvent.RelatedEventIdentifier",
+      "QualifiedApiName": "RelatedEventIdentifier",
+      "EntityDefinitionId": "ExperienceDiagnosticEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "RelatedEventIdentifier",
+      "MasterLabel": "関連イベント識別子",
+      "Label": "関連イベント識別子",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExperienceDiagnosticEvent.ReplayId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExperienceDiagnosticEvent.ReplayId",
+      "QualifiedApiName": "ReplayId",
+      "EntityDefinitionId": "ExperienceDiagnosticEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReplayId",
+      "MasterLabel": "再実行 ID",
+      "Label": "再実行 ID",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExperienceDiagnosticEvent.ResultCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExperienceDiagnosticEvent.ResultCount",
+      "QualifiedApiName": "ResultCount",
+      "EntityDefinitionId": "ExperienceDiagnosticEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ResultCount",
+      "MasterLabel": "ResultCount",
+      "Label": "ResultCount",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExperienceDiagnosticEvent.ServiceName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExperienceDiagnosticEvent.ServiceName",
+      "QualifiedApiName": "ServiceName",
+      "EntityDefinitionId": "ExperienceDiagnosticEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ServiceName",
+      "MasterLabel": "サービス名",
+      "Label": "サービス名",
+      "DataType": "テキスト(50)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExperienceDiagnosticEvent.User"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExperienceDiagnosticEvent.User",
+      "QualifiedApiName": "UserId",
+      "EntityDefinitionId": "ExperienceDiagnosticEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "User",
+      "MasterLabel": "ユーザー",
+      "Label": "ユーザー",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ExperienceDiagnosticEvent.Username"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ExperienceDiagnosticEvent.Username",
+      "QualifiedApiName": "Username",
+      "EntityDefinitionId": "ExperienceDiagnosticEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Username",
+      "MasterLabel": "ユーザー名",
+      "Label": "ユーザー名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

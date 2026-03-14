@@ -1,0 +1,322 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 15,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommonEventSubscriptionChangeEvent.BatchSize"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommonEventSubscriptionChangeEvent.BatchSize",
+      "QualifiedApiName": "BatchSize",
+      "EntityDefinitionId": "CommonEventSubscriptionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "BatchSize",
+      "MasterLabel": "共通イベント登録バッチサイズ",
+      "Label": "共通イベント登録バッチサイズ",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommonEventSubscriptionChangeEvent.ChangeEventHeader"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommonEventSubscriptionChangeEvent.ChangeEventHeader",
+      "QualifiedApiName": "ChangeEventHeader",
+      "EntityDefinitionId": "CommonEventSubscriptionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChangeEventHeader",
+      "MasterLabel": "変更イベントヘッダー",
+      "Label": "変更イベントヘッダー",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommonEventSubscriptionChangeEvent.CheckpointReplay"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommonEventSubscriptionChangeEvent.CheckpointReplay",
+      "QualifiedApiName": "CheckpointReplay",
+      "EntityDefinitionId": "CommonEventSubscriptionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CheckpointReplay",
+      "MasterLabel": "共通イベント登録チェックポイント再実行",
+      "Label": "共通イベント登録チェックポイント再実行",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommonEventSubscriptionChangeEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommonEventSubscriptionChangeEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "CommonEventSubscriptionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommonEventSubscriptionChangeEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommonEventSubscriptionChangeEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "CommonEventSubscriptionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommonEventSubscriptionChangeEvent.DefaultReplay"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommonEventSubscriptionChangeEvent.DefaultReplay",
+      "QualifiedApiName": "DefaultReplay",
+      "EntityDefinitionId": "CommonEventSubscriptionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DefaultReplay",
+      "MasterLabel": "共通イベント登録デフォルト再実行",
+      "Label": "共通イベント登録デフォルト再実行",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommonEventSubscriptionChangeEvent.ErrorRecoveryReplay"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommonEventSubscriptionChangeEvent.ErrorRecoveryReplay",
+      "QualifiedApiName": "ErrorRecoveryReplay",
+      "EntityDefinitionId": "CommonEventSubscriptionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorRecoveryReplay",
+      "MasterLabel": "共通イベント登録エラー回復再実行",
+      "Label": "共通イベント登録エラー回復再実行",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommonEventSubscriptionChangeEvent.EventChannel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommonEventSubscriptionChangeEvent.EventChannel",
+      "QualifiedApiName": "EventChannel",
+      "EntityDefinitionId": "CommonEventSubscriptionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventChannel",
+      "MasterLabel": "共通イベント登録イベントチャネル",
+      "Label": "共通イベント登録イベントチャネル",
+      "DataType": "選択リスト(プラットフォームイベントチャネル,カスタムオブジェクトの定義)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommonEventSubscriptionChangeEvent.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommonEventSubscriptionChangeEvent.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "CommonEventSubscriptionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommonEventSubscriptionChangeEvent.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommonEventSubscriptionChangeEvent.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "CommonEventSubscriptionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommonEventSubscriptionChangeEvent.ReferenceSubscription"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommonEventSubscriptionChangeEvent.ReferenceSubscription",
+      "QualifiedApiName": "ReferenceSubscriptionId",
+      "EntityDefinitionId": "CommonEventSubscriptionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReferenceSubscription",
+      "MasterLabel": "参照登録への外部キー",
+      "Label": "参照登録への外部キー",
+      "DataType": "参照関係(管理イベントサブスクリプション)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommonEventSubscriptionChangeEvent.State"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommonEventSubscriptionChangeEvent.State",
+      "QualifiedApiName": "State",
+      "EntityDefinitionId": "CommonEventSubscriptionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "State",
+      "MasterLabel": "共通イベント登録状態",
+      "Label": "共通イベント登録状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommonEventSubscriptionChangeEvent.TopicName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommonEventSubscriptionChangeEvent.TopicName",
+      "QualifiedApiName": "TopicName",
+      "EntityDefinitionId": "CommonEventSubscriptionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "TopicName",
+      "MasterLabel": "共通イベント登録トピック名",
+      "Label": "共通イベント登録トピック名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommonEventSubscriptionChangeEvent.UsageType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommonEventSubscriptionChangeEvent.UsageType",
+      "QualifiedApiName": "UsageType",
+      "EntityDefinitionId": "CommonEventSubscriptionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "UsageType",
+      "MasterLabel": "共通イベント登録利用状況種別",
+      "Label": "共通イベント登録利用状況種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/CommonEventSubscriptionChangeEvent.Version"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CommonEventSubscriptionChangeEvent.Version",
+      "QualifiedApiName": "Version",
+      "EntityDefinitionId": "CommonEventSubscriptionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Version",
+      "MasterLabel": "共通イベント登録バージョン",
+      "Label": "共通イベント登録バージョン",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

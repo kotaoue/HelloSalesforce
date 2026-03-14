@@ -1,0 +1,259 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 12,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailAssociationItem.CcEmail"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailAssociationItem.CcEmail",
+      "QualifiedApiName": "CcEmail",
+      "EntityDefinitionId": "MailAssociationItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "CcEmail",
+      "MasterLabel": "CcEmail",
+      "Label": "CcEmail",
+      "DataType": "テキスト(1333)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailAssociationItem.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailAssociationItem.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "MailAssociationItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailAssociationItem.FromEmail"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailAssociationItem.FromEmail",
+      "QualifiedApiName": "FromEmail",
+      "EntityDefinitionId": "MailAssociationItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "FromEmail",
+      "MasterLabel": "FromEmail",
+      "Label": "FromEmail",
+      "DataType": "テキスト(1333)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailAssociationItem.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailAssociationItem.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "MailAssociationItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "未解決の項目 ID",
+      "Label": "未解決の項目 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailAssociationItem.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailAssociationItem.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "MailAssociationItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailAssociationItem.OriginalEmailDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailAssociationItem.OriginalEmailDate",
+      "QualifiedApiName": "OriginalEmailDate",
+      "EntityDefinitionId": "MailAssociationItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "OriginalEmailDate",
+      "MasterLabel": "OriginalEmailDate",
+      "Label": "OriginalEmailDate",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailAssociationItem.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailAssociationItem.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "MailAssociationItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者 氏名",
+      "Label": "所有者 氏名",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailAssociationItem.Parent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailAssociationItem.Parent",
+      "QualifiedApiName": "ParentId",
+      "EntityDefinitionId": "MailAssociationItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "Parent",
+      "MasterLabel": "親",
+      "Label": "親",
+      "DataType": "参照関係(ToDo)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailAssociationItem.ReasonCode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailAssociationItem.ReasonCode",
+      "QualifiedApiName": "ReasonCode",
+      "EntityDefinitionId": "MailAssociationItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReasonCode",
+      "MasterLabel": "理由",
+      "Label": "理由",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailAssociationItem.Recipient"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailAssociationItem.Recipient",
+      "QualifiedApiName": "Recipient",
+      "EntityDefinitionId": "MailAssociationItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "Recipient",
+      "MasterLabel": "メールアドレス",
+      "Label": "メールアドレス",
+      "DataType": "メール",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailAssociationItem.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailAssociationItem.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "MailAssociationItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MailAssociationItem.ToEmail"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MailAssociationItem.ToEmail",
+      "QualifiedApiName": "ToEmail",
+      "EntityDefinitionId": "MailAssociationItem",
+      "NamespacePrefix": null,
+      "DeveloperName": "ToEmail",
+      "MasterLabel": "ToEmail",
+      "Label": "ToEmail",
+      "DataType": "テキスト(1333)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

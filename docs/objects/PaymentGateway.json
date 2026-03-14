@@ -1,0 +1,385 @@
+{
+  "fetchedAt": "2026-03-14T11:34:51.860Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 18,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentGateway.Comments"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentGateway.Comments",
+      "QualifiedApiName": "Comments",
+      "EntityDefinitionId": "PaymentGateway",
+      "NamespacePrefix": null,
+      "DeveloperName": "Comments",
+      "MasterLabel": "コメント",
+      "Label": "コメント",
+      "DataType": "テキストエリア(1000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentGateway.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentGateway.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "PaymentGateway",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentGateway.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentGateway.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "PaymentGateway",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentGateway.DefaultTapToPayLocation"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentGateway.DefaultTapToPayLocation",
+      "QualifiedApiName": "DefaultTapToPayLocation",
+      "EntityDefinitionId": "PaymentGateway",
+      "NamespacePrefix": null,
+      "DeveloperName": "DefaultTapToPayLocation",
+      "MasterLabel": "タップ支払場所",
+      "Label": "タップ支払場所",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentGateway.ExternalReference"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentGateway.ExternalReference",
+      "QualifiedApiName": "ExternalReference",
+      "EntityDefinitionId": "PaymentGateway",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExternalReference",
+      "MasterLabel": "外部参照",
+      "Label": "外部参照",
+      "DataType": "テキスト(255)  (ユニーク、大文字と小文字を区別しない)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentGateway.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentGateway.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "PaymentGateway",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "支払ゲートウェイ ID",
+      "Label": "支払ゲートウェイ ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentGateway.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentGateway.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "PaymentGateway",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentGateway.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentGateway.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "PaymentGateway",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentGateway.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentGateway.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "PaymentGateway",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentGateway.LastReferencedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentGateway.LastReferencedDate",
+      "QualifiedApiName": "LastReferencedDate",
+      "EntityDefinitionId": "PaymentGateway",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastReferencedDate",
+      "MasterLabel": "最終参照日",
+      "Label": "最終参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentGateway.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentGateway.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "PaymentGateway",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentGateway.MerchantCredential"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentGateway.MerchantCredential",
+      "QualifiedApiName": "MerchantCredentialId",
+      "EntityDefinitionId": "PaymentGateway",
+      "NamespacePrefix": null,
+      "DeveloperName": "MerchantCredential",
+      "MasterLabel": "業者のログイン情報",
+      "Label": "業者のログイン情報",
+      "DataType": "参照関係(指定ログイン情報)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentGateway.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentGateway.Name",
+      "QualifiedApiName": "PaymentGatewayName",
+      "EntityDefinitionId": "PaymentGateway",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "支払ゲートウェイ名",
+      "Label": "支払ゲートウェイ名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentGateway.PaymentGatewayProvider"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentGateway.PaymentGatewayProvider",
+      "QualifiedApiName": "PaymentGatewayProviderId",
+      "EntityDefinitionId": "PaymentGateway",
+      "NamespacePrefix": null,
+      "DeveloperName": "PaymentGatewayProvider",
+      "MasterLabel": "支払ゲートウェイプロバイダー",
+      "Label": "支払ゲートウェイプロバイダー",
+      "DataType": "参照関係(支払いゲートウェイプロバイダー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentGateway.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentGateway.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "PaymentGateway",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentGateway.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentGateway.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "PaymentGateway",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentGateway.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentGateway.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "PaymentGateway",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/PaymentGateway.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "PaymentGateway.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "PaymentGateway",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}
