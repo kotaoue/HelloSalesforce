@@ -18,12 +18,11 @@ const data = await fetchFieldDefinitions(username).catch((err) => {
   process.exit(1);
 });
 
-const OUTPUT_PATH = resolve(
-  __dirname,
-  '..',
-  'docs',
-  `field-definitions.${format}`
-);
+const OUTPUT_DIR = process.env.OUTPUT_DIR
+  ? resolve(process.env.OUTPUT_DIR)
+  : resolve(__dirname, '..', 'docs');
+
+const OUTPUT_PATH = resolve(OUTPUT_DIR, `field-definitions.${format}`);
 
 switch (format) {
   case 'json':
