@@ -2,8 +2,14 @@
 
 このディレクトリには GitHub Actions によって自動生成されたファイルが保存されます。
 
-- `field-definitions.json` — Salesforce Tooling API の [FieldDefinition](https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/tooling_api_objects_fielddefinition.htm) オブジェクトを取得した結果（JSON 形式）
-- `field-definitions.csv` — 同上の結果（CSV 形式）
+## ファイル・ディレクトリ一覧
+
+| パス | 説明 |
+|---|---|
+| `field-definitions.json` | Salesforce Tooling API の [FieldDefinition](https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/tooling_api_objects_fielddefinition.htm) オブジェクトを全件取得した結果（JSON 形式） |
+| `field-definitions.csv` | 同上の結果（CSV 形式） |
+| `objects/` | オブジェクトごとの FieldDefinition ファイル群。各ファイルは `<ObjectName>.json` または `<ObjectName>.csv` という命名規則で保存されます。 |
+| `actions/` | [kotaoue/salesforce-field-inspector](https://github.com/kotaoue/salesforce-field-inspector) Action を使用して取得した、オブジェクトごとの FieldDefinition CSV ファイル群。 |
 
 ---
 
@@ -60,10 +66,15 @@ Username        your.name@example.com
 
 ### 6. ワークフローを手動実行する
 
-JSON と CSV のそれぞれ独立したワークフローが用意されています。
+5 つの独立したワークフローが用意されています。
 
-- **Actions タブ → "Fetch FieldDefinition (JSON)" → "Run workflow"** — `docs/field-definitions.json` を更新します。  
-  自動実行: 毎週日曜 3:23 UTC
-- **Actions タブ → "Fetch FieldDefinition (CSV)" → "Run workflow"** — `docs/field-definitions.csv` を更新します。  
-  自動実行: 毎週日曜 4:23 UTC
+| ワークフロー名 | 更新対象 | 自動実行スケジュール |
+|---|---|---|
+| **Fetch FieldDefinition (JSON)** | `docs/field-definitions.json` | 毎週日曜 3:23 UTC |
+| **Fetch FieldDefinition (CSV)** | `docs/field-definitions.csv` | 毎週月曜 3:23 UTC |
+| **Fetch FieldDefinition (JSON per object)** | `docs/objects/<ObjectName>.json` | 毎週火曜 3:23 UTC |
+| **Fetch FieldDefinition (CSV per object)** | `docs/objects/<ObjectName>.csv` | 毎週水曜 3:23 UTC |
+| **Fetch FieldDefinition (Actions CSV per object)** | `docs/actions/<ObjectName>.csv` | 毎週金曜 3:23 UTC |
+
+各ワークフローは **Actions タブ → 対象ワークフロー名 → "Run workflow"** から手動実行することもできます。
 
