@@ -5,7 +5,7 @@
 ## ファイル・ディレクトリ一覧
 
 | パス | 説明 |
-|---|---|
+| --- | --- |
 | `field-definitions.json` | Salesforce Tooling API の [FieldDefinition](https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/tooling_api_objects_fielddefinition.htm) オブジェクトを全件取得した結果（JSON 形式） |
 | `field-definitions.csv` | 同上の結果（CSV 形式） |
 | `objects/` | オブジェクトごとの FieldDefinition ファイル群。各ファイルは `<ObjectName>.json` または `<ObjectName>.csv` という命名規則で保存されます。 |
@@ -43,7 +43,7 @@ sf org display --verbose --target-org myorg
 
 出力の `Sfdx Auth Url` 欄に表示される値（`force://...` で始まる文字列）をコピーします。
 
-```
+```text
 Sfdx Auth Url   force://PlatformCLI::5Aep861...@orgfarm-e70dfa8d5c-dev-ed.develop.lightning.force.com
 ```
 
@@ -51,7 +51,7 @@ Sfdx Auth Url   force://PlatformCLI::5Aep861...@orgfarm-e70dfa8d5c-dev-ed.develo
 
 同じ `sf org display` 出力の `Username` 欄に表示されるユーザー名をコピーします。
 
-```
+```text
 Username        your.name@example.com
 ```
 
@@ -70,45 +70,12 @@ Username        your.name@example.com
 
 ワークフローファイル: [`.github/workflows/fetch-field-definitions-actions.yml`](../.github/workflows/fetch-field-definitions-actions.yml)
 
-```yaml
-name: Fetch FieldDefinition (Actions CSV per object)
-
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "23 3 * * 5"
-
-jobs:
-  fetch:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Fetch FieldDefinitions (CSV per object)
-        uses: kotaoue/salesforce-field-inspector@main
-        with:
-          format: csv-per-object
-          output_dir: docs/actions
-          sfdx_auth_url: ${{ secrets.SFDX_AUTH_URL }}
-          sf_username: ${{ secrets.SF_USERNAME }}
-
-      - name: Commit and push results
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/actions/
-          git diff --cached --quiet || (git commit -m "chore: update docs/actions CSV per object [skip ci]" && git push)
-```
-
-### 7. ワークフローを手動実行する
+### 7. ワークフローを実行する
 
 5 つの独立したワークフローが用意されています。
 
 | ワークフロー名 | 更新対象 | 自動実行スケジュール |
-|---|---|---|
+| --- | --- | --- |
 | **Fetch FieldDefinition (JSON)** | `docs/field-definitions.json` | 毎週日曜 3:23 UTC |
 | **Fetch FieldDefinition (CSV)** | `docs/field-definitions.csv` | 毎週月曜 3:23 UTC |
 | **Fetch FieldDefinition (JSON per object)** | `docs/objects/<ObjectName>.json` | 毎週火曜 3:23 UTC |
@@ -116,4 +83,3 @@ jobs:
 | **Fetch FieldDefinition (Actions CSV per object)** | `docs/actions/<ObjectName>.csv` | 毎週金曜 3:23 UTC |
 
 各ワークフローは **Actions タブ → 対象ワークフロー名 → "Run workflow"** から手動実行することもできます。
-
