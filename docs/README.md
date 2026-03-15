@@ -64,7 +64,27 @@ Username        your.name@example.com
 | `SFDX_AUTH_URL` | 手順 3 で取得した `force://...` の文字列 |
 | `SF_USERNAME` | 手順 4 で確認したユーザー名 |
 
-### 6. ワークフローを手動実行する
+### 6. Fetch FieldDefinition (Actions CSV per object) で取得する
+
+[kotaoue/salesforce-field-inspector](https://github.com/kotaoue/salesforce-field-inspector) Action を使用したワークフローでは、Salesforce の FieldDefinition をオブジェクトごとの CSV ファイルとして `docs/actions/` に保存します。
+
+このワークフローは **Fetch FieldDefinition (Actions CSV per object)** という名前で、毎週金曜 3:23 UTC に自動実行されます。また、手動実行も可能です（手順 7 参照）。
+
+ワークフローの主な処理内容：
+
+1. `kotaoue/salesforce-field-inspector` Action を `format: csv-per-object` で呼び出し、`docs/actions/` ディレクトリに `<ObjectName>.csv` 形式のファイルを出力します。
+2. 出力されたファイルをコミット・プッシュします。
+
+**他のワークフローとの違い：**
+
+| ワークフロー名 | 実装方式 | 出力先 |
+|---|---|---|
+| **Fetch FieldDefinition (CSV per object)** | Salesforce CLI + スクリプト | `docs/objects/<ObjectName>.csv` |
+| **Fetch FieldDefinition (Actions CSV per object)** | `kotaoue/salesforce-field-inspector` Action | `docs/actions/<ObjectName>.csv` |
+
+`docs/actions/` には上記 Action によって取得されたファイルが保存されます。
+
+### 7. ワークフローを手動実行する
 
 5 つの独立したワークフローが用意されています。
 
