@@ -1,7 +1,7 @@
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { fetchFieldDefinitions } from './lib/fetch.js';
-import { saveResults, saveResultsAsCsv, saveResultsPerObject, saveResultsAsCsvPerObject } from './lib/output.js';
+import { fetchFieldDefinitions } from '../lib/fetch.js';
+import { saveResults, saveResultsAsCsv, saveResultsPerObject, saveResultsAsCsvPerObject } from '../lib/output.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -20,7 +20,7 @@ const data = await fetchFieldDefinitions(username).catch((err) => {
 
 const OUTPUT_DIR = process.env.OUTPUT_DIR
   ? resolve(process.env.OUTPUT_DIR)
-  : resolve(__dirname, '..', 'docs');
+  : resolve(__dirname, '..', '..', 'docs');
 
 const OUTPUT_PATH = resolve(OUTPUT_DIR, `field-definitions.${format}`);
 

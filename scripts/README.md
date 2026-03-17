@@ -17,7 +17,7 @@ This directory contains scripts for exploring and interacting with the Salesforc
 ## Salesforce Tech Stack Overview
 
 ### Tooling API
-The Tooling API provides access to Salesforce metadata and development tools. It is primarily used for building developer tooling — IDEs, code coverage analysis, metadata inspection. The existing [`fetch-field-definitions.js`](./fetch-field-definitions.js) script uses this API to retrieve `FieldDefinition` records.
+The Tooling API provides access to Salesforce metadata and development tools. It is primarily used for building developer tooling — IDEs, code coverage analysis, metadata inspection. The existing [`fetch-field-definitions.js`](./tooling-api/fetch-field-definitions.js) script uses this API to retrieve `FieldDefinition` records.
 
 ### REST API
 The core API for interacting with Salesforce data. It uses standard HTTP methods (`GET`, `POST`, `PATCH`, `DELETE`) and JSON payloads. Suitable for querying and manipulating records in any Salesforce object.
