@@ -1,7 +1,7 @@
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { fetchFieldDefinitions } from '../lib/fetch.js';
-import { saveResults, saveResultsAsCsv, saveResultsPerObject, saveResultsAsCsvPerObject } from '../lib/output.js';
+import { fetchFieldDefinitions } from './fetch.js';
+import { saveResults, saveResultsAsCsv, saveResultsPerObject, saveResultsAsCsvPerObject } from './output.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
