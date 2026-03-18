@@ -90,6 +90,33 @@ async function fetchFieldDefinitionBatch(connection, entityIds) {
 }
 
 /**
+ * Query all EntityDefinition records from the Tooling API.
+ * @param {string} username - Salesforce username to authenticate as
+ * @returns {{ instanceUrl: string, records: object[] }}
+ */
+export async function fetchObjects(username) {
+  const authInfo = await AuthInfo.create({ username });
+  const connection = await Connection.create({ authInfo });
+
+  console.log(`Connected to: ${connection.instanceUrl}`);
+
+  let records = [];
+  let result = await connection.tooling.query(
+    'SELECT DurableId, QualifiedApiName, Label, PluralLabel, KeyPrefix, IsCustom, DeveloperName, NamespacePrefix FROM EntityDefinition ORDER BY QualifiedApiName LIMIT 2000'
+  );
+  records = records.concat(result.records);
+
+  while (!result.done && result.nextRecordsUrl) {
+    result = await connection.tooling.queryMore(result.nextRecordsUrl);
+    records = records.concat(result.records);
+  }
+
+  console.log(`Fetched ${records.length} EntityDefinition records.`);
+
+  return { instanceUrl: connection.instanceUrl, records };
+}
+
+/**
  * Query all FieldDefinition records from the Tooling API.
  * @param {string} username - Salesforce username to authenticate as
  * @returns {{ instanceUrl: string, records: object[] }}
