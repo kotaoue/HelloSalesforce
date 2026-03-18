@@ -1,0 +1,23 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DevopsActivityLog.Activity,Activity,DevopsActivityLog,,Activity,活動,活動,テキスト(1000),false,true,false,false,false,true
+000000000000000AAA,DevopsActivityLog.ActivityDate,ActivityDate,DevopsActivityLog,,ActivityDate,活動日,活動日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DevopsActivityLog.ActivityType,ActivityType,DevopsActivityLog,,ActivityType,活動種別,活動種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,DevopsActivityLog.CreatedBy,CreatedById,DevopsActivityLog,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,DevopsActivityLog.CreatedDate,CreatedDate,DevopsActivityLog,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DevopsActivityLog.Description,Description,DevopsActivityLog,,Description,説明,説明,ロングテキストエリア(5000),false,true,false,false,false,false
+000000000000000AAA,DevopsActivityLog.DevopsRequestInfo,DevopsRequestInfoId,DevopsActivityLog,,DevopsRequestInfo,DevOps 要求情報,DevOps 要求情報,参照関係(要求情報),false,true,false,true,true,true
+000000000000000AAA,DevopsActivityLog.Id,Id,DevopsActivityLog,,Id,DevOps 活動ログ ID,DevOps 活動ログ ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DevopsActivityLog.IsDeleted,IsDeleted,DevopsActivityLog,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DevopsActivityLog.LastModifiedBy,LastModifiedById,DevopsActivityLog,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DevopsActivityLog.LastModifiedDate,LastModifiedDate,DevopsActivityLog,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DevopsActivityLog.LastReferencedDate,LastReferencedDate,DevopsActivityLog,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DevopsActivityLog.LastViewedDate,LastViewedDate,DevopsActivityLog,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DevopsActivityLog.Name,Name,DevopsActivityLog,,Name,名前,名前,自動採番,false,false,true,true,false,true
+000000000000000AAA,DevopsActivityLog.Owner,OwnerId,DevopsActivityLog,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,DevopsActivityLog.ParentActivity,ParentActivityId,DevopsActivityLog,,ParentActivity,親活動,親活動,参照関係(活動履歴),false,true,false,true,true,true
+000000000000000AAA,DevopsActivityLog.PerformedBy,PerformedById,DevopsActivityLog,,PerformedBy,実行者,実行者,参照関係(ユーザー),false,true,false,true,true,true
+000000000000000AAA,DevopsActivityLog.RecordVisibility,RecordVisibilityId,DevopsActivityLog,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,DevopsActivityLog.RequestInfoErrorDetails,RequestInfoErrorDetails,DevopsActivityLog,,RequestInfoErrorDetails,エラーの詳細,エラーの詳細,テキスト(1333),false,true,false,true,false,true
+000000000000000AAA,DevopsActivityLog.Status,Status,DevopsActivityLog,,Status,状況,状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DevopsActivityLog.SystemModstamp,SystemModstamp,DevopsActivityLog,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DevopsActivityLog.UserRecordAccess,UserRecordAccessId,DevopsActivityLog,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
