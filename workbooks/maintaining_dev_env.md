@@ -71,22 +71,208 @@ Sandboxリフレッシュ後に外部システムの認証情報の再設定が�
 つまり、認証情報のリセットは、本番データの漏洩や意図しない本番システムへのアクセスを防ぐためのセキュリティ対策です。
 
 **参考情報:**
+
 - [Salesforce Sandbox Refresh: A Complete Guide - Xappex](https://www.xappex.com/blog/salesforce-sandbox-refresh/)
 - [Authentication issues after sandbox refresh - Gearset](https://docs.gearset.com/en/articles/8703331-authentication-issues-after-a-sandbox-refresh)
 
 #### 補足: Sandboxの払い出し数について（課題感1）
 
 **判定: 正確**
-
 Salesforceエディションによって利用可能なSandbox数には確かに制限があります。例:
+
 - Enterprise Edition: 25 Developer + 1 Developer Pro + 1 Partial Copy
 - Unlimited Edition: 100 Developer + 5 Developer Pro + 1 Partial Copy + 1 Full
 
 ただし、追加のSandboxライセンスを購入することも可能です。
 
 **参考情報:**
+
 - [Sandbox License Compliance - Salesforce Help](https://help.salesforce.com/s/articleView?id=platform.data_sandbox_license_compliance.htm&language=en_US&type=5)
+
+## 要検討事項
+
+### コスト
+
+#### Salesforceライセンス体系とSandbox割り当て (2026年)
+
+| エディション | 価格 (user/month) | Developer Sandbox | Developer Pro | Partial Copy | Full Sandbox |
+| ---------- | ---------------- | ----------------- | ------------- | ------------ | ------------ |
+| Starter Suite | $25 | - | - | - | - |
+| Pro Suite | $100 | 10 | - | - | - |
+| Enterprise | $175 | 25 | 1 | 1 | - |
+| Unlimited | $350 | 100 | 5 | 1 | **1** |
+| Agentforce 1 | $550 | 100+ | 5+ | 1+ | **1+** |
+
+#### Sandbox追加購入コスト
+
+Full Sandboxや追加のSandboxが必要な場合、以下のコストで追加購入可能です:
+
+| Sandboxタイプ | 価格計算方法 | 推定年間コスト |
+| ------------ | ---------- | ------------- |
+| Developer Sandbox | 無料 | $0 |
+| Developer Pro | Net Spendの5% | - |
+| Partial Copy | Net Spendの20% | - |
+| **Full Sandbox** | **Net Spendの30%** | **$3,000 - $6,000+/年** |
+
+**注:** Net Spendとは、組織の正味ライセンスコストを指します。Full Sandboxの最低コストは約$1,485/年（無料ライセンスを$495として計算した場合）。
+
+#### Sandbox追加購入時のバンドル特典
+
+Sandbox追加購入時は、以下のバンドル特典が付属します:
+
+| 購入するSandbox | バンドル内容 |
+| -------------- | ---------- |
+| Developer Pro 1個 | + Developer Sandbox 5個 |
+| Partial Copy 1個 | + Developer Sandbox 10個 |
+| **Full Sandbox 1個** | **+ Developer Sandbox 15個** |
+
+#### コスト試算例
+
+例: Enterprise Edition (10ユーザー) でFull Sandboxを追加する場合
+
+- 基本ライセンス: $175 × 10 = **$1,750/月** ($21,000/年)
+- Full Sandbox追加: Net Spendの30% = 約**$6,300/年**
+- バンドル特典: Developer Sandbox 15個が追加で利用可能
+- **合計概算: $27,300/年**
+
+**参考情報:**
+
+- [Platform Sandboxes Pricing - Salesforce](https://www.salesforce.com/platform/sandboxes-environments/pricing/)
+- [Salesforce License Types 2026 - Codleo](https://www.codleo.com/blog/salesforce-license-types)
+- [Salesforce Pricing 2026 - SaaS CRM Review](https://saascrmreview.com/salesforce-pricing/)
+- [Salesforce Sandboxes 101 - Arrify](https://arrify.com/salesforce-sandbox)
 
 ## 解決策
 
-WIP
+### 3つの解決策パターン比較
+
+| 項目 | パターン1: Full Sandbox活用 | パターン2: 既存Sandbox活用 | パターン3: Partial Copy活用 |
+| --- | --- | --- | --- |
+| **コスト** | 高（年間約$6,300追加） | なし（既存ライセンス内） | $0〜中程度（追加購入時約$4,200/年） |
+| **工数** | 低 | 高 | 中 |
+| **運用難易度** | 低 | 高 | 中 |
+| **リフレッシュ間隔** | 29日 | 手動（任意） | 5日 |
+| **データ容量** | 本番と同じ | 200MB〜1GB | 5GB |
+| **推奨ケース** | 本番同等の環境が必須 | 予算制約が厳しい | バランス重視 |
+
+### パターン1: Full Sandbox活用（コスト増加パターン）
+
+#### 概要
+
+Full Sandboxを追加購入し、本番環境の完全なコピーを開発環境として利用する。29日間隔でのリフレッシュにより、定期的に最新の本番データを反映できる。
+
+#### 詳細
+
+**メリット:**
+
+- 本番環境と同じストレージ容量で完全なデータコピーが可能
+- バンドル特典でDeveloper Sandbox 15個が追加で利用可能
+- リフレッシュは自動化されており、手動作業は認証情報の再設定のみ
+- データの整合性が保たれやすい
+
+**デメリット:**
+
+- 年間約$6,300のコスト増加（Enterprise Edition 10ユーザーの場合）
+- リフレッシュ間隔が29日と長い
+- リフレッシュ後の認証情報再設定が必要
+
+**コスト詳細:**
+
+- Full Sandbox追加: Net Spendの30% ≒ $6,300/年
+- バンドル特典: Developer Sandbox 15個
+
+**推奨するケース:**
+
+- 本番環境と同等のデータ・構成でテストする必要がある
+- パフォーマンステストやUATで本番規模のデータが必要
+- 予算に余裕がある
+
+### パターン2: 既存Sandbox活用（コスト増加なしパターン）
+
+#### 概要
+
+既存のDeveloper/Developer Pro/Partial Copy Sandboxを活用し、開発に必要なデータを選択的にコピー・管理する。手動でのデータ移行・更新を行う。
+
+#### 詳細
+
+**メリット:**
+
+- 追加コストなし（既存ライセンス内で対応）
+- 必要なデータのみを選択できるため、データサイズを最小化できる
+- リフレッシュタイミングを自由に調整可能
+
+**デメリット:**
+
+- データ選定、エクスポート/インポートの手動作業が発生
+- スクリプト作成やツール設定の初期工数が高い
+- データ整合性の管理が複雑
+- 定期更新の運用負荷が高い
+
+**必要なツール・手法:**
+
+- Salesforce Data Loader
+- Salesforce CLI (`sf data export/import`)
+- Salesforce APIs (Bulk API, REST API)
+- 自動化スクリプト（Python, Node.js等）
+
+**推奨するケース:**
+
+- 予算制約が厳しく、追加コストを避けたい
+- 開発に必要なデータセットが明確で小規模
+- 技術チームにデータ管理のスキルがある
+
+### パターン3: Partial Copy Sandbox活用（折衷案）
+
+#### 概要
+
+Partial Copy Sandbox（5GB）を活用し、開発に必要な最小限のデータセットを定義してコピーする。Sandbox Templateを使用することで、5日間隔でのリフレッシュが可能。
+
+#### 詳細
+
+**メリット:**
+
+- Enterprise Editionには1個含まれているため、追加コスト不要
+- Sandbox Templateでデータ選定を管理できる
+- リフレッシュ間隔が5日と短い
+- Full Sandboxよりも低コストで拡張可能
+
+**デメリット:**
+
+- データ容量が5GBに制限される
+- 初期のTemplate設定に工数が必要
+- 本番環境の全データは含められない
+- 追加購入する場合は年間約$4,200のコスト
+
+**実装手順:**
+
+1. Sandbox Templateを作成し、コピーするオブジェクトとレコード条件を定義
+2. Partial Copy Sandboxを作成またはリフレッシュ
+3. 5日間隔でリフレッシュ可能
+4. 必要に応じて追加のPartial Copy Sandboxを購入
+
+**コスト詳細:**
+
+- Enterprise Editionに含まれる1個: $0
+- 追加購入時: Net Spendの20% ≒ $4,200/年
+- バンドル特典: Developer Sandbox 10個
+
+**推奨するケース:**
+
+- 開発に必要なデータセットが5GB以内に収まる
+- リフレッシュ頻度を高めたい（5日間隔）
+- コストと機能性のバランスを重視
+- 段階的にデータ管理を改善したい
+
+### 推奨アプローチ
+
+組織の状況に応じて、以下のように選択することを推奨します:
+
+1. **まずはパターン3（Partial Copy）で開始**: 既存ライセンス内で5日間隔のリフレッシュを実現
+2. **データセットの見直し**: Template設定で本当に必要なデータを精査
+3. **必要に応じてパターン1（Full Sandbox）へ移行**: 本番同等の環境が必須になった段階で検討
+
+**参考情報:**
+
+- [Sandbox Templates - Salesforce Help](https://help.salesforce.com/s/articleView?id=sf.data_sandbox_create.htm&type=5)
+- [Data Loader - Salesforce](https://developer.salesforce.com/tools/data-loader)
+- [Salesforce CLI Data Commands](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_data.htm)
