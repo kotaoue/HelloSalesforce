@@ -36,3 +36,20 @@ Apex is a strongly-typed, Java-like language that runs on the Salesforce server.
 
 ### SOQL
 SOQL (Salesforce Object Query Language) is a SQL-like query language for Salesforce objects. It is used in REST API queries (`/services/data/vXX.0/query?q=SELECT+...`), Apex code, and developer tools to filter, sort, and aggregate records.
+
+## Known Errors
+
+### `REQUEST_LIMIT_EXCEEDED`
+
+Salesforce API には1日あたりのリクエスト数に上限があります。上限を超えると以下のようなエラーが発生します。
+
+```json
+data: {
+  message: 'TotalRequests Limit exceeded.',
+  errorCode: 'REQUEST_LIMIT_EXCEEDED'
+}
+```
+
+これは Salesforce 側の制限によるものであり、しばらく待つことで解消されます。API リクエスト数の上限は Salesforce org の種別やエディションによって異なりますが、通常は太平洋標準時（PST）の深夜0時（日本標準時（JST）の午後5時）にリセットされます。
+
+詳細は [Salesforce の公式ドキュメント](https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm) を参照してください。
