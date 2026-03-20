@@ -60,7 +60,7 @@ Username        your.name@example.com
 リポジトリの **Settings → Secrets and variables → Actions → New repository secret** から以下を登録します。
 
 | Secret 名 | 値 |
-|---|---|
+| --- | --- |
 | `SFDX_AUTH_URL` | 手順 3 で取得した `force://...` の文字列 |
 | `SF_USERNAME` | 手順 4 で確認したユーザー名 |
 
