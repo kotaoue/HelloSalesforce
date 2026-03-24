@@ -1,8 +1,29 @@
 {
-  "fetchedAt": "2026-03-17T05:15:21.838Z",
+  "fetchedAt": "2026-03-24T05:17:53.161Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 36,
+  "totalSize": 50,
   "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MarketSegmentActivationChangeEvent.ActivationEventMetadata"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MarketSegmentActivationChangeEvent.ActivationEventMetadata",
+      "QualifiedApiName": "ActivationEventMetadata",
+      "EntityDefinitionId": "MarketSegmentActivationChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActivationEventMetadata",
+      "MasterLabel": "Activation Event Metadata",
+      "Label": "Activation Event Metadata",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
     {
       "attributes": {
         "type": "FieldDefinition",
@@ -17,6 +38,27 @@
       "MasterLabel": "有効化種別",
       "Label": "有効化種別",
       "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MarketSegmentActivationChangeEvent.ActivationMappingSchema"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MarketSegmentActivationChangeEvent.ActivationMappingSchema",
+      "QualifiedApiName": "ActivationMappingSchema",
+      "EntityDefinitionId": "MarketSegmentActivationChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActivationMappingSchema",
+      "MasterLabel": "有効化対応付けスキーマ",
+      "Label": "有効化対応付けスキーマ",
+      "DataType": "テキスト(255)",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,
@@ -111,6 +153,48 @@
     {
       "attributes": {
         "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MarketSegmentActivationChangeEvent.ActivationProcessingType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MarketSegmentActivationChangeEvent.ActivationProcessingType",
+      "QualifiedApiName": "ActivationProcessingType",
+      "EntityDefinitionId": "MarketSegmentActivationChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActivationProcessingType",
+      "MasterLabel": "処理種別",
+      "Label": "処理種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MarketSegmentActivationChangeEvent.ActivationRecordSchema"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MarketSegmentActivationChangeEvent.ActivationRecordSchema",
+      "QualifiedApiName": "ActivationRecordSchema",
+      "EntityDefinitionId": "MarketSegmentActivationChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActivationRecordSchema",
+      "MasterLabel": "有効化スキーマ",
+      "Label": "有効化スキーマ",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
         "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MarketSegmentActivationChangeEvent.ActivationRefreshType"
       },
       "Id": "000000000000000AAA",
@@ -164,6 +248,27 @@
       "MasterLabel": "有効化対象",
       "Label": "有効化対象",
       "DataType": "参照関係(有効化対象)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MarketSegmentActivationChangeEvent.AudienceDmoLastRunTimestamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MarketSegmentActivationChangeEvent.AudienceDmoLastRunTimestamp",
+      "QualifiedApiName": "AudienceDmoLastRunTimestamp",
+      "EntityDefinitionId": "MarketSegmentActivationChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "AudienceDmoLastRunTimestamp",
+      "MasterLabel": "オーディエンス DMO 最終実行タイムスタンプ",
+      "Label": "オーディエンス DMO 最終実行タイムスタンプ",
+      "DataType": "日付/時間",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,
@@ -426,6 +531,48 @@
     {
       "attributes": {
         "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MarketSegmentActivationChangeEvent.DoExcludeDeletes"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MarketSegmentActivationChangeEvent.DoExcludeDeletes",
+      "QualifiedApiName": "DoExcludeDeletes",
+      "EntityDefinitionId": "MarketSegmentActivationChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DoExcludeDeletes",
+      "MasterLabel": "最後の更新以降に削除されたレコードを除外",
+      "Label": "最後の更新以降に削除されたレコードを除外",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MarketSegmentActivationChangeEvent.DoExcludeUpdates"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MarketSegmentActivationChangeEvent.DoExcludeUpdates",
+      "QualifiedApiName": "DoExcludeUpdates",
+      "EntityDefinitionId": "MarketSegmentActivationChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DoExcludeUpdates",
+      "MasterLabel": "最後の更新以降に変更されたレコードを除外",
+      "Label": "最後の更新以降に変更されたレコードを除外",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
         "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MarketSegmentActivationChangeEvent.EndDate"
       },
       "Id": "000000000000000AAA",
@@ -439,6 +586,27 @@
       "DataType": "日付/時間",
       "IsCalculated": false,
       "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MarketSegmentActivationChangeEvent.IsRemote"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MarketSegmentActivationChangeEvent.IsRemote",
+      "QualifiedApiName": "IsRemote",
+      "EntityDefinitionId": "MarketSegmentActivationChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsRemote",
+      "MasterLabel": "リモート",
+      "Label": "リモート",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
       "IsIndexed": false,
       "IsApiFilterable": false,
       "IsApiGroupable": false,
@@ -699,6 +867,69 @@
     {
       "attributes": {
         "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MarketSegmentActivationChangeEvent.OwnedByOrg"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MarketSegmentActivationChangeEvent.OwnedByOrg",
+      "QualifiedApiName": "OwnedByOrg",
+      "EntityDefinitionId": "MarketSegmentActivationChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "OwnedByOrg",
+      "MasterLabel": "所有者",
+      "Label": "所有者",
+      "DataType": "テキスト(100)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MarketSegmentActivationChangeEvent.PartnerObjectIds"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MarketSegmentActivationChangeEvent.PartnerObjectIds",
+      "QualifiedApiName": "PartnerObjectIds",
+      "EntityDefinitionId": "MarketSegmentActivationChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "PartnerObjectIds",
+      "MasterLabel": "パートナーオブジェクト ID",
+      "Label": "パートナーオブジェクト ID",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MarketSegmentActivationChangeEvent.PlatformName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MarketSegmentActivationChangeEvent.PlatformName",
+      "QualifiedApiName": "PlatformName",
+      "EntityDefinitionId": "MarketSegmentActivationChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "PlatformName",
+      "MasterLabel": "プラットフォーム名",
+      "Label": "プラットフォーム名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
         "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MarketSegmentActivationChangeEvent.RecordCount"
       },
       "Id": "000000000000000AAA",
@@ -710,6 +941,48 @@
       "MasterLabel": "有効化レコード件数",
       "Label": "有効化レコード件数",
       "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MarketSegmentActivationChangeEvent.SourceDmo"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MarketSegmentActivationChangeEvent.SourceDmo",
+      "QualifiedApiName": "SourceDmoId",
+      "EntityDefinitionId": "MarketSegmentActivationChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "SourceDmo",
+      "MasterLabel": "データモデルオブジェクト",
+      "Label": "データモデルオブジェクト",
+      "DataType": "参照関係(データモデルオブジェクト)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MarketSegmentActivationChangeEvent.SourceDmoApiName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MarketSegmentActivationChangeEvent.SourceDmoApiName",
+      "QualifiedApiName": "SourceDmoApiName",
+      "EntityDefinitionId": "MarketSegmentActivationChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "SourceDmoApiName",
+      "MasterLabel": "Source DMO API Name",
+      "Label": "Source DMO API Name",
+      "DataType": "テキスト(255)",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,
@@ -751,6 +1024,27 @@
       "DeveloperName": "StaticAttributes",
       "MasterLabel": "静的属性",
       "Label": "静的属性",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MarketSegmentActivationChangeEvent.WaterfallSelectedChildSegmentsConfig"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MarketSegmentActivationChangeEvent.WaterfallSelectedChildSegmentsConfig",
+      "QualifiedApiName": "WaterfallSelectedChildSegmentsConfig",
+      "EntityDefinitionId": "MarketSegmentActivationChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "WaterfallSelectedChildSegmentsConfig",
+      "MasterLabel": "ウォーターフォールの選択された子セグメントの設定",
+      "Label": "ウォーターフォールの選択された子セグメントの設定",
       "DataType": "ロングテキストエリア(131072)",
       "IsCalculated": false,
       "IsNillable": true,
