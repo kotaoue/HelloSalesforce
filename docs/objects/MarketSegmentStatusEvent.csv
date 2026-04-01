@@ -6,8 +6,8 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,MarketSegmentStatusEvent.CreatedDate,CreatedDate,MarketSegmentStatusEvent,,CreatedDate,作成日,作成日,日付/時間,false,false,false,false,false,false
 000000000000000AAA,MarketSegmentStatusEvent.EventCreationDate,EventCreationDate,MarketSegmentStatusEvent,,EventCreationDate,イベント作成時刻,イベント作成時刻,日付/時間,false,true,false,false,false,false
 000000000000000AAA,MarketSegmentStatusEvent.EventUuid,EventUuid,MarketSegmentStatusEvent,,EventUuid,イベント UUID,イベント UUID,テキスト(36),false,true,false,false,false,false
-000000000000000AAA,MarketSegmentStatusEvent.IsActive,IsActive,MarketSegmentStatusEvent,,IsActive,Is Active,Is Active,チェックボックス,false,false,false,false,false,false
-000000000000000AAA,MarketSegmentStatusEvent.IsSyncRequired,IsSyncRequired,MarketSegmentStatusEvent,,IsSyncRequired,Is Sync Required,Is Sync Required,チェックボックス,false,false,false,false,false,false
+000000000000000AAA,MarketSegmentStatusEvent.IsActive,IsActive,MarketSegmentStatusEvent,,IsActive,有効,有効,チェックボックス,false,false,false,false,false,false
+000000000000000AAA,MarketSegmentStatusEvent.IsSyncRequired,IsSyncRequired,MarketSegmentStatusEvent,,IsSyncRequired,同期が必要,同期が必要,チェックボックス,false,false,false,false,false,false
 000000000000000AAA,MarketSegmentStatusEvent.LastPublishedEndDateTime,LastPublishedEndDateTime,MarketSegmentStatusEvent,,LastPublishedEndDateTime,このセグメントの最終公開終了日時,このセグメントの最終公開終了日時,日付/時間,false,true,false,false,false,false
 000000000000000AAA,MarketSegmentStatusEvent.LastSeedModelStatusDateTime,LastSeedModelStatusDateTime,MarketSegmentStatusEvent,,LastSeedModelStatusDateTime,このセグメントのシードモデルの最終日時,このセグメントのシードモデルの最終日時,日付/時間,false,true,false,false,false,false
 000000000000000AAA,MarketSegmentStatusEvent.LastSeedModelStatusErrorCode,LastSeedModelStatusErrorCode,MarketSegmentStatusEvent,,LastSeedModelStatusErrorCode,このセグメントのシードモデルの最終状況エラーコード,このセグメントのシードモデルの最終状況エラーコード,テキスト(4000),false,true,false,false,false,false
@@ -23,7 +23,7 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,MarketSegmentStatusEvent.LastSegmentStatusErrorDetails,LastSegmentStatusErrorDetails,MarketSegmentStatusEvent,,LastSegmentStatusErrorDetails,このセグメントの最終実行のエラーの詳細 (ある場合),このセグメントの最終実行のエラーの詳細 (ある場合),ロングテキストエリア(128000),false,true,false,false,false,false
 000000000000000AAA,MarketSegmentStatusEvent.LastSegmentTotalCount,LastSegmentTotalCount,MarketSegmentStatusEvent,,LastSegmentTotalCount,最新の実行後のセグメント合計数,最新の実行後のセグメント合計数,数値(18、0),false,true,false,false,false,false
 000000000000000AAA,MarketSegmentStatusEvent.NextPublishDateTime,NextPublishDateTime,MarketSegmentStatusEvent,,NextPublishDateTime,セグメントの次の公開日時,セグメントの次の公開日時,日付/時間,false,true,false,false,false,false
-000000000000000AAA,MarketSegmentStatusEvent.PreviewSimilarJobStats,PreviewSimilarJobStats,MarketSegmentStatusEvent,,PreviewSimilarJobStats,Preview similar job stats,Preview similar job stats,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,MarketSegmentStatusEvent.PreviewSimilarJobStats,PreviewSimilarJobStats,MarketSegmentStatusEvent,,PreviewSimilarJobStats,類似ジョブ統計をプレビュー,類似ジョブ統計をプレビュー,ロングテキストエリア(32000),false,true,false,false,false,false
 000000000000000AAA,MarketSegmentStatusEvent.ReplayId,ReplayId,MarketSegmentStatusEvent,,ReplayId,再実行 ID,再実行 ID,外部参照,false,true,false,false,false,false
 000000000000000AAA,MarketSegmentStatusEvent.SeedModelStatus,SeedModelStatus,MarketSegmentStatusEvent,,SeedModelStatus,このセグメントのシードモデルの状況,このセグメントのシードモデルの状況,テキスト(4000),false,true,false,false,false,false
 000000000000000AAA,MarketSegmentStatusEvent.SeedSimilarityHighToMedium,SeedSimilarityHighToMedium,MarketSegmentStatusEvent,,SeedSimilarityHighToMedium,シード類似性 (高～中),シード類似性 (高～中),数値(18、0),false,true,false,false,false,false
@@ -32,5 +32,5 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,MarketSegmentStatusEvent.SegmentJobStatus,SegmentJobStatus,MarketSegmentStatusEvent,,SegmentJobStatus,このセグメントでの最終実行の状況,このセグメントでの最終実行の状況,テキスト(4000),false,true,false,false,false,false
 000000000000000AAA,MarketSegmentStatusEvent.SegmentJobType,SegmentJobType,MarketSegmentStatusEvent,,SegmentJobType,セグメントジョブ種別,セグメントジョブ種別,テキスト(4000),false,true,false,false,false,false
 000000000000000AAA,MarketSegmentStatusEvent.SegmentMembershipTable,SegmentMembershipTable,MarketSegmentStatusEvent,,SegmentMembershipTable,セグメントメンバーシップデータモデルオブジェクト名,セグメントメンバーシップデータモデルオブジェクト名,テキスト(4000),false,true,false,false,false,false
-000000000000000AAA,MarketSegmentStatusEvent.SyncField,SyncField,MarketSegmentStatusEvent,,SyncField,Sync Field,Sync Field,テキスト(40),false,true,false,false,false,false
-000000000000000AAA,MarketSegmentStatusEvent.WaterfallSegmentStats,WaterfallSegmentStats,MarketSegmentStatusEvent,,WaterfallSegmentStats,Waterfall segment stats,Waterfall segment stats,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,MarketSegmentStatusEvent.SyncField,SyncField,MarketSegmentStatusEvent,,SyncField,項目を同期,項目を同期,テキスト(40),false,true,false,false,false,false
+000000000000000AAA,MarketSegmentStatusEvent.WaterfallSegmentStats,WaterfallSegmentStats,MarketSegmentStatusEvent,,WaterfallSegmentStats,ウォーターフォールセグメント統計,ウォーターフォールセグメント統計,ロングテキストエリア(32000),false,true,false,false,false,false

@@ -3,6 +3,7 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,EmbeddedMessagingChannel.AnonymousUserJwtExpiry,AnonymousUserJwtExpiry,EmbeddedMessagingChannel,,AnonymousUserJwtExpiry,匿名ユーザーの JWT の期限切れ,匿名ユーザーの JWT の期限切れ,数値(9、0),false,true,false,true,true,true
 000000000000000AAA,EmbeddedMessagingChannel.AuthMode,AuthMode,EmbeddedMessagingChannel,,AuthMode,認証モード,認証モード,選択リスト,false,false,false,true,true,true
 000000000000000AAA,EmbeddedMessagingChannel.CaptchaKey,CaptchaKeyId,EmbeddedMessagingChannel,,CaptchaKey,Captcha キー,Captcha キー,参照関係(Captcha キー),false,true,false,true,true,true
+000000000000000AAA,EmbeddedMessagingChannel.ChatAbandonmentTimeout,ChatAbandonmentTimeout,EmbeddedMessagingChannel,,ChatAbandonmentTimeout,Chat Abandonment Timeout,Chat Abandonment Timeout,数値(9、0),false,true,false,true,true,true
 000000000000000AAA,EmbeddedMessagingChannel.ConnectedApp,ConnectedApp,EmbeddedMessagingChannel,,ConnectedApp,接続アプリケーション名,接続アプリケーション名,テキスト(40),false,true,false,true,true,true
 000000000000000AAA,EmbeddedMessagingChannel.CreatedBy,CreatedById,EmbeddedMessagingChannel,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
 000000000000000AAA,EmbeddedMessagingChannel.CreatedDate,CreatedDate,EmbeddedMessagingChannel,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
@@ -17,7 +18,6 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,EmbeddedMessagingChannel.LastModifiedDate,LastModifiedDate,EmbeddedMessagingChannel,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
 000000000000000AAA,EmbeddedMessagingChannel.MaxFileSize,MaxFileSize,EmbeddedMessagingChannel,,MaxFileSize,最大ファイルサイズ,最大ファイルサイズ,数値(9、0),false,true,false,true,true,true
 000000000000000AAA,EmbeddedMessagingChannel.MessagingChannel,MessagingChannelId,EmbeddedMessagingChannel,,MessagingChannel,メッセージングチャネル,メッセージングチャネル,主従関係(メッセージングチャネル)  (ユニーク),false,false,true,true,true,true
-000000000000000AAA,EmbeddedMessagingChannel.PresenceTimeout,PresenceTimeout,EmbeddedMessagingChannel,,PresenceTimeout,プレゼンスタイムアウト,プレゼンスタイムアウト,数値(9、0),false,true,false,true,true,true
 000000000000000AAA,EmbeddedMessagingChannel.QueueLimitType,QueueLimitType,EmbeddedMessagingChannel,,QueueLimitType,キュー制限種別,キュー制限種別,選択リスト,false,true,false,true,true,true
 000000000000000AAA,EmbeddedMessagingChannel.QueueThreshold,QueueThreshold,EmbeddedMessagingChannel,,QueueThreshold,キューしきい値,キューしきい値,数値(9、0),false,true,false,true,true,true
 000000000000000AAA,EmbeddedMessagingChannel.SystemModstamp,SystemModstamp,EmbeddedMessagingChannel,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
