@@ -14,6 +14,7 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,ConversationEntryCopy.LastModifiedBy,LastModifiedById,ConversationEntryCopy,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
 000000000000000AAA,ConversationEntryCopy.LastModifiedDate,LastModifiedDate,ConversationEntryCopy,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
 000000000000000AAA,ConversationEntryCopy.Name,Name,ConversationEntryCopy,,Name,会話エントリコピー名,会話エントリコピー名,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,ConversationEntryCopy.Owner,OwnerId,ConversationEntryCopy,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
 000000000000000AAA,ConversationEntryCopy.RecordVisibility,RecordVisibilityId,ConversationEntryCopy,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
 000000000000000AAA,ConversationEntryCopy.SystemModstamp,SystemModstamp,ConversationEntryCopy,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
 000000000000000AAA,ConversationEntryCopy.TranscriptedTimestamp,TranscriptedTimestamp,ConversationEntryCopy,,TranscriptedTimestamp,トランスクリプトタイムスタンプ,トランスクリプトタイムスタンプ,日付/時間,false,true,false,true,false,true

@@ -1,0 +1,9 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DataKnowledgeSpcJobRunShare.AccessLevel,AccessLevel,DataKnowledgeSpcJobRunShare,,AccessLevel,カスタムオブジェクトのアクセス権,カスタムオブジェクトのアクセス権,選択リスト,false,false,false,true,true,true
+000000000000000AAA,DataKnowledgeSpcJobRunShare.Id,Id,DataKnowledgeSpcJobRunShare,,Id,カスタムオブジェクト共有 ID,カスタムオブジェクト共有 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DataKnowledgeSpcJobRunShare.IsDeleted,IsDeleted,DataKnowledgeSpcJobRunShare,,IsDeleted,削除,削除,チェックボックス,false,false,true,true,true,true
+000000000000000AAA,DataKnowledgeSpcJobRunShare.LastModifiedBy,LastModifiedById,DataKnowledgeSpcJobRunShare,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DataKnowledgeSpcJobRunShare.LastModifiedDate,LastModifiedDate,DataKnowledgeSpcJobRunShare,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DataKnowledgeSpcJobRunShare.Parent,ParentId,DataKnowledgeSpcJobRunShare,,Parent,参照先,参照先,参照関係(Knowledge Space Job Run),false,false,true,true,true,true
+000000000000000AAA,DataKnowledgeSpcJobRunShare.RowCause,RowCause,DataKnowledgeSpcJobRunShare,,RowCause,テリトリー割り当て方法,テリトリー割り当て方法,選択リスト(Apex 共有の理由),false,true,false,true,true,true
+000000000000000AAA,DataKnowledgeSpcJobRunShare.UserOrGroup,UserOrGroupId,DataKnowledgeSpcJobRunShare,,UserOrGroup,ユーザー/グループ,ユーザー/グループ,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
