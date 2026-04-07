@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-03-24T05:17:53.161Z",
+  "fetchedAt": "2026-04-07T05:34:55.894Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
   "totalSize": 23,
   "records": [
@@ -80,6 +80,27 @@
       "MasterLabel": "Captcha キー",
       "Label": "Captcha キー",
       "DataType": "参照関係(Captcha キー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannel.ChatAbandonmentTimeout"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmbeddedMessagingChannel.ChatAbandonmentTimeout",
+      "QualifiedApiName": "ChatAbandonmentTimeout",
+      "EntityDefinitionId": "EmbeddedMessagingChannel",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChatAbandonmentTimeout",
+      "MasterLabel": "Chat Abandonment Timeout",
+      "Label": "Chat Abandonment Timeout",
+      "DataType": "数値(9、0)",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,
@@ -377,27 +398,6 @@
       "IsCalculated": false,
       "IsNillable": false,
       "IsIndexed": true,
-      "IsApiFilterable": true,
-      "IsApiGroupable": true,
-      "IsApiSortable": true
-    },
-    {
-      "attributes": {
-        "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/EmbeddedMessagingChannel.PresenceTimeout"
-      },
-      "Id": "000000000000000AAA",
-      "DurableId": "EmbeddedMessagingChannel.PresenceTimeout",
-      "QualifiedApiName": "PresenceTimeout",
-      "EntityDefinitionId": "EmbeddedMessagingChannel",
-      "NamespacePrefix": null,
-      "DeveloperName": "PresenceTimeout",
-      "MasterLabel": "プレゼンスタイムアウト",
-      "Label": "プレゼンスタイムアウト",
-      "DataType": "数値(9、0)",
-      "IsCalculated": false,
-      "IsNillable": true,
-      "IsIndexed": false,
       "IsApiFilterable": true,
       "IsApiGroupable": true,
       "IsApiSortable": true
