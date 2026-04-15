@@ -102,7 +102,7 @@ export async function fetchObjects(username) {
 
   let records = [];
   let result = await connection.tooling.query(
-    'SELECT DurableId, QualifiedApiName, Label, PluralLabel, KeyPrefix, IsCustom, DeveloperName, NamespacePrefix FROM EntityDefinition ORDER BY QualifiedApiName LIMIT 2000'
+    'SELECT DurableId, QualifiedApiName, Label, PluralLabel, KeyPrefix, DeveloperName, NamespacePrefix FROM EntityDefinition ORDER BY QualifiedApiName LIMIT 2000'
   );
   records = records.concat(result.records);
 
