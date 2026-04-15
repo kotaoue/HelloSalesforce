@@ -28,10 +28,8 @@ func main() {
 	}
 	sort.Strings(names)
 
-	fmt.Println("<ul>")
 	for _, name := range names {
 		label := strings.TrimSuffix(name, filepath.Ext(name))
-		fmt.Printf("  <li><a href=\"%s\">%s</a></li>\n", name, label)
+		fmt.Printf("- [%s](%s)\n", label, name)
 	}
-	fmt.Println("</ul>")
 }
