@@ -1,8 +1,29 @@
 {
-  "fetchedAt": "2026-04-07T05:34:55.894Z",
+  "fetchedAt": "2026-04-21T05:49:09.143Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 48,
+  "totalSize": 53,
   "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MarketSegmentChangeEvent.AdditionalMetadataInfo"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MarketSegmentChangeEvent.AdditionalMetadataInfo",
+      "QualifiedApiName": "AdditionalMetadataInfo",
+      "EntityDefinitionId": "MarketSegmentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "AdditionalMetadataInfo",
+      "MasterLabel": "追加メタデータ情報",
+      "Label": "追加メタデータ情報",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
     {
       "attributes": {
         "type": "FieldDefinition",
@@ -205,6 +226,27 @@
       "DeveloperName": "IsPrevSaveApproxCount",
       "MasterLabel": "前の数の概算",
       "Label": "前の数の概算",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MarketSegmentChangeEvent.IsRemote"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MarketSegmentChangeEvent.IsRemote",
+      "QualifiedApiName": "IsRemote",
+      "EntityDefinitionId": "MarketSegmentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsRemote",
+      "MasterLabel": "リモート",
+      "Label": "リモート",
       "DataType": "チェックボックス",
       "IsCalculated": false,
       "IsNillable": false,
@@ -720,6 +762,27 @@
     {
       "attributes": {
         "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MarketSegmentChangeEvent.OwnedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MarketSegmentChangeEvent.OwnedBy",
+      "QualifiedApiName": "OwnedBy",
+      "EntityDefinitionId": "MarketSegmentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "OwnedBy",
+      "MasterLabel": "所有接続",
+      "Label": "所有接続",
+      "DataType": "テキスト(100)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
         "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MarketSegmentChangeEvent.PublishScheduleEndDate"
       },
       "Id": "000000000000000AAA",
@@ -752,6 +815,27 @@
       "MasterLabel": "公開スケジュール終了日時",
       "Label": "公開スケジュール終了日時",
       "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MarketSegmentChangeEvent.PublishScheduleInfo"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MarketSegmentChangeEvent.PublishScheduleInfo",
+      "QualifiedApiName": "PublishScheduleInfo",
+      "EntityDefinitionId": "MarketSegmentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "PublishScheduleInfo",
+      "MasterLabel": "公開スケジュールの詳細",
+      "Label": "公開スケジュールの詳細",
+      "DataType": "ロングテキストエリア(131072)",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,
@@ -1004,6 +1088,27 @@
       "MasterLabel": "セグメント状況",
       "Label": "セグメント状況",
       "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MarketSegmentChangeEvent.SourceMarketSegment"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MarketSegmentChangeEvent.SourceMarketSegment",
+      "QualifiedApiName": "SourceMarketSegment",
+      "EntityDefinitionId": "MarketSegmentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "SourceMarketSegment",
+      "MasterLabel": "ソースマーケットセグメント",
+      "Label": "ソースマーケットセグメント",
+      "DataType": "テキスト(18)",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,

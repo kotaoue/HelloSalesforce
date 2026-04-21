@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-07T05:34:55.894Z",
+  "fetchedAt": "2026-04-21T05:49:09.143Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
   "totalSize": 11,
   "records": [
@@ -40,48 +40,6 @@
       "DataType": "日付/時間",
       "IsCalculated": false,
       "IsNillable": false,
-      "IsIndexed": false,
-      "IsApiFilterable": false,
-      "IsApiGroupable": false,
-      "IsApiSortable": false
-    },
-    {
-      "attributes": {
-        "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLJobOrchStatusChgEvent.ErrorCode"
-      },
-      "Id": "000000000000000AAA",
-      "DurableId": "MLJobOrchStatusChgEvent.ErrorCode",
-      "QualifiedApiName": "ErrorCode",
-      "EntityDefinitionId": "MLJobOrchStatusChgEvent",
-      "NamespacePrefix": null,
-      "DeveloperName": "ErrorCode",
-      "MasterLabel": "最終実行のエラーコード",
-      "Label": "最終実行のエラーコード",
-      "DataType": "テキスト(4000)",
-      "IsCalculated": false,
-      "IsNillable": true,
-      "IsIndexed": false,
-      "IsApiFilterable": false,
-      "IsApiGroupable": false,
-      "IsApiSortable": false
-    },
-    {
-      "attributes": {
-        "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLJobOrchStatusChgEvent.ErrorMessage"
-      },
-      "Id": "000000000000000AAA",
-      "DurableId": "MLJobOrchStatusChgEvent.ErrorMessage",
-      "QualifiedApiName": "ErrorMessage",
-      "EntityDefinitionId": "MLJobOrchStatusChgEvent",
-      "NamespacePrefix": null,
-      "DeveloperName": "ErrorMessage",
-      "MasterLabel": "最終実行のエラーメッセージ",
-      "Label": "最終実行のエラーメッセージ",
-      "DataType": "テキスト(4000)",
-      "IsCalculated": false,
-      "IsNillable": true,
       "IsIndexed": false,
       "IsApiFilterable": false,
       "IsApiGroupable": false,
@@ -229,6 +187,48 @@
       "DataType": "テキスト(80)",
       "IsCalculated": false,
       "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLJobOrchStatusChgEvent.StatusCode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLJobOrchStatusChgEvent.StatusCode",
+      "QualifiedApiName": "StatusCode",
+      "EntityDefinitionId": "MLJobOrchStatusChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "StatusCode",
+      "MasterLabel": "Status code corresponding to the job status",
+      "Label": "Status code corresponding to the job status",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MLJobOrchStatusChgEvent.StatusMessage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MLJobOrchStatusChgEvent.StatusMessage",
+      "QualifiedApiName": "StatusMessage",
+      "EntityDefinitionId": "MLJobOrchStatusChgEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "StatusMessage",
+      "MasterLabel": "Status message corresponding to the job status",
+      "Label": "Status message corresponding to the job status",
+      "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
       "IsIndexed": false,
       "IsApiFilterable": false,
       "IsApiGroupable": false,

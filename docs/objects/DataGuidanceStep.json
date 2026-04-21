@@ -1,0 +1,406 @@
+{
+  "fetchedAt": "2026-04-21T05:49:09.143Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 19,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGuidanceStep.CompletedAt"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGuidanceStep.CompletedAt",
+      "QualifiedApiName": "CompletedAt",
+      "EntityDefinitionId": "DataGuidanceStep",
+      "NamespacePrefix": null,
+      "DeveloperName": "CompletedAt",
+      "MasterLabel": "Completed At",
+      "Label": "Completed At",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGuidanceStep.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGuidanceStep.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DataGuidanceStep",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGuidanceStep.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGuidanceStep.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DataGuidanceStep",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGuidanceStep.DataGuidanceStepDef"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGuidanceStep.DataGuidanceStepDef",
+      "QualifiedApiName": "DataGuidanceStepDefId",
+      "EntityDefinitionId": "DataGuidanceStep",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataGuidanceStepDef",
+      "MasterLabel": "Data Guidance Step Definition",
+      "Label": "Data Guidance Step Definition",
+      "DataType": "参照関係(Data Guidance Step Definition)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGuidanceStep.DataGuidanceStepGroup"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGuidanceStep.DataGuidanceStepGroup",
+      "QualifiedApiName": "DataGuidanceStepGroupId",
+      "EntityDefinitionId": "DataGuidanceStep",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataGuidanceStepGroup",
+      "MasterLabel": "Data Guidance Step Group",
+      "Label": "Data Guidance Step Group",
+      "DataType": "主従関係(Data Guidance Step Group)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGuidanceStep.ExecutorType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGuidanceStep.ExecutorType",
+      "QualifiedApiName": "ExecutorType",
+      "EntityDefinitionId": "DataGuidanceStep",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExecutorType",
+      "MasterLabel": "Executor Type",
+      "Label": "Executor Type",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGuidanceStep.FailureReason"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGuidanceStep.FailureReason",
+      "QualifiedApiName": "FailureReason",
+      "EntityDefinitionId": "DataGuidanceStep",
+      "NamespacePrefix": null,
+      "DeveloperName": "FailureReason",
+      "MasterLabel": "Failure Reason",
+      "Label": "Failure Reason",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGuidanceStep.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGuidanceStep.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DataGuidanceStep",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Data Guidance Step ID",
+      "Label": "Data Guidance Step ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGuidanceStep.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGuidanceStep.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DataGuidanceStep",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGuidanceStep.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGuidanceStep.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DataGuidanceStep",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGuidanceStep.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGuidanceStep.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DataGuidanceStep",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGuidanceStep.LastReferencedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGuidanceStep.LastReferencedDate",
+      "QualifiedApiName": "LastReferencedDate",
+      "EntityDefinitionId": "DataGuidanceStep",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastReferencedDate",
+      "MasterLabel": "最終参照日",
+      "Label": "最終参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGuidanceStep.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGuidanceStep.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "DataGuidanceStep",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGuidanceStep.LifecycleState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGuidanceStep.LifecycleState",
+      "QualifiedApiName": "LifecycleState",
+      "EntityDefinitionId": "DataGuidanceStep",
+      "NamespacePrefix": null,
+      "DeveloperName": "LifecycleState",
+      "MasterLabel": "Lifecycle State",
+      "Label": "Lifecycle State",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGuidanceStep.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGuidanceStep.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "DataGuidanceStep",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "Name",
+      "Label": "Name",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGuidanceStep.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGuidanceStep.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "DataGuidanceStep",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGuidanceStep.StartedAt"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGuidanceStep.StartedAt",
+      "QualifiedApiName": "StartedAt",
+      "EntityDefinitionId": "DataGuidanceStep",
+      "NamespacePrefix": null,
+      "DeveloperName": "StartedAt",
+      "MasterLabel": "Started At",
+      "Label": "Started At",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGuidanceStep.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGuidanceStep.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DataGuidanceStep",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataGuidanceStep.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGuidanceStep.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "DataGuidanceStep",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

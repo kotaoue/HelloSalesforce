@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-04-07T05:34:55.894Z",
+  "fetchedAt": "2026-04-21T05:49:09.143Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 11,
+  "totalSize": 12,
   "records": [
     {
       "attributes": {
@@ -77,8 +77,8 @@
       "EntityDefinitionId": "AiPlannerRelatedAgent",
       "NamespacePrefix": null,
       "DeveloperName": "Description",
-      "MasterLabel": "Description",
-      "Label": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
       "DataType": "ロングテキストエリア(1000)",
       "IsCalculated": false,
       "IsNillable": true,
@@ -86,6 +86,27 @@
       "IsApiFilterable": false,
       "IsApiGroupable": false,
       "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/AiPlannerRelatedAgent.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiPlannerRelatedAgent.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "AiPlannerRelatedAgent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "Developer Name",
+      "Label": "Developer Name",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
     },
     {
       "attributes": {
@@ -182,8 +203,8 @@
       "EntityDefinitionId": "AiPlannerRelatedAgent",
       "NamespacePrefix": null,
       "DeveloperName": "LoadingText",
-      "MasterLabel": "Loading Text",
-      "Label": "Loading Text",
+      "MasterLabel": "読み込み中テキスト",
+      "Label": "読み込み中テキスト",
       "DataType": "テキスト(255)",
       "IsCalculated": false,
       "IsNillable": true,
