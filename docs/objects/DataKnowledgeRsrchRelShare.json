@@ -1,0 +1,175 @@
+{
+  "fetchedAt": "2026-04-28T06:27:32.335Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 8,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRelShare.AccessLevel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRelShare.AccessLevel",
+      "QualifiedApiName": "AccessLevel",
+      "EntityDefinitionId": "DataKnowledgeRsrchRelShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "AccessLevel",
+      "MasterLabel": "カスタムオブジェクトのアクセス権",
+      "Label": "カスタムオブジェクトのアクセス権",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRelShare.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRelShare.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DataKnowledgeRsrchRelShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "カスタムオブジェクト共有 ID",
+      "Label": "カスタムオブジェクト共有 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRelShare.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRelShare.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DataKnowledgeRsrchRelShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRelShare.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRelShare.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DataKnowledgeRsrchRelShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRelShare.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRelShare.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DataKnowledgeRsrchRelShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRelShare.Parent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRelShare.Parent",
+      "QualifiedApiName": "ParentId",
+      "EntityDefinitionId": "DataKnowledgeRsrchRelShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "Parent",
+      "MasterLabel": "参照先",
+      "Label": "参照先",
+      "DataType": "参照関係(Data Knowledge Deep Research Relationship)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRelShare.RowCause"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRelShare.RowCause",
+      "QualifiedApiName": "RowCause",
+      "EntityDefinitionId": "DataKnowledgeRsrchRelShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "RowCause",
+      "MasterLabel": "テリトリー割り当て方法",
+      "Label": "テリトリー割り当て方法",
+      "DataType": "選択リスト(Apex 共有の理由)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRelShare.UserOrGroup"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRelShare.UserOrGroup",
+      "QualifiedApiName": "UserOrGroupId",
+      "EntityDefinitionId": "DataKnowledgeRsrchRelShare",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserOrGroup",
+      "MasterLabel": "ユーザー/グループ",
+      "Label": "ユーザー/グループ",
+      "DataType": "参照関係(ユーザー,グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}
