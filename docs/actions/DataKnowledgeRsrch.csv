@@ -1,0 +1,15 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DataKnowledgeRsrch.CreatedBy,CreatedById,DataKnowledgeRsrch,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,DataKnowledgeRsrch.CreatedDate,CreatedDate,DataKnowledgeRsrch,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DataKnowledgeRsrch.Id,Id,DataKnowledgeRsrch,,Id,Data Knowledge Deep Research ID,Data Knowledge Deep Research ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DataKnowledgeRsrch.IsDeleted,IsDeleted,DataKnowledgeRsrch,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DataKnowledgeRsrch.LastModifiedBy,LastModifiedById,DataKnowledgeRsrch,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DataKnowledgeRsrch.LastModifiedDate,LastModifiedDate,DataKnowledgeRsrch,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DataKnowledgeRsrch.Name,Name,DataKnowledgeRsrch,,Name,Data Knowledge Deep Research Name,Data Knowledge Deep Research Name,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,DataKnowledgeRsrch.OffCoreResearchJob,OffCoreResearchJob,DataKnowledgeRsrch,,OffCoreResearchJob,Off-Core Research Job,Off-Core Research Job,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataKnowledgeRsrch.OutputFilePath,OutputFilePath,DataKnowledgeRsrch,,OutputFilePath,Output File Path,Output File Path,ロングテキストエリア(1024),false,true,false,false,false,false
+000000000000000AAA,DataKnowledgeRsrch.Owner,OwnerId,DataKnowledgeRsrch,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,DataKnowledgeRsrch.RecordVisibility,RecordVisibilityId,DataKnowledgeRsrch,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,DataKnowledgeRsrch.Status,Status,DataKnowledgeRsrch,,Status,Research Status,Research Status,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataKnowledgeRsrch.SystemModstamp,SystemModstamp,DataKnowledgeRsrch,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DataKnowledgeRsrch.UserRecordAccess,UserRecordAccessId,DataKnowledgeRsrch,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
