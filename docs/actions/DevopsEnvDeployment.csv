@@ -1,0 +1,30 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DevopsEnvDeployment.CheckDeployCompletionDate,CheckDeployCompletionDate,DevopsEnvDeployment,,CheckDeployCompletionDate,リリース完了日を確認,リリース完了日を確認,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DevopsEnvDeployment.CheckDeployDate,CheckDeployDate,DevopsEnvDeployment,,CheckDeployDate,チェックリリース日,チェックリリース日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DevopsEnvDeployment.CheckDeployRequestInfo,CheckDeployRequestInfoId,DevopsEnvDeployment,,CheckDeployRequestInfo,リリース要求情報を確認,リリース要求情報を確認,参照関係(要求情報),false,true,false,true,true,true
+000000000000000AAA,DevopsEnvDeployment.CheckDeployStatus,CheckDeployStatus,DevopsEnvDeployment,,CheckDeployStatus,リリース状況を確認,リリース状況を確認,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DevopsEnvDeployment.CreatedBy,CreatedById,DevopsEnvDeployment,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,DevopsEnvDeployment.CreatedDate,CreatedDate,DevopsEnvDeployment,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DevopsEnvDeployment.DeployCompletionDate,DeployCompletionDate,DevopsEnvDeployment,,DeployCompletionDate,リリース完了日,リリース完了日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DevopsEnvDeployment.DeploymentDate,DeploymentDate,DevopsEnvDeployment,,DeploymentDate,リリース日,リリース日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DevopsEnvDeployment.DeploymentIdentifier,DeploymentIdentifier,DevopsEnvDeployment,,DeploymentIdentifier,リリース ID,リリース ID,テキスト(255)  (ユニーク、大文字と小文字を区別しない),false,true,true,true,true,true
+000000000000000AAA,DevopsEnvDeployment.DeployRequestInfo,DeployRequestInfoId,DevopsEnvDeployment,,DeployRequestInfo,リリース要求情報,リリース要求情報,参照関係(要求情報),false,true,false,true,true,true
+000000000000000AAA,DevopsEnvDeployment.DeployStatus,DeployStatus,DevopsEnvDeployment,,DeployStatus,リリース状況,リリース状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DevopsEnvDeployment.EndRevisionCounter,EndRevisionCounter,DevopsEnvDeployment,,EndRevisionCounter,終了リビジョンカウンター,終了リビジョンカウンター,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,DevopsEnvDeployment.Id,Id,DevopsEnvDeployment,,Id,DevOps 環境リリース ID,DevOps 環境リリース ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DevopsEnvDeployment.IsCheckDeploy,IsCheckDeploy,DevopsEnvDeployment,,IsCheckDeploy,チェックリリース,チェックリリース,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DevopsEnvDeployment.IsDeleted,IsDeleted,DevopsEnvDeployment,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DevopsEnvDeployment.IsFullDeploy,IsFullDeploy,DevopsEnvDeployment,,IsFullDeploy,完全リリース,完全リリース,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DevopsEnvDeployment.LastModifiedBy,LastModifiedById,DevopsEnvDeployment,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DevopsEnvDeployment.LastModifiedDate,LastModifiedDate,DevopsEnvDeployment,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DevopsEnvDeployment.LastReferencedDate,LastReferencedDate,DevopsEnvDeployment,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DevopsEnvDeployment.LastViewedDate,LastViewedDate,DevopsEnvDeployment,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DevopsEnvDeployment.Name,Name,DevopsEnvDeployment,,Name,名前,名前,自動採番,false,false,true,true,false,true
+000000000000000AAA,DevopsEnvDeployment.RecordVisibility,RecordVisibilityId,DevopsEnvDeployment,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,DevopsEnvDeployment.RunTests,RunTests,DevopsEnvDeployment,,RunTests,テストを実行,テストを実行,ロングテキストエリア(32768),false,true,false,false,false,false
+000000000000000AAA,DevopsEnvDeployment.StartRevisionCounter,StartRevisionCounter,DevopsEnvDeployment,,StartRevisionCounter,開始リビジョンカウンター,開始リビジョンカウンター,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,DevopsEnvDeployment.Status,Status,DevopsEnvDeployment,,Status,状況,状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DevopsEnvDeployment.SystemModstamp,SystemModstamp,DevopsEnvDeployment,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DevopsEnvDeployment.TargetDeployOrg,TargetDeployOrgId,DevopsEnvDeployment,,TargetDeployOrg,対象リリース組織,対象リリース組織,主従関係(環境),false,false,true,true,true,true
+000000000000000AAA,DevopsEnvDeployment.TestLevel,TestLevel,DevopsEnvDeployment,,TestLevel,テストレベル,テストレベル,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DevopsEnvDeployment.UserRecordAccess,UserRecordAccessId,DevopsEnvDeployment,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
