@@ -1,0 +1,469 @@
+{
+  "fetchedAt": "2026-05-19T07:09:38.263Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 22,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnwlgGrphPropDef.AssociationType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnwlgGrphPropDef.AssociationType",
+      "QualifiedApiName": "AssociationType",
+      "EntityDefinitionId": "DataKnwlgGrphPropDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "AssociationType",
+      "MasterLabel": "Association Type",
+      "Label": "Association Type",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnwlgGrphPropDef.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnwlgGrphPropDef.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DataKnwlgGrphPropDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnwlgGrphPropDef.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnwlgGrphPropDef.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DataKnwlgGrphPropDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnwlgGrphPropDef.DataType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnwlgGrphPropDef.DataType",
+      "QualifiedApiName": "DataType",
+      "EntityDefinitionId": "DataKnwlgGrphPropDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataType",
+      "MasterLabel": "Data Type",
+      "Label": "Data Type",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnwlgGrphPropDef.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnwlgGrphPropDef.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "DataKnwlgGrphPropDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "Description",
+      "Label": "Description",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnwlgGrphPropDef.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnwlgGrphPropDef.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "DataKnwlgGrphPropDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "Knowledge Graph Property Definition Developer Name",
+      "Label": "Knowledge Graph Property Definition Developer Name",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnwlgGrphPropDef.EdgeType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnwlgGrphPropDef.EdgeType",
+      "QualifiedApiName": "EdgeTypeId",
+      "EntityDefinitionId": "DataKnwlgGrphPropDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "EdgeType",
+      "MasterLabel": "Edge Type",
+      "Label": "Edge Type",
+      "DataType": "参照関係(Data Knowledge Graph Edge Definition)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnwlgGrphPropDef.Examples"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnwlgGrphPropDef.Examples",
+      "QualifiedApiName": "Examples",
+      "EntityDefinitionId": "DataKnwlgGrphPropDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "Examples",
+      "MasterLabel": "Examples",
+      "Label": "Examples",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnwlgGrphPropDef.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnwlgGrphPropDef.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DataKnwlgGrphPropDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Data Knowledge Graph Property Definition ID",
+      "Label": "Data Knowledge Graph Property Definition ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnwlgGrphPropDef.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnwlgGrphPropDef.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DataKnwlgGrphPropDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnwlgGrphPropDef.IsNameIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnwlgGrphPropDef.IsNameIdentifier",
+      "QualifiedApiName": "IsNameIdentifier",
+      "EntityDefinitionId": "DataKnwlgGrphPropDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsNameIdentifier",
+      "MasterLabel": "Is Name Identifier",
+      "Label": "Is Name Identifier",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnwlgGrphPropDef.KnowledgeGraph"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnwlgGrphPropDef.KnowledgeGraph",
+      "QualifiedApiName": "KnowledgeGraphId",
+      "EntityDefinitionId": "DataKnwlgGrphPropDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "KnowledgeGraph",
+      "MasterLabel": "Data Knowledge Graph Definition",
+      "Label": "Data Knowledge Graph Definition",
+      "DataType": "参照関係(Data Knowledge Graph Definition)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnwlgGrphPropDef.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnwlgGrphPropDef.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "DataKnwlgGrphPropDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnwlgGrphPropDef.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnwlgGrphPropDef.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DataKnwlgGrphPropDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnwlgGrphPropDef.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnwlgGrphPropDef.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DataKnwlgGrphPropDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnwlgGrphPropDef.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnwlgGrphPropDef.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "DataKnwlgGrphPropDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnwlgGrphPropDef.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnwlgGrphPropDef.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "DataKnwlgGrphPropDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnwlgGrphPropDef.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnwlgGrphPropDef.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "DataKnwlgGrphPropDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnwlgGrphPropDef.NodeType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnwlgGrphPropDef.NodeType",
+      "QualifiedApiName": "NodeTypeId",
+      "EntityDefinitionId": "DataKnwlgGrphPropDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "NodeType",
+      "MasterLabel": "Node Type",
+      "Label": "Node Type",
+      "DataType": "参照関係(Data Knowledge Graph Node Definition)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnwlgGrphPropDef.SobjectType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnwlgGrphPropDef.SobjectType",
+      "QualifiedApiName": "DataKnowledgeGraphDefId",
+      "EntityDefinitionId": "DataKnwlgGrphPropDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "SobjectType",
+      "MasterLabel": "Data Knowledge Graph Definition",
+      "Label": "Data Knowledge Graph Definition",
+      "DataType": "参照関係(Data Knowledge Graph Definition)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnwlgGrphPropDef.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnwlgGrphPropDef.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DataKnwlgGrphPropDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnwlgGrphPropDef.Version"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnwlgGrphPropDef.Version",
+      "QualifiedApiName": "Version",
+      "EntityDefinitionId": "DataKnwlgGrphPropDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "Version",
+      "MasterLabel": "Version",
+      "Label": "Version",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

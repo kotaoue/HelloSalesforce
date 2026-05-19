@@ -1,0 +1,322 @@
+{
+  "fetchedAt": "2026-05-19T07:09:38.263Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 15,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsEnvDeploymentMbrHistory.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsEnvDeploymentMbrHistory.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DevopsEnvDeploymentMbrHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsEnvDeploymentMbrHistory.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsEnvDeploymentMbrHistory.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DevopsEnvDeploymentMbrHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsEnvDeploymentMbrHistory.DataType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsEnvDeploymentMbrHistory.DataType",
+      "QualifiedApiName": "DataType",
+      "EntityDefinitionId": "DevopsEnvDeploymentMbrHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataType",
+      "MasterLabel": "データ型",
+      "Label": "データ型",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsEnvDeploymentMbrHistory.DevopsEnvDeploymentMbr"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsEnvDeploymentMbrHistory.DevopsEnvDeploymentMbr",
+      "QualifiedApiName": "DevopsEnvDeploymentMbrId",
+      "EntityDefinitionId": "DevopsEnvDeploymentMbrHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "DevopsEnvDeploymentMbr",
+      "MasterLabel": "環境リリースメンバー",
+      "Label": "環境リリースメンバー",
+      "DataType": "参照関係(環境リリースメンバー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsEnvDeploymentMbrHistory.Field"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsEnvDeploymentMbrHistory.Field",
+      "QualifiedApiName": "Field",
+      "EntityDefinitionId": "DevopsEnvDeploymentMbrHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Field",
+      "MasterLabel": "変更された項目",
+      "Label": "変更された項目",
+      "DataType": "選択リスト(カスタム項目の定義,カスタム項目データ列)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsEnvDeploymentMbrHistory.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsEnvDeploymentMbrHistory.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DevopsEnvDeploymentMbrHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "環境リリースメンバー履歴 ID",
+      "Label": "環境リリースメンバー履歴 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsEnvDeploymentMbrHistory.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsEnvDeploymentMbrHistory.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DevopsEnvDeploymentMbrHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsEnvDeploymentMbrHistory.NewvalDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsEnvDeploymentMbrHistory.NewvalDate",
+      "QualifiedApiName": "NewvalDate",
+      "EntityDefinitionId": "DevopsEnvDeploymentMbrHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewvalDate",
+      "MasterLabel": "新規の日付",
+      "Label": "新規の日付",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsEnvDeploymentMbrHistory.NewvalFirstName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsEnvDeploymentMbrHistory.NewvalFirstName",
+      "QualifiedApiName": "NewvalFirstName",
+      "EntityDefinitionId": "DevopsEnvDeploymentMbrHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewvalFirstName",
+      "MasterLabel": "新規の名",
+      "Label": "新規の名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsEnvDeploymentMbrHistory.NewvalLastName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsEnvDeploymentMbrHistory.NewvalLastName",
+      "QualifiedApiName": "NewvalLastName",
+      "EntityDefinitionId": "DevopsEnvDeploymentMbrHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewvalLastName",
+      "MasterLabel": "新規の姓",
+      "Label": "新規の姓",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsEnvDeploymentMbrHistory.NewValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsEnvDeploymentMbrHistory.NewValue",
+      "QualifiedApiName": "NewValue",
+      "EntityDefinitionId": "DevopsEnvDeploymentMbrHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "NewValue",
+      "MasterLabel": "新しい値",
+      "Label": "新しい値",
+      "DataType": "参照関係",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsEnvDeploymentMbrHistory.OldvalDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsEnvDeploymentMbrHistory.OldvalDate",
+      "QualifiedApiName": "OldvalDate",
+      "EntityDefinitionId": "DevopsEnvDeploymentMbrHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldvalDate",
+      "MasterLabel": "元の日付",
+      "Label": "元の日付",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsEnvDeploymentMbrHistory.OldvalFirstName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsEnvDeploymentMbrHistory.OldvalFirstName",
+      "QualifiedApiName": "OldvalFirstName",
+      "EntityDefinitionId": "DevopsEnvDeploymentMbrHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldvalFirstName",
+      "MasterLabel": "元の名",
+      "Label": "元の名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsEnvDeploymentMbrHistory.OldvalLastName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsEnvDeploymentMbrHistory.OldvalLastName",
+      "QualifiedApiName": "OldvalLastName",
+      "EntityDefinitionId": "DevopsEnvDeploymentMbrHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldvalLastName",
+      "MasterLabel": "元の姓",
+      "Label": "元の姓",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DevopsEnvDeploymentMbrHistory.OldValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsEnvDeploymentMbrHistory.OldValue",
+      "QualifiedApiName": "OldValue",
+      "EntityDefinitionId": "DevopsEnvDeploymentMbrHistory",
+      "NamespacePrefix": null,
+      "DeveloperName": "OldValue",
+      "MasterLabel": "元の値",
+      "Label": "元の値",
+      "DataType": "参照関係",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}
