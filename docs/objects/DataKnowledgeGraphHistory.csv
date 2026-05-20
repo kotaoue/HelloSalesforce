@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DataKnowledgeGraphHistory.CreatedBy,CreatedById,DataKnowledgeGraphHistory,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,DataKnowledgeGraphHistory.CreatedDate,CreatedDate,DataKnowledgeGraphHistory,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DataKnowledgeGraphHistory.DataKnowledgeGraph,DataKnowledgeGraphId,DataKnowledgeGraphHistory,,DataKnowledgeGraph,Knowledge Graph,Knowledge Graph,参照関係(Knowledge Graph),false,false,true,true,true,true
+000000000000000AAA,DataKnowledgeGraphHistory.DataType,DataType,DataKnowledgeGraphHistory,,DataType,データ型,データ型,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataKnowledgeGraphHistory.Field,Field,DataKnowledgeGraphHistory,,Field,変更された項目,変更された項目,"選択リスト(カスタム項目の定義,カスタム項目データ列)",false,false,true,true,true,true
+000000000000000AAA,DataKnowledgeGraphHistory.Id,Id,DataKnowledgeGraphHistory,,Id,Knowledge Graph History ID,Knowledge Graph History ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DataKnowledgeGraphHistory.IsDeleted,IsDeleted,DataKnowledgeGraphHistory,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DataKnowledgeGraphHistory.NewvalDate,NewvalDate,DataKnowledgeGraphHistory,,NewvalDate,新規の日付,新規の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DataKnowledgeGraphHistory.NewvalFirstName,NewvalFirstName,DataKnowledgeGraphHistory,,NewvalFirstName,新規の名,新規の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataKnowledgeGraphHistory.NewvalLastName,NewvalLastName,DataKnowledgeGraphHistory,,NewvalLastName,新規の姓,新規の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataKnowledgeGraphHistory.NewValue,NewValue,DataKnowledgeGraphHistory,,NewValue,新しい値,新しい値,参照関係,false,true,false,false,false,true
+000000000000000AAA,DataKnowledgeGraphHistory.OldvalDate,OldvalDate,DataKnowledgeGraphHistory,,OldvalDate,元の日付,元の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DataKnowledgeGraphHistory.OldvalFirstName,OldvalFirstName,DataKnowledgeGraphHistory,,OldvalFirstName,元の名,元の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataKnowledgeGraphHistory.OldvalLastName,OldvalLastName,DataKnowledgeGraphHistory,,OldvalLastName,元の姓,元の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataKnowledgeGraphHistory.OldValue,OldValue,DataKnowledgeGraphHistory,,OldValue,元の値,元の値,参照関係,false,true,false,false,false,true
