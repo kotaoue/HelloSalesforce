@@ -1,0 +1,12 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DataCleanRoomStatusEvent.CdpEventCreationDate,CdpEventCreationDate,DataCleanRoomStatusEvent,,CdpEventCreationDate,イベントを生成したサービスでのイベント作成時刻,イベントを生成したサービスでのイベント作成時刻,日付/時間,false,true,false,false,false,false
+000000000000000AAA,DataCleanRoomStatusEvent.CdpEventPublishDate,CdpEventPublishDate,DataCleanRoomStatusEvent,,CdpEventPublishDate,イベントサービスに表示されるイベント公開時刻,イベントサービスに表示されるイベント公開時刻,日付/時間,false,true,false,false,false,false
+000000000000000AAA,DataCleanRoomStatusEvent.CdpEventType,CdpEventType,DataCleanRoomStatusEvent,,CdpEventType,CDP イベントの種別 - コントロール/メタデータ/データ,CDP イベントの種別 - コントロール/メタデータ/データ,テキスト(4000),false,true,false,false,false,false
+000000000000000AAA,DataCleanRoomStatusEvent.CdpSchemaVersion,CdpSchemaVersion,DataCleanRoomStatusEvent,,CdpSchemaVersion,イベントのスキーマバージョン,イベントのスキーマバージョン,テキスト(4000),false,true,false,false,false,false
+000000000000000AAA,DataCleanRoomStatusEvent.CreatedBy,CreatedById,DataCleanRoomStatusEvent,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,false,false,false
+000000000000000AAA,DataCleanRoomStatusEvent.CreatedDate,CreatedDate,DataCleanRoomStatusEvent,,CreatedDate,作成日,作成日,日付/時間,false,false,false,false,false,false
+000000000000000AAA,DataCleanRoomStatusEvent.DataCleanRoomInfo,DataCleanRoomInfo,DataCleanRoomStatusEvent,,DataCleanRoomInfo,イベントが発生した組織の組織 ID,イベントが発生した組織の組織 ID,ロングテキストエリア(128000),false,true,false,false,false,false
+000000000000000AAA,DataCleanRoomStatusEvent.DataCleanRoomMemberInvitations,DataCleanRoomMemberInvitations,DataCleanRoomStatusEvent,,DataCleanRoomMemberInvitations,ソース組織のオフコアテナント ID,ソース組織のオフコアテナント ID,ロングテキストエリア(128000),false,true,false,false,false,false
+000000000000000AAA,DataCleanRoomStatusEvent.DataCleanRoomMembers,DataCleanRoomMembers,DataCleanRoomStatusEvent,,DataCleanRoomMembers,データ共有の API 参照名,データ共有の API 参照名,ロングテキストエリア(128000),false,true,false,false,false,false
+000000000000000AAA,DataCleanRoomStatusEvent.EventUuid,EventUuid,DataCleanRoomStatusEvent,,EventUuid,イベント UUID,イベント UUID,テキスト(36),false,true,false,false,false,false
+000000000000000AAA,DataCleanRoomStatusEvent.ReplayId,ReplayId,DataCleanRoomStatusEvent,,ReplayId,再実行 ID,再実行 ID,外部参照,false,true,false,false,false,false

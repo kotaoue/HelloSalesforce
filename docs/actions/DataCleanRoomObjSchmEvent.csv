@@ -1,0 +1,13 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DataCleanRoomObjSchmEvent.CdpEventCreationDate,CdpEventCreationDate,DataCleanRoomObjSchmEvent,,CdpEventCreationDate,イベントを生成したサービスでのイベント作成時刻,イベントを生成したサービスでのイベント作成時刻,日付/時間,false,true,false,false,false,false
+000000000000000AAA,DataCleanRoomObjSchmEvent.CdpEventPublishDate,CdpEventPublishDate,DataCleanRoomObjSchmEvent,,CdpEventPublishDate,イベントサービスに表示されるイベント公開時刻,イベントサービスに表示されるイベント公開時刻,日付/時間,false,true,false,false,false,false
+000000000000000AAA,DataCleanRoomObjSchmEvent.CdpEventType,CdpEventType,DataCleanRoomObjSchmEvent,,CdpEventType,CDP イベントの種別 - コントロール/メタデータ/データ,CDP イベントの種別 - コントロール/メタデータ/データ,テキスト(4000),false,true,false,false,false,false
+000000000000000AAA,DataCleanRoomObjSchmEvent.CdpSchemaVersion,CdpSchemaVersion,DataCleanRoomObjSchmEvent,,CdpSchemaVersion,イベントのスキーマバージョン,イベントのスキーマバージョン,テキスト(4000),false,true,false,false,false,false
+000000000000000AAA,DataCleanRoomObjSchmEvent.CollaborationApiName,CollaborationApiName,DataCleanRoomObjSchmEvent,,CollaborationApiName,クリーンルームコラボレーションの一意の識別子,クリーンルームコラボレーションの一意の識別子,テキスト(4000),false,true,false,false,false,false
+000000000000000AAA,DataCleanRoomObjSchmEvent.CollaborationQueryJobIdentifier,CollaborationQueryJobIdentifier,DataCleanRoomObjSchmEvent,,CollaborationQueryJobIdentifier,コラボレーションクエリジョブに関連付けられた識別子,コラボレーションクエリジョブに関連付けられた識別子,テキスト(4000),false,true,false,false,false,false
+000000000000000AAA,DataCleanRoomObjSchmEvent.CreatedBy,CreatedById,DataCleanRoomObjSchmEvent,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,false,false,false
+000000000000000AAA,DataCleanRoomObjSchmEvent.CreatedDate,CreatedDate,DataCleanRoomObjSchmEvent,,CreatedDate,作成日,作成日,日付/時間,false,false,false,false,false,false
+000000000000000AAA,DataCleanRoomObjSchmEvent.EventUuid,EventUuid,DataCleanRoomObjSchmEvent,,EventUuid,イベント UUID,イベント UUID,テキスト(36),false,true,false,false,false,false
+000000000000000AAA,DataCleanRoomObjSchmEvent.ObjectDetails,ObjectDetails,DataCleanRoomObjSchmEvent,,ObjectDetails,イベントが発生した組織の組織 ID,イベントが発生した組織の組織 ID,ロングテキストエリア(128000),false,true,false,false,false,false
+000000000000000AAA,DataCleanRoomObjSchmEvent.QueryParameters,QueryParameters,DataCleanRoomObjSchmEvent,,QueryParameters,API 参照名やスキーマなどのオブジェクト定義の詳細を定義する JSON,API 参照名やスキーマなどのオブジェクト定義の詳細を定義する JSON,ロングテキストエリア(128000),false,true,false,false,false,false
+000000000000000AAA,DataCleanRoomObjSchmEvent.ReplayId,ReplayId,DataCleanRoomObjSchmEvent,,ReplayId,再実行 ID,再実行 ID,外部参照,false,true,false,false,false,false
