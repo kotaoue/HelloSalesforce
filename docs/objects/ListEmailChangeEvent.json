@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-06-09T07:11:10.281Z",
+  "fetchedAt": "2026-06-16T09:18:44.941Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 24,
+  "totalSize": 28,
   "records": [
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.Campaign"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.Campaign"
       },
       "Id": "000000000000000AAA",
       "DurableId": "ListEmailChangeEvent.Campaign",
@@ -27,7 +27,28 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.ChangeEventHeader"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.CcAddress"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.CcAddress",
+      "QualifiedApiName": "CcAddress",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CcAddress",
+      "MasterLabel": "CC アドレス",
+      "Label": "CC アドレス",
+      "DataType": "ロングテキストエリア(320)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.ChangeEventHeader"
       },
       "Id": "000000000000000AAA",
       "DurableId": "ListEmailChangeEvent.ChangeEventHeader",
@@ -48,7 +69,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.CreatedBy"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.CreatedBy"
       },
       "Id": "000000000000000AAA",
       "DurableId": "ListEmailChangeEvent.CreatedBy",
@@ -69,7 +90,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.CreatedDate"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.CreatedDate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "ListEmailChangeEvent.CreatedDate",
@@ -90,7 +111,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.FromAddress"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.FromAddress"
       },
       "Id": "000000000000000AAA",
       "DurableId": "ListEmailChangeEvent.FromAddress",
@@ -111,7 +132,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.FromName"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.FromName"
       },
       "Id": "000000000000000AAA",
       "DurableId": "ListEmailChangeEvent.FromName",
@@ -132,7 +153,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.HasAttachment"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.HasAttachment"
       },
       "Id": "000000000000000AAA",
       "DurableId": "ListEmailChangeEvent.HasAttachment",
@@ -153,7 +174,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.HtmlBody"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.HtmlBody"
       },
       "Id": "000000000000000AAA",
       "DurableId": "ListEmailChangeEvent.HtmlBody",
@@ -174,7 +195,49 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.IsTracked"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.IsEmailArchiveRequired"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.IsEmailArchiveRequired",
+      "QualifiedApiName": "IsEmailArchiveRequired",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsEmailArchiveRequired",
+      "MasterLabel": "メールアーカイブが必要",
+      "Label": "メールアーカイブが必要",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.IsSyntheticCcEnabled"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.IsSyntheticCcEnabled",
+      "QualifiedApiName": "IsSyntheticCcEnabled",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsSyntheticCcEnabled",
+      "MasterLabel": "合成 CC が有効",
+      "Label": "合成 CC が有効",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.IsTracked"
       },
       "Id": "000000000000000AAA",
       "DurableId": "ListEmailChangeEvent.IsTracked",
@@ -195,7 +258,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.LastModifiedBy"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.LastModifiedBy"
       },
       "Id": "000000000000000AAA",
       "DurableId": "ListEmailChangeEvent.LastModifiedBy",
@@ -216,7 +279,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.LastModifiedDate"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.LastModifiedDate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "ListEmailChangeEvent.LastModifiedDate",
@@ -237,7 +300,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.Name"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.Name"
       },
       "Id": "000000000000000AAA",
       "DurableId": "ListEmailChangeEvent.Name",
@@ -258,7 +321,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.Owner"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.Owner"
       },
       "Id": "000000000000000AAA",
       "DurableId": "ListEmailChangeEvent.Owner",
@@ -279,7 +342,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.PardotAsset"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.PardotAsset"
       },
       "Id": "000000000000000AAA",
       "DurableId": "ListEmailChangeEvent.PardotAsset",
@@ -300,7 +363,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.PardotExternalId"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.PardotExternalId"
       },
       "Id": "000000000000000AAA",
       "DurableId": "ListEmailChangeEvent.PardotExternalId",
@@ -321,7 +384,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.PardotTenant"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.PardotTenant"
       },
       "Id": "000000000000000AAA",
       "DurableId": "ListEmailChangeEvent.PardotTenant",
@@ -342,7 +405,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.RelatedTo"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.RelatedTo"
       },
       "Id": "000000000000000AAA",
       "DurableId": "ListEmailChangeEvent.RelatedTo",
@@ -352,7 +415,7 @@
       "DeveloperName": "RelatedTo",
       "MasterLabel": "関連先",
       "Label": "関連先",
-      "DataType": "参照関係(障害,リード,商談,取引先責任者,ユーザー,ケース,商品,予定招待)",
+      "DataType": "参照関係(インシデント,リード,商談,取引先責任者,ユーザー,ケース,商品,予定招待)",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,
@@ -363,7 +426,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.ReplyToAddress"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.ReplyToAddress"
       },
       "Id": "000000000000000AAA",
       "DurableId": "ListEmailChangeEvent.ReplyToAddress",
@@ -384,7 +447,28 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.ScheduledDate"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.ReplyToName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ListEmailChangeEvent.ReplyToName",
+      "QualifiedApiName": "ReplyToName",
+      "EntityDefinitionId": "ListEmailChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReplyToName",
+      "MasterLabel": "返信先名",
+      "Label": "返信先名",
+      "DataType": "テキスト(121)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.ScheduledDate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "ListEmailChangeEvent.ScheduledDate",
@@ -405,7 +489,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.SentVia"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.SentVia"
       },
       "Id": "000000000000000AAA",
       "DurableId": "ListEmailChangeEvent.SentVia",
@@ -426,7 +510,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.Status"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.Status"
       },
       "Id": "000000000000000AAA",
       "DurableId": "ListEmailChangeEvent.Status",
@@ -447,7 +531,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.Subject"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.Subject"
       },
       "Id": "000000000000000AAA",
       "DurableId": "ListEmailChangeEvent.Subject",
@@ -468,7 +552,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.TextBody"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.TextBody"
       },
       "Id": "000000000000000AAA",
       "DurableId": "ListEmailChangeEvent.TextBody",
@@ -489,7 +573,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.TotalSent"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/ListEmailChangeEvent.TotalSent"
       },
       "Id": "000000000000000AAA",
       "DurableId": "ListEmailChangeEvent.TotalSent",

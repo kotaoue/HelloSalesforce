@@ -1,0 +1,280 @@
+{
+  "fetchedAt": "2026-06-16T09:18:44.941Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 13,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/CustomerIntelligenceChannelInsight.Channel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomerIntelligenceChannelInsight.Channel",
+      "QualifiedApiName": "ChannelId",
+      "EntityDefinitionId": "CustomerIntelligenceChannelInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "Channel",
+      "MasterLabel": "カスタムチャネル",
+      "Label": "カスタムチャネル",
+      "DataType": "参照関係(カスタマーエクスペリエンスインテリジェンスカスタムチャネル)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/CustomerIntelligenceChannelInsight.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomerIntelligenceChannelInsight.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "CustomerIntelligenceChannelInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/CustomerIntelligenceChannelInsight.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomerIntelligenceChannelInsight.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "CustomerIntelligenceChannelInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/CustomerIntelligenceChannelInsight.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomerIntelligenceChannelInsight.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "CustomerIntelligenceChannelInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/CustomerIntelligenceChannelInsight.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomerIntelligenceChannelInsight.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "CustomerIntelligenceChannelInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "カスタマーエクスペリエンスインテリジェンスチャネルインサイト ID",
+      "Label": "カスタマーエクスペリエンスインテリジェンスチャネルインサイト ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/CustomerIntelligenceChannelInsight.InsightType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomerIntelligenceChannelInsight.InsightType",
+      "QualifiedApiName": "InsightType",
+      "EntityDefinitionId": "CustomerIntelligenceChannelInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "InsightType",
+      "MasterLabel": "インサイト種別",
+      "Label": "インサイト種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/CustomerIntelligenceChannelInsight.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomerIntelligenceChannelInsight.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "CustomerIntelligenceChannelInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/CustomerIntelligenceChannelInsight.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomerIntelligenceChannelInsight.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "CustomerIntelligenceChannelInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/CustomerIntelligenceChannelInsight.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomerIntelligenceChannelInsight.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "CustomerIntelligenceChannelInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/CustomerIntelligenceChannelInsight.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomerIntelligenceChannelInsight.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "CustomerIntelligenceChannelInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/CustomerIntelligenceChannelInsight.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomerIntelligenceChannelInsight.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "CustomerIntelligenceChannelInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/CustomerIntelligenceChannelInsight.PromptTemplateDevName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomerIntelligenceChannelInsight.PromptTemplateDevName",
+      "QualifiedApiName": "PromptTemplateDevName",
+      "EntityDefinitionId": "CustomerIntelligenceChannelInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "PromptTemplateDevName",
+      "MasterLabel": "プロンプトテンプレート API 参照名",
+      "Label": "プロンプトテンプレート API 参照名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/CustomerIntelligenceChannelInsight.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CustomerIntelligenceChannelInsight.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "CustomerIntelligenceChannelInsight",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

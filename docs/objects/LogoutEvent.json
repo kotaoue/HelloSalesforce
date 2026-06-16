@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-06-09T07:11:10.281Z",
+  "fetchedAt": "2026-06-16T09:18:44.941Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 10,
+  "totalSize": 12,
   "records": [
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LogoutEvent.CreatedDate"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/LogoutEvent.CreatedDate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "LogoutEvent.CreatedDate",
@@ -27,7 +27,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LogoutEvent.EventDate"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/LogoutEvent.EventDate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "LogoutEvent.EventDate",
@@ -48,7 +48,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LogoutEvent.EventIdentifier"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/LogoutEvent.EventIdentifier"
       },
       "Id": "000000000000000AAA",
       "DurableId": "LogoutEvent.EventIdentifier",
@@ -69,7 +69,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LogoutEvent.Id"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/LogoutEvent.Id"
       },
       "Id": "000000000000000AAA",
       "DurableId": "LogoutEvent.Id",
@@ -90,7 +90,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LogoutEvent.LoginKey"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/LogoutEvent.LoginKey"
       },
       "Id": "000000000000000AAA",
       "DurableId": "LogoutEvent.LoginKey",
@@ -111,7 +111,49 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LogoutEvent.SessionKey"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/LogoutEvent.Profile"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LogoutEvent.Profile",
+      "QualifiedApiName": "ProfileId",
+      "EntityDefinitionId": "LogoutEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Profile",
+      "MasterLabel": "プロファイル",
+      "Label": "プロファイル",
+      "DataType": "参照関係(プロファイル)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/LogoutEvent.Role"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LogoutEvent.Role",
+      "QualifiedApiName": "RoleId",
+      "EntityDefinitionId": "LogoutEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Role",
+      "MasterLabel": "ロール",
+      "Label": "ロール",
+      "DataType": "参照関係(ロール)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/LogoutEvent.SessionKey"
       },
       "Id": "000000000000000AAA",
       "DurableId": "LogoutEvent.SessionKey",
@@ -132,7 +174,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LogoutEvent.SessionLevel"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/LogoutEvent.SessionLevel"
       },
       "Id": "000000000000000AAA",
       "DurableId": "LogoutEvent.SessionLevel",
@@ -153,7 +195,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LogoutEvent.SourceIp"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/LogoutEvent.SourceIp"
       },
       "Id": "000000000000000AAA",
       "DurableId": "LogoutEvent.SourceIp",
@@ -174,7 +216,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LogoutEvent.User"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/LogoutEvent.User"
       },
       "Id": "000000000000000AAA",
       "DurableId": "LogoutEvent.User",
@@ -195,7 +237,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/LogoutEvent.Username"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/LogoutEvent.Username"
       },
       "Id": "000000000000000AAA",
       "DurableId": "LogoutEvent.Username",

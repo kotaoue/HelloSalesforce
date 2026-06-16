@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-06-09T07:11:10.281Z",
+  "fetchedAt": "2026-06-16T09:18:44.941Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 11,
+  "totalSize": 16,
   "records": [
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.CreatedBy"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.CreatedBy"
       },
       "Id": "000000000000000AAA",
       "DurableId": "McpServerToolDefinition.CreatedBy",
@@ -27,7 +27,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.CreatedDate"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.CreatedDate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "McpServerToolDefinition.CreatedDate",
@@ -48,7 +48,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.DescriptionOverride"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.DescriptionOverride"
       },
       "Id": "000000000000000AAA",
       "DurableId": "McpServerToolDefinition.DescriptionOverride",
@@ -69,7 +69,28 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.Id"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.Destructive"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "McpServerToolDefinition.Destructive",
+      "QualifiedApiName": "Destructive",
+      "EntityDefinitionId": "McpServerToolDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Destructive",
+      "MasterLabel": "Hint that the tool may perform destructive updates",
+      "Label": "Hint that the tool may perform destructive updates",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.Id"
       },
       "Id": "000000000000000AAA",
       "DurableId": "McpServerToolDefinition.Id",
@@ -90,7 +111,28 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.IsDeleted"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.Idempotent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "McpServerToolDefinition.Idempotent",
+      "QualifiedApiName": "Idempotent",
+      "EntityDefinitionId": "McpServerToolDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "Idempotent",
+      "MasterLabel": "Hint that repeated calls with the same arguments have the same effect",
+      "Label": "Hint that repeated calls with the same arguments have the same effect",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.IsDeleted"
       },
       "Id": "000000000000000AAA",
       "DurableId": "McpServerToolDefinition.IsDeleted",
@@ -111,7 +153,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.LastModifiedBy"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.LastModifiedBy"
       },
       "Id": "000000000000000AAA",
       "DurableId": "McpServerToolDefinition.LastModifiedBy",
@@ -132,7 +174,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.LastModifiedDate"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.LastModifiedDate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "McpServerToolDefinition.LastModifiedDate",
@@ -153,7 +195,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.McpServer"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.McpServer"
       },
       "Id": "000000000000000AAA",
       "DurableId": "McpServerToolDefinition.McpServer",
@@ -174,7 +216,70 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.SystemModstamp"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.OpenWorld"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "McpServerToolDefinition.OpenWorld",
+      "QualifiedApiName": "OpenWorld",
+      "EntityDefinitionId": "McpServerToolDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "OpenWorld",
+      "MasterLabel": "Hint that the tool interacts with an open world of external entities",
+      "Label": "Hint that the tool interacts with an open world of external entities",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.ReadOnly"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "McpServerToolDefinition.ReadOnly",
+      "QualifiedApiName": "ReadOnly",
+      "EntityDefinitionId": "McpServerToolDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReadOnly",
+      "MasterLabel": "Hint that the tool does not modify its environment",
+      "Label": "Hint that the tool does not modify its environment",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.ReturnDirect"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "McpServerToolDefinition.ReturnDirect",
+      "QualifiedApiName": "ReturnDirect",
+      "EntityDefinitionId": "McpServerToolDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReturnDirect",
+      "MasterLabel": "Hint that the tool output should be sent directly to the caller",
+      "Label": "Hint that the tool output should be sent directly to the caller",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.SystemModstamp"
       },
       "Id": "000000000000000AAA",
       "DurableId": "McpServerToolDefinition.SystemModstamp",
@@ -195,7 +300,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.ToolName"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.ToolName"
       },
       "Id": "000000000000000AAA",
       "DurableId": "McpServerToolDefinition.ToolName",
@@ -216,7 +321,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.ToolTitle"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.ToolTitle"
       },
       "Id": "000000000000000AAA",
       "DurableId": "McpServerToolDefinition.ToolTitle",

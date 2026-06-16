@@ -1,0 +1,553 @@
+{
+  "fetchedAt": "2026-06-16T09:18:44.941Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 26,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IdpConfiguration.ActivationStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpConfiguration.ActivationStatus",
+      "QualifiedApiName": "ActivationStatus",
+      "EntityDefinitionId": "IdpConfiguration",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActivationStatus",
+      "MasterLabel": "有効化状況",
+      "Label": "有効化状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IdpConfiguration.ConfigMetadata"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpConfiguration.ConfigMetadata",
+      "QualifiedApiName": "ConfigMetadata",
+      "EntityDefinitionId": "IdpConfiguration",
+      "NamespacePrefix": null,
+      "DeveloperName": "ConfigMetadata",
+      "MasterLabel": "設定メタデータ",
+      "Label": "設定メタデータ",
+      "DataType": "ロングテキストエリア(65535)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IdpConfiguration.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpConfiguration.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "IdpConfiguration",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IdpConfiguration.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpConfiguration.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "IdpConfiguration",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IdpConfiguration.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpConfiguration.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "IdpConfiguration",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "IDP 設定の説明",
+      "Label": "IDP 設定の説明",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IdpConfiguration.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpConfiguration.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "IdpConfiguration",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "IDP 設定 API 参照名",
+      "Label": "IDP 設定 API 参照名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IdpConfiguration.ExternalServiceRegistration"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpConfiguration.ExternalServiceRegistration",
+      "QualifiedApiName": "ExternalServiceRegistrationId",
+      "EntityDefinitionId": "IdpConfiguration",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExternalServiceRegistration",
+      "MasterLabel": "外部サービス登録",
+      "Label": "外部サービス登録",
+      "DataType": "参照関係(外部サービス登録)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IdpConfiguration.ExtractedDloConfig"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpConfiguration.ExtractedDloConfig",
+      "QualifiedApiName": "ExtractedDloConfig",
+      "EntityDefinitionId": "IdpConfiguration",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExtractedDloConfig",
+      "MasterLabel": "抽出 DLO 設定",
+      "Label": "抽出 DLO 設定",
+      "DataType": "ロングテキストエリア(65535)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IdpConfiguration.FileConfig"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpConfiguration.FileConfig",
+      "QualifiedApiName": "FileConfig",
+      "EntityDefinitionId": "IdpConfiguration",
+      "NamespacePrefix": null,
+      "DeveloperName": "FileConfig",
+      "MasterLabel": "ファイル設定",
+      "Label": "ファイル設定",
+      "DataType": "ロングテキストエリア(65535)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IdpConfiguration.FilterByDmo"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpConfiguration.FilterByDmo",
+      "QualifiedApiName": "FilterByDmoId",
+      "EntityDefinitionId": "IdpConfiguration",
+      "NamespacePrefix": null,
+      "DeveloperName": "FilterByDmo",
+      "MasterLabel": "データモデルオブジェクト",
+      "Label": "データモデルオブジェクト",
+      "DataType": "参照関係(データモデルオブジェクト)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IdpConfiguration.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpConfiguration.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "IdpConfiguration",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "IDP 設定 ID",
+      "Label": "IDP 設定 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IdpConfiguration.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpConfiguration.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "IdpConfiguration",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IdpConfiguration.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpConfiguration.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "IdpConfiguration",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IdpConfiguration.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpConfiguration.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "IdpConfiguration",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IdpConfiguration.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpConfiguration.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "IdpConfiguration",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IdpConfiguration.LastRunOn"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpConfiguration.LastRunOn",
+      "QualifiedApiName": "LastRunOn",
+      "EntityDefinitionId": "IdpConfiguration",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastRunOn",
+      "MasterLabel": "最終実行日",
+      "Label": "最終実行日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IdpConfiguration.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpConfiguration.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "IdpConfiguration",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IdpConfiguration.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpConfiguration.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "IdpConfiguration",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IdpConfiguration.MlModel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpConfiguration.MlModel",
+      "QualifiedApiName": "MlModel",
+      "EntityDefinitionId": "IdpConfiguration",
+      "NamespacePrefix": null,
+      "DeveloperName": "MlModel",
+      "MasterLabel": "ML モデル",
+      "Label": "ML モデル",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IdpConfiguration.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpConfiguration.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "IdpConfiguration",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IdpConfiguration.OffCoreSyncStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpConfiguration.OffCoreSyncStatus",
+      "QualifiedApiName": "OffCoreSyncStatus",
+      "EntityDefinitionId": "IdpConfiguration",
+      "NamespacePrefix": null,
+      "DeveloperName": "OffCoreSyncStatus",
+      "MasterLabel": "オフコア同期状況",
+      "Label": "オフコア同期状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IdpConfiguration.RuntimeStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpConfiguration.RuntimeStatus",
+      "QualifiedApiName": "RuntimeStatus",
+      "EntityDefinitionId": "IdpConfiguration",
+      "NamespacePrefix": null,
+      "DeveloperName": "RuntimeStatus",
+      "MasterLabel": "最終実行状況",
+      "Label": "最終実行状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IdpConfiguration.SchemaConfig"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpConfiguration.SchemaConfig",
+      "QualifiedApiName": "SchemaConfig",
+      "EntityDefinitionId": "IdpConfiguration",
+      "NamespacePrefix": null,
+      "DeveloperName": "SchemaConfig",
+      "MasterLabel": "スキーマ設定",
+      "Label": "スキーマ設定",
+      "DataType": "ロングテキストエリア(65535)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IdpConfiguration.SourceDmo"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpConfiguration.SourceDmo",
+      "QualifiedApiName": "SourceDmoId",
+      "EntityDefinitionId": "IdpConfiguration",
+      "NamespacePrefix": null,
+      "DeveloperName": "SourceDmo",
+      "MasterLabel": "ソースオブジェクト",
+      "Label": "ソースオブジェクト",
+      "DataType": "参照関係(データモデルオブジェクト)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IdpConfiguration.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpConfiguration.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "IdpConfiguration",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IdpConfiguration.Version"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdpConfiguration.Version",
+      "QualifiedApiName": "Version",
+      "EntityDefinitionId": "IdpConfiguration",
+      "NamespacePrefix": null,
+      "DeveloperName": "Version",
+      "MasterLabel": "バージョン",
+      "Label": "バージョン",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

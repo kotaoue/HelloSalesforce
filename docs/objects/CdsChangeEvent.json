@@ -1,0 +1,196 @@
+{
+  "fetchedAt": "2026-06-16T09:18:44.941Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 9,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/CdsChangeEvent.Action"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CdsChangeEvent.Action",
+      "QualifiedApiName": "Action",
+      "EntityDefinitionId": "CdsChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Action",
+      "MasterLabel": "アクション",
+      "Label": "アクション",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/CdsChangeEvent.AsyncOperationLog"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CdsChangeEvent.AsyncOperationLog",
+      "QualifiedApiName": "AsyncOperationLogId",
+      "EntityDefinitionId": "CdsChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "AsyncOperationLog",
+      "MasterLabel": "非同期操作ログ",
+      "Label": "非同期操作ログ",
+      "DataType": "参照関係(非同期操作ログ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/CdsChangeEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CdsChangeEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "CdsChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/CdsChangeEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CdsChangeEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "CdsChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/CdsChangeEvent.Data"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CdsChangeEvent.Data",
+      "QualifiedApiName": "Data",
+      "EntityDefinitionId": "CdsChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Data",
+      "MasterLabel": "データ",
+      "Label": "データ",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/CdsChangeEvent.EntityType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CdsChangeEvent.EntityType",
+      "QualifiedApiName": "EntityType",
+      "EntityDefinitionId": "CdsChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EntityType",
+      "MasterLabel": "エンティティ種別",
+      "Label": "エンティティ種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/CdsChangeEvent.EventUuid"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CdsChangeEvent.EventUuid",
+      "QualifiedApiName": "EventUuid",
+      "EntityDefinitionId": "CdsChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventUuid",
+      "MasterLabel": "イベント UUID",
+      "Label": "イベント UUID",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/CdsChangeEvent.ReplayId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CdsChangeEvent.ReplayId",
+      "QualifiedApiName": "ReplayId",
+      "EntityDefinitionId": "CdsChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReplayId",
+      "MasterLabel": "再実行 ID",
+      "Label": "再実行 ID",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/CdsChangeEvent.SyncType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CdsChangeEvent.SyncType",
+      "QualifiedApiName": "SyncType",
+      "EntityDefinitionId": "CdsChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "SyncType",
+      "MasterLabel": "同期種別",
+      "Label": "同期種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

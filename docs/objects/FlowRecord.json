@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-06-09T07:11:10.281Z",
+  "fetchedAt": "2026-06-16T09:18:44.941Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 46,
+  "totalSize": 50,
   "records": [
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.Activation"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.Activation"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.Activation",
@@ -27,7 +27,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.ActiveVersion"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.ActiveVersion"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.ActiveVersion",
@@ -48,7 +48,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.ApiName"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.ApiName"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.ApiName",
@@ -69,7 +69,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.ApiVersion"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.ApiVersion"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.ApiVersion",
@@ -90,7 +90,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.AreMetricsLoggedToDataCloud"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.AreMetricsLoggedToDataCloud"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.AreMetricsLoggedToDataCloud",
@@ -111,7 +111,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.AssociatedRecord"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.AssociatedRecord"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.AssociatedRecord",
@@ -132,7 +132,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.Builder"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.Builder"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.Builder",
@@ -153,7 +153,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.CapacityCategory"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.CapacityCategory"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.CapacityCategory",
@@ -174,7 +174,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.CreatedBy"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.CreatedBy"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.CreatedBy",
@@ -195,7 +195,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.CreatedDate"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.CreatedDate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.CreatedDate",
@@ -216,7 +216,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.Description"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.Description"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.Description",
@@ -237,7 +237,49 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.ErrorCode"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.ElementEntries"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowRecord.ElementEntries",
+      "QualifiedApiName": "ElementEntries",
+      "EntityDefinitionId": "FlowRecord",
+      "NamespacePrefix": null,
+      "DeveloperName": "ElementEntries",
+      "MasterLabel": "要素実行数",
+      "Label": "要素実行数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.ElementErrors"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowRecord.ElementErrors",
+      "QualifiedApiName": "ElementErrors",
+      "EntityDefinitionId": "FlowRecord",
+      "NamespacePrefix": null,
+      "DeveloperName": "ElementErrors",
+      "MasterLabel": "要素エラー数",
+      "Label": "要素エラー数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.ErrorCode"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.ErrorCode",
@@ -258,7 +300,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.ErrorDetails"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.ErrorDetails"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.ErrorDetails",
@@ -279,7 +321,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.FlowCategory"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.FlowCategory"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.FlowCategory",
@@ -300,7 +342,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.FlowDefinition"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.FlowDefinition"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.FlowDefinition",
@@ -321,7 +363,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.FlowLabel"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.FlowLabel"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.FlowLabel",
@@ -342,7 +384,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.FlowSubcategory"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.FlowSubcategory"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.FlowSubcategory",
@@ -363,7 +405,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.FlowType"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.FlowType"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.FlowType",
@@ -384,7 +426,28 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.Id"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.Health"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowRecord.Health",
+      "QualifiedApiName": "Health",
+      "EntityDefinitionId": "FlowRecord",
+      "NamespacePrefix": null,
+      "DeveloperName": "Health",
+      "MasterLabel": "要素エラー率",
+      "Label": "要素エラー率",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.Id"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.Id",
@@ -405,7 +468,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.InstalledPackageName"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.InstalledPackageName"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.InstalledPackageName",
@@ -426,7 +489,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.IsCitizenEnabled"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.IsCitizenEnabled"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.IsCitizenEnabled",
@@ -447,7 +510,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.IsDeleted"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.IsDeleted"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.IsDeleted",
@@ -468,7 +531,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.IsOverridable"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.IsOverridable"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.IsOverridable",
@@ -489,7 +552,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.IsPaused"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.IsPaused"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.IsPaused",
@@ -510,7 +573,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.IsTemplate"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.IsTemplate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.IsTemplate",
@@ -531,7 +594,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.LastModifiedBy"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.LastModifiedBy"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.LastModifiedBy",
@@ -552,7 +615,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.LastModifiedDate"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.LastModifiedDate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.LastModifiedDate",
@@ -573,7 +636,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.LastReferencedDate"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.LastReferencedDate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.LastReferencedDate",
@@ -594,7 +657,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.LastViewedDate"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.LastViewedDate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.LastViewedDate",
@@ -615,7 +678,28 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.LogsEnabledFlowVersion"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.List"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowRecord.List",
+      "QualifiedApiName": "ListId",
+      "EntityDefinitionId": "FlowRecord",
+      "NamespacePrefix": null,
+      "DeveloperName": "List",
+      "MasterLabel": "リスト",
+      "Label": "リスト",
+      "DataType": "参照関係(キャンペーン)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.LogsEnabledFlowVersion"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.LogsEnabledFlowVersion",
@@ -636,7 +720,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.ManageableState"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.ManageableState"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.ManageableState",
@@ -657,7 +741,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.Name"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.Name"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.Name",
@@ -678,7 +762,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.NamespacePrefix"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.NamespacePrefix"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.NamespacePrefix",
@@ -699,7 +783,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.OverriddenBy"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.OverriddenBy"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.OverriddenBy",
@@ -720,7 +804,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.OverriddenFlow"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.OverriddenFlow"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.OverriddenFlow",
@@ -741,7 +825,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.Owner"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.Owner"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.Owner",
@@ -762,7 +846,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.ProgressStatus"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.ProgressStatus"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.ProgressStatus",
@@ -770,8 +854,8 @@
       "EntityDefinitionId": "FlowRecord",
       "NamespacePrefix": null,
       "DeveloperName": "ProgressStatus",
-      "MasterLabel": "進行状況",
-      "Label": "進行状況",
+      "MasterLabel": "状況",
+      "Label": "状況",
       "DataType": "選択リスト",
       "IsCalculated": false,
       "IsNillable": true,
@@ -783,7 +867,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.RecordVisibility"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.RecordVisibility"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.RecordVisibility",
@@ -804,7 +888,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.ScheduledStartDate"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.ScheduledStartDate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.ScheduledStartDate",
@@ -825,7 +909,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.Segment"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.Segment"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.Segment",
@@ -846,7 +930,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.SourceTemplate"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.SourceTemplate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.SourceTemplate",
@@ -867,7 +951,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.StartSource"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.StartSource"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.StartSource",
@@ -888,7 +972,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.SystemModstamp"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.SystemModstamp"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.SystemModstamp",
@@ -909,7 +993,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.TriggerObjectOrEventLabel"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.TriggerObjectOrEventLabel"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.TriggerObjectOrEventLabel",
@@ -930,7 +1014,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.Type"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.Type"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.Type",
@@ -951,7 +1035,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowRecord.UserRecordAccess"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowRecord.UserRecordAccess"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowRecord.UserRecordAccess",

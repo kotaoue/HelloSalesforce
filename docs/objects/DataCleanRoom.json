@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-06-09T07:11:10.281Z",
+  "fetchedAt": "2026-06-16T09:18:44.941Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 14,
+  "totalSize": 16,
   "records": [
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCleanRoom.ApiKey"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataCleanRoom.ApiKey"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataCleanRoom.ApiKey",
@@ -27,7 +27,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCleanRoom.CreatedBy"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataCleanRoom.CreatedBy"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataCleanRoom.CreatedBy",
@@ -48,7 +48,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCleanRoom.CreatedDate"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataCleanRoom.CreatedDate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataCleanRoom.CreatedDate",
@@ -69,7 +69,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCleanRoom.DataCleanRoomDefinition"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataCleanRoom.DataCleanRoomDefinition"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataCleanRoom.DataCleanRoomDefinition",
@@ -90,7 +90,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCleanRoom.DataCleanRoomStatus"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataCleanRoom.DataCleanRoomStatus"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataCleanRoom.DataCleanRoomStatus",
@@ -111,7 +111,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCleanRoom.Description"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataCleanRoom.Description"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataCleanRoom.Description",
@@ -132,7 +132,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCleanRoom.Id"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataCleanRoom.Id"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataCleanRoom.Id",
@@ -153,7 +153,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCleanRoom.IsDeleted"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataCleanRoom.IsDeleted"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataCleanRoom.IsDeleted",
@@ -174,7 +174,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCleanRoom.LastModifiedBy"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataCleanRoom.LastModifiedBy"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataCleanRoom.LastModifiedBy",
@@ -195,7 +195,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCleanRoom.LastModifiedDate"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataCleanRoom.LastModifiedDate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataCleanRoom.LastModifiedDate",
@@ -216,7 +216,49 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCleanRoom.Name"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataCleanRoom.LastReferencedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataCleanRoom.LastReferencedDate",
+      "QualifiedApiName": "LastReferencedDate",
+      "EntityDefinitionId": "DataCleanRoom",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastReferencedDate",
+      "MasterLabel": "最終参照日",
+      "Label": "最終参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataCleanRoom.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataCleanRoom.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "DataCleanRoom",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataCleanRoom.Name"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataCleanRoom.Name",
@@ -237,7 +279,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCleanRoom.RecordVisibility"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataCleanRoom.RecordVisibility"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataCleanRoom.RecordVisibility",
@@ -258,7 +300,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCleanRoom.SystemModstamp"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataCleanRoom.SystemModstamp"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataCleanRoom.SystemModstamp",
@@ -279,7 +321,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataCleanRoom.UserRecordAccess"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataCleanRoom.UserRecordAccess"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataCleanRoom.UserRecordAccess",

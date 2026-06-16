@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-06-09T07:11:10.281Z",
+  "fetchedAt": "2026-06-16T09:18:44.941Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 12,
+  "totalSize": 14,
   "records": [
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTestCoverage.ApexTestClass"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowTestCoverage.ApexTestClass"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowTestCoverage.ApexTestClass",
@@ -18,7 +18,7 @@
       "Label": "Apex テストクラス",
       "DataType": "参照関係(Apex クラス)",
       "IsCalculated": false,
-      "IsNillable": false,
+      "IsNillable": true,
       "IsIndexed": false,
       "IsApiFilterable": true,
       "IsApiGroupable": true,
@@ -27,7 +27,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTestCoverage.CreatedBy"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowTestCoverage.CreatedBy"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowTestCoverage.CreatedBy",
@@ -48,7 +48,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTestCoverage.CreatedDate"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowTestCoverage.CreatedDate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowTestCoverage.CreatedDate",
@@ -69,7 +69,28 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTestCoverage.FlowVersion"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowTestCoverage.FlowTest"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowTestCoverage.FlowTest",
+      "QualifiedApiName": "FlowTestId",
+      "EntityDefinitionId": "FlowTestCoverage",
+      "NamespacePrefix": null,
+      "DeveloperName": "FlowTest",
+      "MasterLabel": "フローテスト",
+      "Label": "フローテスト",
+      "DataType": "参照関係(フローテスト)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowTestCoverage.FlowVersion"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowTestCoverage.FlowVersion",
@@ -90,7 +111,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTestCoverage.Id"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowTestCoverage.Id"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowTestCoverage.Id",
@@ -111,7 +132,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTestCoverage.IsDeleted"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowTestCoverage.IsDeleted"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowTestCoverage.IsDeleted",
@@ -132,7 +153,28 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTestCoverage.LastModifiedBy"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowTestCoverage.IsStale"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowTestCoverage.IsStale",
+      "QualifiedApiName": "IsStale",
+      "EntityDefinitionId": "FlowTestCoverage",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsStale",
+      "MasterLabel": "古い",
+      "Label": "古い",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowTestCoverage.LastModifiedBy"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowTestCoverage.LastModifiedBy",
@@ -153,7 +195,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTestCoverage.LastModifiedDate"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowTestCoverage.LastModifiedDate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowTestCoverage.LastModifiedDate",
@@ -174,7 +216,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTestCoverage.NumElementsCovered"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowTestCoverage.NumElementsCovered"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowTestCoverage.NumElementsCovered",
@@ -195,7 +237,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTestCoverage.NumElementsNotCovered"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowTestCoverage.NumElementsNotCovered"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowTestCoverage.NumElementsNotCovered",
@@ -216,7 +258,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTestCoverage.SystemModstamp"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowTestCoverage.SystemModstamp"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowTestCoverage.SystemModstamp",
@@ -237,7 +279,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/FlowTestCoverage.TestMethodName"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FlowTestCoverage.TestMethodName"
       },
       "Id": "000000000000000AAA",
       "DurableId": "FlowTestCoverage.TestMethodName",

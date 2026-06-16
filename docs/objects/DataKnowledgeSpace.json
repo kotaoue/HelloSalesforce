@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-06-09T07:11:10.281Z",
+  "fetchedAt": "2026-06-16T09:18:44.941Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 13,
+  "totalSize": 15,
   "records": [
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.CreatedBy"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.CreatedBy"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataKnowledgeSpace.CreatedBy",
@@ -27,7 +27,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.CreatedDate"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.CreatedDate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataKnowledgeSpace.CreatedDate",
@@ -48,7 +48,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.Description"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.Description"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataKnowledgeSpace.Description",
@@ -69,7 +69,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.Id"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.Id"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataKnowledgeSpace.Id",
@@ -90,7 +90,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.IsDeleted"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.IsDeleted"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataKnowledgeSpace.IsDeleted",
@@ -111,7 +111,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.KnowledgeSpaceDef"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.KnowledgeSpaceDef"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataKnowledgeSpace.KnowledgeSpaceDef",
@@ -132,7 +132,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.LastModifiedBy"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.LastModifiedBy"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataKnowledgeSpace.LastModifiedBy",
@@ -153,7 +153,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.LastModifiedDate"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.LastModifiedDate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataKnowledgeSpace.LastModifiedDate",
@@ -174,7 +174,49 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.Name"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.LastReferencedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSpace.LastReferencedDate",
+      "QualifiedApiName": "LastReferencedDate",
+      "EntityDefinitionId": "DataKnowledgeSpace",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastReferencedDate",
+      "MasterLabel": "最終参照日",
+      "Label": "最終参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeSpace.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "DataKnowledgeSpace",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.Name"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataKnowledgeSpace.Name",
@@ -195,7 +237,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.Owner"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.Owner"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataKnowledgeSpace.Owner",
@@ -216,7 +258,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.RecordVisibility"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.RecordVisibility"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataKnowledgeSpace.RecordVisibility",
@@ -237,7 +279,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.SystemModstamp"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.SystemModstamp"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataKnowledgeSpace.SystemModstamp",
@@ -258,7 +300,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.UserRecordAccess"
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeSpace.UserRecordAccess"
       },
       "Id": "000000000000000AAA",
       "DurableId": "DataKnowledgeSpace.UserRecordAccess",
