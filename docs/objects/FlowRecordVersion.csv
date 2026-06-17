@@ -1,4 +1,5 @@
 Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,FlowRecordVersion.AccessType,AccessType,FlowRecordVersion,,AccessType,アクセス種別,アクセス種別,選択リスト,false,true,false,true,true,true
 000000000000000AAA,FlowRecordVersion.ActivatedBy,ActivatedById,FlowRecordVersion,,ActivatedBy,有効化設定者,有効化設定者,参照関係(ユーザー),false,true,false,true,true,true
 000000000000000AAA,FlowRecordVersion.ActivatedDate,ActivatedDate,FlowRecordVersion,,ActivatedDate,有効化日,有効化日,日付/時間,false,true,false,true,false,true
 000000000000000AAA,FlowRecordVersion.ApiVersion,ApiVersion,FlowRecordVersion,,ApiVersion,API バージョン,API バージョン,数値(17、1),false,true,false,true,false,true
@@ -28,7 +29,7 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,FlowRecordVersion.OverriddenFlow,OverriddenFlowId,FlowRecordVersion,,OverriddenFlow,上書き,上書き,参照関係(フロー),false,true,false,true,true,true
 000000000000000AAA,FlowRecordVersion.PausedDate,PausedDate,FlowRecordVersion,,PausedDate,一時停止日,一時停止日,日付/時間,false,true,false,true,false,true
 000000000000000AAA,FlowRecordVersion.PausingUser,PausingUserId,FlowRecordVersion,,PausingUser,一時停止するユーザー,一時停止するユーザー,参照関係(ユーザー),false,true,false,true,true,true
-000000000000000AAA,FlowRecordVersion.ProgressStatus,ProgressStatus,FlowRecordVersion,,ProgressStatus,進行状況,進行状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,FlowRecordVersion.ProgressStatus,ProgressStatus,FlowRecordVersion,,ProgressStatus,状況,状況,選択リスト,false,true,false,true,true,true
 000000000000000AAA,FlowRecordVersion.ReasonPaused,ReasonPaused,FlowRecordVersion,,ReasonPaused,一時停止の理由,一時停止の理由,テキストエリア(255),false,true,false,true,true,true
 000000000000000AAA,FlowRecordVersion.RecordVisibility,RecordVisibilityId,FlowRecordVersion,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
 000000000000000AAA,FlowRecordVersion.ResumedDate,ResumedDate,FlowRecordVersion,,ResumedDate,再開日,再開日,日付/時間,false,true,false,true,false,true
@@ -37,7 +38,7 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,FlowRecordVersion.ScheduledStartDate,ScheduledStartDate,FlowRecordVersion,,ScheduledStartDate,スケジュール済み開始日,スケジュール済み開始日,日付/時間,false,true,false,true,false,true
 000000000000000AAA,FlowRecordVersion.SourceTemplate,SourceTemplateId,FlowRecordVersion,,SourceTemplate,ソーステンプレート,ソーステンプレート,参照関係(フロー),false,true,false,true,true,true
 000000000000000AAA,FlowRecordVersion.Status,Status,FlowRecordVersion,,Status,状況,状況,選択リスト,false,true,false,true,true,true
-000000000000000AAA,FlowRecordVersion.Stopped,Stopped,FlowRecordVersion,,Stopped,Stopped,Stopped,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,FlowRecordVersion.Stopped,Stopped,FlowRecordVersion,,Stopped,停止,停止,数値(9、0),false,true,false,true,true,true
 000000000000000AAA,FlowRecordVersion.SystemModstamp,SystemModstamp,FlowRecordVersion,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
 000000000000000AAA,FlowRecordVersion.TriggerObjectOrEventLabel,TriggerObjectOrEventLabel,FlowRecordVersion,,TriggerObjectOrEventLabel,トリガーオブジェクトまたはプラットフォームイベントの表示ラベル,トリガーオブジェクトまたはプラットフォームイベントの表示ラベル,テキスト(255),false,true,false,true,true,true
 000000000000000AAA,FlowRecordVersion.UserRecordAccess,UserRecordAccessId,FlowRecordVersion,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

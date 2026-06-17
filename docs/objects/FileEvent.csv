@@ -17,8 +17,10 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,FileEvent.Policy,PolicyId,FileEvent,,Policy,ポリシー,ポリシー,参照関係(Transaction Security Policy),false,true,false,false,false,false
 000000000000000AAA,FileEvent.PolicyOutcome,PolicyOutcome,FileEvent,,PolicyOutcome,ポリシーの結果,ポリシーの結果,選択リスト,false,true,false,false,false,false
 000000000000000AAA,FileEvent.ProcessDuration,ProcessDuration,FileEvent,,ProcessDuration,処理時間,処理時間,数値(18、0),false,true,false,false,false,false
+000000000000000AAA,FileEvent.Profile,ProfileId,FileEvent,,Profile,プロファイル,プロファイル,参照関係(プロファイル),false,true,false,false,false,false
 000000000000000AAA,FileEvent.RelatedEventIdentifier,RelatedEventIdentifier,FileEvent,,RelatedEventIdentifier,関連イベント識別子,関連イベント識別子,テキスト(80),false,true,false,false,false,false
 000000000000000AAA,FileEvent.ReplayId,ReplayId,FileEvent,,ReplayId,再実行 ID,再実行 ID,外部参照,false,true,false,false,false,false
+000000000000000AAA,FileEvent.Role,RoleId,FileEvent,,Role,ロール,ロール,参照関係(ロール),false,true,false,false,false,false
 000000000000000AAA,FileEvent.SessionKey,SessionKey,FileEvent,,SessionKey,セッションキー,セッションキー,テキスト(24),false,true,false,false,false,false
 000000000000000AAA,FileEvent.SessionLevel,SessionLevel,FileEvent,,SessionLevel,セッションレベル,セッションレベル,選択リスト,false,true,false,false,false,false
 000000000000000AAA,FileEvent.SourceIp,SourceIp,FileEvent,,SourceIp,アクセス元 IP,アクセス元 IP,テキスト(255),false,true,false,false,false,false

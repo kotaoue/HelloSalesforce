@@ -7,7 +7,7 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,Incident.DetectedDateTime,DetectedDateTime,Incident,,DetectedDateTime,検出日時,検出日時,日付/時間,false,true,false,true,false,true
 000000000000000AAA,Incident.EndDateTime,EndDateTime,Incident,,EndDateTime,終了日時,終了日時,日付/時間,false,true,false,true,false,true
 000000000000000AAA,Incident.Entitlement,EntitlementId,Incident,,Entitlement,エンタイトルメント,エンタイトルメント,参照関係(エンタイトルメント),false,true,false,true,true,true
-000000000000000AAA,Incident.Id,Id,Incident,,Id,障害 ID,障害 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,Incident.Id,Id,Incident,,Id,インシデント ID,インシデント ID,参照関係(),false,false,true,true,true,true
 000000000000000AAA,Incident.Impact,Impact,Incident,,Impact,影響,影響,選択リスト,false,false,false,true,true,true
 000000000000000AAA,Incident.IsClosed,IsClosed,Incident,,IsClosed,インシデントが完了,インシデントが完了,チェックボックス,false,false,false,true,true,true
 000000000000000AAA,Incident.IsDeleted,IsDeleted,Incident,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
@@ -19,9 +19,9 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,Incident.LastViewedDate,LastViewedDate,Incident,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
 000000000000000AAA,Incident.MilestoneStatus,MilestoneStatus,Incident,,MilestoneStatus,マイルストーン状況,マイルストーン状況,テキスト(30),false,true,false,false,true,true
 000000000000000AAA,Incident.MilestoneTimer,MilestoneTimer,Incident,,MilestoneTimer,マイルストーンの残り時間,マイルストーンの残り時間,テキスト(255),false,true,false,false,true,true
-000000000000000AAA,Incident.Name,IncidentNumber,Incident,,Name,障害番号,障害番号,自動採番,false,false,true,true,false,true
-000000000000000AAA,Incident.Owner,OwnerId,Incident,,Owner,障害所有者,障害所有者,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
-000000000000000AAA,Incident.ParentIncident,ParentIncidentId,Incident,,ParentIncident,親障害,親障害,階層,false,true,false,true,true,true
+000000000000000AAA,Incident.Name,IncidentNumber,Incident,,Name,インシデント番号,インシデント番号,自動採番,false,false,true,true,false,true
+000000000000000AAA,Incident.Owner,OwnerId,Incident,,Owner,インシデント所有者,インシデント所有者,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,Incident.ParentIncident,ParentIncidentId,Incident,,ParentIncident,親インシデント,親インシデント,階層,false,true,false,true,true,true
 000000000000000AAA,Incident.Priority,Priority,Incident,,Priority,優先度,優先度,選択リスト,false,false,false,true,true,true
 000000000000000AAA,Incident.PriorityOverrideReason,PriorityOverrideReason,Incident,,PriorityOverrideReason,優先度の上書きの理由,優先度の上書きの理由,テキスト(255),false,true,false,true,true,true
 000000000000000AAA,Incident.RecordVisibility,RecordVisibilityId,Incident,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true

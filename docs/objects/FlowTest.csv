@@ -3,10 +3,14 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,FlowTest.CreatedDate,CreatedDate,FlowTest,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
 000000000000000AAA,FlowTest.Description,Description,FlowTest,,Description,説明,説明,ロングテキストエリア(1000),false,true,false,false,false,false
 000000000000000AAA,FlowTest.DeveloperName,DeveloperName,FlowTest,,DeveloperName,フローテストの API 参照名,フローテストの API 参照名,テキスト(80),false,false,true,true,true,true
+000000000000000AAA,FlowTest.DoesCommitChanges,DoesCommitChanges,FlowTest,,DoesCommitChanges,実行後に変更を確定,実行後に変更を確定,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,FlowTest.DoesSkipStartConditions,DoesSkipStartConditions,FlowTest,,DoesSkipStartConditions,開始条件の要件をスキップ,開始条件の要件をスキップ,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,FlowTest.DoesTestWaitElement,DoesTestWaitElement,FlowTest,,DoesTestWaitElement,テストの待機要素の動作,テストの待機要素の動作,チェックボックス,false,false,false,true,true,true
 000000000000000AAA,FlowTest.FlowReference,FlowReferenceId,FlowTest,,FlowReference,フロー参照,フロー参照,参照関係(フロー定義),false,true,true,true,true,true
 000000000000000AAA,FlowTest.FullName,FullName,FlowTest,,FullName,完全名,完全名,テキスト(128),false,true,false,false,true,false
 000000000000000AAA,FlowTest.Id,Id,FlowTest,,Id,フローテスト ID,フローテスト ID,参照関係(),false,false,true,true,true,true
 000000000000000AAA,FlowTest.IsDeleted,IsDeleted,FlowTest,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,FlowTest.IsSubflowUseLatestFlowVer,IsSubflowUseLatestFlowVer,FlowTest,,IsSubflowUseLatestFlowVer,サブフロー要素によってコールされたフローの最新バージョンを実行,サブフロー要素によってコールされたフローの最新バージョンを実行,チェックボックス,false,false,false,true,true,true
 000000000000000AAA,FlowTest.Language,Language,FlowTest,,Language,マスター言語,マスター言語,選択リスト,false,true,false,true,true,true
 000000000000000AAA,FlowTest.LastModifiedBy,LastModifiedById,FlowTest,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
 000000000000000AAA,FlowTest.LastModifiedDate,LastModifiedDate,FlowTest,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
@@ -14,5 +18,6 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,FlowTest.MasterLabel,MasterLabel,FlowTest,,MasterLabel,表示ラベル,表示ラベル,テキスト(80),false,false,false,true,true,true
 000000000000000AAA,FlowTest.Metadata,Metadata,FlowTest,,Metadata,フローテストメタデータ,フローテストメタデータ,複合値,false,true,false,false,false,false
 000000000000000AAA,FlowTest.NamespacePrefix,NamespacePrefix,FlowTest,,NamespacePrefix,名前空間プレフィックス,名前空間プレフィックス,テキスト,false,true,false,true,true,true
+000000000000000AAA,FlowTest.RunTestAsUser,RunTestAsUser,FlowTest,,RunTestAsUser,別のユーザーとして自動化を実行,別のユーザーとして自動化を実行,テキスト(128),false,true,false,true,true,true
 000000000000000AAA,FlowTest.SystemModstamp,SystemModstamp,FlowTest,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
 000000000000000AAA,FlowTest.TestType,TestType,FlowTest,,TestType,テスト種別,テスト種別,選択リスト,false,true,true,true,true,true

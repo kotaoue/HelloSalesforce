@@ -5,8 +5,10 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,LogoutEventStream.EventIdentifier,EventIdentifier,LogoutEventStream,,EventIdentifier,イベント識別子,イベント識別子,テキスト(80),false,true,false,false,false,false
 000000000000000AAA,LogoutEventStream.EventUuid,EventUuid,LogoutEventStream,,EventUuid,イベント UUID,イベント UUID,テキスト(36),false,true,false,false,false,false
 000000000000000AAA,LogoutEventStream.LoginKey,LoginKey,LogoutEventStream,,LoginKey,ログインキー,ログインキー,テキスト(24),false,true,false,false,false,false
+000000000000000AAA,LogoutEventStream.Profile,ProfileId,LogoutEventStream,,Profile,プロファイル,プロファイル,参照関係(プロファイル),false,true,false,false,false,false
 000000000000000AAA,LogoutEventStream.RelatedEventIdentifier,RelatedEventIdentifier,LogoutEventStream,,RelatedEventIdentifier,関連イベント識別子,関連イベント識別子,テキスト(80),false,true,false,false,false,false
 000000000000000AAA,LogoutEventStream.ReplayId,ReplayId,LogoutEventStream,,ReplayId,再実行 ID,再実行 ID,外部参照,false,true,false,false,false,false
+000000000000000AAA,LogoutEventStream.Role,RoleId,LogoutEventStream,,Role,ロール,ロール,参照関係(ロール),false,true,false,false,false,false
 000000000000000AAA,LogoutEventStream.SessionKey,SessionKey,LogoutEventStream,,SessionKey,セッションキー,セッションキー,テキスト(24),false,true,false,false,false,false
 000000000000000AAA,LogoutEventStream.SessionLevel,SessionLevel,LogoutEventStream,,SessionLevel,セッションレベル,セッションレベル,選択リスト,false,true,false,false,false,false
 000000000000000AAA,LogoutEventStream.SourceIp,SourceIp,LogoutEventStream,,SourceIp,アクセス元 IP,アクセス元 IP,テキスト(255),false,true,false,false,false,false

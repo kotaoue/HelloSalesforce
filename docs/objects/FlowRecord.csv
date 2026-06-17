@@ -10,6 +10,8 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,FlowRecord.CreatedBy,CreatedById,FlowRecord,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
 000000000000000AAA,FlowRecord.CreatedDate,CreatedDate,FlowRecord,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
 000000000000000AAA,FlowRecord.Description,Description,FlowRecord,,Description,説明,説明,ロングテキストエリア(65535),false,true,false,false,false,false
+000000000000000AAA,FlowRecord.ElementEntries,ElementEntries,FlowRecord,,ElementEntries,要素実行数,要素実行数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,FlowRecord.ElementErrors,ElementErrors,FlowRecord,,ElementErrors,要素エラー数,要素エラー数,数値(9、0),false,true,false,true,true,true
 000000000000000AAA,FlowRecord.ErrorCode,ErrorCode,FlowRecord,,ErrorCode,エラーコード,エラーコード,選択リスト,false,true,false,true,true,true
 000000000000000AAA,FlowRecord.ErrorDetails,ErrorDetails,FlowRecord,,ErrorDetails,エラーの詳細,エラーの詳細,テキスト(255),false,true,false,true,true,true
 000000000000000AAA,FlowRecord.FlowCategory,FlowCategory,FlowRecord,,FlowCategory,カテゴリ,カテゴリ,テキスト(255),false,true,false,true,true,true
@@ -17,6 +19,7 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,FlowRecord.FlowLabel,FlowLabel,FlowRecord,,FlowLabel,フローの表示ラベル,フローの表示ラベル,テキスト(255),false,true,false,true,true,true
 000000000000000AAA,FlowRecord.FlowSubcategory,FlowSubcategory,FlowRecord,,FlowSubcategory,サブカテゴリ,サブカテゴリ,テキスト(255),false,true,false,true,true,true
 000000000000000AAA,FlowRecord.FlowType,FlowType,FlowRecord,,FlowType,フロー種別,フロー種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,FlowRecord.Health,Health,FlowRecord,,Health,要素エラー率,要素エラー率,数値(9、0),false,true,false,true,true,true
 000000000000000AAA,FlowRecord.Id,Id,FlowRecord,,Id,フロー ID,フロー ID,参照関係(),false,false,true,true,true,true
 000000000000000AAA,FlowRecord.InstalledPackageName,InstalledPackageName,FlowRecord,,InstalledPackageName,パッケージ名,パッケージ名,テキスト(255),false,true,false,true,true,true
 000000000000000AAA,FlowRecord.IsCitizenEnabled,IsCitizenEnabled,FlowRecord,,IsCitizenEnabled,管理者以外に対して有効,管理者以外に対して有効,チェックボックス,false,false,false,true,true,true
@@ -28,6 +31,7 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,FlowRecord.LastModifiedDate,LastModifiedDate,FlowRecord,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
 000000000000000AAA,FlowRecord.LastReferencedDate,LastReferencedDate,FlowRecord,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
 000000000000000AAA,FlowRecord.LastViewedDate,LastViewedDate,FlowRecord,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,FlowRecord.List,ListId,FlowRecord,,List,リスト,リスト,参照関係(キャンペーン),false,true,false,true,true,true
 000000000000000AAA,FlowRecord.LogsEnabledFlowVersion,LogsEnabledFlowVersion,FlowRecord,,LogsEnabledFlowVersion,ログが有効化されたフローバージョン,ログが有効化されたフローバージョン,数値(9、0),false,true,false,true,true,true
 000000000000000AAA,FlowRecord.ManageableState,ManageableState,FlowRecord,,ManageableState,パッケージの状態,パッケージの状態,選択リスト,false,true,false,true,true,true
 000000000000000AAA,FlowRecord.Name,Name,FlowRecord,,Name,フローの表示ラベル,フローの表示ラベル,テキスト(255),false,false,true,true,true,true
@@ -35,7 +39,7 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,FlowRecord.OverriddenBy,OverriddenById,FlowRecord,,OverriddenBy,上書き実行者,上書き実行者,参照関係(フロー),false,true,false,true,true,true
 000000000000000AAA,FlowRecord.OverriddenFlow,OverriddenFlowId,FlowRecord,,OverriddenFlow,上書き,上書き,参照関係(フロー),false,true,false,true,true,true
 000000000000000AAA,FlowRecord.Owner,OwnerId,FlowRecord,,Owner,フロー所有者,フロー所有者,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
-000000000000000AAA,FlowRecord.ProgressStatus,ProgressStatus,FlowRecord,,ProgressStatus,進行状況,進行状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,FlowRecord.ProgressStatus,ProgressStatus,FlowRecord,,ProgressStatus,状況,状況,選択リスト,false,true,false,true,true,true
 000000000000000AAA,FlowRecord.RecordVisibility,RecordVisibilityId,FlowRecord,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
 000000000000000AAA,FlowRecord.ScheduledStartDate,ScheduledStartDate,FlowRecord,,ScheduledStartDate,スケジュール済み開始日,スケジュール済み開始日,日付/時間,false,true,true,true,false,true
 000000000000000AAA,FlowRecord.Segment,SegmentId,FlowRecord,,Segment,セグメント,セグメント,参照関係(セグメント),false,true,false,true,true,true

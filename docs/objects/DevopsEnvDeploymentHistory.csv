@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DevopsEnvDeploymentHistory.CreatedBy,CreatedById,DevopsEnvDeploymentHistory,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,DevopsEnvDeploymentHistory.CreatedDate,CreatedDate,DevopsEnvDeploymentHistory,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DevopsEnvDeploymentHistory.DataType,DataType,DevopsEnvDeploymentHistory,,DataType,データ型,データ型,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DevopsEnvDeploymentHistory.DevopsEnvDeployment,DevopsEnvDeploymentId,DevopsEnvDeploymentHistory,,DevopsEnvDeployment,環境リリース,環境リリース,参照関係(環境リリース),false,false,true,true,true,true
+000000000000000AAA,DevopsEnvDeploymentHistory.Field,Field,DevopsEnvDeploymentHistory,,Field,変更された項目,変更された項目,"選択リスト(Custom Field Definitions,カスタム項目データ列)",false,false,true,true,true,true
+000000000000000AAA,DevopsEnvDeploymentHistory.Id,Id,DevopsEnvDeploymentHistory,,Id,環境リリース履歴 ID,環境リリース履歴 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DevopsEnvDeploymentHistory.IsDeleted,IsDeleted,DevopsEnvDeploymentHistory,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DevopsEnvDeploymentHistory.NewvalDate,NewvalDate,DevopsEnvDeploymentHistory,,NewvalDate,新規の日付,新規の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DevopsEnvDeploymentHistory.NewvalFirstName,NewvalFirstName,DevopsEnvDeploymentHistory,,NewvalFirstName,新規の名,新規の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DevopsEnvDeploymentHistory.NewvalLastName,NewvalLastName,DevopsEnvDeploymentHistory,,NewvalLastName,新規の姓,新規の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DevopsEnvDeploymentHistory.NewValue,NewValue,DevopsEnvDeploymentHistory,,NewValue,新しい値,新しい値,参照関係,false,true,false,false,false,true
+000000000000000AAA,DevopsEnvDeploymentHistory.OldvalDate,OldvalDate,DevopsEnvDeploymentHistory,,OldvalDate,元の日付,元の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DevopsEnvDeploymentHistory.OldvalFirstName,OldvalFirstName,DevopsEnvDeploymentHistory,,OldvalFirstName,元の名,元の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DevopsEnvDeploymentHistory.OldvalLastName,OldvalLastName,DevopsEnvDeploymentHistory,,OldvalLastName,元の姓,元の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DevopsEnvDeploymentHistory.OldValue,OldValue,DevopsEnvDeploymentHistory,,OldValue,元の値,元の値,参照関係,false,true,false,false,false,true

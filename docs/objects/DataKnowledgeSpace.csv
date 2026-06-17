@@ -7,6 +7,8 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,DataKnowledgeSpace.KnowledgeSpaceDef,KnowledgeSpaceDefId,DataKnowledgeSpace,,KnowledgeSpaceDef,ナレッジスペース定義,ナレッジスペース定義,参照関係(データナレッジスペース定義),false,true,false,true,true,true
 000000000000000AAA,DataKnowledgeSpace.LastModifiedBy,LastModifiedById,DataKnowledgeSpace,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
 000000000000000AAA,DataKnowledgeSpace.LastModifiedDate,LastModifiedDate,DataKnowledgeSpace,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DataKnowledgeSpace.LastReferencedDate,LastReferencedDate,DataKnowledgeSpace,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DataKnowledgeSpace.LastViewedDate,LastViewedDate,DataKnowledgeSpace,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
 000000000000000AAA,DataKnowledgeSpace.Name,Name,DataKnowledgeSpace,,Name,ナレッジスペース名,ナレッジスペース名,テキスト(255),false,false,true,true,true,true
 000000000000000AAA,DataKnowledgeSpace.Owner,OwnerId,DataKnowledgeSpace,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
 000000000000000AAA,DataKnowledgeSpace.RecordVisibility,RecordVisibilityId,DataKnowledgeSpace,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true

@@ -4,12 +4,12 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,AiEvalDefinition.Description,Description,AiEvalDefinition,,Description,評価種別,評価種別,テキスト(255),false,true,false,true,true,true
 000000000000000AAA,AiEvalDefinition.DeveloperName,DeveloperName,AiEvalDefinition,,DeveloperName,名前,名前,テキスト(80),false,false,true,true,true,true
 000000000000000AAA,AiEvalDefinition.EvalType,EvalType,AiEvalDefinition,,EvalType,評価種別,評価種別,選択リスト,false,false,true,true,true,true
-000000000000000AAA,AiEvalDefinition.Id,Id,AiEvalDefinition,,Id,AI 評価定義 ID,AI 評価定義 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AiEvalDefinition.Id,Id,AiEvalDefinition,,Id,AI Evaluation Definitions ID,AI Evaluation Definitions ID,参照関係(),false,false,true,true,true,true
 000000000000000AAA,AiEvalDefinition.IsDeleted,IsDeleted,AiEvalDefinition,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
 000000000000000AAA,AiEvalDefinition.Language,Language,AiEvalDefinition,,Language,マスター言語,マスター言語,選択リスト,false,false,false,true,true,true
 000000000000000AAA,AiEvalDefinition.LastModifiedBy,LastModifiedById,AiEvalDefinition,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
 000000000000000AAA,AiEvalDefinition.LastModifiedDate,LastModifiedDate,AiEvalDefinition,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
-000000000000000AAA,AiEvalDefinition.LatestVersion,LatestVersionId,AiEvalDefinition,,LatestVersion,AI 評価定義バージョン,AI 評価定義バージョン,参照関係(AI 評価定義バージョン),false,true,false,true,true,true
+000000000000000AAA,AiEvalDefinition.LatestVersion,LatestVersionId,AiEvalDefinition,,LatestVersion,AI Evaluation Definition Versions,AI Evaluation Definition Versions,参照関係(AI Evaluation Definition Versions),false,true,false,true,true,true
 000000000000000AAA,AiEvalDefinition.ManageableState,ManageableState,AiEvalDefinition,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
 000000000000000AAA,AiEvalDefinition.MasterLabel,MasterLabel,AiEvalDefinition,,MasterLabel,表示ラベル,表示ラベル,テキスト(100),false,false,false,true,true,true
 000000000000000AAA,AiEvalDefinition.NamespacePrefix,NamespacePrefix,AiEvalDefinition,,NamespacePrefix,名前空間プレフィックス,名前空間プレフィックス,テキスト,false,true,false,true,true,true

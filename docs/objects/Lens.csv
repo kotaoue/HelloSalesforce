@@ -12,8 +12,11 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,Lens.Folder,FolderId,Lens,,Folder,フォルダー,フォルダー,"参照関係(フォルダー,ユーザー,Wave Applicaiton Templates)",false,false,true,true,true,true
 000000000000000AAA,Lens.Id,Id,Lens,,Id,レンズ ID,レンズ ID,参照関係(),false,false,true,true,true,true
 000000000000000AAA,Lens.InsightsApplication,InsightsApplicationId,Lens,,InsightsApplication,アプリケーション,アプリケーション,参照関係(アプリケーション),false,true,false,true,true,true
+000000000000000AAA,Lens.IsArchived,IsArchived,Lens,,IsArchived,レンズがアーカイブ済み,レンズがアーカイブ済み,チェックボックス,false,false,false,true,true,true
 000000000000000AAA,Lens.IsDeleted,IsDeleted,Lens,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
 000000000000000AAA,Lens.Language,Language,Lens,,Language,マスター言語,マスター言語,選択リスト,false,false,false,true,true,true
+000000000000000AAA,Lens.LastArchivedBy,LastArchivedById,Lens,,LastArchivedBy,ユーザー,ユーザー,参照関係(ユーザー),false,true,false,true,true,true
+000000000000000AAA,Lens.LastArchivedDate,LastArchivedDate,Lens,,LastArchivedDate,レンズアーカイブ日,レンズアーカイブ日,日付/時間,false,true,false,true,false,true
 000000000000000AAA,Lens.LastModifiedBy,LastModifiedById,Lens,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
 000000000000000AAA,Lens.LastModifiedDate,LastModifiedDate,Lens,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
 000000000000000AAA,Lens.LastViewedDate,LastViewedDate,Lens,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true

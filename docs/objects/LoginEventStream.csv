@@ -3,6 +3,7 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,LoginEventStream.ApiType,ApiType,LoginEventStream,,ApiType,API 種別,API 種別,テキスト(64),false,true,false,false,false,false
 000000000000000AAA,LoginEventStream.ApiVersion,ApiVersion,LoginEventStream,,ApiVersion,API バージョン,API バージョン,テキスト(32),false,true,false,false,false,false
 000000000000000AAA,LoginEventStream.Application,Application,LoginEventStream,,Application,アプリケーション,アプリケーション,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.AuthContextClassRef,AuthContextClassRef,LoginEventStream,,AuthContextClassRef,認証コンテキストクラス参照,認証コンテキストクラス参照,テキスト(500),false,true,false,false,false,false
 000000000000000AAA,LoginEventStream.AuthMethodReference,AuthMethodReference,LoginEventStream,,AuthMethodReference,認証メソッド参照,認証メソッド参照,テキスト(128),false,true,false,false,false,false
 000000000000000AAA,LoginEventStream.AuthServiceId,AuthServiceId,LoginEventStream,,AuthServiceId,認証サービス ID,認証サービス ID,テキスト(18),false,true,false,false,false,false
 000000000000000AAA,LoginEventStream.Browser,Browser,LoginEventStream,,Browser,ブラウザー,ブラウザー,テキスト(64),false,true,false,false,false,false
@@ -30,8 +31,10 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,LoginEventStream.Policy,PolicyId,LoginEventStream,,Policy,ポリシー,ポリシー,参照関係(Transaction Security Policy),false,true,false,false,false,false
 000000000000000AAA,LoginEventStream.PolicyOutcome,PolicyOutcome,LoginEventStream,,PolicyOutcome,ポリシーの結果,ポリシーの結果,選択リスト,false,true,false,false,false,false
 000000000000000AAA,LoginEventStream.PostalCode,PostalCode,LoginEventStream,,PostalCode,郵便番号,郵便番号,テキスト(20),false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.Profile,ProfileId,LoginEventStream,,Profile,プロファイル,プロファイル,参照関係(プロファイル),false,true,false,false,false,false
 000000000000000AAA,LoginEventStream.RelatedEventIdentifier,RelatedEventIdentifier,LoginEventStream,,RelatedEventIdentifier,関連イベント識別子,関連イベント識別子,テキスト(80),false,true,false,false,false,false
 000000000000000AAA,LoginEventStream.ReplayId,ReplayId,LoginEventStream,,ReplayId,再実行 ID,再実行 ID,外部参照,false,true,false,false,false,false
+000000000000000AAA,LoginEventStream.Role,RoleId,LoginEventStream,,Role,ロール,ロール,参照関係(ロール),false,true,false,false,false,false
 000000000000000AAA,LoginEventStream.SessionKey,SessionKey,LoginEventStream,,SessionKey,セッションキー,セッションキー,テキスト(24),false,true,false,false,false,false
 000000000000000AAA,LoginEventStream.SessionLevel,SessionLevel,LoginEventStream,,SessionLevel,セッションレベル,セッションレベル,選択リスト,false,true,false,false,false,false
 000000000000000AAA,LoginEventStream.SourceIp,SourceIp,LoginEventStream,,SourceIp,アクセス元 IP,アクセス元 IP,テキスト(80),false,true,false,false,false,false

@@ -1,10 +1,10 @@
 Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
-000000000000000AAA,AiEvalTestCase.AiEvalDefinitionVersion,AiEvalDefinitionVersionId,AiEvalTestCase,,AiEvalDefinitionVersion,AI 評価定義バージョン,AI 評価定義バージョン,主従関係(AI 評価定義バージョン),false,false,true,true,true,true
-000000000000000AAA,AiEvalTestCase.AiEvalTestCaseDef,AiEvalTestCaseDefId,AiEvalTestCase,,AiEvalTestCaseDef,AI 評価テストケース定義,AI 評価テストケース定義,"参照関係(AI 評価 Copilot テストケース,AI 評価プロンプトテストケース)",false,true,false,true,true,true
+000000000000000AAA,AiEvalTestCase.AiEvalDefinitionVersion,AiEvalDefinitionVersionId,AiEvalTestCase,,AiEvalDefinitionVersion,AI Evaluation Definition Versions,AI Evaluation Definition Versions,主従関係(AI Evaluation Definition Versions),false,false,true,true,true,true
+000000000000000AAA,AiEvalTestCase.AiEvalTestCaseDef,AiEvalTestCaseDefId,AiEvalTestCase,,AiEvalTestCaseDef,AI 評価テストケース定義,AI 評価テストケース定義,"参照関係(AI Evaluation Copilot Test Cases,AI Evaluation Prompt Test Cases)",false,true,false,true,true,true
 000000000000000AAA,AiEvalTestCase.CreatedBy,CreatedById,AiEvalTestCase,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
 000000000000000AAA,AiEvalTestCase.CreatedDate,CreatedDate,AiEvalTestCase,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
 000000000000000AAA,AiEvalTestCase.ExecutionSequence,ExecutionSequence,AiEvalTestCase,,ExecutionSequence,実行順序,実行順序,数値(9、0),false,true,false,true,true,true
-000000000000000AAA,AiEvalTestCase.Id,Id,AiEvalTestCase,,Id,AI 評価テストケース ID,AI 評価テストケース ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AiEvalTestCase.Id,Id,AiEvalTestCase,,Id,AI Evaluation Test Cases ID,AI Evaluation Test Cases ID,参照関係(),false,false,true,true,true,true
 000000000000000AAA,AiEvalTestCase.IsDeleted,IsDeleted,AiEvalTestCase,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
 000000000000000AAA,AiEvalTestCase.IsTestSkipped,IsTestSkipped,AiEvalTestCase,,IsTestSkipped,スキップ済みテスト,スキップ済みテスト,チェックボックス,false,false,false,true,true,true
 000000000000000AAA,AiEvalTestCase.LastModifiedBy,LastModifiedById,AiEvalTestCase,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
