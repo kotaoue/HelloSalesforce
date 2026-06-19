@@ -1,0 +1,18 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ExternalSrvRgstrEnumType.CollectionOfEnumValues,CollectionOfEnumValues,ExternalSrvRgstrEnumType,,CollectionOfEnumValues,列挙値のコレクション,列挙値のコレクション,ロングテキストエリア(131072),false,false,false,false,false,false
+000000000000000AAA,ExternalSrvRgstrEnumType.CreatedBy,CreatedById,ExternalSrvRgstrEnumType,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ExternalSrvRgstrEnumType.CreatedDate,CreatedDate,ExternalSrvRgstrEnumType,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ExternalSrvRgstrEnumType.Description,Description,ExternalSrvRgstrEnumType,,Description,説明,説明,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ExternalSrvRgstrEnumType.ElementDataType,ElementDataTypeId,ExternalSrvRgstrEnumType,,ElementDataType,要素のデータ型,要素のデータ型,参照関係(External Service Simple Types),false,true,false,true,true,true
+000000000000000AAA,ExternalSrvRgstrEnumType.EnumTypeName,EnumTypeName,ExternalSrvRgstrEnumType,,EnumTypeName,列挙データ型名,列挙データ型名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ExternalSrvRgstrEnumType.Id,Id,ExternalSrvRgstrEnumType,,Id,External Service Registration Enum Types ID,External Service Registration Enum Types ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ExternalSrvRgstrEnumType.IsDeleted,IsDeleted,ExternalSrvRgstrEnumType,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ExternalSrvRgstrEnumType.IsOrdered,IsOrdered,ExternalSrvRgstrEnumType,,IsOrdered,注文済み,注文済み,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ExternalSrvRgstrEnumType.LastModifiedBy,LastModifiedById,ExternalSrvRgstrEnumType,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ExternalSrvRgstrEnumType.LastModifiedDate,LastModifiedDate,ExternalSrvRgstrEnumType,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ExternalSrvRgstrEnumType.MaxOccurs,MaxOccurs,ExternalSrvRgstrEnumType,,MaxOccurs,最大数,最大数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,ExternalSrvRgstrEnumType.MinOccurs,MinOccurs,ExternalSrvRgstrEnumType,,MinOccurs,最小数,最小数,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,ExternalSrvRgstrEnumType.Parent,ParentId,ExternalSrvRgstrEnumType,,Parent,親コンテキスト,親コンテキスト,"参照関係(外部サービス登録,External Service Parameters,External Service Properties,External Service List Types,External Service Map Types)",false,true,false,true,true,true
+000000000000000AAA,ExternalSrvRgstrEnumType.Service,ServiceId,ExternalSrvRgstrEnumType,,Service,外部サービス登録参照,外部サービス登録参照,主従関係(外部サービス登録),false,false,true,true,true,true
+000000000000000AAA,ExternalSrvRgstrEnumType.SystemModstamp,SystemModstamp,ExternalSrvRgstrEnumType,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ExternalSrvRgstrEnumType.Version,VersionId,ExternalSrvRgstrEnumType,,Version,バージョン,バージョン,参照関係(カタログ式 API アイテムバージョン情報),false,true,false,true,true,true

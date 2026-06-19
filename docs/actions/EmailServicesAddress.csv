@@ -3,6 +3,7 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,EmailServicesAddress.CreatedBy,CreatedById,EmailServicesAddress,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
 000000000000000AAA,EmailServicesAddress.CreatedDate,CreatedDate,EmailServicesAddress,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
 000000000000000AAA,EmailServicesAddress.DeveloperName,DeveloperName,EmailServicesAddress,,DeveloperName,メールアドレス名,メールアドレス名,テキスト(25),false,false,false,true,true,true
+000000000000000AAA,EmailServicesAddress.DkimRequiredDomains,DkimRequiredDomains,EmailServicesAddress,,DkimRequiredDomains,DKIM 必須ドメイン,DKIM 必須ドメイン,テキストエリア(4000),false,true,false,true,false,true
 000000000000000AAA,EmailServicesAddress.EmailDomainName,EmailDomainName,EmailServicesAddress,,EmailDomainName,メールアドレスドメイン,メールアドレスドメイン,テキスト(255),false,true,false,true,true,true
 000000000000000AAA,EmailServicesAddress.Function,FunctionId,EmailServicesAddress,,Function,メールサービス名,メールサービス名,参照関係(メールサービス),false,false,true,true,true,true
 000000000000000AAA,EmailServicesAddress.Id,Id,EmailServicesAddress,,Id,メールサービスアドレス ID,メールサービスアドレス ID,参照関係(),false,false,true,true,true,true

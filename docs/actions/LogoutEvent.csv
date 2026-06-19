@@ -4,6 +4,8 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,LogoutEvent.EventIdentifier,EventIdentifier,LogoutEvent,,EventIdentifier,イベント識別子,イベント識別子,テキスト(80),false,false,false,true,false,true
 000000000000000AAA,LogoutEvent.Id,Id,LogoutEvent,,Id,ログアウトイベント ID,ログアウトイベント ID,参照関係(),false,false,false,false,false,false
 000000000000000AAA,LogoutEvent.LoginKey,LoginKey,LogoutEvent,,LoginKey,ログインキー,ログインキー,テキスト(24),false,true,false,false,false,false
+000000000000000AAA,LogoutEvent.Profile,ProfileId,LogoutEvent,,Profile,プロファイル,プロファイル,参照関係(プロファイル),false,true,false,false,false,false
+000000000000000AAA,LogoutEvent.Role,RoleId,LogoutEvent,,Role,ロール,ロール,参照関係(ロール),false,true,false,false,false,false
 000000000000000AAA,LogoutEvent.SessionKey,SessionKey,LogoutEvent,,SessionKey,セッションキー,セッションキー,テキスト(24),false,true,false,false,false,false
 000000000000000AAA,LogoutEvent.SessionLevel,SessionLevel,LogoutEvent,,SessionLevel,セッションレベル,セッションレベル,選択リスト,false,true,false,false,false,false
 000000000000000AAA,LogoutEvent.SourceIp,SourceIp,LogoutEvent,,SourceIp,アクセス元 IP,アクセス元 IP,テキスト(255),false,true,false,false,false,false

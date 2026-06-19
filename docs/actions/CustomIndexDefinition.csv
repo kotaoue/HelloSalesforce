@@ -2,7 +2,7 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,CustomIndexDefinition.CreatedBy,CreatedById,CustomIndexDefinition,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
 000000000000000AAA,CustomIndexDefinition.CreatedDate,CreatedDate,CustomIndexDefinition,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
 000000000000000AAA,CustomIndexDefinition.DeveloperName,DeveloperName,CustomIndexDefinition,,DeveloperName,Name,Name,テキスト(80),false,false,false,true,true,true
-000000000000000AAA,CustomIndexDefinition.Id,Id,CustomIndexDefinition,,Id,Custom Index ID,Custom Index ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,CustomIndexDefinition.Id,Id,CustomIndexDefinition,,Id,Custom Index Definitions ID,Custom Index Definitions ID,参照関係(),false,false,true,true,true,true
 000000000000000AAA,CustomIndexDefinition.IsDeleted,IsDeleted,CustomIndexDefinition,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
 000000000000000AAA,CustomIndexDefinition.Label,Label,CustomIndexDefinition,,Label,Label,Label,テキスト(80),false,true,false,true,true,true
 000000000000000AAA,CustomIndexDefinition.Language,Language,CustomIndexDefinition,,Language,マスター言語,マスター言語,選択リスト,false,false,false,true,true,true
@@ -12,6 +12,6 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,CustomIndexDefinition.MasterLabel,MasterLabel,CustomIndexDefinition,,MasterLabel,表示ラベル,表示ラベル,テキスト(80),false,false,false,true,true,true
 000000000000000AAA,CustomIndexDefinition.MinNumRequiredIndexedFields,MinNumRequiredIndexedFields,CustomIndexDefinition,,MinNumRequiredIndexedFields,Minimum number of required indexed fields for enhanced SOQL filtering,Minimum number of required indexed fields for enhanced SOQL filtering,数値(9、0),false,true,false,true,true,true
 000000000000000AAA,CustomIndexDefinition.NamespacePrefix,NamespacePrefix,CustomIndexDefinition,,NamespacePrefix,名前空間プレフィックス,名前空間プレフィックス,テキスト,false,true,false,true,true,true
-000000000000000AAA,CustomIndexDefinition.SobjectType,SobjectType,CustomIndexDefinition,,SobjectType,Parent,Parent,選択リスト(カスタムオブジェクトの定義),false,false,true,true,true,true
+000000000000000AAA,CustomIndexDefinition.SobjectType,SobjectType,CustomIndexDefinition,,SobjectType,Parent,Parent,選択リスト(Custom Object Definitions),false,false,true,true,true,true
 000000000000000AAA,CustomIndexDefinition.SystemModstamp,SystemModstamp,CustomIndexDefinition,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
 000000000000000AAA,CustomIndexDefinition.Type,Type,CustomIndexDefinition,,Type,Type,Type,選択リスト,false,false,true,true,true,true

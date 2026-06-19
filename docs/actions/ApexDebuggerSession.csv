@@ -1,23 +1,23 @@
 Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
 000000000000000AAA,ApexDebuggerSession.CreatedBy,CreatedById,ApexDebuggerSession,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
 000000000000000AAA,ApexDebuggerSession.CreatedDate,CreatedDate,ApexDebuggerSession,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
-000000000000000AAA,ApexDebuggerSession.EntryPointFilter,EntryPointFilter,ApexDebuggerSession,,EntryPointFilter,Entry Point Filter,Entry Point Filter,ロングテキストエリア(32000),false,true,false,false,false,false
-000000000000000AAA,ApexDebuggerSession.Id,Id,ApexDebuggerSession,,Id,Apex Debugger Session ID,Apex Debugger Session ID,参照関係(),false,false,true,true,true,true
-000000000000000AAA,ApexDebuggerSession.IsAsyncIgnored,IsAsyncIgnored,ApexDebuggerSession,,IsAsyncIgnored,Is Async (other than tests) ignored,Is Async (other than tests) ignored,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ApexDebuggerSession.EntryPointFilter,EntryPointFilter,ApexDebuggerSession,,EntryPointFilter,エントリポイント検索条件,エントリポイント検索条件,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,ApexDebuggerSession.Id,Id,ApexDebuggerSession,,Id,Apex デバッガーのセッション ID,Apex デバッガーのセッション ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ApexDebuggerSession.IsAsyncIgnored,IsAsyncIgnored,ApexDebuggerSession,,IsAsyncIgnored,(テスト以外の) 非同期処理を無視する,(テスト以外の) 非同期処理を無視する,チェックボックス,false,false,false,true,true,true
 000000000000000AAA,ApexDebuggerSession.IsDeleted,IsDeleted,ApexDebuggerSession,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
-000000000000000AAA,ApexDebuggerSession.IsInternal,IsInternal,ApexDebuggerSession,,IsInternal,Is SFDC Internal,Is SFDC Internal,チェックボックス,false,false,true,true,true,true
+000000000000000AAA,ApexDebuggerSession.IsInternal,IsInternal,ApexDebuggerSession,,IsInternal,SFDC 内,SFDC 内,チェックボックス,false,false,true,true,true,true
 000000000000000AAA,ApexDebuggerSession.LastModifiedBy,LastModifiedById,ApexDebuggerSession,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
 000000000000000AAA,ApexDebuggerSession.LastModifiedDate,LastModifiedDate,ApexDebuggerSession,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
-000000000000000AAA,ApexDebuggerSession.License,License,ApexDebuggerSession,,License,License,License,テキスト(18),false,true,false,true,true,true
-000000000000000AAA,ApexDebuggerSession.LicenseOrg,LicenseOrg,ApexDebuggerSession,,LicenseOrg,License Org,License Org,テキスト(18),false,true,false,true,true,true
-000000000000000AAA,ApexDebuggerSession.LicenseType,LicenseType,ApexDebuggerSession,,LicenseType,License Type,License Type,選択リスト,false,true,false,true,true,true
-000000000000000AAA,ApexDebuggerSession.Name,Name,ApexDebuggerSession,,Name,Name,Name,自動採番,false,false,true,true,false,true
+000000000000000AAA,ApexDebuggerSession.License,License,ApexDebuggerSession,,License,ライセンス,ライセンス,テキスト(18),false,true,false,true,true,true
+000000000000000AAA,ApexDebuggerSession.LicenseOrg,LicenseOrg,ApexDebuggerSession,,LicenseOrg,ライセンス組織,ライセンス組織,テキスト(18),false,true,false,true,true,true
+000000000000000AAA,ApexDebuggerSession.LicenseType,LicenseType,ApexDebuggerSession,,LicenseType,ライセンスの種類,ライセンスの種類,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ApexDebuggerSession.Name,Name,ApexDebuggerSession,,Name,名前,名前,自動採番,false,false,true,true,false,true
 000000000000000AAA,ApexDebuggerSession.RecordVisibility,RecordVisibilityId,ApexDebuggerSession,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
-000000000000000AAA,ApexDebuggerSession.RequestTypeFilter,RequestTypeFilter,ApexDebuggerSession,,RequestTypeFilter,Request Type Filter,Request Type Filter,ロングテキストエリア(32000),false,true,false,false,false,false
-000000000000000AAA,ApexDebuggerSession.Status,Status,ApexDebuggerSession,,Status,Status,Status,選択リスト,false,true,false,true,true,true
-000000000000000AAA,ApexDebuggerSession.StatusBy,StatusBy,ApexDebuggerSession,,StatusBy,Status By,Status By,選択リスト,false,true,false,true,true,true
-000000000000000AAA,ApexDebuggerSession.StatusMessage,StatusMessage,ApexDebuggerSession,,StatusMessage,Status Message,Status Message,ロングテキストエリア(32000),false,true,false,false,false,false
-000000000000000AAA,ApexDebuggerSession.StatusUsername,StatusUsername,ApexDebuggerSession,,StatusUsername,Status Username,Status Username,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ApexDebuggerSession.RequestTypeFilter,RequestTypeFilter,ApexDebuggerSession,,RequestTypeFilter,要求種別検索条件,要求種別検索条件,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,ApexDebuggerSession.Status,Status,ApexDebuggerSession,,Status,状況,状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ApexDebuggerSession.StatusBy,StatusBy,ApexDebuggerSession,,StatusBy,状況更新者,状況更新者,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ApexDebuggerSession.StatusMessage,StatusMessage,ApexDebuggerSession,,StatusMessage,状況メッセージ,状況メッセージ,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,ApexDebuggerSession.StatusUsername,StatusUsername,ApexDebuggerSession,,StatusUsername,状況ユーザー名,状況ユーザー名,テキスト(255),false,true,false,true,true,true
 000000000000000AAA,ApexDebuggerSession.SystemModstamp,SystemModstamp,ApexDebuggerSession,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
-000000000000000AAA,ApexDebuggerSession.UserIdFilter,UserIdFilter,ApexDebuggerSession,,UserIdFilter,User Id Filter,User Id Filter,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,ApexDebuggerSession.UserIdFilter,UserIdFilter,ApexDebuggerSession,,UserIdFilter,ユーザー ID 検索条件,ユーザー ID 検索条件,ロングテキストエリア(32000),false,true,false,false,false,false
 000000000000000AAA,ApexDebuggerSession.UserRecordAccess,UserRecordAccessId,ApexDebuggerSession,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

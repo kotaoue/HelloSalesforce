@@ -29,14 +29,15 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,AgentWorkChangeEvent.Owner,OwnerId,AgentWorkChangeEvent,,Owner,所有者 氏名,所有者 氏名,参照関係(ユーザー),false,true,false,false,false,false
 000000000000000AAA,AgentWorkChangeEvent.PausedCapacityPercentage,PausedCapacityPercentage,AgentWorkChangeEvent,,PausedCapacityPercentage,一時停止された作業項目の業務率,一時停止された作業項目の業務率,パーセント(3、2),false,true,false,false,false,false
 000000000000000AAA,AgentWorkChangeEvent.PausedCapacityWeight,PausedCapacityWeight,AgentWorkChangeEvent,,PausedCapacityWeight,一時停止された作業項目の業務量の単位数,一時停止された作業項目の業務量の単位数,数値(8、2),false,true,false,false,false,false
-000000000000000AAA,AgentWorkChangeEvent.PendingServiceRouting,PendingServiceRoutingId,AgentWorkChangeEvent,,PendingServiceRouting,待機中のサービスルーティング,待機中のサービスルーティング,参照関係(待機中のサービスルーティング),false,true,false,false,false,false
+000000000000000AAA,AgentWorkChangeEvent.PendingServiceRouting,PendingServiceRoutingId,AgentWorkChangeEvent,,PendingServiceRouting,Pending Service Routings,Pending Service Routings,参照関係(Pending Service Routings),false,true,false,false,false,false
 000000000000000AAA,AgentWorkChangeEvent.PreferredUser,PreferredUserId,AgentWorkChangeEvent,,PreferredUser,優先ユーザー,優先ユーザー,参照関係(ユーザー),false,true,false,false,false,false
 000000000000000AAA,AgentWorkChangeEvent.PushTimeout,PushTimeout,AgentWorkChangeEvent,,PushTimeout,転送タイムアウト,転送タイムアウト,数値(9、0),false,true,false,false,false,false
 000000000000000AAA,AgentWorkChangeEvent.PushTimeoutDateTime,PushTimeoutDateTime,AgentWorkChangeEvent,,PushTimeoutDateTime,転送タイムアウト日,転送タイムアウト日,日付/時間,false,true,false,false,false,false
 000000000000000AAA,AgentWorkChangeEvent.RequestDateTime,RequestDateTime,AgentWorkChangeEvent,,RequestDateTime,要求日,要求日,日付/時間,false,true,false,false,false,false
 000000000000000AAA,AgentWorkChangeEvent.RoutingModel,RoutingModel,AgentWorkChangeEvent,,RoutingModel,ルーティングモデル,ルーティングモデル,選択リスト,false,true,false,false,false,false
 000000000000000AAA,AgentWorkChangeEvent.RoutingPriority,RoutingPriority,AgentWorkChangeEvent,,RoutingPriority,ルーティング優先度,ルーティング優先度,数値(9、0),false,true,false,false,false,false
-000000000000000AAA,AgentWorkChangeEvent.RoutingType,RoutingType,AgentWorkChangeEvent,,RoutingType,ルーティング種別,ルーティング種別,選択リスト,false,true,false,false,false,false
+000000000000000AAA,AgentWorkChangeEvent.RoutingType,RoutingType,AgentWorkChangeEvent,,RoutingType,Routing Type,Routing Type,選択リスト,false,true,false,false,false,false
+000000000000000AAA,AgentWorkChangeEvent.ScheduledRoutingDateTime,ScheduledRoutingDateTime,AgentWorkChangeEvent,,ScheduledRoutingDateTime,スケジュール済みルーティング日時,スケジュール済みルーティング日時,日付/時間,false,true,false,false,false,false
 000000000000000AAA,AgentWorkChangeEvent.ServiceChannel,ServiceChannelId,AgentWorkChangeEvent,,ServiceChannel,サービスチャネル,サービスチャネル,参照関係(サービスチャネル),false,true,false,false,false,false
 000000000000000AAA,AgentWorkChangeEvent.ShouldSkipCapacityCheck,ShouldSkipCapacityCheck,AgentWorkChangeEvent,,ShouldSkipCapacityCheck,業務量チェックをスキップする必要があります,業務量チェックをスキップする必要があります,チェックボックス,false,false,false,false,false,false
 000000000000000AAA,AgentWorkChangeEvent.SpeedToAnswer,SpeedToAnswer,AgentWorkChangeEvent,,SpeedToAnswer,応答速度,応答速度,数値(9、0),false,true,false,false,false,false
@@ -44,4 +45,4 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,AgentWorkChangeEvent.TargetAcceptDateTime,TargetAcceptDateTime,AgentWorkChangeEvent,,TargetAcceptDateTime,目標の受け入れ日時,目標の受け入れ日時,日付/時間,false,true,false,false,false,false
 000000000000000AAA,AgentWorkChangeEvent.TransferRequester,TransferRequesterId,AgentWorkChangeEvent,,TransferRequester,ユーザー,ユーザー,参照関係(ユーザー),false,true,false,false,false,false
 000000000000000AAA,AgentWorkChangeEvent.User,UserId,AgentWorkChangeEvent,,User,ユーザー,ユーザー,参照関係(ユーザー),false,true,false,false,false,false
-000000000000000AAA,AgentWorkChangeEvent.WorkItem,WorkItemId,AgentWorkChangeEvent,,WorkItem,作業項目,作業項目,"参照関係(ケース,取引先,リード,取引先責任者,活動,商談,注文,問い合わせ要求,メッセージングセッション,音声通話,障害,作業指示,オーケストレーション作業項目,問題,変更要求)",false,true,false,false,false,false
+000000000000000AAA,AgentWorkChangeEvent.WorkItem,WorkItemId,AgentWorkChangeEvent,,WorkItem,作業項目,作業項目,"参照関係(ケース,取引先,リード,取引先責任者,活動,商談,注文,問い合わせ要求,メッセージングセッション,音声通話,インシデント,作業指示,オーケストレーション作業項目,問題,変更要求)",false,true,false,false,false,false

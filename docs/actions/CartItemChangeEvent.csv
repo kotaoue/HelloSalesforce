@@ -1,13 +1,11 @@
 Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
 000000000000000AAA,CartItemChangeEvent.AdjustmentAmount,AdjustmentAmount,CartItemChangeEvent,,AdjustmentAmount,調整金額数量ベース,調整金額数量ベース,通貨(16、2),false,true,false,false,false,false
 000000000000000AAA,CartItemChangeEvent.AdjustmentTaxAmount,AdjustmentTaxAmount,CartItemChangeEvent,,AdjustmentTaxAmount,調整税額,調整税額,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.AssociatedItemPricing,AssociatedItemPricing,CartItemChangeEvent,,AssociatedItemPricing,関連付けられたカート品目価格設定,関連付けられたカート品目価格設定,選択リスト,false,true,false,false,false,false
 000000000000000AAA,CartItemChangeEvent.BillingFrequency,BillingFrequency,CartItemChangeEvent,,BillingFrequency,請求サイクル,請求サイクル,選択リスト,false,true,false,false,false,false
 000000000000000AAA,CartItemChangeEvent.Cart,CartId,CartItemChangeEvent,,Cart,カート,カート,参照関係(カート),false,true,false,false,false,false
 000000000000000AAA,CartItemChangeEvent.CartDeliveryGroup,CartDeliveryGroupId,CartItemChangeEvent,,CartDeliveryGroup,カート配送グループ,カート配送グループ,参照関係(カート配送グループ),false,true,false,false,false,false
 000000000000000AAA,CartItemChangeEvent.ChangeEventHeader,ChangeEventHeader,CartItemChangeEvent,,ChangeEventHeader,変更イベントヘッダー,変更イベントヘッダー,複合値,false,false,false,false,false,false
 000000000000000AAA,CartItemChangeEvent.ChildProductCount,ChildProductCount,CartItemChangeEvent,,ChildProductCount,子商品数,子商品数,数値(9、0),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.ConfigureDuringSale,ConfigureDuringSale,CartItemChangeEvent,,ConfigureDuringSale,販売中に設定可能,販売中に設定可能,選択リスト,false,true,false,false,false,false
 000000000000000AAA,CartItemChangeEvent.CreatedBy,CreatedById,CartItemChangeEvent,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,true,false,false,false,false
 000000000000000AAA,CartItemChangeEvent.CreatedDate,CreatedDate,CartItemChangeEvent,,CreatedDate,作成日,作成日,日付/時間,false,true,false,false,false,false
 000000000000000AAA,CartItemChangeEvent.DistributedAdjustmentAmount,DistributedAdjustmentAmount,CartItemChangeEvent,,DistributedAdjustmentAmount,分配プロモーション合計,分配プロモーション合計,通貨(16、2),false,true,false,false,false,false
@@ -31,7 +29,6 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,CartItemChangeEvent.ProductClass,ProductClass,CartItemChangeEvent,,ProductClass,商品クラス,商品クラス,選択リスト,false,true,false,false,false,false
 000000000000000AAA,CartItemChangeEvent.ProductValidationKey,ProductValidationKey,CartItemChangeEvent,,ProductValidationKey,商品入力規則キーハッシュ,商品入力規則キーハッシュ,テキスト(255),false,true,false,false,false,false
 000000000000000AAA,CartItemChangeEvent.Quantity,Quantity,CartItemChangeEvent,,Quantity,数量,数量,数値(18、0),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.QuantityScaleMethod,QuantityScaleMethod,CartItemChangeEvent,,QuantityScaleMethod,数量スケール方法,数量スケール方法,選択リスト,false,true,false,false,false,false
 000000000000000AAA,CartItemChangeEvent.SalesPrice,SalesPrice,CartItemChangeEvent,,SalesPrice,販売価格,販売価格,通貨(16、2),false,true,false,false,false,false
 000000000000000AAA,CartItemChangeEvent.SellingModelType,SellingModelType,CartItemChangeEvent,,SellingModelType,販売モデル種別,販売モデル種別,選択リスト,false,true,false,false,false,false
 000000000000000AAA,CartItemChangeEvent.Sku,Sku,CartItemChangeEvent,,Sku,SKU,SKU,テキスト(255),false,true,false,false,false,false

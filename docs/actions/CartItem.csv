@@ -1,12 +1,10 @@
 Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
 000000000000000AAA,CartItem.AdjustmentAmount,AdjustmentAmount,CartItem,,AdjustmentAmount,調整金額数量ベース,調整金額数量ベース,通貨(16、2),false,true,false,true,false,true
 000000000000000AAA,CartItem.AdjustmentTaxAmount,AdjustmentTaxAmount,CartItem,,AdjustmentTaxAmount,調整税額,調整税額,通貨(16、2),false,true,false,true,false,true
-000000000000000AAA,CartItem.AssociatedItemPricing,AssociatedItemPricing,CartItem,,AssociatedItemPricing,関連付けられたカート品目価格設定,関連付けられたカート品目価格設定,選択リスト,false,true,false,true,true,true
 000000000000000AAA,CartItem.BillingFrequency,BillingFrequency,CartItem,,BillingFrequency,請求サイクル,請求サイクル,選択リスト,false,true,false,true,true,true
 000000000000000AAA,CartItem.Cart,CartId,CartItem,,Cart,カート,カート,主従関係(カート),false,false,true,true,true,true
 000000000000000AAA,CartItem.CartDeliveryGroup,CartDeliveryGroupId,CartItem,,CartDeliveryGroup,カート配送グループ,カート配送グループ,参照関係(カート配送グループ),false,false,false,true,true,true
 000000000000000AAA,CartItem.ChildProductCount,ChildProductCount,CartItem,,ChildProductCount,子商品数,子商品数,数値(9、0),false,true,false,true,true,true
-000000000000000AAA,CartItem.ConfigureDuringSale,ConfigureDuringSale,CartItem,,ConfigureDuringSale,販売中に設定可能,販売中に設定可能,選択リスト,false,true,false,true,true,true
 000000000000000AAA,CartItem.CreatedBy,CreatedById,CartItem,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
 000000000000000AAA,CartItem.CreatedDate,CreatedDate,CartItem,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
 000000000000000AAA,CartItem.DistributedAdjustmentAmount,DistributedAdjustmentAmount,CartItem,,DistributedAdjustmentAmount,分配プロモーション合計,分配プロモーション合計,積み上げ集計 ( カート品目価格調整),true,true,false,true,false,true
@@ -39,7 +37,6 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,CartItem.ProductClass,ProductClass,CartItem,,ProductClass,商品クラス,商品クラス,選択リスト,false,true,false,true,true,true
 000000000000000AAA,CartItem.ProductValidationKey,ProductValidationKey,CartItem,,ProductValidationKey,商品入力規則キーハッシュ,商品入力規則キーハッシュ,テキスト(255),false,true,false,true,true,true
 000000000000000AAA,CartItem.Quantity,Quantity,CartItem,,Quantity,数量,数量,数値(18、0),false,true,false,true,false,true
-000000000000000AAA,CartItem.QuantityScaleMethod,QuantityScaleMethod,CartItem,,QuantityScaleMethod,数量スケール方法,数量スケール方法,選択リスト,false,true,false,true,true,true
 000000000000000AAA,CartItem.RecordVisibility,RecordVisibilityId,CartItem,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
 000000000000000AAA,CartItem.SalesPrice,SalesPrice,CartItem,,SalesPrice,販売価格,販売価格,通貨(16、2),false,true,false,true,false,true
 000000000000000AAA,CartItem.SellingModelType,SellingModelType,CartItem,,SellingModelType,販売モデル種別,販売モデル種別,選択リスト,false,true,false,true,true,true

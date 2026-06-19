@@ -10,6 +10,8 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,IdentityProviderEventStore.IdentityUsed,IdentityUsed,IdentityProviderEventStore,,IdentityUsed,使用された ID,使用された ID,テキスト(765),false,true,false,false,false,false
 000000000000000AAA,IdentityProviderEventStore.InitiatedBy,InitiatedBy,IdentityProviderEventStore,,InitiatedBy,利用状況の種別,利用状況の種別,選択リスト,false,false,false,false,false,false
 000000000000000AAA,IdentityProviderEventStore.OauthConsumer,OauthConsumerId,IdentityProviderEventStore,,OauthConsumer,OAuth コンシューマー,OAuth コンシューマー,参照関係(リモートアクセス),false,true,false,false,false,false
+000000000000000AAA,IdentityProviderEventStore.Profile,ProfileId,IdentityProviderEventStore,,Profile,プロファイル,プロファイル,参照関係(プロファイル),false,true,false,false,false,false
+000000000000000AAA,IdentityProviderEventStore.Role,RoleId,IdentityProviderEventStore,,Role,ロール,ロール,参照関係(ロール),false,true,false,false,false,false
 000000000000000AAA,IdentityProviderEventStore.SamlEntityUrl,SamlEntityUrl,IdentityProviderEventStore,,SamlEntityUrl,エンティティ ID,エンティティ ID,テキスト(1500),false,false,false,false,false,false
 000000000000000AAA,IdentityProviderEventStore.ServiceProvider,ServiceProviderId,IdentityProviderEventStore,,ServiceProvider,サービスプロバイダー,サービスプロバイダー,参照関係(サービスプロバイダー),false,true,false,false,false,false
 000000000000000AAA,IdentityProviderEventStore.SsoType,SsoType,IdentityProviderEventStore,,SsoType,SSO 種別,SSO 種別,選択リスト,false,true,false,false,false,false

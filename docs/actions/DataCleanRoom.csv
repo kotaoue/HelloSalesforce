@@ -9,6 +9,8 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,DataCleanRoom.IsDeleted,IsDeleted,DataCleanRoom,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
 000000000000000AAA,DataCleanRoom.LastModifiedBy,LastModifiedById,DataCleanRoom,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
 000000000000000AAA,DataCleanRoom.LastModifiedDate,LastModifiedDate,DataCleanRoom,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DataCleanRoom.LastReferencedDate,LastReferencedDate,DataCleanRoom,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DataCleanRoom.LastViewedDate,LastViewedDate,DataCleanRoom,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
 000000000000000AAA,DataCleanRoom.Name,Name,DataCleanRoom,,Name,名前,名前,テキスト(255),false,false,true,true,true,true
 000000000000000AAA,DataCleanRoom.RecordVisibility,RecordVisibilityId,DataCleanRoom,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
 000000000000000AAA,DataCleanRoom.SystemModstamp,SystemModstamp,DataCleanRoom,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

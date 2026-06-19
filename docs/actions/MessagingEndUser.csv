@@ -19,6 +19,7 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,MessagingEndUser.MessageType,MessageType,MessagingEndUser,,MessageType,メッセージ種別,メッセージ種別,選択リスト,false,false,false,true,true,true
 000000000000000AAA,MessagingEndUser.MessagingChannel,MessagingChannelId,MessagingEndUser,,MessagingChannel,メッセージングチャネル,メッセージングチャネル,参照関係(メッセージングチャネル),false,false,true,true,true,true
 000000000000000AAA,MessagingEndUser.MessagingConsentStatus,MessagingConsentStatus,MessagingEndUser,,MessagingConsentStatus,メッセージングに関する同意状況,メッセージングに関する同意状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MessagingEndUser.MessagingExternalUserKey,MessagingExternalUserKey,MessagingEndUser,,MessagingExternalUserKey,メッセージングの外部キー,メッセージングの外部キー,テキスト(255),false,true,false,true,true,true
 000000000000000AAA,MessagingEndUser.MessagingPlatformKey,MessagingPlatformKey,MessagingEndUser,,MessagingPlatformKey,メッセージプラットフォームキー,メッセージプラットフォームキー,テキスト(255),false,false,false,true,true,true
 000000000000000AAA,MessagingEndUser.Name,Name,MessagingEndUser,,Name,メッセージングユーザー名,メッセージングユーザー名,テキスト(255),false,false,true,true,true,true
 000000000000000AAA,MessagingEndUser.Owner,OwnerId,MessagingEndUser,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true

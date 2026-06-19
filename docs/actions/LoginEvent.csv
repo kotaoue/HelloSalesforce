@@ -3,6 +3,7 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,LoginEvent.ApiType,ApiType,LoginEvent,,ApiType,API 種別,API 種別,テキスト(64),false,true,false,false,false,false
 000000000000000AAA,LoginEvent.ApiVersion,ApiVersion,LoginEvent,,ApiVersion,API バージョン,API バージョン,テキスト(32),false,true,false,false,false,false
 000000000000000AAA,LoginEvent.Application,Application,LoginEvent,,Application,アプリケーション,アプリケーション,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.AuthContextClassRef,AuthContextClassRef,LoginEvent,,AuthContextClassRef,認証コンテキストクラス参照,認証コンテキストクラス参照,テキスト(500),false,true,false,false,false,false
 000000000000000AAA,LoginEvent.AuthMethodReference,AuthMethodReference,LoginEvent,,AuthMethodReference,認証メソッド参照,認証メソッド参照,テキスト(128),false,true,false,false,false,false
 000000000000000AAA,LoginEvent.AuthServiceId,AuthServiceId,LoginEvent,,AuthServiceId,認証サービス ID,認証サービス ID,参照関係(),false,true,false,false,false,false
 000000000000000AAA,LoginEvent.Browser,Browser,LoginEvent,,Browser,ブラウザー,ブラウザー,テキスト(64),false,true,false,false,false,false
@@ -30,8 +31,10 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,LoginEvent.Policy,PolicyId,LoginEvent,,Policy,ポリシー,ポリシー,参照関係(Transaction Security Policy),false,true,false,false,false,false
 000000000000000AAA,LoginEvent.PolicyOutcome,PolicyOutcome,LoginEvent,,PolicyOutcome,ポリシーの結果,ポリシーの結果,選択リスト,false,true,false,false,false,false
 000000000000000AAA,LoginEvent.PostalCode,PostalCode,LoginEvent,,PostalCode,郵便番号,郵便番号,テキスト(20),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.Profile,ProfileId,LoginEvent,,Profile,プロファイル,プロファイル,参照関係(プロファイル),false,true,false,false,false,false
 000000000000000AAA,LoginEvent.RelatedEventIdentifier,RelatedEventIdentifier,LoginEvent,,RelatedEventIdentifier,関連イベント識別子,関連イベント識別子,テキスト(80),false,true,false,false,false,false
 000000000000000AAA,LoginEvent.RemoteIdentifier,RemoteIdentifier,LoginEvent,,RemoteIdentifier,認証プロバイダーのリモート ID,認証プロバイダーのリモート ID,テキスト(128),false,true,false,false,false,false
+000000000000000AAA,LoginEvent.Role,RoleId,LoginEvent,,Role,ロール,ロール,参照関係(ロール),false,true,false,false,false,false
 000000000000000AAA,LoginEvent.SessionKey,SessionKey,LoginEvent,,SessionKey,セッションキー,セッションキー,テキスト(24),false,true,false,false,false,false
 000000000000000AAA,LoginEvent.SessionLevel,SessionLevel,LoginEvent,,SessionLevel,セッションレベル,セッションレベル,選択リスト,false,true,false,false,false,false
 000000000000000AAA,LoginEvent.SourceIp,SourceIp,LoginEvent,,SourceIp,アクセス元 IP,アクセス元 IP,テキスト(80),false,true,false,false,false,false

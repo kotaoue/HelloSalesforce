@@ -1,12 +1,11 @@
 Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
 000000000000000AAA,InteractionValueMapEntry.CreatedBy,CreatedById,InteractionValueMapEntry,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
 000000000000000AAA,InteractionValueMapEntry.CreatedDate,CreatedDate,InteractionValueMapEntry,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
-000000000000000AAA,InteractionValueMapEntry.Id,Id,InteractionValueMapEntry,,Id,インタラクション値の対応付けエントリ ID,インタラクション値の対応付けエントリ ID,参照関係(),false,false,true,true,true,true
-000000000000000AAA,InteractionValueMapEntry.InteractionValueMapDef,InteractionValueMapDefId,InteractionValueMapEntry,,InteractionValueMapDef,インタラクション値の対応付け定義,インタラクション値の対応付け定義,主従関係(インタラクション値の対応付け定義),false,false,true,true,true,true
+000000000000000AAA,InteractionValueMapEntry.Id,Id,InteractionValueMapEntry,,Id,フリー値の対応付けエントリ ID,フリー値の対応付けエントリ ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,InteractionValueMapEntry.InteractionValueMapDef,InteractionValueMapDefId,InteractionValueMapEntry,,InteractionValueMapDef,フロー値の対応付け定義,フロー値の対応付け定義,主従関係(フロー値の対応付け定義),false,false,true,true,true,true
 000000000000000AAA,InteractionValueMapEntry.IsDeleted,IsDeleted,InteractionValueMapEntry,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
 000000000000000AAA,InteractionValueMapEntry.LastModifiedBy,LastModifiedById,InteractionValueMapEntry,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
 000000000000000AAA,InteractionValueMapEntry.LastModifiedDate,LastModifiedDate,InteractionValueMapEntry,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
-000000000000000AAA,InteractionValueMapEntry.ManageableState,ManageableState,InteractionValueMapEntry,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
 000000000000000AAA,InteractionValueMapEntry.SourceValue,SourceValue,InteractionValueMapEntry,,SourceValue,ソース値,ソース値,テキスト(255),false,false,false,true,true,true
 000000000000000AAA,InteractionValueMapEntry.SystemModstamp,SystemModstamp,InteractionValueMapEntry,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
 000000000000000AAA,InteractionValueMapEntry.TargetValue,TargetValue,InteractionValueMapEntry,,TargetValue,対象値,対象値,テキスト(255),false,false,false,true,true,true

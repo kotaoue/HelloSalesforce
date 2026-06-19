@@ -2,7 +2,8 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,LoginHistory.ApiType,ApiType,LoginHistory,,ApiType,API 種別,API 種別,テキスト(64),false,true,false,false,true,true
 000000000000000AAA,LoginHistory.ApiVersion,ApiVersion,LoginHistory,,ApiVersion,API バージョン,API バージョン,テキスト(32),false,true,false,false,true,true
 000000000000000AAA,LoginHistory.Application,Application,LoginHistory,,Application,アプリケーション,アプリケーション,テキスト(64),false,true,false,false,true,true
-000000000000000AAA,LoginHistory.AuthenticationService,AuthenticationServiceId,LoginHistory,,AuthenticationService,認証サービス,認証サービス,"参照関係(認証プロバイダー,SAML SSO 設定)",false,true,false,true,true,true
+000000000000000AAA,LoginHistory.AuthContextClassRef,AuthContextClassRef,LoginHistory,,AuthContextClassRef,認証コンテキストクラス参照,認証コンテキストクラス参照,テキスト(500),false,true,false,true,false,true
+000000000000000AAA,LoginHistory.AuthenticationService,AuthenticationServiceId,LoginHistory,,AuthenticationService,認証サービス,認証サービス,"参照関係(認証プロバイダー,SAML シングルサインオン設定)",false,true,false,true,true,true
 000000000000000AAA,LoginHistory.AuthMethodReference,AuthMethodReference,LoginHistory,,AuthMethodReference,認証メソッド参照,認証メソッド参照,テキスト(128),false,true,false,true,true,true
 000000000000000AAA,LoginHistory.Browser,Browser,LoginHistory,,Browser,ブラウザー,ブラウザー,テキスト(64),false,true,false,false,true,true
 000000000000000AAA,LoginHistory.CipherSuite,CipherSuite,LoginHistory,,CipherSuite,TLS Cipher Suite,TLS Cipher Suite,選択リスト,false,true,false,true,true,true

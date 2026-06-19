@@ -4,6 +4,7 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,LoginAsEvent.CreatedDate,CreatedDate,LoginAsEvent,,CreatedDate,作成日,作成日,日付/時間,false,false,false,false,false,false
 000000000000000AAA,LoginAsEvent.DelegatedOrganizationId,DelegatedOrganizationId,LoginAsEvent,,DelegatedOrganizationId,代理組織 ID,代理組織 ID,テキスト(18),false,true,false,false,false,false
 000000000000000AAA,LoginAsEvent.DelegatedUsername,DelegatedUsername,LoginAsEvent,,DelegatedUsername,代理ユーザー名,代理ユーザー名,テキスト(128),false,true,false,false,false,false
+000000000000000AAA,LoginAsEvent.EvaluationTime,EvaluationTime,LoginAsEvent,,EvaluationTime,評価時間,評価時間,数値(18、0),false,true,false,false,false,false
 000000000000000AAA,LoginAsEvent.EventDate,EventDate,LoginAsEvent,,EventDate,イベント日,イベント日,日付/時間,false,false,false,true,false,true
 000000000000000AAA,LoginAsEvent.EventIdentifier,EventIdentifier,LoginAsEvent,,EventIdentifier,イベント識別子,イベント識別子,テキスト(80),false,false,false,true,false,true
 000000000000000AAA,LoginAsEvent.Id,Id,LoginAsEvent,,Id,LoginAs イベント ID,LoginAs イベント ID,参照関係(),false,false,false,false,false,false
@@ -15,6 +16,10 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,LoginAsEvent.LoginKey,LoginKey,LoginAsEvent,,LoginKey,ログインキー,ログインキー,テキスト(24),false,true,false,false,false,false
 000000000000000AAA,LoginAsEvent.LoginType,LoginType,LoginAsEvent,,LoginType,種別,種別,選択リスト,false,true,false,false,false,false
 000000000000000AAA,LoginAsEvent.Platform,Platform,LoginAsEvent,,Platform,プラットフォーム,プラットフォーム,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,LoginAsEvent.Policy,PolicyId,LoginAsEvent,,Policy,ポリシー,ポリシー,参照関係(Transaction Security Policy),false,true,false,false,false,false
+000000000000000AAA,LoginAsEvent.PolicyOutcome,PolicyOutcome,LoginAsEvent,,PolicyOutcome,ポリシーの結果,ポリシーの結果,選択リスト,false,true,false,false,false,false
+000000000000000AAA,LoginAsEvent.Profile,ProfileId,LoginAsEvent,,Profile,プロファイル,プロファイル,参照関係(プロファイル),false,true,false,false,false,false
+000000000000000AAA,LoginAsEvent.Role,RoleId,LoginAsEvent,,Role,ロール,ロール,参照関係(ロール),false,true,false,false,false,false
 000000000000000AAA,LoginAsEvent.SessionKey,SessionKey,LoginAsEvent,,SessionKey,セッションキー,セッションキー,テキスト(24),false,true,false,false,false,false
 000000000000000AAA,LoginAsEvent.SessionLevel,SessionLevel,LoginAsEvent,,SessionLevel,セッションレベル,セッションレベル,選択リスト,false,true,false,false,false,false
 000000000000000AAA,LoginAsEvent.SourceIp,SourceIp,LoginAsEvent,,SourceIp,アクセス元 IP,アクセス元 IP,テキスト(255),false,true,false,false,false,false

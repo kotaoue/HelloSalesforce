@@ -2,9 +2,9 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,IncidentHistory.CreatedBy,CreatedById,IncidentHistory,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
 000000000000000AAA,IncidentHistory.CreatedDate,CreatedDate,IncidentHistory,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
 000000000000000AAA,IncidentHistory.DataType,DataType,IncidentHistory,,DataType,データ型,データ型,選択リスト,false,true,false,true,true,true
-000000000000000AAA,IncidentHistory.Field,Field,IncidentHistory,,Field,変更された項目,変更された項目,"選択リスト(カスタム項目の定義,カスタム項目データ列)",false,false,true,true,true,true
-000000000000000AAA,IncidentHistory.Id,Id,IncidentHistory,,Id,障害履歴 ID,障害履歴 ID,参照関係(),false,false,true,true,true,true
-000000000000000AAA,IncidentHistory.Incident,IncidentId,IncidentHistory,,Incident,障害,障害,参照関係(障害),false,false,true,true,true,true
+000000000000000AAA,IncidentHistory.Field,Field,IncidentHistory,,Field,変更された項目,変更された項目,"選択リスト(Custom Field Definitions,カスタム項目データ列)",false,false,true,true,true,true
+000000000000000AAA,IncidentHistory.Id,Id,IncidentHistory,,Id,インシデント履歴 ID,インシデント履歴 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,IncidentHistory.Incident,IncidentId,IncidentHistory,,Incident,インシデント,インシデント,参照関係(インシデント),false,false,true,true,true,true
 000000000000000AAA,IncidentHistory.IsDeleted,IsDeleted,IncidentHistory,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
 000000000000000AAA,IncidentHistory.NewvalDate,NewvalDate,IncidentHistory,,NewvalDate,新規の日付,新規の日付,日付/時間,false,true,false,true,false,true
 000000000000000AAA,IncidentHistory.NewvalFirstName,NewvalFirstName,IncidentHistory,,NewvalFirstName,新規の名,新規の名,テキスト(255),false,true,false,true,true,true

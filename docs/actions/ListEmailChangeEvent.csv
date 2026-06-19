@@ -1,5 +1,6 @@
 Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
 000000000000000AAA,ListEmailChangeEvent.Campaign,CampaignId,ListEmailChangeEvent,,Campaign,キャンペーン,キャンペーン,参照関係(キャンペーン),false,true,false,false,false,false
+000000000000000AAA,ListEmailChangeEvent.CcAddress,CcAddress,ListEmailChangeEvent,,CcAddress,CC アドレス,CC アドレス,ロングテキストエリア(320),false,true,false,false,false,false
 000000000000000AAA,ListEmailChangeEvent.ChangeEventHeader,ChangeEventHeader,ListEmailChangeEvent,,ChangeEventHeader,変更イベントヘッダー,変更イベントヘッダー,複合値,false,false,false,false,false,false
 000000000000000AAA,ListEmailChangeEvent.CreatedBy,CreatedById,ListEmailChangeEvent,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,true,false,false,false,false
 000000000000000AAA,ListEmailChangeEvent.CreatedDate,CreatedDate,ListEmailChangeEvent,,CreatedDate,作成日,作成日,日付/時間,false,true,false,false,false,false
@@ -7,6 +8,8 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,ListEmailChangeEvent.FromName,FromName,ListEmailChangeEvent,,FromName,差出人名,差出人名,テキスト(121),false,true,false,false,false,false
 000000000000000AAA,ListEmailChangeEvent.HasAttachment,HasAttachment,ListEmailChangeEvent,,HasAttachment,添付あり,添付あり,チェックボックス,false,false,false,false,false,false
 000000000000000AAA,ListEmailChangeEvent.HtmlBody,HtmlBody,ListEmailChangeEvent,,HtmlBody,HTML 内容,HTML 内容,ロングテキストエリア(32000),false,true,false,false,false,false
+000000000000000AAA,ListEmailChangeEvent.IsEmailArchiveRequired,IsEmailArchiveRequired,ListEmailChangeEvent,,IsEmailArchiveRequired,メールアーカイブが必要,メールアーカイブが必要,チェックボックス,false,false,false,false,false,false
+000000000000000AAA,ListEmailChangeEvent.IsSyntheticCcEnabled,IsSyntheticCcEnabled,ListEmailChangeEvent,,IsSyntheticCcEnabled,合成 CC が有効,合成 CC が有効,チェックボックス,false,false,false,false,false,false
 000000000000000AAA,ListEmailChangeEvent.IsTracked,IsTracked,ListEmailChangeEvent,,IsTracked,追跡中,追跡中,チェックボックス,false,false,false,false,false,false
 000000000000000AAA,ListEmailChangeEvent.LastModifiedBy,LastModifiedById,ListEmailChangeEvent,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,true,false,false,false,false
 000000000000000AAA,ListEmailChangeEvent.LastModifiedDate,LastModifiedDate,ListEmailChangeEvent,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,true,false,false,false,false
@@ -15,8 +18,9 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,ListEmailChangeEvent.PardotAsset,PardotAsset,ListEmailChangeEvent,,PardotAsset,Pardot Asset,Pardot Asset,テキスト(100),false,true,false,false,false,false
 000000000000000AAA,ListEmailChangeEvent.PardotExternalId,PardotExternalId,ListEmailChangeEvent,,PardotExternalId,Pardot External ID,Pardot External ID,外部参照,false,true,false,false,false,false
 000000000000000AAA,ListEmailChangeEvent.PardotTenant,PardotTenant,ListEmailChangeEvent,,PardotTenant,Pardot Tenant,Pardot Tenant,テキスト(100),false,true,false,false,false,false
-000000000000000AAA,ListEmailChangeEvent.RelatedTo,RelatedToId,ListEmailChangeEvent,,RelatedTo,関連先,関連先,"参照関係(障害,リード,商談,取引先責任者,ユーザー,ケース,商品,予定招待)",false,true,false,false,false,false
+000000000000000AAA,ListEmailChangeEvent.RelatedTo,RelatedToId,ListEmailChangeEvent,,RelatedTo,関連先,関連先,"参照関係(インシデント,リード,商談,取引先責任者,ユーザー,ケース,商品,予定招待)",false,true,false,false,false,false
 000000000000000AAA,ListEmailChangeEvent.ReplyToAddress,ReplyToAddress,ListEmailChangeEvent,,ReplyToAddress,返信先アドレス,返信先アドレス,ロングテキストエリア(320),false,true,false,false,false,false
+000000000000000AAA,ListEmailChangeEvent.ReplyToName,ReplyToName,ListEmailChangeEvent,,ReplyToName,返信先名,返信先名,テキスト(121),false,true,false,false,false,false
 000000000000000AAA,ListEmailChangeEvent.ScheduledDate,ScheduledDate,ListEmailChangeEvent,,ScheduledDate,予定日,予定日,日付/時間,false,true,false,false,false,false
 000000000000000AAA,ListEmailChangeEvent.SentVia,SentVia,ListEmailChangeEvent,,SentVia,送信方法,送信方法,選択リスト,false,true,false,false,false,false
 000000000000000AAA,ListEmailChangeEvent.Status,Status,ListEmailChangeEvent,,Status,状況,状況,選択リスト,false,true,false,false,false,false

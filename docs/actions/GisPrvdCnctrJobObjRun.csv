@@ -1,11 +1,12 @@
 Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,GisPrvdCnctrJobObjRun.BatchNumber,BatchNumber,GisPrvdCnctrJobObjRun,,BatchNumber,バッチ番号,バッチ番号,テキスト(20),false,true,false,true,true,true
 000000000000000AAA,GisPrvdCnctrJobObjRun.CreatedBy,CreatedById,GisPrvdCnctrJobObjRun,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
 000000000000000AAA,GisPrvdCnctrJobObjRun.CreatedDate,CreatedDate,GisPrvdCnctrJobObjRun,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
 000000000000000AAA,GisPrvdCnctrJobObjRun.CronTrigger,CronTrigger,GisPrvdCnctrJobObjRun,,CronTrigger,Cron Trigger,Cron Trigger,テキスト(255),false,false,false,true,true,true
 000000000000000AAA,GisPrvdCnctrJobObjRun.EndTime,EndTime,GisPrvdCnctrJobObjRun,,EndTime,終了時刻,終了時刻,日付/時間,false,true,false,true,false,true
 000000000000000AAA,GisPrvdCnctrJobObjRun.ErrorMessage,ErrorMessage,GisPrvdCnctrJobObjRun,,ErrorMessage,エラーメッセージ,エラーメッセージ,ロングテキストエリア(131072),false,true,false,false,false,false
 000000000000000AAA,GisPrvdCnctrJobObjRun.GisProviderConnectorObject,GisProviderConnectorObjectId,GisPrvdCnctrJobObjRun,,GisProviderConnectorObject,GIS プロバイダーコネクタオブジェクト,GIS プロバイダーコネクタオブジェクト,参照関係(GIS プロバイダーコネクタジョブオブジェクト),false,true,true,true,true,true
-000000000000000AAA,GisPrvdCnctrJobObjRun.Id,Id,GisPrvdCnctrJobObjRun,,Id,GIS プロバイダーコネクタオブジェクトジョブ実行 ID,GIS プロバイダーコネクタオブジェクトジョブ実行 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,GisPrvdCnctrJobObjRun.Id,Id,GisPrvdCnctrJobObjRun,,Id,GIS プロバイダーコネクタジョブオブジェクト実行 ID,GIS プロバイダーコネクタジョブオブジェクト実行 ID,参照関係(),false,false,true,true,true,true
 000000000000000AAA,GisPrvdCnctrJobObjRun.IsDeleted,IsDeleted,GisPrvdCnctrJobObjRun,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
 000000000000000AAA,GisPrvdCnctrJobObjRun.LastModifiedBy,LastModifiedById,GisPrvdCnctrJobObjRun,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
 000000000000000AAA,GisPrvdCnctrJobObjRun.LastModifiedDate,LastModifiedDate,GisPrvdCnctrJobObjRun,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
@@ -15,4 +16,6 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,GisPrvdCnctrJobObjRun.StartTime,StartTime,GisPrvdCnctrJobObjRun,,StartTime,開始時刻,開始時刻,日付/時間,false,false,false,true,false,true
 000000000000000AAA,GisPrvdCnctrJobObjRun.Status,Status,GisPrvdCnctrJobObjRun,,Status,状況,状況,選択リスト,false,false,false,true,true,true
 000000000000000AAA,GisPrvdCnctrJobObjRun.SystemModstamp,SystemModstamp,GisPrvdCnctrJobObjRun,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,GisPrvdCnctrJobObjRun.TotalFailures,TotalFailures,GisPrvdCnctrJobObjRun,,TotalFailures,失敗の合計,失敗の合計,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,GisPrvdCnctrJobObjRun.TotalSuccess,TotalSuccess,GisPrvdCnctrJobObjRun,,TotalSuccess,成功の合計,成功の合計,数値(9、0),false,true,false,true,true,true
 000000000000000AAA,GisPrvdCnctrJobObjRun.UserRecordAccess,UserRecordAccessId,GisPrvdCnctrJobObjRun,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
