@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-06-16T09:18:44.941Z",
+  "fetchedAt": "2026-06-23T07:14:41.400Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 17,
+  "totalSize": 18,
   "records": [
     {
       "attributes": {
@@ -311,6 +311,27 @@
       "MasterLabel": "スキーマバージョン",
       "Label": "スキーマバージョン",
       "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/MktDataTransformEvent.StatusSequence"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MktDataTransformEvent.StatusSequence",
+      "QualifiedApiName": "StatusSequence",
+      "EntityDefinitionId": "MktDataTransformEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "StatusSequence",
+      "MasterLabel": "Sequence number of the status update event",
+      "Label": "Sequence number of the status update event",
+      "DataType": "数値(18、0)",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,

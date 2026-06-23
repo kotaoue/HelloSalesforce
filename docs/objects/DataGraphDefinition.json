@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-06-16T09:18:44.941Z",
+  "fetchedAt": "2026-06-23T07:14:41.400Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 31,
+  "totalSize": 33,
   "records": [
     {
       "attributes": {
@@ -460,6 +460,48 @@
       "DataType": "テキスト(100)",
       "IsCalculated": false,
       "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataGraphDefinition.ProcessIngestionApi"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGraphDefinition.ProcessIngestionApi",
+      "QualifiedApiName": "ProcessIngestionApi",
+      "EntityDefinitionId": "DataGraphDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "ProcessIngestionApi",
+      "MasterLabel": "Process Ingestion API data in real time",
+      "Label": "Process Ingestion API data in real time",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataGraphDefinition.ProcessSalesforceCrm"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataGraphDefinition.ProcessSalesforceCrm",
+      "QualifiedApiName": "ProcessSalesforceCrm",
+      "EntityDefinitionId": "DataGraphDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "ProcessSalesforceCrm",
+      "MasterLabel": "Process Salesforce CRM connector data in real time",
+      "Label": "Process Salesforce CRM connector data in real time",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
       "IsIndexed": false,
       "IsApiFilterable": true,
       "IsApiGroupable": true,

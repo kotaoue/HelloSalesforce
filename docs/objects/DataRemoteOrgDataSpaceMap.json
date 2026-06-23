@@ -1,0 +1,343 @@
+{
+  "fetchedAt": "2026-06-23T07:14:41.400Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 16,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataRemoteOrgDataSpaceMap.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataRemoteOrgDataSpaceMap.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DataRemoteOrgDataSpaceMap",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataRemoteOrgDataSpaceMap.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataRemoteOrgDataSpaceMap.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DataRemoteOrgDataSpaceMap",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataRemoteOrgDataSpaceMap.DataMultiOrgConnection"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataRemoteOrgDataSpaceMap.DataMultiOrgConnection",
+      "QualifiedApiName": "DataMultiOrgConnectionId",
+      "EntityDefinitionId": "DataRemoteOrgDataSpaceMap",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataMultiOrgConnection",
+      "MasterLabel": "データ複数組織接続",
+      "Label": "データ複数組織接続",
+      "DataType": "参照関係(Data Multi Org Connections)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataRemoteOrgDataSpaceMap.DataSpaceSyncStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataRemoteOrgDataSpaceMap.DataSpaceSyncStatus",
+      "QualifiedApiName": "DataSpaceSyncStatus",
+      "EntityDefinitionId": "DataRemoteOrgDataSpaceMap",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataSpaceSyncStatus",
+      "MasterLabel": "データスペース同期状況",
+      "Label": "データスペース同期状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataRemoteOrgDataSpaceMap.Day0GenerationFailureCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataRemoteOrgDataSpaceMap.Day0GenerationFailureCount",
+      "QualifiedApiName": "Day0GenerationFailureCount",
+      "EntityDefinitionId": "DataRemoteOrgDataSpaceMap",
+      "NamespacePrefix": null,
+      "DeveloperName": "Day0GenerationFailureCount",
+      "MasterLabel": "Day0 Generation Failure Count",
+      "Label": "Day0 Generation Failure Count",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataRemoteOrgDataSpaceMap.DayZeroGenerationErrors"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataRemoteOrgDataSpaceMap.DayZeroGenerationErrors",
+      "QualifiedApiName": "DayZeroGenerationErrors",
+      "EntityDefinitionId": "DataRemoteOrgDataSpaceMap",
+      "NamespacePrefix": null,
+      "DeveloperName": "DayZeroGenerationErrors",
+      "MasterLabel": "0 日生成エラー",
+      "Label": "0 日生成エラー",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataRemoteOrgDataSpaceMap.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataRemoteOrgDataSpaceMap.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "DataRemoteOrgDataSpaceMap",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(90)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataRemoteOrgDataSpaceMap.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataRemoteOrgDataSpaceMap.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DataRemoteOrgDataSpaceMap",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Remote Org Data Space Mappings ID",
+      "Label": "Remote Org Data Space Mappings ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataRemoteOrgDataSpaceMap.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataRemoteOrgDataSpaceMap.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DataRemoteOrgDataSpaceMap",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataRemoteOrgDataSpaceMap.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataRemoteOrgDataSpaceMap.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "DataRemoteOrgDataSpaceMap",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataRemoteOrgDataSpaceMap.LastDay0FailureTimestamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataRemoteOrgDataSpaceMap.LastDay0FailureTimestamp",
+      "QualifiedApiName": "LastDay0FailureTimestamp",
+      "EntityDefinitionId": "DataRemoteOrgDataSpaceMap",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastDay0FailureTimestamp",
+      "MasterLabel": "Last Day0 Failure Timestamp",
+      "Label": "Last Day0 Failure Timestamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataRemoteOrgDataSpaceMap.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataRemoteOrgDataSpaceMap.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DataRemoteOrgDataSpaceMap",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataRemoteOrgDataSpaceMap.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataRemoteOrgDataSpaceMap.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DataRemoteOrgDataSpaceMap",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataRemoteOrgDataSpaceMap.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataRemoteOrgDataSpaceMap.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "DataRemoteOrgDataSpaceMap",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(90)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataRemoteOrgDataSpaceMap.RecordSynStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataRemoteOrgDataSpaceMap.RecordSynStatus",
+      "QualifiedApiName": "RecordSynStatus",
+      "EntityDefinitionId": "DataRemoteOrgDataSpaceMap",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordSynStatus",
+      "MasterLabel": "レコード同期状況",
+      "Label": "レコード同期状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataRemoteOrgDataSpaceMap.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataRemoteOrgDataSpaceMap.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DataRemoteOrgDataSpaceMap",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}
