@@ -1,8 +1,29 @@
 {
-  "fetchedAt": "2026-06-30T07:19:09.975Z",
+  "fetchedAt": "2026-07-07T07:08:59.573Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 20,
+  "totalSize": 21,
   "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiAgent.AgentType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiAgent.AgentType",
+      "QualifiedApiName": "AgentType",
+      "EntityDefinitionId": "AiAgent",
+      "NamespacePrefix": null,
+      "DeveloperName": "AgentType",
+      "MasterLabel": "Type of Agent",
+      "Label": "Type of Agent",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
     {
       "attributes": {
         "type": "FieldDefinition",
@@ -73,13 +94,13 @@
       },
       "Id": "000000000000000AAA",
       "DurableId": "AiAgent.Definition",
-      "QualifiedApiName": "DefinitionId",
+      "QualifiedApiName": "Definition",
       "EntityDefinitionId": "AiAgent",
       "NamespacePrefix": null,
       "DeveloperName": "Definition",
       "MasterLabel": "定義",
       "Label": "定義",
-      "DataType": "参照関係(外部サービス登録)",
+      "DataType": "選択リスト(外部サービス登録)",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,

@@ -1,0 +1,154 @@
+{
+  "fetchedAt": "2026-07-07T07:08:59.573Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 7,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/McpTaskProgressEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "McpTaskProgressEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "McpTaskProgressEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/McpTaskProgressEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "McpTaskProgressEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "McpTaskProgressEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/McpTaskProgressEvent.EventUuid"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "McpTaskProgressEvent.EventUuid",
+      "QualifiedApiName": "EventUuid",
+      "EntityDefinitionId": "McpTaskProgressEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventUuid",
+      "MasterLabel": "Identifier of the shape of the event",
+      "Label": "Identifier of the shape of the event",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/McpTaskProgressEvent.ReplayId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "McpTaskProgressEvent.ReplayId",
+      "QualifiedApiName": "ReplayId",
+      "EntityDefinitionId": "McpTaskProgressEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReplayId",
+      "MasterLabel": "Position of the event in the replay log",
+      "Label": "Position of the event in the replay log",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/McpTaskProgressEvent.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "McpTaskProgressEvent.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "McpTaskProgressEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "Current status of the task",
+      "Label": "Current status of the task",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/McpTaskProgressEvent.StatusMessage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "McpTaskProgressEvent.StatusMessage",
+      "QualifiedApiName": "StatusMessage",
+      "EntityDefinitionId": "McpTaskProgressEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "StatusMessage",
+      "MasterLabel": "Detailed status message",
+      "Label": "Detailed status message",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/McpTaskProgressEvent.Task"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "McpTaskProgressEvent.Task",
+      "QualifiedApiName": "Task",
+      "EntityDefinitionId": "McpTaskProgressEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Task",
+      "MasterLabel": "Unique identifier for the task (UUID format)",
+      "Label": "Unique identifier for the task (UUID format)",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

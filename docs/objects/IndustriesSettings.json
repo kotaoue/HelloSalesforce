@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-06-30T07:19:09.975Z",
+  "fetchedAt": "2026-07-07T07:08:59.573Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 447,
+  "totalSize": 450,
   "records": [
     {
       "attributes": {
@@ -460,6 +460,27 @@
       "DataType": "外部参照",
       "IsCalculated": false,
       "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IndustriesSettings.FinancialServicesHouseholds"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IndustriesSettings.FinancialServicesHouseholds",
+      "QualifiedApiName": "FinancialServicesHouseholds",
+      "EntityDefinitionId": "IndustriesSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "FinancialServicesHouseholds",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val FinancialServicesHouseholds not found in section udd_SettingsTemplate",
+      "Label": "__MISSING LABEL__ PropertyFile - val FinancialServicesHouseholds not found in section udd_SettingsTemplate",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
       "IsIndexed": false,
       "IsApiFilterable": true,
       "IsApiGroupable": true,
@@ -4972,6 +4993,48 @@
       "DeveloperName": "IsHomeHlthRschdFlowRcntVerEnabled",
       "MasterLabel": "__MISSING LABEL__ PropertyFile - val IsHomeHlthRschdFlowRcntVerEnabled not found in section udd_SettingsTemplate",
       "Label": "__MISSING LABEL__ PropertyFile - val IsHomeHlthRschdFlowRcntVerEnabled not found in section udd_SettingsTemplate",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IndustriesSettings.IsHouseholdAiSuggestionEnabled"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IndustriesSettings.IsHouseholdAiSuggestionEnabled",
+      "QualifiedApiName": "IsHouseholdAiSuggestionEnabled",
+      "EntityDefinitionId": "IndustriesSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsHouseholdAiSuggestionEnabled",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val IsHouseholdAiSuggestionEnabled not found in section udd_SettingsTemplate",
+      "Label": "__MISSING LABEL__ PropertyFile - val IsHouseholdAiSuggestionEnabled not found in section udd_SettingsTemplate",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/IndustriesSettings.IsHouseholdNameOverrideEnabled"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IndustriesSettings.IsHouseholdNameOverrideEnabled",
+      "QualifiedApiName": "IsHouseholdNameOverrideEnabled",
+      "EntityDefinitionId": "IndustriesSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsHouseholdNameOverrideEnabled",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val IsHouseholdNameOverrideEnabled not found in section udd_SettingsTemplate",
+      "Label": "__MISSING LABEL__ PropertyFile - val IsHouseholdNameOverrideEnabled not found in section udd_SettingsTemplate",
       "DataType": "チェックボックス",
       "IsCalculated": false,
       "IsNillable": false,

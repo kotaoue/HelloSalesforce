@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-06-30T07:19:09.975Z",
+  "fetchedAt": "2026-07-07T07:08:59.573Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 26,
+  "totalSize": 29,
   "records": [
     {
       "attributes": {
@@ -321,6 +321,48 @@
     {
       "attributes": {
         "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiTagDefinition.LightningType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiTagDefinition.LightningType",
+      "QualifiedApiName": "LightningType",
+      "EntityDefinitionId": "AiTagDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "LightningType",
+      "MasterLabel": "Lightning Type",
+      "Label": "Lightning Type",
+      "DataType": "選択リスト(Lightning 種別)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiTagDefinition.LightningTypeApiName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiTagDefinition.LightningTypeApiName",
+      "QualifiedApiName": "LightningTypeApiName",
+      "EntityDefinitionId": "AiTagDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "LightningTypeApiName",
+      "MasterLabel": "Lightning Type API Name",
+      "Label": "Lightning Type API Name",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
         "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiTagDefinition.ManageableState"
       },
       "Id": "000000000000000AAA",
@@ -374,6 +416,27 @@
       "MasterLabel": "名前空間プレフィックス",
       "Label": "名前空間プレフィックス",
       "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiTagDefinition.SemanticType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiTagDefinition.SemanticType",
+      "QualifiedApiName": "SemanticType",
+      "EntityDefinitionId": "AiTagDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "SemanticType",
+      "MasterLabel": "Semantic Type",
+      "Label": "Semantic Type",
+      "DataType": "選択リスト",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,
