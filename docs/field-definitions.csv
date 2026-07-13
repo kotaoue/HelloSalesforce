@@ -17337,6 +17337,181 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,DynamicFormsSettings.Id,Id,DynamicFormsSettings,,Id,設定テンプレート ID,設定テンプレート ID,参照関係(),false,false,false,true,true,true
 000000000000000AAA,DynamicFormsSettings.IsFormsOnMobileEnabled,IsFormsOnMobileEnabled,DynamicFormsSettings,,IsFormsOnMobileEnabled,__MISSING LABEL__ PropertyFile - val IsFormsOnMobileEnabled not found in section udd_SettingsTemplate,__MISSING LABEL__ PropertyFile - val IsFormsOnMobileEnabled not found in section udd_SettingsTemplate,チェックボックス,false,false,false,true,true,true
 000000000000000AAA,DynamicFormsSettings.Metadata,Metadata,DynamicFormsSettings,,Metadata,メタデータ,メタデータ,複合値,false,true,false,false,false,false
+000000000000000AAA,DynamicUiCardDataSource.CreatedBy,CreatedById,DynamicUiCardDataSource,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardDataSource.CreatedDate,CreatedDate,DynamicUiCardDataSource,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DynamicUiCardDataSource.DataSourceName,DataSourceName,DynamicUiCardDataSource,,DataSourceName,名前,名前,テキスト(255),false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardDataSource.DynamicUiCardVersion,DynamicUiCardVersionId,DynamicUiCardDataSource,,DynamicUiCardVersion,動的 UI Card バージョン,動的 UI Card バージョン,主従関係(動的 UI Card バージョン),false,false,true,true,true,true
+000000000000000AAA,DynamicUiCardDataSource.Id,Id,DynamicUiCardDataSource,,Id,動的 UI Card データソース ID,動的 UI Card データソース ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DynamicUiCardDataSource.IsDeleted,IsDeleted,DynamicUiCardDataSource,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardDataSource.LastModifiedBy,LastModifiedById,DynamicUiCardDataSource,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardDataSource.LastModifiedDate,LastModifiedDate,DynamicUiCardDataSource,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DynamicUiCardDataSource.ManageableState,ManageableState,DynamicUiCardDataSource,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DynamicUiCardDataSource.PropertyConfiguration,PropertyConfiguration,DynamicUiCardDataSource,,PropertyConfiguration,プロパティ設定,プロパティ設定,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,DynamicUiCardDataSource.SampleResponse,SampleResponse,DynamicUiCardDataSource,,SampleResponse,サンプル応答,サンプル応答,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,DynamicUiCardDataSource.SystemModstamp,SystemModstamp,DynamicUiCardDataSource,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DynamicUiCardDataSource.Type,Type,DynamicUiCardDataSource,,Type,種別,種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardDefinition.ActiveVersionNumber,ActiveVersionNumber,DynamicUiCardDefinition,,ActiveVersionNumber,有効なバージョン番号,有効なバージョン番号,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,DynamicUiCardDefinition.CreatedBy,CreatedById,DynamicUiCardDefinition,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardDefinition.CreatedDate,CreatedDate,DynamicUiCardDefinition,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DynamicUiCardDefinition.DeveloperName,DeveloperName,DynamicUiCardDefinition,,DeveloperName,名前,名前,テキスト(80),false,false,true,true,true,true
+000000000000000AAA,DynamicUiCardDefinition.Id,Id,DynamicUiCardDefinition,,Id,動的 UI Card ID,動的 UI Card ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DynamicUiCardDefinition.IsDeleted,IsDeleted,DynamicUiCardDefinition,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardDefinition.Language,Language,DynamicUiCardDefinition,,Language,マスター言語,マスター言語,選択リスト,false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardDefinition.LastModifiedBy,LastModifiedById,DynamicUiCardDefinition,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardDefinition.LastModifiedDate,LastModifiedDate,DynamicUiCardDefinition,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DynamicUiCardDefinition.ManageableState,ManageableState,DynamicUiCardDefinition,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DynamicUiCardDefinition.MasterLabel,MasterLabel,DynamicUiCardDefinition,,MasterLabel,表示ラベル,表示ラベル,テキスト(80),false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardDefinition.NamespacePrefix,NamespacePrefix,DynamicUiCardDefinition,,NamespacePrefix,名前空間プレフィックス,名前空間プレフィックス,テキスト,false,true,false,true,true,true
+000000000000000AAA,DynamicUiCardDefinition.SystemModstamp,SystemModstamp,DynamicUiCardDefinition,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DynamicUiCardElementDef.BaseElementType,BaseElementType,DynamicUiCardElementDef,,BaseElementType,ベース要素種別,ベース要素種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DynamicUiCardElementDef.ConditionConfiguration,ConditionConfiguration,DynamicUiCardElementDef,,ConditionConfiguration,検索条件設定,検索条件設定,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,DynamicUiCardElementDef.CreatedBy,CreatedById,DynamicUiCardElementDef,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardElementDef.CreatedDate,CreatedDate,DynamicUiCardElementDef,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DynamicUiCardElementDef.DynamicUiCardVersion,DynamicUiCardVersionId,DynamicUiCardElementDef,,DynamicUiCardVersion,動的 UI Card バージョン,動的 UI Card バージョン,主従関係(動的 UI Card バージョン),false,false,true,true,true,true
+000000000000000AAA,DynamicUiCardElementDef.ElementName,ElementName,DynamicUiCardElementDef,,ElementName,要素名,要素名,テキスト(255),false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardElementDef.Id,Id,DynamicUiCardElementDef,,Id,動的 UI Card 要素定義 ID,動的 UI Card 要素定義 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DynamicUiCardElementDef.IsDeleted,IsDeleted,DynamicUiCardElementDef,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardElementDef.LastModifiedBy,LastModifiedById,DynamicUiCardElementDef,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardElementDef.LastModifiedDate,LastModifiedDate,DynamicUiCardElementDef,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DynamicUiCardElementDef.ManageableState,ManageableState,DynamicUiCardElementDef,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DynamicUiCardElementDef.ParentElement,ParentElementId,DynamicUiCardElementDef,,ParentElement,親要素,親要素,参照関係(動的 UI Card 要素定義),false,true,false,true,true,true
+000000000000000AAA,DynamicUiCardElementDef.PropertyConfiguration,PropertyConfiguration,DynamicUiCardElementDef,,PropertyConfiguration,プロパティ設定,プロパティ設定,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,DynamicUiCardElementDef.ReferenceRecord,ReferenceRecordId,DynamicUiCardElementDef,,ReferenceRecord,参照レコード,参照レコード,"参照関係(動的 UI Card バージョン,Lightning Web コンポーネントバンドル)",false,true,false,true,true,true
+000000000000000AAA,DynamicUiCardElementDef.SequenceNumber,SequenceNumber,DynamicUiCardElementDef,,SequenceNumber,連番,連番,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardElementDef.StyleConfiguration,StyleConfiguration,DynamicUiCardElementDef,,StyleConfiguration,スタイル設定,スタイル設定,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,DynamicUiCardElementDef.SystemModstamp,SystemModstamp,DynamicUiCardElementDef,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DynamicUiCardEventDef.ChannelName,ChannelName,DynamicUiCardEventDef,,ChannelName,チャネル名,チャネル名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DynamicUiCardEventDef.CreatedBy,CreatedById,DynamicUiCardEventDef,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardEventDef.CreatedDate,CreatedDate,DynamicUiCardEventDef,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DynamicUiCardEventDef.DisplayName,DisplayName,DynamicUiCardEventDef,,DisplayName,表示名,表示名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DynamicUiCardEventDef.DynamicUiCardVersion,DynamicUiCardVersionId,DynamicUiCardEventDef,,DynamicUiCardVersion,動的 UI Card バージョン,動的 UI Card バージョン,主従関係(動的 UI Card バージョン),false,false,true,true,true,true
+000000000000000AAA,DynamicUiCardEventDef.EventName,EventName,DynamicUiCardEventDef,,EventName,イベント名,イベント名,テキスト(255),false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardEventDef.Id,Id,DynamicUiCardEventDef,,Id,動的 UI Card イベント定義 ID,動的 UI Card イベント定義 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DynamicUiCardEventDef.IsDeleted,IsDeleted,DynamicUiCardEventDef,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardEventDef.IsSpinnerShown,IsSpinnerShown,DynamicUiCardEventDef,,IsSpinnerShown,スピナーを表示,スピナーを表示,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardEventDef.LastModifiedBy,LastModifiedById,DynamicUiCardEventDef,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardEventDef.LastModifiedDate,LastModifiedDate,DynamicUiCardEventDef,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DynamicUiCardEventDef.ManageableState,ManageableState,DynamicUiCardEventDef,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DynamicUiCardEventDef.RecordIndex,RecordIndex,DynamicUiCardEventDef,,RecordIndex,レコードインデックス,レコードインデックス,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,DynamicUiCardEventDef.SystemModstamp,SystemModstamp,DynamicUiCardEventDef,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DynamicUiCardEventDef.Type,Type,DynamicUiCardEventDef,,Type,種別,種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardTarget.CreatedBy,CreatedById,DynamicUiCardTarget,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardTarget.CreatedDate,CreatedDate,DynamicUiCardTarget,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DynamicUiCardTarget.DynamicUiCardVersion,DynamicUiCardVersionId,DynamicUiCardTarget,,DynamicUiCardVersion,動的 UI Card バージョン,動的 UI Card バージョン,主従関係(動的 UI Card バージョン),false,false,true,true,true,true
+000000000000000AAA,DynamicUiCardTarget.Id,Id,DynamicUiCardTarget,,Id,動的 UI Card 対象 ID,動的 UI Card 対象 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DynamicUiCardTarget.IsDeleted,IsDeleted,DynamicUiCardTarget,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardTarget.LastModifiedBy,LastModifiedById,DynamicUiCardTarget,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardTarget.LastModifiedDate,LastModifiedDate,DynamicUiCardTarget,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DynamicUiCardTarget.ManageableState,ManageableState,DynamicUiCardTarget,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DynamicUiCardTarget.SystemModstamp,SystemModstamp,DynamicUiCardTarget,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DynamicUiCardTarget.Type,Type,DynamicUiCardTarget,,Type,種別,種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardVariable.CreatedBy,CreatedById,DynamicUiCardVariable,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardVariable.CreatedDate,CreatedDate,DynamicUiCardVariable,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DynamicUiCardVariable.DefaultValue,DefaultValue,DynamicUiCardVariable,,DefaultValue,デフォルト値,デフォルト値,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,DynamicUiCardVariable.Description,Description,DynamicUiCardVariable,,Description,説明,説明,テキストエリア(1000),false,true,false,true,false,true
+000000000000000AAA,DynamicUiCardVariable.DisplayOrder,DisplayOrder,DynamicUiCardVariable,,DisplayOrder,表示順序,表示順序,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,DynamicUiCardVariable.DynamicUiCardVersion,DynamicUiCardVersionId,DynamicUiCardVariable,,DynamicUiCardVersion,動的 UI Card バージョン,動的 UI Card バージョン,主従関係(動的 UI Card バージョン),false,false,true,true,true,true
+000000000000000AAA,DynamicUiCardVariable.Id,Id,DynamicUiCardVariable,,Id,動的 UI Card の公開変数 ID,動的 UI Card の公開変数 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DynamicUiCardVariable.IsDeleted,IsDeleted,DynamicUiCardVariable,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardVariable.IsRequired,IsRequired,DynamicUiCardVariable,,IsRequired,必須,必須,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardVariable.Label,Label,DynamicUiCardVariable,,Label,表示ラベル,表示ラベル,テキスト(255),false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardVariable.LastModifiedBy,LastModifiedById,DynamicUiCardVariable,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardVariable.LastModifiedDate,LastModifiedDate,DynamicUiCardVariable,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DynamicUiCardVariable.ListValues,ListValues,DynamicUiCardVariable,,ListValues,リスト値,リスト値,テキストエリア(1000),false,true,false,true,false,true
+000000000000000AAA,DynamicUiCardVariable.ManageableState,ManageableState,DynamicUiCardVariable,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DynamicUiCardVariable.MaxValue,MaxValue,DynamicUiCardVariable,,MaxValue,最大値,最大値,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,DynamicUiCardVariable.MinValue,MinValue,DynamicUiCardVariable,,MinValue,最小値,最小値,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,DynamicUiCardVariable.ObjectList,ObjectList,DynamicUiCardVariable,,ObjectList,オブジェクトリスト,オブジェクトリスト,テキストエリア(1000),false,true,false,true,false,true
+000000000000000AAA,DynamicUiCardVariable.PlaceHolderText,PlaceHolderText,DynamicUiCardVariable,,PlaceHolderText,プレースホルダーテキスト,プレースホルダーテキスト,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DynamicUiCardVariable.SystemModstamp,SystemModstamp,DynamicUiCardVariable,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DynamicUiCardVariable.TargetType,TargetType,DynamicUiCardVariable,,TargetType,対象種別,対象種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DynamicUiCardVariable.Type,Type,DynamicUiCardVariable,,Type,データ型,データ型,テキスト(255),false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardVariable.VariableName,VariableName,DynamicUiCardVariable,,VariableName,変数名,変数名,テキスト(255),false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardVersion.AuthorName,AuthorName,DynamicUiCardVersion,,AuthorName,著者名,著者名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DynamicUiCardVersion.CardName,CardName,DynamicUiCardVersion,,CardName,カード名,カード名,テキスト(255),false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardVersion.CreatedBy,CreatedById,DynamicUiCardVersion,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardVersion.CreatedDate,CreatedDate,DynamicUiCardVersion,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DynamicUiCardVersion.CustomStyleSheet,CustomStyleSheetId,DynamicUiCardVersion,,CustomStyleSheet,カスタムスタイルシート,カスタムスタイルシート,参照関係(静的リソース),false,true,false,true,true,true
+000000000000000AAA,DynamicUiCardVersion.Description,Description,DynamicUiCardVersion,,Description,説明,説明,テキストエリア(1000),false,true,false,true,false,true
+000000000000000AAA,DynamicUiCardVersion.DynamicUiCardDefinition,DynamicUiCardDefinitionId,DynamicUiCardVersion,,DynamicUiCardDefinition,動的 UI Card,動的 UI Card,主従関係(動的 UI Card),false,false,true,true,true,true
+000000000000000AAA,DynamicUiCardVersion.Id,Id,DynamicUiCardVersion,,Id,動的 UI Card バージョン ID,動的 UI Card バージョン ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DynamicUiCardVersion.IsActive,IsActive,DynamicUiCardVersion,,IsActive,有効,有効,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardVersion.IsChild,IsChild,DynamicUiCardVersion,,IsChild,子,子,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardVersion.IsDeleted,IsDeleted,DynamicUiCardVersion,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardVersion.IsTemplate,IsTemplate,DynamicUiCardVersion,,IsTemplate,テンプレート,テンプレート,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardVersion.LastModifiedBy,LastModifiedById,DynamicUiCardVersion,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardVersion.LastModifiedDate,LastModifiedDate,DynamicUiCardVersion,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DynamicUiCardVersion.ListenToWidthResize,ListenToWidthResize,DynamicUiCardVersion,,ListenToWidthResize,幅のサイズ変更をリスン,幅のサイズ変更をリスン,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardVersion.ManageableState,ManageableState,DynamicUiCardVersion,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DynamicUiCardVersion.MultiLanguageSupport,MultiLanguageSupport,DynamicUiCardVersion,,MultiLanguageSupport,多言語サポート,多言語サポート,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardVersion.PropertyConfiguration,PropertyConfiguration,DynamicUiCardVersion,,PropertyConfiguration,プロパティ設定,プロパティ設定,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,DynamicUiCardVersion.SelectableMode,SelectableMode,DynamicUiCardVersion,,SelectableMode,選択可能モード,選択可能モード,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DynamicUiCardVersion.Summary,Summary,DynamicUiCardVersion,,Summary,サマリー,サマリー,テキストエリア(1000),false,true,false,true,false,true
+000000000000000AAA,DynamicUiCardVersion.SystemModstamp,SystemModstamp,DynamicUiCardVersion,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DynamicUiCardVersion.Theme,Theme,DynamicUiCardVersion,,Theme,テーマ,テーマ,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DynamicUiCardVersion.Type,Type,DynamicUiCardVersion,,Type,種別,種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,DynamicUiCardVersion.UserCustomPermission,UserCustomPermissionId,DynamicUiCardVersion,,UserCustomPermission,ユーザーカスタム権限,ユーザーカスタム権限,参照関係(カスタム権限),false,true,false,true,true,true
+000000000000000AAA,DynamicUiCardVersion.VersionNumber,VersionNumber,DynamicUiCardVersion,,VersionNumber,バージョン番号,バージョン番号,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,DynUiCardElmntActionDef.ActionName,ActionName,DynUiCardElmntActionDef,,ActionName,アクション名,アクション名,テキスト(255),false,false,false,true,true,true
+000000000000000AAA,DynUiCardElmntActionDef.ActionType,ActionType,DynUiCardElmntActionDef,,ActionType,アクション種別,アクション種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,DynUiCardElmntActionDef.ConditionConfiguration,ConditionConfiguration,DynUiCardElmntActionDef,,ConditionConfiguration,検索条件設定,検索条件設定,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,DynUiCardElmntActionDef.CreatedBy,CreatedById,DynUiCardElmntActionDef,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DynUiCardElmntActionDef.CreatedDate,CreatedDate,DynUiCardElmntActionDef,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DynUiCardElmntActionDef.DynamicUiCardElementDef,DynamicUiCardElementDefId,DynUiCardElmntActionDef,,DynamicUiCardElementDef,動的 UI Card 要素定義,動的 UI Card 要素定義,主従関係(動的 UI Card 要素定義),false,false,true,true,true,true
+000000000000000AAA,DynUiCardElmntActionDef.IconName,IconName,DynUiCardElmntActionDef,,IconName,アイコン名,アイコン名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DynUiCardElmntActionDef.Id,Id,DynUiCardElmntActionDef,,Id,動的 UI Card 要素アクション定義 ID,動的 UI Card 要素アクション定義 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DynUiCardElmntActionDef.IsDeleted,IsDeleted,DynUiCardElmntActionDef,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DynUiCardElmntActionDef.Label,Label,DynUiCardElmntActionDef,,Label,表示ラベル,表示ラベル,テキスト(255),false,false,false,true,true,true
+000000000000000AAA,DynUiCardElmntActionDef.LastModifiedBy,LastModifiedById,DynUiCardElmntActionDef,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DynUiCardElmntActionDef.LastModifiedDate,LastModifiedDate,DynUiCardElmntActionDef,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DynUiCardElmntActionDef.ManageableState,ManageableState,DynUiCardElmntActionDef,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DynUiCardElmntActionDef.OpenIn,OpenIn,DynUiCardElmntActionDef,,OpenIn,開く方法,開く方法,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DynUiCardElmntActionDef.Order,Order,DynUiCardElmntActionDef,,Order,順序,順序,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,DynUiCardElmntActionDef.PropertyConfiguration,PropertyConfiguration,DynUiCardElmntActionDef,,PropertyConfiguration,プロパティ設定,プロパティ設定,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,DynUiCardElmntActionDef.SystemModstamp,SystemModstamp,DynUiCardElmntActionDef,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DynUiCardElmntActionDef.TargetReference,TargetReferenceId,DynUiCardElmntActionDef,,TargetReference,対象参照,対象参照,"参照関係(動的 UI Card バージョン,Lightning Web コンポーネントバンドル)",false,true,false,true,true,true
+000000000000000AAA,DynUiCardElmntActnDtasrc.CreatedBy,CreatedById,DynUiCardElmntActnDtasrc,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DynUiCardElmntActnDtasrc.CreatedDate,CreatedDate,DynUiCardElmntActnDtasrc,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DynUiCardElmntActnDtasrc.DatasourceName,DatasourceName,DynUiCardElmntActnDtasrc,,DatasourceName,データソース名,データソース名,テキスト(255),false,false,false,true,true,true
+000000000000000AAA,DynUiCardElmntActnDtasrc.DynUiCardElmntActionDef,DynUiCardElmntActionDefId,DynUiCardElmntActnDtasrc,,DynUiCardElmntActionDef,動的 UI Card 要素アクション定義,動的 UI Card 要素アクション定義,主従関係(動的 UI Card 要素アクション定義),false,false,true,true,true,true
+000000000000000AAA,DynUiCardElmntActnDtasrc.Id,Id,DynUiCardElmntActnDtasrc,,Id,動的 UI Card 要素アクションデータソース ID,動的 UI Card 要素アクションデータソース ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DynUiCardElmntActnDtasrc.IsDeleted,IsDeleted,DynUiCardElmntActnDtasrc,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DynUiCardElmntActnDtasrc.LastModifiedBy,LastModifiedById,DynUiCardElmntActnDtasrc,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DynUiCardElmntActnDtasrc.LastModifiedDate,LastModifiedDate,DynUiCardElmntActnDtasrc,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DynUiCardElmntActnDtasrc.ManageableState,ManageableState,DynUiCardElmntActnDtasrc,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DynUiCardElmntActnDtasrc.PropertyConfiguration,PropertyConfiguration,DynUiCardElmntActnDtasrc,,PropertyConfiguration,プロパティ設定,プロパティ設定,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,DynUiCardElmntActnDtasrc.SystemModstamp,SystemModstamp,DynUiCardElmntActnDtasrc,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DynUiCardElmntActnDtasrc.Type,Type,DynUiCardElmntActnDtasrc,,Type,種別,種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,DynUiCardEventActionDef.ActionName,ActionName,DynUiCardEventActionDef,,ActionName,アクション名,アクション名,テキスト(255),false,false,false,true,true,true
+000000000000000AAA,DynUiCardEventActionDef.ActionType,ActionType,DynUiCardEventActionDef,,ActionType,アクション種別,アクション種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,DynUiCardEventActionDef.CreatedBy,CreatedById,DynUiCardEventActionDef,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DynUiCardEventActionDef.CreatedDate,CreatedDate,DynUiCardEventActionDef,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DynUiCardEventActionDef.DynamicUiCardEventDef,DynamicUiCardEventDefId,DynUiCardEventActionDef,,DynamicUiCardEventDef,動的 UI Card イベント定義,動的 UI Card イベント定義,主従関係(動的 UI Card イベント定義),false,false,true,true,true,true
+000000000000000AAA,DynUiCardEventActionDef.FilterCondConfiguration,FilterCondConfiguration,DynUiCardEventActionDef,,FilterCondConfiguration,検索条件設定,検索条件設定,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,DynUiCardEventActionDef.IconName,IconName,DynUiCardEventActionDef,,IconName,アイコン名,アイコン名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DynUiCardEventActionDef.Id,Id,DynUiCardEventActionDef,,Id,動的 UI Card イベントアクション定義 ID,動的 UI Card イベントアクション定義 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DynUiCardEventActionDef.IsDeleted,IsDeleted,DynUiCardEventActionDef,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DynUiCardEventActionDef.Label,Label,DynUiCardEventActionDef,,Label,表示ラベル,表示ラベル,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DynUiCardEventActionDef.LastModifiedBy,LastModifiedById,DynUiCardEventActionDef,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DynUiCardEventActionDef.LastModifiedDate,LastModifiedDate,DynUiCardEventActionDef,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DynUiCardEventActionDef.ManageableState,ManageableState,DynUiCardEventActionDef,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DynUiCardEventActionDef.OpenIn,OpenIn,DynUiCardEventActionDef,,OpenIn,開く方法,開く方法,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DynUiCardEventActionDef.Order,Order,DynUiCardEventActionDef,,Order,順序,順序,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,DynUiCardEventActionDef.PropertyConfiguration,PropertyConfiguration,DynUiCardEventActionDef,,PropertyConfiguration,プロパティ設定,プロパティ設定,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,DynUiCardEventActionDef.SystemModstamp,SystemModstamp,DynUiCardEventActionDef,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DynUiCardEventActionDef.TargetReference,TargetReferenceId,DynUiCardEventActionDef,,TargetReference,対象参照,対象参照,"参照関係(動的 UI Card バージョン,Lightning Web コンポーネントバンドル)",false,true,false,true,true,true
+000000000000000AAA,DynUiCardEvntActionDtasrc.CreatedBy,CreatedById,DynUiCardEvntActionDtasrc,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DynUiCardEvntActionDtasrc.CreatedDate,CreatedDate,DynUiCardEvntActionDtasrc,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DynUiCardEvntActionDtasrc.DataSourceName,DataSourceName,DynUiCardEvntActionDtasrc,,DataSourceName,名前,名前,テキスト(255),false,false,false,true,true,true
+000000000000000AAA,DynUiCardEvntActionDtasrc.DyncUiCardEvntActnDef,DyncUiCardEvntActnDefId,DynUiCardEvntActionDtasrc,,DyncUiCardEvntActnDef,動的 UI Card イベントアクション定義,動的 UI Card イベントアクション定義,主従関係(動的 UI Card イベントアクション定義),false,false,true,true,true,true
+000000000000000AAA,DynUiCardEvntActionDtasrc.Id,Id,DynUiCardEvntActionDtasrc,,Id,動的 UI Card イベントアクションデータソース ID,動的 UI Card イベントアクションデータソース ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DynUiCardEvntActionDtasrc.IsDeleted,IsDeleted,DynUiCardEvntActionDtasrc,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DynUiCardEvntActionDtasrc.LastModifiedBy,LastModifiedById,DynUiCardEvntActionDtasrc,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DynUiCardEvntActionDtasrc.LastModifiedDate,LastModifiedDate,DynUiCardEvntActionDtasrc,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DynUiCardEvntActionDtasrc.ManageableState,ManageableState,DynUiCardEvntActionDtasrc,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DynUiCardEvntActionDtasrc.PropertyConfiguration,PropertyConfiguration,DynUiCardEvntActionDtasrc,,PropertyConfiguration,プロパティ設定,プロパティ設定,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,DynUiCardEvntActionDtasrc.SystemModstamp,SystemModstamp,DynUiCardEvntActionDtasrc,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DynUiCardEvntActionDtasrc.Type,Type,DynUiCardEvntActionDtasrc,,Type,種別,種別,選択リスト,false,false,false,true,true,true
 000000000000000AAA,EACSettings.AddRcCompToFlexiPages,AddRcCompToFlexiPages,EACSettings,,AddRcCompToFlexiPages,__MISSING LABEL__ PropertyFile - val AddRcCompToFlexiPages not found in section udd_SettingsTemplate,__MISSING LABEL__ PropertyFile - val AddRcCompToFlexiPages not found in section udd_SettingsTemplate,チェックボックス,false,false,false,true,true,true
 000000000000000AAA,EACSettings.AutoContactCreationPref,AutoContactCreationPref,EACSettings,,AutoContactCreationPref,__MISSING LABEL__ PropertyFile - val AutoContactCreationPref not found in section udd_SettingsTemplate,__MISSING LABEL__ PropertyFile - val AutoContactCreationPref not found in section udd_SettingsTemplate,チェックボックス,false,false,false,true,true,true
 000000000000000AAA,EACSettings.AutoContactEnrichmentPref,AutoContactEnrichmentPref,EACSettings,,AutoContactEnrichmentPref,__MISSING LABEL__ PropertyFile - val AutoContactEnrichmentPref not found in section udd_SettingsTemplate,__MISSING LABEL__ PropertyFile - val AutoContactEnrichmentPref not found in section udd_SettingsTemplate,チェックボックス,false,false,false,true,true,true
@@ -23619,6 +23794,21 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,Group.Related,RelatedId,Group,,Related,関連,関連,"参照関係(ロール,ポータル,共有セット,ユーザー)",false,true,true,true,true,true
 000000000000000AAA,Group.SystemModstamp,SystemModstamp,Group,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
 000000000000000AAA,Group.Type,Type,Group,,Type,種別,種別,選択リスト,false,false,true,true,true,true
+000000000000000AAA,GroupActionOverride.Action,Action,GroupActionOverride,,Action,Action,Action,選択リスト(),false,false,false,true,true,true
+000000000000000AAA,GroupActionOverride.Application,ApplicationId,GroupActionOverride,,Application,Application,Application,参照関係(カスタムアプリケーション),false,false,false,true,true,true
+000000000000000AAA,GroupActionOverride.CreatedBy,CreatedById,GroupActionOverride,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,GroupActionOverride.CreatedDate,CreatedDate,GroupActionOverride,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,GroupActionOverride.FlexiPage,FlexiPageId,GroupActionOverride,,FlexiPage,コンテンツ,コンテンツ,参照関係(Lightning ページ),false,false,false,true,true,true
+000000000000000AAA,GroupActionOverride.FlexiPageName,FlexiPageName,GroupActionOverride,,FlexiPageName,FlexiPage Name,FlexiPage Name,テキスト(100),false,true,false,true,true,true
+000000000000000AAA,GroupActionOverride.FormFactor,FormFactor,GroupActionOverride,,FormFactor,Form Factor,Form Factor,選択リスト,false,true,false,true,true,true
+000000000000000AAA,GroupActionOverride.Id,Id,GroupActionOverride,,Id,User Group Action Override Config Id,User Group Action Override Config Id,参照関係(),false,false,true,true,true,true
+000000000000000AAA,GroupActionOverride.IsDeleted,IsDeleted,GroupActionOverride,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,GroupActionOverride.LastModifiedBy,LastModifiedById,GroupActionOverride,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,GroupActionOverride.LastModifiedDate,LastModifiedDate,GroupActionOverride,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,GroupActionOverride.PageOrSobjectType,PageOrSobjectType,GroupActionOverride,,PageOrSobjectType,Custom Object Definition,Custom Object Definition,"選択リスト(Custom Object Definitions,プラットフォームスキーマ定義)",false,false,true,true,true,true
+000000000000000AAA,GroupActionOverride.SystemModstamp,SystemModstamp,GroupActionOverride,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,GroupActionOverride.Type,Type,GroupActionOverride,,Type,種別,種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,GroupActionOverride.UserGroup,UserGroupId,GroupActionOverride,,UserGroup,Group,Group,参照関係(グループ),false,false,false,true,true,true
 000000000000000AAA,GroupMember.Group,GroupId,GroupMember,,Group,グループ,グループ,参照関係(グループ),false,false,true,true,true,true
 000000000000000AAA,GroupMember.Id,Id,GroupMember,,Id,グループメンバー ID,グループメンバー ID,参照関係(),false,false,true,true,true,true
 000000000000000AAA,GroupMember.SystemModstamp,SystemModstamp,GroupMember,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
@@ -31955,160 +32145,3 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,OpportunityContactRoleChangeEvent.LastModifiedDate,LastModifiedDate,OpportunityContactRoleChangeEvent,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,true,false,false,false,false
 000000000000000AAA,OpportunityContactRoleChangeEvent.Opportunity,OpportunityId,OpportunityContactRoleChangeEvent,,Opportunity,商談,商談,参照関係(商談),false,true,false,false,false,false
 000000000000000AAA,OpportunityContactRoleChangeEvent.Role,Role,OpportunityContactRoleChangeEvent,,Role,ロール,ロール,選択リスト,false,true,false,false,false,false
-000000000000000AAA,OpportunityFeed.BestComment,BestCommentId,OpportunityFeed,,BestComment,最良のコメント,最良のコメント,参照関係(フィードコメント),false,true,false,true,true,true
-000000000000000AAA,OpportunityFeed.Body,Body,OpportunityFeed,,Body,内容,内容,ロングテキストエリア(10000),false,true,false,false,false,true
-000000000000000AAA,OpportunityFeed.CommentCount,CommentCount,OpportunityFeed,,CommentCount,コメント数,コメント数,数値(9、0),false,false,false,true,true,true
-000000000000000AAA,OpportunityFeed.CreatedBy,CreatedById,OpportunityFeed,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
-000000000000000AAA,OpportunityFeed.CreatedDate,CreatedDate,OpportunityFeed,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
-000000000000000AAA,OpportunityFeed.Id,Id,OpportunityFeed,,Id,フィード項目 ID,フィード項目 ID,参照関係(),false,false,true,true,true,true
-000000000000000AAA,OpportunityFeed.InsertedBy,InsertedById,OpportunityFeed,,InsertedBy,挿入者,挿入者,参照関係(ユーザー),false,true,false,false,true,true
-000000000000000AAA,OpportunityFeed.IsDeleted,IsDeleted,OpportunityFeed,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
-000000000000000AAA,OpportunityFeed.IsRichText,IsRichText,OpportunityFeed,,IsRichText,リッチテキスト,リッチテキスト,チェックボックス,false,false,false,true,true,true
-000000000000000AAA,OpportunityFeed.LastModifiedDate,LastModifiedDate,OpportunityFeed,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
-000000000000000AAA,OpportunityFeed.LikeCount,LikeCount,OpportunityFeed,,LikeCount,いいね! の数,いいね! の数,数値(9、0),false,false,false,true,true,true
-000000000000000AAA,OpportunityFeed.LinkUrl,LinkUrl,OpportunityFeed,,LinkUrl,リンク URL,リンク URL,URL(1000),false,true,false,false,false,true
-000000000000000AAA,OpportunityFeed.Parent,ParentId,OpportunityFeed,,Parent,親,親,参照関係(商談),false,false,true,true,true,true
-000000000000000AAA,OpportunityFeed.RelatedRecord,RelatedRecordId,OpportunityFeed,,RelatedRecord,関連レコード,関連レコード,"参照関係(コンテンツバージョン,キャンバスフィード項目)",false,true,false,false,true,true
-000000000000000AAA,OpportunityFeed.SystemModstamp,SystemModstamp,OpportunityFeed,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
-000000000000000AAA,OpportunityFeed.Title,Title,OpportunityFeed,,Title,タイトル,タイトル,テキスト(255),false,true,false,false,true,true
-000000000000000AAA,OpportunityFeed.Type,Type,OpportunityFeed,,Type,フィード項目種別,フィード項目種別,選択リスト,false,true,false,true,true,true
-000000000000000AAA,OpportunityFieldHistory.CreatedBy,CreatedById,OpportunityFieldHistory,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
-000000000000000AAA,OpportunityFieldHistory.CreatedDate,CreatedDate,OpportunityFieldHistory,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
-000000000000000AAA,OpportunityFieldHistory.DataType,DataType,OpportunityFieldHistory,,DataType,データ型,データ型,選択リスト,false,true,false,true,true,true
-000000000000000AAA,OpportunityFieldHistory.Field,Field,OpportunityFieldHistory,,Field,変更された項目,変更された項目,"選択リスト(Custom Field Definitions,カスタム項目データ列)",false,false,true,true,true,true
-000000000000000AAA,OpportunityFieldHistory.Id,Id,OpportunityFieldHistory,,Id,商談履歴 ID,商談履歴 ID,参照関係(),false,false,true,true,true,true
-000000000000000AAA,OpportunityFieldHistory.IsDeleted,IsDeleted,OpportunityFieldHistory,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
-000000000000000AAA,OpportunityFieldHistory.NewvalDate,NewvalDate,OpportunityFieldHistory,,NewvalDate,新規の日付,新規の日付,日付/時間,false,true,false,true,false,true
-000000000000000AAA,OpportunityFieldHistory.NewvalFirstName,NewvalFirstName,OpportunityFieldHistory,,NewvalFirstName,新規の名,新規の名,テキスト(255),false,true,false,true,true,true
-000000000000000AAA,OpportunityFieldHistory.NewvalLastName,NewvalLastName,OpportunityFieldHistory,,NewvalLastName,新規の姓,新規の姓,テキスト(255),false,true,false,true,true,true
-000000000000000AAA,OpportunityFieldHistory.NewValue,NewValue,OpportunityFieldHistory,,NewValue,新しい値,新しい値,参照関係,false,true,false,false,false,true
-000000000000000AAA,OpportunityFieldHistory.OldvalDate,OldvalDate,OpportunityFieldHistory,,OldvalDate,元の日付,元の日付,日付/時間,false,true,false,true,false,true
-000000000000000AAA,OpportunityFieldHistory.OldvalFirstName,OldvalFirstName,OpportunityFieldHistory,,OldvalFirstName,元の名,元の名,テキスト(255),false,true,false,true,true,true
-000000000000000AAA,OpportunityFieldHistory.OldvalLastName,OldvalLastName,OpportunityFieldHistory,,OldvalLastName,元の姓,元の姓,テキスト(255),false,true,false,true,true,true
-000000000000000AAA,OpportunityFieldHistory.OldValue,OldValue,OpportunityFieldHistory,,OldValue,元の値,元の値,参照関係,false,true,false,false,false,true
-000000000000000AAA,OpportunityFieldHistory.Opportunity,OpportunityId,OpportunityFieldHistory,,Opportunity,商談,商談,参照関係(商談),false,false,true,true,true,true
-000000000000000AAA,OpportunityHistory.Amount,Amount,OpportunityHistory,,Amount,金額,金額,通貨(16、2),false,true,false,true,false,true
-000000000000000AAA,OpportunityHistory.CloseDate,CloseDate,OpportunityHistory,,CloseDate,完了予定日,完了予定日,日付,false,true,false,true,true,true
-000000000000000AAA,OpportunityHistory.CreatedBy,CreatedById,OpportunityHistory,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
-000000000000000AAA,OpportunityHistory.CreatedDate,CreatedDate,OpportunityHistory,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
-000000000000000AAA,OpportunityHistory.ExpectedRevenue,ExpectedRevenue,OpportunityHistory,,ExpectedRevenue,期待収益,期待収益,通貨(16、2),false,true,false,true,false,true
-000000000000000AAA,OpportunityHistory.ForecastCategory,ForecastCategory,OpportunityHistory,,ForecastCategory,売上予測分類へ,売上予測分類へ,選択リスト,false,true,false,true,true,true
-000000000000000AAA,OpportunityHistory.FromForecastCategory,FromForecastCategory,OpportunityHistory,,FromForecastCategory,売上予測分類から,売上予測分類から,選択リスト,false,true,false,true,true,true
-000000000000000AAA,OpportunityHistory.FromOpportunityStageName,FromOpportunityStageName,OpportunityHistory,,FromOpportunityStageName,商談 フェーズ名から,商談 フェーズ名から,選択リスト,false,true,false,true,true,true
-000000000000000AAA,OpportunityHistory.Id,Id,OpportunityHistory,,Id,商談履歴 ID,商談履歴 ID,参照関係(),false,false,true,true,true,true
-000000000000000AAA,OpportunityHistory.IsDeleted,IsDeleted,OpportunityHistory,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
-000000000000000AAA,OpportunityHistory.Opportunity,OpportunityId,OpportunityHistory,,Opportunity,商談,商談,参照関係(商談),false,false,true,true,true,true
-000000000000000AAA,OpportunityHistory.PrevAmount,PrevAmount,OpportunityHistory,,PrevAmount,以前の金額,以前の金額,通貨(16、2),false,true,false,true,false,true
-000000000000000AAA,OpportunityHistory.PrevCloseDate,PrevCloseDate,OpportunityHistory,,PrevCloseDate,以前の完了予定日,以前の完了予定日,日付,false,true,false,true,true,true
-000000000000000AAA,OpportunityHistory.PrevForecastUpdate,PrevForecastUpdate,OpportunityHistory,,PrevForecastUpdate,以前の売上予測更新,以前の売上予測更新,日付/時間,false,true,false,true,false,true
-000000000000000AAA,OpportunityHistory.PrevOpportunityStageUpdate,PrevOpportunityStageUpdate,OpportunityHistory,,PrevOpportunityStageUpdate,以前の商談 フェーズ名,以前の商談 フェーズ名,日付/時間,false,true,false,true,false,true
-000000000000000AAA,OpportunityHistory.Probability,Probability,OpportunityHistory,,Probability,確度,確度,パーセント(3、0),false,true,false,true,false,true
-000000000000000AAA,OpportunityHistory.StageName,StageName,OpportunityHistory,,StageName,フェーズ名,フェーズ名,選択リスト,false,false,false,true,true,true
-000000000000000AAA,OpportunityHistory.SystemModstamp,SystemModstamp,OpportunityHistory,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
-000000000000000AAA,OpportunityLineItem.ConnectionReceivedDate,ConnectionReceivedDate,OpportunityLineItem,,ConnectionReceivedDate,接続受信日,接続受信日,日付/時間,false,true,false,true,false,true
-000000000000000AAA,OpportunityLineItem.ConnectionSentDate,ConnectionSentDate,OpportunityLineItem,,ConnectionSentDate,接続送信日,接続送信日,日付/時間,false,true,false,true,false,true
-000000000000000AAA,OpportunityLineItem.CreatedBy,CreatedById,OpportunityLineItem,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
-000000000000000AAA,OpportunityLineItem.CreatedDate,CreatedDate,OpportunityLineItem,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
-000000000000000AAA,OpportunityLineItem.Description,Description,OpportunityLineItem,,Description,明細説明,明細説明,テキスト(255),false,true,false,true,true,true
-000000000000000AAA,OpportunityLineItem.Discount,Discount,OpportunityLineItem,,Discount,割引,割引,パーセント(3、2),false,true,false,true,false,true
-000000000000000AAA,OpportunityLineItem.Id,Id,OpportunityLineItem,,Id,品目名 ID,品目名 ID,参照関係(),false,false,true,true,true,true
-000000000000000AAA,OpportunityLineItem.IsDeleted,IsDeleted,OpportunityLineItem,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
-000000000000000AAA,OpportunityLineItem.LastModifiedBy,LastModifiedById,OpportunityLineItem,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
-000000000000000AAA,OpportunityLineItem.LastModifiedDate,LastModifiedDate,OpportunityLineItem,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
-000000000000000AAA,OpportunityLineItem.LastReferencedDate,LastReferencedDate,OpportunityLineItem,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
-000000000000000AAA,OpportunityLineItem.LastViewedDate,LastViewedDate,OpportunityLineItem,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
-000000000000000AAA,OpportunityLineItem.ListPrice,ListPrice,OpportunityLineItem,,ListPrice,リスト価格,リスト価格,通貨(16、2),false,true,false,true,false,true
-000000000000000AAA,OpportunityLineItem.Name,Name,OpportunityLineItem,,Name,商談商品名,商談商品名,テキスト(376),false,true,false,true,false,true
-000000000000000AAA,OpportunityLineItem.Opportunity,OpportunityId,OpportunityLineItem,,Opportunity,商談,商談,参照関係(商談),false,false,true,true,true,true
-000000000000000AAA,OpportunityLineItem.PricebookEntry,PricebookEntryId,OpportunityLineItem,,PricebookEntry,価格表エントリ,価格表エントリ,参照関係(価格表エントリ),false,true,true,true,true,true
-000000000000000AAA,OpportunityLineItem.Product2,Product2Id,OpportunityLineItem,,Product2,商品,商品,参照関係(商品),false,true,true,true,true,true
-000000000000000AAA,OpportunityLineItem.ProductCode,ProductCode,OpportunityLineItem,,ProductCode,商品コード,商品コード,テキスト(255),false,true,false,true,true,true
-000000000000000AAA,OpportunityLineItem.Quantity,Quantity,OpportunityLineItem,,Quantity,数量,数量,数値(10、2),false,false,false,true,false,true
-000000000000000AAA,OpportunityLineItem.RecordVisibility,RecordVisibilityId,OpportunityLineItem,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
-000000000000000AAA,OpportunityLineItem.ServiceDate,ServiceDate,OpportunityLineItem,,ServiceDate,提供日,提供日,日付,false,true,true,true,true,true
-000000000000000AAA,OpportunityLineItem.SortOrder,SortOrder,OpportunityLineItem,,SortOrder,並び替え順,並び替え順,数値(9、0),false,true,false,true,true,true
-000000000000000AAA,OpportunityLineItem.Subtotal,Subtotal,OpportunityLineItem,,Subtotal,小計,小計,通貨(16、2),false,true,false,true,false,true
-000000000000000AAA,OpportunityLineItem.SystemModstamp,SystemModstamp,OpportunityLineItem,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
-000000000000000AAA,OpportunityLineItem.TotalPrice,TotalPrice,OpportunityLineItem,,TotalPrice,合計金額,合計金額,通貨(16、2),false,true,false,true,false,true
-000000000000000AAA,OpportunityLineItem.UnitPrice,UnitPrice,OpportunityLineItem,,UnitPrice,販売価格,販売価格,通貨(16、2),false,true,false,true,false,true
-000000000000000AAA,OpportunityLineItem.UserRecordAccess,UserRecordAccessId,OpportunityLineItem,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
-000000000000000AAA,OpportunityLineItemChangeEvent.ChangeEventHeader,ChangeEventHeader,OpportunityLineItemChangeEvent,,ChangeEventHeader,変更イベントヘッダー,変更イベントヘッダー,複合値,false,false,false,false,false,false
-000000000000000AAA,OpportunityLineItemChangeEvent.CreatedBy,CreatedById,OpportunityLineItemChangeEvent,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,true,false,false,false,false
-000000000000000AAA,OpportunityLineItemChangeEvent.CreatedDate,CreatedDate,OpportunityLineItemChangeEvent,,CreatedDate,作成日,作成日,日付/時間,false,true,false,false,false,false
-000000000000000AAA,OpportunityLineItemChangeEvent.Description,Description,OpportunityLineItemChangeEvent,,Description,明細説明,明細説明,テキスト(255),false,true,false,false,false,false
-000000000000000AAA,OpportunityLineItemChangeEvent.Discount,Discount,OpportunityLineItemChangeEvent,,Discount,割引,割引,パーセント(3、2),false,true,false,false,false,false
-000000000000000AAA,OpportunityLineItemChangeEvent.LastModifiedBy,LastModifiedById,OpportunityLineItemChangeEvent,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,true,false,false,false,false
-000000000000000AAA,OpportunityLineItemChangeEvent.LastModifiedDate,LastModifiedDate,OpportunityLineItemChangeEvent,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,true,false,false,false,false
-000000000000000AAA,OpportunityLineItemChangeEvent.ListPrice,ListPrice,OpportunityLineItemChangeEvent,,ListPrice,リスト価格,リスト価格,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,OpportunityLineItemChangeEvent.Name,Name,OpportunityLineItemChangeEvent,,Name,商談商品名,商談商品名,テキスト(376),false,true,false,false,false,false
-000000000000000AAA,OpportunityLineItemChangeEvent.Opportunity,OpportunityId,OpportunityLineItemChangeEvent,,Opportunity,商談,商談,参照関係(商談),false,true,false,false,false,false
-000000000000000AAA,OpportunityLineItemChangeEvent.PricebookEntry,PricebookEntryId,OpportunityLineItemChangeEvent,,PricebookEntry,価格表エントリ,価格表エントリ,参照関係(価格表エントリ),false,true,false,false,false,false
-000000000000000AAA,OpportunityLineItemChangeEvent.Product2,Product2Id,OpportunityLineItemChangeEvent,,Product2,商品,商品,参照関係(商品),false,true,false,false,false,false
-000000000000000AAA,OpportunityLineItemChangeEvent.ProductCode,ProductCode,OpportunityLineItemChangeEvent,,ProductCode,商品コード,商品コード,テキスト(255),false,true,false,false,false,false
-000000000000000AAA,OpportunityLineItemChangeEvent.Quantity,Quantity,OpportunityLineItemChangeEvent,,Quantity,数量,数量,数値(10、2),false,true,false,false,false,false
-000000000000000AAA,OpportunityLineItemChangeEvent.ServiceDate,ServiceDate,OpportunityLineItemChangeEvent,,ServiceDate,提供日,提供日,日付,false,true,false,false,false,false
-000000000000000AAA,OpportunityLineItemChangeEvent.SortOrder,SortOrder,OpportunityLineItemChangeEvent,,SortOrder,並び替え順,並び替え順,数値(9、0),false,true,false,false,false,false
-000000000000000AAA,OpportunityLineItemChangeEvent.Subtotal,Subtotal,OpportunityLineItemChangeEvent,,Subtotal,小計,小計,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,OpportunityLineItemChangeEvent.TotalPrice,TotalPrice,OpportunityLineItemChangeEvent,,TotalPrice,合計金額,合計金額,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,OpportunityLineItemChangeEvent.UnitPrice,UnitPrice,OpportunityLineItemChangeEvent,,UnitPrice,販売価格,販売価格,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,OpportunityListFieldsLabelMapping.ExternalId,DurableId,OpportunityListFieldsLabelMapping,,ExternalId,設定テンプレート外部 ID,設定テンプレート外部 ID,外部参照,false,true,false,true,true,true
-000000000000000AAA,OpportunityListFieldsLabelMapping.Field,Field,OpportunityListFieldsLabelMapping,,Field,__MISSING LABEL__ PropertyFile - val Field not found in section udd_SettingsTemplate,__MISSING LABEL__ PropertyFile - val Field not found in section udd_SettingsTemplate,テキスト(255),false,true,false,true,true,true
-000000000000000AAA,OpportunityListFieldsLabelMapping.Id,Id,OpportunityListFieldsLabelMapping,,Id,設定テンプレート ID,設定テンプレート ID,参照関係(),false,false,false,true,true,true
-000000000000000AAA,OpportunityListFieldsLabelMapping.Label,Label,OpportunityListFieldsLabelMapping,,Label,__MISSING LABEL__ PropertyFile - val Label not found in section udd_SettingsTemplate,__MISSING LABEL__ PropertyFile - val Label not found in section udd_SettingsTemplate,テキスト(255),false,true,false,true,true,true
-000000000000000AAA,OpportunityListFieldsSelectedSettings.ExternalId,DurableId,OpportunityListFieldsSelectedSettings,,ExternalId,設定テンプレート外部 ID,設定テンプレート外部 ID,外部参照,false,true,false,true,true,true
-000000000000000AAA,OpportunityListFieldsSelectedSettings.Field,Field,OpportunityListFieldsSelectedSettings,,Field,__MISSING LABEL__ PropertyFile - val Field not found in section udd_SettingsTemplate,__MISSING LABEL__ PropertyFile - val Field not found in section udd_SettingsTemplate,テキスト(255),false,true,false,true,true,true
-000000000000000AAA,OpportunityListFieldsSelectedSettings.Id,Id,OpportunityListFieldsSelectedSettings,,Id,設定テンプレート ID,設定テンプレート ID,参照関係(),false,false,false,true,true,true
-000000000000000AAA,OpportunityListFieldsUnselectedSettings.ExternalId,DurableId,OpportunityListFieldsUnselectedSettings,,ExternalId,設定テンプレート外部 ID,設定テンプレート外部 ID,外部参照,false,true,false,true,true,true
-000000000000000AAA,OpportunityListFieldsUnselectedSettings.Field,Field,OpportunityListFieldsUnselectedSettings,,Field,__MISSING LABEL__ PropertyFile - val Field not found in section udd_SettingsTemplate,__MISSING LABEL__ PropertyFile - val Field not found in section udd_SettingsTemplate,テキスト(255),false,true,false,true,true,true
-000000000000000AAA,OpportunityListFieldsUnselectedSettings.Id,Id,OpportunityListFieldsUnselectedSettings,,Id,設定テンプレート ID,設定テンプレート ID,参照関係(),false,false,false,true,true,true
-000000000000000AAA,OpportunityOwnerSharingRule.CreatedBy,CreatedById,OpportunityOwnerSharingRule,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
-000000000000000AAA,OpportunityOwnerSharingRule.CreatedDate,CreatedDate,OpportunityOwnerSharingRule,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
-000000000000000AAA,OpportunityOwnerSharingRule.Description,Description,OpportunityOwnerSharingRule,,Description,説明,説明,テキストエリア(1000),false,true,false,true,false,true
-000000000000000AAA,OpportunityOwnerSharingRule.DeveloperName,DeveloperName,OpportunityOwnerSharingRule,,DeveloperName,API 参照名,API 参照名,テキスト(80),false,true,false,true,true,true
-000000000000000AAA,OpportunityOwnerSharingRule.Group,GroupId,OpportunityOwnerSharingRule,,Group,グループ,グループ,参照関係(グループ),false,false,true,true,true,true
-000000000000000AAA,OpportunityOwnerSharingRule.Id,Id,OpportunityOwnerSharingRule,,Id,商談所有者ルール ID,商談所有者ルール ID,参照関係(),false,false,true,true,true,true
-000000000000000AAA,OpportunityOwnerSharingRule.LastModifiedBy,LastModifiedById,OpportunityOwnerSharingRule,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
-000000000000000AAA,OpportunityOwnerSharingRule.LastModifiedDate,LastModifiedDate,OpportunityOwnerSharingRule,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
-000000000000000AAA,OpportunityOwnerSharingRule.Name,Name,OpportunityOwnerSharingRule,,Name,名前,名前,テキスト(80),false,false,false,true,true,true
-000000000000000AAA,OpportunityOwnerSharingRule.OpportunityAccessLevel,OpportunityAccessLevel,OpportunityOwnerSharingRule,,OpportunityAccessLevel,商談のアクセス権,商談のアクセス権,選択リスト,false,false,false,true,true,true
-000000000000000AAA,OpportunityOwnerSharingRule.Options,Options,OpportunityOwnerSharingRule,,Options,__MISSING LABEL__ PropertyFile - val Options not found in section udd_OpportunityOwnerSharingRule,__MISSING LABEL__ PropertyFile - val Options not found in section udd_OpportunityOwnerSharingRule,ビットベクター,false,false,false,true,false,false
-000000000000000AAA,OpportunityOwnerSharingRule.SystemModstamp,SystemModstamp,OpportunityOwnerSharingRule,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
-000000000000000AAA,OpportunityOwnerSharingRule.UserOrGroup,UserOrGroupId,OpportunityOwnerSharingRule,,UserOrGroup,ユーザー/グループ,ユーザー/グループ,参照関係(グループ),false,false,true,true,true,true
-000000000000000AAA,OpportunityPartner.AccountTo,AccountToId,OpportunityPartner,,AccountTo,取引先 To,取引先 To,参照関係(取引先),false,false,true,true,true,true
-000000000000000AAA,OpportunityPartner.CreatedBy,CreatedById,OpportunityPartner,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
-000000000000000AAA,OpportunityPartner.CreatedDate,CreatedDate,OpportunityPartner,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
-000000000000000AAA,OpportunityPartner.Id,Id,OpportunityPartner,,Id,商談パートナー ID,商談パートナー ID,参照関係(),false,false,true,true,true,true
-000000000000000AAA,OpportunityPartner.IsDeleted,IsDeleted,OpportunityPartner,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
-000000000000000AAA,OpportunityPartner.IsPrimary,IsPrimary,OpportunityPartner,,IsPrimary,主担当,主担当,チェックボックス,false,false,false,true,true,true
-000000000000000AAA,OpportunityPartner.LastModifiedBy,LastModifiedById,OpportunityPartner,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
-000000000000000AAA,OpportunityPartner.LastModifiedDate,LastModifiedDate,OpportunityPartner,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
-000000000000000AAA,OpportunityPartner.Opportunity,OpportunityId,OpportunityPartner,,Opportunity,商談,商談,参照関係(商談),false,false,true,true,true,true
-000000000000000AAA,OpportunityPartner.ReversePartner,ReversePartnerId,OpportunityPartner,,ReversePartner,先方から見たパートナー,先方から見たパートナー,参照関係(商談パートナー),false,true,true,true,true,true
-000000000000000AAA,OpportunityPartner.Role,Role,OpportunityPartner,,Role,役割,役割,選択リスト,false,true,false,true,true,true
-000000000000000AAA,OpportunityPartner.SystemModstamp,SystemModstamp,OpportunityPartner,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
-000000000000000AAA,OpportunityRelatedDeleteLog.CreatedBy,CreatedById,OpportunityRelatedDeleteLog,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
-000000000000000AAA,OpportunityRelatedDeleteLog.CreatedDate,CreatedDate,OpportunityRelatedDeleteLog,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
-000000000000000AAA,OpportunityRelatedDeleteLog.DataType,DataType,OpportunityRelatedDeleteLog,,DataType,データ型,データ型,選択リスト,false,true,false,true,true,true
-000000000000000AAA,OpportunityRelatedDeleteLog.FieldName,FieldName,OpportunityRelatedDeleteLog,,FieldName,項目名,項目名,選択リスト,false,true,false,true,true,true
-000000000000000AAA,OpportunityRelatedDeleteLog.Id,Id,OpportunityRelatedDeleteLog,,Id,商談関連削除ログ ID,商談関連削除ログ ID,参照関係(),false,false,true,true,true,true
-000000000000000AAA,OpportunityRelatedDeleteLog.IsDeleted,IsDeleted,OpportunityRelatedDeleteLog,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
-000000000000000AAA,OpportunityRelatedDeleteLog.LastModifiedBy,LastModifiedById,OpportunityRelatedDeleteLog,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
-000000000000000AAA,OpportunityRelatedDeleteLog.LastModifiedDate,LastModifiedDate,OpportunityRelatedDeleteLog,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
-000000000000000AAA,OpportunityRelatedDeleteLog.Name,DeleteLog,OpportunityRelatedDeleteLog,,Name,商談関連削除ログ名,商談関連削除ログ名,自動採番,false,false,true,true,false,true
-000000000000000AAA,OpportunityRelatedDeleteLog.Opportunity,OpportunityId,OpportunityRelatedDeleteLog,,Opportunity,商談,商談,主従関係(商談),false,false,true,true,true,true
-000000000000000AAA,OpportunityRelatedDeleteLog.Parent,Parent,OpportunityRelatedDeleteLog,,Parent,親,親,テキスト(18),false,true,false,true,true,true
-000000000000000AAA,OpportunityRelatedDeleteLog.RecordVisibility,RecordVisibilityId,OpportunityRelatedDeleteLog,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
-000000000000000AAA,OpportunityRelatedDeleteLog.SobjectType,SobjectType,OpportunityRelatedDeleteLog,,SobjectType,SobjectType,SobjectType,選択リスト,false,true,false,true,true,true
-000000000000000AAA,OpportunityRelatedDeleteLog.SystemModstamp,SystemModstamp,OpportunityRelatedDeleteLog,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
-000000000000000AAA,OpportunityRelatedDeleteLog.UserRecordAccess,UserRecordAccessId,OpportunityRelatedDeleteLog,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
-000000000000000AAA,OpportunityRelatedDeleteLog.Value,Value,OpportunityRelatedDeleteLog,,Value,値,値,参照関係,false,true,false,false,false,true
-000000000000000AAA,OpportunityRelatedDeleteLog.ValueDate,ValueDate,OpportunityRelatedDeleteLog,,ValueDate,日付値,日付値,日付/時間,false,true,false,true,false,true
-000000000000000AAA,OpportunityRelatedDeleteLog.ValueFirstName,ValueFirstName,OpportunityRelatedDeleteLog,,ValueFirstName,名の値,名の値,テキスト(255),false,true,false,true,true,true
-000000000000000AAA,OpportunityRelatedDeleteLog.ValueLastName,ValueLastName,OpportunityRelatedDeleteLog,,ValueLastName,姓の値,姓の値,テキスト(255),false,true,false,true,true,true
-000000000000000AAA,OpportunityRelatedDeleteLog.ValueNumber,ValueNumber,OpportunityRelatedDeleteLog,,ValueNumber,数値,数値,数値(16、2),false,true,false,true,false,true
-000000000000000AAA,OpportunityRelatedDeleteLog.ValueString,ValueString,OpportunityRelatedDeleteLog,,ValueString,文字列値,文字列値,テキスト(255),false,true,false,true,true,true
-000000000000000AAA,OpportunityScoreSettings.ExternalId,DurableId,OpportunityScoreSettings,,ExternalId,設定テンプレート外部 ID,設定テンプレート外部 ID,外部参照,false,true,false,true,true,true
-000000000000000AAA,OpportunityScoreSettings.FullName,FullName,OpportunityScoreSettings,,FullName,氏名,氏名,テキスト(255),false,true,false,false,true,false
-000000000000000AAA,OpportunityScoreSettings.Id,Id,OpportunityScoreSettings,,Id,設定テンプレート ID,設定テンプレート ID,参照関係(),false,false,false,true,true,true
-000000000000000AAA,OpportunityScoreSettings.IsOpportunityScoringEnabled,IsOpportunityScoringEnabled,OpportunityScoreSettings,,IsOpportunityScoringEnabled,__MISSING LABEL__ PropertyFile - val IsOpportunityScoringEnabled not found in section udd_SettingsTemplate,__MISSING LABEL__ PropertyFile - val IsOpportunityScoringEnabled not found in section udd_SettingsTemplate,チェックボックス,false,false,false,true,true,true
-000000000000000AAA,OpportunityScoreSettings.Metadata,Metadata,OpportunityScoreSettings,,Metadata,メタデータ,メタデータ,複合値,false,true,false,false,false,false
