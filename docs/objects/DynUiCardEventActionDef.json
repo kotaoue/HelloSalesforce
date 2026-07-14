@@ -1,0 +1,385 @@
+{
+  "fetchedAt": "2026-07-14T05:54:03.508Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 18,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynUiCardEventActionDef.ActionName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynUiCardEventActionDef.ActionName",
+      "QualifiedApiName": "ActionName",
+      "EntityDefinitionId": "DynUiCardEventActionDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActionName",
+      "MasterLabel": "アクション名",
+      "Label": "アクション名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynUiCardEventActionDef.ActionType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynUiCardEventActionDef.ActionType",
+      "QualifiedApiName": "ActionType",
+      "EntityDefinitionId": "DynUiCardEventActionDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActionType",
+      "MasterLabel": "アクション種別",
+      "Label": "アクション種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynUiCardEventActionDef.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynUiCardEventActionDef.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DynUiCardEventActionDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynUiCardEventActionDef.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynUiCardEventActionDef.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DynUiCardEventActionDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynUiCardEventActionDef.DynamicUiCardEventDef"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynUiCardEventActionDef.DynamicUiCardEventDef",
+      "QualifiedApiName": "DynamicUiCardEventDefId",
+      "EntityDefinitionId": "DynUiCardEventActionDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "DynamicUiCardEventDef",
+      "MasterLabel": "動的 UI Card イベント定義",
+      "Label": "動的 UI Card イベント定義",
+      "DataType": "主従関係(動的 UI Card イベント定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynUiCardEventActionDef.FilterCondConfiguration"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynUiCardEventActionDef.FilterCondConfiguration",
+      "QualifiedApiName": "FilterCondConfiguration",
+      "EntityDefinitionId": "DynUiCardEventActionDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "FilterCondConfiguration",
+      "MasterLabel": "検索条件設定",
+      "Label": "検索条件設定",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynUiCardEventActionDef.IconName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynUiCardEventActionDef.IconName",
+      "QualifiedApiName": "IconName",
+      "EntityDefinitionId": "DynUiCardEventActionDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "IconName",
+      "MasterLabel": "アイコン名",
+      "Label": "アイコン名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynUiCardEventActionDef.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynUiCardEventActionDef.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DynUiCardEventActionDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "動的 UI Card イベントアクション定義 ID",
+      "Label": "動的 UI Card イベントアクション定義 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynUiCardEventActionDef.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynUiCardEventActionDef.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DynUiCardEventActionDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynUiCardEventActionDef.Label"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynUiCardEventActionDef.Label",
+      "QualifiedApiName": "Label",
+      "EntityDefinitionId": "DynUiCardEventActionDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "Label",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynUiCardEventActionDef.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynUiCardEventActionDef.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DynUiCardEventActionDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynUiCardEventActionDef.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynUiCardEventActionDef.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DynUiCardEventActionDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynUiCardEventActionDef.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynUiCardEventActionDef.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "DynUiCardEventActionDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynUiCardEventActionDef.OpenIn"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynUiCardEventActionDef.OpenIn",
+      "QualifiedApiName": "OpenIn",
+      "EntityDefinitionId": "DynUiCardEventActionDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "OpenIn",
+      "MasterLabel": "開く方法",
+      "Label": "開く方法",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynUiCardEventActionDef.Order"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynUiCardEventActionDef.Order",
+      "QualifiedApiName": "Order",
+      "EntityDefinitionId": "DynUiCardEventActionDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "Order",
+      "MasterLabel": "順序",
+      "Label": "順序",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynUiCardEventActionDef.PropertyConfiguration"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynUiCardEventActionDef.PropertyConfiguration",
+      "QualifiedApiName": "PropertyConfiguration",
+      "EntityDefinitionId": "DynUiCardEventActionDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "PropertyConfiguration",
+      "MasterLabel": "プロパティ設定",
+      "Label": "プロパティ設定",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynUiCardEventActionDef.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynUiCardEventActionDef.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DynUiCardEventActionDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynUiCardEventActionDef.TargetReference"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynUiCardEventActionDef.TargetReference",
+      "QualifiedApiName": "TargetReferenceId",
+      "EntityDefinitionId": "DynUiCardEventActionDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "TargetReference",
+      "MasterLabel": "対象参照",
+      "Label": "対象参照",
+      "DataType": "参照関係(動的 UI Card バージョン,Lightning Web コンポーネントバンドル)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

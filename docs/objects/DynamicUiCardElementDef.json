@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-07-14T05:54:03.508Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynamicUiCardElementDef.BaseElementType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynamicUiCardElementDef.BaseElementType",
+      "QualifiedApiName": "BaseElementType",
+      "EntityDefinitionId": "DynamicUiCardElementDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "BaseElementType",
+      "MasterLabel": "ベース要素種別",
+      "Label": "ベース要素種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynamicUiCardElementDef.ConditionConfiguration"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynamicUiCardElementDef.ConditionConfiguration",
+      "QualifiedApiName": "ConditionConfiguration",
+      "EntityDefinitionId": "DynamicUiCardElementDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "ConditionConfiguration",
+      "MasterLabel": "検索条件設定",
+      "Label": "検索条件設定",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynamicUiCardElementDef.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynamicUiCardElementDef.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DynamicUiCardElementDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynamicUiCardElementDef.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynamicUiCardElementDef.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DynamicUiCardElementDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynamicUiCardElementDef.DynamicUiCardVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynamicUiCardElementDef.DynamicUiCardVersion",
+      "QualifiedApiName": "DynamicUiCardVersionId",
+      "EntityDefinitionId": "DynamicUiCardElementDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "DynamicUiCardVersion",
+      "MasterLabel": "動的 UI Card バージョン",
+      "Label": "動的 UI Card バージョン",
+      "DataType": "主従関係(動的 UI Card バージョン)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynamicUiCardElementDef.ElementName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynamicUiCardElementDef.ElementName",
+      "QualifiedApiName": "ElementName",
+      "EntityDefinitionId": "DynamicUiCardElementDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "ElementName",
+      "MasterLabel": "要素名",
+      "Label": "要素名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynamicUiCardElementDef.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynamicUiCardElementDef.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DynamicUiCardElementDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "動的 UI Card 要素定義 ID",
+      "Label": "動的 UI Card 要素定義 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynamicUiCardElementDef.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynamicUiCardElementDef.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DynamicUiCardElementDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynamicUiCardElementDef.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynamicUiCardElementDef.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DynamicUiCardElementDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynamicUiCardElementDef.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynamicUiCardElementDef.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DynamicUiCardElementDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynamicUiCardElementDef.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynamicUiCardElementDef.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "DynamicUiCardElementDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynamicUiCardElementDef.ParentElement"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynamicUiCardElementDef.ParentElement",
+      "QualifiedApiName": "ParentElementId",
+      "EntityDefinitionId": "DynamicUiCardElementDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "ParentElement",
+      "MasterLabel": "親要素",
+      "Label": "親要素",
+      "DataType": "参照関係(動的 UI Card 要素定義)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynamicUiCardElementDef.PropertyConfiguration"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynamicUiCardElementDef.PropertyConfiguration",
+      "QualifiedApiName": "PropertyConfiguration",
+      "EntityDefinitionId": "DynamicUiCardElementDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "PropertyConfiguration",
+      "MasterLabel": "プロパティ設定",
+      "Label": "プロパティ設定",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynamicUiCardElementDef.ReferenceRecord"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynamicUiCardElementDef.ReferenceRecord",
+      "QualifiedApiName": "ReferenceRecordId",
+      "EntityDefinitionId": "DynamicUiCardElementDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReferenceRecord",
+      "MasterLabel": "参照レコード",
+      "Label": "参照レコード",
+      "DataType": "参照関係(動的 UI Card バージョン,Lightning Web コンポーネントバンドル)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynamicUiCardElementDef.SequenceNumber"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynamicUiCardElementDef.SequenceNumber",
+      "QualifiedApiName": "SequenceNumber",
+      "EntityDefinitionId": "DynamicUiCardElementDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "SequenceNumber",
+      "MasterLabel": "連番",
+      "Label": "連番",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynamicUiCardElementDef.StyleConfiguration"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynamicUiCardElementDef.StyleConfiguration",
+      "QualifiedApiName": "StyleConfiguration",
+      "EntityDefinitionId": "DynamicUiCardElementDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "StyleConfiguration",
+      "MasterLabel": "スタイル設定",
+      "Label": "スタイル設定",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DynamicUiCardElementDef.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DynamicUiCardElementDef.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DynamicUiCardElementDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}
