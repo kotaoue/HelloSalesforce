@@ -1,0 +1,11 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AiPlanningModelStepDef.CreatedBy,CreatedById,AiPlanningModelStepDef,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AiPlanningModelStepDef.CreatedDate,CreatedDate,AiPlanningModelStepDef,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AiPlanningModelStepDef.Id,Id,AiPlanningModelStepDef,,Id,AI Planning Model Step ID,AI Planning Model Step ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AiPlanningModelStepDef.IsDeleted,IsDeleted,AiPlanningModelStepDef,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AiPlanningModelStepDef.LastModifiedBy,LastModifiedById,AiPlanningModelStepDef,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AiPlanningModelStepDef.LastModifiedDate,LastModifiedDate,AiPlanningModelStepDef,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AiPlanningModelStepDef.PlanningModelVersion,PlanningModelVersionId,AiPlanningModelStepDef,,PlanningModelVersion,Planning Model Version,Planning Model Version,主従関係(AI Planning Model Version),false,false,true,true,true,true
+000000000000000AAA,AiPlanningModelStepDef.PlanningStep,PlanningStep,AiPlanningModelStepDef,,PlanningStep,Planning Step,Planning Step,選択リスト,false,false,false,true,true,true
+000000000000000AAA,AiPlanningModelStepDef.StepDetails,StepDetails,AiPlanningModelStepDef,,StepDetails,Step Details,Step Details,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,AiPlanningModelStepDef.SystemModstamp,SystemModstamp,AiPlanningModelStepDef,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
