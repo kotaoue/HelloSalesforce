@@ -1,19 +1,19 @@
 Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
 000000000000000AAA,DataKnowledgeDeepRsrchRpt.CreatedBy,CreatedById,DataKnowledgeDeepRsrchRpt,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
 000000000000000AAA,DataKnowledgeDeepRsrchRpt.CreatedDate,CreatedDate,DataKnowledgeDeepRsrchRpt,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
-000000000000000AAA,DataKnowledgeDeepRsrchRpt.FilePath,FilePath,DataKnowledgeDeepRsrchRpt,,FilePath,File Path,File Path,ロングテキストエリア(1024),false,true,false,false,false,false
-000000000000000AAA,DataKnowledgeDeepRsrchRpt.Id,Id,DataKnowledgeDeepRsrchRpt,,Id,Data Knowledge Deep Research Report ID,Data Knowledge Deep Research Report ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DataKnowledgeDeepRsrchRpt.FilePath,FilePath,DataKnowledgeDeepRsrchRpt,,FilePath,ファイルパス,ファイルパス,ロングテキストエリア(1024),false,true,false,false,false,false
+000000000000000AAA,DataKnowledgeDeepRsrchRpt.Id,Id,DataKnowledgeDeepRsrchRpt,,Id,データナレッジディープリサーチレポート ID,データナレッジディープリサーチレポート ID,参照関係(),false,false,true,true,true,true
 000000000000000AAA,DataKnowledgeDeepRsrchRpt.IsDeleted,IsDeleted,DataKnowledgeDeepRsrchRpt,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
-000000000000000AAA,DataKnowledgeDeepRsrchRpt.KnowledgeSpace,KnowledgeSpaceId,DataKnowledgeDeepRsrchRpt,,KnowledgeSpace,Knowledge Space,Knowledge Space,参照関係(ナレッジスペース),false,true,false,true,true,true
+000000000000000AAA,DataKnowledgeDeepRsrchRpt.KnowledgeSpace,KnowledgeSpaceId,DataKnowledgeDeepRsrchRpt,,KnowledgeSpace,ナレッジスペース,ナレッジスペース,参照関係(ナレッジスペース),false,true,false,true,true,true
 000000000000000AAA,DataKnowledgeDeepRsrchRpt.LastModifiedBy,LastModifiedById,DataKnowledgeDeepRsrchRpt,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
 000000000000000AAA,DataKnowledgeDeepRsrchRpt.LastModifiedDate,LastModifiedDate,DataKnowledgeDeepRsrchRpt,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
-000000000000000AAA,DataKnowledgeDeepRsrchRpt.Name,Name,DataKnowledgeDeepRsrchRpt,,Name,Data Knowledge Deep Research Report Name,Data Knowledge Deep Research Report Name,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,DataKnowledgeDeepRsrchRpt.Name,Name,DataKnowledgeDeepRsrchRpt,,Name,データナレッジディープリサーチレポート名,データナレッジディープリサーチレポート名,テキスト(255),false,false,true,true,true,true
 000000000000000AAA,DataKnowledgeDeepRsrchRpt.Owner,OwnerId,DataKnowledgeDeepRsrchRpt,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
-000000000000000AAA,DataKnowledgeDeepRsrchRpt.Plan,Plan,DataKnowledgeDeepRsrchRpt,,Plan,Research Plan,Research Plan,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,DataKnowledgeDeepRsrchRpt.Plan,Plan,DataKnowledgeDeepRsrchRpt,,Plan,調査プラン,調査プラン,ロングテキストエリア(131072),false,true,false,false,false,false
 000000000000000AAA,DataKnowledgeDeepRsrchRpt.RecordVisibility,RecordVisibilityId,DataKnowledgeDeepRsrchRpt,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
-000000000000000AAA,DataKnowledgeDeepRsrchRpt.ReportIdentifier,ReportIdentifier,DataKnowledgeDeepRsrchRpt,,ReportIdentifier,Report Identifier,Report Identifier,テキスト(255),false,true,false,true,true,true
-000000000000000AAA,DataKnowledgeDeepRsrchRpt.ResearchTemplate,ResearchTemplateId,DataKnowledgeDeepRsrchRpt,,ResearchTemplate,Data Knowledge Research Template,Data Knowledge Research Template,参照関係(Data Knowledge Research Template),false,true,false,true,true,true
-000000000000000AAA,DataKnowledgeDeepRsrchRpt.Sources,Sources,DataKnowledgeDeepRsrchRpt,,Sources,Research Sources,Research Sources,ロングテキストエリア(131072),false,true,false,false,false,false
-000000000000000AAA,DataKnowledgeDeepRsrchRpt.Status,Status,DataKnowledgeDeepRsrchRpt,,Status,Research Status,Research Status,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataKnowledgeDeepRsrchRpt.ReportIdentifier,ReportIdentifier,DataKnowledgeDeepRsrchRpt,,ReportIdentifier,レポート識別子,レポート識別子,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataKnowledgeDeepRsrchRpt.ResearchTemplate,ResearchTemplateId,DataKnowledgeDeepRsrchRpt,,ResearchTemplate,データナレッジ調査テンプレート,データナレッジ調査テンプレート,参照関係(データナレッジ調査テンプレート),false,true,false,true,true,true
+000000000000000AAA,DataKnowledgeDeepRsrchRpt.Sources,Sources,DataKnowledgeDeepRsrchRpt,,Sources,調査ソース,調査ソース,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,DataKnowledgeDeepRsrchRpt.Status,Status,DataKnowledgeDeepRsrchRpt,,Status,調査状況,調査状況,選択リスト,false,true,false,true,true,true
 000000000000000AAA,DataKnowledgeDeepRsrchRpt.SystemModstamp,SystemModstamp,DataKnowledgeDeepRsrchRpt,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
 000000000000000AAA,DataKnowledgeDeepRsrchRpt.UserRecordAccess,UserRecordAccessId,DataKnowledgeDeepRsrchRpt,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

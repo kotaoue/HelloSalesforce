@@ -27,6 +27,7 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,FulfillmentOrder.Owner,OwnerId,FulfillmentOrder,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
 000000000000000AAA,FulfillmentOrder.ProcessingTimeInMinutes,ProcessingTimeInMinutes,FulfillmentOrder,,ProcessingTimeInMinutes,処理時間 (分),処理時間 (分),数値(9、0),false,true,false,true,true,true
 000000000000000AAA,FulfillmentOrder.RecordVisibility,RecordVisibilityId,FulfillmentOrder,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,FulfillmentOrder.RoutingReference,RoutingReference,FulfillmentOrder,,RoutingReference,Routing Reference,Routing Reference,テキスト(255),false,true,false,true,true,true
 000000000000000AAA,FulfillmentOrder.StartFulfillmentDate,StartFulfillmentDate,FulfillmentOrder,,StartFulfillmentDate,開始履行日,開始履行日,日付/時間,false,true,false,true,false,true
 000000000000000AAA,FulfillmentOrder.Status,Status,FulfillmentOrder,,Status,状況,状況,選択リスト,false,false,false,true,true,true
 000000000000000AAA,FulfillmentOrder.StatusCategory,StatusCategory,FulfillmentOrder,,StatusCategory,状況カテゴリ,状況カテゴリ,選択リスト,false,false,false,true,true,true
