@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-07-14T05:54:03.508Z",
+  "fetchedAt": "2026-07-28T06:17:58.682Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 50,
+  "totalSize": 51,
   "records": [
     {
       "attributes": {
@@ -500,6 +500,27 @@
       "MasterLabel": "処理時間 (分)",
       "Label": "処理時間 (分)",
       "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FulfillmentOrderChangeEvent.RoutingReference"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrderChangeEvent.RoutingReference",
+      "QualifiedApiName": "RoutingReference",
+      "EntityDefinitionId": "FulfillmentOrderChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "RoutingReference",
+      "MasterLabel": "Routing Reference",
+      "Label": "Routing Reference",
+      "DataType": "テキスト(255)",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,

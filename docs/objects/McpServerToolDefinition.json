@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-07-14T05:54:03.508Z",
+  "fetchedAt": "2026-07-28T06:17:58.682Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 16,
+  "totalSize": 17,
   "records": [
     {
       "attributes": {
@@ -332,6 +332,27 @@
       "MasterLabel": "The title of the tool",
       "Label": "The title of the tool",
       "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/McpServerToolDefinition.UiResource"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "McpServerToolDefinition.UiResource",
+      "QualifiedApiName": "UiResourceId",
+      "EntityDefinitionId": "McpServerToolDefinition",
+      "NamespacePrefix": null,
+      "DeveloperName": "UiResource",
+      "MasterLabel": "Optional UI resource associated with this tool",
+      "Label": "Optional UI resource associated with this tool",
+      "DataType": "参照関係(Resource)",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,

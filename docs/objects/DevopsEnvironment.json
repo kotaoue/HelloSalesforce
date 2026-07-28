@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-07-14T05:54:03.508Z",
+  "fetchedAt": "2026-07-28T06:17:58.682Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 28,
+  "totalSize": 29,
   "records": [
     {
       "attributes": {
@@ -98,8 +98,8 @@
       "EntityDefinitionId": "DevopsEnvironment",
       "NamespacePrefix": null,
       "DeveloperName": "ExternalId",
-      "MasterLabel": "External Id",
-      "Label": "External Id",
+      "MasterLabel": "外部 ID",
+      "Label": "外部 ID",
       "DataType": "外部参照",
       "IsCalculated": false,
       "IsNillable": true,
@@ -542,6 +542,27 @@
       "MasterLabel": "置換",
       "Label": "置換",
       "DataType": "参照関係(環境)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DevopsEnvironment.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsEnvironment.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "DevopsEnvironment",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "Status",
+      "Label": "Status",
+      "DataType": "選択リスト",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,

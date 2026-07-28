@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-07-14T05:54:03.508Z",
+  "fetchedAt": "2026-07-28T06:17:58.682Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 56,
+  "totalSize": 57,
   "records": [
     {
       "attributes": {
@@ -584,6 +584,27 @@
       "MasterLabel": "レコードの表示",
       "Label": "レコードの表示",
       "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/FulfillmentOrder.RoutingReference"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FulfillmentOrder.RoutingReference",
+      "QualifiedApiName": "RoutingReference",
+      "EntityDefinitionId": "FulfillmentOrder",
+      "NamespacePrefix": null,
+      "DeveloperName": "RoutingReference",
+      "MasterLabel": "Routing Reference",
+      "Label": "Routing Reference",
+      "DataType": "テキスト(255)",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,

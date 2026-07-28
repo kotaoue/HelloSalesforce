@@ -1,0 +1,217 @@
+{
+  "fetchedAt": "2026-07-28T06:17:58.682Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 10,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiPlanningModelArtifactDef.AiArtifact"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiPlanningModelArtifactDef.AiArtifact",
+      "QualifiedApiName": "AiArtifactId",
+      "EntityDefinitionId": "AiPlanningModelArtifactDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "AiArtifact",
+      "MasterLabel": "AI Artifact",
+      "Label": "AI Artifact",
+      "DataType": "参照関係(ML Model Setups,データ変換)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiPlanningModelArtifactDef.ArtifactType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiPlanningModelArtifactDef.ArtifactType",
+      "QualifiedApiName": "ArtifactType",
+      "EntityDefinitionId": "AiPlanningModelArtifactDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "ArtifactType",
+      "MasterLabel": "Artifact Type",
+      "Label": "Artifact Type",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiPlanningModelArtifactDef.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiPlanningModelArtifactDef.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AiPlanningModelArtifactDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiPlanningModelArtifactDef.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiPlanningModelArtifactDef.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AiPlanningModelArtifactDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiPlanningModelArtifactDef.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiPlanningModelArtifactDef.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AiPlanningModelArtifactDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "AI Planning Model Artifact ID",
+      "Label": "AI Planning Model Artifact ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiPlanningModelArtifactDef.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiPlanningModelArtifactDef.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AiPlanningModelArtifactDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiPlanningModelArtifactDef.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiPlanningModelArtifactDef.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AiPlanningModelArtifactDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiPlanningModelArtifactDef.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiPlanningModelArtifactDef.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AiPlanningModelArtifactDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiPlanningModelArtifactDef.PlanningModelVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiPlanningModelArtifactDef.PlanningModelVersion",
+      "QualifiedApiName": "PlanningModelVersionId",
+      "EntityDefinitionId": "AiPlanningModelArtifactDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "PlanningModelVersion",
+      "MasterLabel": "Planning Model Version",
+      "Label": "Planning Model Version",
+      "DataType": "主従関係(AI Planning Model Version)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiPlanningModelArtifactDef.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiPlanningModelArtifactDef.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AiPlanningModelArtifactDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-07-14T05:54:03.508Z",
+  "fetchedAt": "2026-07-28T06:17:58.682Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 13,
+  "totalSize": 15,
   "records": [
     {
       "attributes": {
@@ -208,6 +208,48 @@
       "DataType": "テキスト(80)",
       "IsCalculated": false,
       "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AnalyticsPersonalOrgInfo.Owners"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsPersonalOrgInfo.Owners",
+      "QualifiedApiName": "Owners",
+      "EntityDefinitionId": "AnalyticsPersonalOrgInfo",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owners",
+      "MasterLabel": "Owners",
+      "Label": "Owners",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AnalyticsPersonalOrgInfo.PersonalOrgIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsPersonalOrgInfo.PersonalOrgIdentifier",
+      "QualifiedApiName": "PersonalOrgIdentifier",
+      "EntityDefinitionId": "AnalyticsPersonalOrgInfo",
+      "NamespacePrefix": null,
+      "DeveloperName": "PersonalOrgIdentifier",
+      "MasterLabel": "Personal Org Identifier",
+      "Label": "Personal Org Identifier",
+      "DataType": "テキスト(18)",
+      "IsCalculated": false,
+      "IsNillable": true,
       "IsIndexed": false,
       "IsApiFilterable": true,
       "IsApiGroupable": true,
