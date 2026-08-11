@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-08-04T06:18:58.034Z",
+  "fetchedAt": "2026-08-11T04:54:18.152Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 15,
+  "totalSize": 20,
   "records": [
     {
       "attributes": {
@@ -43,6 +43,27 @@
       "IsIndexed": false,
       "IsApiFilterable": true,
       "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AnalyticsPersonalOrgInfo.Details"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsPersonalOrgInfo.Details",
+      "QualifiedApiName": "Details",
+      "EntityDefinitionId": "AnalyticsPersonalOrgInfo",
+      "NamespacePrefix": null,
+      "DeveloperName": "Details",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val Details not found in section udd_AnalyticsPersonalOrgInfo",
+      "Label": "__MISSING LABEL__ PropertyFile - val Details not found in section udd_AnalyticsPersonalOrgInfo",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
       "IsApiSortable": true
     },
     {
@@ -121,6 +142,27 @@
       "DeveloperName": "IsDeleted",
       "MasterLabel": "削除",
       "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AnalyticsPersonalOrgInfo.IsPersonalOrgDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsPersonalOrgInfo.IsPersonalOrgDeleted",
+      "QualifiedApiName": "IsPersonalOrgDeleted",
+      "EntityDefinitionId": "AnalyticsPersonalOrgInfo",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsPersonalOrgDeleted",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val IsPersonalOrgDeleted not found in section udd_AnalyticsPersonalOrgInfo",
+      "Label": "__MISSING LABEL__ PropertyFile - val IsPersonalOrgDeleted not found in section udd_AnalyticsPersonalOrgInfo",
       "DataType": "チェックボックス",
       "IsCalculated": false,
       "IsNillable": false,
@@ -237,6 +279,48 @@
     {
       "attributes": {
         "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AnalyticsPersonalOrgInfo.PersonalOrgCreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsPersonalOrgInfo.PersonalOrgCreatedBy",
+      "QualifiedApiName": "PersonalOrgCreatedBy",
+      "EntityDefinitionId": "AnalyticsPersonalOrgInfo",
+      "NamespacePrefix": null,
+      "DeveloperName": "PersonalOrgCreatedBy",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val PersonalOrgCreatedBy not found in section udd_AnalyticsPersonalOrgInfo",
+      "Label": "__MISSING LABEL__ PropertyFile - val PersonalOrgCreatedBy not found in section udd_AnalyticsPersonalOrgInfo",
+      "DataType": "テキスト(18)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AnalyticsPersonalOrgInfo.PersonalOrgCreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsPersonalOrgInfo.PersonalOrgCreatedDate",
+      "QualifiedApiName": "PersonalOrgCreatedDate",
+      "EntityDefinitionId": "AnalyticsPersonalOrgInfo",
+      "NamespacePrefix": null,
+      "DeveloperName": "PersonalOrgCreatedDate",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val PersonalOrgCreatedDate not found in section udd_AnalyticsPersonalOrgInfo",
+      "Label": "__MISSING LABEL__ PropertyFile - val PersonalOrgCreatedDate not found in section udd_AnalyticsPersonalOrgInfo",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
         "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AnalyticsPersonalOrgInfo.PersonalOrgIdentifier"
       },
       "Id": "000000000000000AAA",
@@ -290,6 +374,27 @@
       "MasterLabel": "個人組織所有者ユーザー名",
       "Label": "個人組織所有者ユーザー名",
       "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AnalyticsPersonalOrgInfo.PersonalOrgStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnalyticsPersonalOrgInfo.PersonalOrgStatus",
+      "QualifiedApiName": "PersonalOrgStatus",
+      "EntityDefinitionId": "AnalyticsPersonalOrgInfo",
+      "NamespacePrefix": null,
+      "DeveloperName": "PersonalOrgStatus",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val PersonalOrgStatus not found in section udd_AnalyticsPersonalOrgInfo",
+      "Label": "__MISSING LABEL__ PropertyFile - val PersonalOrgStatus not found in section udd_AnalyticsPersonalOrgInfo",
+      "DataType": "テキスト(40)",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,

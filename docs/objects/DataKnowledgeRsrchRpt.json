@@ -1,0 +1,406 @@
+{
+  "fetchedAt": "2026-08-11T04:54:18.152Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 19,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRpt.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRpt.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DataKnowledgeRsrchRpt",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRpt.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRpt.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DataKnowledgeRsrchRpt",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRpt.FilePath"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRpt.FilePath",
+      "QualifiedApiName": "FilePath",
+      "EntityDefinitionId": "DataKnowledgeRsrchRpt",
+      "NamespacePrefix": null,
+      "DeveloperName": "FilePath",
+      "MasterLabel": "File Path",
+      "Label": "File Path",
+      "DataType": "ロングテキストエリア(1024)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRpt.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRpt.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DataKnowledgeRsrchRpt",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Data Knowledge Research Report ID",
+      "Label": "Data Knowledge Research Report ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRpt.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRpt.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DataKnowledgeRsrchRpt",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRpt.KnowledgeSpace"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRpt.KnowledgeSpace",
+      "QualifiedApiName": "KnowledgeSpaceId",
+      "EntityDefinitionId": "DataKnowledgeRsrchRpt",
+      "NamespacePrefix": null,
+      "DeveloperName": "KnowledgeSpace",
+      "MasterLabel": "Knowledge Space",
+      "Label": "Knowledge Space",
+      "DataType": "参照関係(ナレッジスペース)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRpt.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRpt.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DataKnowledgeRsrchRpt",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRpt.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRpt.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DataKnowledgeRsrchRpt",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRpt.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRpt.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "DataKnowledgeRsrchRpt",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "Data Knowledge Research Report Name",
+      "Label": "Data Knowledge Research Report Name",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRpt.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRpt.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "DataKnowledgeRsrchRpt",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者 氏名",
+      "Label": "所有者 氏名",
+      "DataType": "参照関係(ユーザー,グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRpt.Plan"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRpt.Plan",
+      "QualifiedApiName": "Plan",
+      "EntityDefinitionId": "DataKnowledgeRsrchRpt",
+      "NamespacePrefix": null,
+      "DeveloperName": "Plan",
+      "MasterLabel": "Research Plan",
+      "Label": "Research Plan",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRpt.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRpt.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "DataKnowledgeRsrchRpt",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRpt.ReportIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRpt.ReportIdentifier",
+      "QualifiedApiName": "ReportIdentifier",
+      "EntityDefinitionId": "DataKnowledgeRsrchRpt",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReportIdentifier",
+      "MasterLabel": "Report Identifier",
+      "Label": "Report Identifier",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRpt.ResearchTemplate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRpt.ResearchTemplate",
+      "QualifiedApiName": "ResearchTemplateId",
+      "EntityDefinitionId": "DataKnowledgeRsrchRpt",
+      "NamespacePrefix": null,
+      "DeveloperName": "ResearchTemplate",
+      "MasterLabel": "Research Template",
+      "Label": "Research Template",
+      "DataType": "参照関係(データナレッジ調査テンプレート)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRpt.ResearchType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRpt.ResearchType",
+      "QualifiedApiName": "ResearchType",
+      "EntityDefinitionId": "DataKnowledgeRsrchRpt",
+      "NamespacePrefix": null,
+      "DeveloperName": "ResearchType",
+      "MasterLabel": "Research Type",
+      "Label": "Research Type",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRpt.Sources"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRpt.Sources",
+      "QualifiedApiName": "Sources",
+      "EntityDefinitionId": "DataKnowledgeRsrchRpt",
+      "NamespacePrefix": null,
+      "DeveloperName": "Sources",
+      "MasterLabel": "Research Sources",
+      "Label": "Research Sources",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRpt.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRpt.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "DataKnowledgeRsrchRpt",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "Research Status",
+      "Label": "Research Status",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRpt.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRpt.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DataKnowledgeRsrchRpt",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeRsrchRpt.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeRsrchRpt.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "DataKnowledgeRsrchRpt",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-08-04T06:18:58.034Z",
+  "fetchedAt": "2026-08-11T04:54:18.152Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 22,
+  "totalSize": 26,
   "records": [
     {
       "attributes": {
@@ -43,6 +43,27 @@
       "IsIndexed": false,
       "IsApiFilterable": true,
       "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeGraphDef.DataContentLensDef"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeGraphDef.DataContentLensDef",
+      "QualifiedApiName": "DataContentLensDefId",
+      "EntityDefinitionId": "DataKnowledgeGraphDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataContentLensDef",
+      "MasterLabel": "コンテンツレンズ定義",
+      "Label": "コンテンツレンズ定義",
+      "DataType": "参照関係(コンテンツレンズ定義)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
       "IsApiSortable": true
     },
     {
@@ -384,6 +405,27 @@
     {
       "attributes": {
         "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeGraphDef.ProcessingType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeGraphDef.ProcessingType",
+      "QualifiedApiName": "ProcessingType",
+      "EntityDefinitionId": "DataKnowledgeGraphDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "ProcessingType",
+      "MasterLabel": "Processing Type",
+      "Label": "Processing Type",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
         "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeGraphDef.PropertiesDmo"
       },
       "Id": "000000000000000AAA",
@@ -401,6 +443,48 @@
       "IsApiFilterable": true,
       "IsApiGroupable": true,
       "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeGraphDef.SchemaExtractionModelName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeGraphDef.SchemaExtractionModelName",
+      "QualifiedApiName": "SchemaExtractionModelName",
+      "EntityDefinitionId": "DataKnowledgeGraphDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "SchemaExtractionModelName",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val SchemaExtractionModelName not found in section udd_DataKnowledgeGraphDef",
+      "Label": "__MISSING LABEL__ PropertyFile - val SchemaExtractionModelName not found in section udd_DataKnowledgeGraphDef",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/DataKnowledgeGraphDef.SchemaExtractionPrompt"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataKnowledgeGraphDef.SchemaExtractionPrompt",
+      "QualifiedApiName": "SchemaExtractionPrompt",
+      "EntityDefinitionId": "DataKnowledgeGraphDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "SchemaExtractionPrompt",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val SchemaExtractionPrompt not found in section udd_DataKnowledgeGraphDef",
+      "Label": "__MISSING LABEL__ PropertyFile - val SchemaExtractionPrompt not found in section udd_DataKnowledgeGraphDef",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
     },
     {
       "attributes": {
