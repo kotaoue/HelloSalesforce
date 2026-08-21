@@ -1,6 +1,7 @@
 Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
 000000000000000AAA,DataKnowledgeGraphDef.CreatedBy,CreatedById,DataKnowledgeGraphDef,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
 000000000000000AAA,DataKnowledgeGraphDef.CreatedDate,CreatedDate,DataKnowledgeGraphDef,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DataKnowledgeGraphDef.DataContentLensDef,DataContentLensDefId,DataKnowledgeGraphDef,,DataContentLensDef,コンテンツレンズ定義,コンテンツレンズ定義,参照関係(コンテンツレンズ定義),false,true,false,true,true,true
 000000000000000AAA,DataKnowledgeGraphDef.DeductionSourceDmo,DeductionSourceDmoId,DataKnowledgeGraphDef,,DeductionSourceDmo,控除ソース DMO,控除ソース DMO,参照関係(データモデルオブジェクト),false,true,false,true,true,true
 000000000000000AAA,DataKnowledgeGraphDef.Description,Description,DataKnowledgeGraphDef,,Description,ナレッジグラフ定義説明,ナレッジグラフ定義説明,テキスト(255),false,true,false,true,true,true
 000000000000000AAA,DataKnowledgeGraphDef.DeveloperName,DeveloperName,DataKnowledgeGraphDef,,DeveloperName,ナレッジグラフ定義 API 参照名,ナレッジグラフ定義 API 参照名,テキスト(255),false,false,true,true,true,true
@@ -17,7 +18,10 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,DataKnowledgeGraphDef.NamespacePrefix,NamespacePrefix,DataKnowledgeGraphDef,,NamespacePrefix,名前空間プレフィックス,名前空間プレフィックス,テキスト,false,true,false,true,true,true
 000000000000000AAA,DataKnowledgeGraphDef.NodeDmo,NodeDmoId,DataKnowledgeGraphDef,,NodeDmo,ノード DMO,ノード DMO,参照関係(データモデルオブジェクト),false,true,false,true,true,true
 000000000000000AAA,DataKnowledgeGraphDef.OffCoreSyncStatus,OffCoreSyncStatus,DataKnowledgeGraphDef,,OffCoreSyncStatus,オフコア同期状況,オフコア同期状況,選択リスト,false,true,true,true,true,true
+000000000000000AAA,DataKnowledgeGraphDef.ProcessingType,ProcessingType,DataKnowledgeGraphDef,,ProcessingType,Processing Type,Processing Type,選択リスト,false,true,false,true,true,true
 000000000000000AAA,DataKnowledgeGraphDef.PropertiesDmo,PropertiesDmoId,DataKnowledgeGraphDef,,PropertiesDmo,プロパティ DMO,プロパティ DMO,参照関係(データモデルオブジェクト),false,true,false,true,true,true
+000000000000000AAA,DataKnowledgeGraphDef.SchemaExtractionModelName,SchemaExtractionModelName,DataKnowledgeGraphDef,,SchemaExtractionModelName,__MISSING LABEL__ PropertyFile - val SchemaExtractionModelName not found in section udd_DataKnowledgeGraphDef,__MISSING LABEL__ PropertyFile - val SchemaExtractionModelName not found in section udd_DataKnowledgeGraphDef,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataKnowledgeGraphDef.SchemaExtractionPrompt,SchemaExtractionPrompt,DataKnowledgeGraphDef,,SchemaExtractionPrompt,__MISSING LABEL__ PropertyFile - val SchemaExtractionPrompt not found in section udd_DataKnowledgeGraphDef,__MISSING LABEL__ PropertyFile - val SchemaExtractionPrompt not found in section udd_DataKnowledgeGraphDef,ロングテキストエリア(131072),false,true,false,false,false,false
 000000000000000AAA,DataKnowledgeGraphDef.SubDomain,SubDomain,DataKnowledgeGraphDef,,SubDomain,サブドメイン,サブドメイン,テキスト(255),false,true,false,true,true,true
 000000000000000AAA,DataKnowledgeGraphDef.SystemModstamp,SystemModstamp,DataKnowledgeGraphDef,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
 000000000000000AAA,DataKnowledgeGraphDef.Version,Version,DataKnowledgeGraphDef,,Version,バージョン,バージョン,数値(9、0),false,false,false,true,true,true
