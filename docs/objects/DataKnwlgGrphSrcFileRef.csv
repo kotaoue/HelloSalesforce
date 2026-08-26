@@ -2,13 +2,13 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,DataKnwlgGrphSrcFileRef.CreatedBy,CreatedById,DataKnwlgGrphSrcFileRef,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
 000000000000000AAA,DataKnwlgGrphSrcFileRef.CreatedDate,CreatedDate,DataKnwlgGrphSrcFileRef,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
 000000000000000AAA,DataKnwlgGrphSrcFileRef.DeveloperName,DeveloperName,DataKnwlgGrphSrcFileRef,,DeveloperName,オブジェクト名,オブジェクト名,テキスト(80),false,false,false,true,true,true
-000000000000000AAA,DataKnwlgGrphSrcFileRef.ErrorMessage,ErrorMessage,DataKnwlgGrphSrcFileRef,,ErrorMessage,Error Message,Error Message,ロングテキストエリア(131072),false,true,false,false,false,false
-000000000000000AAA,DataKnwlgGrphSrcFileRef.ExtractionJobIdRef,ExtractionJobIdRef,DataKnwlgGrphSrcFileRef,,ExtractionJobIdRef,Extraction Job ID Reference,Extraction Job ID Reference,テキスト(255),false,true,false,true,true,true
-000000000000000AAA,DataKnwlgGrphSrcFileRef.FileName,FileName,DataKnwlgGrphSrcFileRef,,FileName,File Name,File Name,テキスト(255),false,true,false,true,true,true
-000000000000000AAA,DataKnwlgGrphSrcFileRef.FilePath,FilePath,DataKnwlgGrphSrcFileRef,,FilePath,File Path,File Path,ロングテキストエリア(131072),false,true,false,false,false,false
-000000000000000AAA,DataKnwlgGrphSrcFileRef.FileSize,FileSize,DataKnwlgGrphSrcFileRef,,FileSize,File Size,File Size,数値(9、0),false,true,false,true,true,true
-000000000000000AAA,DataKnwlgGrphSrcFileRef.FileType,FileType,DataKnwlgGrphSrcFileRef,,FileType,File Type,File Type,テキスト(255),false,true,false,true,true,true
-000000000000000AAA,DataKnwlgGrphSrcFileRef.Id,Id,DataKnwlgGrphSrcFileRef,,Id,Data Knowledge Graph Source File Reference ID,Data Knowledge Graph Source File Reference ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DataKnwlgGrphSrcFileRef.ErrorMessage,ErrorMessage,DataKnwlgGrphSrcFileRef,,ErrorMessage,エラーメッセージ,エラーメッセージ,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,DataKnwlgGrphSrcFileRef.ExtractionJobIdRef,ExtractionJobIdRef,DataKnwlgGrphSrcFileRef,,ExtractionJobIdRef,抽出ジョブ ID 参照,抽出ジョブ ID 参照,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataKnwlgGrphSrcFileRef.FileName,FileName,DataKnwlgGrphSrcFileRef,,FileName,ファイル名,ファイル名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataKnwlgGrphSrcFileRef.FilePath,FilePath,DataKnwlgGrphSrcFileRef,,FilePath,ファイルパス,ファイルパス,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,DataKnwlgGrphSrcFileRef.FileSize,FileSize,DataKnwlgGrphSrcFileRef,,FileSize,ファイルサイズ,ファイルサイズ,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,DataKnwlgGrphSrcFileRef.FileType,FileType,DataKnwlgGrphSrcFileRef,,FileType,ファイルの種類,ファイルの種類,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DataKnwlgGrphSrcFileRef.Id,Id,DataKnwlgGrphSrcFileRef,,Id,データナレッジグラフソースファイル参照 ID,データナレッジグラフソースファイル参照 ID,参照関係(),false,false,true,true,true,true
 000000000000000AAA,DataKnwlgGrphSrcFileRef.IsDeleted,IsDeleted,DataKnwlgGrphSrcFileRef,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
 000000000000000AAA,DataKnwlgGrphSrcFileRef.Language,Language,DataKnwlgGrphSrcFileRef,,Language,マスター言語,マスター言語,選択リスト,false,true,false,true,true,true
 000000000000000AAA,DataKnwlgGrphSrcFileRef.LastModifiedBy,LastModifiedById,DataKnwlgGrphSrcFileRef,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
@@ -16,8 +16,8 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,DataKnwlgGrphSrcFileRef.ManageableState,ManageableState,DataKnwlgGrphSrcFileRef,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
 000000000000000AAA,DataKnwlgGrphSrcFileRef.MasterLabel,MasterLabel,DataKnwlgGrphSrcFileRef,,MasterLabel,表示ラベル,表示ラベル,テキスト(80),false,false,false,true,true,true
 000000000000000AAA,DataKnwlgGrphSrcFileRef.NamespacePrefix,NamespacePrefix,DataKnwlgGrphSrcFileRef,,NamespacePrefix,名前空間プレフィックス,名前空間プレフィックス,テキスト,false,true,false,true,true,true
-000000000000000AAA,DataKnwlgGrphSrcFileRef.ProcessedDate,ProcessedDate,DataKnwlgGrphSrcFileRef,,ProcessedDate,Processed Date,Processed Date,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DataKnwlgGrphSrcFileRef.ProcessedDate,ProcessedDate,DataKnwlgGrphSrcFileRef,,ProcessedDate,処理日,処理日,日付/時間,false,true,false,true,false,true
 000000000000000AAA,DataKnwlgGrphSrcFileRef.SobjectType,DataKnwlgGrphSrcExtrctDefId,DataKnwlgGrphSrcFileRef,,SobjectType,データナレッジグラフソース抽出定義,データナレッジグラフソース抽出定義,参照関係(データナレッジグラフソース抽出定義),false,false,true,true,true,true
-000000000000000AAA,DataKnwlgGrphSrcFileRef.SourceFileStatus,SourceFileStatus,DataKnwlgGrphSrcFileRef,,SourceFileStatus,Source File Status,Source File Status,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DataKnwlgGrphSrcFileRef.SourceFileStatus,SourceFileStatus,DataKnwlgGrphSrcFileRef,,SourceFileStatus,ソースファイルの状況,ソースファイルの状況,選択リスト,false,true,false,true,true,true
 000000000000000AAA,DataKnwlgGrphSrcFileRef.SystemModstamp,SystemModstamp,DataKnwlgGrphSrcFileRef,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
-000000000000000AAA,DataKnwlgGrphSrcFileRef.UploadedDate,UploadedDate,DataKnwlgGrphSrcFileRef,,UploadedDate,Uploaded Date,Uploaded Date,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DataKnwlgGrphSrcFileRef.UploadedDate,UploadedDate,DataKnwlgGrphSrcFileRef,,UploadedDate,アップロード日,アップロード日,日付/時間,false,true,false,true,false,true
