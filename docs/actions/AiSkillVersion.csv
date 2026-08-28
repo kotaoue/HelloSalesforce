@@ -1,0 +1,19 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AiSkillVersion.AiSkill,AiSkillId,AiSkillVersion,,AiSkill,AI Skill,AI Skill,主従関係(AI Skill),false,false,true,true,true,true
+000000000000000AAA,AiSkillVersion.CreatedBy,CreatedById,AiSkillVersion,,CreatedBy,Created By,Created By,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,AiSkillVersion.CreatedDate,CreatedDate,AiSkillVersion,,CreatedDate,Created Date,Created Date,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AiSkillVersion.Id,Id,AiSkillVersion,,Id,AI Skill Version ID,AI Skill Version ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AiSkillVersion.IsDeleted,IsDeleted,AiSkillVersion,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AiSkillVersion.LastModifiedBy,LastModifiedById,AiSkillVersion,,LastModifiedBy,Last Modified By,Last Modified By,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AiSkillVersion.LastModifiedDate,LastModifiedDate,AiSkillVersion,,LastModifiedDate,Last Modified Date,Last Modified Date,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AiSkillVersion.LastReferencedDate,LastReferencedDate,AiSkillVersion,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,AiSkillVersion.LastViewedDate,LastViewedDate,AiSkillVersion,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,AiSkillVersion.Name,Name,AiSkillVersion,,Name,Name,Name,テキスト(255),false,false,true,true,true,true
+000000000000000AAA,AiSkillVersion.RecordVisibility,RecordVisibilityId,AiSkillVersion,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,AiSkillVersion.RelatedVersion,RelatedVersionId,AiSkillVersion,,RelatedVersion,Related Version,Related Version,参照関係(Generative AI Prompt Template Versions),false,true,false,true,true,true
+000000000000000AAA,AiSkillVersion.Status,Status,AiSkillVersion,,Status,Status,Status,選択リスト,false,true,false,true,true,true
+000000000000000AAA,AiSkillVersion.SystemModstamp,SystemModstamp,AiSkillVersion,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AiSkillVersion.UserRecordAccess,UserRecordAccessId,AiSkillVersion,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
+000000000000000AAA,AiSkillVersion.VersionDescription,VersionDescription,AiSkillVersion,,VersionDescription,Version Description,Version Description,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,AiSkillVersion.VersionKeyword,VersionKeyword,AiSkillVersion,,VersionKeyword,Version Keyword,Version Keyword,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,AiSkillVersion.VersionNumber,VersionNumber,AiSkillVersion,,VersionNumber,Version Number,Version Number,数値(9、0),false,false,false,true,true,true
