@@ -7489,6 +7489,7 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,CartItemPriceAdjustment.AdjustmentBasisReference,AdjustmentBasisReferenceId,CartItemPriceAdjustment,,AdjustmentBasisReference,調整 (クーポン) の根拠,調整 (クーポン) の根拠,参照関係(クーポン),false,true,false,true,true,true
 000000000000000AAA,CartItemPriceAdjustment.AdjustmentSource,AdjustmentSource,CartItemPriceAdjustment,,AdjustmentSource,調整取得元,調整取得元,選択リスト,false,false,false,true,true,true
 000000000000000AAA,CartItemPriceAdjustment.AdjustmentTargetType,AdjustmentTargetType,CartItemPriceAdjustment,,AdjustmentTargetType,調整の対象種別,調整の対象種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,CartItemPriceAdjustment.AdjustmentTier,AdjustmentTierId,CartItemPriceAdjustment,,AdjustmentTier,プロモーションランク,プロモーションランク,参照関係(プロモーションランク),false,true,false,true,true,true
 000000000000000AAA,CartItemPriceAdjustment.AdjustmentType,AdjustmentType,CartItemPriceAdjustment,,AdjustmentType,調整種別,調整種別,選択リスト,false,false,false,true,true,true
 000000000000000AAA,CartItemPriceAdjustment.AdjustmentValue,AdjustmentValue,CartItemPriceAdjustment,,AdjustmentValue,調整値,調整値,数値(16、2),false,false,false,true,false,true
 000000000000000AAA,CartItemPriceAdjustment.Cart,CartId,CartItemPriceAdjustment,,Cart,カート,カート,参照関係(カート),false,true,true,true,true,true
@@ -7515,6 +7516,7 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,CartItemPriceAdjustmentChangeEvent.AdjustmentBasisReference,AdjustmentBasisReferenceId,CartItemPriceAdjustmentChangeEvent,,AdjustmentBasisReference,調整 (クーポン) の根拠,調整 (クーポン) の根拠,参照関係(クーポン),false,true,false,false,false,false
 000000000000000AAA,CartItemPriceAdjustmentChangeEvent.AdjustmentSource,AdjustmentSource,CartItemPriceAdjustmentChangeEvent,,AdjustmentSource,調整取得元,調整取得元,選択リスト,false,true,false,false,false,false
 000000000000000AAA,CartItemPriceAdjustmentChangeEvent.AdjustmentTargetType,AdjustmentTargetType,CartItemPriceAdjustmentChangeEvent,,AdjustmentTargetType,調整の対象種別,調整の対象種別,選択リスト,false,true,false,false,false,false
+000000000000000AAA,CartItemPriceAdjustmentChangeEvent.AdjustmentTier,AdjustmentTierId,CartItemPriceAdjustmentChangeEvent,,AdjustmentTier,プロモーションランク,プロモーションランク,参照関係(プロモーションランク),false,true,false,false,false,false
 000000000000000AAA,CartItemPriceAdjustmentChangeEvent.AdjustmentType,AdjustmentType,CartItemPriceAdjustmentChangeEvent,,AdjustmentType,調整種別,調整種別,選択リスト,false,true,false,false,false,false
 000000000000000AAA,CartItemPriceAdjustmentChangeEvent.AdjustmentValue,AdjustmentValue,CartItemPriceAdjustmentChangeEvent,,AdjustmentValue,調整値,調整値,数値(16、2),false,true,false,false,false,false
 000000000000000AAA,CartItemPriceAdjustmentChangeEvent.Cart,CartId,CartItemPriceAdjustmentChangeEvent,,Cart,カート,カート,参照関係(カート),false,true,false,false,false,false
