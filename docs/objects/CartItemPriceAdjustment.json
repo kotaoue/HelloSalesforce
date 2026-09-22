@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-09-15T08:58:31.524Z",
+  "fetchedAt": "2026-09-22T08:51:04.889Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 26,
+  "totalSize": 27,
   "records": [
     {
       "attributes": {
@@ -82,6 +82,27 @@
       "DataType": "選択リスト",
       "IsCalculated": false,
       "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustment.AdjustmentTier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustment.AdjustmentTier",
+      "QualifiedApiName": "AdjustmentTierId",
+      "EntityDefinitionId": "CartItemPriceAdjustment",
+      "NamespacePrefix": null,
+      "DeveloperName": "AdjustmentTier",
+      "MasterLabel": "プロモーションランク",
+      "Label": "プロモーションランク",
+      "DataType": "参照関係(プロモーションランク)",
+      "IsCalculated": false,
+      "IsNillable": true,
       "IsIndexed": false,
       "IsApiFilterable": true,
       "IsApiGroupable": true,

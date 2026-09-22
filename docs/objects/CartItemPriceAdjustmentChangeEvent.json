@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-09-15T08:58:31.524Z",
+  "fetchedAt": "2026-09-22T08:51:04.889Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 19,
+  "totalSize": 20,
   "records": [
     {
       "attributes": {
@@ -80,6 +80,27 @@
       "MasterLabel": "調整の対象種別",
       "Label": "調整の対象種別",
       "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/CartItemPriceAdjustmentChangeEvent.AdjustmentTier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "CartItemPriceAdjustmentChangeEvent.AdjustmentTier",
+      "QualifiedApiName": "AdjustmentTierId",
+      "EntityDefinitionId": "CartItemPriceAdjustmentChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "AdjustmentTier",
+      "MasterLabel": "プロモーションランク",
+      "Label": "プロモーションランク",
+      "DataType": "参照関係(プロモーションランク)",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,
