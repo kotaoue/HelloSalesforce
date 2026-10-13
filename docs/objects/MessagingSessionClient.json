@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-10-13T10:58:52.931Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/MessagingSessionClient.BrowserLanguage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingSessionClient.BrowserLanguage",
+      "QualifiedApiName": "BrowserLanguage",
+      "EntityDefinitionId": "MessagingSessionClient",
+      "NamespacePrefix": null,
+      "DeveloperName": "BrowserLanguage",
+      "MasterLabel": "ブラウザーの言語",
+      "Label": "ブラウザーの言語",
+      "DataType": "テキスト(35)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/MessagingSessionClient.BrowserName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingSessionClient.BrowserName",
+      "QualifiedApiName": "BrowserName",
+      "EntityDefinitionId": "MessagingSessionClient",
+      "NamespacePrefix": null,
+      "DeveloperName": "BrowserName",
+      "MasterLabel": "ブラウザー名",
+      "Label": "ブラウザー名",
+      "DataType": "テキスト(50)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/MessagingSessionClient.ClientIdentifier"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingSessionClient.ClientIdentifier",
+      "QualifiedApiName": "ClientIdentifier",
+      "EntityDefinitionId": "MessagingSessionClient",
+      "NamespacePrefix": null,
+      "DeveloperName": "ClientIdentifier",
+      "MasterLabel": "クライアント識別子",
+      "Label": "クライアント識別子",
+      "DataType": "テキスト(128)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/MessagingSessionClient.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingSessionClient.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "MessagingSessionClient",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/MessagingSessionClient.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingSessionClient.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "MessagingSessionClient",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/MessagingSessionClient.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingSessionClient.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "MessagingSessionClient",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "メッセージングセッションクライアント ID",
+      "Label": "メッセージングセッションクライアント ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/MessagingSessionClient.IpAddress"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingSessionClient.IpAddress",
+      "QualifiedApiName": "IpAddress",
+      "EntityDefinitionId": "MessagingSessionClient",
+      "NamespacePrefix": null,
+      "DeveloperName": "IpAddress",
+      "MasterLabel": "IP アドレス",
+      "Label": "IP アドレス",
+      "DataType": "テキスト(45)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/MessagingSessionClient.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingSessionClient.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "MessagingSessionClient",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/MessagingSessionClient.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingSessionClient.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "MessagingSessionClient",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/MessagingSessionClient.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingSessionClient.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "MessagingSessionClient",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/MessagingSessionClient.MessagingSession"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingSessionClient.MessagingSession",
+      "QualifiedApiName": "MessagingSessionId",
+      "EntityDefinitionId": "MessagingSessionClient",
+      "NamespacePrefix": null,
+      "DeveloperName": "MessagingSession",
+      "MasterLabel": "メッセージングセッション",
+      "Label": "メッセージングセッション",
+      "DataType": "主従関係(メッセージングセッション)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/MessagingSessionClient.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingSessionClient.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "MessagingSessionClient",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "メッセージングセッションクライアント名",
+      "Label": "メッセージングセッションクライアント名",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/MessagingSessionClient.OperatingSystemName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingSessionClient.OperatingSystemName",
+      "QualifiedApiName": "OperatingSystemName",
+      "EntityDefinitionId": "MessagingSessionClient",
+      "NamespacePrefix": null,
+      "DeveloperName": "OperatingSystemName",
+      "MasterLabel": "OS 名",
+      "Label": "OS 名",
+      "DataType": "テキスト(50)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/MessagingSessionClient.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingSessionClient.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "MessagingSessionClient",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/MessagingSessionClient.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingSessionClient.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "MessagingSessionClient",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/MessagingSessionClient.UserAgent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingSessionClient.UserAgent",
+      "QualifiedApiName": "UserAgent",
+      "EntityDefinitionId": "MessagingSessionClient",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserAgent",
+      "MasterLabel": "ユーザーエージェント",
+      "Label": "ユーザーエージェント",
+      "DataType": "ロングテキストエリア(500)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/MessagingSessionClient.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "MessagingSessionClient.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "MessagingSessionClient",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

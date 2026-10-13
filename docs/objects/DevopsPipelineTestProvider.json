@@ -1,0 +1,343 @@
+{
+  "fetchedAt": "2026-10-13T10:58:52.931Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 16,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsPipelineTestProvider.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsPipelineTestProvider.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DevopsPipelineTestProvider",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsPipelineTestProvider.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsPipelineTestProvider.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DevopsPipelineTestProvider",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsPipelineTestProvider.DevopsPipeline"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsPipelineTestProvider.DevopsPipeline",
+      "QualifiedApiName": "DevopsPipelineId",
+      "EntityDefinitionId": "DevopsPipelineTestProvider",
+      "NamespacePrefix": null,
+      "DeveloperName": "DevopsPipeline",
+      "MasterLabel": "パイプライン",
+      "Label": "パイプライン",
+      "DataType": "主従関係(DevOps パイプライン)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsPipelineTestProvider.DevopsTestProvider"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsPipelineTestProvider.DevopsTestProvider",
+      "QualifiedApiName": "DevopsTestProviderId",
+      "EntityDefinitionId": "DevopsPipelineTestProvider",
+      "NamespacePrefix": null,
+      "DeveloperName": "DevopsTestProvider",
+      "MasterLabel": "テストプロバイダー",
+      "Label": "テストプロバイダー",
+      "DataType": "参照関係(DevOps テストプロバイダー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsPipelineTestProvider.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsPipelineTestProvider.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DevopsPipelineTestProvider",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "DevOps パイプラインテストプロバイダー ID",
+      "Label": "DevOps パイプラインテストプロバイダー ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsPipelineTestProvider.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsPipelineTestProvider.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DevopsPipelineTestProvider",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsPipelineTestProvider.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsPipelineTestProvider.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DevopsPipelineTestProvider",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsPipelineTestProvider.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsPipelineTestProvider.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DevopsPipelineTestProvider",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsPipelineTestProvider.LastReferencedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsPipelineTestProvider.LastReferencedDate",
+      "QualifiedApiName": "LastReferencedDate",
+      "EntityDefinitionId": "DevopsPipelineTestProvider",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastReferencedDate",
+      "MasterLabel": "最終参照日",
+      "Label": "最終参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsPipelineTestProvider.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsPipelineTestProvider.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "DevopsPipelineTestProvider",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsPipelineTestProvider.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsPipelineTestProvider.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "DevopsPipelineTestProvider",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsPipelineTestProvider.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsPipelineTestProvider.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "DevopsPipelineTestProvider",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsPipelineTestProvider.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsPipelineTestProvider.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DevopsPipelineTestProvider",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsPipelineTestProvider.TestProviderProject"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsPipelineTestProvider.TestProviderProject",
+      "QualifiedApiName": "TestProviderProject",
+      "EntityDefinitionId": "DevopsPipelineTestProvider",
+      "NamespacePrefix": null,
+      "DeveloperName": "TestProviderProject",
+      "MasterLabel": "テストプロバイダープロジェクト",
+      "Label": "テストプロバイダープロジェクト",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsPipelineTestProvider.TestProviderSpecificConfig"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsPipelineTestProvider.TestProviderSpecificConfig",
+      "QualifiedApiName": "TestProviderSpecificConfig",
+      "EntityDefinitionId": "DevopsPipelineTestProvider",
+      "NamespacePrefix": null,
+      "DeveloperName": "TestProviderSpecificConfig",
+      "MasterLabel": "テストプロバイダー固有の設定",
+      "Label": "テストプロバイダー固有の設定",
+      "DataType": "テキストエリア(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsPipelineTestProvider.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsPipelineTestProvider.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "DevopsPipelineTestProvider",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

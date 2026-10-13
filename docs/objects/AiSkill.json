@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-06T10:41:58.308Z",
+  "fetchedAt": "2026-10-13T10:58:52.931Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 24,
+  "totalSize": 27,
   "records": [
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiSkill.ActiveVersion"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.ActiveVersion"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AiSkill.ActiveVersion",
@@ -27,7 +27,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiSkill.AiSkillDefinition"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.AiSkillDefinition"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AiSkill.AiSkillDefinition",
@@ -48,7 +48,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiSkill.ApiName"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.ApiName"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AiSkill.ApiName",
@@ -56,8 +56,8 @@
       "EntityDefinitionId": "AiSkill",
       "NamespacePrefix": null,
       "DeveloperName": "ApiName",
-      "MasterLabel": "API Name",
-      "Label": "API Name",
+      "MasterLabel": "Api Name",
+      "Label": "Api Name",
       "DataType": "テキスト(255)",
       "IsCalculated": false,
       "IsNillable": true,
@@ -69,7 +69,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiSkill.Category"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.Category"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AiSkill.Category",
@@ -90,7 +90,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiSkill.CreatedBy"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.CreatedBy"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AiSkill.CreatedBy",
@@ -111,7 +111,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiSkill.CreatedDate"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.CreatedDate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AiSkill.CreatedDate",
@@ -132,7 +132,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiSkill.Description"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.Description"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AiSkill.Description",
@@ -142,18 +142,18 @@
       "DeveloperName": "Description",
       "MasterLabel": "Description",
       "Label": "Description",
-      "DataType": "テキスト(255)",
+      "DataType": "ロングテキストエリア(1024)",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,
-      "IsApiFilterable": true,
-      "IsApiGroupable": true,
-      "IsApiSortable": true
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
     },
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiSkill.Id"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.Id"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AiSkill.Id",
@@ -174,7 +174,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiSkill.IsDeleted"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.IsDeleted"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AiSkill.IsDeleted",
@@ -195,7 +195,28 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiSkill.LastCreatedVersion"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.IsInMyLibrary"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiSkill.IsInMyLibrary",
+      "QualifiedApiName": "IsInMyLibrary",
+      "EntityDefinitionId": "AiSkill",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsInMyLibrary",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val IsInMyLibrary not found in section udd_AiSkill",
+      "Label": "__MISSING LABEL__ PropertyFile - val IsInMyLibrary not found in section udd_AiSkill",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.LastCreatedVersion"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AiSkill.LastCreatedVersion",
@@ -216,7 +237,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiSkill.LastModifiedBy"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.LastModifiedBy"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AiSkill.LastModifiedBy",
@@ -237,7 +258,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiSkill.LastModifiedDate"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.LastModifiedDate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AiSkill.LastModifiedDate",
@@ -258,7 +279,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiSkill.LastReferencedDate"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.LastReferencedDate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AiSkill.LastReferencedDate",
@@ -279,7 +300,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiSkill.LastViewedDate"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.LastViewedDate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AiSkill.LastViewedDate",
@@ -300,7 +321,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiSkill.Name"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.Name"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AiSkill.Name",
@@ -321,7 +342,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiSkill.NamespacePrefix"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.NamespacePrefix"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AiSkill.NamespacePrefix",
@@ -342,7 +363,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiSkill.Owner"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.Owner"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AiSkill.Owner",
@@ -363,7 +384,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiSkill.RecordVisibility"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.RecordVisibility"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AiSkill.RecordVisibility",
@@ -384,7 +405,49 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiSkill.Source"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.ShortDescription"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiSkill.ShortDescription",
+      "QualifiedApiName": "ShortDescription",
+      "EntityDefinitionId": "AiSkill",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShortDescription",
+      "MasterLabel": "Description",
+      "Label": "Description",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.ShouldAddToLibraryOnShare"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiSkill.ShouldAddToLibraryOnShare",
+      "QualifiedApiName": "ShouldAddToLibraryOnShare",
+      "EntityDefinitionId": "AiSkill",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShouldAddToLibraryOnShare",
+      "MasterLabel": "Add To Library Upon Sharing",
+      "Label": "Add To Library Upon Sharing",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.Source"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AiSkill.Source",
@@ -405,7 +468,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiSkill.Status"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.Status"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AiSkill.Status",
@@ -426,7 +489,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiSkill.SystemModstamp"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.SystemModstamp"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AiSkill.SystemModstamp",
@@ -447,7 +510,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiSkill.Type"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.Type"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AiSkill.Type",
@@ -468,7 +531,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiSkill.UserRecordAccess"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.UserRecordAccess"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AiSkill.UserRecordAccess",
@@ -489,7 +552,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AiSkill.Visibility"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.Visibility"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AiSkill.Visibility",

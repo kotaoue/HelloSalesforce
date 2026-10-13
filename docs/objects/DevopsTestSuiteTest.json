@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-10-13T10:58:52.931Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteTest.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteTest.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DevopsTestSuiteTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteTest.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteTest.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DevopsTestSuiteTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteTest.DevopsTest"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteTest.DevopsTest",
+      "QualifiedApiName": "DevopsTestId",
+      "EntityDefinitionId": "DevopsTestSuiteTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "DevopsTest",
+      "MasterLabel": "テスト",
+      "Label": "テスト",
+      "DataType": "参照関係(テスト)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteTest.DevopsTestSuite"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteTest.DevopsTestSuite",
+      "QualifiedApiName": "DevopsTestSuiteId",
+      "EntityDefinitionId": "DevopsTestSuiteTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "DevopsTestSuite",
+      "MasterLabel": "テストスイート",
+      "Label": "テストスイート",
+      "DataType": "主従関係(テストスイート)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteTest.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteTest.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DevopsTestSuiteTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "テストスイートテスト ID",
+      "Label": "テストスイートテスト ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteTest.IsActive"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteTest.IsActive",
+      "QualifiedApiName": "IsActive",
+      "EntityDefinitionId": "DevopsTestSuiteTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsActive",
+      "MasterLabel": "有効",
+      "Label": "有効",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteTest.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteTest.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DevopsTestSuiteTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteTest.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteTest.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DevopsTestSuiteTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteTest.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteTest.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DevopsTestSuiteTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteTest.LastReferencedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteTest.LastReferencedDate",
+      "QualifiedApiName": "LastReferencedDate",
+      "EntityDefinitionId": "DevopsTestSuiteTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastReferencedDate",
+      "MasterLabel": "最終参照日",
+      "Label": "最終参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteTest.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteTest.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "DevopsTestSuiteTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteTest.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteTest.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "DevopsTestSuiteTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteTest.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteTest.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "DevopsTestSuiteTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteTest.SyncLog"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteTest.SyncLog",
+      "QualifiedApiName": "SyncLogId",
+      "EntityDefinitionId": "DevopsTestSuiteTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "SyncLog",
+      "MasterLabel": "テストプロバイダー同期ログ",
+      "Label": "テストプロバイダー同期ログ",
+      "DataType": "参照関係(テストプロバイダー同期ログ)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteTest.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteTest.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DevopsTestSuiteTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteTest.UniqueKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteTest.UniqueKey",
+      "QualifiedApiName": "UniqueKey",
+      "EntityDefinitionId": "DevopsTestSuiteTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "UniqueKey",
+      "MasterLabel": "一意のキー",
+      "Label": "一意のキー",
+      "DataType": "テキストエリア(255)  (ユニーク)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteTest.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteTest.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "DevopsTestSuiteTest",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "fetchedAt": "2026-10-13T10:58:52.931Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 10,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DeployNotification.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployNotification.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DeployNotification",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DeployNotification.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployNotification.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DeployNotification",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DeployNotification.DeployRequest"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployNotification.DeployRequest",
+      "QualifiedApiName": "DeployRequestId",
+      "EntityDefinitionId": "DeployNotification",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeployRequest",
+      "MasterLabel": "Deploy Request",
+      "Label": "Deploy Request",
+      "DataType": "主従関係(Deploy Request)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DeployNotification.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployNotification.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DeployNotification",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "Deploy Notification ID",
+      "Label": "Deploy Notification ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DeployNotification.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployNotification.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DeployNotification",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "Is Deleted",
+      "Label": "Is Deleted",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DeployNotification.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployNotification.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DeployNotification",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DeployNotification.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployNotification.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DeployNotification",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DeployNotification.MessageCode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployNotification.MessageCode",
+      "QualifiedApiName": "MessageCode",
+      "EntityDefinitionId": "DeployNotification",
+      "NamespacePrefix": null,
+      "DeveloperName": "MessageCode",
+      "MasterLabel": "Message Code",
+      "Label": "Message Code",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DeployNotification.MessageText"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployNotification.MessageText",
+      "QualifiedApiName": "MessageText",
+      "EntityDefinitionId": "DeployNotification",
+      "NamespacePrefix": null,
+      "DeveloperName": "MessageText",
+      "MasterLabel": "Message Text",
+      "Label": "Message Text",
+      "DataType": "テキスト(765)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DeployNotification.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DeployNotification.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DeployNotification",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

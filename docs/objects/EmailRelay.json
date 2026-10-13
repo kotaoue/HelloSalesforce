@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-06T10:41:58.308Z",
+  "fetchedAt": "2026-10-13T10:58:52.931Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 14,
+  "totalSize": 21,
   "records": [
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/EmailRelay.AuthType"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/EmailRelay.AuthType"
       },
       "Id": "000000000000000AAA",
       "DurableId": "EmailRelay.AuthType",
@@ -27,7 +27,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/EmailRelay.CreatedBy"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/EmailRelay.CreatedBy"
       },
       "Id": "000000000000000AAA",
       "DurableId": "EmailRelay.CreatedBy",
@@ -48,7 +48,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/EmailRelay.CreatedDate"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/EmailRelay.CreatedDate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "EmailRelay.CreatedDate",
@@ -69,7 +69,28 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/EmailRelay.Host"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/EmailRelay.E360LifecycleState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailRelay.E360LifecycleState",
+      "QualifiedApiName": "E360LifecycleState",
+      "EntityDefinitionId": "EmailRelay",
+      "NamespacePrefix": null,
+      "DeveloperName": "E360LifecycleState",
+      "MasterLabel": "E360 ライフサイクル状態",
+      "Label": "E360 ライフサイクル状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/EmailRelay.Host"
       },
       "Id": "000000000000000AAA",
       "DurableId": "EmailRelay.Host",
@@ -90,7 +111,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/EmailRelay.Id"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/EmailRelay.Id"
       },
       "Id": "000000000000000AAA",
       "DurableId": "EmailRelay.Id",
@@ -111,7 +132,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/EmailRelay.IsDeleted"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/EmailRelay.IsDeleted"
       },
       "Id": "000000000000000AAA",
       "DurableId": "EmailRelay.IsDeleted",
@@ -132,7 +153,28 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/EmailRelay.IsRequireAuth"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/EmailRelay.IsHostMxLookupAllowed"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailRelay.IsHostMxLookupAllowed",
+      "QualifiedApiName": "IsHostMxLookupAllowed",
+      "EntityDefinitionId": "EmailRelay",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsHostMxLookupAllowed",
+      "MasterLabel": "MX ルックアップを有効化",
+      "Label": "MX ルックアップを有効化",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/EmailRelay.IsRequireAuth"
       },
       "Id": "000000000000000AAA",
       "DurableId": "EmailRelay.IsRequireAuth",
@@ -153,7 +195,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/EmailRelay.LastModifiedBy"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/EmailRelay.LastModifiedBy"
       },
       "Id": "000000000000000AAA",
       "DurableId": "EmailRelay.LastModifiedBy",
@@ -174,7 +216,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/EmailRelay.LastModifiedDate"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/EmailRelay.LastModifiedDate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "EmailRelay.LastModifiedDate",
@@ -195,7 +237,28 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/EmailRelay.Password"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/EmailRelay.LastQueriedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailRelay.LastQueriedDate",
+      "QualifiedApiName": "LastQueriedDate",
+      "EntityDefinitionId": "EmailRelay",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastQueriedDate",
+      "MasterLabel": "最終クエリ日",
+      "Label": "最終クエリ日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/EmailRelay.Password"
       },
       "Id": "000000000000000AAA",
       "DurableId": "EmailRelay.Password",
@@ -216,7 +279,28 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/EmailRelay.Port"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/EmailRelay.PlatformType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailRelay.PlatformType",
+      "QualifiedApiName": "PlatformType",
+      "EntityDefinitionId": "EmailRelay",
+      "NamespacePrefix": null,
+      "DeveloperName": "PlatformType",
+      "MasterLabel": "プラットフォーム種別",
+      "Label": "プラットフォーム種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/EmailRelay.Port"
       },
       "Id": "000000000000000AAA",
       "DurableId": "EmailRelay.Port",
@@ -237,7 +321,70 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/EmailRelay.SystemModstamp"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/EmailRelay.Reason"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailRelay.Reason",
+      "QualifiedApiName": "Reason",
+      "EntityDefinitionId": "EmailRelay",
+      "NamespacePrefix": null,
+      "DeveloperName": "Reason",
+      "MasterLabel": "理由",
+      "Label": "理由",
+      "DataType": "ロングテキストエリア(1000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/EmailRelay.RelayHealth"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailRelay.RelayHealth",
+      "QualifiedApiName": "RelayHealth",
+      "EntityDefinitionId": "EmailRelay",
+      "NamespacePrefix": null,
+      "DeveloperName": "RelayHealth",
+      "MasterLabel": "リレーの状態",
+      "Label": "リレーの状態",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/EmailRelay.SpfUpdateElement"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailRelay.SpfUpdateElement",
+      "QualifiedApiName": "SpfUpdateElement",
+      "EntityDefinitionId": "EmailRelay",
+      "NamespacePrefix": null,
+      "DeveloperName": "SpfUpdateElement",
+      "MasterLabel": "SPF 更新要素",
+      "Label": "SPF 更新要素",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/EmailRelay.SystemModstamp"
       },
       "Id": "000000000000000AAA",
       "DurableId": "EmailRelay.SystemModstamp",
@@ -258,7 +405,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/EmailRelay.TlsSetting"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/EmailRelay.TlsSetting"
       },
       "Id": "000000000000000AAA",
       "DurableId": "EmailRelay.TlsSetting",
@@ -279,7 +426,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/EmailRelay.Username"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/EmailRelay.Username"
       },
       "Id": "000000000000000AAA",
       "DurableId": "EmailRelay.Username",

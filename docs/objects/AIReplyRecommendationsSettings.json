@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-06T10:41:58.308Z",
+  "fetchedAt": "2026-10-13T10:58:52.931Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 11,
+  "totalSize": 14,
   "records": [
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AIReplyRecommendationsSettings.ExternalId"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AIReplyRecommendationsSettings.ExternalId"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AIReplyRecommendationsSettings.ExternalId",
@@ -27,7 +27,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AIReplyRecommendationsSettings.FullName"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AIReplyRecommendationsSettings.FullName"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AIReplyRecommendationsSettings.FullName",
@@ -48,7 +48,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AIReplyRecommendationsSettings.HideSrPostButton"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AIReplyRecommendationsSettings.HideSrPostButton"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AIReplyRecommendationsSettings.HideSrPostButton",
@@ -69,7 +69,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AIReplyRecommendationsSettings.Id"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AIReplyRecommendationsSettings.Id"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AIReplyRecommendationsSettings.Id",
@@ -90,7 +90,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AIReplyRecommendationsSettings.IsAiReplyRecommendationsEnabled"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AIReplyRecommendationsSettings.IsAiReplyRecommendationsEnabled"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AIReplyRecommendationsSettings.IsAiReplyRecommendationsEnabled",
@@ -111,7 +111,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AIReplyRecommendationsSettings.IsGenReplyRecommendationsEnabled"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AIReplyRecommendationsSettings.IsGenReplyRecommendationsEnabled"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AIReplyRecommendationsSettings.IsGenReplyRecommendationsEnabled",
@@ -132,7 +132,49 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AIReplyRecommendationsSettings.IsServiceEinsteinGptGroundingEnabled"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AIReplyRecommendationsSettings.IsMultiIntentForSrEnabled"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIReplyRecommendationsSettings.IsMultiIntentForSrEnabled",
+      "QualifiedApiName": "IsMultiIntentForSrEnabled",
+      "EntityDefinitionId": "AIReplyRecommendationsSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsMultiIntentForSrEnabled",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val IsMultiIntentForSrEnabled not found in section udd_SettingsTemplate",
+      "Label": "__MISSING LABEL__ PropertyFile - val IsMultiIntentForSrEnabled not found in section udd_SettingsTemplate",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AIReplyRecommendationsSettings.IsProactiveServiceRepliesEnabled"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIReplyRecommendationsSettings.IsProactiveServiceRepliesEnabled",
+      "QualifiedApiName": "IsProactiveServiceRepliesEnabled",
+      "EntityDefinitionId": "AIReplyRecommendationsSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsProactiveServiceRepliesEnabled",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val IsProactiveServiceRepliesEnabled not found in section udd_SettingsTemplate",
+      "Label": "__MISSING LABEL__ PropertyFile - val IsProactiveServiceRepliesEnabled not found in section udd_SettingsTemplate",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AIReplyRecommendationsSettings.IsServiceEinsteinGptGroundingEnabled"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AIReplyRecommendationsSettings.IsServiceEinsteinGptGroundingEnabled",
@@ -153,7 +195,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AIReplyRecommendationsSettings.IsServiceRepliesAutoTranslateEnabled"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AIReplyRecommendationsSettings.IsServiceRepliesAutoTranslateEnabled"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AIReplyRecommendationsSettings.IsServiceRepliesAutoTranslateEnabled",
@@ -174,7 +216,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AIReplyRecommendationsSettings.IsServiceRepliesCapabilityForSaEnabled"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AIReplyRecommendationsSettings.IsServiceRepliesCapabilityForSaEnabled"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AIReplyRecommendationsSettings.IsServiceRepliesCapabilityForSaEnabled",
@@ -195,7 +237,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AIReplyRecommendationsSettings.IsServiceRepliesPauseEnabled"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AIReplyRecommendationsSettings.IsServiceRepliesPauseEnabled"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AIReplyRecommendationsSettings.IsServiceRepliesPauseEnabled",
@@ -216,7 +258,28 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AIReplyRecommendationsSettings.Metadata"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AIReplyRecommendationsSettings.IsServiceRepliesVoiceForSaEnabled"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AIReplyRecommendationsSettings.IsServiceRepliesVoiceForSaEnabled",
+      "QualifiedApiName": "IsServiceRepliesVoiceForSaEnabled",
+      "EntityDefinitionId": "AIReplyRecommendationsSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsServiceRepliesVoiceForSaEnabled",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val IsServiceRepliesVoiceForSaEnabled not found in section udd_SettingsTemplate",
+      "Label": "__MISSING LABEL__ PropertyFile - val IsServiceRepliesVoiceForSaEnabled not found in section udd_SettingsTemplate",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AIReplyRecommendationsSettings.Metadata"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AIReplyRecommendationsSettings.Metadata",

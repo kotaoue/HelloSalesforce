@@ -1,0 +1,238 @@
+{
+  "fetchedAt": "2026-10-13T10:58:52.931Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 11,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiTestCaseDef.AiTestConvCriteriaDef"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiTestCaseDef.AiTestConvCriteriaDef",
+      "QualifiedApiName": "AiTestConvCriteriaDefId",
+      "EntityDefinitionId": "AiTestCaseDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "AiTestConvCriteriaDef",
+      "MasterLabel": "AI テスト会話条件定義",
+      "Label": "AI テスト会話条件定義",
+      "DataType": "参照関係(AI テスト会話条件定義)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiTestCaseDef.AiTestSuiteVersionDef"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiTestCaseDef.AiTestSuiteVersionDef",
+      "QualifiedApiName": "AiTestSuiteVersionDefId",
+      "EntityDefinitionId": "AiTestCaseDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "AiTestSuiteVersionDef",
+      "MasterLabel": "AI テストスイートバージョン定義",
+      "Label": "AI テストスイートバージョン定義",
+      "DataType": "主従関係(AI テストスイートバージョン定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiTestCaseDef.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiTestCaseDef.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AiTestCaseDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiTestCaseDef.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiTestCaseDef.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AiTestCaseDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiTestCaseDef.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiTestCaseDef.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AiTestCaseDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "AiTestCaseDef ID",
+      "Label": "AiTestCaseDef ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiTestCaseDef.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiTestCaseDef.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AiTestCaseDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiTestCaseDef.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiTestCaseDef.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AiTestCaseDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiTestCaseDef.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiTestCaseDef.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AiTestCaseDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiTestCaseDef.Sequence"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiTestCaseDef.Sequence",
+      "QualifiedApiName": "Sequence",
+      "EntityDefinitionId": "AiTestCaseDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "Sequence",
+      "MasterLabel": "順序",
+      "Label": "順序",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiTestCaseDef.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiTestCaseDef.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AiTestCaseDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiTestCaseDef.TestCaseDetail"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiTestCaseDef.TestCaseDetail",
+      "QualifiedApiName": "TestCaseDetail",
+      "EntityDefinitionId": "AiTestCaseDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "TestCaseDetail",
+      "MasterLabel": "テストケースの詳細",
+      "Label": "テストケースの詳細",
+      "DataType": "ロングテキストエリア(16384)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

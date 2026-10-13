@@ -1,12 +1,33 @@
 {
-  "fetchedAt": "2026-10-06T10:41:58.308Z",
+  "fetchedAt": "2026-10-13T10:58:52.931Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 17,
+  "totalSize": 23,
   "records": [
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.AnalyticsSampleUtterance"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.ActualResponse"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnlyAgntTstSteRunSmplUtt.ActualResponse",
+      "QualifiedApiName": "ActualResponse",
+      "EntityDefinitionId": "AnlyAgntTstSteRunSmplUtt",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActualResponse",
+      "MasterLabel": "Full agent response for comparison with expected",
+      "Label": "Full agent response for comparison with expected",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.AnalyticsSampleUtterance"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AnlyAgntTstSteRunSmplUtt.AnalyticsSampleUtterance",
@@ -27,7 +48,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.CreatedBy"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.CreatedBy"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AnlyAgntTstSteRunSmplUtt.CreatedBy",
@@ -48,7 +69,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.CreatedDate"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.CreatedDate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AnlyAgntTstSteRunSmplUtt.CreatedDate",
@@ -69,7 +90,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.DeveloperName"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.DeveloperName"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AnlyAgntTstSteRunSmplUtt.DeveloperName",
@@ -90,7 +111,70 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.ExternalTestIdentifier"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.ErrorKind"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnlyAgntTstSteRunSmplUtt.ErrorKind",
+      "QualifiedApiName": "ErrorKind",
+      "EntityDefinitionId": "AnlyAgntTstSteRunSmplUtt",
+      "NamespacePrefix": null,
+      "DeveloperName": "ErrorKind",
+      "MasterLabel": "Error classification",
+      "Label": "Error classification",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.EvalExplanation"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnlyAgntTstSteRunSmplUtt.EvalExplanation",
+      "QualifiedApiName": "EvalExplanation",
+      "EntityDefinitionId": "AnlyAgntTstSteRunSmplUtt",
+      "NamespacePrefix": null,
+      "DeveloperName": "EvalExplanation",
+      "MasterLabel": "Human-readable explanation of the evaluation outcome for a test case (pass or fail)",
+      "Label": "Human-readable explanation of the evaluation outcome for a test case (pass or fail)",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.ExecutedAt"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnlyAgntTstSteRunSmplUtt.ExecutedAt",
+      "QualifiedApiName": "ExecutedAt",
+      "EntityDefinitionId": "AnlyAgntTstSteRunSmplUtt",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExecutedAt",
+      "MasterLabel": "Timestamp when this test case was executed",
+      "Label": "Timestamp when this test case was executed",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.ExternalTestIdentifier"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AnlyAgntTstSteRunSmplUtt.ExternalTestIdentifier",
@@ -111,7 +195,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.Id"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.Id"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AnlyAgntTstSteRunSmplUtt.Id",
@@ -132,7 +216,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.IsDeleted"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.IsDeleted"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AnlyAgntTstSteRunSmplUtt.IsDeleted",
@@ -153,7 +237,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.Language"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.Language"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AnlyAgntTstSteRunSmplUtt.Language",
@@ -174,7 +258,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.LastModifiedBy"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.LastModifiedBy"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AnlyAgntTstSteRunSmplUtt.LastModifiedBy",
@@ -195,7 +279,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.LastModifiedDate"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.LastModifiedDate"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AnlyAgntTstSteRunSmplUtt.LastModifiedDate",
@@ -216,7 +300,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.ManageableState"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.ManageableState"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AnlyAgntTstSteRunSmplUtt.ManageableState",
@@ -237,7 +321,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.MasterLabel"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.MasterLabel"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AnlyAgntTstSteRunSmplUtt.MasterLabel",
@@ -258,7 +342,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.NamespacePrefix"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.NamespacePrefix"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AnlyAgntTstSteRunSmplUtt.NamespacePrefix",
@@ -279,7 +363,28 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.SemanticModelApiName"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.Score"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnlyAgntTstSteRunSmplUtt.Score",
+      "QualifiedApiName": "Score",
+      "EntityDefinitionId": "AnlyAgntTstSteRunSmplUtt",
+      "NamespacePrefix": null,
+      "DeveloperName": "Score",
+      "MasterLabel": "Similarity or quality score",
+      "Label": "Similarity or quality score",
+      "DataType": "数値(1、4)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.SemanticModelApiName"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AnlyAgntTstSteRunSmplUtt.SemanticModelApiName",
@@ -300,7 +405,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.SobjectType"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.SobjectType"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AnlyAgntTstSteRunSmplUtt.SobjectType",
@@ -321,7 +426,28 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.SystemModstamp"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AnlyAgntTstSteRunSmplUtt.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "AnlyAgntTstSteRunSmplUtt",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "Per-case execution status",
+      "Label": "Per-case execution status",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.SystemModstamp"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AnlyAgntTstSteRunSmplUtt.SystemModstamp",
@@ -342,7 +468,7 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v67.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.UserUtterance"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AnlyAgntTstSteRunSmplUtt.UserUtterance"
       },
       "Id": "000000000000000AAA",
       "DurableId": "AnlyAgntTstSteRunSmplUtt.UserUtterance",
@@ -352,13 +478,13 @@
       "DeveloperName": "UserUtterance",
       "MasterLabel": "The user's utterance",
       "Label": "The user's utterance",
-      "DataType": "テキスト(255)",
+      "DataType": "ロングテキストエリア(4000)",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,
-      "IsApiFilterable": true,
-      "IsApiGroupable": true,
-      "IsApiSortable": true
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
     }
   ]
 }

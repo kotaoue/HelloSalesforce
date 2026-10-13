@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-10-13T10:58:52.931Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/InsEmailRoutingAddress.AssignedTo"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsEmailRoutingAddress.AssignedTo",
+      "QualifiedApiName": "AssignedToId",
+      "EntityDefinitionId": "InsEmailRoutingAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "AssignedTo",
+      "MasterLabel": "割り当て先",
+      "Label": "割り当て先",
+      "DataType": "参照関係(グループ,ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/InsEmailRoutingAddress.AuthorizedSenders"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsEmailRoutingAddress.AuthorizedSenders",
+      "QualifiedApiName": "AuthorizedSenders",
+      "EntityDefinitionId": "InsEmailRoutingAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "AuthorizedSenders",
+      "MasterLabel": "承認済み送信者",
+      "Label": "承認済み送信者",
+      "DataType": "テキストエリア(1333)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/InsEmailRoutingAddress.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsEmailRoutingAddress.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "InsEmailRoutingAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/InsEmailRoutingAddress.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsEmailRoutingAddress.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "InsEmailRoutingAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/InsEmailRoutingAddress.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsEmailRoutingAddress.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "InsEmailRoutingAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/InsEmailRoutingAddress.EmailAddress"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsEmailRoutingAddress.EmailAddress",
+      "QualifiedApiName": "EmailAddress",
+      "EntityDefinitionId": "InsEmailRoutingAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "EmailAddress",
+      "MasterLabel": "メールアドレス",
+      "Label": "メールアドレス",
+      "DataType": "メール",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/InsEmailRoutingAddress.EmailServicesAddress"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsEmailRoutingAddress.EmailServicesAddress",
+      "QualifiedApiName": "EmailServicesAddressId",
+      "EntityDefinitionId": "InsEmailRoutingAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "EmailServicesAddress",
+      "MasterLabel": "メールサービスアドレス",
+      "Label": "メールサービスアドレス",
+      "DataType": "参照関係(メールサービスアドレス)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/InsEmailRoutingAddress.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsEmailRoutingAddress.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "InsEmailRoutingAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "保険メールルーティングアドレス ID",
+      "Label": "保険メールルーティングアドレス ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/InsEmailRoutingAddress.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsEmailRoutingAddress.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "InsEmailRoutingAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/InsEmailRoutingAddress.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsEmailRoutingAddress.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "InsEmailRoutingAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/InsEmailRoutingAddress.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsEmailRoutingAddress.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "InsEmailRoutingAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/InsEmailRoutingAddress.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsEmailRoutingAddress.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "InsEmailRoutingAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/InsEmailRoutingAddress.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsEmailRoutingAddress.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "InsEmailRoutingAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/InsEmailRoutingAddress.Origin"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsEmailRoutingAddress.Origin",
+      "QualifiedApiName": "Origin",
+      "EntityDefinitionId": "InsEmailRoutingAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "Origin",
+      "MasterLabel": "発生源",
+      "Label": "発生源",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/InsEmailRoutingAddress.Priority"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsEmailRoutingAddress.Priority",
+      "QualifiedApiName": "Priority",
+      "EntityDefinitionId": "InsEmailRoutingAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "Priority",
+      "MasterLabel": "優先度",
+      "Label": "優先度",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/InsEmailRoutingAddress.RoutingType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsEmailRoutingAddress.RoutingType",
+      "QualifiedApiName": "RoutingType",
+      "EntityDefinitionId": "InsEmailRoutingAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "RoutingType",
+      "MasterLabel": "ルーティング種別",
+      "Label": "ルーティング種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/InsEmailRoutingAddress.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "InsEmailRoutingAddress.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "InsEmailRoutingAddress",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

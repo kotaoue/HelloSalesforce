@@ -1,0 +1,364 @@
+{
+  "fetchedAt": "2026-10-13T10:58:52.931Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 17,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AsyncThirdPartyPaymentGatewayEvent.ClientContext"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncThirdPartyPaymentGatewayEvent.ClientContext",
+      "QualifiedApiName": "ClientContext",
+      "EntityDefinitionId": "AsyncThirdPartyPaymentGatewayEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ClientContext",
+      "MasterLabel": "支払いプラットフォームの呼び出し元のコンテキスト",
+      "Label": "支払いプラットフォームの呼び出し元のコンテキスト",
+      "DataType": "ロングテキストエリア(2000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AsyncThirdPartyPaymentGatewayEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncThirdPartyPaymentGatewayEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AsyncThirdPartyPaymentGatewayEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AsyncThirdPartyPaymentGatewayEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncThirdPartyPaymentGatewayEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AsyncThirdPartyPaymentGatewayEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AsyncThirdPartyPaymentGatewayEvent.EventUuid"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncThirdPartyPaymentGatewayEvent.EventUuid",
+      "QualifiedApiName": "EventUuid",
+      "EntityDefinitionId": "AsyncThirdPartyPaymentGatewayEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventUuid",
+      "MasterLabel": "イベント UUID",
+      "Label": "イベント UUID",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AsyncThirdPartyPaymentGatewayEvent.GatewayMessage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncThirdPartyPaymentGatewayEvent.GatewayMessage",
+      "QualifiedApiName": "GatewayMessage",
+      "EntityDefinitionId": "AsyncThirdPartyPaymentGatewayEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "GatewayMessage",
+      "MasterLabel": "ゲートウェイの生のメッセージ。トランザクションが失敗した場合はエラーメッセージ",
+      "Label": "ゲートウェイの生のメッセージ。トランザクションが失敗した場合はエラーメッセージ",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AsyncThirdPartyPaymentGatewayEvent.GatewayReferenceDetails"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncThirdPartyPaymentGatewayEvent.GatewayReferenceDetails",
+      "QualifiedApiName": "GatewayReferenceDetails",
+      "EntityDefinitionId": "AsyncThirdPartyPaymentGatewayEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "GatewayReferenceDetails",
+      "MasterLabel": "追加のゲートウェイ参照詳細",
+      "Label": "追加のゲートウェイ参照詳細",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AsyncThirdPartyPaymentGatewayEvent.GatewayReferenceNumber"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncThirdPartyPaymentGatewayEvent.GatewayReferenceNumber",
+      "QualifiedApiName": "GatewayReferenceNumber",
+      "EntityDefinitionId": "AsyncThirdPartyPaymentGatewayEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "GatewayReferenceNumber",
+      "MasterLabel": "冪等性および重複検出に使用するゲートウェイトランザクション参照",
+      "Label": "冪等性および重複検出に使用するゲートウェイトランザクション参照",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AsyncThirdPartyPaymentGatewayEvent.GatewayResultCode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncThirdPartyPaymentGatewayEvent.GatewayResultCode",
+      "QualifiedApiName": "GatewayResultCode",
+      "EntityDefinitionId": "AsyncThirdPartyPaymentGatewayEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "GatewayResultCode",
+      "MasterLabel": "ゲートウェイの生の結果コード。トランザクションが失敗した場合はエラーコード",
+      "Label": "ゲートウェイの生の結果コード。トランザクションが失敗した場合はエラーコード",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AsyncThirdPartyPaymentGatewayEvent.NotificationStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncThirdPartyPaymentGatewayEvent.NotificationStatus",
+      "QualifiedApiName": "NotificationStatus",
+      "EntityDefinitionId": "AsyncThirdPartyPaymentGatewayEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "NotificationStatus",
+      "MasterLabel": "非同期更新によって到達した通知状況 (Success または Failed)",
+      "Label": "非同期更新によって到達した通知状況 (Success または Failed)",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AsyncThirdPartyPaymentGatewayEvent.Payment"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncThirdPartyPaymentGatewayEvent.Payment",
+      "QualifiedApiName": "PaymentId",
+      "EntityDefinitionId": "AsyncThirdPartyPaymentGatewayEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Payment",
+      "MasterLabel": "支払",
+      "Label": "支払",
+      "DataType": "参照関係(支払い)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AsyncThirdPartyPaymentGatewayEvent.PaymentAuthorization"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncThirdPartyPaymentGatewayEvent.PaymentAuthorization",
+      "QualifiedApiName": "PaymentAuthorizationId",
+      "EntityDefinitionId": "AsyncThirdPartyPaymentGatewayEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "PaymentAuthorization",
+      "MasterLabel": "支払承認",
+      "Label": "支払承認",
+      "DataType": "参照関係(支払承認)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AsyncThirdPartyPaymentGatewayEvent.Refund"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncThirdPartyPaymentGatewayEvent.Refund",
+      "QualifiedApiName": "RefundId",
+      "EntityDefinitionId": "AsyncThirdPartyPaymentGatewayEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Refund",
+      "MasterLabel": "返金",
+      "Label": "返金",
+      "DataType": "参照関係(返金)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AsyncThirdPartyPaymentGatewayEvent.ReplayId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncThirdPartyPaymentGatewayEvent.ReplayId",
+      "QualifiedApiName": "ReplayId",
+      "EntityDefinitionId": "AsyncThirdPartyPaymentGatewayEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReplayId",
+      "MasterLabel": "再実行 ID",
+      "Label": "再実行 ID",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AsyncThirdPartyPaymentGatewayEvent.RetryCategory"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncThirdPartyPaymentGatewayEvent.RetryCategory",
+      "QualifiedApiName": "RetryCategory",
+      "EntityDefinitionId": "AsyncThirdPartyPaymentGatewayEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "RetryCategory",
+      "MasterLabel": "分類済み再試行カテゴリ",
+      "Label": "分類済み再試行カテゴリ",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AsyncThirdPartyPaymentGatewayEvent.RetryDecision"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncThirdPartyPaymentGatewayEvent.RetryDecision",
+      "QualifiedApiName": "RetryDecision",
+      "EntityDefinitionId": "AsyncThirdPartyPaymentGatewayEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "RetryDecision",
+      "MasterLabel": "分類済み再試行決定 (再試行可能、再試行不可能)",
+      "Label": "分類済み再試行決定 (再試行可能、再試行不可能)",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AsyncThirdPartyPaymentGatewayEvent.SalesforceResultCode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncThirdPartyPaymentGatewayEvent.SalesforceResultCode",
+      "QualifiedApiName": "SalesforceResultCode",
+      "EntityDefinitionId": "AsyncThirdPartyPaymentGatewayEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "SalesforceResultCode",
+      "MasterLabel": "分類済み結果コード",
+      "Label": "分類済み結果コード",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AsyncThirdPartyPaymentGatewayEvent.TransactionType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncThirdPartyPaymentGatewayEvent.TransactionType",
+      "QualifiedApiName": "TransactionType",
+      "EntityDefinitionId": "AsyncThirdPartyPaymentGatewayEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "TransactionType",
+      "MasterLabel": "非同期トランザクションの種別 (Sale、Auth、Capture、Referenced Refund、Unreferenced Refund)",
+      "Label": "非同期トランザクションの種別 (Sale、Auth、Capture、Referenced Refund、Unreferenced Refund)",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

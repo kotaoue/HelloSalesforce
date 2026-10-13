@@ -1,0 +1,196 @@
+{
+  "fetchedAt": "2026-10-13T10:58:52.931Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 9,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/FlowOrchestrationWorkItemEvent.Assignee"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationWorkItemEvent.Assignee",
+      "QualifiedApiName": "Assignee",
+      "EntityDefinitionId": "FlowOrchestrationWorkItemEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Assignee",
+      "MasterLabel": "割り当て先 ID",
+      "Label": "割り当て先 ID",
+      "DataType": "テキスト(18)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/FlowOrchestrationWorkItemEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationWorkItemEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "FlowOrchestrationWorkItemEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/FlowOrchestrationWorkItemEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationWorkItemEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "FlowOrchestrationWorkItemEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/FlowOrchestrationWorkItemEvent.EventUuid"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationWorkItemEvent.EventUuid",
+      "QualifiedApiName": "EventUuid",
+      "EntityDefinitionId": "FlowOrchestrationWorkItemEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventUuid",
+      "MasterLabel": "イベント UUID",
+      "Label": "イベント UUID",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/FlowOrchestrationWorkItemEvent.OrchestrationInstance"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationWorkItemEvent.OrchestrationInstance",
+      "QualifiedApiName": "OrchestrationInstance",
+      "EntityDefinitionId": "FlowOrchestrationWorkItemEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "OrchestrationInstance",
+      "MasterLabel": "オーケストレーションインスタンス ID",
+      "Label": "オーケストレーションインスタンス ID",
+      "DataType": "テキスト(18)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/FlowOrchestrationWorkItemEvent.RelatedRecord"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationWorkItemEvent.RelatedRecord",
+      "QualifiedApiName": "RelatedRecord",
+      "EntityDefinitionId": "FlowOrchestrationWorkItemEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "RelatedRecord",
+      "MasterLabel": "関連レコード ID",
+      "Label": "関連レコード ID",
+      "DataType": "テキスト(18)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/FlowOrchestrationWorkItemEvent.ReplayId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationWorkItemEvent.ReplayId",
+      "QualifiedApiName": "ReplayId",
+      "EntityDefinitionId": "FlowOrchestrationWorkItemEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReplayId",
+      "MasterLabel": "再実行 ID",
+      "Label": "再実行 ID",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/FlowOrchestrationWorkItemEvent.Type"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationWorkItemEvent.Type",
+      "QualifiedApiName": "Type",
+      "EntityDefinitionId": "FlowOrchestrationWorkItemEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Type",
+      "MasterLabel": "種別",
+      "Label": "種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/FlowOrchestrationWorkItemEvent.WorkItem"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "FlowOrchestrationWorkItemEvent.WorkItem",
+      "QualifiedApiName": "WorkItem",
+      "EntityDefinitionId": "FlowOrchestrationWorkItemEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "WorkItem",
+      "MasterLabel": "作業項目 ID",
+      "Label": "作業項目 ID",
+      "DataType": "テキスト(18)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

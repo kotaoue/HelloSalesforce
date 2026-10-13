@@ -1,0 +1,427 @@
+{
+  "fetchedAt": "2026-10-13T10:58:52.931Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 20,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteGroupExec.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteGroupExec.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DevopsTestSuiteGroupExec",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteGroupExec.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteGroupExec.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DevopsTestSuiteGroupExec",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteGroupExec.DevopsPipelineStageTrigger"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteGroupExec.DevopsPipelineStageTrigger",
+      "QualifiedApiName": "DevopsPipelineStageTriggerId",
+      "EntityDefinitionId": "DevopsTestSuiteGroupExec",
+      "NamespacePrefix": null,
+      "DeveloperName": "DevopsPipelineStageTrigger",
+      "MasterLabel": "パイプラインフェーズトリガー",
+      "Label": "パイプラインフェーズトリガー",
+      "DataType": "参照関係(パイプラインフェーズトリガー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteGroupExec.ExecutionEndTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteGroupExec.ExecutionEndTime",
+      "QualifiedApiName": "ExecutionEndTime",
+      "EntityDefinitionId": "DevopsTestSuiteGroupExec",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExecutionEndTime",
+      "MasterLabel": "実行終了時刻",
+      "Label": "実行終了時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteGroupExec.ExecutionStartTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteGroupExec.ExecutionStartTime",
+      "QualifiedApiName": "ExecutionStartTime",
+      "EntityDefinitionId": "DevopsTestSuiteGroupExec",
+      "NamespacePrefix": null,
+      "DeveloperName": "ExecutionStartTime",
+      "MasterLabel": "実行開始時刻",
+      "Label": "実行開始時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteGroupExec.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteGroupExec.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "DevopsTestSuiteGroupExec",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "テストスイートグループ実行 ID",
+      "Label": "テストスイートグループ実行 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteGroupExec.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteGroupExec.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "DevopsTestSuiteGroupExec",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteGroupExec.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteGroupExec.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DevopsTestSuiteGroupExec",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteGroupExec.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteGroupExec.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DevopsTestSuiteGroupExec",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteGroupExec.LastReferencedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteGroupExec.LastReferencedDate",
+      "QualifiedApiName": "LastReferencedDate",
+      "EntityDefinitionId": "DevopsTestSuiteGroupExec",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastReferencedDate",
+      "MasterLabel": "最終参照日",
+      "Label": "最終参照日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteGroupExec.LastViewedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteGroupExec.LastViewedDate",
+      "QualifiedApiName": "LastViewedDate",
+      "EntityDefinitionId": "DevopsTestSuiteGroupExec",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastViewedDate",
+      "MasterLabel": "最終閲覧日",
+      "Label": "最終閲覧日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteGroupExec.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteGroupExec.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "DevopsTestSuiteGroupExec",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteGroupExec.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteGroupExec.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "DevopsTestSuiteGroupExec",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者 氏名",
+      "Label": "所有者 氏名",
+      "DataType": "参照関係(ユーザー,グループ)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteGroupExec.PendingExecutionCount"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteGroupExec.PendingExecutionCount",
+      "QualifiedApiName": "PendingExecutionCount",
+      "EntityDefinitionId": "DevopsTestSuiteGroupExec",
+      "NamespacePrefix": null,
+      "DeveloperName": "PendingExecutionCount",
+      "MasterLabel": "保留中の実行数",
+      "Label": "保留中の実行数",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteGroupExec.QualityGateStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteGroupExec.QualityGateStatus",
+      "QualifiedApiName": "QualityGateStatus",
+      "EntityDefinitionId": "DevopsTestSuiteGroupExec",
+      "NamespacePrefix": null,
+      "DeveloperName": "QualityGateStatus",
+      "MasterLabel": "品質ゲート状況",
+      "Label": "品質ゲート状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteGroupExec.RecordVisibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteGroupExec.RecordVisibility",
+      "QualifiedApiName": "RecordVisibilityId",
+      "EntityDefinitionId": "DevopsTestSuiteGroupExec",
+      "NamespacePrefix": null,
+      "DeveloperName": "RecordVisibility",
+      "MasterLabel": "レコードの表示",
+      "Label": "レコードの表示",
+      "DataType": "参照関係(レコードの表示)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteGroupExec.RequestInfo"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteGroupExec.RequestInfo",
+      "QualifiedApiName": "RequestInfoId",
+      "EntityDefinitionId": "DevopsTestSuiteGroupExec",
+      "NamespacePrefix": null,
+      "DeveloperName": "RequestInfo",
+      "MasterLabel": "要求情報",
+      "Label": "要求情報",
+      "DataType": "参照関係(要求情報)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteGroupExec.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteGroupExec.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "DevopsTestSuiteGroupExec",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteGroupExec.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteGroupExec.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "DevopsTestSuiteGroupExec",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DevopsTestSuiteGroupExec.UserRecordAccess"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DevopsTestSuiteGroupExec.UserRecordAccess",
+      "QualifiedApiName": "UserRecordAccessId",
+      "EntityDefinitionId": "DevopsTestSuiteGroupExec",
+      "NamespacePrefix": null,
+      "DeveloperName": "UserRecordAccess",
+      "MasterLabel": "オブジェクトアクセスレベル",
+      "Label": "オブジェクトアクセスレベル",
+      "DataType": "参照関係(ユーザーレコードアクセス)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}
