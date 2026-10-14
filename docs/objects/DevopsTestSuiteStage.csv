@@ -1,0 +1,18 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DevopsTestSuiteStage.CreatedBy,CreatedById,DevopsTestSuiteStage,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,DevopsTestSuiteStage.CreatedDate,CreatedDate,DevopsTestSuiteStage,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DevopsTestSuiteStage.DevopsPipelineStageTrigger,DevopsPipelineStageTriggerId,DevopsTestSuiteStage,,DevopsPipelineStageTrigger,パイプラインフェーズトリガー,パイプラインフェーズトリガー,参照関係(パイプラインフェーズトリガー),false,false,true,true,true,true
+000000000000000AAA,DevopsTestSuiteStage.DevopsQualityGate,DevopsQualityGateId,DevopsTestSuiteStage,,DevopsQualityGate,品質ゲート,品質ゲート,参照関係(品質ゲート),false,true,false,true,true,true
+000000000000000AAA,DevopsTestSuiteStage.Id,Id,DevopsTestSuiteStage,,Id,テストスイートフェーズ ID,テストスイートフェーズ ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DevopsTestSuiteStage.IsDeleted,IsDeleted,DevopsTestSuiteStage,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DevopsTestSuiteStage.IsQualityGateEnabled,IsQualityGateEnabled,DevopsTestSuiteStage,,IsQualityGateEnabled,品質ゲート有効,品質ゲート有効,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DevopsTestSuiteStage.LastModifiedBy,LastModifiedById,DevopsTestSuiteStage,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DevopsTestSuiteStage.LastModifiedDate,LastModifiedDate,DevopsTestSuiteStage,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DevopsTestSuiteStage.LastReferencedDate,LastReferencedDate,DevopsTestSuiteStage,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DevopsTestSuiteStage.LastViewedDate,LastViewedDate,DevopsTestSuiteStage,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DevopsTestSuiteStage.Name,Name,DevopsTestSuiteStage,,Name,名前,名前,自動採番,false,false,true,true,false,true
+000000000000000AAA,DevopsTestSuiteStage.Owner,OwnerId,DevopsTestSuiteStage,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,DevopsTestSuiteStage.RecordVisibility,RecordVisibilityId,DevopsTestSuiteStage,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,DevopsTestSuiteStage.SystemModstamp,SystemModstamp,DevopsTestSuiteStage,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DevopsTestSuiteStage.TestSuite,TestSuiteId,DevopsTestSuiteStage,,TestSuite,テストスイート,テストスイート,参照関係(テストスイート),false,false,false,true,true,true
+000000000000000AAA,DevopsTestSuiteStage.UserRecordAccess,UserRecordAccessId,DevopsTestSuiteStage,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

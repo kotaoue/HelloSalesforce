@@ -13,6 +13,7 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,FileBasedDataImport.OperationType,OperationType,FileBasedDataImport,,OperationType,ファイルベースのデータインポート操作種別,ファイルベースのデータインポート操作種別,選択リスト,false,true,false,true,true,true
 000000000000000AAA,FileBasedDataImport.Owner,OwnerId,FileBasedDataImport,,Owner,ファイルベースのデータインポート所有者,ファイルベースのデータインポート所有者,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
 000000000000000AAA,FileBasedDataImport.ParentJobDataImport,ParentJobDataImportId,FileBasedDataImport,,ParentJobDataImport,親のファイルベースのデータインポート,親のファイルベースのデータインポート,参照関係(ファイルベースのデータインポート),false,true,false,true,true,true
+000000000000000AAA,FileBasedDataImport.ParentTargetContextRefRec,ParentTargetContextRefRecId,FileBasedDataImport,,ParentTargetContextRefRec,親対象コンテキスト参照レコード,親対象コンテキスト参照レコード,参照関係(商談),false,true,false,true,true,true
 000000000000000AAA,FileBasedDataImport.RecordVisibility,RecordVisibilityId,FileBasedDataImport,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
 000000000000000AAA,FileBasedDataImport.RequestOrigin,RequestOrigin,FileBasedDataImport,,RequestOrigin,要求元,要求元,テキスト(225),false,true,false,true,true,true
 000000000000000AAA,FileBasedDataImport.RuntimeAttributeConfig,RuntimeAttributeConfig,FileBasedDataImport,,RuntimeAttributeConfig,ランタイム属性設定,ランタイム属性設定,ロングテキストエリア(32000),false,true,false,false,false,false

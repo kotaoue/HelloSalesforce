@@ -14,10 +14,12 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,EmbeddedMessagingChannel.IsDeleted,IsDeleted,EmbeddedMessagingChannel,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
 000000000000000AAA,EmbeddedMessagingChannel.IsEstimatedWaitTimeEnabled,IsEstimatedWaitTimeEnabled,EmbeddedMessagingChannel,,IsEstimatedWaitTimeEnabled,予想待機時間が有効,予想待機時間が有効,チェックボックス,false,false,false,true,true,true
 000000000000000AAA,EmbeddedMessagingChannel.IsFallbackMessageEnabled,IsFallbackMessageEnabled,EmbeddedMessagingChannel,,IsFallbackMessageEnabled,フォールバックメッセージが有効,フォールバックメッセージが有効,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,EmbeddedMessagingChannel.IsFileTransferRepInitiated,IsFileTransferRepInitiated,EmbeddedMessagingChannel,,IsFileTransferRepInitiated,担当者によるファイル転送開始,担当者によるファイル転送開始,チェックボックス,false,false,false,true,true,true
 000000000000000AAA,EmbeddedMessagingChannel.LastModifiedBy,LastModifiedById,EmbeddedMessagingChannel,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
 000000000000000AAA,EmbeddedMessagingChannel.LastModifiedDate,LastModifiedDate,EmbeddedMessagingChannel,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
 000000000000000AAA,EmbeddedMessagingChannel.MaxFileSize,MaxFileSize,EmbeddedMessagingChannel,,MaxFileSize,最大ファイルサイズ,最大ファイルサイズ,数値(9、0),false,true,false,true,true,true
 000000000000000AAA,EmbeddedMessagingChannel.MessagingChannel,MessagingChannelId,EmbeddedMessagingChannel,,MessagingChannel,メッセージングチャネル,メッセージングチャネル,主従関係(メッセージングチャネル)  (ユニーク),false,false,true,true,true,true
+000000000000000AAA,EmbeddedMessagingChannel.OfflineFormFlow,OfflineFormFlowId,EmbeddedMessagingChannel,,OfflineFormFlow,オフラインフォームフロー,オフラインフォームフロー,参照関係(フロー定義),false,true,false,true,true,true
 000000000000000AAA,EmbeddedMessagingChannel.QueueLimitType,QueueLimitType,EmbeddedMessagingChannel,,QueueLimitType,キュー制限種別,キュー制限種別,選択リスト,false,true,false,true,true,true
 000000000000000AAA,EmbeddedMessagingChannel.QueueThreshold,QueueThreshold,EmbeddedMessagingChannel,,QueueThreshold,キューしきい値,キューしきい値,数値(9、0),false,true,false,true,true,true
 000000000000000AAA,EmbeddedMessagingChannel.SystemModstamp,SystemModstamp,EmbeddedMessagingChannel,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

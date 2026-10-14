@@ -3,6 +3,9 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,Actor.CreatedDate,CreatedDate,Actor,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
 000000000000000AAA,Actor.EncodedBehavior,EncodedBehavior,Actor,,EncodedBehavior,Encoded Behavior,Encoded Behavior,ロングテキストエリア(131072),false,false,false,false,false,false
 000000000000000AAA,Actor.EncodedContextState,EncodedContextState,Actor,,EncodedContextState,Encoded Context State,Encoded Context State,テキスト(1024),false,true,false,true,false,true
+000000000000000AAA,Actor.ExtensionRcContext,ExtensionRcContext,Actor,,ExtensionRcContext,Extension RC Context,Extension RC Context,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,Actor.ExtensionRcContextPath,ExtensionRcContextPath,Actor,,ExtensionRcContextPath,Extension RC Context Path,Extension RC Context Path,テキスト(255),false,true,true,true,true,true
+000000000000000AAA,Actor.ExtensionRcScope,ExtensionRcScope,Actor,,ExtensionRcScope,Extension RC Scope,Extension RC Scope,テキスト(255),false,true,false,true,true,true
 000000000000000AAA,Actor.Id,Id,Actor,,Id,Actor Id,Actor Id,参照関係(),false,false,true,true,true,true
 000000000000000AAA,Actor.IsDeleted,IsDeleted,Actor,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
 000000000000000AAA,Actor.IsStopped,IsStopped,Actor,,IsStopped,Actor Stopped,Actor Stopped,チェックボックス,false,false,false,true,true,true

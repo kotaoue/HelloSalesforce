@@ -10,6 +10,7 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,CreditMemo.CreatedDate,CreatedDate,CreditMemo,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
 000000000000000AAA,CreditMemo.CreationMode,CreationMode,CreditMemo,,CreationMode,作成モード,作成モード,選択リスト,false,true,false,true,true,true
 000000000000000AAA,CreditMemo.CreditDate,CreditDate,CreditMemo,,CreditDate,クレジット日,クレジット日,日付,false,true,false,true,true,true
+000000000000000AAA,CreditMemo.CreditMemoLockedDateTime,CreditMemoLockedDateTime,CreditMemo,,CreditMemoLockedDateTime,クレジットメモロック日時,クレジットメモロック日時,日付/時間,false,true,false,true,false,true
 000000000000000AAA,CreditMemo.CreditMemoNumber,CreditMemoNumber,CreditMemo,,CreditMemoNumber,クレジットメモ番号,クレジットメモ番号,テキスト(255)  (ユニーク、大文字と小文字を区別する),false,true,true,true,true,true
 000000000000000AAA,CreditMemo.Description,Description,CreditMemo,,Description,説明,説明,テキスト(255),false,true,false,true,true,true
 000000000000000AAA,CreditMemo.ExternalReference,ExternalReference,CreditMemo,,ExternalReference,外部参照,外部参照,テキスト(255),false,true,false,true,true,true
@@ -18,6 +19,7 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,CreditMemo.FunctionalCurrencyCvsnDate,FunctionalCurrencyCvsnDate,CreditMemo,,FunctionalCurrencyCvsnDate,機能通貨換算日,機能通貨換算日,日付,false,true,false,true,true,true
 000000000000000AAA,CreditMemo.FunctionalCurrencyCvsnRate,FunctionalCurrencyCvsnRate,CreditMemo,,FunctionalCurrencyCvsnRate,機能通貨換算レート,機能通貨換算レート,数値(8、10),false,true,false,true,false,true
 000000000000000AAA,CreditMemo.Id,Id,CreditMemo,,Id,クレジットメモ,クレジットメモ,参照関係(),false,false,true,true,true,true
+000000000000000AAA,CreditMemo.IsCreditMemoLocked,IsCreditMemoLocked,CreditMemo,,IsCreditMemoLocked,クレジットメモロック済み,クレジットメモロック済み,チェックボックス,false,false,false,true,true,true
 000000000000000AAA,CreditMemo.IsDeleted,IsDeleted,CreditMemo,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
 000000000000000AAA,CreditMemo.LastModifiedBy,LastModifiedById,CreditMemo,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
 000000000000000AAA,CreditMemo.LastModifiedDate,LastModifiedDate,CreditMemo,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
@@ -25,6 +27,7 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,CreditMemo.LastViewedDate,LastViewedDate,CreditMemo,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
 000000000000000AAA,CreditMemo.Name,DocumentNumber,CreditMemo,,Name,ドキュメント番号,ドキュメント番号,自動採番,false,false,true,true,false,true
 000000000000000AAA,CreditMemo.NetCreditsApplied,NetCreditsApplied,CreditMemo,,NetCreditsApplied,正価クレジット適用済み,正価クレジット適用済み,数式 (通貨),true,true,false,true,false,true
+000000000000000AAA,CreditMemo.NetRefundsApplied,NetRefundsApplied,CreditMemo,,NetRefundsApplied,適用返金正価,適用返金正価,数式 (通貨),true,true,false,true,false,true
 000000000000000AAA,CreditMemo.Owner,OwnerId,CreditMemo,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
 000000000000000AAA,CreditMemo.ReasonCode,ReasonCode,CreditMemo,,ReasonCode,理由コード,理由コード,選択リスト,false,true,false,true,true,true
 000000000000000AAA,CreditMemo.RecordVisibility,RecordVisibilityId,CreditMemo,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true

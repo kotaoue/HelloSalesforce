@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DevopsPipelineEnvironmentHistory.CreatedBy,CreatedById,DevopsPipelineEnvironmentHistory,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,DevopsPipelineEnvironmentHistory.CreatedDate,CreatedDate,DevopsPipelineEnvironmentHistory,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DevopsPipelineEnvironmentHistory.DataType,DataType,DevopsPipelineEnvironmentHistory,,DataType,データ型,データ型,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DevopsPipelineEnvironmentHistory.DevopsPipelineEnvironment,DevopsPipelineEnvironmentId,DevopsPipelineEnvironmentHistory,,DevopsPipelineEnvironment,DevOps パイプライン環境,DevOps パイプライン環境,参照関係(DevOps パイプライン環境),false,false,true,true,true,true
+000000000000000AAA,DevopsPipelineEnvironmentHistory.Field,Field,DevopsPipelineEnvironmentHistory,,Field,変更された項目,変更された項目,"選択リスト(Custom Field Definitions,カスタム項目データ列)",false,false,true,true,true,true
+000000000000000AAA,DevopsPipelineEnvironmentHistory.Id,Id,DevopsPipelineEnvironmentHistory,,Id,DevOps パイプライン環境履歴 ID,DevOps パイプライン環境履歴 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DevopsPipelineEnvironmentHistory.IsDeleted,IsDeleted,DevopsPipelineEnvironmentHistory,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DevopsPipelineEnvironmentHistory.NewvalDate,NewvalDate,DevopsPipelineEnvironmentHistory,,NewvalDate,新規の日付,新規の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DevopsPipelineEnvironmentHistory.NewvalFirstName,NewvalFirstName,DevopsPipelineEnvironmentHistory,,NewvalFirstName,新規の名,新規の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DevopsPipelineEnvironmentHistory.NewvalLastName,NewvalLastName,DevopsPipelineEnvironmentHistory,,NewvalLastName,新規の姓,新規の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DevopsPipelineEnvironmentHistory.NewValue,NewValue,DevopsPipelineEnvironmentHistory,,NewValue,新しい値,新しい値,参照関係,false,true,false,false,false,true
+000000000000000AAA,DevopsPipelineEnvironmentHistory.OldvalDate,OldvalDate,DevopsPipelineEnvironmentHistory,,OldvalDate,元の日付,元の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DevopsPipelineEnvironmentHistory.OldvalFirstName,OldvalFirstName,DevopsPipelineEnvironmentHistory,,OldvalFirstName,元の名,元の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DevopsPipelineEnvironmentHistory.OldvalLastName,OldvalLastName,DevopsPipelineEnvironmentHistory,,OldvalLastName,元の姓,元の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DevopsPipelineEnvironmentHistory.OldValue,OldValue,DevopsPipelineEnvironmentHistory,,OldValue,元の値,元の値,参照関係,false,true,false,false,false,true

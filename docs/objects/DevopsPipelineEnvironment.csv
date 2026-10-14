@@ -1,0 +1,17 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DevopsPipelineEnvironment.CreatedBy,CreatedById,DevopsPipelineEnvironment,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,DevopsPipelineEnvironment.CreatedDate,CreatedDate,DevopsPipelineEnvironment,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DevopsPipelineEnvironment.DevopsEnvironment,DevopsEnvironmentId,DevopsPipelineEnvironment,,DevopsEnvironment,DevOps 環境,DevOps 環境,参照関係(環境),false,false,false,true,true,true
+000000000000000AAA,DevopsPipelineEnvironment.DevopsPipeline,DevopsPipelineId,DevopsPipelineEnvironment,,DevopsPipeline,DevOps パイプライン,DevOps パイプライン,主従関係(DevOps パイプライン),false,false,true,true,true,true
+000000000000000AAA,DevopsPipelineEnvironment.ExternalId,ExternalId,DevopsPipelineEnvironment,,ExternalId,外部 ID,外部 ID,外部参照  (ユニーク),false,true,true,true,true,true
+000000000000000AAA,DevopsPipelineEnvironment.Id,Id,DevopsPipelineEnvironment,,Id,DevOps パイプライン環境 ID,DevOps パイプライン環境 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DevopsPipelineEnvironment.IsActive,IsActive,DevopsPipelineEnvironment,,IsActive,有効,有効,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DevopsPipelineEnvironment.IsDeleted,IsDeleted,DevopsPipelineEnvironment,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DevopsPipelineEnvironment.LastModifiedBy,LastModifiedById,DevopsPipelineEnvironment,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DevopsPipelineEnvironment.LastModifiedDate,LastModifiedDate,DevopsPipelineEnvironment,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DevopsPipelineEnvironment.LastReferencedDate,LastReferencedDate,DevopsPipelineEnvironment,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DevopsPipelineEnvironment.LastViewedDate,LastViewedDate,DevopsPipelineEnvironment,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DevopsPipelineEnvironment.Name,Name,DevopsPipelineEnvironment,,Name,名前,名前,自動採番,false,false,true,true,false,true
+000000000000000AAA,DevopsPipelineEnvironment.RecordVisibility,RecordVisibilityId,DevopsPipelineEnvironment,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,DevopsPipelineEnvironment.SystemModstamp,SystemModstamp,DevopsPipelineEnvironment,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DevopsPipelineEnvironment.UserRecordAccess,UserRecordAccessId,DevopsPipelineEnvironment,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

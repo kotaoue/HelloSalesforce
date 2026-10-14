@@ -1,0 +1,13 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AiTestSuiteVersionDef.AiTestSuiteDefinition,AiTestSuiteDefinitionId,AiTestSuiteVersionDef,,AiTestSuiteDefinition,AI テストスイート定義,AI テストスイート定義,主従関係(AI テストスイート定義),false,false,true,true,true,true
+000000000000000AAA,AiTestSuiteVersionDef.CreatedBy,CreatedById,AiTestSuiteVersionDef,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AiTestSuiteVersionDef.CreatedDate,CreatedDate,AiTestSuiteVersionDef,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AiTestSuiteVersionDef.Id,Id,AiTestSuiteVersionDef,,Id,AiTestSuiteVersionDef ID,AiTestSuiteVersionDef ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AiTestSuiteVersionDef.IsDeleted,IsDeleted,AiTestSuiteVersionDef,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AiTestSuiteVersionDef.LastModifiedBy,LastModifiedById,AiTestSuiteVersionDef,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AiTestSuiteVersionDef.LastModifiedDate,LastModifiedDate,AiTestSuiteVersionDef,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AiTestSuiteVersionDef.Subject,SubjectId,AiTestSuiteVersionDef,,Subject,件名,件名,参照関係(Generative AI Prompt Templates),false,true,false,true,true,true
+000000000000000AAA,AiTestSuiteVersionDef.SubjectDefinition,SubjectDefinition,AiTestSuiteVersionDef,,SubjectDefinition,件名定義,件名定義,ロングテキストエリア(16384),false,true,false,false,false,false
+000000000000000AAA,AiTestSuiteVersionDef.SubjectVersion,SubjectVersionId,AiTestSuiteVersionDef,,SubjectVersion,件名バージョン,件名バージョン,参照関係(Generative AI Prompt Template Versions),false,true,false,true,true,true
+000000000000000AAA,AiTestSuiteVersionDef.SystemModstamp,SystemModstamp,AiTestSuiteVersionDef,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,AiTestSuiteVersionDef.VersionName,VersionName,AiTestSuiteVersionDef,,VersionName,バージョン名,バージョン名,テキスト(255),false,true,false,true,true,true
