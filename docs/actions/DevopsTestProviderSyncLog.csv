@@ -1,0 +1,20 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DevopsTestProviderSyncLog.CreatedBy,CreatedById,DevopsTestProviderSyncLog,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,DevopsTestProviderSyncLog.CreatedDate,CreatedDate,DevopsTestProviderSyncLog,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DevopsTestProviderSyncLog.DevopsPipeline,DevopsPipelineId,DevopsTestProviderSyncLog,,DevopsPipeline,パイプライン,パイプライン,参照関係(DevOps パイプライン),false,true,false,true,true,true
+000000000000000AAA,DevopsTestProviderSyncLog.DevopsTestProvider,DevopsTestProviderId,DevopsTestProviderSyncLog,,DevopsTestProvider,テストプロバイダー,テストプロバイダー,参照関係(DevOps テストプロバイダー),false,true,true,true,true,true
+000000000000000AAA,DevopsTestProviderSyncLog.EndTime,EndTime,DevopsTestProviderSyncLog,,EndTime,終了時刻,終了時刻,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DevopsTestProviderSyncLog.ErrorDetails,ErrorDetails,DevopsTestProviderSyncLog,,ErrorDetails,エラーの詳細,エラーの詳細,ロングテキストエリア(5000),false,true,false,false,false,false
+000000000000000AAA,DevopsTestProviderSyncLog.Id,Id,DevopsTestProviderSyncLog,,Id,テストプロバイダー同期ログ ID,テストプロバイダー同期ログ ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DevopsTestProviderSyncLog.IsDeleted,IsDeleted,DevopsTestProviderSyncLog,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DevopsTestProviderSyncLog.LastModifiedBy,LastModifiedById,DevopsTestProviderSyncLog,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DevopsTestProviderSyncLog.LastModifiedDate,LastModifiedDate,DevopsTestProviderSyncLog,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DevopsTestProviderSyncLog.LastReferencedDate,LastReferencedDate,DevopsTestProviderSyncLog,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DevopsTestProviderSyncLog.LastViewedDate,LastViewedDate,DevopsTestProviderSyncLog,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DevopsTestProviderSyncLog.Name,Name,DevopsTestProviderSyncLog,,Name,名前,名前,自動採番,false,false,true,true,false,true
+000000000000000AAA,DevopsTestProviderSyncLog.Owner,OwnerId,DevopsTestProviderSyncLog,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
+000000000000000AAA,DevopsTestProviderSyncLog.RecordVisibility,RecordVisibilityId,DevopsTestProviderSyncLog,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,DevopsTestProviderSyncLog.StartTime,StartTime,DevopsTestProviderSyncLog,,StartTime,開始時刻,開始時刻,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DevopsTestProviderSyncLog.Status,Status,DevopsTestProviderSyncLog,,Status,状況,状況,選択リスト,false,false,false,true,true,true
+000000000000000AAA,DevopsTestProviderSyncLog.SystemModstamp,SystemModstamp,DevopsTestProviderSyncLog,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DevopsTestProviderSyncLog.UserRecordAccess,UserRecordAccessId,DevopsTestProviderSyncLog,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

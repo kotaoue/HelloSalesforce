@@ -1,0 +1,15 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ExtlClntAppAttestSettings.AttestConfigLink,AttestConfigLink,ExtlClntAppAttestSettings,,AttestConfigLink,証明書設定リンク,証明書設定リンク,テキスト(50)  (ユニーク、大文字と小文字を区別する),false,true,true,true,true,true
+000000000000000AAA,ExtlClntAppAttestSettings.AttestServiceType,AttestServiceType,ExtlClntAppAttestSettings,,AttestServiceType,証明書サービス種別,証明書サービス種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppAttestSettings.CreatedBy,CreatedById,ExtlClntAppAttestSettings,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppAttestSettings.CreatedDate,CreatedDate,ExtlClntAppAttestSettings,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ExtlClntAppAttestSettings.DeveloperName,DeveloperName,ExtlClntAppAttestSettings,,DeveloperName,名前,名前,テキスト(80),false,false,true,true,true,true
+000000000000000AAA,ExtlClntAppAttestSettings.ExternalClientApplication,ExternalClientApplicationId,ExtlClntAppAttestSettings,,ExternalClientApplication,外部クライアントアプリケーション,外部クライアントアプリケーション,参照関係(外部クライアントアプリケーション)  (ユニーク),false,false,true,true,true,true
+000000000000000AAA,ExtlClntAppAttestSettings.ExtlClntAppOauthSettings,ExtlClntAppOauthSettingsId,ExtlClntAppAttestSettings,,ExtlClntAppOauthSettings,外部クライアントアプリケーション OAuth 設定,外部クライアントアプリケーション OAuth 設定,参照関係(外部クライアントアプリケーション OAuth 設定)  (ユニーク),false,true,true,true,true,true
+000000000000000AAA,ExtlClntAppAttestSettings.Id,Id,ExtlClntAppAttestSettings,,Id,外部クライアントアプリケーション証明書設定 ID,外部クライアントアプリケーション証明書設定 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ExtlClntAppAttestSettings.IsDeleted,IsDeleted,ExtlClntAppAttestSettings,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppAttestSettings.Language,Language,ExtlClntAppAttestSettings,,Language,マスター言語,マスター言語,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppAttestSettings.LastModifiedBy,LastModifiedById,ExtlClntAppAttestSettings,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppAttestSettings.LastModifiedDate,LastModifiedDate,ExtlClntAppAttestSettings,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ExtlClntAppAttestSettings.MasterLabel,MasterLabel,ExtlClntAppAttestSettings,,MasterLabel,表示ラベル,表示ラベル,テキスト(80),false,false,false,true,true,true
+000000000000000AAA,ExtlClntAppAttestSettings.SystemModstamp,SystemModstamp,ExtlClntAppAttestSettings,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

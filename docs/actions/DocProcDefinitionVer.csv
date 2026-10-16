@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DocProcDefinitionVer.CreatedBy,CreatedById,DocProcDefinitionVer,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DocProcDefinitionVer.CreatedDate,CreatedDate,DocProcDefinitionVer,,CreatedDate,Created Date,Created Date,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DocProcDefinitionVer.DocProcDefinition,DocProcDefinitionId,DocProcDefinitionVer,,DocProcDefinition,Document Processing Definition,Document Processing Definition,主従関係(Document Processing Definition),false,false,true,true,true,true
+000000000000000AAA,DocProcDefinitionVer.ExternalServiceRegistration,ExternalServiceRegistrationId,DocProcDefinitionVer,,ExternalServiceRegistration,External Service Registration,External Service Registration,参照関係(外部サービス登録),false,true,false,true,true,true
+000000000000000AAA,DocProcDefinitionVer.Id,Id,DocProcDefinitionVer,,Id,Document Processing Definition Version ID,Document Processing Definition Version ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DocProcDefinitionVer.IsDeleted,IsDeleted,DocProcDefinitionVer,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DocProcDefinitionVer.LastModifiedBy,LastModifiedById,DocProcDefinitionVer,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DocProcDefinitionVer.LastModifiedDate,LastModifiedDate,DocProcDefinitionVer,,LastModifiedDate,Last Modified Date,Last Modified Date,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DocProcDefinitionVer.ManageableState,ManageableState,DocProcDefinitionVer,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DocProcDefinitionVer.Metadata,Metadata,DocProcDefinitionVer,,Metadata,Metadata,Metadata,ロングテキストエリア(65535),false,true,false,false,false,false
+000000000000000AAA,DocProcDefinitionVer.MlModelName,MlModelName,DocProcDefinitionVer,,MlModelName,ML Model Name,ML Model Name,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,DocProcDefinitionVer.SchemaDefinition,SchemaDefinition,DocProcDefinitionVer,,SchemaDefinition,Schema Definition,Schema Definition,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,DocProcDefinitionVer.Status,Status,DocProcDefinitionVer,,Status,Status,Status,選択リスト,false,false,false,true,true,true
+000000000000000AAA,DocProcDefinitionVer.SystemModstamp,SystemModstamp,DocProcDefinitionVer,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DocProcDefinitionVer.VersionNumber,VersionNumber,DocProcDefinitionVer,,VersionNumber,Version Number,Version Number,数値(9、0),false,false,false,true,true,true

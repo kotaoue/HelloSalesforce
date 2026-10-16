@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,DevopsQualityGateResult.CreatedBy,CreatedById,DevopsQualityGateResult,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,DevopsQualityGateResult.CreatedDate,CreatedDate,DevopsQualityGateResult,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DevopsQualityGateResult.DevopsQualityGate,DevopsQualityGateId,DevopsQualityGateResult,,DevopsQualityGate,品質ゲートルール,品質ゲートルール,主従関係(品質ゲート),false,false,true,true,true,true
+000000000000000AAA,DevopsQualityGateResult.DevopsTestSuiteExecution,DevopsTestSuiteExecutionId,DevopsQualityGateResult,,DevopsTestSuiteExecution,テストスイート実行,テストスイート実行,参照関係(テストスイート実行),false,false,false,true,true,true
+000000000000000AAA,DevopsQualityGateResult.Id,Id,DevopsQualityGateResult,,Id,品質ゲート結果 ID,品質ゲート結果 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,DevopsQualityGateResult.IsDeleted,IsDeleted,DevopsQualityGateResult,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,DevopsQualityGateResult.LastModifiedBy,LastModifiedById,DevopsQualityGateResult,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,DevopsQualityGateResult.LastModifiedDate,LastModifiedDate,DevopsQualityGateResult,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,DevopsQualityGateResult.LastReferencedDate,LastReferencedDate,DevopsQualityGateResult,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DevopsQualityGateResult.LastViewedDate,LastViewedDate,DevopsQualityGateResult,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,DevopsQualityGateResult.Name,Name,DevopsQualityGateResult,,Name,名前,名前,自動採番,false,false,true,true,false,true
+000000000000000AAA,DevopsQualityGateResult.RecordVisibility,RecordVisibilityId,DevopsQualityGateResult,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,DevopsQualityGateResult.Status,Status,DevopsQualityGateResult,,Status,状況,状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,DevopsQualityGateResult.SystemModstamp,SystemModstamp,DevopsQualityGateResult,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,DevopsQualityGateResult.UserRecordAccess,UserRecordAccessId,DevopsQualityGateResult,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
