@@ -1,0 +1,469 @@
+{
+  "fetchedAt": "2026-10-20T08:52:41.316Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 22,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/LiveAgentSessionChangeEvent.Agent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LiveAgentSessionChangeEvent.Agent",
+      "QualifiedApiName": "AgentId",
+      "EntityDefinitionId": "LiveAgentSessionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Agent",
+      "MasterLabel": "エージェント",
+      "Label": "エージェント",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/LiveAgentSessionChangeEvent.ChangeEventHeader"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LiveAgentSessionChangeEvent.ChangeEventHeader",
+      "QualifiedApiName": "ChangeEventHeader",
+      "EntityDefinitionId": "LiveAgentSessionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChangeEventHeader",
+      "MasterLabel": "変更イベントヘッダー",
+      "Label": "変更イベントヘッダー",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/LiveAgentSessionChangeEvent.ChatReqAssigned"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LiveAgentSessionChangeEvent.ChatReqAssigned",
+      "QualifiedApiName": "ChatReqAssigned",
+      "EntityDefinitionId": "LiveAgentSessionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChatReqAssigned",
+      "MasterLabel": "割り当てられたチャット要求",
+      "Label": "割り当てられたチャット要求",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/LiveAgentSessionChangeEvent.ChatReqDeclined"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LiveAgentSessionChangeEvent.ChatReqDeclined",
+      "QualifiedApiName": "ChatReqDeclined",
+      "EntityDefinitionId": "LiveAgentSessionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChatReqDeclined",
+      "MasterLabel": "拒否されたチャット要求 (手動)",
+      "Label": "拒否されたチャット要求 (手動)",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/LiveAgentSessionChangeEvent.ChatReqEngaged"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LiveAgentSessionChangeEvent.ChatReqEngaged",
+      "QualifiedApiName": "ChatReqEngaged",
+      "EntityDefinitionId": "LiveAgentSessionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChatReqEngaged",
+      "MasterLabel": "参加中のチャット要求",
+      "Label": "参加中のチャット要求",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/LiveAgentSessionChangeEvent.ChatReqTimedOut"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LiveAgentSessionChangeEvent.ChatReqTimedOut",
+      "QualifiedApiName": "ChatReqTimedOut",
+      "EntityDefinitionId": "LiveAgentSessionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChatReqTimedOut",
+      "MasterLabel": "拒否されたチャット要求 (転送タイムアウト)",
+      "Label": "拒否されたチャット要求 (転送タイムアウト)",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/LiveAgentSessionChangeEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LiveAgentSessionChangeEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "LiveAgentSessionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/LiveAgentSessionChangeEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LiveAgentSessionChangeEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "LiveAgentSessionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/LiveAgentSessionChangeEvent.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LiveAgentSessionChangeEvent.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "LiveAgentSessionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/LiveAgentSessionChangeEvent.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LiveAgentSessionChangeEvent.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "LiveAgentSessionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/LiveAgentSessionChangeEvent.LoginTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LiveAgentSessionChangeEvent.LoginTime",
+      "QualifiedApiName": "LoginTime",
+      "EntityDefinitionId": "LiveAgentSessionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LoginTime",
+      "MasterLabel": "ログイン時刻",
+      "Label": "ログイン時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/LiveAgentSessionChangeEvent.LogoutTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LiveAgentSessionChangeEvent.LogoutTime",
+      "QualifiedApiName": "LogoutTime",
+      "EntityDefinitionId": "LiveAgentSessionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LogoutTime",
+      "MasterLabel": "ログアウト時刻",
+      "Label": "ログアウト時刻",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/LiveAgentSessionChangeEvent.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LiveAgentSessionChangeEvent.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "LiveAgentSessionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "チャットセッション名",
+      "Label": "チャットセッション名",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/LiveAgentSessionChangeEvent.NumFlagLoweredAgent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LiveAgentSessionChangeEvent.NumFlagLoweredAgent",
+      "QualifiedApiName": "NumFlagLoweredAgent",
+      "EntityDefinitionId": "LiveAgentSessionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "NumFlagLoweredAgent",
+      "MasterLabel": "支援フラグを無効化済み (エージェント)",
+      "Label": "支援フラグを無効化済み (エージェント)",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/LiveAgentSessionChangeEvent.NumFlagLoweredSupervisor"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LiveAgentSessionChangeEvent.NumFlagLoweredSupervisor",
+      "QualifiedApiName": "NumFlagLoweredSupervisor",
+      "EntityDefinitionId": "LiveAgentSessionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "NumFlagLoweredSupervisor",
+      "MasterLabel": "支援フラグを無効化済み (スーパーバイザー)",
+      "Label": "支援フラグを無効化済み (スーパーバイザー)",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/LiveAgentSessionChangeEvent.NumFlagRaised"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LiveAgentSessionChangeEvent.NumFlagRaised",
+      "QualifiedApiName": "NumFlagRaised",
+      "EntityDefinitionId": "LiveAgentSessionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "NumFlagRaised",
+      "MasterLabel": "支援フラグを有効化済み",
+      "Label": "支援フラグを有効化済み",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/LiveAgentSessionChangeEvent.Owner"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LiveAgentSessionChangeEvent.Owner",
+      "QualifiedApiName": "OwnerId",
+      "EntityDefinitionId": "LiveAgentSessionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Owner",
+      "MasterLabel": "所有者",
+      "Label": "所有者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/LiveAgentSessionChangeEvent.TimeAtCapacity"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LiveAgentSessionChangeEvent.TimeAtCapacity",
+      "QualifiedApiName": "TimeAtCapacity",
+      "EntityDefinitionId": "LiveAgentSessionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "TimeAtCapacity",
+      "MasterLabel": "フル状態での経過時間",
+      "Label": "フル状態での経過時間",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/LiveAgentSessionChangeEvent.TimeIdle"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LiveAgentSessionChangeEvent.TimeIdle",
+      "QualifiedApiName": "TimeIdle",
+      "EntityDefinitionId": "LiveAgentSessionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "TimeIdle",
+      "MasterLabel": "アイドル時間",
+      "Label": "アイドル時間",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/LiveAgentSessionChangeEvent.TimeInAwayStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LiveAgentSessionChangeEvent.TimeInAwayStatus",
+      "QualifiedApiName": "TimeInAwayStatus",
+      "EntityDefinitionId": "LiveAgentSessionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "TimeInAwayStatus",
+      "MasterLabel": "退席中経過時間",
+      "Label": "退席中経過時間",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/LiveAgentSessionChangeEvent.TimeInChats"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LiveAgentSessionChangeEvent.TimeInChats",
+      "QualifiedApiName": "TimeInChats",
+      "EntityDefinitionId": "LiveAgentSessionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "TimeInChats",
+      "MasterLabel": "チャット経過時間",
+      "Label": "チャット経過時間",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/LiveAgentSessionChangeEvent.TimeInOnlineStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "LiveAgentSessionChangeEvent.TimeInOnlineStatus",
+      "QualifiedApiName": "TimeInOnlineStatus",
+      "EntityDefinitionId": "LiveAgentSessionChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "TimeInOnlineStatus",
+      "MasterLabel": "オンライン経過時間",
+      "Label": "オンライン経過時間",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

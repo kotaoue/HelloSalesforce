@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-10-13T10:58:52.931Z",
+  "fetchedAt": "2026-10-20T08:52:41.316Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 27,
+  "totalSize": 29,
   "records": [
     {
       "attributes": {
@@ -405,6 +405,27 @@
     {
       "attributes": {
         "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/KnowledgeSettings.KnwlAiTranslationEnabled"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeSettings.KnwlAiTranslationEnabled",
+      "QualifiedApiName": "KnwlAiTranslationEnabled",
+      "EntityDefinitionId": "KnowledgeSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "KnwlAiTranslationEnabled",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val KnwlAiTranslationEnabled not found in section udd_SettingsTemplate",
+      "Label": "__MISSING LABEL__ PropertyFile - val KnwlAiTranslationEnabled not found in section udd_SettingsTemplate",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
         "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/KnowledgeSettings.Languages"
       },
       "Id": "000000000000000AAA",
@@ -544,6 +565,27 @@
       "DataType": "外部参照",
       "IsCalculated": false,
       "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/KnowledgeSettings.TranslationApprovalEnabled"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeSettings.TranslationApprovalEnabled",
+      "QualifiedApiName": "TranslationApprovalEnabled",
+      "EntityDefinitionId": "KnowledgeSettings",
+      "NamespacePrefix": null,
+      "DeveloperName": "TranslationApprovalEnabled",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val TranslationApprovalEnabled not found in section udd_SettingsTemplate",
+      "Label": "__MISSING LABEL__ PropertyFile - val TranslationApprovalEnabled not found in section udd_SettingsTemplate",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
       "IsIndexed": false,
       "IsApiFilterable": true,
       "IsApiGroupable": true,

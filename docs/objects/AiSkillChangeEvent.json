@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-13T10:58:52.931Z",
+  "fetchedAt": "2026-10-20T08:52:41.316Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
   "totalSize": 20,
   "records": [
@@ -59,27 +59,6 @@
       "MasterLabel": "Api Name",
       "Label": "Api Name",
       "DataType": "テキスト(255)",
-      "IsCalculated": false,
-      "IsNillable": true,
-      "IsIndexed": false,
-      "IsApiFilterable": false,
-      "IsApiGroupable": false,
-      "IsApiSortable": false
-    },
-    {
-      "attributes": {
-        "type": "FieldDefinition",
-        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkillChangeEvent.Category"
-      },
-      "Id": "000000000000000AAA",
-      "DurableId": "AiSkillChangeEvent.Category",
-      "QualifiedApiName": "Category",
-      "EntityDefinitionId": "AiSkillChangeEvent",
-      "NamespacePrefix": null,
-      "DeveloperName": "Category",
-      "MasterLabel": "Category",
-      "Label": "Category",
-      "DataType": "選択リスト",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,
@@ -300,6 +279,27 @@
     {
       "attributes": {
         "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkillChangeEvent.PrimaryAgent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiSkillChangeEvent.PrimaryAgent",
+      "QualifiedApiName": "PrimaryAgent",
+      "EntityDefinitionId": "AiSkillChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "PrimaryAgent",
+      "MasterLabel": "Primary Agent",
+      "Label": "Primary Agent",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
         "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkillChangeEvent.ShortDescription"
       },
       "Id": "000000000000000AAA",
@@ -321,14 +321,14 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkillChangeEvent.ShouldAddToLibraryOnShare"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkillChangeEvent.ShouldAddToUserLibrary"
       },
       "Id": "000000000000000AAA",
-      "DurableId": "AiSkillChangeEvent.ShouldAddToLibraryOnShare",
-      "QualifiedApiName": "ShouldAddToLibraryOnShare",
+      "DurableId": "AiSkillChangeEvent.ShouldAddToUserLibrary",
+      "QualifiedApiName": "ShouldAddToUserLibrary",
       "EntityDefinitionId": "AiSkillChangeEvent",
       "NamespacePrefix": null,
-      "DeveloperName": "ShouldAddToLibraryOnShare",
+      "DeveloperName": "ShouldAddToUserLibrary",
       "MasterLabel": "Add To Library Upon Sharing",
       "Label": "Add To Library Upon Sharing",
       "DataType": "チェックボックス",
@@ -394,7 +394,7 @@
       "DeveloperName": "Type",
       "MasterLabel": "Type",
       "Label": "Type",
-      "DataType": "テキスト(255)",
+      "DataType": "選択リスト",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,

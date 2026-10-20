@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-10-13T10:58:52.931Z",
+  "fetchedAt": "2026-10-20T08:52:41.316Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 18,
+  "totalSize": 20,
   "records": [
     {
       "attributes": {
@@ -65,6 +65,27 @@
       "IsApiFilterable": true,
       "IsApiGroupable": false,
       "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkillVersion.FrontMatter"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiSkillVersion.FrontMatter",
+      "QualifiedApiName": "FrontMatter",
+      "EntityDefinitionId": "AiSkillVersion",
+      "NamespacePrefix": null,
+      "DeveloperName": "FrontMatter",
+      "MasterLabel": "Front Matter",
+      "Label": "Front Matter",
+      "DataType": "ロングテキストエリア(32000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
     },
     {
       "attributes": {
@@ -216,6 +237,27 @@
     {
       "attributes": {
         "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkillVersion.PrimaryAgent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiSkillVersion.PrimaryAgent",
+      "QualifiedApiName": "PrimaryAgent",
+      "EntityDefinitionId": "AiSkillVersion",
+      "NamespacePrefix": null,
+      "DeveloperName": "PrimaryAgent",
+      "MasterLabel": "Primary Agent",
+      "Label": "Primary Agent",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
         "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkillVersion.RecordVisibility"
       },
       "Id": "000000000000000AAA",
@@ -331,13 +373,13 @@
       "DeveloperName": "VersionDescription",
       "MasterLabel": "Version Description",
       "Label": "Version Description",
-      "DataType": "テキスト(255)",
+      "DataType": "ロングテキストエリア(1024)",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,
-      "IsApiFilterable": true,
-      "IsApiGroupable": true,
-      "IsApiSortable": true
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
     },
     {
       "attributes": {

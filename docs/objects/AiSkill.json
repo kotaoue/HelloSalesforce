@@ -1,8 +1,29 @@
 {
-  "fetchedAt": "2026-10-13T10:58:52.931Z",
+  "fetchedAt": "2026-10-20T08:52:41.316Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 27,
+  "totalSize": 32,
   "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.ActiveAiSkillVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiSkill.ActiveAiSkillVersion",
+      "QualifiedApiName": "ActiveAiSkillVersionId",
+      "EntityDefinitionId": "AiSkill",
+      "NamespacePrefix": null,
+      "DeveloperName": "ActiveAiSkillVersion",
+      "MasterLabel": "AI Skill Version",
+      "Label": "AI Skill Version",
+      "DataType": "参照関係(AI Skill Version)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
     {
       "attributes": {
         "type": "FieldDefinition",
@@ -59,27 +80,6 @@
       "MasterLabel": "Api Name",
       "Label": "Api Name",
       "DataType": "テキスト(255)",
-      "IsCalculated": false,
-      "IsNillable": true,
-      "IsIndexed": false,
-      "IsApiFilterable": true,
-      "IsApiGroupable": true,
-      "IsApiSortable": true
-    },
-    {
-      "attributes": {
-        "type": "FieldDefinition",
-        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.Category"
-      },
-      "Id": "000000000000000AAA",
-      "DurableId": "AiSkill.Category",
-      "QualifiedApiName": "Category",
-      "EntityDefinitionId": "AiSkill",
-      "NamespacePrefix": null,
-      "DeveloperName": "Category",
-      "MasterLabel": "Category",
-      "Label": "Category",
-      "DataType": "選択リスト",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,
@@ -153,6 +153,27 @@
     {
       "attributes": {
         "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.FrontMatter"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiSkill.FrontMatter",
+      "QualifiedApiName": "FrontMatter",
+      "EntityDefinitionId": "AiSkill",
+      "NamespacePrefix": null,
+      "DeveloperName": "FrontMatter",
+      "MasterLabel": "Front Matter",
+      "Label": "Front Matter",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
         "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.Id"
       },
       "Id": "000000000000000AAA",
@@ -208,6 +229,27 @@
       "DataType": "チェックボックス",
       "IsCalculated": false,
       "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.LastCreatedAiSkillVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiSkill.LastCreatedAiSkillVersion",
+      "QualifiedApiName": "LastCreatedAiSkillVersionId",
+      "EntityDefinitionId": "AiSkill",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastCreatedAiSkillVersion",
+      "MasterLabel": "AI Skill Version",
+      "Label": "AI Skill Version",
+      "DataType": "参照関係(AI Skill Version)",
+      "IsCalculated": false,
+      "IsNillable": true,
       "IsIndexed": false,
       "IsApiFilterable": true,
       "IsApiGroupable": true,
@@ -384,6 +426,27 @@
     {
       "attributes": {
         "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.PrimaryAgent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiSkill.PrimaryAgent",
+      "QualifiedApiName": "PrimaryAgent",
+      "EntityDefinitionId": "AiSkill",
+      "NamespacePrefix": null,
+      "DeveloperName": "PrimaryAgent",
+      "MasterLabel": "Primary Agent",
+      "Label": "Primary Agent",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
         "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.RecordVisibility"
       },
       "Id": "000000000000000AAA",
@@ -426,14 +489,14 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.ShouldAddToLibraryOnShare"
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.ShouldAddToUserLibrary"
       },
       "Id": "000000000000000AAA",
-      "DurableId": "AiSkill.ShouldAddToLibraryOnShare",
-      "QualifiedApiName": "ShouldAddToLibraryOnShare",
+      "DurableId": "AiSkill.ShouldAddToUserLibrary",
+      "QualifiedApiName": "ShouldAddToUserLibrary",
       "EntityDefinitionId": "AiSkill",
       "NamespacePrefix": null,
-      "DeveloperName": "ShouldAddToLibraryOnShare",
+      "DeveloperName": "ShouldAddToUserLibrary",
       "MasterLabel": "Add To Library Upon Sharing",
       "Label": "Add To Library Upon Sharing",
       "DataType": "チェックボックス",
@@ -458,6 +521,27 @@
       "MasterLabel": "Source",
       "Label": "Source",
       "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.StandardSkillActiveVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiSkill.StandardSkillActiveVersion",
+      "QualifiedApiName": "StandardSkillActiveVersionId",
+      "EntityDefinitionId": "AiSkill",
+      "NamespacePrefix": null,
+      "DeveloperName": "StandardSkillActiveVersion",
+      "MasterLabel": "AI Skill Version",
+      "Label": "AI Skill Version",
+      "DataType": "参照関係(AI Skill Version)",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,
@@ -520,6 +604,27 @@
       "DeveloperName": "Type",
       "MasterLabel": "Type",
       "Label": "Type",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.TypeDoNotUse"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiSkill.TypeDoNotUse",
+      "QualifiedApiName": "TypeDoNotUse",
+      "EntityDefinitionId": "AiSkill",
+      "NamespacePrefix": null,
+      "DeveloperName": "TypeDoNotUse",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val TypeDoNotUse not found in section udd_AiSkill",
+      "Label": "__MISSING LABEL__ PropertyFile - val TypeDoNotUse not found in section udd_AiSkill",
       "DataType": "テキスト(255)",
       "IsCalculated": false,
       "IsNillable": true,
