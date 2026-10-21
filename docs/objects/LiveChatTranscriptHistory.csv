@@ -1,0 +1,16 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,LiveChatTranscriptHistory.CreatedBy,CreatedById,LiveChatTranscriptHistory,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,LiveChatTranscriptHistory.CreatedDate,CreatedDate,LiveChatTranscriptHistory,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,LiveChatTranscriptHistory.DataType,DataType,LiveChatTranscriptHistory,,DataType,データ型,データ型,選択リスト,false,true,false,true,true,true
+000000000000000AAA,LiveChatTranscriptHistory.Field,Field,LiveChatTranscriptHistory,,Field,変更された項目,変更された項目,"選択リスト(Custom Field Definitions,カスタム項目データ列)",false,false,true,true,true,true
+000000000000000AAA,LiveChatTranscriptHistory.Id,Id,LiveChatTranscriptHistory,,Id,チャットのトランスクリプト履歴 ID,チャットのトランスクリプト履歴 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,LiveChatTranscriptHistory.IsDeleted,IsDeleted,LiveChatTranscriptHistory,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,LiveChatTranscriptHistory.LiveChatTranscript,LiveChatTranscriptId,LiveChatTranscriptHistory,,LiveChatTranscript,チャットのトランスクリプト,チャットのトランスクリプト,参照関係(チャットのトランスクリプト),false,false,true,true,true,true
+000000000000000AAA,LiveChatTranscriptHistory.NewvalDate,NewvalDate,LiveChatTranscriptHistory,,NewvalDate,新規の日付,新規の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,LiveChatTranscriptHistory.NewvalFirstName,NewvalFirstName,LiveChatTranscriptHistory,,NewvalFirstName,新規の名,新規の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,LiveChatTranscriptHistory.NewvalLastName,NewvalLastName,LiveChatTranscriptHistory,,NewvalLastName,新規の姓,新規の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,LiveChatTranscriptHistory.NewValue,NewValue,LiveChatTranscriptHistory,,NewValue,新しい値,新しい値,参照関係,false,true,false,false,false,true
+000000000000000AAA,LiveChatTranscriptHistory.OldvalDate,OldvalDate,LiveChatTranscriptHistory,,OldvalDate,元の日付,元の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,LiveChatTranscriptHistory.OldvalFirstName,OldvalFirstName,LiveChatTranscriptHistory,,OldvalFirstName,元の名,元の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,LiveChatTranscriptHistory.OldvalLastName,OldvalLastName,LiveChatTranscriptHistory,,OldvalLastName,元の姓,元の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,LiveChatTranscriptHistory.OldValue,OldValue,LiveChatTranscriptHistory,,OldValue,元の値,元の値,参照関係,false,true,false,false,false,true

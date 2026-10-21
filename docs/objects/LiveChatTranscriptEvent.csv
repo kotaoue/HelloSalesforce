@@ -1,0 +1,18 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,LiveChatTranscriptEvent.Agent,AgentId,LiveChatTranscriptEvent,,Agent,エージェント,エージェント,参照関係(ユーザー),false,true,false,true,true,true
+000000000000000AAA,LiveChatTranscriptEvent.CreatedBy,CreatedById,LiveChatTranscriptEvent,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,LiveChatTranscriptEvent.CreatedDate,CreatedDate,LiveChatTranscriptEvent,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,LiveChatTranscriptEvent.Detail,Detail,LiveChatTranscriptEvent,,Detail,詳細,詳細,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,LiveChatTranscriptEvent.Id,Id,LiveChatTranscriptEvent,,Id,チャットのトランスクリプトイベント ID,チャットのトランスクリプトイベント ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,LiveChatTranscriptEvent.IsDeleted,IsDeleted,LiveChatTranscriptEvent,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,LiveChatTranscriptEvent.LastModifiedBy,LastModifiedById,LiveChatTranscriptEvent,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,LiveChatTranscriptEvent.LastModifiedDate,LastModifiedDate,LiveChatTranscriptEvent,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,LiveChatTranscriptEvent.LastReferencedDate,LastReferencedDate,LiveChatTranscriptEvent,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,LiveChatTranscriptEvent.LastViewedDate,LastViewedDate,LiveChatTranscriptEvent,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
+000000000000000AAA,LiveChatTranscriptEvent.LiveChatTranscript,LiveChatTranscriptId,LiveChatTranscriptEvent,,LiveChatTranscript,チャットのトランスクリプト,チャットのトランスクリプト,主従関係(チャットのトランスクリプト),false,false,true,true,true,true
+000000000000000AAA,LiveChatTranscriptEvent.Name,Name,LiveChatTranscriptEvent,,Name,チャットのトランスクリプトイベント名,チャットのトランスクリプトイベント名,自動採番,false,false,true,true,false,true
+000000000000000AAA,LiveChatTranscriptEvent.RecordVisibility,RecordVisibilityId,LiveChatTranscriptEvent,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
+000000000000000AAA,LiveChatTranscriptEvent.SystemModstamp,SystemModstamp,LiveChatTranscriptEvent,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,LiveChatTranscriptEvent.Time,Time,LiveChatTranscriptEvent,,Time,時間,時間,日付/時間,false,false,false,true,false,true
+000000000000000AAA,LiveChatTranscriptEvent.Type,Type,LiveChatTranscriptEvent,,Type,種別,種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,LiveChatTranscriptEvent.UserRecordAccess,UserRecordAccessId,LiveChatTranscriptEvent,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

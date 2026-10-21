@@ -16,9 +16,9 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,DevopsActivityLog.Owner,OwnerId,DevopsActivityLog,,Owner,所有者 氏名,所有者 氏名,"参照関係(ユーザー,グループ)",false,false,true,true,true,true
 000000000000000AAA,DevopsActivityLog.ParentActivity,ParentActivityId,DevopsActivityLog,,ParentActivity,親活動,親活動,参照関係(活動履歴),false,true,false,true,true,true
 000000000000000AAA,DevopsActivityLog.PerformedBy,PerformedById,DevopsActivityLog,,PerformedBy,実行者,実行者,参照関係(ユーザー),false,true,false,true,true,true
-000000000000000AAA,DevopsActivityLog.Pipeline,PipelineId,DevopsActivityLog,,Pipeline,パイプライン,パイプライン,参照関係(DevOps パイプライン),false,true,false,true,true,true
+000000000000000AAA,DevopsActivityLog.Pipeline,PipelineId,DevopsActivityLog,,Pipeline,パイプライン,パイプライン,参照関係(パイプライン),false,true,false,true,true,true
 000000000000000AAA,DevopsActivityLog.PipelineStage,PipelineStageId,DevopsActivityLog,,PipelineStage,パイプラインフェーズ,パイプラインフェーズ,参照関係(DevOps パイプラインフェーズ),false,true,false,true,true,true
-000000000000000AAA,DevopsActivityLog.Project,ProjectId,DevopsActivityLog,,Project,プロジェクト,プロジェクト,参照関係(DevOps プロジェクト),false,true,false,true,true,true
+000000000000000AAA,DevopsActivityLog.Project,ProjectId,DevopsActivityLog,,Project,プロジェクト,プロジェクト,参照関係(プロジェクト),false,true,false,true,true,true
 000000000000000AAA,DevopsActivityLog.RecordVisibility,RecordVisibilityId,DevopsActivityLog,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
 000000000000000AAA,DevopsActivityLog.RequestInfoErrorDetails,RequestInfoErrorDetails,DevopsActivityLog,,RequestInfoErrorDetails,エラーの詳細,エラーの詳細,テキスト(1333),false,true,false,true,false,true
 000000000000000AAA,DevopsActivityLog.Status,Status,DevopsActivityLog,,Status,状況,状況,選択リスト,false,true,false,true,true,true
