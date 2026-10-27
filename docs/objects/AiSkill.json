@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-20T08:52:41.316Z",
+  "fetchedAt": "2026-10-27T09:19:58.223Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
   "totalSize": 32,
   "records": [
@@ -14,8 +14,8 @@
       "EntityDefinitionId": "AiSkill",
       "NamespacePrefix": null,
       "DeveloperName": "ActiveAiSkillVersion",
-      "MasterLabel": "AI Skill Version",
-      "Label": "AI Skill Version",
+      "MasterLabel": "Active AI Skill Version",
+      "Label": "Active AI Skill Version",
       "DataType": "参照関係(AI Skill Version)",
       "IsCalculated": false,
       "IsNillable": true,
@@ -153,27 +153,6 @@
     {
       "attributes": {
         "type": "FieldDefinition",
-        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.FrontMatter"
-      },
-      "Id": "000000000000000AAA",
-      "DurableId": "AiSkill.FrontMatter",
-      "QualifiedApiName": "FrontMatter",
-      "EntityDefinitionId": "AiSkill",
-      "NamespacePrefix": null,
-      "DeveloperName": "FrontMatter",
-      "MasterLabel": "Front Matter",
-      "Label": "Front Matter",
-      "DataType": "ロングテキストエリア(131072)",
-      "IsCalculated": false,
-      "IsNillable": true,
-      "IsIndexed": false,
-      "IsApiFilterable": false,
-      "IsApiGroupable": false,
-      "IsApiSortable": false
-    },
-    {
-      "attributes": {
-        "type": "FieldDefinition",
         "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.Id"
       },
       "Id": "000000000000000AAA",
@@ -224,8 +203,8 @@
       "EntityDefinitionId": "AiSkill",
       "NamespacePrefix": null,
       "DeveloperName": "IsInMyLibrary",
-      "MasterLabel": "__MISSING LABEL__ PropertyFile - val IsInMyLibrary not found in section udd_AiSkill",
-      "Label": "__MISSING LABEL__ PropertyFile - val IsInMyLibrary not found in section udd_AiSkill",
+      "MasterLabel": "In My Skills",
+      "Label": "In My Skills",
       "DataType": "チェックボックス",
       "IsCalculated": false,
       "IsNillable": false,
@@ -245,8 +224,8 @@
       "EntityDefinitionId": "AiSkill",
       "NamespacePrefix": null,
       "DeveloperName": "LastCreatedAiSkillVersion",
-      "MasterLabel": "AI Skill Version",
-      "Label": "AI Skill Version",
+      "MasterLabel": "Last Created AI Skill Version",
+      "Label": "Last Created AI Skill Version",
       "DataType": "参照関係(AI Skill Version)",
       "IsCalculated": false,
       "IsNillable": true,
@@ -510,6 +489,27 @@
     {
       "attributes": {
         "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.ShouldRunInBackground"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiSkill.ShouldRunInBackground",
+      "QualifiedApiName": "ShouldRunInBackground",
+      "EntityDefinitionId": "AiSkill",
+      "NamespacePrefix": null,
+      "DeveloperName": "ShouldRunInBackground",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val ShouldRunInBackground not found in section udd_AiSkill",
+      "Label": "__MISSING LABEL__ PropertyFile - val ShouldRunInBackground not found in section udd_AiSkill",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
         "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.Source"
       },
       "Id": "000000000000000AAA",
@@ -539,8 +539,8 @@
       "EntityDefinitionId": "AiSkill",
       "NamespacePrefix": null,
       "DeveloperName": "StandardSkillActiveVersion",
-      "MasterLabel": "AI Skill Version",
-      "Label": "AI Skill Version",
+      "MasterLabel": "Standard Skill Active Version",
+      "Label": "Standard Skill Active Version",
       "DataType": "参照関係(AI Skill Version)",
       "IsCalculated": false,
       "IsNillable": true,
@@ -623,8 +623,8 @@
       "EntityDefinitionId": "AiSkill",
       "NamespacePrefix": null,
       "DeveloperName": "TypeDoNotUse",
-      "MasterLabel": "__MISSING LABEL__ PropertyFile - val TypeDoNotUse not found in section udd_AiSkill",
-      "Label": "__MISSING LABEL__ PropertyFile - val TypeDoNotUse not found in section udd_AiSkill",
+      "MasterLabel": "Type Do Not Use",
+      "Label": "Type Do Not Use",
       "DataType": "テキスト(255)",
       "IsCalculated": false,
       "IsNillable": true,
