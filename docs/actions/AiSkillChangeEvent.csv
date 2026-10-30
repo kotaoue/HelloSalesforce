@@ -1,4 +1,5 @@
 Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AiSkillChangeEvent.ActiveAiSkillVersion,ActiveAiSkillVersionId,AiSkillChangeEvent,,ActiveAiSkillVersion,Active AI Skill Version,Active AI Skill Version,参照関係(AI Skill Version),false,true,false,false,false,false
 000000000000000AAA,AiSkillChangeEvent.ActiveVersion,ActiveVersion,AiSkillChangeEvent,,ActiveVersion,Active Version,Active Version,テキスト(18),false,true,false,false,false,false
 000000000000000AAA,AiSkillChangeEvent.AiSkillDefinition,AiSkillDefinition,AiSkillChangeEvent,,AiSkillDefinition,AI Skill Definition,AI Skill Definition,テキスト(15),false,true,false,false,false,false
 000000000000000AAA,AiSkillChangeEvent.ApiName,ApiName,AiSkillChangeEvent,,ApiName,Api Name,Api Name,テキスト(255),false,true,false,false,false,false
@@ -6,6 +7,8 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,AiSkillChangeEvent.CreatedBy,CreatedById,AiSkillChangeEvent,,CreatedBy,Created By,Created By,参照関係(ユーザー),false,true,false,false,false,false
 000000000000000AAA,AiSkillChangeEvent.CreatedDate,CreatedDate,AiSkillChangeEvent,,CreatedDate,Created Date,Created Date,日付/時間,false,true,false,false,false,false
 000000000000000AAA,AiSkillChangeEvent.Description,Description,AiSkillChangeEvent,,Description,Description,Description,ロングテキストエリア(1024),false,true,false,false,false,false
+000000000000000AAA,AiSkillChangeEvent.IsInMyLibrary,IsInMyLibrary,AiSkillChangeEvent,,IsInMyLibrary,In My Skills,In My Skills,チェックボックス,false,false,false,false,false,false
+000000000000000AAA,AiSkillChangeEvent.LastCreatedAiSkillVersion,LastCreatedAiSkillVersionId,AiSkillChangeEvent,,LastCreatedAiSkillVersion,Last Created AI Skill Version,Last Created AI Skill Version,参照関係(AI Skill Version),false,true,false,false,false,false
 000000000000000AAA,AiSkillChangeEvent.LastCreatedVersion,LastCreatedVersion,AiSkillChangeEvent,,LastCreatedVersion,Last Created Version,Last Created Version,テキスト(18),false,true,false,false,false,false
 000000000000000AAA,AiSkillChangeEvent.LastModifiedBy,LastModifiedById,AiSkillChangeEvent,,LastModifiedBy,Last Modified By,Last Modified By,参照関係(ユーザー),false,true,false,false,false,false
 000000000000000AAA,AiSkillChangeEvent.LastModifiedDate,LastModifiedDate,AiSkillChangeEvent,,LastModifiedDate,Last Modified Date,Last Modified Date,日付/時間,false,true,false,false,false,false
@@ -15,7 +18,10 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,AiSkillChangeEvent.PrimaryAgent,PrimaryAgent,AiSkillChangeEvent,,PrimaryAgent,Primary Agent,Primary Agent,テキスト(255),false,true,false,false,false,false
 000000000000000AAA,AiSkillChangeEvent.ShortDescription,ShortDescription,AiSkillChangeEvent,,ShortDescription,Description,Description,テキスト(255),false,true,false,false,false,false
 000000000000000AAA,AiSkillChangeEvent.ShouldAddToUserLibrary,ShouldAddToUserLibrary,AiSkillChangeEvent,,ShouldAddToUserLibrary,Add To Library Upon Sharing,Add To Library Upon Sharing,チェックボックス,false,false,false,false,false,false
+000000000000000AAA,AiSkillChangeEvent.ShouldRunInBackground,ShouldRunInBackground,AiSkillChangeEvent,,ShouldRunInBackground,__MISSING LABEL__ PropertyFile - val ShouldRunInBackground not found in section udd_AiSkill,__MISSING LABEL__ PropertyFile - val ShouldRunInBackground not found in section udd_AiSkill,チェックボックス,false,false,false,false,false,false
 000000000000000AAA,AiSkillChangeEvent.Source,Source,AiSkillChangeEvent,,Source,Source,Source,選択リスト,false,true,false,false,false,false
+000000000000000AAA,AiSkillChangeEvent.StandardSkillActiveVersion,StandardSkillActiveVersionId,AiSkillChangeEvent,,StandardSkillActiveVersion,Standard Skill Active Version,Standard Skill Active Version,参照関係(AI Skill Version),false,true,false,false,false,false
 000000000000000AAA,AiSkillChangeEvent.Status,Status,AiSkillChangeEvent,,Status,Status,Status,選択リスト,false,true,false,false,false,false
 000000000000000AAA,AiSkillChangeEvent.Type,Type,AiSkillChangeEvent,,Type,Type,Type,選択リスト,false,true,false,false,false,false
+000000000000000AAA,AiSkillChangeEvent.TypeDoNotUse,TypeDoNotUse,AiSkillChangeEvent,,TypeDoNotUse,Type Do Not Use,Type Do Not Use,テキスト(255),false,true,false,false,false,false
 000000000000000AAA,AiSkillChangeEvent.Visibility,Visibility,AiSkillChangeEvent,,Visibility,Visibility,Visibility,選択リスト,false,true,false,false,false,false
