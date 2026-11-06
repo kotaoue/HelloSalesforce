@@ -1,0 +1,25 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ConversationDefinitionSession.ChannelType,ChannelType,ConversationDefinitionSession,,ChannelType,チャネル種別,チャネル種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionSession.ConversationDefinition,ConversationDefinitionId,ConversationDefinitionSession,,ConversationDefinition,ボットバージョン,ボットバージョン,参照関係(ボットバージョン),false,true,true,true,true,true
+000000000000000AAA,ConversationDefinitionSession.CreatedBy,CreatedById,ConversationDefinitionSession,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ConversationDefinitionSession.CreatedDate,CreatedDate,ConversationDefinitionSession,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ConversationDefinitionSession.ExternalSessionKey,ExternalSessionKey,ConversationDefinitionSession,,ExternalSessionKey,外部セッションキー,外部セッションキー,テキスト(255),false,true,true,true,true,true
+000000000000000AAA,ConversationDefinitionSession.HasErrorLogs,HasErrorLogs,ConversationDefinitionSession,,HasErrorLogs,エラーログあり,エラーログあり,チェックボックス,false,false,false,false,false,false
+000000000000000AAA,ConversationDefinitionSession.Hour,Hour,ConversationDefinitionSession,,Hour,時間,時間,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionSession.Id,Id,ConversationDefinitionSession,,Id,会話定義セッション ID,会話定義セッション ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ConversationDefinitionSession.IntegrationName,IntegrationName,ConversationDefinitionSession,,IntegrationName,インテグレーション名,インテグレーション名,テキスト(128),false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionSession.IntegrationType,IntegrationType,ConversationDefinitionSession,,IntegrationType,インテグレーション種別,インテグレーション種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionSession.IsDeleted,IsDeleted,ConversationDefinitionSession,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ConversationDefinitionSession.Language,Language,ConversationDefinitionSession,,Language,マスター言語,マスター言語,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ConversationDefinitionSession.LastModifiedBy,LastModifiedById,ConversationDefinitionSession,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ConversationDefinitionSession.LastModifiedDate,LastModifiedDate,ConversationDefinitionSession,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ConversationDefinitionSession.Mode,Mode,ConversationDefinitionSession,,Mode,モード,モード,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionSession.SessionDuration,SessionDuration,ConversationDefinitionSession,,SessionDuration,所要時間 (秒),所要時間 (秒),数値(9、0),false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionSession.SessionEndType,SessionEndType,ConversationDefinitionSession,,SessionEndType,セッション終了種別,セッション終了種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionSession.SessionStartTime,SessionStartTime,ConversationDefinitionSession,,SessionStartTime,セッション開始時刻,セッション開始時刻,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ConversationDefinitionSession.SessionStatus,SessionStatus,ConversationDefinitionSession,,SessionStatus,セッション状況,セッション状況,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionSession.SessionTransferResult,SessionTransferResult,ConversationDefinitionSession,,SessionTransferResult,セッション転送結果,セッション転送結果,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionSession.SessionTransferTargetType,SessionTransferTargetType,ConversationDefinitionSession,,SessionTransferTargetType,セッション転送対象種別,セッション転送対象種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionSession.SessionTransferType,SessionTransferType,ConversationDefinitionSession,,SessionTransferType,セッション転送種別,セッション転送種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionSession.SystemModstamp,SystemModstamp,ConversationDefinitionSession,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ConversationDefinitionSession.WasSessionEngaged,WasSessionEngaged,ConversationDefinitionSession,,WasSessionEngaged,セッションがエンゲージされたか,セッションがエンゲージされたか,チェックボックス,false,false,false,true,true,true

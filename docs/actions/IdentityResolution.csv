@@ -2,9 +2,11 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,IdentityResolution.ConsolidationRate,ConsolidationRate,IdentityResolution,,ConsolidationRate,統合率,統合率,パーセント(3、0),false,true,false,true,false,true
 000000000000000AAA,IdentityResolution.CreatedBy,CreatedById,IdentityResolution,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
 000000000000000AAA,IdentityResolution.CreatedDate,CreatedDate,IdentityResolution,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,IdentityResolution.DataQuality,DataQuality,IdentityResolution,,DataQuality,Data Quality,Data Quality,ロングテキストエリア(128000),false,true,false,false,false,false
 000000000000000AAA,IdentityResolution.Description,Description,IdentityResolution,,Description,説明,説明,テキスト(255),false,true,false,true,true,true
 000000000000000AAA,IdentityResolution.ErrorCode,ErrorCode,IdentityResolution,,ErrorCode,エラーコード,エラーコード,選択リスト,false,false,false,true,true,true
 000000000000000AAA,IdentityResolution.ErrorMessage,ErrorMessage,IdentityResolution,,ErrorMessage,エラーメッセージ,エラーメッセージ,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,IdentityResolution.FailureInfo,FailureInfo,IdentityResolution,,FailureInfo,Failure Info,Failure Info,ロングテキストエリア(128000),false,true,false,false,false,false
 000000000000000AAA,IdentityResolution.Id,Id,IdentityResolution,,Id,ID 解決 ID,ID 解決 ID,参照関係(),false,false,true,true,true,true
 000000000000000AAA,IdentityResolution.IdentityResolutionDef,IdentityResolutionDefId,IdentityResolution,,IdentityResolutionDef,ID 解決定義,ID 解決定義,参照関係(ID 解決定義),false,false,true,true,true,true
 000000000000000AAA,IdentityResolution.IrType,IrType,IdentityResolution,,IrType,ID 解決種別,ID 解決種別,選択リスト,false,true,false,true,true,true
@@ -12,6 +14,7 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,IdentityResolution.IsDeleted,IsDeleted,IdentityResolution,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
 000000000000000AAA,IdentityResolution.IsLimitedToSingleHousehold,IsLimitedToSingleHousehold,IdentityResolution,,IsLimitedToSingleHousehold,1 つの世帯に制限,1 つの世帯に制限,チェックボックス,false,false,false,true,true,true
 000000000000000AAA,IdentityResolution.IsScheduled,IsScheduled,IdentityResolution,,IsScheduled,スケジュール済み,スケジュール済み,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,IdentityResolution.JobRunReasons,JobRunReasons,IdentityResolution,,JobRunReasons,Job Run Reasons,Job Run Reasons,ロングテキストエリア(128000),false,true,false,false,false,false
 000000000000000AAA,IdentityResolution.LastModifiedBy,LastModifiedById,IdentityResolution,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
 000000000000000AAA,IdentityResolution.LastModifiedDate,LastModifiedDate,IdentityResolution,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
 000000000000000AAA,IdentityResolution.LastReferencedDate,LastReferencedDate,IdentityResolution,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
@@ -35,6 +38,8 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,IdentityResolution.TotalCustomerHouseholds,TotalCustomerHouseholds,IdentityResolution,,TotalCustomerHouseholds,顧客世帯の総数,顧客世帯の総数,数値(18、0),false,true,false,true,true,true
 000000000000000AAA,IdentityResolution.TotalDerivedHouseholdMembers,TotalDerivedHouseholdMembers,IdentityResolution,,TotalDerivedHouseholdMembers,派生世帯メンバーの総数,派生世帯メンバーの総数,数値(18、0),false,true,false,true,true,true
 000000000000000AAA,IdentityResolution.TotalDerivedHouseholds,TotalDerivedHouseholds,IdentityResolution,,TotalDerivedHouseholds,派生世帯の総数,派生世帯の総数,数値(18、0),false,true,false,true,true,true
+000000000000000AAA,IdentityResolution.TotalFilteredProfiles,TotalFilteredProfiles,IdentityResolution,,TotalFilteredProfiles,Total Filtered Profiles,Total Filtered Profiles,数値(18、0),false,true,false,true,true,true
 000000000000000AAA,IdentityResolution.TotalNonAnonymousRecords,TotalNonAnonymousRecords,IdentityResolution,,TotalNonAnonymousRecords,既知の統合プロファイル,既知の統合プロファイル,数値(18、0),false,true,false,true,true,true
+000000000000000AAA,IdentityResolution.TriggerDetails,TriggerDetails,IdentityResolution,,TriggerDetails,Trigger Details,Trigger Details,ロングテキストエリア(128000),false,true,false,false,false,false
 000000000000000AAA,IdentityResolution.UnifiedCount,UnifiedCount,IdentityResolution,,UnifiedCount,統合プロファイルの総数,統合プロファイルの総数,数値(18、0),false,true,false,true,true,true
 000000000000000AAA,IdentityResolution.UserRecordAccess,UserRecordAccessId,IdentityResolution,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true

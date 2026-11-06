@@ -1,0 +1,12 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ConversationInvocation.CreatedBy,CreatedById,ConversationInvocation,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ConversationInvocation.CreatedDate,CreatedDate,ConversationInvocation,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ConversationInvocation.Id,Id,ConversationInvocation,,Id,会話呼び出し ID,会話呼び出し ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ConversationInvocation.InvocationTarget,InvocationTarget,ConversationInvocation,,InvocationTarget,呼び出し対象,呼び出し対象,"選択リスト(Apex クラス,外部サービス操作,フロー定義,アクション)",false,false,false,true,true,true
+000000000000000AAA,ConversationInvocation.InvocationTargetType,InvocationTargetType,ConversationInvocation,,InvocationTargetType,呼び出し対象種別,呼び出し対象種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ConversationInvocation.IsDeleted,IsDeleted,ConversationInvocation,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ConversationInvocation.LastModifiedBy,LastModifiedById,ConversationInvocation,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ConversationInvocation.LastModifiedDate,LastModifiedDate,ConversationInvocation,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ConversationInvocation.Parent,ParentId,ConversationInvocation,,Parent,親,親,"主従関係(会話定義ステップ,会話変数操作)  (ユニーク)",false,false,true,true,true,true
+000000000000000AAA,ConversationInvocation.RootBotDialog,RootBotDialogId,ConversationInvocation,,RootBotDialog,ルートダイアログ,ルートダイアログ,参照関係(ダイアログ),false,false,false,true,true,true
+000000000000000AAA,ConversationInvocation.SystemModstamp,SystemModstamp,ConversationInvocation,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

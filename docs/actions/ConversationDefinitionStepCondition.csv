@@ -1,0 +1,14 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ConversationDefinitionStepCondition.ConversationDefinitionStep,ConversationDefinitionStepId,ConversationDefinitionStepCondition,,ConversationDefinitionStep,会話定義ステップ,会話定義ステップ,主従関係(会話定義ステップ),false,false,true,true,true,true
+000000000000000AAA,ConversationDefinitionStepCondition.CreatedBy,CreatedById,ConversationDefinitionStepCondition,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ConversationDefinitionStepCondition.CreatedDate,CreatedDate,ConversationDefinitionStepCondition,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ConversationDefinitionStepCondition.Id,Id,ConversationDefinitionStepCondition,,Id,ボットステップ条件 ID,ボットステップ条件 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ConversationDefinitionStepCondition.IsDeleted,IsDeleted,ConversationDefinitionStepCondition,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ConversationDefinitionStepCondition.LastModifiedBy,LastModifiedById,ConversationDefinitionStepCondition,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ConversationDefinitionStepCondition.LastModifiedDate,LastModifiedDate,ConversationDefinitionStepCondition,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ConversationDefinitionStepCondition.LeftOperand,LeftOperand,ConversationDefinitionStepCondition,,LeftOperand,左のオペランド,左のオペランド,選択リスト(会話定義変数),false,false,false,true,true,true
+000000000000000AAA,ConversationDefinitionStepCondition.OperatorType,OperatorType,ConversationDefinitionStepCondition,,OperatorType,演算子種別,演算子種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ConversationDefinitionStepCondition.RightOperandValue,RightOperandValue,ConversationDefinitionStepCondition,,RightOperandValue,右のオペランド値,右のオペランド値,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionStepCondition.RootBotDialog,RootBotDialogId,ConversationDefinitionStepCondition,,RootBotDialog,ルートダイアログ,ルートダイアログ,参照関係(ダイアログ),false,false,false,true,true,true
+000000000000000AAA,ConversationDefinitionStepCondition.SortOrder,SortOrder,ConversationDefinitionStepCondition,,SortOrder,順序,順序,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,ConversationDefinitionStepCondition.SystemModstamp,SystemModstamp,ConversationDefinitionStepCondition,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

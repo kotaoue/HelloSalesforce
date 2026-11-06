@@ -1,0 +1,13 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ConversationSystemMessageMapping.ConversationSystemMessage,ConversationSystemMessageId,ConversationSystemMessageMapping,,ConversationSystemMessage,会話システムメッセージ,会話システムメッセージ,主従関係(会話システムメッセージ),false,false,true,true,true,true
+000000000000000AAA,ConversationSystemMessageMapping.CreatedBy,CreatedById,ConversationSystemMessageMapping,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ConversationSystemMessageMapping.CreatedDate,CreatedDate,ConversationSystemMessageMapping,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ConversationSystemMessageMapping.Id,Id,ConversationSystemMessageMapping,,Id,会話システムメッセージの対応付け ID,会話システムメッセージの対応付け ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ConversationSystemMessageMapping.IsDeleted,IsDeleted,ConversationSystemMessageMapping,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ConversationSystemMessageMapping.LastModifiedBy,LastModifiedById,ConversationSystemMessageMapping,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ConversationSystemMessageMapping.LastModifiedDate,LastModifiedDate,ConversationSystemMessageMapping,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ConversationSystemMessageMapping.MappingType,MappingType,ConversationSystemMessageMapping,,MappingType,対応付け種別,対応付け種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ConversationSystemMessageMapping.RootBotDialog,RootBotDialogId,ConversationSystemMessageMapping,,RootBotDialog,ダイアログ,ダイアログ,参照関係(ダイアログ),false,false,false,true,true,true
+000000000000000AAA,ConversationSystemMessageMapping.SystemMessageParamType,SystemMessageParamType,ConversationSystemMessageMapping,,SystemMessageParamType,会話システムメッセージパラメーター種別,会話システムメッセージパラメーター種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ConversationSystemMessageMapping.SystemModstamp,SystemModstamp,ConversationSystemMessageMapping,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ConversationSystemMessageMapping.Variable,Variable,ConversationSystemMessageMapping,,Variable,変数,変数,選択リスト(会話定義変数),false,false,false,true,true,true

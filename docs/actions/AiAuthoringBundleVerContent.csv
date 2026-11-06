@@ -1,0 +1,15 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,AiAuthoringBundleVerContent.AiAuthoringBundleDefVer,AiAuthoringBundleDefVerId,AiAuthoringBundleVerContent,,AiAuthoringBundleDefVer,作成バンドル定義バージョン,作成バンドル定義バージョン,主従関係(作成バンドル定義バージョン),false,false,true,true,true,true
+000000000000000AAA,AiAuthoringBundleVerContent.Content,ContentId,AiAuthoringBundleVerContent,,Content,コンテンツ,コンテンツ,参照関係(管理コンテンツリソース),false,false,false,true,true,true
+000000000000000AAA,AiAuthoringBundleVerContent.ContentFormat,ContentFormat,AiAuthoringBundleVerContent,,ContentFormat,コンテンツの形式,コンテンツの形式,選択リスト,false,true,false,true,true,true
+000000000000000AAA,AiAuthoringBundleVerContent.ContentFormatVersion,ContentFormatVersion,AiAuthoringBundleVerContent,,ContentFormatVersion,コンテンツの形式バージョン,コンテンツの形式バージョン,テキスト(10),false,true,false,true,true,true
+000000000000000AAA,AiAuthoringBundleVerContent.ContentName,ContentName,AiAuthoringBundleVerContent,,ContentName,コンテンツ名,コンテンツ名,テキスト(80),false,false,false,true,true,true
+000000000000000AAA,AiAuthoringBundleVerContent.ContentType,ContentType,AiAuthoringBundleVerContent,,ContentType,コンテンツタイプ,コンテンツタイプ,選択リスト,false,false,false,true,true,true
+000000000000000AAA,AiAuthoringBundleVerContent.CreatedBy,CreatedById,AiAuthoringBundleVerContent,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AiAuthoringBundleVerContent.CreatedDate,CreatedDate,AiAuthoringBundleVerContent,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AiAuthoringBundleVerContent.Id,Id,AiAuthoringBundleVerContent,,Id,作成バンドルバージョンコンテンツ ID,作成バンドルバージョンコンテンツ ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,AiAuthoringBundleVerContent.IsDeleted,IsDeleted,AiAuthoringBundleVerContent,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,AiAuthoringBundleVerContent.LastModifiedBy,LastModifiedById,AiAuthoringBundleVerContent,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,AiAuthoringBundleVerContent.LastModifiedDate,LastModifiedDate,AiAuthoringBundleVerContent,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,AiAuthoringBundleVerContent.ManageableState,ManageableState,AiAuthoringBundleVerContent,,ManageableState,管理可能な状態,管理可能な状態,選択リスト,false,true,false,true,true,true
+000000000000000AAA,AiAuthoringBundleVerContent.SystemModstamp,SystemModstamp,AiAuthoringBundleVerContent,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true

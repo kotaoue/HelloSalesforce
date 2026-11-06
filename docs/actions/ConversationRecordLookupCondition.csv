@@ -1,0 +1,15 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ConversationRecordLookupCondition.CreatedBy,CreatedById,ConversationRecordLookupCondition,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ConversationRecordLookupCondition.CreatedDate,CreatedDate,ConversationRecordLookupCondition,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ConversationRecordLookupCondition.Id,Id,ConversationRecordLookupCondition,,Id,会話レコードの検索条件 ID,会話レコードの検索条件 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ConversationRecordLookupCondition.IsDeleted,IsDeleted,ConversationRecordLookupCondition,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ConversationRecordLookupCondition.LastModifiedBy,LastModifiedById,ConversationRecordLookupCondition,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ConversationRecordLookupCondition.LastModifiedDate,LastModifiedDate,ConversationRecordLookupCondition,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ConversationRecordLookupCondition.LeftOperand,LeftOperand,ConversationRecordLookupCondition,,LeftOperand,左のオペランドダイアログ,左のオペランドダイアログ,選択リスト(),false,false,false,true,true,true
+000000000000000AAA,ConversationRecordLookupCondition.OperatorType,OperatorType,ConversationRecordLookupCondition,,OperatorType,演算子種別,演算子種別,選択リスト,false,false,false,true,true,true
+000000000000000AAA,ConversationRecordLookupCondition.Parent,ParentId,ConversationRecordLookupCondition,,Parent,親,親,主従関係(会話レコードの検索),false,false,true,true,true,true
+000000000000000AAA,ConversationRecordLookupCondition.RightOperand,RightOperand,ConversationRecordLookupCondition,,RightOperand,右のオペランド会話定義変数,右のオペランド会話定義変数,選択リスト(会話定義変数),false,true,false,true,true,true
+000000000000000AAA,ConversationRecordLookupCondition.RightOperandValue,RightOperandValue,ConversationRecordLookupCondition,,RightOperandValue,右のオペランド固定値,右のオペランド固定値,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ConversationRecordLookupCondition.RootDialog,RootDialogId,ConversationRecordLookupCondition,,RootDialog,ルートダイアログ,ルートダイアログ,参照関係(ダイアログ),false,false,false,true,true,true
+000000000000000AAA,ConversationRecordLookupCondition.SortOrder,SortOrder,ConversationRecordLookupCondition,,SortOrder,並び替え順,並び替え順,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,ConversationRecordLookupCondition.SystemModstamp,SystemModstamp,ConversationRecordLookupCondition,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
