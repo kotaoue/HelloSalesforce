@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-10-27T09:19:58.223Z",
+  "fetchedAt": "2026-11-10T11:37:03.941Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 32,
+  "totalSize": 33,
   "records": [
     {
       "attributes": {
@@ -203,8 +203,8 @@
       "EntityDefinitionId": "AiSkill",
       "NamespacePrefix": null,
       "DeveloperName": "IsInMyLibrary",
-      "MasterLabel": "In My Skills",
-      "Label": "In My Skills",
+      "MasterLabel": "Is In My Library",
+      "Label": "Is In My Library",
       "DataType": "チェックボックス",
       "IsCalculated": false,
       "IsNillable": false,
@@ -426,6 +426,27 @@
     {
       "attributes": {
         "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.PrimaryAgentDefinition"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiSkill.PrimaryAgentDefinition",
+      "QualifiedApiName": "PrimaryAgentDefinitionId",
+      "EntityDefinitionId": "AiSkill",
+      "NamespacePrefix": null,
+      "DeveloperName": "PrimaryAgentDefinition",
+      "MasterLabel": "Primary Agent Definition",
+      "Label": "Primary Agent Definition",
+      "DataType": "参照関係(ボット)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
         "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkill.RecordVisibility"
       },
       "Id": "000000000000000AAA",
@@ -497,8 +518,8 @@
       "EntityDefinitionId": "AiSkill",
       "NamespacePrefix": null,
       "DeveloperName": "ShouldRunInBackground",
-      "MasterLabel": "__MISSING LABEL__ PropertyFile - val ShouldRunInBackground not found in section udd_AiSkill",
-      "Label": "__MISSING LABEL__ PropertyFile - val ShouldRunInBackground not found in section udd_AiSkill",
+      "MasterLabel": "Should Run In Background",
+      "Label": "Should Run In Background",
       "DataType": "チェックボックス",
       "IsCalculated": false,
       "IsNillable": false,

@@ -1,0 +1,343 @@
+{
+  "fetchedAt": "2026-11-10T11:37:03.941Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 16,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/BotVersion.BillingMode"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BotVersion.BillingMode",
+      "QualifiedApiName": "BillingMode",
+      "EntityDefinitionId": "BotVersion",
+      "NamespacePrefix": null,
+      "DeveloperName": "BillingMode",
+      "MasterLabel": "請求モード",
+      "Label": "請求モード",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/BotVersion.CopilotPrimaryLanguage"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BotVersion.CopilotPrimaryLanguage",
+      "QualifiedApiName": "CopilotPrimaryLanguage",
+      "EntityDefinitionId": "BotVersion",
+      "NamespacePrefix": null,
+      "DeveloperName": "CopilotPrimaryLanguage",
+      "MasterLabel": "エージェントの第一言語",
+      "Label": "エージェントの第一言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/BotVersion.CopilotSecondaryLanguages"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BotVersion.CopilotSecondaryLanguages",
+      "QualifiedApiName": "CopilotSecondaryLanguages",
+      "EntityDefinitionId": "BotVersion",
+      "NamespacePrefix": null,
+      "DeveloperName": "CopilotSecondaryLanguages",
+      "MasterLabel": "エージェントの第二言語",
+      "Label": "エージェントの第二言語",
+      "DataType": "テキスト(1333)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/BotVersion.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BotVersion.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "BotVersion",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/BotVersion.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BotVersion.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "BotVersion",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/BotVersion.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BotVersion.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "BotVersion",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "オブジェクト名",
+      "Label": "オブジェクト名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/BotVersion.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BotVersion.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "BotVersion",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "ボットバージョン ID",
+      "Label": "ボットバージョン ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/BotVersion.IntentThreshold"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BotVersion.IntentThreshold",
+      "QualifiedApiName": "IntentThreshold",
+      "EntityDefinitionId": "BotVersion",
+      "NamespacePrefix": null,
+      "DeveloperName": "IntentThreshold",
+      "MasterLabel": "インテントしきい値",
+      "Label": "インテントしきい値",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/BotVersion.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BotVersion.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "BotVersion",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/BotVersion.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BotVersion.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "BotVersion",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/BotVersion.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BotVersion.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "BotVersion",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/BotVersion.SobjectType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BotVersion.SobjectType",
+      "QualifiedApiName": "BotDefinitionId",
+      "EntityDefinitionId": "BotVersion",
+      "NamespacePrefix": null,
+      "DeveloperName": "SobjectType",
+      "MasterLabel": "ボット",
+      "Label": "ボット",
+      "DataType": "参照関係(ボット)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/BotVersion.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BotVersion.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "BotVersion",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "状況",
+      "Label": "状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/BotVersion.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BotVersion.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "BotVersion",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/BotVersion.ToneType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BotVersion.ToneType",
+      "QualifiedApiName": "ToneType",
+      "EntityDefinitionId": "BotVersion",
+      "NamespacePrefix": null,
+      "DeveloperName": "ToneType",
+      "MasterLabel": "語調種別",
+      "Label": "語調種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/BotVersion.VersionNumber"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "BotVersion.VersionNumber",
+      "QualifiedApiName": "VersionNumber",
+      "EntityDefinitionId": "BotVersion",
+      "NamespacePrefix": null,
+      "DeveloperName": "VersionNumber",
+      "MasterLabel": "バージョン番号",
+      "Label": "バージョン番号",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

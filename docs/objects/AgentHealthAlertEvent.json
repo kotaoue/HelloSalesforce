@@ -1,0 +1,406 @@
+{
+  "fetchedAt": "2026-11-10T11:37:03.941Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 19,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AgentHealthAlertEvent.Agent"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AgentHealthAlertEvent.Agent",
+      "QualifiedApiName": "Agent",
+      "EntityDefinitionId": "AgentHealthAlertEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Agent",
+      "MasterLabel": "Agent ID",
+      "Label": "Agent ID",
+      "DataType": "テキスト(18)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AgentHealthAlertEvent.AgentApiName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AgentHealthAlertEvent.AgentApiName",
+      "QualifiedApiName": "AgentApiName",
+      "EntityDefinitionId": "AgentHealthAlertEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "AgentApiName",
+      "MasterLabel": "Agent API Name",
+      "Label": "Agent API Name",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AgentHealthAlertEvent.Alert"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AgentHealthAlertEvent.Alert",
+      "QualifiedApiName": "Alert",
+      "EntityDefinitionId": "AgentHealthAlertEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Alert",
+      "MasterLabel": "Alert ID",
+      "Label": "Alert ID",
+      "DataType": "テキスト(18)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AgentHealthAlertEvent.AlertName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AgentHealthAlertEvent.AlertName",
+      "QualifiedApiName": "AlertName",
+      "EntityDefinitionId": "AgentHealthAlertEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "AlertName",
+      "MasterLabel": "Alert Name",
+      "Label": "Alert Name",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AgentHealthAlertEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AgentHealthAlertEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AgentHealthAlertEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AgentHealthAlertEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AgentHealthAlertEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AgentHealthAlertEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AgentHealthAlertEvent.Detail"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AgentHealthAlertEvent.Detail",
+      "QualifiedApiName": "Detail",
+      "EntityDefinitionId": "AgentHealthAlertEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Detail",
+      "MasterLabel": "Detail",
+      "Label": "Detail",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AgentHealthAlertEvent.EventUuid"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AgentHealthAlertEvent.EventUuid",
+      "QualifiedApiName": "EventUuid",
+      "EntityDefinitionId": "AgentHealthAlertEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "EventUuid",
+      "MasterLabel": "イベント UUID",
+      "Label": "イベント UUID",
+      "DataType": "テキスト(36)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AgentHealthAlertEvent.FiringKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AgentHealthAlertEvent.FiringKey",
+      "QualifiedApiName": "FiringKey",
+      "EntityDefinitionId": "AgentHealthAlertEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "FiringKey",
+      "MasterLabel": "Firing Key",
+      "Label": "Firing Key",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AgentHealthAlertEvent.ObservedValue"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AgentHealthAlertEvent.ObservedValue",
+      "QualifiedApiName": "ObservedValue",
+      "EntityDefinitionId": "AgentHealthAlertEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ObservedValue",
+      "MasterLabel": "Observed Value",
+      "Label": "Observed Value",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AgentHealthAlertEvent.Recipient"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AgentHealthAlertEvent.Recipient",
+      "QualifiedApiName": "Recipient",
+      "EntityDefinitionId": "AgentHealthAlertEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Recipient",
+      "MasterLabel": "Recipient",
+      "Label": "Recipient",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AgentHealthAlertEvent.ReplayId"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AgentHealthAlertEvent.ReplayId",
+      "QualifiedApiName": "ReplayId",
+      "EntityDefinitionId": "AgentHealthAlertEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReplayId",
+      "MasterLabel": "再実行 ID",
+      "Label": "再実行 ID",
+      "DataType": "外部参照",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AgentHealthAlertEvent.RuleEvaluated"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AgentHealthAlertEvent.RuleEvaluated",
+      "QualifiedApiName": "RuleEvaluated",
+      "EntityDefinitionId": "AgentHealthAlertEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "RuleEvaluated",
+      "MasterLabel": "Rule Evaluated",
+      "Label": "Rule Evaluated",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AgentHealthAlertEvent.RuleVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AgentHealthAlertEvent.RuleVersion",
+      "QualifiedApiName": "RuleVersion",
+      "EntityDefinitionId": "AgentHealthAlertEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "RuleVersion",
+      "MasterLabel": "Rule Version",
+      "Label": "Rule Version",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AgentHealthAlertEvent.RunKey"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AgentHealthAlertEvent.RunKey",
+      "QualifiedApiName": "RunKey",
+      "EntityDefinitionId": "AgentHealthAlertEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "RunKey",
+      "MasterLabel": "Run Key",
+      "Label": "Run Key",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AgentHealthAlertEvent.SchemaVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AgentHealthAlertEvent.SchemaVersion",
+      "QualifiedApiName": "SchemaVersion",
+      "EntityDefinitionId": "AgentHealthAlertEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "SchemaVersion",
+      "MasterLabel": "Schema Version",
+      "Label": "Schema Version",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AgentHealthAlertEvent.Severity"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AgentHealthAlertEvent.Severity",
+      "QualifiedApiName": "Severity",
+      "EntityDefinitionId": "AgentHealthAlertEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Severity",
+      "MasterLabel": "Severity",
+      "Label": "Severity",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AgentHealthAlertEvent.Status"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AgentHealthAlertEvent.Status",
+      "QualifiedApiName": "Status",
+      "EntityDefinitionId": "AgentHealthAlertEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Status",
+      "MasterLabel": "Status",
+      "Label": "Status",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AgentHealthAlertEvent.TriggeredAt"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AgentHealthAlertEvent.TriggeredAt",
+      "QualifiedApiName": "TriggeredAt",
+      "EntityDefinitionId": "AgentHealthAlertEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "TriggeredAt",
+      "MasterLabel": "Triggered At",
+      "Label": "Triggered At",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}

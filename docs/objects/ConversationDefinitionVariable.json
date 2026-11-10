@@ -1,0 +1,385 @@
+{
+  "fetchedAt": "2026-11-10T11:37:03.941Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 18,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionVariable.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionVariable.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ConversationDefinitionVariable",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionVariable.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionVariable.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ConversationDefinitionVariable",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionVariable.DataType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionVariable.DataType",
+      "QualifiedApiName": "DataType",
+      "EntityDefinitionId": "ConversationDefinitionVariable",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataType",
+      "MasterLabel": "データ型",
+      "Label": "データ型",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionVariable.Description"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionVariable.Description",
+      "QualifiedApiName": "Description",
+      "EntityDefinitionId": "ConversationDefinitionVariable",
+      "NamespacePrefix": null,
+      "DeveloperName": "Description",
+      "MasterLabel": "説明",
+      "Label": "説明",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionVariable.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionVariable.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "ConversationDefinitionVariable",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "オブジェクト名",
+      "Label": "オブジェクト名",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionVariable.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionVariable.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ConversationDefinitionVariable",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "会話定義変数 ID",
+      "Label": "会話定義変数 ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionVariable.IncludeInPrompt"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionVariable.IncludeInPrompt",
+      "QualifiedApiName": "IncludeInPrompt",
+      "EntityDefinitionId": "ConversationDefinitionVariable",
+      "NamespacePrefix": null,
+      "DeveloperName": "IncludeInPrompt",
+      "MasterLabel": "プロンプトに含める",
+      "Label": "プロンプトに含める",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionVariable.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionVariable.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ConversationDefinitionVariable",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionVariable.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionVariable.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "ConversationDefinitionVariable",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionVariable.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionVariable.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ConversationDefinitionVariable",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionVariable.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionVariable.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ConversationDefinitionVariable",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionVariable.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionVariable.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "ConversationDefinitionVariable",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionVariable.SobjectType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionVariable.SobjectType",
+      "QualifiedApiName": "ParentId",
+      "EntityDefinitionId": "ConversationDefinitionVariable",
+      "NamespacePrefix": null,
+      "DeveloperName": "SobjectType",
+      "MasterLabel": "親",
+      "Label": "親",
+      "DataType": "参照関係(ボットバージョン,ボット,ボットテンプレート,ボットブロックバージョン)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionVariable.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionVariable.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ConversationDefinitionVariable",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionVariable.VariableCollectionType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionVariable.VariableCollectionType",
+      "QualifiedApiName": "VariableCollectionType",
+      "EntityDefinitionId": "ConversationDefinitionVariable",
+      "NamespacePrefix": null,
+      "DeveloperName": "VariableCollectionType",
+      "MasterLabel": "コレクション種別",
+      "Label": "コレクション種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionVariable.VariableSobjectType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionVariable.VariableSobjectType",
+      "QualifiedApiName": "VariableSobjectType",
+      "EntityDefinitionId": "ConversationDefinitionVariable",
+      "NamespacePrefix": null,
+      "DeveloperName": "VariableSobjectType",
+      "MasterLabel": "sObject 型",
+      "Label": "sObject 型",
+      "DataType": "選択リスト(Custom Object Definitions)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionVariable.VariableType"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionVariable.VariableType",
+      "QualifiedApiName": "VariableType",
+      "EntityDefinitionId": "ConversationDefinitionVariable",
+      "NamespacePrefix": null,
+      "DeveloperName": "VariableType",
+      "MasterLabel": "変数種別",
+      "Label": "変数種別",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionVariable.Visibility"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionVariable.Visibility",
+      "QualifiedApiName": "Visibility",
+      "EntityDefinitionId": "ConversationDefinitionVariable",
+      "NamespacePrefix": null,
+      "DeveloperName": "Visibility",
+      "MasterLabel": "表示",
+      "Label": "表示",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

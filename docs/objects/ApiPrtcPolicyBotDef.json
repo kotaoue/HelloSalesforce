@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-10-27T09:19:58.223Z",
+  "fetchedAt": "2026-11-10T11:37:03.941Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 9,
+  "totalSize": 10,
   "records": [
     {
       "attributes": {
@@ -38,6 +38,27 @@
       "MasterLabel": "API Protection Policy Details",
       "Label": "API Protection Policy Details",
       "DataType": "参照関係(API Protection Policy Details)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ApiPrtcPolicyBotDef.BotDefinition"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ApiPrtcPolicyBotDef.BotDefinition",
+      "QualifiedApiName": "BotDefinitionId",
+      "EntityDefinitionId": "ApiPrtcPolicyBotDef",
+      "NamespacePrefix": null,
+      "DeveloperName": "BotDefinition",
+      "MasterLabel": "Bot Definition reference",
+      "Label": "Bot Definition reference",
+      "DataType": "参照関係(ボット)",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,

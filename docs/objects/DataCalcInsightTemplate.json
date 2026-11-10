@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-10-27T09:19:58.223Z",
+  "fetchedAt": "2026-11-10T11:37:03.941Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 29,
+  "totalSize": 33,
   "records": [
     {
       "attributes": {
@@ -447,6 +447,48 @@
     {
       "attributes": {
         "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DataCalcInsightTemplate.OriginalBuilderExpression"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataCalcInsightTemplate.OriginalBuilderExpression",
+      "QualifiedApiName": "OriginalBuilderExpression",
+      "EntityDefinitionId": "DataCalcInsightTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "OriginalBuilderExpression",
+      "MasterLabel": "Calculated Insight Original Builder Expression",
+      "Label": "Calculated Insight Original Builder Expression",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DataCalcInsightTemplate.OriginalExpression"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataCalcInsightTemplate.OriginalExpression",
+      "QualifiedApiName": "OriginalExpression",
+      "EntityDefinitionId": "DataCalcInsightTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "OriginalExpression",
+      "MasterLabel": "Calculated Insight Original Expression",
+      "Label": "Calculated Insight Original Expression",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
         "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DataCalcInsightTemplate.PublishScheduleEndDate"
       },
       "Id": "000000000000000AAA",
@@ -611,6 +653,48 @@
       "IsApiFilterable": true,
       "IsApiGroupable": true,
       "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DataCalcInsightTemplate.TokenizationVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataCalcInsightTemplate.TokenizationVersion",
+      "QualifiedApiName": "TokenizationVersion",
+      "EntityDefinitionId": "DataCalcInsightTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "TokenizationVersion",
+      "MasterLabel": "Calculated Insight Tokenization Version",
+      "Label": "Calculated Insight Tokenization Version",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DataCalcInsightTemplate.TokenMap"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataCalcInsightTemplate.TokenMap",
+      "QualifiedApiName": "TokenMap",
+      "EntityDefinitionId": "DataCalcInsightTemplate",
+      "NamespacePrefix": null,
+      "DeveloperName": "TokenMap",
+      "MasterLabel": "Calculated Insight Token Map",
+      "Label": "Calculated Insight Token Map",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
     }
   ]
 }

@@ -1,0 +1,469 @@
+{
+  "fetchedAt": "2026-11-10T11:37:03.941Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 22,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiAuthoringBundleDefVer.AiAuthoringBundleDef"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiAuthoringBundleDefVer.AiAuthoringBundleDef",
+      "QualifiedApiName": "AiAuthoringBundleDefId",
+      "EntityDefinitionId": "AiAuthoringBundleDefVer",
+      "NamespacePrefix": null,
+      "DeveloperName": "AiAuthoringBundleDef",
+      "MasterLabel": "作成バンドル定義",
+      "Label": "作成バンドル定義",
+      "DataType": "参照関係(作成バンドル定義)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiAuthoringBundleDefVer.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiAuthoringBundleDefVer.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "AiAuthoringBundleDefVer",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiAuthoringBundleDefVer.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiAuthoringBundleDefVer.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "AiAuthoringBundleDefVer",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiAuthoringBundleDefVer.DeveloperName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiAuthoringBundleDefVer.DeveloperName",
+      "QualifiedApiName": "DeveloperName",
+      "EntityDefinitionId": "AiAuthoringBundleDefVer",
+      "NamespacePrefix": null,
+      "DeveloperName": "DeveloperName",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiAuthoringBundleDefVer.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiAuthoringBundleDefVer.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "AiAuthoringBundleDefVer",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "作成バンドル定義バージョン ID",
+      "Label": "作成バンドル定義バージョン ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiAuthoringBundleDefVer.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiAuthoringBundleDefVer.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "AiAuthoringBundleDefVer",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiAuthoringBundleDefVer.Language"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiAuthoringBundleDefVer.Language",
+      "QualifiedApiName": "Language",
+      "EntityDefinitionId": "AiAuthoringBundleDefVer",
+      "NamespacePrefix": null,
+      "DeveloperName": "Language",
+      "MasterLabel": "マスター言語",
+      "Label": "マスター言語",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiAuthoringBundleDefVer.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiAuthoringBundleDefVer.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "AiAuthoringBundleDefVer",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiAuthoringBundleDefVer.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiAuthoringBundleDefVer.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "AiAuthoringBundleDefVer",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiAuthoringBundleDefVer.ManageableState"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiAuthoringBundleDefVer.ManageableState",
+      "QualifiedApiName": "ManageableState",
+      "EntityDefinitionId": "AiAuthoringBundleDefVer",
+      "NamespacePrefix": null,
+      "DeveloperName": "ManageableState",
+      "MasterLabel": "管理可能な状態",
+      "Label": "管理可能な状態",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiAuthoringBundleDefVer.MasterLabel"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiAuthoringBundleDefVer.MasterLabel",
+      "QualifiedApiName": "MasterLabel",
+      "EntityDefinitionId": "AiAuthoringBundleDefVer",
+      "NamespacePrefix": null,
+      "DeveloperName": "MasterLabel",
+      "MasterLabel": "表示ラベル",
+      "Label": "表示ラベル",
+      "DataType": "テキスト(80)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiAuthoringBundleDefVer.NamespacePrefix"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiAuthoringBundleDefVer.NamespacePrefix",
+      "QualifiedApiName": "NamespacePrefix",
+      "EntityDefinitionId": "AiAuthoringBundleDefVer",
+      "NamespacePrefix": null,
+      "DeveloperName": "NamespacePrefix",
+      "MasterLabel": "名前空間プレフィックス",
+      "Label": "名前空間プレフィックス",
+      "DataType": "テキスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiAuthoringBundleDefVer.SourceArtifact"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiAuthoringBundleDefVer.SourceArtifact",
+      "QualifiedApiName": "SourceArtifactId",
+      "EntityDefinitionId": "AiAuthoringBundleDefVer",
+      "NamespacePrefix": null,
+      "DeveloperName": "SourceArtifact",
+      "MasterLabel": "ソースアイテム",
+      "Label": "ソースアイテム",
+      "DataType": "参照関係(ボットバージョン)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiAuthoringBundleDefVer.SourceBundleVersion"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiAuthoringBundleDefVer.SourceBundleVersion",
+      "QualifiedApiName": "SourceBundleVersionId",
+      "EntityDefinitionId": "AiAuthoringBundleDefVer",
+      "NamespacePrefix": null,
+      "DeveloperName": "SourceBundleVersion",
+      "MasterLabel": "作成バンドル定義バージョン",
+      "Label": "作成バンドル定義バージョン",
+      "DataType": "参照関係(作成バンドル定義バージョン)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiAuthoringBundleDefVer.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiAuthoringBundleDefVer.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "AiAuthoringBundleDefVer",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiAuthoringBundleDefVer.Target"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiAuthoringBundleDefVer.Target",
+      "QualifiedApiName": "TargetId",
+      "EntityDefinitionId": "AiAuthoringBundleDefVer",
+      "NamespacePrefix": null,
+      "DeveloperName": "Target",
+      "MasterLabel": "対象",
+      "Label": "対象",
+      "DataType": "参照関係(ボットバージョン)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiAuthoringBundleDefVer.TargetCreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiAuthoringBundleDefVer.TargetCreatedDate",
+      "QualifiedApiName": "TargetCreatedDate",
+      "EntityDefinitionId": "AiAuthoringBundleDefVer",
+      "NamespacePrefix": null,
+      "DeveloperName": "TargetCreatedDate",
+      "MasterLabel": "対象作成日",
+      "Label": "対象作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiAuthoringBundleDefVer.TargetStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiAuthoringBundleDefVer.TargetStatus",
+      "QualifiedApiName": "TargetStatus",
+      "EntityDefinitionId": "AiAuthoringBundleDefVer",
+      "NamespacePrefix": null,
+      "DeveloperName": "TargetStatus",
+      "MasterLabel": "対象の状況",
+      "Label": "対象の状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiAuthoringBundleDefVer.VersionDescription"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiAuthoringBundleDefVer.VersionDescription",
+      "QualifiedApiName": "VersionDescription",
+      "EntityDefinitionId": "AiAuthoringBundleDefVer",
+      "NamespacePrefix": null,
+      "DeveloperName": "VersionDescription",
+      "MasterLabel": "バージョンの説明",
+      "Label": "バージョンの説明",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiAuthoringBundleDefVer.VersionNumber"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiAuthoringBundleDefVer.VersionNumber",
+      "QualifiedApiName": "VersionNumber",
+      "EntityDefinitionId": "AiAuthoringBundleDefVer",
+      "NamespacePrefix": null,
+      "DeveloperName": "VersionNumber",
+      "MasterLabel": "バージョン番号",
+      "Label": "バージョン番号",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiAuthoringBundleDefVer.VersionStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiAuthoringBundleDefVer.VersionStatus",
+      "QualifiedApiName": "VersionStatus",
+      "EntityDefinitionId": "AiAuthoringBundleDefVer",
+      "NamespacePrefix": null,
+      "DeveloperName": "VersionStatus",
+      "MasterLabel": "バージョンの状況",
+      "Label": "バージョンの状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiAuthoringBundleDefVer.VersionTag"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiAuthoringBundleDefVer.VersionTag",
+      "QualifiedApiName": "VersionTag",
+      "EntityDefinitionId": "AiAuthoringBundleDefVer",
+      "NamespacePrefix": null,
+      "DeveloperName": "VersionTag",
+      "MasterLabel": "バージョンタグ",
+      "Label": "バージョンタグ",
+      "DataType": "テキスト(40)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    }
+  ]
+}

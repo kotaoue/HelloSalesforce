@@ -1,0 +1,217 @@
+{
+  "fetchedAt": "2026-11-10T11:37:03.941Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 10,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionChannelProvider.ChannelProvider"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionChannelProvider.ChannelProvider",
+      "QualifiedApiName": "ChannelProviderId",
+      "EntityDefinitionId": "ConversationDefinitionChannelProvider",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChannelProvider",
+      "MasterLabel": "チャネルプロバイダー",
+      "Label": "チャネルプロバイダー",
+      "DataType": "参照関係(メッセージングチャネル,会話アプリケーション定義,会話 Slack アプリケーション)  (ユニーク)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionChannelProvider.ConversationDefinition"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionChannelProvider.ConversationDefinition",
+      "QualifiedApiName": "ConversationDefinitionId",
+      "EntityDefinitionId": "ConversationDefinitionChannelProvider",
+      "NamespacePrefix": null,
+      "DeveloperName": "ConversationDefinition",
+      "MasterLabel": "会話定義",
+      "Label": "会話定義",
+      "DataType": "参照関係(ボット)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionChannelProvider.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionChannelProvider.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "ConversationDefinitionChannelProvider",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionChannelProvider.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionChannelProvider.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "ConversationDefinitionChannelProvider",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionChannelProvider.Id"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionChannelProvider.Id",
+      "QualifiedApiName": "Id",
+      "EntityDefinitionId": "ConversationDefinitionChannelProvider",
+      "NamespacePrefix": null,
+      "DeveloperName": "Id",
+      "MasterLabel": "会話定義チャネルプロバイダー ID",
+      "Label": "会話定義チャネルプロバイダー ID",
+      "DataType": "参照関係()",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionChannelProvider.IsDeleted"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionChannelProvider.IsDeleted",
+      "QualifiedApiName": "IsDeleted",
+      "EntityDefinitionId": "ConversationDefinitionChannelProvider",
+      "NamespacePrefix": null,
+      "DeveloperName": "IsDeleted",
+      "MasterLabel": "削除",
+      "Label": "削除",
+      "DataType": "チェックボックス",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionChannelProvider.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionChannelProvider.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "ConversationDefinitionChannelProvider",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": true,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionChannelProvider.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionChannelProvider.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "ConversationDefinitionChannelProvider",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionChannelProvider.Options"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionChannelProvider.Options",
+      "QualifiedApiName": "Options",
+      "EntityDefinitionId": "ConversationDefinitionChannelProvider",
+      "NamespacePrefix": null,
+      "DeveloperName": "Options",
+      "MasterLabel": "__MISSING LABEL__ PropertyFile - val Options not found in section udd_ConversationDefinitionChannelProvider",
+      "Label": "__MISSING LABEL__ PropertyFile - val Options not found in section udd_ConversationDefinitionChannelProvider",
+      "DataType": "ビットベクター",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/ConversationDefinitionChannelProvider.SystemModstamp"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "ConversationDefinitionChannelProvider.SystemModstamp",
+      "QualifiedApiName": "SystemModstamp",
+      "EntityDefinitionId": "ConversationDefinitionChannelProvider",
+      "NamespacePrefix": null,
+      "DeveloperName": "SystemModstamp",
+      "MasterLabel": "System Modstamp",
+      "Label": "System Modstamp",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": true,
+      "IsApiFilterable": true,
+      "IsApiGroupable": false,
+      "IsApiSortable": true
+    }
+  ]
+}

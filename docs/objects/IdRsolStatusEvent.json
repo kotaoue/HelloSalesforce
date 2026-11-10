@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-10-27T09:19:58.223Z",
+  "fetchedAt": "2026-11-10T11:37:03.941Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 23,
+  "totalSize": 28,
   "records": [
     {
       "attributes": {
@@ -61,6 +61,27 @@
       "DataType": "日付/時間",
       "IsCalculated": false,
       "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/IdRsolStatusEvent.DataQuality"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdRsolStatusEvent.DataQuality",
+      "QualifiedApiName": "DataQuality",
+      "EntityDefinitionId": "IdRsolStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DataQuality",
+      "MasterLabel": "Data Quality",
+      "Label": "Data Quality",
+      "DataType": "ロングテキストエリア(128000)",
+      "IsCalculated": false,
+      "IsNillable": true,
       "IsIndexed": false,
       "IsApiFilterable": false,
       "IsApiGroupable": false,
@@ -153,6 +174,27 @@
     {
       "attributes": {
         "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/IdRsolStatusEvent.FailureInfo"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdRsolStatusEvent.FailureInfo",
+      "QualifiedApiName": "FailureInfo",
+      "EntityDefinitionId": "IdRsolStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "FailureInfo",
+      "MasterLabel": "Failure Info",
+      "Label": "Failure Info",
+      "DataType": "ロングテキストエリア(128000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
         "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/IdRsolStatusEvent.IdentityResolutionDevName"
       },
       "Id": "000000000000000AAA",
@@ -185,6 +227,27 @@
       "MasterLabel": "ジョブの実行が失敗した場合のエラーコード",
       "Label": "ジョブの実行が失敗した場合のエラーコード",
       "DataType": "テキスト(4000)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/IdRsolStatusEvent.JobRunReasons"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdRsolStatusEvent.JobRunReasons",
+      "QualifiedApiName": "JobRunReasons",
+      "EntityDefinitionId": "IdRsolStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "JobRunReasons",
+      "MasterLabel": "Job Run Reasons",
+      "Label": "Job Run Reasons",
+      "DataType": "ロングテキストエリア(128000)",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,
@@ -447,6 +510,27 @@
     {
       "attributes": {
         "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/IdRsolStatusEvent.TotalFilteredProfiles"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdRsolStatusEvent.TotalFilteredProfiles",
+      "QualifiedApiName": "TotalFilteredProfiles",
+      "EntityDefinitionId": "IdRsolStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "TotalFilteredProfiles",
+      "MasterLabel": "Total Filtered Profiles",
+      "Label": "Total Filtered Profiles",
+      "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
         "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/IdRsolStatusEvent.TotalNonAnonymousRecords"
       },
       "Id": "000000000000000AAA",
@@ -458,6 +542,27 @@
       "MasterLabel": "非匿名レコードの総数",
       "Label": "非匿名レコードの総数",
       "DataType": "数値(18、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/IdRsolStatusEvent.TriggerDetails"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "IdRsolStatusEvent.TriggerDetails",
+      "QualifiedApiName": "TriggerDetails",
+      "EntityDefinitionId": "IdRsolStatusEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "TriggerDetails",
+      "MasterLabel": "Trigger Details",
+      "Label": "Trigger Details",
+      "DataType": "ロングテキストエリア(128000)",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,

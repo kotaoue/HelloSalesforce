@@ -1,50 +1,8 @@
 {
-  "fetchedAt": "2026-10-27T09:19:58.223Z",
+  "fetchedAt": "2026-11-10T11:37:03.941Z",
   "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
-  "totalSize": 26,
+  "totalSize": 22,
   "records": [
-    {
-      "attributes": {
-        "type": "FieldDefinition",
-        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkillChangeEvent.ActiveAiSkillVersion"
-      },
-      "Id": "000000000000000AAA",
-      "DurableId": "AiSkillChangeEvent.ActiveAiSkillVersion",
-      "QualifiedApiName": "ActiveAiSkillVersionId",
-      "EntityDefinitionId": "AiSkillChangeEvent",
-      "NamespacePrefix": null,
-      "DeveloperName": "ActiveAiSkillVersion",
-      "MasterLabel": "Active AI Skill Version",
-      "Label": "Active AI Skill Version",
-      "DataType": "参照関係(AI Skill Version)",
-      "IsCalculated": false,
-      "IsNillable": true,
-      "IsIndexed": false,
-      "IsApiFilterable": false,
-      "IsApiGroupable": false,
-      "IsApiSortable": false
-    },
-    {
-      "attributes": {
-        "type": "FieldDefinition",
-        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkillChangeEvent.ActiveVersion"
-      },
-      "Id": "000000000000000AAA",
-      "DurableId": "AiSkillChangeEvent.ActiveVersion",
-      "QualifiedApiName": "ActiveVersion",
-      "EntityDefinitionId": "AiSkillChangeEvent",
-      "NamespacePrefix": null,
-      "DeveloperName": "ActiveVersion",
-      "MasterLabel": "Active Version",
-      "Label": "Active Version",
-      "DataType": "テキスト(18)",
-      "IsCalculated": false,
-      "IsNillable": true,
-      "IsIndexed": false,
-      "IsApiFilterable": false,
-      "IsApiGroupable": false,
-      "IsApiSortable": false
-    },
     {
       "attributes": {
         "type": "FieldDefinition",
@@ -164,69 +122,6 @@
       "MasterLabel": "Description",
       "Label": "Description",
       "DataType": "ロングテキストエリア(1024)",
-      "IsCalculated": false,
-      "IsNillable": true,
-      "IsIndexed": false,
-      "IsApiFilterable": false,
-      "IsApiGroupable": false,
-      "IsApiSortable": false
-    },
-    {
-      "attributes": {
-        "type": "FieldDefinition",
-        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkillChangeEvent.IsInMyLibrary"
-      },
-      "Id": "000000000000000AAA",
-      "DurableId": "AiSkillChangeEvent.IsInMyLibrary",
-      "QualifiedApiName": "IsInMyLibrary",
-      "EntityDefinitionId": "AiSkillChangeEvent",
-      "NamespacePrefix": null,
-      "DeveloperName": "IsInMyLibrary",
-      "MasterLabel": "In My Skills",
-      "Label": "In My Skills",
-      "DataType": "チェックボックス",
-      "IsCalculated": false,
-      "IsNillable": false,
-      "IsIndexed": false,
-      "IsApiFilterable": false,
-      "IsApiGroupable": false,
-      "IsApiSortable": false
-    },
-    {
-      "attributes": {
-        "type": "FieldDefinition",
-        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkillChangeEvent.LastCreatedAiSkillVersion"
-      },
-      "Id": "000000000000000AAA",
-      "DurableId": "AiSkillChangeEvent.LastCreatedAiSkillVersion",
-      "QualifiedApiName": "LastCreatedAiSkillVersionId",
-      "EntityDefinitionId": "AiSkillChangeEvent",
-      "NamespacePrefix": null,
-      "DeveloperName": "LastCreatedAiSkillVersion",
-      "MasterLabel": "Last Created AI Skill Version",
-      "Label": "Last Created AI Skill Version",
-      "DataType": "参照関係(AI Skill Version)",
-      "IsCalculated": false,
-      "IsNillable": true,
-      "IsIndexed": false,
-      "IsApiFilterable": false,
-      "IsApiGroupable": false,
-      "IsApiSortable": false
-    },
-    {
-      "attributes": {
-        "type": "FieldDefinition",
-        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkillChangeEvent.LastCreatedVersion"
-      },
-      "Id": "000000000000000AAA",
-      "DurableId": "AiSkillChangeEvent.LastCreatedVersion",
-      "QualifiedApiName": "LastCreatedVersion",
-      "EntityDefinitionId": "AiSkillChangeEvent",
-      "NamespacePrefix": null,
-      "DeveloperName": "LastCreatedVersion",
-      "MasterLabel": "Last Created Version",
-      "Label": "Last Created Version",
-      "DataType": "テキスト(18)",
       "IsCalculated": false,
       "IsNillable": true,
       "IsIndexed": false,
@@ -363,6 +258,27 @@
     {
       "attributes": {
         "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkillChangeEvent.PrimaryAgentDefinition"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "AiSkillChangeEvent.PrimaryAgentDefinition",
+      "QualifiedApiName": "PrimaryAgentDefinitionId",
+      "EntityDefinitionId": "AiSkillChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "PrimaryAgentDefinition",
+      "MasterLabel": "Primary Agent Definition",
+      "Label": "Primary Agent Definition",
+      "DataType": "参照関係(ボット)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
         "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/AiSkillChangeEvent.ShortDescription"
       },
       "Id": "000000000000000AAA",
@@ -413,8 +329,8 @@
       "EntityDefinitionId": "AiSkillChangeEvent",
       "NamespacePrefix": null,
       "DeveloperName": "ShouldRunInBackground",
-      "MasterLabel": "__MISSING LABEL__ PropertyFile - val ShouldRunInBackground not found in section udd_AiSkill",
-      "Label": "__MISSING LABEL__ PropertyFile - val ShouldRunInBackground not found in section udd_AiSkill",
+      "MasterLabel": "Should Run In Background",
+      "Label": "Should Run In Background",
       "DataType": "チェックボックス",
       "IsCalculated": false,
       "IsNillable": false,
