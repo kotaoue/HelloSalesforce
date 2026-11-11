@@ -2,12 +2,15 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,IdRsolStatusEvent.ConsolidationRate,ConsolidationRate,IdRsolStatusEvent,,ConsolidationRate,ID 解決の統合率,ID 解決の統合率,数値(18、0),false,true,false,false,false,false
 000000000000000AAA,IdRsolStatusEvent.CreatedBy,CreatedById,IdRsolStatusEvent,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,false,false,false
 000000000000000AAA,IdRsolStatusEvent.CreatedDate,CreatedDate,IdRsolStatusEvent,,CreatedDate,作成日,作成日,日付/時間,false,false,false,false,false,false
+000000000000000AAA,IdRsolStatusEvent.DataQuality,DataQuality,IdRsolStatusEvent,,DataQuality,Data Quality,Data Quality,ロングテキストエリア(128000),false,true,false,false,false,false
 000000000000000AAA,IdRsolStatusEvent.EventCreationDate,EventCreationDate,IdRsolStatusEvent,,EventCreationDate,イベント作成時刻,イベント作成時刻,日付/時間,false,true,false,false,false,false
 000000000000000AAA,IdRsolStatusEvent.EventPublishDate,EventPublishDate,IdRsolStatusEvent,,EventPublishDate,イベント公開時刻,イベント公開時刻,日付/時間,false,true,false,false,false,false
 000000000000000AAA,IdRsolStatusEvent.EventType,EventType,IdRsolStatusEvent,,EventType,Data Cloud イベントの種別,Data Cloud イベントの種別,テキスト(4000),false,true,false,false,false,false
 000000000000000AAA,IdRsolStatusEvent.EventUuid,EventUuid,IdRsolStatusEvent,,EventUuid,イベント UUID,イベント UUID,テキスト(36),false,true,false,false,false,false
+000000000000000AAA,IdRsolStatusEvent.FailureInfo,FailureInfo,IdRsolStatusEvent,,FailureInfo,Failure Info,Failure Info,ロングテキストエリア(128000),false,true,false,false,false,false
 000000000000000AAA,IdRsolStatusEvent.IdentityResolutionDevName,IdentityResolutionDevName,IdRsolStatusEvent,,IdentityResolutionDevName,ID 解決の API 参照名,ID 解決の API 参照名,テキスト(4000),false,true,false,false,false,false
 000000000000000AAA,IdRsolStatusEvent.IdentityResolutionErrorCode,IdentityResolutionErrorCode,IdRsolStatusEvent,,IdentityResolutionErrorCode,ジョブの実行が失敗した場合のエラーコード,ジョブの実行が失敗した場合のエラーコード,テキスト(4000),false,true,false,false,false,false
+000000000000000AAA,IdRsolStatusEvent.JobRunReasons,JobRunReasons,IdRsolStatusEvent,,JobRunReasons,Job Run Reasons,Job Run Reasons,ロングテキストエリア(128000),false,true,false,false,false,false
 000000000000000AAA,IdRsolStatusEvent.LastRunStatus,LastRunStatus,IdRsolStatusEvent,,LastRunStatus,ID 解決の最終実行の状況,ID 解決の最終実行の状況,選択リスト,false,true,false,false,false,false
 000000000000000AAA,IdRsolStatusEvent.LastRunStatusDateTime,LastRunStatusDateTime,IdRsolStatusEvent,,LastRunStatusDateTime,ID 解決ジョブの実行の日時,ID 解決ジョブの実行の日時,日付/時間,false,true,false,false,false,false
 000000000000000AAA,IdRsolStatusEvent.MatchCount,MatchCount,IdRsolStatusEvent,,MatchCount,ID 解決の一致レコード数,ID 解決の一致レコード数,数値(18、0),false,true,false,false,false,false
@@ -20,5 +23,7 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,IdRsolStatusEvent.TotalCustomerHouseholds,TotalCustomerHouseholds,IdRsolStatusEvent,,TotalCustomerHouseholds,顧客世帯の総数,顧客世帯の総数,数値(18、0),false,true,false,false,false,false
 000000000000000AAA,IdRsolStatusEvent.TotalDerivedHouseholdMembers,TotalDerivedHouseholdMembers,IdRsolStatusEvent,,TotalDerivedHouseholdMembers,派生世帯メンバーの総数,派生世帯メンバーの総数,数値(18、0),false,true,false,false,false,false
 000000000000000AAA,IdRsolStatusEvent.TotalDerivedHouseholds,TotalDerivedHouseholds,IdRsolStatusEvent,,TotalDerivedHouseholds,派生世帯の総数,派生世帯の総数,数値(18、0),false,true,false,false,false,false
+000000000000000AAA,IdRsolStatusEvent.TotalFilteredProfiles,TotalFilteredProfiles,IdRsolStatusEvent,,TotalFilteredProfiles,Total Filtered Profiles,Total Filtered Profiles,数値(18、0),false,true,false,false,false,false
 000000000000000AAA,IdRsolStatusEvent.TotalNonAnonymousRecords,TotalNonAnonymousRecords,IdRsolStatusEvent,,TotalNonAnonymousRecords,非匿名レコードの総数,非匿名レコードの総数,数値(18、0),false,true,false,false,false,false
+000000000000000AAA,IdRsolStatusEvent.TriggerDetails,TriggerDetails,IdRsolStatusEvent,,TriggerDetails,Trigger Details,Trigger Details,ロングテキストエリア(128000),false,true,false,false,false,false
 000000000000000AAA,IdRsolStatusEvent.UnifiedCount,UnifiedCount,IdRsolStatusEvent,,UnifiedCount,ID 解決の統合レコード数,ID 解決の統合レコード数,数値(18、0),false,true,false,false,false,false

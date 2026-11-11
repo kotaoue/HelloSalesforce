@@ -1,0 +1,15 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ConversationVariableOperand.CreatedBy,CreatedById,ConversationVariableOperand,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ConversationVariableOperand.CreatedDate,CreatedDate,ConversationVariableOperand,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ConversationVariableOperand.Id,Id,ConversationVariableOperand,,Id,会話変数オペランド ID,会話変数オペランド ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ConversationVariableOperand.IsDeleted,IsDeleted,ConversationVariableOperand,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ConversationVariableOperand.LastModifiedBy,LastModifiedById,ConversationVariableOperand,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ConversationVariableOperand.LastModifiedDate,LastModifiedDate,ConversationVariableOperand,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ConversationVariableOperand.Options,Options,ConversationVariableOperand,,Options,__MISSING LABEL__ PropertyFile - val Options not found in section udd_ConversationVariableOperand,__MISSING LABEL__ PropertyFile - val Options not found in section udd_ConversationVariableOperand,ビットベクター,false,false,false,true,false,false
+000000000000000AAA,ConversationVariableOperand.Parent,ParentId,ConversationVariableOperand,,Parent,会話変数操作,会話変数操作,主従関係(会話変数操作),false,false,true,true,true,true
+000000000000000AAA,ConversationVariableOperand.RootBotDialog,RootBotDialogId,ConversationVariableOperand,,RootBotDialog,ルートダイアログ,ルートダイアログ,参照関係(ダイアログ),false,false,false,true,true,true
+000000000000000AAA,ConversationVariableOperand.Source,Source,ConversationVariableOperand,,Source,呼び出し元,呼び出し元,"選択リスト(スロットクラス,会話定義変数,ボット,グループ,フロー定義)",false,true,false,true,true,true
+000000000000000AAA,ConversationVariableOperand.SourceType,SourceType,ConversationVariableOperand,,SourceType,呼び出し元種別,呼び出し元種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ConversationVariableOperand.SourceValue,SourceValue,ConversationVariableOperand,,SourceValue,呼び出し元値,呼び出し元値,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ConversationVariableOperand.SystemModstamp,SystemModstamp,ConversationVariableOperand,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ConversationVariableOperand.Target,TargetId,ConversationVariableOperand,,Target,対象,対象,参照関係(会話定義変数),false,true,false,true,true,true

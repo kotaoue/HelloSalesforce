@@ -1,0 +1,33 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ConversationDefinitionEventLog.Action,Action,ConversationDefinitionEventLog,,Action,Agent Action,Agent Action,テキスト(80),false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionEventLog.ChannelType,ChannelType,ConversationDefinitionEventLog,,ChannelType,Channel Type,Channel Type,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionEventLog.ConversationDefinition,ConversationDefinitionId,ConversationDefinitionEventLog,,ConversationDefinition,Conversation Definition,Conversation Definition,参照関係(ボットバージョン),false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionEventLog.ConversationTurn,ConversationTurn,ConversationDefinitionEventLog,,ConversationTurn,Conversation Turn,Conversation Turn,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionEventLog.CreatedBy,CreatedById,ConversationDefinitionEventLog,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ConversationDefinitionEventLog.CreatedDate,CreatedDate,ConversationDefinitionEventLog,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ConversationDefinitionEventLog.DialogDefinition,DialogDefinitionId,ConversationDefinitionEventLog,,DialogDefinition,ダイアログ,ダイアログ,参照関係(ダイアログ),false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionEventLog.Duration,Duration,ConversationDefinitionEventLog,,Duration,Event Duration,Event Duration,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionEventLog.EventDateTime,EventDateTime,ConversationDefinitionEventLog,,EventDateTime,Event Datetime,Event Datetime,日付/時間,false,true,false,true,false,true
+000000000000000AAA,ConversationDefinitionEventLog.EventDetails,EventDetails,ConversationDefinitionEventLog,,EventDetails,Event Details,Event Details,テキスト(1333),false,true,false,true,false,true
+000000000000000AAA,ConversationDefinitionEventLog.EventLabel,EventLabel,ConversationDefinitionEventLog,,EventLabel,Event Label,Event Label,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionEventLog.EventTarget,EventTarget,ConversationDefinitionEventLog,,EventTarget,Event Target,Event Target,"選択リスト(Apex クラス,ボット,ダイアログ,会話定義変数,フロー定義,Ml インテント,グループ)",false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionEventLog.EventTargetType,EventTargetType,ConversationDefinitionEventLog,,EventTargetType,Event Target Type,Event Target Type,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionEventLog.EventTimestamp,EventTimestamp,ConversationDefinitionEventLog,,EventTimestamp,Event Timestamp,Event Timestamp,テキスト(255),false,true,true,true,true,true
+000000000000000AAA,ConversationDefinitionEventLog.EventUuid,EventUuid,ConversationDefinitionEventLog,,EventUuid,Event UUID,Event UUID,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionEventLog.Id,Id,ConversationDefinitionEventLog,,Id,Conversation Definition Event Logs Id,Conversation Definition Event Logs Id,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ConversationDefinitionEventLog.IsDeleted,IsDeleted,ConversationDefinitionEventLog,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ConversationDefinitionEventLog.IsSuccessful,IsSuccessful,ConversationDefinitionEventLog,,IsSuccessful,Is Successful,Is Successful,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ConversationDefinitionEventLog.Language,Language,ConversationDefinitionEventLog,,Language,Language,Language,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionEventLog.LastModifiedBy,LastModifiedById,ConversationDefinitionEventLog,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ConversationDefinitionEventLog.LastModifiedDate,LastModifiedDate,ConversationDefinitionEventLog,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ConversationDefinitionEventLog.LogLevel,LogLevel,ConversationDefinitionEventLog,,LogLevel,Event Log Level,Event Log Level,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionEventLog.LogType,LogType,ConversationDefinitionEventLog,,LogType,Event Log Type,Event Log Type,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionEventLog.NumTokens,NumTokens,ConversationDefinitionEventLog,,NumTokens,Number of Tokens,Number of Tokens,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionEventLog.Parent,ParentId,ConversationDefinitionEventLog,,Parent,Parent,Parent,主従関係(会話定義セッション),false,false,true,true,true,true
+000000000000000AAA,ConversationDefinitionEventLog.Planner,Planner,ConversationDefinitionEventLog,,Planner,Planner,Planner,テキスト(15),false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionEventLog.PreviousEventLog,PreviousEventLogId,ConversationDefinitionEventLog,,PreviousEventLog,前の Conversation Definition Event Logs,前の Conversation Definition Event Logs,参照関係(Conversation Definition Event Logs),false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionEventLog.PreviousEventLogUuid,PreviousEventLogUuid,ConversationDefinitionEventLog,,PreviousEventLogUuid,Previous Event Log UUID,Previous Event Log UUID,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionEventLog.StepDefinition,StepDefinitionId,ConversationDefinitionEventLog,,StepDefinition,会話定義ステップ,会話定義ステップ,参照関係(会話定義ステップ),false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionEventLog.StepType,StepType,ConversationDefinitionEventLog,,StepType,Step Type,Step Type,選択リスト,false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionEventLog.SystemModstamp,SystemModstamp,ConversationDefinitionEventLog,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,ConversationDefinitionEventLog.User,User,ConversationDefinitionEventLog,,User,User,User,テキスト(15),false,true,false,true,true,true

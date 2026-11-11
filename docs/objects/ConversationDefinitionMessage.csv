@@ -1,0 +1,13 @@
+Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,MasterLabel,Label,DataType,IsCalculated,IsNillable,IsIndexed,IsApiFilterable,IsApiGroupable,IsApiSortable
+000000000000000AAA,ConversationDefinitionMessage.CreatedBy,CreatedById,ConversationDefinitionMessage,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ConversationDefinitionMessage.CreatedDate,CreatedDate,ConversationDefinitionMessage,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ConversationDefinitionMessage.Id,Id,ConversationDefinitionMessage,,Id,会話定義メッセージ ID,会話定義メッセージ ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,ConversationDefinitionMessage.IsDeleted,IsDeleted,ConversationDefinitionMessage,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,ConversationDefinitionMessage.LastModifiedBy,LastModifiedById,ConversationDefinitionMessage,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
+000000000000000AAA,ConversationDefinitionMessage.LastModifiedDate,LastModifiedDate,ConversationDefinitionMessage,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,ConversationDefinitionMessage.Message,Message,ConversationDefinitionMessage,,Message,メッセージ,メッセージ,ロングテキストエリア(32000),false,false,false,false,false,false
+000000000000000AAA,ConversationDefinitionMessage.MessageIdentifier,MessageIdentifier,ConversationDefinitionMessage,,MessageIdentifier,メッセージ識別子,メッセージ識別子,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionMessage.Order,Order,ConversationDefinitionMessage,,Order,順序,順序,数値(9、0),false,true,false,true,true,true
+000000000000000AAA,ConversationDefinitionMessage.Parent,ParentId,ConversationDefinitionMessage,,Parent,親,親,"主従関係(会話定義ステップ,会話変数操作,会話メッセージグループ)",false,false,true,true,true,true
+000000000000000AAA,ConversationDefinitionMessage.RootBotDialog,RootBotDialogId,ConversationDefinitionMessage,,RootBotDialog,ルートダイアログ,ルートダイアログ,参照関係(ダイアログ),false,false,true,true,true,true
+000000000000000AAA,ConversationDefinitionMessage.SystemModstamp,SystemModstamp,ConversationDefinitionMessage,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
