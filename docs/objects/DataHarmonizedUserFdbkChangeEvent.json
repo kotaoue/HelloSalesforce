@@ -1,0 +1,448 @@
+{
+  "fetchedAt": "2026-11-17T12:14:28.924Z",
+  "instanceUrl": "https://orgfarm-e70dfa8d5c-dev-ed.develop.my.salesforce.com",
+  "totalSize": 21,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DataHarmonizedUserFdbkChangeEvent.Categories"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataHarmonizedUserFdbkChangeEvent.Categories",
+      "QualifiedApiName": "Categories",
+      "EntityDefinitionId": "DataHarmonizedUserFdbkChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Categories",
+      "MasterLabel": "カテゴリ",
+      "Label": "カテゴリ",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DataHarmonizedUserFdbkChangeEvent.ChangeEventHeader"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataHarmonizedUserFdbkChangeEvent.ChangeEventHeader",
+      "QualifiedApiName": "ChangeEventHeader",
+      "EntityDefinitionId": "DataHarmonizedUserFdbkChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ChangeEventHeader",
+      "MasterLabel": "変更イベントヘッダー",
+      "Label": "変更イベントヘッダー",
+      "DataType": "複合値",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DataHarmonizedUserFdbkChangeEvent.Comment"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataHarmonizedUserFdbkChangeEvent.Comment",
+      "QualifiedApiName": "Comment",
+      "EntityDefinitionId": "DataHarmonizedUserFdbkChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Comment",
+      "MasterLabel": "コメントする",
+      "Label": "コメントする",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DataHarmonizedUserFdbkChangeEvent.CreatedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataHarmonizedUserFdbkChangeEvent.CreatedBy",
+      "QualifiedApiName": "CreatedById",
+      "EntityDefinitionId": "DataHarmonizedUserFdbkChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedBy",
+      "MasterLabel": "作成者",
+      "Label": "作成者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DataHarmonizedUserFdbkChangeEvent.CreatedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataHarmonizedUserFdbkChangeEvent.CreatedDate",
+      "QualifiedApiName": "CreatedDate",
+      "EntityDefinitionId": "DataHarmonizedUserFdbkChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "CreatedDate",
+      "MasterLabel": "作成日",
+      "Label": "作成日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DataHarmonizedUserFdbkChangeEvent.DmoName"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataHarmonizedUserFdbkChangeEvent.DmoName",
+      "QualifiedApiName": "DmoName",
+      "EntityDefinitionId": "DataHarmonizedUserFdbkChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DmoName",
+      "MasterLabel": "DMO 名",
+      "Label": "DMO 名",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DataHarmonizedUserFdbkChangeEvent.DmoRecordRef"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataHarmonizedUserFdbkChangeEvent.DmoRecordRef",
+      "QualifiedApiName": "DmoRecordRef",
+      "EntityDefinitionId": "DataHarmonizedUserFdbkChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "DmoRecordRef",
+      "MasterLabel": "DMO レコード ID",
+      "Label": "DMO レコード ID",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DataHarmonizedUserFdbkChangeEvent.FeedbackSubmittedDateTime"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataHarmonizedUserFdbkChangeEvent.FeedbackSubmittedDateTime",
+      "QualifiedApiName": "FeedbackSubmittedDateTime",
+      "EntityDefinitionId": "DataHarmonizedUserFdbkChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "FeedbackSubmittedDateTime",
+      "MasterLabel": "フィードバック送信日時",
+      "Label": "フィードバック送信日時",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DataHarmonizedUserFdbkChangeEvent.HighlightOffsetEnd"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataHarmonizedUserFdbkChangeEvent.HighlightOffsetEnd",
+      "QualifiedApiName": "HighlightOffsetEnd",
+      "EntityDefinitionId": "DataHarmonizedUserFdbkChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "HighlightOffsetEnd",
+      "MasterLabel": "オフセット終了を強調表示",
+      "Label": "オフセット終了を強調表示",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DataHarmonizedUserFdbkChangeEvent.HighlightOffsetStart"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataHarmonizedUserFdbkChangeEvent.HighlightOffsetStart",
+      "QualifiedApiName": "HighlightOffsetStart",
+      "EntityDefinitionId": "DataHarmonizedUserFdbkChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "HighlightOffsetStart",
+      "MasterLabel": "オフセット開始を強調表示",
+      "Label": "オフセット開始を強調表示",
+      "DataType": "数値(9、0)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DataHarmonizedUserFdbkChangeEvent.HighlightPrefixEnd"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataHarmonizedUserFdbkChangeEvent.HighlightPrefixEnd",
+      "QualifiedApiName": "HighlightPrefixEnd",
+      "EntityDefinitionId": "DataHarmonizedUserFdbkChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "HighlightPrefixEnd",
+      "MasterLabel": "プレフィックス終了を強調表示",
+      "Label": "プレフィックス終了を強調表示",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DataHarmonizedUserFdbkChangeEvent.HighlightPrefixStart"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataHarmonizedUserFdbkChangeEvent.HighlightPrefixStart",
+      "QualifiedApiName": "HighlightPrefixStart",
+      "EntityDefinitionId": "DataHarmonizedUserFdbkChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "HighlightPrefixStart",
+      "MasterLabel": "プレフィックス開始を強調表示",
+      "Label": "プレフィックス開始を強調表示",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DataHarmonizedUserFdbkChangeEvent.HighlightText"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataHarmonizedUserFdbkChangeEvent.HighlightText",
+      "QualifiedApiName": "HighlightText",
+      "EntityDefinitionId": "DataHarmonizedUserFdbkChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "HighlightText",
+      "MasterLabel": "テキストを強調表示",
+      "Label": "テキストを強調表示",
+      "DataType": "ロングテキストエリア(131072)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DataHarmonizedUserFdbkChangeEvent.LastModifiedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataHarmonizedUserFdbkChangeEvent.LastModifiedBy",
+      "QualifiedApiName": "LastModifiedById",
+      "EntityDefinitionId": "DataHarmonizedUserFdbkChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedBy",
+      "MasterLabel": "最終更新者",
+      "Label": "最終更新者",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DataHarmonizedUserFdbkChangeEvent.LastModifiedDate"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataHarmonizedUserFdbkChangeEvent.LastModifiedDate",
+      "QualifiedApiName": "LastModifiedDate",
+      "EntityDefinitionId": "DataHarmonizedUserFdbkChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "LastModifiedDate",
+      "MasterLabel": "最終更新日",
+      "Label": "最終更新日",
+      "DataType": "日付/時間",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DataHarmonizedUserFdbkChangeEvent.Name"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataHarmonizedUserFdbkChangeEvent.Name",
+      "QualifiedApiName": "Name",
+      "EntityDefinitionId": "DataHarmonizedUserFdbkChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "Name",
+      "MasterLabel": "名前",
+      "Label": "名前",
+      "DataType": "自動採番",
+      "IsCalculated": false,
+      "IsNillable": false,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DataHarmonizedUserFdbkChangeEvent.ResolvedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataHarmonizedUserFdbkChangeEvent.ResolvedBy",
+      "QualifiedApiName": "ResolvedById",
+      "EntityDefinitionId": "DataHarmonizedUserFdbkChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ResolvedBy",
+      "MasterLabel": "解決したユーザー",
+      "Label": "解決したユーザー",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DataHarmonizedUserFdbkChangeEvent.ReviewStatus"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataHarmonizedUserFdbkChangeEvent.ReviewStatus",
+      "QualifiedApiName": "ReviewStatus",
+      "EntityDefinitionId": "DataHarmonizedUserFdbkChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ReviewStatus",
+      "MasterLabel": "レビュー状況",
+      "Label": "レビュー状況",
+      "DataType": "選択リスト",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DataHarmonizedUserFdbkChangeEvent.SubmittedBy"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataHarmonizedUserFdbkChangeEvent.SubmittedBy",
+      "QualifiedApiName": "SubmittedById",
+      "EntityDefinitionId": "DataHarmonizedUserFdbkChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "SubmittedBy",
+      "MasterLabel": "送信したユーザー",
+      "Label": "送信したユーザー",
+      "DataType": "参照関係(ユーザー)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DataHarmonizedUserFdbkChangeEvent.ViewingContextOrigin"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataHarmonizedUserFdbkChangeEvent.ViewingContextOrigin",
+      "QualifiedApiName": "ViewingContextOrigin",
+      "EntityDefinitionId": "DataHarmonizedUserFdbkChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ViewingContextOrigin",
+      "MasterLabel": "コンテキストの発生元の表示",
+      "Label": "コンテキストの発生元の表示",
+      "DataType": "テキスト(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    },
+    {
+      "attributes": {
+        "type": "FieldDefinition",
+        "url": "/services/data/v68.0/tooling/sobjects/FieldDefinition/DataHarmonizedUserFdbkChangeEvent.ViewingContextUrl"
+      },
+      "Id": "000000000000000AAA",
+      "DurableId": "DataHarmonizedUserFdbkChangeEvent.ViewingContextUrl",
+      "QualifiedApiName": "ViewingContextUrl",
+      "EntityDefinitionId": "DataHarmonizedUserFdbkChangeEvent",
+      "NamespacePrefix": null,
+      "DeveloperName": "ViewingContextUrl",
+      "MasterLabel": "コンテキスト URL の表示",
+      "Label": "コンテキスト URL の表示",
+      "DataType": "URL(255)",
+      "IsCalculated": false,
+      "IsNillable": true,
+      "IsIndexed": false,
+      "IsApiFilterable": false,
+      "IsApiGroupable": false,
+      "IsApiSortable": false
+    }
+  ]
+}
